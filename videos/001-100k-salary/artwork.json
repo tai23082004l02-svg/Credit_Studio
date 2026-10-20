@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "video": "001-100k-salary",
+  "title": "Why You Feel Broke on a $100,000 Salary",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "status": "Artwork prepared; no audio timing or rendered video yet.",
+  "frames": [
+    {
+      "id": "01a",
+      "section": 1,
+      "slug": "six-figure-celebration",
+      "title": "Một công việc sáu con số",
+      "caption": "A SIX-FIGURE SALARY",
+      "cue": "You finally did it.",
+      "scene": "Alex at lower left half, happy and proud, holding a large blank cream job-offer document with a green checkmark; small celebratory confetti and coins around him. A simple briefcase by his feet. Celebratory but restrained. Right half is mostly empty cream for title overlays.",
+      "image": "images/scenes/01a-six-figure-celebration.png",
+      "project": "projects/01a-six-figure-celebration.json",
+      "overlays": [
+        {
+          "x": 920,
+          "y": 150,
+          "size": 72,
+          "text": "A SIX-FIGURE\nSALARY"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "01b",
+      "section": 1,
+      "slug": "payday-rescue",
+      "title": "Chờ ngày lương giải cứu",
+      "caption": "STILL WAITING FOR PAYDAY?",
+      "cue": "But somehow, you're still checking your bank account",
+      "scene": "Alex lower left looking worriedly at a smartphone showing only an empty green progress bar, an open almost-empty wallet on the table. To his right a simple car tire with a puncture and a calendar with blank squares, one coral circle marking payday. Upper right quarter stays clean cream for overlay text. No lettering or digits on phone or calendar.",
+      "image": "images/scenes/01b-payday-rescue.png",
+      "project": "projects/01b-payday-rescue.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "STILL WAITING FOR PAYDAY?"
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "02a",
+      "section": 2,
+      "slug": "gross-versus-take-home",
+      "title": "Lương trên giấy và tiền vào tài khoản",
+      "caption": "GROSS PAY ≠ TAKE-HOME PAY",
+      "cue": "Meet Alex.",
+      "scene": "A visual comparison with Alex standing small at far left presenting two blank pay envelopes: left envelope large and filled with many green notes and right envelope visibly smaller with fewer notes. Between them three small deduction symbols: tax receipt, medical shield, retirement jar. A simple arrow flows from the larger envelope toward the smaller one. Place main illustration in lower two thirds and leave upper third cream for editable labels.",
+      "image": "images/scenes/02a-gross-versus-take-home.png",
+      "project": "projects/02a-gross-versus-take-home.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "GROSS PAY ≠ TAKE-HOME PAY"
+        },
+        {
+          "x": 90,
+          "y": 140,
+          "size": 38,
+          "text": "$100,000/year gross · about $8,333/month gross"
+        },
+        {
+          "x": 90,
+          "y": 202,
+          "size": 33,
+          "text": "Illustration: $6,000/month deposited after deductions"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "02b",
+      "section": 2,
+      "slug": "paycheck-deductions",
+      "title": "Tiền qua các khoản khấu trừ",
+      "caption": "PLAN AROUND WHAT ARRIVES",
+      "cue": "Alex hears “a hundred thousand dollars.”",
+      "scene": "An imaginative simple money pipeline across lower middle: a stack of blank green notes at left flows through three small coral side branches represented by a receipt, medical cross shield and retirement piggy bank, then reaches a green checking-account tray at right. Alex stands beside the tray, looking thoughtful. Clear simple financial infographic with no written labels. Upper third stays empty cream.",
+      "image": "images/scenes/02b-paycheck-deductions.png",
+      "project": "projects/02b-paycheck-deductions.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "PLAN AROUND WHAT ARRIVES"
+        },
+        {
+          "x": 90,
+          "y": 150,
+          "size": 40,
+          "text": "TAKE-HOME PAY: $6,000 / MONTH"
+        },
+        {
+          "x": 90,
+          "y": 210,
+          "size": 25,
+          "text": "Illustrative example • actual deductions vary"
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "03a",
+      "section": 3,
+      "slug": "fixed-costs",
+      "title": "Các khoản chi cố định",
+      "caption": "YOUR PAYCHECK HAS A WAITING LIST",
+      "cue": "Now let's give that six thousand dollars somewhere to go.",
+      "scene": "Alex center-left at desk with blank pay envelope. To the right six neatly spaced simple icon islands in two rows of three: apartment building, car, grocery bag, lightbulb plus phone, graduation cap plus loan paper, clothing plus gift box. Thin coral arrows lead from envelope to these islands. Not a chart with numerical values, just icon group composition. Keep upper third blank cream and generous clear space around icons.",
+      "image": "images/scenes/03a-fixed-costs.png",
+      "project": "projects/03a-fixed-costs.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "YOUR PAYCHECK HAS A WAITING LIST"
+        },
+        {
+          "x": 90,
+          "y": 140,
+          "size": 22,
+          "text": "RENT"
+        },
+        {
+          "x": 90,
+          "y": 177,
+          "size": 35,
+          "text": "$2,300",
+          "fill": "#236b59"
+        },
+        {
+          "x": 382,
+          "y": 140,
+          "size": 22,
+          "text": "TRANSPORT"
+        },
+        {
+          "x": 382,
+          "y": 177,
+          "size": 35,
+          "text": "$850",
+          "fill": "#236b59"
+        },
+        {
+          "x": 674,
+          "y": 140,
+          "size": 22,
+          "text": "FOOD"
+        },
+        {
+          "x": 674,
+          "y": 177,
+          "size": 35,
+          "text": "$650",
+          "fill": "#236b59"
+        },
+        {
+          "x": 966,
+          "y": 140,
+          "size": 22,
+          "text": "UTILITIES"
+        },
+        {
+          "x": 966,
+          "y": 177,
+          "size": 35,
+          "text": "$400",
+          "fill": "#236b59"
+        },
+        {
+          "x": 1258,
+          "y": 140,
+          "size": 22,
+          "text": "DEBT"
+        },
+        {
+          "x": 1258,
+          "y": 177,
+          "size": 35,
+          "text": "$400",
+          "fill": "#236b59"
+        },
+        {
+          "x": 1550,
+          "y": 140,
+          "size": 22,
+          "text": "OTHER"
+        },
+        {
+          "x": 1550,
+          "y": 177,
+          "size": 35,
+          "text": "$300",
+          "fill": "#236b59"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "03b",
+      "section": 3,
+      "slug": "committed-paycheck",
+      "title": "Tiền đã có người chờ",
+      "caption": "MOST OF IT IS ALREADY COMMITTED",
+      "cue": "The money didn't disappear.",
+      "scene": "A whimsical queue of bills represented as anthropomorphic blank receipt slips with tiny legs, a rent house icon and car icon, all lined up at a bank counter collecting green bills from a worried Alex. Funny but sophisticated and very uncluttered; no text on anything. Main activity lower two thirds, upper third empty warm cream.",
+      "image": "images/scenes/03b-committed-paycheck.png",
+      "project": "projects/03b-committed-paycheck.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "MOST OF IT IS ALREADY COMMITTED"
+        },
+        {
+          "x": 90,
+          "y": 150,
+          "size": 43,
+          "text": "$6,000 − $4,900 = $1,100 LEFT"
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "04a",
+      "section": 4,
+      "slug": "irregular-expenses",
+      "title": "Những khoản chi bất thường",
+      "caption": "IRREGULAR DOESN’T MEAN UNEXPECTED",
+      "cue": "Then real life walks in.",
+      "scene": "Alex at lower left surprised by three expense thought bubbles across the lower center/right: a tooth and dentist mirror, airplane and wedding rings, a broken laptop with a coral crack. A tiny blank calendar with multiple coral circles suggests these happen throughout a year. Upper third empty cream for headline.",
+      "image": "images/scenes/04a-irregular-expenses.png",
+      "project": "projects/04a-irregular-expenses.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "IRREGULAR DOESN’T MEAN UNEXPECTED"
+        },
+        {
+          "x": 90,
+          "y": 150,
+          "size": 40,
+          "text": "$1,100 − $600 = $500 BREATHING ROOM"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "04b",
+      "section": 4,
+      "slug": "credit-card-cycle",
+      "title": "Trả tiền cho chuyện đã qua",
+      "caption": "PAYING FOR SOMETHING THAT ALREADY HAPPENED",
+      "cue": "And if those irregular costs aren't planned for",
+      "scene": "Alex at left, a blank coral credit card in center with no number or text, two circular charcoal arrows around it; small dentist tooth, airplane ticket without lettering and broken laptop icons feed into it. At right a stack of next-month blank bills grows taller. A few green notes travel out of a wallet. Clear visual metaphor for repeating debt, not scary or alarmist. Upper third blank cream.",
+      "image": "images/scenes/04b-credit-card-cycle.png",
+      "project": "projects/04b-credit-card-cycle.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "PAYING FOR SOMETHING THAT ALREADY HAPPENED"
+        },
+        {
+          "x": 90,
+          "y": 150,
+          "size": 29,
+          "text": "THIS MONTH’S COST → NEXT MONTH’S PAYMENT"
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "05a",
+      "section": 5,
+      "slug": "lifestyle-upgrades",
+      "title": "Mức sống tăng cùng thu nhập",
+      "caption": "EVERY RAISE. A NEW COMMITMENT.",
+      "cue": "A few years ago, Alex made less money.",
+      "scene": "Three ascending stair steps across lower half. SAME Alex walks up the steps while holding a green pay envelope. At each step a pair of objects becomes more expensive: small apartment to larger apartment, old compact car to nicer modern car, home-cooked bowl to several takeaway bags. Small coral receipt slips accumulate behind him. Top third empty cream.",
+      "image": "images/scenes/05a-lifestyle-upgrades.png",
+      "project": "projects/05a-lifestyle-upgrades.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "EVERY RAISE. A NEW COMMITMENT."
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "05b",
+      "section": 5,
+      "slug": "income-versus-commitments",
+      "title": "Thu nhập tăng, khoảng trống không tăng",
+      "caption": "MORE IN. MORE PROMISED AWAY.",
+      "cue": "More money came in.",
+      "scene": "At left Alex holds a green money balloon rising, but at right his other hand holds several coral expense balloons rising just as fast: house, car, shopping bag, subscription screens with no lettering. His feet stay on the same simple horizontal ground line, creating an understandable metaphor for not gaining breathing room. Roomy warm cream background, top third empty.",
+      "image": "images/scenes/05b-income-versus-commitments.png",
+      "project": "projects/05b-income-versus-commitments.json",
+      "overlays": [
+        {
+          "x": 1250,
+          "y": 320,
+          "size": 64,
+          "text": "MORE IN.\nMORE PROMISED\nAWAY."
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "06a",
+      "section": 6,
+      "slug": "social-highlight-reel",
+      "title": "Cuộc sống qua mạng xã hội",
+      "caption": "YOU’RE SEEING THE HIGHLIGHT REEL",
+      "cue": "Then Alex opens social media.",
+      "scene": "Alex seated lower left with phone, thoughtful not miserable. Above and to the right float three large clean rounded social feed cards with drawings only: a cheerful couple beside a house, an Italy vacation with the Colosseum and suitcase, a smiling friend on a sailboat. Use no real social media branding and no text or numbers. A few small heart icons. Top-left quarter and a clean top strip remain empty for headline.",
+      "image": "images/scenes/06a-social-highlight-reel.png",
+      "project": "projects/06a-social-highlight-reel.json",
+      "overlays": [
+        {
+          "x": 75,
+          "y": 45,
+          "size": 53,
+          "text": "YOU’RE SEEING\nTHE HIGHLIGHT REEL"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "06b",
+      "section": 6,
+      "slug": "two-lives",
+      "title": "Gánh hai cuộc sống",
+      "caption": "ONE PAYCHECK. TWO LIVES.",
+      "cue": "Now your paycheck has to support two lives.",
+      "scene": "Alex stands at center-bottom balancing two oversized bags hanging from a wooden yoke. Left bag contains real everyday life: groceries, modest home, bills. Right bag contains imagined online life: fancy car, tropical vacation palm tree, luxurious home. His posture shows effort but the scene is lighthearted. Green paycheck envelope at his feet. Top third clean cream.",
+      "image": "images/scenes/06b-two-lives.png",
+      "project": "projects/06b-two-lives.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "ONE PAYCHECK. TWO LIVES."
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "07a",
+      "section": 7,
+      "slug": "biggest-levers",
+      "title": "Bắt đầu từ các khoản lớn",
+      "caption": "START WITH THE BIGGEST COMMITMENTS",
+      "cue": "So how does Alex get some breathing room?",
+      "scene": "Alex confidently reviews a simple blank paper budget at a desk. Three large movable sliders with icon handles show a house, a car, and a debt receipt; beside them one tiny inconsequential streaming screen slider. Show Alex choosing the large house and car controls with a green pencil. Clear action-plan illustration lower two thirds; upper third entirely blank cream.",
+      "image": "images/scenes/07a-biggest-levers.png",
+      "project": "projects/07a-biggest-levers.json",
+      "overlays": [
+        {
+          "x": 1000,
+          "y": 55,
+          "size": 48,
+          "text": "START WITH THE\nBIGGEST COMMITMENTS"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "07b",
+      "section": 7,
+      "slug": "give-money-a-job",
+      "title": "Chia tiền cho hiện tại và tương lai",
+      "caption": "GIVE YOUR MONEY A JOB",
+      "cue": "Next, stop calling predictable irregular expenses emergencies.",
+      "scene": "Calm Alex at left sorting blank green notes into four transparent glass jars across the lower center/right. The jars have ICONS ONLY, not words: wrench for repairs, calendar for annual bills, wrapped gift for holidays, sprouting plant for long-term savings. A small separate green envelope with a green plus symbol suggests a future raise. Upper third blank cream and no text.",
+      "image": "images/scenes/07b-give-money-a-job.png",
+      "project": "projects/07b-give-money-a-job.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "GIVE YOUR MONEY A JOB"
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    },
+    {
+      "id": "08a",
+      "section": 8,
+      "slug": "real-cost-pressures",
+      "title": "Những áp lực có thật",
+      "caption": "NOT EVERY TIGHT BUDGET IS A LIFESTYLE PROBLEM",
+      "cue": "Of course, not every tight budget is a lifestyle problem.",
+      "scene": "Empathetic scene: Alex seated with a cream blank budget paper, listening to three small separate family-life vignettes: parent caring for a toddler with toys, an older relative beside a medical bag and heart icon, and a tall city apartment building with a key. Warm respectful expressions, no blame, no distress exaggeration. No lettering. Keep top third entirely empty cream.",
+      "image": "images/scenes/08a-real-cost-pressures.png",
+      "project": "projects/08a-real-cost-pressures.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 55,
+          "size": 50,
+          "text": "NOT EVERY TIGHT BUDGET\nIS A LIFESTYLE PROBLEM"
+        }
+      ],
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+    },
+    {
+      "id": "08b",
+      "section": 8,
+      "slug": "breathing-room",
+      "title": "Khoảng thở và quyền lựa chọn",
+      "caption": "BUILD A LIFE WITH BREATHING ROOM",
+      "cue": "For Alex, financial progress might start",
+      "scene": "Hopeful ending. Alex relaxed and smiling, walking toward the right along a simple cream path. Beside him a modest home, a small green savings jar holding coins and a sprouting plant, and one paid-off receipt marked only with a green check. Plenty of open space around him suggesting freedom, soft small warm yellow sun above the far right. Upper third cream and clear for final editable message.",
+      "image": "images/scenes/08b-breathing-room.png",
+      "project": "projects/08b-breathing-room.json",
+      "overlays": [
+        {
+          "x": 90,
+          "y": 50,
+          "size": 52,
+          "text": "BUILD A LIFE WITH BREATHING ROOM"
+        }
+      ],
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "alex-poses",
+      "title": "Alex — 4 tư thế",
+      "items": "A character sprite sheet of EXACTLY FOUR full-body versions of Alex in a single horizontal row, evenly spaced with wide transparent gutters and generous outside margins. From left to right: 1 celebrating with one fist raised, 2 worried holding open empty wallet, 3 thinking with one hand under chin, 4 confidently presenting with one open hand pointing sideways. Every figure has exactly two arms and two hands, consistent size, identical character design and outfit. No objects crossing between cells. No ground shadows, no ground, no background shapes or paper. Completely transparent outside the figures.",
+      "image": "images/sheets/alex-poses.png"
+    },
+    {
+      "id": "finance-props",
+      "title": "Đạo cụ tài chính — 12 biểu tượng",
+      "items": "A sprite sheet of EXACTLY TWELVE separate hand-drawn finance props in an even 4 columns by 3 rows grid, wide transparent gutters, objects at equal scale, nothing overlapping. Row 1: blank green paycheck envelope with notes; stack of plain green banknotes; gold coin pile; empty brown wallet. Row 2: plain cream tax receipt with abstract lines; blue medical shield with white cross; pink retirement piggy bank; plain coral credit card with gold chip only. Row 3: blank yearly calendar with abstract squares; green savings jar with sprouting plant; blank bill with green checkmark; simple coral curved arrow. No text, numbers, denominations, currency signs or brand logos. Completely transparent background outside props, no shadows or colored panels.",
+      "image": "images/sheets/finance-props.png"
+    },
+    {
+      "id": "life-props",
+      "title": "Chi phí và cuộc sống — 12 biểu tượng",
+      "items": "A sprite sheet of EXACTLY TWELVE separate hand-drawn everyday expense props in an even 4 columns by 3 rows grid, wide transparent gutters, objects at equal scale, nothing overlapping. Row 1: modest apartment building; coral compact car; brown grocery bag filled with produce; lightbulb alongside smartphone. Row 2: graduation cap on blank debt receipt; gift box; dentist tooth with mirror; airplane with two wedding rings. Row 3: broken laptop; streaming screen with generic play triangle; wrench; tropical vacation suitcase with palm tree. No text, numbers or logos. Completely transparent background outside props, no shadows or colored panels.",
+      "image": "images/sheets/life-props.png"
+    }
+  ]
+}

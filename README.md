@@ -23,10 +23,16 @@ videos/
     README.md                      Thông tin và tiến độ video đầu tiên
     script.md                      Lời thoại tiếng Anh, chia 8 đoạn
     audio/                         Tải giọng đọc MP3/WAV vào đây
+    images/                        16 cảnh và 3 bảng tài nguyên
+    projects/                      16 trang JSON chỉnh chữ trong Studio
+    storyboard.md                  Phân cảnh và hướng chuyển động
+    index.html                     Trang xem bộ hình
 ```
 
 Mỗi video tiếp theo sẽ có thư mục riêng dưới `videos/` để không lẫn tài nguyên.
 Thư mục hình, dự án dựng và bản xuất sẽ được thêm vào từng video khi có các tệp đó.
+
+[Xem bộ hình video đầu tiên](https://tai23082004l02-svg.github.io/Credit_Studio/videos/001-100k-salary/) · [Phân cảnh](videos/001-100k-salary/storyboard.md).
 
 ## Gửi âm thanh cho video đầu tiên
 
