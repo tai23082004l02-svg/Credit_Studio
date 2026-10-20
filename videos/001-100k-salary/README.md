@@ -25,6 +25,8 @@ Trong [Credit Studio Video](../../video/), chọn cảnh ở thanh bên hoặc t
 
 Bản sửa tự lưu trong trình duyệt. **Lưu JSON** để gửi bản sửa lại; các sửa đổi không tự đẩy lên GitHub. **Xuất WebM** tạo video từ bản đang chỉnh, theo thời gian thực; giữ tab mở khi xuất. **MP4 bản nháp gốc** luôn là bản gốc, không tự chứa các sửa đổi mới. Dùng Chrome hoặc Edge mới để xuất WebM; có thể bật phụ đề tiếng Anh trong phần xem trước và bản xuất.
 
+Chữ trong video, phụ đề, giao diện và các dự án cảnh hiện dùng Times New Roman. Website ưu tiên font có sẵn trên thiết bị và dùng font serif dự phòng nếu thiếu. MP4 đã được dựng lại bằng Times New Roman thực tế. Hình mẫu có chữ vẽ tay đã nằm trong PNG tham khảo không phải lớp chữ của bản dựng.
+
 Đổi thời lượng hoặc thứ tự cảnh sẽ làm thay đổi nhịp với audio; hãy tua và nghe lại. Thay audio sẽ bỏ phụ đề cũ để tránh hiển thị lời không khớp. Dự án JSON lưu đường dẫn tài nguyên của kho mã (hoặc nhúng audio khi tải từ máy), nên mở bằng website này hoặc một bản sao đầy đủ của kho mã.
 
 ## Bộ hình

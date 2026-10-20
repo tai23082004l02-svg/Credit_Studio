@@ -81,7 +81,7 @@ export function wrapText(ctx, text, width) {
   return result;
 }
 function textLayer(ctx,l,b) {
-  ctx.fillStyle=l.fill;ctx.font=`700 ${l.size}px Arial, sans-serif`;ctx.textBaseline='top';ctx.textAlign=l.align;
+  ctx.fillStyle=l.fill;ctx.font=`700 ${l.size}px "Times New Roman", Times, serif`;ctx.textBaseline='top';ctx.textAlign=l.align;
   const lines=wrapText(ctx,l.text,l.w);const x=l.align==='center'?b.x+b.w/2:l.align==='right'?b.x+b.w:b.x;
   lines.forEach((line,i)=>ctx.fillText(line,x,b.y+i*l.size*1.18));
 }
@@ -108,7 +108,7 @@ export function render(ctx, project, images, time, {selection=null,captions=fals
   if(captions && project.captions) {
     const cue=project.captions.find(cue=>time>=cue.start&&time<cue.end);
     if(cue) {
-      ctx.font='500 35px Arial, sans-serif';ctx.textBaseline='middle';ctx.textAlign='center';
+      ctx.font='500 35px "Times New Roman", Times, serif';ctx.textBaseline='middle';ctx.textAlign='center';
       const lines=wrapText(ctx,cue.text,1620),h=lines.length*45+24,y=HEIGHT-h-24;
       ctx.fillStyle='#1f2b29e8';ctx.beginPath();ctx.roundRect(90,y,1740,h,14);ctx.fill();ctx.fillStyle='#ffffff';
       lines.forEach((line,i)=>ctx.fillText(line,WIDTH/2,y+34+i*45));

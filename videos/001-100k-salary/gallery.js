@@ -11,7 +11,7 @@ async function renderGallery(){
   const overlay=document.createElementNS(svgNS,'svg');overlay.setAttribute('viewBox','0 0 1920 1080');overlay.setAttribute('aria-hidden','true');
   for(const item of frame.overlays){
    const text=document.createElementNS(svgNS,'text');
-   for(const [key,value]of Object.entries({fill:item.fill??'#272c2a','font-family':'Arial','font-weight':'700','font-size':item.size}))text.setAttribute(key,value);
+   for(const [key,value]of Object.entries({fill:item.fill??'#272c2a','font-family':'Times New Roman','font-weight':'700','font-size':item.size}))text.setAttribute(key,value);
    item.text.split('\n').forEach((line,i)=>{const span=document.createElementNS(svgNS,'tspan');span.setAttribute('x',item.x);span.setAttribute('y',item.y+item.size+i*item.size*1.2);span.textContent=line;text.append(span);});overlay.append(text);
   }
   figure.append(overlay);

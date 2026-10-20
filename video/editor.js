@@ -1,5 +1,5 @@
 import {finalizeWebM} from './webm.js';
-import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js';
+import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=times-v1';
 const $=s=>document.querySelector(s);
 const canvas=$('#preview'),ctx=canvas.getContext('2d'),audio=$('#audio');
 const baseURL=new URL('../',location.href),defaultURL=new URL('videos/001-100k-salary/intro/project.json',baseURL);

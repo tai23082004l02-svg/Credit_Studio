@@ -96,3 +96,5 @@ node tools/render-intro.cjs videos/001-100k-salary/intro/project.json /tmp/intro
 ```
 
 Có thể thay đối số đầu bằng JSON đã lưu từ trình chỉnh video. Không ghi đè tệp xuất cũ trừ khi chọn đường dẫn mới hoặc đặt `CREDIT_STUDIO_OVERWRITE=1`. Đặt `CREDIT_STUDIO_URL` nếu máy chủ dùng địa chỉ khác. Chạy `python3 tools/build-intro-project.py` chỉ khi muốn tạo lại dự án mở đầu từ cấu hình trong công cụ; lệnh sẽ thay thế `intro/project.json` và `intro/captions.vtt`.
+
+Font hiện dùng là Times New Roman cho chữ và phụ đề. Khi dựng MP4 cần có font này trên máy; kiểm tra bằng `fc-match 'Times New Roman'` trên Linux. Trong môi trường đám mây đã chuẩn bị font tại `/workspace/shared/credit-studio-fonts`; dùng tiền tố `FONTCONFIG_FILE=/workspace/shared/credit-studio-fonts/fonts.conf` khi chạy lệnh dựng. Website dùng Times New Roman cục bộ và font serif dự phòng nếu thiết bị thiếu font.

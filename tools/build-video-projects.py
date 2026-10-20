@@ -23,7 +23,7 @@ for frame in manifest['frames']:
             'w': 1920 - overlay['x'] - 70,
             'h': round(overlay['size'] * 1.2 * len(overlay['text'].splitlines()) + 12),
             'text': overlay['text'], 'size': overlay['size'],
-            'font': 'Arial', 'weight': 700,
+            'font': 'Times New Roman', 'weight': 700,
             'fill': overlay.get('fill', '#272c2a'), 'opacity': 100,
         })
     project = {

@@ -8,8 +8,8 @@ const uid = () => crypto.randomUUID();
 function element(type, props = {}) { return {id:uid(),type,x:80,y:80,w:240,h:160,fill:'#8657dc',opacity:100,...props}; }
 function template(kind) {
   if (kind === 'blank') return {version:1,name:'Thiết kế của tôi',width:800,height:1000,bg:'#ffffff',elements:[]};
-  if (kind === 'social') return {version:1,name:'Một chút cảm hứng',width:1080,height:1080,bg:'#eef1df',elements:[element('circle',{x:650,y:80,w:520,h:520,fill:'#d0dab0'}),element('rect',{x:70,y:110,w:100,h:12,fill:'#41604b'}),element('text',{x:70,y:350,w:940,h:250,text:'Một chút\ncảm hứng mới.',size:98,font:'Georgia',weight:400,fill:'#344c3c'}),element('text',{x:75,y:870,w:900,h:80,text:'DÀNH THỜI GIAN CHO NHỮNG ĐIỀU BẠN YÊU.',size:24,font:'Arial',weight:400,fill:'#41604b'})]};
-  return {version:1,name:'Make it happen',width:800,height:1000,bg:'#e5dcff',elements:[element('circle',{x:420,y:80,w:480,h:480,fill:'#b9ed9c'}),element('text',{x:65,y:75,w:500,h:50,text:'C R E D I T   S T U D I O',size:20,font:'Arial',weight:700,fill:'#503379'}),element('text',{x:60,y:335,w:700,h:340,text:'MAKE\nIT HAPPEN.',size:108,font:'Arial',weight:700,fill:'#3d2462'}),element('rect',{x:65,y:770,w:90,h:10,fill:'#7250b0'}),element('text',{x:65,y:830,w:670,h:100,text:'Ý tưởng của bạn. Dấu ấn của bạn.\nBắt đầu sáng tạo ngay hôm nay.',size:25,font:'Arial',weight:400,fill:'#624881'})]};
+  if (kind === 'social') return {version:1,name:'Một chút cảm hứng',width:1080,height:1080,bg:'#eef1df',elements:[element('circle',{x:650,y:80,w:520,h:520,fill:'#d0dab0'}),element('rect',{x:70,y:110,w:100,h:12,fill:'#41604b'}),element('text',{x:70,y:350,w:940,h:250,text:'Một chút\ncảm hứng mới.',size:98,font:'Times New Roman',weight:400,fill:'#344c3c'}),element('text',{x:75,y:870,w:900,h:80,text:'DÀNH THỜI GIAN CHO NHỮNG ĐIỀU BẠN YÊU.',size:24,font:'Times New Roman',weight:400,fill:'#41604b'})]};
+  return {version:1,name:'Make it happen',width:800,height:1000,bg:'#e5dcff',elements:[element('circle',{x:420,y:80,w:480,h:480,fill:'#b9ed9c'}),element('text',{x:65,y:75,w:500,h:50,text:'C R E D I T   S T U D I O',size:20,font:'Times New Roman',weight:700,fill:'#503379'}),element('text',{x:60,y:335,w:700,h:340,text:'MAKE\nIT HAPPEN.',size:108,font:'Times New Roman',weight:700,fill:'#3d2462'}),element('rect',{x:65,y:770,w:90,h:10,fill:'#7250b0'}),element('text',{x:65,y:830,w:670,h:100,text:'Ý tưởng của bạn. Dấu ấn của bạn.\nBắt đầu sáng tạo ngay hôm nay.',size:25,font:'Times New Roman',weight:400,fill:'#624881'})]};
 }
 let state = template('poster');
 function toast(message) { $('#toast').textContent=message; $('#toast').hidden=false; clearTimeout(toastTimer); toastTimer=setTimeout(()=>$('#toast').hidden=true,3500); }
@@ -53,7 +53,7 @@ function render() {
  [...state.elements].reverse().forEach(e=>{const b=document.createElement('button');b.textContent=(e.type==='text'?'T  '+e.text:e.type==='image'?'▧  Ảnh':e.type==='circle'?'○  Hình tròn':'▭  Hình chữ nhật');b.classList.toggle('selected',e.id===selected);b.onclick=()=>{selected=e.id;render();};$('#layers').append(b);});
 }
 function add(e) {change(()=>{state.elements.push(e);selected=e.id;});}
-$('#add-text').onclick=()=>add(element('text',{text:'Nhập nội dung của bạn',size:42,font:'Arial',weight:700,fill:'#392753',w:600,h:65}));
+$('#add-text').onclick=()=>add(element('text',{text:'Nhập nội dung của bạn',size:42,font:'Times New Roman',weight:700,fill:'#392753',w:600,h:65}));
 $('#add-rect').onclick=()=>add(element('rect'));
 $('#add-circle').onclick=()=>add(element('circle',{w:220,h:220,fill:'#b9ed9c'}));
 function replaceTemplate(kind) { if(!confirm('Thay trang hiện tại bằng mẫu mới? Bạn có thể hoàn tác.'))return; change(()=>{state=template(kind);selected=null;}); }
@@ -115,7 +115,7 @@ function validate(data){
  const ids=new Set();
  for(const e of data.elements){
   if(!e||typeof e.id!=='string'||ids.has(e.id)||!['rect','circle','text','image'].includes(e.type)||!bounded(e.x,-4096,8192)||!bounded(e.y,-4096,8192)||!bounded(e.w,1,8192)||!bounded(e.h,1,8192)||!bounded(e.opacity,0,100)||!color(e.fill))throw Error('Invalid element');ids.add(e.id);
-  if(e.type==='text'&&(typeof e.text!=='string'||e.text.length>5000||!bounded(e.size,8,500)||!['Arial','Georgia','Verdana','monospace'].includes(e.font)||!['400','700'].includes(String(e.weight))))throw Error('Invalid text');
+  if(e.type==='text'&&(typeof e.text!=='string'||e.text.length>5000||!bounded(e.size,8,500)||!['Times New Roman','Arial','Georgia','Verdana','monospace'].includes(e.font)||!['400','700'].includes(String(e.weight))))throw Error('Invalid text');
   if(e.type==='image'&&(typeof e.src!=='string'||!/^data:image\/(png|jpeg|webp|gif);base64,[A-Za-z0-9+/=]+$/.test(e.src)))throw Error('Invalid image');
  }
  return data;
@@ -123,4 +123,12 @@ function validate(data){
 $('#open-project').onclick=()=>$('#project-file').click();
 $('#project-file').onchange=async event=>{const file=event.target.files[0];event.target.value='';if(!file)return;if(file.size>30*1024*1024){toast('Dự án tối đa 30 MB.');return;}try{const data=validate(JSON.parse(await file.text()));change(()=>{state=data;selected=null;});toast('Đã mở dự án.');}catch{toast('Tệp dự án không hợp lệ hoặc không được hỗ trợ.');}};
 try{const saved=localStorage.getItem(KEY);if(saved)state=validate(JSON.parse(saved));}catch{toast('Không đọc được bản lưu. Bạn có thể mở tệp JSON đã lưu.');}
+// Apply the requested typeface once to existing local designs, preserving all other edits.
+try {
+ const migration=KEY+'-times-new-roman-v1';
+ if(!localStorage.getItem(migration)){
+  state.elements.forEach(e=>{if(e.type==='text')e.font='Times New Roman';});
+  localStorage.setItem(KEY,JSON.stringify(state));localStorage.setItem(migration,'1');
+ }
+}catch{}
 render();
