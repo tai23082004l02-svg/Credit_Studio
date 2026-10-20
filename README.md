@@ -4,6 +4,8 @@ Trình thiết kế đồ họa cục bộ với giao diện tiếng Việt, l�
 
 ## Dùng online
 
+Địa chỉ website: https://tai23082004l02-svg.github.io/Credit_Studio/
+
 Website được triển khai bằng GitHub Pages từ thư mục gốc của nhánh `main`.
 Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật website.
 Thiết kế và ảnh vẫn được xử lý trong trình duyệt của bạn. Dữ liệu tự lưu gắn với trình duyệt và địa chỉ website; dùng nút **Lưu dự án** để sao lưu JSON hoặc chuyển thiết kế từ localhost sang website.
