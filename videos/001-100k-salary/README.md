@@ -24,7 +24,7 @@ Chữ và số tài chính được giữ riêng trong JSON để sửa được
 
 ## Trạng thái
 
-Đã có lời thoại, ảnh tham khảo, 16 cảnh, 3 bảng tài nguyên, 16 dự án chỉnh chữ và phân cảnh. Chưa nhận audio, chưa căn thời gian hoặc dựng video.
+Đã có lời thoại, ảnh tham khảo, 16 cảnh, 3 bảng tài nguyên, 16 dự án chỉnh chữ và phân cảnh. Đã nhận tệp WAV trong `audio/`; chưa đối chiếu nội dung, căn thời gian hoặc dựng video.
 Credit Studio hiện là trình chỉnh ảnh một trang; timeline, âm thanh và xuất video chưa được triển khai.
 
 ## Quy trình bàn giao

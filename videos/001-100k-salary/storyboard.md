@@ -1,6 +1,6 @@
 # Phân cảnh — Video 001
 
-Bộ hình cho toàn bộ 8 phần lời thoại. Mỗi phần có hai cảnh chính; khi dựng sẽ bổ sung cận cảnh bằng bố cục/camera và lớp đạo cụ, không giữ nguyên một ảnh suốt cả đoạn. Chưa gán timecode vì chưa có audio.
+Bộ hình cho toàn bộ 8 phần lời thoại. Mỗi phần có hai cảnh chính; khi dựng sẽ bổ sung cận cảnh bằng bố cục/camera và lớp đạo cụ, không giữ nguyên một ảnh suốt cả đoạn. Đã nhận tệp WAV, chưa đối chiếu lời đọc và gán timecode.
 
 | Cảnh | Ý chính | Câu bắt đầu | Ảnh | Dự án chỉnh chữ |
 |---|---|---|---|---|
