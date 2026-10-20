@@ -10,6 +10,30 @@ Website được triển khai bằng GitHub Pages từ thư mục gốc của nh
 Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật website.
 Thiết kế và ảnh vẫn được xử lý trong trình duyệt của bạn. Dữ liệu tự lưu gắn với trình duyệt và địa chỉ website; dùng nút **Lưu dự án** để sao lưu JSON hoặc chuyển thiết kế từ localhost sang website.
 
+## Bố trí thư mục
+
+```text
+index.html                         Trang mở Credit Studio
+assets/
+  css/style.css                    Giao diện trình chỉnh sửa
+  js/app.js                        Logic trình chỉnh sửa
+  samples/                         Ảnh tham khảo phong cách
+videos/
+  001-100k-salary/
+    README.md                      Thông tin và tiến độ video đầu tiên
+    script.md                      Lời thoại tiếng Anh, chia 8 đoạn
+    audio/                         Tải giọng đọc MP3/WAV vào đây
+```
+
+Mỗi video tiếp theo sẽ có thư mục riêng dưới `videos/` để không lẫn tài nguyên.
+Thư mục hình, dự án dựng và bản xuất sẽ được thêm vào từng video khi có các tệp đó.
+
+## Gửi âm thanh cho video đầu tiên
+
+Mở [thư mục audio trên GitHub](https://github.com/tai23082004l02-svg/Credit_Studio/tree/main/videos/001-100k-salary/audio), chọn **Add file → Upload files**, tải tệp lên rồi chọn **Commit changes** vào nhánh `main`.
+
+Xem [hướng dẫn đặt tên và dung lượng](videos/001-100k-salary/audio/README.md). Thư mục này để bàn giao âm thanh; chưa tự nhập âm thanh vào trình chỉnh sửa.
+
 ## Chạy trên máy của bạn
 
 Cài Python 3, mở terminal trong thư mục dự án rồi chạy:
@@ -38,5 +62,5 @@ Bản này hỗ trợ một trang thiết kế; chưa có cộng tác, kho tài 
 ## Kiểm tra cú pháp
 
 ```sh
-node --check app.js
+node --check assets/js/app.js
 ```
