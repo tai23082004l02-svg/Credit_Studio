@@ -2,6 +2,10 @@
 
 Không gian quản lý dự án video và thiết kế ảnh với giao diện tiếng Việt. Không cần tài khoản, API hay cài thư viện.
 
+## Tiếp tục ở phiên chat mới
+
+Chọn repo này trong chat mới rồi yêu cầu đọc [AGENTS.md](AGENTS.md) và [bản bàn giao dự án](docs/PROJECT_HANDOFF.md). Tài liệu ghi các quyết định đã chốt, vị trí tài nguyên, tiến độ thực tế và phần còn lại. Chat mới không tự nhớ lịch sử chat; các bản sửa chỉ lưu trong trình duyệt cần **Sao lưu dự án** và cung cấp tệp nếu muốn trợ lý tiếp tục từ chúng.
+
 ## Dùng online
 
 Địa chỉ website: https://tai23082004l02-svg.github.io/Credit_Studio/
