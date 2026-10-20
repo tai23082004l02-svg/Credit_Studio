@@ -1,8 +1,13 @@
-'use strict';
+import {validateDesign as validate} from './design-model.js';
+import {APP_ROOT,LEGACY_DESIGN_ID,getWorkspace,getDocument,saveDocument,resourceURL,getFile,dataURL,notifySaved} from './workspace-store.js?v=hub-v1';
 const $ = s => document.querySelector(s);
 const svg = $('#artboard');
 const NS = 'http://www.w3.org/2000/svg';
 const KEY = 'credit-studio-v1';
+const params=new URLSearchParams(location.search),workspaceID=params.get('project')||LEGACY_DESIGN_ID;
+const slot=params.get('scene')?'scene-'+params.get('scene'):params.get('file')?'file-'+params.get('file'):'main';
+let initializing=true,pendingSave=Promise.resolve();
+if(params.get('embed')==='1')document.documentElement.classList.add('embedded');
 let selected = null, history = [], future = [], drag = null, toastTimer;
 const uid = () => crypto.randomUUID();
 function element(type, props = {}) { return {id:uid(),type,x:80,y:80,w:240,h:160,fill:'#8657dc',opacity:100,...props}; }
@@ -14,8 +19,12 @@ function template(kind) {
 let state = template('poster');
 function toast(message) { $('#toast').textContent=message; $('#toast').hidden=false; clearTimeout(toastTimer); toastTimer=setTimeout(()=>$('#toast').hidden=true,3500); }
 function remember() { history.push(JSON.stringify(state)); if(history.length>35) history.shift(); future=[]; }
-function persist() { try {localStorage.setItem(KEY,JSON.stringify(state));$('#save-status').textContent='Đã lưu trên trình duyệt';} catch {$('#save-status').textContent='Bộ nhớ đầy — hãy lưu JSON';} }
-function change(fn) { remember();fn();render();persist(); }
+function persist() {
+ const snapshot=JSON.parse(JSON.stringify(state));$('#save-status').textContent='Đang lưu…';
+ pendingSave=pendingSave.catch(()=>{}).then(()=>saveDocument(workspaceID,'design',snapshot,slot)).then(()=>{$('#save-status').textContent='Đã lưu vào dự án';notifySaved(workspaceID);}).catch(e=>{$('#save-status').textContent='Chưa lưu — hãy tải JSON';toast(e.message);throw e;});
+ pendingSave.catch(()=>{});return pendingSave;
+}
+function change(fn) { if(initializing)return;remember();fn();render();persist(); }
 function current() {return state.elements.find(e=>e.id===selected);}
 function node(tag, attrs={}, parent=svg) {const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,String(v));parent.append(n);return n;}
 function renderCanvas() {
@@ -108,27 +117,29 @@ $('#image-file').onchange=async event=>{
  if(!['image/png','image/jpeg','image/webp','image/gif'].includes(file.type)||file.size>15*1024*1024){toast('Chọn PNG, JPEG, WebP hoặc GIF tối đa 15 MB.');return;}
  try{const src=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(file);});const img=new Image();img.src=src;await img.decode();const scale=Math.min(1,state.width*.7/img.width,state.height*.7/img.height);add(element('image',{src,w:Math.round(img.width*scale),h:Math.round(img.height*scale)}));}catch{toast('Không thể đọc tệp ảnh.');}
 };
-function validate(data){
- const bounded=(n,min,max)=>typeof n==='number'&&Number.isFinite(n)&&n>=min&&n<=max;
- const color=s=>typeof s==='string'&&/^#[0-9a-f]{6}$/i.test(s);
- if(!data||data.version!==1||typeof data.name!=='string'||data.name.length>100||!bounded(data.width,100,4096)||!bounded(data.height,100,4096)||!color(data.bg)||!Array.isArray(data.elements)||data.elements.length>500)throw Error('Invalid project');
- const ids=new Set();
- for(const e of data.elements){
-  if(!e||typeof e.id!=='string'||ids.has(e.id)||!['rect','circle','text','image'].includes(e.type)||!bounded(e.x,-4096,8192)||!bounded(e.y,-4096,8192)||!bounded(e.w,1,8192)||!bounded(e.h,1,8192)||!bounded(e.opacity,0,100)||!color(e.fill))throw Error('Invalid element');ids.add(e.id);
-  if(e.type==='text'&&(typeof e.text!=='string'||e.text.length>5000||!bounded(e.size,8,500)||!['Times New Roman','Arial','Georgia','Verdana','monospace'].includes(e.font)||!['400','700'].includes(String(e.weight))))throw Error('Invalid text');
-  if(e.type==='image'&&(typeof e.src!=='string'||!/^data:image\/(png|jpeg|webp|gif);base64,[A-Za-z0-9+/=]+$/.test(e.src)))throw Error('Invalid image');
- }
- return data;
-}
 $('#open-project').onclick=()=>$('#project-file').click();
 $('#project-file').onchange=async event=>{const file=event.target.files[0];event.target.value='';if(!file)return;if(file.size>30*1024*1024){toast('Dự án tối đa 30 MB.');return;}try{const data=validate(JSON.parse(await file.text()));change(()=>{state=data;selected=null;});toast('Đã mở dự án.');}catch{toast('Tệp dự án không hợp lệ hoặc không được hỗ trợ.');}};
-try{const saved=localStorage.getItem(KEY);if(saved)state=validate(JSON.parse(saved));}catch{toast('Không đọc được bản lưu. Bạn có thể mở tệp JSON đã lưu.');}
-// Apply the requested typeface once to existing local designs, preserving all other edits.
-try {
- const migration=KEY+'-times-new-roman-v1';
- if(!localStorage.getItem(migration)){
-  state.elements.forEach(e=>{if(e.type==='text')e.font='Times New Roman';});
-  localStorage.setItem(KEY,JSON.stringify(state));localStorage.setItem(migration,'1');
- }
-}catch{}
-render();
+window.creditDesign={get ready(){return !initializing;},get project(){return JSON.parse(JSON.stringify(state));},flush:()=>pendingSave};
+async function init(){
+ document.querySelectorAll('button').forEach(b=>b.disabled=true);
+ try{
+  const meta=await getWorkspace(workspaceID);let saved=await getDocument(workspaceID,'design',slot);
+  if(saved)state=validate(saved);
+  else if(params.get('scene')){
+   if(!meta.artwork)throw Error('Dự án chưa có bộ hình cảnh.');
+   const manifestURL=resourceURL(meta.artwork),response=await fetch(manifestURL);if(!response.ok)throw Error('Không tải được danh sách cảnh.');
+   const manifest=await response.json(),frame=manifest.frames.find(f=>f.id===params.get('scene'));if(!frame)throw Error('Không tìm thấy cảnh.');
+   const source=new URL(frame.project,manifestURL);if(source.origin!==APP_ROOT.origin||!source.pathname.startsWith(APP_ROOT.pathname+'videos/'))throw Error('Đường dẫn cảnh không hợp lệ.');
+   const r=await fetch(source);if(!r.ok)throw Error('Không tải được dự án cảnh.');state=validate(await r.json());
+  }else if(params.get('file')){
+   const file=await getFile(workspaceID,params.get('file'));if(!file||!file.type.startsWith('image/'))throw Error('Không tìm thấy ảnh trong dự án.');
+   const src=await dataURL(file.blob),image=new Image();image.src=src;await image.decode();const scale=Math.min(1920/image.width,1080/image.height,1);
+   state={version:1,name:file.name,width:1920,height:1080,bg:'#faf6ec',elements:[element('image',{src,x:(1920-image.width*scale)/2,y:(1080-image.height*scale)/2,w:image.width*scale,h:image.height*scale})]};
+  }else if(workspaceID===LEGACY_DESIGN_ID){
+   try{const raw=localStorage.getItem(KEY);if(raw)state=validate(JSON.parse(raw));}catch{}
+  }else state={version:1,name:(meta.name+' — Thiết kế').slice(0,100),width:1920,height:1080,bg:'#faf6ec',elements:[]};
+  if(workspaceID===LEGACY_DESIGN_ID){try{const migration=KEY+'-times-new-roman-v1';if(!localStorage.getItem(migration)){state.elements.forEach(e=>{if(e.type==='text')e.font='Times New Roman';});localStorage.setItem(migration,'1');}}catch{}}
+  await persist();initializing=false;document.querySelectorAll('button').forEach(b=>b.disabled=false);render();
+ }catch(e){toast(e.message);$('#save-status').textContent='Không mở được dự án';}
+}
+render();init();

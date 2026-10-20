@@ -1,3 +1,4 @@
+const workspaceParams=new URLSearchParams(location.search);const workspaceID=workspaceParams.get('project')||'finance-001';if(workspaceParams.get('embed')==='1')document.documentElement.classList.add('embedded');
 'use strict';
 const svgNS='http://www.w3.org/2000/svg';
 function el(tag,attrs={},text=''){const n=document.createElement(tag);for(const [key,value]of Object.entries(attrs))n.setAttribute(key,value);n.textContent=text;return n;}
@@ -16,7 +17,7 @@ async function renderGallery(){
   }
   figure.append(overlay);
   const copy=el('div',{class:'copy'});copy.append(el('h3',{},frame.id+' · '+frame.title),el('p',{},'Phần '+frame.section+' · “'+frame.cue+'”'),el('p',{},frame.motion));
-  const links=el('div',{class:'links'});links.append(link('Xem PNG gốc',frame.image),link('Tải dự án JSON',frame.project,true));copy.append(links);card.append(figure,copy);document.querySelector('#scenes').append(card);
+  const links=el('div',{class:'links'});const editURL=new URL('../../',location.href);editURL.searchParams.set('project',workspaceID);editURL.searchParams.set('tab','images');editURL.searchParams.set('scene',frame.id);const edit=link('Chỉnh cảnh trong dự án',editURL.href);edit.target='_top';links.append(edit,link('Xem PNG gốc',frame.image),link('Tải dự án JSON',frame.project,true));copy.append(links);card.append(figure,copy);document.querySelector('#scenes').append(card);
  }
  for(const sheet of data.sheets){const card=el('article'),imageLink=link('',sheet.image);imageLink.className='sheet-image';imageLink.append(el('img',{src:sheet.image,alt:sheet.title,loading:'lazy'}));const copy=el('div',{class:'copy'});copy.append(el('h3',{},sheet.title),link('Mở PNG nền trong suốt',sheet.image));card.append(imageLink,copy);document.querySelector('#sheets').append(card);}
  document.querySelector('#error').textContent='';

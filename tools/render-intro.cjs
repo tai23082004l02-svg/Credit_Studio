@@ -18,15 +18,17 @@ const url=(process.env.CREDIT_STUDIO_URL||'http://127.0.0.1:8000')+'/video/';
  try{
   let audioFile;
   if(project.audio.src.startsWith('data:')){tmp=fs.mkdtempSync(path.join(os.tmpdir(),'credit-video-'));audioFile=path.join(tmp,'audio');fs.writeFileSync(audioFile,Buffer.from(project.audio.src.split(',')[1],'base64'));}
-  else audioFile=path.resolve(ROOT,project.audio.src);
-  if(!fs.existsSync(audioFile))throw Error('Audio file missing: '+audioFile);
+  else if(project.audio.src)audioFile=path.resolve(ROOT,project.audio.src);
+  if(audioFile&&!fs.existsSync(audioFile))throw Error('Audio file missing: '+audioFile);
   if(fs.existsSync(output)&&process.env.CREDIT_STUDIO_OVERWRITE!=='1')throw Error('Output exists; choose a new filename or set CREDIT_STUDIO_OVERWRITE=1.');
   fs.mkdirSync(path.dirname(output),{recursive:true});
   browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1600,height:1100}});
   await page.goto(url);await page.waitForFunction(()=>window.creditVideo?.ready,null,{timeout:45000});
   await page.evaluate(async data=>{await window.creditVideo.load(data);},project);
   const total=duration(project),count=Math.ceil(total*project.fps);
-  encoder=spawn('ffmpeg',['-v','error','-y','-threads','2','-f','image2pipe','-vcodec','mjpeg','-framerate',String(project.fps),'-i','pipe:0','-ss',String(project.audio.offset),'-i',audioFile,'-t',String(total),'-map','0:v:0','-map','1:a:0','-c:v','libx264','-threads','3','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-af',`volume=${project.audio.volume},apad`,'-c:a','aac','-b:a','160k','-ar','48000','-movflags','+faststart',output],{stdio:['pipe','ignore','pipe']});
+  const inputs=['-v','error','-y','-threads','2','-f','image2pipe','-vcodec','mjpeg','-framerate',String(project.fps),'-i','pipe:0'];if(audioFile)inputs.push('-ss',String(project.audio.offset),'-i',audioFile);
+  const audioOptions=audioFile?['-map','1:a:0','-af',`volume=${project.audio.volume},apad`,'-c:a','aac','-b:a','160k','-ar','48000']:['-an'];
+  encoder=spawn('ffmpeg',[...inputs,'-t',String(total),'-map','0:v:0','-c:v','libx264','-threads','3','-preset','veryfast','-crf','20','-pix_fmt','yuv420p',...audioOptions,'-movflags','+faststart',output],{stdio:['pipe','ignore','pipe']});
   let errors='';encoder.stderr.on('data',d=>{errors=(errors+d).slice(-12000);});encoder.on('error',e=>{errors+=e.message;});
   const ended=once(encoder,'close');
   for(let frame=0;frame<count;frame++){

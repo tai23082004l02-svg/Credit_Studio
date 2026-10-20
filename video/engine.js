@@ -17,7 +17,7 @@ export function locate(project, time) {
 export function clipStart(project, index) { return project.clips.slice(0,index).reduce((sum,c)=>sum+c.duration,0); }
 export function safeSource(src, media = 'image') {
   if (typeof src !== 'string') return false;
-  if (/^videos\/001-100k-salary\/[A-Za-z0-9_./-]+\.(png|jpg|jpeg|webp|mp3|wav)$/i.test(src) && !src.includes('..')) return true;
+  if (/^videos\/[A-Za-z0-9_-]+\/[A-Za-z0-9_./-]+\.(png|jpg|jpeg|webp|mp3|wav)$/i.test(src) && !src.includes('..')) return true;
   const types = media === 'audio' ? '(mpeg|mp3|wav|x-wav|wave|ogg|webm|mp4)' : '(png|jpeg|webp)';
   return new RegExp('^data:'+media+'/'+types+';base64,[A-Za-z0-9+/=]+$','i').test(src);
 }
@@ -31,7 +31,7 @@ export function validate(project) {
     if (!asset || !safeSource(asset.src)) fail();
     if (asset.crop && (!Array.isArray(asset.crop)||asset.crop.length!==4||!asset.crop.every(v=>n(v,0,8192))||asset.crop[2]===0||asset.crop[3]===0)) fail();
   }
-  if (!project.audio || !safeSource(project.audio.src,'audio') || !n(project.audio.offset,0,3600) || !n(project.audio.volume,0,1)) fail();
+  if (!project.audio || !(project.audio.src===''||safeSource(project.audio.src,'audio')) || !n(project.audio.offset,0,3600) || !n(project.audio.volume,0,1)) fail();
   const clips = new Set();
   for (const c of project.clips) {
     if (!c||typeof c.id!=='string'||clips.has(c.id)||typeof c.title!=='string'||c.title.length>100||!n(c.duration,.5,120)||!color(c.background)||!n(c.fade,0,1)||!Array.isArray(c.layers)||c.layers.length>100) fail();

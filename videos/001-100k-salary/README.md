@@ -10,6 +10,8 @@
 - [Phân cảnh và hướng chuyển động](storyboard.md).
 - [Duyệt và chỉnh bản mở đầu online](https://tai23082004l02-svg.github.io/Credit_Studio/video/) · [MP4 bản nháp 40,5 giây](exports/intro-v01.mp4).
 
+Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001) để quản lý bản dựng, cảnh ảnh, audio và lời thoại cùng một chỗ. Chọn **Hình ảnh → Chỉnh cảnh trong dự án** để sửa trực tiếp, mỗi cảnh có bản lưu riêng. **Sao lưu dự án** giữ cả bản video, các cảnh đã sửa và tệp bạn thêm vào trình duyệt.
+
 ## Bản duyệt mở đầu
 
 Đã dựng đoạn 0–40,5 giây, gồm 8 cảnh, kết sau câu “before you buy a single thing”, trước “Meet Alex”. Đây là bản để duyệt phong cách và nhịp, chưa phải toàn bộ video.

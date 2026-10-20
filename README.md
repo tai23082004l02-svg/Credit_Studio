@@ -1,6 +1,6 @@
 # Credit Studio
 
-Trình thiết kế đồ họa cục bộ với giao diện tiếng Việt, lấy cảm hứng từ Canva. Không cần tài khoản, API hay cài thư viện.
+Không gian quản lý dự án video và thiết kế ảnh với giao diện tiếng Việt. Không cần tài khoản, API hay cài thư viện.
 
 ## Dùng online
 
@@ -8,18 +8,35 @@ Trình thiết kế đồ họa cục bộ với giao diện tiếng Việt, l�
 
 Website được triển khai bằng GitHub Pages từ thư mục gốc của nhánh `main`.
 Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật website.
-Thiết kế và ảnh vẫn được xử lý trong trình duyệt của bạn. Dữ liệu tự lưu gắn với trình duyệt và địa chỉ website; dùng nút **Lưu dự án** để sao lưu JSON hoặc chuyển thiết kế từ localhost sang website.
+Địa chỉ chính mở trang **Dự án của bạn**. Tạo dự án mới hoặc chọn dự án hiện có, rồi chuyển giữa **Tổng quan**, **Dựng video**, **Hình ảnh**, **Âm thanh & tài liệu** trên cùng trang. `/video/` và `/design/` là các công cụ bên trong, vẫn mở riêng được nếu cần; không cần nhớ các đường dẫn này để sử dụng.
 
-[Mở trình dựng video và bản duyệt 40,5 giây](https://tai23082004l02-svg.github.io/Credit_Studio/video/). Có timeline, audio, các lớp chỉnh được, phụ đề tùy chọn và xuất WebM từ bản sửa. [Hướng dẫn và giới hạn](videos/001-100k-salary/README.md#bản-duyệt-mở-đầu).
+[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt 40,5 giây, 16 cảnh ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-mở-đầu).
+
+## Quản lý và lưu dự án
+
+- **Tạo dự án**: bắt đầu video mới (một cảnh trắng, chưa có giọng đọc) hoặc thiết kế ảnh.
+- Mỗi dự án giữ bản dựng video, thiết kế tự do, từng cảnh đã sửa và tệp đính kèm riêng. Có thể tìm theo tên và lọc Video/Thiết kế ảnh.
+- Trong **Hình ảnh**, chọn **Chỉnh cảnh trong dự án** để sửa một cảnh có sẵn; không cần tải JSON qua lại.
+- Trong **Âm thanh & tài liệu**, thêm ảnh, audio hoặc TXT/MD, tối đa 25 MiB/tệp. Có thể dùng audio làm giọng đọc, thêm PNG/JPEG/WebP vào video hoặc mở ảnh để thiết kế.
+- **Sao lưu dự án** tải một tệp `.credit.json` gồm các bản sửa và tệp mới đã thêm. **Mở bản sao lưu** khôi phục thành một dự án riêng, không ghi đè dự án hiện có. Cũng nhận JSON riêng từ trình ảnh hoặc video.
+- Dự án mới và các bản sửa được lưu trong trình duyệt hiện tại bằng IndexedDB; không tự đồng bộ sang máy khác hoặc GitHub. Tài nguyên đã xuất bản vẫn lấy từ website. Sao lưu để chuyển máy, bảo vệ khi xóa dữ liệu trình duyệt hoặc gửi bản sửa lại.
+- Dữ liệu của hai trình chỉnh cũ được chuyển sang từng dự án một lần; các khóa localStorage cũ được giữ nguyên để bảo toàn dữ liệu.
+
+Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký; đường dẫn bản dựng/tài nguyên mới từ danh mục được cập nhật mà không tự ghi đè các bản sửa cục bộ.
 
 ## Bố trí thư mục
 
 ```text
-index.html                         Trang mở Credit Studio
+index.html                         Trang quản lý dự án chung
+projects.json                      Danh mục dự án đã xuất bản
 assets/
+  css/hub.css                      Giao diện quản lý dự án
   css/style.css                    Giao diện trình chỉnh sửa
   js/app.js                        Logic trình chỉnh sửa
+  js/hub.js                        Điều hướng trang quản lý chung
+  js/workspace-store.js             Lưu từng dự án và sao lưu/khôi phục
   samples/                         Ảnh tham khảo phong cách
+design/                            Trình chỉnh ảnh, có thể nhúng vào dự án
 video/                             Trình chỉnh video và bộ dựng canvas
 tests/                             Kiểm tra timeline, xuất video và thao tác trình duyệt
 tools/                             Đóng gói dự án và dựng MP4
@@ -76,6 +93,7 @@ Trình chỉnh ảnh hỗ trợ một trang; trình chỉnh video hỗ trợ c�
 
 ```sh
 node --check assets/js/app.js
+node --check assets/js/hub.js
 node --test tests/video-engine.mjs tests/video-webm.mjs
 ```
 
@@ -83,6 +101,7 @@ Kiểm tra trình duyệt (cần Playwright + Chromium và FFmpeg, máy chủ c�
 
 ```sh
 node tests/video-editor.cjs
+node tests/project-workspaces.cjs
 ```
 
 ## Dựng MP4 từ dự án video
