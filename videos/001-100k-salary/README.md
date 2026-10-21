@@ -8,7 +8,7 @@
 - [Ảnh mẫu phong cách](../../assets/samples/finance-hand-drawn-2d.png).
 - [Xem toàn bộ bộ hình](index.html) · [Trang xem online](https://tai23082004l02-svg.github.io/Credit_Studio/videos/001-100k-salary/).
 - [Phân cảnh và hướng chuyển động](storyboard.md).
-- [Duyệt và chỉnh bản mở đầu online](https://tai23082004l02-svg.github.io/Credit_Studio/video/) · [MP4 bản nháp 40,5 giây](exports/intro-v01.mp4).
+- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ](exports/full-review-v01.mp4) · [MP4 mở đầu cũ 40,5 giây](exports/intro-v01.mp4).
 
 Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001) để quản lý bản dựng, cảnh ảnh, audio và lời thoại cùng một chỗ. Chọn **Hình ảnh → Chỉnh cảnh trong dự án** để sửa trực tiếp, mỗi cảnh có bản lưu riêng. **Sao lưu dự án** giữ cả bản video, các cảnh đã sửa và tệp bạn thêm vào trình duyệt.
 
