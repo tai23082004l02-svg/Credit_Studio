@@ -24,7 +24,7 @@ Trang chủ có danh sách dự án và các tab Tổng quan, Dựng video, Hìn
 
 ## Kho đạo cụ dùng chung
 
-Người dùng làm rõ yêu cầu là **kho đạo cụ**, không phải kho audio/video tổng hợp. R2 tạm hoãn theo yêu cầu; chưa có kết nối R2. Đã thêm nút **Kho đạo cụ** trong đầu trang Studio, route `?view=props` hoặc `?view=props&project=<id>`. Có 31 mục (27 đạo cụ + 4 tư thế Alex trong nhóm **Nhân vật**: vui mừng, lo lắng, suy nghĩ, giới thiệu), tìm kiếm tiếng Việt có/không dấu hoặc từ khóa tiếng Anh, lọc nhóm, xem trước hình và nhãn căn giữa, tải PNG riêng đúng vùng cắt/độ phân giải gốc, chọn dự án video và cảnh rồi thêm lớp ảnh độc lập vào cảnh đó.
+Người dùng làm rõ yêu cầu là **kho đạo cụ**, không phải kho audio/video tổng hợp. R2 đã kết nối và kiểm tra đọc/ghi thành công ngày 2026-10-21; tài nguyên đang xuất bản vẫn ở GitHub, chưa chuyển sang R2. Đã thêm nút **Kho đạo cụ** trong đầu trang Studio, route `?view=props` hoặc `?view=props&project=<id>`. Có 31 mục (27 đạo cụ + 4 tư thế Alex trong nhóm **Nhân vật**: vui mừng, lo lắng, suy nghĩ, giới thiệu), tìm kiếm tiếng Việt có/không dấu hoặc từ khóa tiếng Anh, lọc nhóm, xem trước hình và nhãn căn giữa, tải PNG riêng đúng vùng cắt/độ phân giải gốc, chọn dự án video và cảnh rồi thêm lớp ảnh độc lập vào cảnh đó.
 
 Nhân vật dùng chung đầy đủ đầu/tay/chân từ sprite sheet Alex gốc, giữ nền trong suốt. Tải PNG riêng hoặc thêm vào cảnh như các đạo cụ khác; không tạo thêm nhân vật mới ở đợt bổ sung này. Đã kiểm tra 31 mục hiển thị, lọc 4 nhân vật, tìm nhiều từ như “Alex lo lắng”, tải PNG Alex — Giới thiệu đủ 536×769 px và thêm thành lớp riêng vào đúng cảnh; các kiểm tra kho khác vẫn qua.
 
@@ -91,6 +91,8 @@ Kiểm tra bản sửa mở video: Playwright tái hiện bản intro đã chỉ
 
 ## Cách tiếp tục trong chat mới
 
-R2: người dùng cho biết đã tạo và lưu khóa trên Cloudflare, nhưng kiểm tra biến và cấu hình môi trường chưa thấy các tên R2. Theo yêu cầu tạo tệp để điền, đã chuẩn bị mẫu công khai `.env.r2.example` (không chứa khóa) và tệp riêng `/workspace/.credit-studio/r2.env` ngoài repo/website, quyền 0600. Xem `docs/R2_SETUP.md`. Không đọc/in giá trị khóa ra log hoặc commit tệp riêng. Chưa có kết nối R2 được xác minh; cần kiểm tra lại sau khi người dùng điền, không giả định tệp riêng có sẵn trong môi trường mới.
+R2 đã kết nối thành công ngày 2026-10-21. Môi trường hiện có đủ `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT_URL`, `R2_BUCKET` dưới dạng biến môi trường trực tiếp (nguồn vault), không phải bí mật proxy. Đã thử S3 SigV4 với region `auto`: ListObjectsV2 HTTP 200 (bucket trống), PUT tệp thử 200, GET 200 và đối chiếu đúng nội dung, DELETE 204 để dọn tệp thử. Không lưu giá trị khóa trong repo/log/chat. Tệp riêng `/workspace/.credit-studio/r2.env` vẫn chỉ là mẫu chưa có khóa; nguồn đang dùng là biến môi trường. Chat mới phải kiểm tra các biến có mặt và thử quyền cần dùng, không giả định thông tin phiên cũ tự được truyền sang môi trường khác.
+
+Chưa chuyển ảnh/audio/MP4 khỏi GitHub, chưa đổi URL tài nguyên, chưa thiết lập endpoint công khai/CORS cho Studio và chưa có đồng bộ bản sửa online. Đây là các bước tiếp theo sau khi kết nối; không báo là đã hoàn tất di chuyển kho. Xem `docs/R2_SETUP.md`.
 
 Chọn/đính kèm repo `tai23082004l02-svg/Credit_Studio`, yêu cầu đọc `AGENTS.md`, tài liệu này và README. Chat mới không tự nhớ lịch sử chat cũ. Nếu chưa có quyền truy cập repo, cần kết nối/chọn repo trước. Nếu công việc phụ thuộc bản sửa chỉ có trên trình duyệt, cung cấp bản sao lưu dự án; chỉ GitHub là chưa đủ.

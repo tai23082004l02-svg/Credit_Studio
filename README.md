@@ -36,7 +36,7 @@ Trong **Dựng video**, chọn lớp ảnh/nhân vật trên khung xem hoặc da
 
 Đưa PNG/JPG/WebP mới vào [thư mục library/props trên GitHub](https://github.com/tai23082004l02-svg/Credit_Studio/tree/main/library/props), commit rồi báo trợ lý cập nhật danh mục. Chạy `python3 tools/index-props.py` để đăng ký tệp mới, bổ sung tên/nhóm/từ khóa trong `library/props/catalog.json`, kiểm tra rồi push. [Hướng dẫn chi tiết](library/props/README.md). Tài nguyên cũ được tham chiếu, không nhân bản hoặc di chuyển.
 
-Kho đã xuất bản dùng được trên mọi máy. Việc thêm đạo cụ vào bản dựng vẫn là bản sửa lưu trong trình duyệt và cần Sao lưu dự án để bàn giao. R2 đang tạm hoãn; kho này dùng GitHub hiện tại.
+Kho đã xuất bản dùng được trên mọi máy. Việc thêm đạo cụ vào bản dựng vẫn là bản sửa lưu trong trình duyệt và cần Sao lưu dự án để bàn giao. R2 đã kiểm tra kết nối đọc/ghi thành công; kho trên website vẫn dùng GitHub hiện tại, chưa chuyển tài nguyên.
 
 ## Bố trí thư mục
 
