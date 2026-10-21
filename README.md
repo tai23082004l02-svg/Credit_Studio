@@ -30,7 +30,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 ## Kho đạo cụ dùng chung
 
-Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 27 đạo cụ: tiền, hóa đơn, nhà, xe, đồ ăn và các vật thể khác. Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
+Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 31 mục: 27 đạo cụ và 4 tư thế Alex trong nhóm **Nhân vật** (vui mừng, lo lắng, suy nghĩ, giới thiệu). Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
 
 Đưa PNG/JPG/WebP mới vào [thư mục library/props trên GitHub](https://github.com/tai23082004l02-svg/Credit_Studio/tree/main/library/props), commit rồi báo trợ lý cập nhật danh mục. Chạy `python3 tools/index-props.py` để đăng ký tệp mới, bổ sung tên/nhóm/từ khóa trong `library/props/catalog.json`, kiểm tra rồi push. [Hướng dẫn chi tiết](library/props/README.md). Tài nguyên cũ được tham chiếu, không nhân bản hoặc di chuyển.
 

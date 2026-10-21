@@ -432,6 +432,84 @@
         340,
         290
       ]
+    },
+    {
+      "id": "alex-celebrate",
+      "name": "Alex — Vui mừng",
+      "category": "Nhân vật",
+      "tags": [
+        "alex",
+        "nhân vật",
+        "character",
+        "celebrate",
+        "vui mừng"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/alex-poses.png",
+      "crop": [
+        15,
+        0,
+        525,
+        769
+      ]
+    },
+    {
+      "id": "alex-worried",
+      "name": "Alex — Lo lắng",
+      "category": "Nhân vật",
+      "tags": [
+        "alex",
+        "nhân vật",
+        "character",
+        "worried",
+        "lo lắng",
+        "ví tiền"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/alex-poses.png",
+      "crop": [
+        530,
+        0,
+        511.5,
+        769
+      ]
+    },
+    {
+      "id": "alex-think",
+      "name": "Alex — Suy nghĩ",
+      "category": "Nhân vật",
+      "tags": [
+        "alex",
+        "nhân vật",
+        "character",
+        "thinking",
+        "suy nghĩ"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/alex-poses.png",
+      "crop": [
+        1015,
+        0,
+        496,
+        769
+      ]
+    },
+    {
+      "id": "alex-present",
+      "name": "Alex — Giới thiệu",
+      "category": "Nhân vật",
+      "tags": [
+        "alex",
+        "nhân vật",
+        "character",
+        "presenting",
+        "giới thiệu",
+        "thuyết trình"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/alex-poses.png",
+      "crop": [
+        1510,
+        0,
+        536,
+        769
+      ]
     }
   ]
 }

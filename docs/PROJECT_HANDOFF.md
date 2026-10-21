@@ -24,7 +24,9 @@ Trang chủ có danh sách dự án và các tab Tổng quan, Dựng video, Hìn
 
 ## Kho đạo cụ dùng chung
 
-Người dùng làm rõ yêu cầu là **kho đạo cụ**, không phải kho audio/video tổng hợp. R2 tạm hoãn theo yêu cầu; chưa có kết nối R2. Đã thêm nút **Kho đạo cụ** trong đầu trang Studio, route `?view=props` hoặc `?view=props&project=<id>`. Có 27 đạo cụ, tìm kiếm tiếng Việt có/không dấu hoặc từ khóa tiếng Anh, lọc nhóm, xem trước hình và nhãn căn giữa, tải PNG riêng đúng vùng cắt/độ phân giải gốc, chọn dự án video và cảnh rồi thêm lớp ảnh độc lập vào cảnh đó.
+Người dùng làm rõ yêu cầu là **kho đạo cụ**, không phải kho audio/video tổng hợp. R2 tạm hoãn theo yêu cầu; chưa có kết nối R2. Đã thêm nút **Kho đạo cụ** trong đầu trang Studio, route `?view=props` hoặc `?view=props&project=<id>`. Có 31 mục (27 đạo cụ + 4 tư thế Alex trong nhóm **Nhân vật**: vui mừng, lo lắng, suy nghĩ, giới thiệu), tìm kiếm tiếng Việt có/không dấu hoặc từ khóa tiếng Anh, lọc nhóm, xem trước hình và nhãn căn giữa, tải PNG riêng đúng vùng cắt/độ phân giải gốc, chọn dự án video và cảnh rồi thêm lớp ảnh độc lập vào cảnh đó.
+
+Nhân vật dùng chung đầy đủ đầu/tay/chân từ sprite sheet Alex gốc, giữ nền trong suốt. Tải PNG riêng hoặc thêm vào cảnh như các đạo cụ khác; không tạo thêm nhân vật mới ở đợt bổ sung này. Đã kiểm tra 31 mục hiển thị, lọc 4 nhân vật, tìm nhiều từ như “Alex lo lắng”, tải PNG Alex — Giới thiệu đủ 536×769 px và thêm thành lớp riêng vào đúng cảnh; các kiểm tra kho khác vẫn qua.
 
 Danh mục: `library/props/catalog.json`. Ảnh hiện có được tham chiếu từ các sprite sheet gốc trong `videos/001-100k-salary/`; không nhân bản/di chuyển ảnh đang dùng. Đạo cụ mới tải lên `library/props/` (PNG trong suốt ưu tiên, JPG/WebP cũng hỗ trợ), tên không dấu/không khoảng trắng; người dùng báo sau khi commit để trợ lý chạy `python3 tools/index-props.py`, bổ sung tên/nhóm/tags, kiểm tra rồi push. Upload chưa tự đăng ký vào danh mục. ID/đường dẫn đã dùng phải giữ ổn định; phiên bản mới dùng tên tệp riêng.
 

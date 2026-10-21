@@ -2,7 +2,7 @@
 
 [Mở kho trong Credit Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props).
 
-Kho dành cho nhà, xe, tiền, hóa đơn, đồ ăn và các vật thể dùng lại ở nhiều video. Hiện có 27 đạo cụ từ bộ hình đầu tiên. Chúng được đăng ký bằng vùng cắt trong `catalog.json`, trỏ về ảnh gốc; không sao chép hoặc di chuyển ảnh đang dùng trong video.
+Kho dành cho nhân vật, nhà, xe, tiền, hóa đơn, đồ ăn và các vật thể dùng lại ở nhiều video. Hiện có 31 mục: 27 đạo cụ và 4 tư thế Alex trong nhóm **Nhân vật** — vui mừng, lo lắng, suy nghĩ, giới thiệu. Chúng được đăng ký bằng vùng cắt trong `catalog.json`, trỏ về ảnh gốc; không sao chép hoặc di chuyển ảnh đang dùng trong video.
 
 ## Đưa đạo cụ mới vào kho
 
