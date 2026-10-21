@@ -22,6 +22,16 @@ Trang chủ có danh sách dự án và các tab Tổng quan, Dựng video, Hìn
 
 `projects.json` đăng ký các dự án xuất bản. Dự án tài chính hiện có ID ổn định `finance-001`. Mỗi dự án mới cần thư mục riêng trong `videos/` và mục đăng ký riêng. Giữ khả năng đọc bản sao lưu, dữ liệu IndexedDB và các khóa localStorage cũ.
 
+## Kho đạo cụ dùng chung
+
+Người dùng làm rõ yêu cầu là **kho đạo cụ**, không phải kho audio/video tổng hợp. R2 tạm hoãn theo yêu cầu; chưa có kết nối R2. Đã thêm nút **Kho đạo cụ** trong đầu trang Studio, route `?view=props` hoặc `?view=props&project=<id>`. Có 27 đạo cụ, tìm kiếm tiếng Việt có/không dấu hoặc từ khóa tiếng Anh, lọc nhóm, xem trước hình và nhãn căn giữa, tải PNG riêng đúng vùng cắt/độ phân giải gốc, chọn dự án video và cảnh rồi thêm lớp ảnh độc lập vào cảnh đó.
+
+Danh mục: `library/props/catalog.json`. Ảnh hiện có được tham chiếu từ các sprite sheet gốc trong `videos/001-100k-salary/`; không nhân bản/di chuyển ảnh đang dùng. Đạo cụ mới tải lên `library/props/` (PNG trong suốt ưu tiên, JPG/WebP cũng hỗ trợ), tên không dấu/không khoảng trắng; người dùng báo sau khi commit để trợ lý chạy `python3 tools/index-props.py`, bổ sung tên/nhóm/tags, kiểm tra rồi push. Upload chưa tự đăng ký vào danh mục. ID/đường dẫn đã dùng phải giữ ổn định; phiên bản mới dùng tên tệp riêng.
+
+`assets/js/prop-library.js` kiểm tra dữ liệu, xem trước, xuất PNG và thêm lớp vào cảnh. Video engine nhận thêm nguồn ảnh `library/props/...`. Không thêm login, API ghi GitHub từ website hoặc đồng bộ dự án online. Bản dựng thêm đạo cụ vẫn lưu riêng trong trình duyệt; backup chứa tham chiếu tài nguyên đã xuất bản. Đọc `library/props/README.md` khi tiếp tục mở rộng kho.
+
+Đã kiểm tra: 8 unit test, `tests/prop-library.cjs`, `tests/project-workspaces.cjs`, `tests/video-editor.cjs` đều qua. Kiểm tra kho bao gồm 27 vùng cắt hiện đúng, tìm không dấu/lọc nhóm, PNG tải đúng kích thước, thêm vào đúng cảnh và mở đúng cảnh đó, reload giữ lớp mới, không đổi cảnh khác/audio, thêm PNG mới từ đường dẫn library/props, từ chối nguồn/vùng cắt lỗi, mobile và công cụ lập danh mục giữ ID khi chạy lại.
+
 ## Video đầu tiên: trạng thái thực tế
 
 Tên: **Why You Feel Broke on a $100,000 Salary**.

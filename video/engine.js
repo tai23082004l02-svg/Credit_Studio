@@ -17,7 +17,7 @@ export function locate(project, time) {
 export function clipStart(project, index) { return project.clips.slice(0,index).reduce((sum,c)=>sum+c.duration,0); }
 export function safeSource(src, media = 'image') {
   if (typeof src !== 'string') return false;
-  if (/^videos\/[A-Za-z0-9_-]+\/[A-Za-z0-9_./-]+\.(png|jpg|jpeg|webp|mp3|wav)$/i.test(src) && !src.includes('..')) return true;
+  if (/^(videos\/[A-Za-z0-9_-]+\/|library\/props\/)[A-Za-z0-9_./-]+\.(png|jpg|jpeg|webp|mp3|wav)$/i.test(src) && !src.includes('..')) return true;
   const types = media === 'audio' ? '(mpeg|mp3|wav|x-wav|wave|ogg|webm|mp4)' : '(png|jpeg|webp)';
   return new RegExp('^data:'+media+'/'+types+';base64,[A-Za-z0-9+/=]+$','i').test(src);
 }

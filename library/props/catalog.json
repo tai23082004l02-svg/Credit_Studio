@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "paycheck",
+      "name": "Phong bì lương",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "salary",
+        "paycheck",
+        "envelope"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        24,
+        30,
+        360,
+        340
+      ]
+    },
+    {
+      "id": "money",
+      "name": "Tiền mặt",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "money",
+        "cash"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        400,
+        70,
+        340,
+        300
+      ]
+    },
+    {
+      "id": "coins",
+      "name": "Tiền xu",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "coins"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        745,
+        45,
+        350,
+        320
+      ]
+    },
+    {
+      "id": "wallet",
+      "name": "Ví tiền",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "wallet"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        1110,
+        70,
+        320,
+        300
+      ]
+    },
+    {
+      "id": "receipt",
+      "name": "Hóa đơn",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "tax",
+        "receipt",
+        "taxes"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        25,
+        370,
+        355,
+        335
+      ]
+    },
+    {
+      "id": "shield",
+      "name": "Bảo hiểm y tế",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "insurance",
+        "shield"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        400,
+        370,
+        310,
+        325
+      ]
+    },
+    {
+      "id": "piggy",
+      "name": "Heo tiết kiệm",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "piggy",
+        "retirement"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        730,
+        380,
+        365,
+        320
+      ]
+    },
+    {
+      "id": "card",
+      "name": "Thẻ tín dụng",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "credit",
+        "card"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        1110,
+        400,
+        325,
+        300
+      ]
+    },
+    {
+      "id": "calendar",
+      "name": "Lịch ngày lương",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "calendar",
+        "payday"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        20,
+        720,
+        370,
+        325
+      ]
+    },
+    {
+      "id": "savings",
+      "name": "Hũ tiết kiệm",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "savings",
+        "jar"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        400,
+        690,
+        315,
+        355
+      ]
+    },
+    {
+      "id": "paid",
+      "name": "Hóa đơn đã trả",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "paid",
+        "bill"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        740,
+        700,
+        355,
+        340
+      ]
+    },
+    {
+      "id": "arrow",
+      "name": "Mũi tên",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "arrow"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/finance-props.png",
+      "crop": [
+        1105,
+        690,
+        325,
+        345
+      ]
+    },
+    {
+      "id": "car",
+      "name": "Xe ô tô",
+      "category": "Nhà & đi lại",
+      "tags": [
+        "car",
+        "transportation"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        395,
+        100,
+        420,
+        240
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Nhà ở",
+      "category": "Nhà & đi lại",
+      "tags": [
+        "apartment",
+        "rent",
+        "house"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        10,
+        20,
+        375,
+        310
+      ]
+    },
+    {
+      "id": "flight",
+      "name": "Máy bay & đám cưới",
+      "category": "Nhà & đi lại",
+      "tags": [
+        "flight",
+        "wedding"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        1150,
+        380,
+        375,
+        290
+      ]
+    },
+    {
+      "id": "vacation",
+      "name": "Vali du lịch",
+      "category": "Nhà & đi lại",
+      "tags": [
+        "vacation",
+        "travel"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        1150,
+        675,
+        380,
+        325
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Đồ ăn mang về",
+      "category": "Đời sống",
+      "tags": [
+        "food",
+        "takeout"
+      ],
+      "src": "videos/001-100k-salary/intro/props.png",
+      "crop": [
+        660,
+        45,
+        770,
+        650
+      ]
+    },
+    {
+      "id": "phone",
+      "name": "Điện thoại ngân hàng",
+      "category": "Đời sống",
+      "tags": [
+        "bank",
+        "phone"
+      ],
+      "src": "videos/001-100k-salary/intro/props.png",
+      "crop": [
+        80,
+        20,
+        520,
+        690
+      ]
+    },
+    {
+      "id": "gift",
+      "name": "Hộp quà",
+      "category": "Đời sống",
+      "tags": [
+        "gift"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        430,
+        350,
+        320,
+        320
+      ]
+    },
+    {
+      "id": "wrench",
+      "name": "Cờ lê sửa chữa",
+      "category": "Đời sống",
+      "tags": [
+        "wrench",
+        "repair"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        800,
+        685,
+        310,
+        310
+      ]
+    },
+    {
+      "id": "tire",
+      "name": "Lốp xe",
+      "category": "Nhà & đi lại",
+      "tags": [
+        "tire",
+        "flat"
+      ],
+      "src": "videos/001-100k-salary/intro/props.png",
+      "crop": [
+        1510,
+        90,
+        610,
+        570
+      ]
+    },
+    {
+      "id": "groceries",
+      "name": "Túi thực phẩm",
+      "category": "Đời sống",
+      "tags": [
+        "grocery",
+        "groceries"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        820,
+        30,
+        315,
+        325
+      ]
+    },
+    {
+      "id": "utilities",
+      "name": "Điện & điện thoại",
+      "category": "Đời sống",
+      "tags": [
+        "utilities",
+        "lightbulb"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        1190,
+        30,
+        335,
+        325
+      ]
+    },
+    {
+      "id": "debt",
+      "name": "Khoản vay học phí",
+      "category": "Tiền & tài chính",
+      "tags": [
+        "student",
+        "loan",
+        "debt"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        20,
+        355,
+        365,
+        315
+      ]
+    },
+    {
+      "id": "dentist",
+      "name": "Răng & nha khoa",
+      "category": "Đời sống",
+      "tags": [
+        "tooth",
+        "dentist"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        795,
+        365,
+        315,
+        300
+      ]
+    },
+    {
+      "id": "laptop",
+      "name": "Máy tính hỏng",
+      "category": "Đời sống",
+      "tags": [
+        "broken",
+        "laptop"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        15,
+        690,
+        395,
+        310
+      ]
+    },
+    {
+      "id": "streaming",
+      "name": "Màn hình giải trí",
+      "category": "Đời sống",
+      "tags": [
+        "streaming",
+        "screen"
+      ],
+      "src": "videos/001-100k-salary/images/sheets/life-props.png",
+      "crop": [
+        430,
+        710,
+        340,
+        290
+      ]
+    }
+  ]
+}

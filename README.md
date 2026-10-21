@@ -28,6 +28,14 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 cũ được lưu vào **Bản lưu trước cập nhật** rồi chuyển sang bản đầy đủ. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên bản đầy đủ được giữ khi mở lại. Những bản khác vẫn được giữ và hiện thông báo khi có bản xuất bản khác.
 
+## Kho đạo cụ dùng chung
+
+Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 27 đạo cụ: tiền, hóa đơn, nhà, xe, đồ ăn và các vật thể khác. Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
+
+Đưa PNG/JPG/WebP mới vào [thư mục library/props trên GitHub](https://github.com/tai23082004l02-svg/Credit_Studio/tree/main/library/props), commit rồi báo trợ lý cập nhật danh mục. Chạy `python3 tools/index-props.py` để đăng ký tệp mới, bổ sung tên/nhóm/từ khóa trong `library/props/catalog.json`, kiểm tra rồi push. [Hướng dẫn chi tiết](library/props/README.md). Tài nguyên cũ được tham chiếu, không nhân bản hoặc di chuyển.
+
+Kho đã xuất bản dùng được trên mọi máy. Việc thêm đạo cụ vào bản dựng vẫn là bản sửa lưu trong trình duyệt và cần Sao lưu dự án để bàn giao. R2 đang tạm hoãn; kho này dùng GitHub hiện tại.
+
 ## Bố trí thư mục
 
 ```text
@@ -107,6 +115,7 @@ Kiểm tra trình duyệt (cần Playwright + Chromium và FFmpeg, máy chủ c�
 ```sh
 node tests/video-editor.cjs
 node tests/project-workspaces.cjs
+node tests/prop-library.cjs
 ```
 
 ## Dựng MP4 từ dự án video

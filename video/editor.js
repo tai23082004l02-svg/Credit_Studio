@@ -1,6 +1,6 @@
 import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo} from '../assets/js/workspace-store.js?v=full-draft-fix-v1';
 import {finalizeWebM} from './webm.js';
-import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=hub-v1';
+import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=props-v1';
 const $=s=>document.querySelector(s);
 const canvas=$('#preview'),ctx=canvas.getContext('2d'),audio=$('#audio');
 const baseURL=APP_ROOT,params=new URLSearchParams(location.search),workspaceID=params.get('project')||FINANCE_ID;
@@ -158,6 +158,7 @@ async function init(){try{
  if(!data)data=blankVideo(workspaceMeta.name);
  if(!saved)data.name=workspaceMeta.name;
  await loadProject(data,{save:true});
+ const requestedClip=project.clips.findIndex(c=>c.id===params.get('clip'));if(requestedClip>=0)selectScene(requestedClip);
  const archived=await videoHistory(workspaceID);
  if(archived.length){const history=document.createElement('details');history.id='video-history';history.className='video-history';const summary=document.createElement('summary');summary.textContent='Bản lưu trước cập nhật';history.append(summary);
   for(const entry of archived){const b=document.createElement('button');b.textContent=`Tải bản ${duration(entry.data).toLocaleString('vi-VN')} giây`;b.onclick=()=>download(new Blob([JSON.stringify(entry.data,null,2)],{type:'application/json'}),'credit-studio-before-update-'+entry.slot+'.json');history.append(b);}
