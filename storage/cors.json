@@ -1,0 +1,9 @@
+[
+  {
+    "AllowedOrigins": ["https://tai23082004l02-svg.github.io", "http://127.0.0.1:8000", "http://127.0.0.1:8002", "http://localhost:8000"],
+    "AllowedMethods": ["GET", "HEAD"],
+    "AllowedHeaders": ["Range", "Content-Type"],
+    "ExposeHeaders": ["ETag", "Content-Length", "Content-Range", "Accept-Ranges"],
+    "MaxAgeSeconds": 3600
+  }
+]

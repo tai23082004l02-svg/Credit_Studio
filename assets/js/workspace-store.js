@@ -1,3 +1,4 @@
+import {initStorage,mediaURL} from './media-storage.js?v=r2-v1';
 // Shared project registry and durable per-project browser storage.
 export const APP_ROOT=new URL('../../',import.meta.url);
 export const FINANCE_ID='finance-001';
@@ -8,7 +9,7 @@ export function requireID(id){if(!validID(id))throw Error('Mã dự án không h
 export function resourceURL(path){
  if(typeof path!=='string'||!path.startsWith('videos/')||/[\\\u0000-\u001f]/.test(path))throw Error('Đường dẫn tài nguyên không hợp lệ.');
  const url=new URL(path,APP_ROOT);if(url.origin!==APP_ROOT.origin||!decodeURIComponent(url.pathname).startsWith(APP_ROOT.pathname+'videos/')||decodeURIComponent(path).split('/').includes('..'))throw Error('Đường dẫn tài nguyên không hợp lệ.');
- return url;
+ return new URL(mediaURL(url));
 }
 export function cleanMeta(meta){
  if(!meta||!validID(meta.id)||!['video','design'].includes(meta.kind)||typeof meta.name!=='string'||!meta.name.trim()||meta.name.length>100)throw Error('Thông tin dự án không hợp lệ.');
@@ -24,7 +25,7 @@ async function read(store,key){const db=await database();return new Promise((res
 async function all(store){const db=await database();return new Promise((resolve,reject)=>{const req=db.transaction(store).objectStore(store).getAll();req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
 async function byProject(store,id){const db=await database();return new Promise((resolve,reject)=>{const req=db.transaction(store).objectStore(store).index('projectId').getAll(id);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
 async function write(stores,callback){const db=await database();return new Promise((resolve,reject)=>{const tx=db.transaction(stores,'readwrite');try{callback(tx);}catch(e){tx.abort();reject(e);return;}tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error||Error('Không lưu được dự án.'));tx.onabort=()=>reject(tx.error||Error('Không lưu được dự án.'));});}
-export async function catalog(){if(!catalogPromise)catalogPromise=fetch(new URL('projects.json',APP_ROOT),{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('Không tải được danh sách dự án đã xuất bản.');const data=await r.json();return data.projects.map(cleanMeta);});return catalogPromise;}
+export async function catalog(){if(!catalogPromise)catalogPromise=initStorage().then(()=>fetch(new URL('projects.json',APP_ROOT),{cache:'no-cache'})).then(async r=>{if(!r.ok)throw Error('Không tải được danh sách dự án đã xuất bản.');const data=await r.json();return data.projects.map(cleanMeta);});return catalogPromise;}
 function mergeMeta(published,local){if(!published)return cleanMeta(local);const merged={...published,...local,status:published.status,description:published.description,kind:published.kind};for(const key of ['defaultVideo','artwork','gallery','script','audio','review','cover']){if(published[key])merged[key]=published[key];else delete merged[key];}return cleanMeta(merged);}
 export async function getWorkspace(id){requireID(id);const local=await read('projects',id);let published;try{published=(await catalog()).find(p=>p.id===id);}catch(e){if(!local)throw e;}if(local)return mergeMeta(published,local);if(published)return published;if(id===LEGACY_DESIGN_ID)return cleanMeta({id,name:'Thiết kế đã lưu trước đây',kind:'design'});throw Error('Không tìm thấy dự án. Hãy trở về trang Dự án.');}
 export async function listWorkspaces(){const [published,local]=await Promise.all([catalog(),all('projects')]);const merged=new Map(published.map(p=>[p.id,p]));for(const p of local)merged.set(p.id,mergeMeta(merged.get(p.id),p));return [...merged.values()].sort((a,b)=>String(b.updatedAt).localeCompare(String(a.updatedAt)));}

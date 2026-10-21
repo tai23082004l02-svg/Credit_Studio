@@ -1,25 +1,38 @@
-# Điền thông tin kết nối R2
+# Kết nối kho tài nguyên R2
 
-Tệp mẫu không có khóa: [`.env.r2.example`](../.env.r2.example).
+## Trạng thái — 2026-10-21
 
-Trong môi trường làm việc hiện tại đã chuẩn bị tệp riêng `/workspace/.credit-studio/r2.env`, nằm ngoài thư mục website/kho Git và chỉ chủ sở hữu có quyền đọc/ghi. Điền Access Key ID, Secret Access Key, S3 API endpoint và tên bucket vào đó. Không thay đổi tên biến ở bên trái dấu `=`.
+Bucket `credit-studio` đã nhận **26 tệp / 128.215.675 byte**. Đã tải lại toàn bộ qua S3 và đối chiếu SHA-256 với bản gốc: tất cả khớp. Địa chỉ công khai: `https://pub-ae346874928c47ce9628da16abea661c.r2.dev/`.
 
-Endpoint có dạng `https://<account-id>.r2.cloudflarestorage.com`; dùng đúng địa chỉ Cloudflare cung cấp, không thêm tên bucket vào cuối. Bucket dự kiến là `credit-studio`.
+**Chưa bật sử dụng R2 trên website:** đang chờ người dùng lưu CORS trong Cloudflare và kiểm tra thực tế bằng trình duyệt. `storage/manifest.json` hiện có `enabled: false`; Studio tiếp tục dùng GitHub Pages. Các tệp gốc chưa bị xóa nên dung lượng website GitHub chưa giảm. R2 lưu tài nguyên; bản sửa của người dùng vẫn nằm trong IndexedDB và cần Sao lưu dự án để bàn giao.
 
-Không điền khóa thật vào tệp mẫu trên GitHub hoặc tệp nằm trong thư mục website, kể cả khi tệp đó đã được `.gitignore` bỏ qua: máy chủ tĩnh vẫn có thể phục vụ tệp ngoài ý muốn. Nếu lưu trên máy cá nhân, giữ tệp đã điền ở thư mục riêng ngoài bản sao website. Không gửi tệp chứa khóa vào chat.
+## Thông tin kết nối
 
-Sau khi người dùng điền tệp trong môi trường, trợ lý chỉ kiểm tra sự hiện diện của giá trị (không in khóa), rồi thử kết nối R2. Hiện chưa có khóa và chưa xác minh kết nối. Các lệnh kết nối sau này phải đọc biến theo định dạng key=value, không thực thi tệp cấu hình như mã shell.
+Bốn biến môi trường trực tiếp của Codex: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT_URL`, `R2_BUCKET`. Tệp mẫu [`.env.r2.example`](../.env.r2.example) không chứa khóa. Tệp riêng `/workspace/.credit-studio/r2.env` vẫn trống khóa và không phải nguồn kết nối hiện tại. Môi trường mới cần kiểm tra sự hiện diện của biến, không in giá trị.
 
-Tệp riêng trên đĩa không thay thế Secrets của môi trường và không bảo đảm tồn tại ở phiên/môi trường khác. Secrets là cách cấu hình dùng lâu dài; chat mới cần kiểm tra cấu hình hiện có trước khi yêu cầu điền lại.
+`tools/r2-storage.py` dùng thư viện chuẩn Python và ký S3 SigV4, region `auto`. Ngoài cặp khóa S3, công cụ chấp nhận cặp token value/token ID đã được nhập trong môi trường: chuẩn hóa trong bộ nhớ theo [hướng dẫn Cloudflare](https://developers.cloudflare.com/r2/api/tokens/), Access Key ID = token ID, Secret Access Key = SHA-256(token value). **Không yêu cầu người dùng nhập lại khi cấu hình hiện tại hoạt động.**
 
-## Trạng thái đã xác minh — 2026-10-21
+Endpoint S3 là HTTPS do Cloudflare cấp, không thêm tên bucket vào cuối. Không đưa khóa vào repo, website, chat, log hoặc bản bàn giao. Token cũ từng xuất hiện trong lịch sử Git đã được người dùng thông báo thu hồi; đã xác nhận danh tính S3 mới khác danh tính bị lộ trước khi chép tài nguyên. Bản hiện tại của tệp mẫu đã được làm trống; lịch sử Git chưa viết lại.
 
-Cấu hình đã áp dụng thành công qua **Biến môi trường** của Codex, đủ bốn tên nêu trong tệp mẫu. Khóa được dùng trực tiếp để ký S3 SigV4, region `auto`; không dùng placeholder của proxy cho phép tính chữ ký. Tệp riêng trên đĩa vẫn trống khóa; không cần yêu cầu người dùng nhập lại nếu biến môi trường đã có và kết nối hoạt động.
+## CORS còn cần hoàn tất
 
-Đã xác minh list bucket (200, trống), tải lên tệp thử nhỏ (200), tải xuống và đối chiếu đúng nội dung (200), xóa chính tệp thử (204). Không giữ tệp thử hoặc chuyển tài nguyên thực tế trong lần kiểm tra này. Không ghi khóa, Authorization header hoặc chữ ký vào log/tài liệu. Quyền truy cập khi tạo môi trường mới cần kiểm tra lại.
+Cloudflare → R2 Object Storage → Overview → **credit-studio** → **Settings** → **CORS Policy** → Add/Edit. Dán cấu hình trong [`storage/cors.json`](../storage/cors.json); nếu đã có quy tắc khác, giữ chúng và thêm quy tắc Studio. Token hiện có quyền đọc/ghi object nhưng không sửa cấu hình CORS của bucket; không cần cấp token quản trị để làm bước này.
 
-Tài nguyên hiện vẫn phục vụ từ GitHub Pages. Chuyển tài nguyên, cấu hình phát ảnh/audio/video và đồng bộ bản sửa là các việc riêng chưa thực hiện.
+Sau khi Save, kiểm tra phản hồi có `Access-Control-Allow-Origin` cho origin website và máy chủ thử nghiệm. Lúc kiểm tra hiện tại, tải công khai với User-Agent trình duyệt và Range được HTTP 206 nhưng chưa có header CORS. Chưa coi đây là lỗi khóa. R2 có thể chặn User-Agent mặc định của urllib với mã 1010; kiểm tra công khai dùng User-Agent trình duyệt, không tắt xác minh TLS.
 
-## Khóa cần thay sau khi kiểm tra
+Chỉ bật `enabled: true` sau khi xác nhận tải ảnh, crop đạo cụ, canvas xuất PNG, phát/tua audio và MP4 trên R2 hoạt động. `r2.dev` phù hợp bước thử ban đầu; dùng tên miền riêng khi triển khai phục vụ thường xuyên.
 
-Phát hiện tệp mẫu công khai đã được điền hai khóa trùng với thông tin đang hoạt động. Đã đưa bản hiện tại về mẫu trống. Giá trị cũ có thể còn trong lịch sử Git: người dùng cần thu hồi token cũ tại Cloudflare, tạo token thay thế giới hạn bucket và cập nhật hai biến khóa trong môi trường. Không tiếp tục chuyển tài nguyên với token đã lộ. Không đưa giá trị khóa vào bản bàn giao hoặc log.
+## Công cụ và cách tiếp tục
+
+```sh
+python tools/r2-storage.py check
+python tools/r2-storage.py plan
+python tools/r2-storage.py sync
+python tools/r2-storage.py verify
+```
+
+`check` tạo rồi xóa đúng tệp thử riêng; `sync` chép media được Git theo dõi và đăng ký vào manifest; không xóa tệp gốc. Object dùng tên theo SHA-256, có metadata hash và cache immutable. Dừng khi object đã có không khớp metadata, không ghi đè. Chỉ chạy `cors` nếu được cấp quyền phù hợp; cấu hình UI là đủ cho token hiện tại.
+
+Đường dẫn trong JSON dự án vẫn tương đối và ổn định. `assets/js/media-storage.js` chỉ chuyển các tệp được đăng ký trong manifest sang R2 khi bật; JSON dự án và ảnh data URL giữ nguyên. Thiết kế ảnh cũ có thể vẫn nhúng PNG trong JSON. Không xóa nguồn hoặc bản xuất cũ chỉ vì đã chép sang R2.
+
+Kiểm tra đã qua: đối chiếu 26 tệp S3; 10 unit test; kiểm tra trình duyệt R2 mô phỏng cho kho đạo cụ/trình dựng/audio/MP4/thư viện ảnh và xuất canvas; bộ kiểm tra dự án, sao lưu/khôi phục và mobile; trình dựng với audio, sửa cảnh, undo/redo và xuất WebM có âm thanh. Bước xuất WebM timeout ở lần đầu, đã chạy lại thành công. Kiểm tra CORS và trình duyệt với R2 thật còn chờ.

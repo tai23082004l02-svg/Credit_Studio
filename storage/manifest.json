@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "enabled": false,
+  "publicBaseURL": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/",
+  "assets": {
+    "assets/samples/finance-hand-drawn-2d.png": {
+      "key": "credit-studio/media/40720914bdb24e021cef0185f0eec25756978deb7a9d5332581c61583e97155f.png",
+      "sha256": "40720914bdb24e021cef0185f0eec25756978deb7a9d5332581c61583e97155f",
+      "size": 2124701,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/audio/Why You Feel Broke on a $100,000 Salary.wav": {
+      "key": "credit-studio/media/340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df.wav",
+      "sha256": "340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df",
+      "size": 23364044,
+      "type": "audio/x-wav"
+    },
+    "videos/001-100k-salary/exports/full-review-v01.mp4": {
+      "key": "credit-studio/media/406d9bb95d3f4df45c246ab3a463490ac7037bdf3eb8f4ec4736ad8eb8d85b42.mp4",
+      "sha256": "406d9bb95d3f4df45c246ab3a463490ac7037bdf3eb8f4ec4736ad8eb8d85b42",
+      "size": 54554618,
+      "type": "video/mp4"
+    },
+    "videos/001-100k-salary/exports/intro-v01.mp4": {
+      "key": "credit-studio/media/cf23a065531145980d63729f1b45d728973d61218edc154e94de4ec1856c3d2c.mp4",
+      "sha256": "cf23a065531145980d63729f1b45d728973d61218edc154e94de4ec1856c3d2c",
+      "size": 3612612,
+      "type": "video/mp4"
+    },
+    "videos/001-100k-salary/images/scenes/01a-six-figure-celebration.png": {
+      "key": "credit-studio/media/e9beeffff7344e6b7932b49f03e897b52dacb6cbe5a9e3803ac47d30ea199688.png",
+      "sha256": "e9beeffff7344e6b7932b49f03e897b52dacb6cbe5a9e3803ac47d30ea199688",
+      "size": 1861436,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/01b-payday-rescue.png": {
+      "key": "credit-studio/media/076126a46c7a4cd46da0768c35ca05c68284737ba1ca0d7dc1afa8487bff713e.png",
+      "sha256": "076126a46c7a4cd46da0768c35ca05c68284737ba1ca0d7dc1afa8487bff713e",
+      "size": 1945030,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/02a-gross-versus-take-home.png": {
+      "key": "credit-studio/media/bbc8ffce87a51d0544ed2e44126b11fcb27e2952d0c2944065e8dc2c81158942.png",
+      "sha256": "bbc8ffce87a51d0544ed2e44126b11fcb27e2952d0c2944065e8dc2c81158942",
+      "size": 1820939,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/02b-paycheck-deductions.png": {
+      "key": "credit-studio/media/3de0a359ea2a84e73400a5478c0389f7e1cb2e89bf0005edfdd97bc72526762e.png",
+      "sha256": "3de0a359ea2a84e73400a5478c0389f7e1cb2e89bf0005edfdd97bc72526762e",
+      "size": 1823295,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/03a-fixed-costs.png": {
+      "key": "credit-studio/media/08608be64b08473fd0b5e280cea24198b563a6317be00435a8c755ad395e241f.png",
+      "sha256": "08608be64b08473fd0b5e280cea24198b563a6317be00435a8c755ad395e241f",
+      "size": 1888088,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/03b-committed-paycheck.png": {
+      "key": "credit-studio/media/1a4b9c3cb01da772453466c57b8e162b59f9e7b419211d68a9c0d22e50af795d.png",
+      "sha256": "1a4b9c3cb01da772453466c57b8e162b59f9e7b419211d68a9c0d22e50af795d",
+      "size": 1963352,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/04a-irregular-expenses.png": {
+      "key": "credit-studio/media/9b9687cbeea8a62b7015ca943736d347525bf809ed8c7874a850d3ff589990b8.png",
+      "sha256": "9b9687cbeea8a62b7015ca943736d347525bf809ed8c7874a850d3ff589990b8",
+      "size": 1910690,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/04b-credit-card-cycle.png": {
+      "key": "credit-studio/media/4811dbe77505be1684b5b993f63193b6bea271637ed496ee23c38afc8edf3f46.png",
+      "sha256": "4811dbe77505be1684b5b993f63193b6bea271637ed496ee23c38afc8edf3f46",
+      "size": 1786905,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/05a-lifestyle-upgrades.png": {
+      "key": "credit-studio/media/b47a72d2209c2b6cc75e64432e335fefa9f8a2a1ffd380f0f8995991204b848d.png",
+      "sha256": "b47a72d2209c2b6cc75e64432e335fefa9f8a2a1ffd380f0f8995991204b848d",
+      "size": 2007214,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/05b-income-versus-commitments.png": {
+      "key": "credit-studio/media/e48bbedd1fed32b39c8a59028c0865d71effe1a93f36a99361733ea54dcc6345.png",
+      "sha256": "e48bbedd1fed32b39c8a59028c0865d71effe1a93f36a99361733ea54dcc6345",
+      "size": 1779861,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/06a-social-highlight-reel.png": {
+      "key": "credit-studio/media/0f08b3d5c587c29e47f5ab9a8a2a2c9df11111de4403f255a9793331aae96a37.png",
+      "sha256": "0f08b3d5c587c29e47f5ab9a8a2a2c9df11111de4403f255a9793331aae96a37",
+      "size": 2102131,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/06b-two-lives.png": {
+      "key": "credit-studio/media/dc20c83c5b93901dbbb842b5531cef8d730b7b75a708813bba4fd82ac1818d7f.png",
+      "sha256": "dc20c83c5b93901dbbb842b5531cef8d730b7b75a708813bba4fd82ac1818d7f",
+      "size": 1923625,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/07a-biggest-levers.png": {
+      "key": "credit-studio/media/0cf39669a465c02970231bd127d77e5227092ff57237e4e0aee5394ca32b8775.png",
+      "sha256": "0cf39669a465c02970231bd127d77e5227092ff57237e4e0aee5394ca32b8775",
+      "size": 1801378,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/07b-give-money-a-job.png": {
+      "key": "credit-studio/media/e04a7b3daed8ced4722ccf9d878a2c35058ad93509137b55b32f05d8dfc49dac.png",
+      "sha256": "e04a7b3daed8ced4722ccf9d878a2c35058ad93509137b55b32f05d8dfc49dac",
+      "size": 1927858,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/08a-real-cost-pressures.png": {
+      "key": "credit-studio/media/51e76ffee2ad037a47034058e09dfea388638c282b62eb8a5edf3ca539b3285e.png",
+      "sha256": "51e76ffee2ad037a47034058e09dfea388638c282b62eb8a5edf3ca539b3285e",
+      "size": 1951501,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/scenes/08b-breathing-room.png": {
+      "key": "credit-studio/media/4202b286fb109f2a66fb02e0b35b5e94fece520610a076ef26a352a7daea48fe.png",
+      "sha256": "4202b286fb109f2a66fb02e0b35b5e94fece520610a076ef26a352a7daea48fe",
+      "size": 1939130,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/sheets/alex-poses.png": {
+      "key": "credit-studio/media/11737e51bf5c8c740a09e0bd2c1825dd5abfafcafa38f3b964c518a37124f917.png",
+      "sha256": "11737e51bf5c8c740a09e0bd2c1825dd5abfafcafa38f3b964c518a37124f917",
+      "size": 1098161,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/sheets/finance-props.png": {
+      "key": "credit-studio/media/45e26580d2dd50781f8ccf7de877ddd9b010e4f6914aa24b62475746fa60f129.png",
+      "sha256": "45e26580d2dd50781f8ccf7de877ddd9b010e4f6914aa24b62475746fa60f129",
+      "size": 1348000,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/images/sheets/life-props.png": {
+      "key": "credit-studio/media/293b800ebe74c630649e89643aa85aafc720ee1ba0d8e0b6b540ff0dbc382e35.png",
+      "sha256": "293b800ebe74c630649e89643aa85aafc720ee1ba0d8e0b6b540ff0dbc382e35",
+      "size": 1947964,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/intro/props.png": {
+      "key": "credit-studio/media/6b1ccd8d9524e39e0d23ca7302457e985340f2b23fb508b8f78540ad4a41486c.png",
+      "sha256": "6b1ccd8d9524e39e0d23ca7302457e985340f2b23fb508b8f78540ad4a41486c",
+      "size": 1294270,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/intro/voiceover.mp3": {
+      "key": "credit-studio/media/037df62c0f88421d35aa4718be1c3449bb813e994d108b1dbf99eeb59c5af8db.mp3",
+      "sha256": "037df62c0f88421d35aa4718be1c3449bb813e994d108b1dbf99eeb59c5af8db",
+      "size": 649388,
+      "type": "audio/mpeg"
+    },
+    "videos/001-100k-salary/review/voiceover.mp3": {
+      "key": "credit-studio/media/a6984562e1a39872256b1ede35685598b9c6bb525bc4a21864b486b58cafdfe7.mp3",
+      "sha256": "a6984562e1a39872256b1ede35685598b9c6bb525bc4a21864b486b58cafdfe7",
+      "size": 7789484,
+      "type": "audio/mpeg"
+    }
+  }
+}

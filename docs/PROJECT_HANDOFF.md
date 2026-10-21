@@ -93,10 +93,12 @@ Kiểm tra bản sửa mở video: Playwright tái hiện bản intro đã chỉ
 
 R2 đã kết nối thành công ngày 2026-10-21. Môi trường hiện có đủ `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT_URL`, `R2_BUCKET` dưới dạng biến môi trường trực tiếp (nguồn vault), không phải bí mật proxy. Đã thử S3 SigV4 với region `auto`: ListObjectsV2 HTTP 200 (bucket trống), PUT tệp thử 200, GET 200 và đối chiếu đúng nội dung, DELETE 204 để dọn tệp thử. Không lưu giá trị khóa trong repo/log/chat. Tệp riêng `/workspace/.credit-studio/r2.env` vẫn chỉ là mẫu chưa có khóa; nguồn đang dùng là biến môi trường. Chat mới phải kiểm tra các biến có mặt và thử quyền cần dùng, không giả định thông tin phiên cũ tự được truyền sang môi trường khác.
 
-Chưa chuyển ảnh/audio/MP4 khỏi GitHub, chưa đổi URL tài nguyên, chưa thiết lập endpoint công khai/CORS cho Studio và chưa có đồng bộ bản sửa online. Đây là các bước tiếp theo sau khi kết nối; không báo là đã hoàn tất di chuyển kho. Xem `docs/R2_SETUP.md`.
+Đã chép và xác minh 26 tệp (128.215.675 byte) lên R2; các bản gốc GitHub được giữ. Public URL, manifest, công cụ và trạng thái mới nhất nằm trong `docs/R2_SETUP.md`. `storage/manifest.json` hiện **enabled: false** vì chờ người dùng lưu CORS và kiểm tra trình duyệt với R2 thật. Đã chuẩn bị bộ phân giải đường dẫn cho kho đạo cụ, trình dựng, audio, MP4 và thư viện ảnh; JSON dự án giữ đường dẫn cũ. Kiểm tra mô phỏng R2 và unit test đã qua; không nhầm với đã kiểm tra thực tế hoặc đã giảm dung lượng GitHub. Bản sửa vẫn lưu trong trình duyệt.
 
 Chọn/đính kèm repo `tai23082004l02-svg/Credit_Studio`, yêu cầu đọc `AGENTS.md`, tài liệu này và README. Chat mới không tự nhớ lịch sử chat cũ. Nếu chưa có quyền truy cập repo, cần kết nối/chọn repo trước. Nếu công việc phụ thuộc bản sửa chỉ có trên trình duyệt, cung cấp bản sao lưu dự án; chỉ GitHub là chưa đủ.
 
-## R2: cần thay token đã lộ
+## R2: token thay thế và bước đang chờ
 
-Sau kiểm tra kết nối, phát hiện commit người dùng cập nhật `.env.r2.example` trên repo công khai có khóa trùng biến môi trường đang hoạt động (chỉ so sánh trong bộ nhớ, không in giá trị). Đã khôi phục tệp mẫu hiện tại về giá trị trống. Lịch sử Git vẫn có thể chứa token cũ: yêu cầu người dùng thu hồi token cũ, tạo token mới giới hạn bucket và cập nhật biến môi trường, rồi kiểm tra lại. Chưa chuyển tài nguyên thực tế. Không tiếp tục dùng token cũ để di chuyển dữ liệu.
+Người dùng đã thông báo thu hồi token cũ và thay khóa. Đã xác nhận danh tính S3 mới khác danh tính từng lộ trước khi di chuyển. Không dùng lại khóa từ lịch sử Git. Công cụ tự chuẩn hóa token value/token ID theo tài liệu Cloudflare; hai biến khóa hiện tại hoạt động, không yêu cầu nhập lại. Chỉ log tên biến/trạng thái.
+
+Người dùng đang tìm **CORS Policy** trong tab Settings của bucket `credit-studio`, không phải Settings tài khoản. Đã gửi cấu hình cho origin GitHub Pages và `http://127.0.0.1:8002`; chi tiết trong `storage/cors.json`. Quyền token hiện tại không sửa CORS qua API (403), nên thực hiện trên UI; không yêu cầu khóa quản trị. Sau khi người dùng lưu, kiểm tra header, trình duyệt R2 thật rồi mới bật manifest, triển khai và kiểm tra website online.

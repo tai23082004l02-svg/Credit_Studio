@@ -1,3 +1,4 @@
+import {initStorage,mediaURL} from '../assets/js/media-storage.js?v=r2-v1';
 // Shared deterministic renderer used by the editor, tests and MP4 rendering.
 export const WIDTH = 1920, HEIGHT = 1080;
 export const EFFECTS = ['fade', 'slide', 'pop', 'none'];
@@ -49,10 +50,11 @@ export function validate(project) {
   return project;
 }
 export async function loadAssets(project, baseURL) {
+  await initStorage();
   const images = new Map();
   const entries = [...new Set(Object.values(project.assets).map(a=>a.src))];
   await Promise.all(entries.map(async src => {
-    const img = new Image(); img.src = src.startsWith('data:') ? src : new URL(src,baseURL).href;
+    const img = new Image();img.crossOrigin='anonymous';img.src = src.startsWith('data:') ? src : mediaURL(src,baseURL);
     await img.decode(); images.set(src,img);
   }));
   for(const a of Object.values(project.assets)) {

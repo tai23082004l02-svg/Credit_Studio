@@ -1,7 +1,8 @@
-import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=replace-prop-v1';
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo} from '../assets/js/workspace-store.js?v=full-draft-fix-v1';
+import {mediaURL} from '../assets/js/media-storage.js?v=r2-v1';
+import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-v1';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo} from '../assets/js/workspace-store.js?v=r2-v1';
 import {finalizeWebM} from './webm.js';
-import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=props-v1';
+import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=r2-v1';
 const $=s=>document.querySelector(s);
 const canvas=$('#preview'),ctx=canvas.getContext('2d'),audio=$('#audio');
 const baseURL=APP_ROOT,params=new URLSearchParams(location.search),workspaceID=params.get('project')||FINANCE_ID;
@@ -46,7 +47,7 @@ function setBusy(busy){document.querySelectorAll('button,input,select,textarea')
 function change(fn,{seek=true}={}){if(loading||recording)return;stop();const before=clone(project),oldIndex=activeIndex,oldSelected=selected;try{fn();validate(project);}catch(e){project=before;activeIndex=oldIndex;selected=oldSelected;toast(e.message);build();return;}history.push(JSON.stringify(before));if(history.length>40)history.shift();future=[];time=clamp(time,0,duration(project));if(seek){const start=clipStart(project,activeIndex);time=clamp(time,start,Math.max(start,start+current().duration-.01));}persist();build();setTime(time);}
 async function prepareAudio(){audioReady=false;$('#play').disabled=true;$('#audio-status').textContent='Đang tải giọng đọc…';const ticket=loadTicket;
  if(!project.audio.src){audio.removeAttribute('src');audio.load();audioReady=true;$('#audio-status').textContent='Chưa có giọng đọc. Chọn Thay giọng đọc để thêm.';$('#play').disabled=false;return;}
- const src=project.audio.src.startsWith('data:')?project.audio.src:new URL(project.audio.src,baseURL).href;
+ const src=project.audio.src.startsWith('data:')?project.audio.src:mediaURL(project.audio.src,baseURL);
  const response=await fetch(src,{signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('Không tải được giọng đọc.');const blob=await response.blob();
  if(ticket!==loadTicket)return;if(audioBlobURL)URL.revokeObjectURL(audioBlobURL);audioBlobURL=URL.createObjectURL(blob);
  await new Promise((resolve,reject)=>{
@@ -136,6 +137,7 @@ function endDrag(){if(!drag)return;const before=drag.before;drag=null;if(before!
 canvas.onpointerup=endDrag;canvas.onpointercancel=endDrag;
 document.addEventListener('keydown',event=>{if($('#prop-picker').open||event.target.closest('input,textarea,select,[contenteditable]')||loading||recording)return;if(event.code==='Space'){event.preventDefault();playing?stop():play();}else if((event.ctrlKey||event.metaKey)&&event.key.toLowerCase()==='z'){event.preventDefault();event.shiftKey?$('#redo').click():$('#undo').click();}else if(['ArrowLeft','ArrowRight'].includes(event.key)){event.preventDefault();stop();setTime(time+(event.key==='ArrowLeft'?-1:1)/30);}else if(event.key==='Delete'&&layer())$('#delete-layer').click();});
 function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);}
+$('#mp4').onclick=async event=>{const url=new URL($('#mp4').href);if(url.origin===location.origin)return;event.preventDefault();try{const r=await fetch(url);if(!r.ok)throw Error('Chưa tải được MP4.');download(await r.blob(),'credit-studio-review.mp4');}catch(e){toast(e.message);}};
 $('#save').onclick=()=>download(new Blob([JSON.stringify(project,null,2)],{type:'application/json'}),'credit-studio-video.json');
 $('#load').onclick=()=>$('#json-file').click();$('#json-file').onchange=async e=>{const file=e.target.files[0];e.target.value='';if(!file)return;if(file.size>45*1024*1024)return toast('Dự án tối đa 45 MiB.');try{const data=validate(JSON.parse(await file.text()));if(!confirm('Mở dự án này? Hãy Lưu JSON trước nếu muốn giữ bản hiện tại.'))return;await loadProject(data,{save:true});}catch(error){toast(error.message);}};
 $('#reset').onclick=async()=>{if(!confirm('Mở lại bản dựng gốc mới nhất? Hãy Sao lưu dự án hoặc Lưu JSON trước để giữ bản sửa hiện tại.'))return;try{let data;if(defaultURL){const r=await fetch(defaultURL,{cache:'no-cache'});if(!r.ok)throw Error('Không tải được bản gốc.');data=await r.json();}else data=blankVideo(workspaceMeta.name);await loadProject(data,{save:true});$('#published-update')?.remove();}catch(e){toast(e.message);}};
