@@ -136,3 +136,25 @@ Dùng 8 minh họa gốc và PNG riêng cho nhân vật/đạo cụ để giữ 
 Đã qua 10 unit test engine/WebM/media-storage; Playwright `monthly-payment-review`, `monthly-payment-upgrade`, `monthly-payment-artwork` và `project-workspaces`. Kiểm tra mới gồm archive bảng hình đã sửa nguyên vẹn, tải lịch sử/backup, giữ sửa review khi reload, tua audio ở 8 vị trí và phát gần cuối, mobile, Tổng quan mở đúng 79 cảnh và loại trừ revision không biết/bản khôi phục. MP4 được giải mã toàn bộ và kiểm tra codec/thời lượng/âm lượng/đối chiếu tiếng đọc; kết quả cụ thể ở `review/validation.json`. Source WAV, toàn bộ thư mục video 001 và kho đạo cụ được đối chiếu không đổi.
 
 Tiếp theo: người dùng duyệt v01 và góp ý kèm timecode. Nếu đã sửa trong Studio, nhận `.credit.json` hoặc JSON video trước khi tiếp tục từ bản sửa đó. Các lần xuất sau dùng tên mới, không ghi đè v01. Lỗi che tóc trong MP4 video 001 vẫn là việc riêng chưa sửa. R2/CORS/manifest không thay đổi trong lần dựng này.
+
+## Video 001 dựng lại — bản duyệt v02 (2026-10-21)
+
+Theo yêu cầu dựng lại video đầu tiên sau video 002, đã xây bản v02 dựa trên **bản đầy đủ v01 trong repo**, không phải các sửa riêng chỉ có trên trình duyệt. Giữ nguyên lời đọc, thời lượng 486,75 giây và WAV gốc; tăng từ 64 lên **88 cảnh**. Chưa phải bản xuất cuối được người dùng duyệt.
+
+- Bản chỉnh được: `videos/001-100k-salary/review-v02/project.json`, revision `salary-review-v02`.
+- MP4 mới: `exports/full-review-v02.mp4`, 1920×1080 / 30 fps, có giọng đọc chuẩn hóa, chưa nhạc nền hoặc rig khớp.
+- `review-v02/README.md`: timecode 88 cảnh; `source.json`: nguồn WAV/hash/căn từ; `validation.json`: kết quả kiểm tra tệp xuất thực tế. Mốc từ dùng lại alignment v01 đối chiếu script, có sai số căn tự động.
+- Bốn PNG minh họa mới ở `review-v02/images/`: dòng tiền có cam kết chờ sẵn, quỹ chi phí trong năm, nguồn tiền sau hình ảnh xã hội, kế hoạch tăng lương. Không suy diễn người đăng ảnh phải dùng nợ; nhãn ghi các khả năng. Không thêm tỉ lệ phân chia tiền chưa có trong lời thoại.
+- Bốn thiết kế `projects/v02-*.json` có ảnh và chữ Times New Roman tách riêng, thêm vào Hình ảnh; tổng cộng **20 thiết kế**, giữ nguyên 16 thiết kế gốc và các sheet. Chi tiết bên trong mỗi minh họa mới vẫn là một lớp ảnh.
+- Tách vùng tiêu đề khỏi vùng nhân vật, sửa lỗi tiêu đề che tóc ở “PLAN AROUND WHAT ARRIVES” trong **MP4 v02**. MP4 v01 bảo lưu vẫn có lỗi cũ. Kiểm tra trọn đầu/tay/chân, thẻ đạo cụ/nhãn căn giữa, các thanh 4.900 + 600 + 500 đúng tỉ lệ trên 6.000 USD minh họa.
+- `review-v02/voiceover.mp3` là dẫn xuất WAV, có chuẩn hóa âm lượng; không thay tốc độ hay nội dung. WAV SHA-256 vẫn `340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df`.
+
+`projects.json` giữ ID `finance-001`, nay mở v02 ở Tổng quan/Dựng video. Quy tắc nâng cấp cho đúng ID: intro-v01→salary-review-v02 hoặc full-review-v01→salary-review-v02; giao dịch lưu nguyên draft cũ vào **Bản lưu trước cập nhật** trước khi thay main. Bản cũ tải JSON được và nằm trong `.credit.json`. Không tự thay bản v02 đang chỉnh, revision lạ hoặc dự án khôi phục có ID khác. Thay đổi riêng của người dùng trong v01 được giữ trong lịch sử, **chưa ghép vào v02**. Quy tắc video 002 vẫn giữ nguyên.
+
+Công cụ mới `tools/build-salary-review-v02.py` tạo dữ liệu từ script/alignment/tài nguyên; `tools/build-salary-v02-designs.cjs` đóng gói bốn thiết kế bổ sung. Mặc định chặn ghi đè; chỉ dùng `--force` sau khi sao lưu bản chỉnh tay. Xuất MP4 bằng `tools/render-intro.cjs` với tên xuất mới. Không chạy công cụ đóng gói ảnh cũ lên các mục v02.
+
+Đã qua 10 unit test engine/WebM/media-storage; Playwright `salary-review-v02` (264 mốc đầu/giữa/cuối), `salary-review-upgrade` (lịch sử chính xác, tải JSON/backup, reload giữ sửa, tua/phát audio, mobile, Tổng quan và mở trực tiếp intro→v02), `salary-v02-artwork` (20 hình tải đủ, bốn thiết kế mở đúng và chữ căn giữa), `project-workspaces`. Các bộ `monthly-payment-upgrade` và `monthly-payment-artwork` vẫn qua. Chrome xác nhận font thực tế TimesNewRomanPS-BoldMT. Đối chiếu 154 tệp media/dự án/catalog đã có: giữ nguyên byte; 16 mục ảnh cũ, toàn bộ video 002 và metadata video 002 không đổi. Không thay cấu hình R2/CORS.
+
+Tiếp theo: người dùng duyệt MP4 v02, gửi góp ý kèm timecode. Nếu cần tiếp tục từ thay đổi riêng đã chỉnh trong Studio, nhận `.credit.json` hoặc JSON video trước. Giữ nguyên các bản xuất cũ, dùng tên v03 cho lần xuất tiếp theo.
+
+MP4 v02 đã giải mã toàn bộ không lỗi, H.264/AAC, 14.603 khung, 486,766667 giây do làm tròn 30 fps. Âm lượng đo thực tế −16,69 LUFS, true peak −1,56 dBTP. Đối chiếu đoạn tiếng ở giây 10/200/480 với WAV: độ trễ 0 mẫu; trung vị tương quan cửa sổ 50 ms đều >0,9999. Kết quả chi tiết ở `review-v02/validation.json`.

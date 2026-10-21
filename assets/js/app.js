@@ -127,7 +127,7 @@ async function init(){
   if(saved)state=validate(saved);
   else if(params.get('scene')){
    if(!meta.artwork)throw Error('Dự án chưa có bộ hình cảnh.');
-   const manifestURL=resourceURL(meta.artwork),response=await fetch(manifestURL);if(!response.ok)throw Error('Không tải được danh sách cảnh.');
+   const manifestURL=resourceURL(meta.artwork),response=await fetch(manifestURL,{cache:'no-cache'});if(!response.ok)throw Error('Không tải được danh sách cảnh.');
    const manifest=await response.json(),frame=manifest.frames.find(f=>f.id===params.get('scene'));if(!frame)throw Error('Không tìm thấy cảnh.');
    const source=new URL(frame.project,manifestURL);if(source.origin!==APP_ROOT.origin||!source.pathname.startsWith(APP_ROOT.pathname+'videos/'))throw Error('Đường dẫn cảnh không hợp lệ.');
    const r=await fetch(source);if(!r.ok)throw Error('Không tải được dự án cảnh.');state=validate(await r.json());

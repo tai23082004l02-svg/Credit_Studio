@@ -1,6 +1,6 @@
 # Phân cảnh — Video 001
 
-Bộ hình cho toàn bộ 8 phần lời thoại. Mỗi phần có hai cảnh chính; khi dựng sẽ bổ sung cận cảnh bằng bố cục/camera và lớp đạo cụ, không giữ nguyên một ảnh suốt cả đoạn. Đã căn theo WAV và dựng bản duyệt đầy đủ 64 cảnh / 486,75 giây. Xem [timecode bản dựng](review/README.md). Bảng dưới là 16 cảnh hình gốc, không phải toàn bộ các cảnh cắt trong timeline.
+Bộ hình cho toàn bộ 8 phần lời thoại. Mỗi phần có hai cảnh chính; khi dựng sẽ bổ sung cận cảnh bằng bố cục/camera và lớp đạo cụ, không giữ nguyên một ảnh suốt cả đoạn. Đã căn theo WAV và dựng bản duyệt v02 gồm 88 cảnh / 486,75 giây. Xem [timecode bản dựng](review-v02/README.md). Bản v01 64 cảnh được giữ nguyên. Bảng dưới là 16 cảnh hình gốc, không phải toàn bộ các cảnh cắt trong timeline.
 
 | Cảnh | Ý chính | Câu bắt đầu | Ảnh | Dự án chỉnh chữ |
 |---|---|---|---|---|
@@ -45,3 +45,14 @@ Các hình tiền, bóng bay và đường ống là ẩn dụ, không phải bi
 ## Mức chỉnh sửa hiện tại
 
 Mỗi JSON là một trang trong Credit Studio với một lớp ảnh nền và các lớp chữ/số riêng. Hình vẽ trong ảnh nền chưa được tách thành từng vật thể. Ba bảng PNG nền trong suốt cung cấp tư thế và đạo cụ bổ sung; chưa có khớp nhân vật hay timeline chuyển động.
+
+## Bổ sung trong v02
+
+Bốn minh họa mới được đặt dưới tiêu đề, giữ trọn nhân vật và tách chữ khỏi ảnh. Không thêm lời thoại.
+
+| Thiết kế | Ý chính | Dự án chỉnh được |
+|---|---|---|
+| Dòng tiền | Lương có những khoản chi chờ sẵn | [JSON](projects/v02-cashflow.json) |
+| Quỹ trong năm | Chuẩn bị cho khoản chi có thể dự trù | [JSON](projects/v02-annual-funds.json) |
+| Hình ảnh xã hội | Bức ảnh không cho biết nguồn tiền | [JSON](projects/v02-social-context.json) |
+| Tăng lương | Chọn phần cho hiện tại, tiết kiệm và giảm nợ | [JSON](projects/v02-raise-plan.json) |

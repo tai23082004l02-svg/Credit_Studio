@@ -1,0 +1,1605 @@
+[
+  {
+    "section": 1,
+    "anchor": "You finally did it.",
+    "title": "Công việc và bước tiến mới",
+    "mode": "hero",
+    "headline": "YOU FINALLY DID IT.",
+    "start": 0,
+    "message": "A NEW CHAPTER",
+    "pose": "alex-celebrate",
+    "prop": "paycheck",
+    "detail": "",
+    "end": 1.78,
+    "clipId": "salary-v02-001"
+  },
+  {
+    "section": 1,
+    "anchor": "You got the job.",
+    "title": "Công việc, tăng lương, sáu con số",
+    "mode": "cards",
+    "headline": "THE JOB. THE RAISE. SIX FIGURES.",
+    "start": 1.78,
+    "items": [
+      {
+        "icon": "paycheck",
+        "label": "THE JOB",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "money",
+        "label": "THE RAISE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "coins",
+        "label": "SIX FIGURES",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 6.192,
+    "clipId": "salary-v02-002"
+  },
+  {
+    "section": 1,
+    "anchor": "One hundred thousand dollars a year.",
+    "title": "Lương năm sáu con số",
+    "mode": "math",
+    "headline": "A SIX-FIGURE SALARY.",
+    "start": 6.192,
+    "equation": "$100,000 / year",
+    "detail": "Before deductions.",
+    "icon": "paycheck",
+    "end": 9.52,
+    "clipId": "salary-v02-003"
+  },
+  {
+    "section": 1,
+    "anchor": "That sounds like the moment",
+    "title": "Kỳ vọng hết áp lực tiền",
+    "mode": "hero",
+    "headline": "MONEY STRESS.\nFINALLY OVER?",
+    "start": 9.52,
+    "message": "THAT WAS THE EXPECTATION.",
+    "pose": "alex-present",
+    "prop": "savings",
+    "detail": "",
+    "end": 13.84,
+    "clipId": "salary-v02-004"
+  },
+  {
+    "section": 1,
+    "anchor": "But somehow,",
+    "title": "Kiểm tra tài khoản trước khi đặt đồ ăn",
+    "mode": "hero",
+    "headline": "CHECKING YOUR ACCOUNT\nBEFORE ORDERING TAKEOUT.",
+    "start": 13.84,
+    "message": "STILL DOING THE MATH.",
+    "pose": "alex-worried",
+    "prop": "phone",
+    "detail": "",
+    "end": 18.62,
+    "clipId": "salary-v02-005"
+  },
+  {
+    "section": 1,
+    "anchor": "Your car needs new tires,",
+    "title": "Một bộ lốp khiến phải tính toán",
+    "mode": "cards",
+    "headline": "NEW TIRES.\nNEW MENTAL GYMNASTICS.",
+    "start": 18.62,
+    "items": [
+      {
+        "icon": "car",
+        "label": "THE CAR",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "tire",
+        "label": "ANOTHER EXPENSE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 23.24,
+    "clipId": "salary-v02-006"
+  },
+  {
+    "section": 1,
+    "anchor": "And payday?",
+    "title": "Chờ ngày lương giải cứu",
+    "mode": "hero",
+    "headline": "PAYDAY.\nSTILL A RESCUE MISSION.",
+    "start": 23.24,
+    "message": "WAITING FOR THE NEXT DEPOSIT",
+    "pose": "alex-worried",
+    "prop": "calendar",
+    "detail": "",
+    "end": 28.54,
+    "clipId": "salary-v02-007"
+  },
+  {
+    "section": 1,
+    "anchor": "So what happened?",
+    "title": "Thu nhập tốt nhưng vẫn thiếu tiền",
+    "mode": "cards",
+    "headline": "SIX FIGURES.\nSTILL FEELING BROKE?",
+    "start": 28.54,
+    "items": [
+      {
+        "icon": "paycheck",
+        "label": "A GOOD SALARY",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "wallet",
+        "label": "VERY LITTLE ROOM",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 35.18,
+    "clipId": "salary-v02-008"
+  },
+  {
+    "section": 1,
+    "anchor": "Let's follow the money.",
+    "title": "Theo dòng tiền từ đầu",
+    "mode": "art",
+    "headline": "LET’S FOLLOW THE MONEY.",
+    "start": 35.18,
+    "art": "art-new-cashflow",
+    "detail": "",
+    "end": 40.8,
+    "clipId": "salary-v02-009"
+  },
+  {
+    "section": 2,
+    "anchor": "Meet Alex.",
+    "title": "Gặp Alex",
+    "mode": "hero",
+    "headline": "MEET ALEX.",
+    "start": 40.8,
+    "message": "$100,000 / YEAR",
+    "pose": "alex-present",
+    "prop": "paycheck",
+    "detail": "",
+    "end": 45.96,
+    "clipId": "salary-v02-010"
+  },
+  {
+    "section": 2,
+    "anchor": "Divide that by twelve,",
+    "title": "Đổi lương năm sang tháng",
+    "mode": "math",
+    "headline": "DIVIDE BY TWELVE.",
+    "start": 45.96,
+    "equation": "≈ $8,333 / month",
+    "detail": "Gross pay in this example.",
+    "icon": "money",
+    "end": 51.22,
+    "clipId": "salary-v02-011"
+  },
+  {
+    "section": 2,
+    "anchor": "Sounds pretty comfortable.",
+    "title": "Nghe có vẻ thoải mái",
+    "mode": "hero",
+    "headline": "SOUNDS COMFORTABLE.",
+    "start": 51.22,
+    "message": "ON PAPER.",
+    "pose": "alex-think",
+    "prop": "money",
+    "detail": "",
+    "end": 53.3,
+    "clipId": "salary-v02-012"
+  },
+  {
+    "section": 2,
+    "anchor": "Except that isn't what lands",
+    "title": "Lương trên giấy khác tiền vào tài khoản",
+    "mode": "cards",
+    "headline": "GROSS PAY ≠ TAKE-HOME PAY.",
+    "start": 53.3,
+    "items": [
+      {
+        "icon": "paycheck",
+        "label": "ON PAPER",
+        "value": "$100,000 / year",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "phone",
+        "label": "IN THE BANK",
+        "value": "WHAT ARRIVES?",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 57.6,
+    "clipId": "salary-v02-013"
+  },
+  {
+    "section": 2,
+    "anchor": "Taxes take a portion.",
+    "title": "Các khoản khấu trừ",
+    "mode": "cards",
+    "headline": "BEFORE THE PAYCHECK ARRIVES.",
+    "start": 57.6,
+    "items": [
+      {
+        "icon": "receipt",
+        "label": "TAXES",
+        "value": "",
+        "detail": "",
+        "reveal": "Taxes take a portion."
+      },
+      {
+        "icon": "shield",
+        "label": "HEALTH INSURANCE",
+        "value": "",
+        "detail": "",
+        "reveal": "Health insurance takes another."
+      },
+      {
+        "icon": "piggy",
+        "label": "RETIREMENT",
+        "value": "",
+        "detail": "",
+        "reveal": "Retirement contributions may"
+      }
+    ],
+    "note": "Actual deductions vary; no universal tax rate is assumed.",
+    "end": 67.58,
+    "clipId": "salary-v02-014"
+  },
+  {
+    "section": 2,
+    "anchor": "For our example, let's say",
+    "title": "Tiền thực nhận minh họa",
+    "mode": "math",
+    "headline": "IN OUR EXAMPLE.",
+    "start": 67.58,
+    "equation": "$6,000 / month",
+    "detail": "After deductions · An illustration, not every paycheck.",
+    "icon": "paycheck",
+    "end": 74.64,
+    "clipId": "salary-v02-015"
+  },
+  {
+    "section": 2,
+    "anchor": "That's an illustration,",
+    "title": "Giới hạn ví dụ thực nhận",
+    "mode": "hero",
+    "headline": "AN ILLUSTRATION.\nNOT EVERY PAYCHECK.",
+    "start": 74.64,
+    "message": "YOUR ACTUAL PAY CAN DIFFER.",
+    "pose": "alex-think",
+    "prop": "paycheck",
+    "detail": "",
+    "end": 78.72,
+    "clipId": "salary-v02-016"
+  },
+  {
+    "section": 2,
+    "anchor": "The actual amount depends",
+    "title": "Các yếu tố thay đổi thực nhận",
+    "mode": "cards",
+    "headline": "YOUR PAYCHECK CAN BE DIFFERENT.",
+    "start": 78.72,
+    "items": [
+      {
+        "icon": "home",
+        "label": "LOCATION",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "shield",
+        "label": "BENEFITS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "receipt",
+        "label": "TAX CIRCUMSTANCES",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 87.88,
+    "clipId": "salary-v02-017"
+  },
+  {
+    "section": 2,
+    "anchor": "Alex hears",
+    "title": "Con số Alex nghe",
+    "mode": "hero",
+    "headline": "WHAT ALEX HEARS.",
+    "start": 87.88,
+    "message": "$100,000 / YEAR",
+    "pose": "alex-think",
+    "prop": "paycheck",
+    "detail": "",
+    "end": 90.96,
+    "clipId": "salary-v02-018"
+  },
+  {
+    "section": 2,
+    "anchor": "Alex's checking account sees",
+    "title": "Con số tài khoản nhận",
+    "mode": "hero",
+    "headline": "WHAT THE ACCOUNT SEES.",
+    "start": 90.96,
+    "message": "$6,000 / MONTH",
+    "pose": "mpt-alex-plan",
+    "prop": "phone",
+    "detail": "",
+    "end": 95.38,
+    "clipId": "salary-v02-019"
+  },
+  {
+    "section": 2,
+    "anchor": "Those are two very different",
+    "title": "Hai điểm xuất phát ngân sách",
+    "mode": "cards",
+    "headline": "TWO VERY DIFFERENT STARTING POINTS.",
+    "start": 95.38,
+    "items": [
+      {
+        "icon": "paycheck",
+        "label": "GROSS SALARY",
+        "value": "$100,000 / year",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "phone",
+        "label": "TAKE-HOME PAY",
+        "value": "$6,000 / month",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Take-home pay is hypothetical for this story.",
+    "end": 99.38,
+    "clipId": "salary-v02-020"
+  },
+  {
+    "section": 2,
+    "anchor": "And if Alex spends based",
+    "title": "Sửa cảnh tiêu đề từng che tóc",
+    "mode": "art",
+    "headline": "PLAN AROUND\nWHAT ARRIVES.",
+    "start": 99.38,
+    "art": "art-02b",
+    "detail": "",
+    "end": 105.46,
+    "clipId": "salary-v02-021"
+  },
+  {
+    "section": 3,
+    "anchor": "Now let's give that six thousand",
+    "title": "Dòng tiền bắt đầu có nơi đến",
+    "mode": "art",
+    "headline": "GIVE THE PAYCHECK\nSOMEWHERE TO GO.",
+    "start": 105.46,
+    "art": "art-new-cashflow",
+    "detail": "",
+    "end": 109.92,
+    "clipId": "salary-v02-022"
+  },
+  {
+    "section": 3,
+    "anchor": "Rent: twenty-three hundred dollars.",
+    "title": "Tiền thuê nhà",
+    "mode": "math",
+    "headline": "RENT.",
+    "start": 109.92,
+    "equation": "$2,300",
+    "detail": "An apartment in a fairly expensive area.",
+    "icon": "home",
+    "end": 116.68,
+    "clipId": "salary-v02-023"
+  },
+  {
+    "section": 3,
+    "anchor": "Transportation: eight hundred",
+    "title": "Chi phí đi lại tổng hợp",
+    "mode": "math",
+    "headline": "TRANSPORTATION.",
+    "start": 116.68,
+    "equation": "$850",
+    "detail": "More than the car payment alone.",
+    "icon": "car",
+    "end": 119.86,
+    "clipId": "salary-v02-024"
+  },
+  {
+    "section": 3,
+    "anchor": "That's the car payment,",
+    "title": "Bốn phần của chi phí xe",
+    "mode": "cards",
+    "headline": "THE COST OF GETTING AROUND.",
+    "start": 119.86,
+    "items": [
+      {
+        "icon": "receipt",
+        "label": "CAR PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "shield",
+        "label": "INSURANCE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car",
+        "label": "GAS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "wrench",
+        "label": "MAINTENANCE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 125.84,
+    "clipId": "salary-v02-025"
+  },
+  {
+    "section": 3,
+    "anchor": "Groceries and eating out:",
+    "title": "Thực phẩm và ăn ngoài",
+    "mode": "math",
+    "headline": "GROCERIES + EATING OUT.",
+    "start": 125.84,
+    "equation": "$650",
+    "detail": "Illustrative monthly expense.",
+    "icon": "groceries",
+    "end": 130.28,
+    "clipId": "salary-v02-026"
+  },
+  {
+    "section": 3,
+    "anchor": "Utilities, internet, and phone:",
+    "title": "Điện nước internet điện thoại",
+    "mode": "math",
+    "headline": "UTILITIES. INTERNET. PHONE.",
+    "start": 130.28,
+    "equation": "$400",
+    "detail": "Illustrative monthly expense.",
+    "icon": "utilities",
+    "end": 133.44,
+    "clipId": "salary-v02-027"
+  },
+  {
+    "section": 3,
+    "anchor": "Student loans or other debt payments:",
+    "title": "Khoản trả nợ",
+    "mode": "math",
+    "headline": "DEBT PAYMENTS.",
+    "start": 133.44,
+    "equation": "$400",
+    "detail": "Student loans or other debt payments.",
+    "icon": "debt",
+    "end": 138.4,
+    "clipId": "salary-v02-028"
+  },
+  {
+    "section": 3,
+    "anchor": "Then three hundred dollars",
+    "title": "Các chi phí khác",
+    "mode": "math",
+    "headline": "OTHER MONTHLY COSTS.",
+    "start": 138.4,
+    "equation": "$300",
+    "detail": "Subscriptions, clothes and gifts.",
+    "icon": "gift",
+    "end": 143.7,
+    "clipId": "salary-v02-029"
+  },
+  {
+    "section": 3,
+    "anchor": "Total?",
+    "title": "Tổng hợp sáu khoản cố định",
+    "mode": "budget",
+    "headline": "THE MONTHLY COMMITMENTS.",
+    "start": 143.7,
+    "end": 147.1,
+    "clipId": "salary-v02-030"
+  },
+  {
+    "section": 3,
+    "anchor": "Alex has eleven hundred dollars left.",
+    "title": "Số dư sau chi cố định",
+    "mode": "balance",
+    "headline": "AFTER RECURRING COSTS.",
+    "start": 147.1,
+    "amount": 1100,
+    "end": 150.56,
+    "clipId": "salary-v02-031"
+  },
+  {
+    "section": 3,
+    "anchor": "Now, eleven hundred dollars isn't nothing.",
+    "title": "Vẫn còn chỗ trong ngân sách",
+    "mode": "hero",
+    "headline": "THERE IS STILL ROOM.",
+    "start": 150.56,
+    "message": "$1,100 LEFT",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 155.9,
+    "clipId": "salary-v02-032"
+  },
+  {
+    "section": 3,
+    "anchor": "But notice what happened.",
+    "title": "Lương đã có cam kết trước cuối tuần",
+    "mode": "art",
+    "headline": "MOST OF IT\nWAS ALREADY COMMITTED.",
+    "start": 155.9,
+    "art": "art-03b",
+    "detail": "",
+    "end": 164.76,
+    "clipId": "salary-v02-033"
+  },
+  {
+    "section": 3,
+    "anchor": "The money didn't disappear.",
+    "title": "Tiền đến cùng danh sách chờ",
+    "mode": "art",
+    "headline": "IT DIDN’T DISAPPEAR.\nIT ARRIVED WITH A WAITING LIST.",
+    "start": 164.76,
+    "art": "art-new-cashflow",
+    "detail": "",
+    "end": 169.36,
+    "clipId": "salary-v02-034"
+  },
+  {
+    "section": 4,
+    "anchor": "Then real life walks in.",
+    "title": "Những khoản trong năm",
+    "mode": "cards",
+    "headline": "THEN REAL LIFE WALKS IN.",
+    "start": 169.36,
+    "items": [
+      {
+        "icon": "dentist",
+        "label": "THE DENTIST",
+        "value": "",
+        "detail": "",
+        "reveal": "A trip to the dentist."
+      },
+      {
+        "icon": "flight",
+        "label": "A FAMILY WEDDING",
+        "value": "",
+        "detail": "",
+        "reveal": "A flight to a family wedding."
+      },
+      {
+        "icon": "laptop",
+        "label": "A BROKEN LAPTOP",
+        "value": "",
+        "detail": "",
+        "reveal": "A laptop that decides"
+      }
+    ],
+    "note": "",
+    "end": 179.66,
+    "clipId": "salary-v02-035"
+  },
+  {
+    "section": 4,
+    "anchor": "These expenses feel like surprises",
+    "title": "Chi phí không đến hằng tháng",
+    "mode": "art",
+    "headline": "NOT EVERY MONTH.\nBUT NOT IMPOSSIBLE TO PLAN FOR.",
+    "start": 179.66,
+    "art": "art-04a",
+    "detail": "",
+    "end": 183.94,
+    "clipId": "salary-v02-036"
+  },
+  {
+    "section": 4,
+    "anchor": "But some version of them",
+    "title": "Lập quỹ cho các khoản trong năm",
+    "mode": "art",
+    "headline": "SOME VERSION\nHAPPENS MOST YEARS.",
+    "start": 183.94,
+    "art": "art-new-annual-funds",
+    "detail": "",
+    "end": 188.66,
+    "clipId": "salary-v02-037"
+  },
+  {
+    "section": 4,
+    "anchor": "If Alex needs an average",
+    "title": "Trừ dự trù chi phí không đều",
+    "mode": "math",
+    "headline": "SET ASIDE $600 A MONTH.",
+    "start": 188.66,
+    "equation": "$1,100 − $600 = $500",
+    "detail": "An average allowance for irregular expenses.",
+    "icon": "calendar",
+    "end": 198.15,
+    "clipId": "salary-v02-038"
+  },
+  {
+    "section": 4,
+    "anchor": "Five hundred dollars of breathing room.",
+    "title": "Tổng hợp dòng tiền còn lại",
+    "mode": "balance",
+    "headline": "FIVE HUNDRED DOLLARS\nOF BREATHING ROOM.",
+    "start": 198.15,
+    "amount": 500,
+    "end": 201.9,
+    "clipId": "salary-v02-039"
+  },
+  {
+    "section": 4,
+    "anchor": "Enough to make progress, yes.",
+    "title": "Vẫn có thể tiến bộ",
+    "mode": "hero",
+    "headline": "ENOUGH TO MAKE PROGRESS.",
+    "start": 201.9,
+    "message": "SOME BREATHING ROOM.",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 204.3,
+    "clipId": "salary-v02-040"
+  },
+  {
+    "section": 4,
+    "anchor": "But a lot less than Alex imagined",
+    "title": "Kỳ vọng và khoảng trống thực tế",
+    "mode": "cards",
+    "headline": "LESS THAN THE OFFER MADE IT FEEL.",
+    "start": 204.3,
+    "items": [
+      {
+        "icon": "paycheck",
+        "label": "ANNUAL GROSS SALARY",
+        "value": "$100,000",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "MONTHLY ROOM LEFT",
+        "value": "$500",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Different measures: annual gross salary vs monthly budget remainder.",
+    "end": 209.36,
+    "clipId": "salary-v02-041"
+  },
+  {
+    "section": 4,
+    "anchor": "And if those irregular costs aren't",
+    "title": "Chi phí chuyển sang thẻ",
+    "mode": "art",
+    "headline": "THIS MONTH’S EXPENSE.\nNEXT MONTH’S PAYMENT.",
+    "start": 209.36,
+    "art": "art-04b",
+    "detail": "",
+    "end": 216.84,
+    "clipId": "salary-v02-042"
+  },
+  {
+    "section": 4,
+    "anchor": "Next month, the budget gets",
+    "title": "Khoản trả cho chuyện đã qua",
+    "mode": "cards",
+    "headline": "A NEW BILL.\nFOR SOMETHING THAT ALREADY HAPPENED.",
+    "start": 216.84,
+    "items": [
+      {
+        "icon": "receipt",
+        "label": "THE PAST PURCHASE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "THE NEW PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 222.8,
+    "clipId": "salary-v02-043"
+  },
+  {
+    "section": 4,
+    "anchor": "That's how a decent income",
+    "title": "Cảm giác luôn đi sau",
+    "mode": "hero",
+    "headline": "A DECENT INCOME.\nALWAYS ONE STEP BEHIND?",
+    "start": 222.8,
+    "message": "THE COMMITMENTS ADD UP.",
+    "pose": "alex-worried",
+    "prop": "card",
+    "detail": "",
+    "end": 228.06,
+    "clipId": "salary-v02-044"
+  },
+  {
+    "section": 5,
+    "anchor": "But there's another part",
+    "title": "Nhìn lại trước khi tăng lương",
+    "mode": "hero",
+    "headline": "BEFORE THE RAISES.",
+    "start": 228.06,
+    "message": "A DIFFERENT BASELINE",
+    "pose": "alex-think",
+    "prop": "calendar",
+    "detail": "",
+    "end": 233.58,
+    "clipId": "salary-v02-045"
+  },
+  {
+    "section": 5,
+    "anchor": "The apartment was smaller.",
+    "title": "Mức sống trước kia",
+    "mode": "cards",
+    "headline": "A SMALLER SET OF COMMITMENTS.",
+    "start": 233.58,
+    "items": [
+      {
+        "icon": "home",
+        "label": "A SMALLER APARTMENT",
+        "value": "",
+        "detail": "",
+        "reveal": "The apartment was smaller."
+      },
+      {
+        "icon": "car",
+        "label": "AN OLDER CAR",
+        "value": "",
+        "detail": "",
+        "reveal": "The car was older."
+      },
+      {
+        "icon": "food",
+        "label": "AN OCCASIONAL TREAT",
+        "value": "",
+        "detail": "",
+        "reveal": "Dinner delivery was"
+      }
+    ],
+    "note": "",
+    "end": 240.66,
+    "clipId": "salary-v02-046"
+  },
+  {
+    "section": 5,
+    "anchor": "Then the raises started coming.",
+    "title": "Các lần nâng cấp",
+    "mode": "art",
+    "headline": "A RAISE.\nAN UPGRADE.",
+    "start": 240.66,
+    "art": "art-05a",
+    "detail": "",
+    "end": 243.72,
+    "clipId": "salary-v02-047"
+  },
+  {
+    "section": 5,
+    "anchor": "And every upgrade had",
+    "title": "Lý do nâng cấp nghe hợp lý",
+    "mode": "hero",
+    "headline": "EACH UPGRADE\nHAD A REASON.",
+    "start": 243.72,
+    "message": "THE CHOICES MADE SENSE.",
+    "pose": "alex-think",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "end": 247.4,
+    "clipId": "salary-v02-048"
+  },
+  {
+    "section": 5,
+    "anchor": "The nicer apartment cut",
+    "title": "Những lý do cho từng lựa chọn",
+    "mode": "cards",
+    "headline": "SHORTER COMMUTE.\nMORE RELIABILITY. A FEW DOLLARS.",
+    "start": 247.4,
+    "items": [
+      {
+        "icon": "home",
+        "label": "A SHORTER COMMUTE",
+        "value": "",
+        "detail": "",
+        "reveal": "The nicer apartment cut"
+      },
+      {
+        "icon": "car",
+        "label": "MORE RELIABILITY",
+        "value": "",
+        "detail": "",
+        "reveal": "The newer car felt"
+      },
+      {
+        "icon": "streaming",
+        "label": "A FEW DOLLARS EACH",
+        "value": "",
+        "detail": "",
+        "reveal": "The extra subscriptions were"
+      }
+    ],
+    "note": "",
+    "end": 256.68,
+    "clipId": "salary-v02-049"
+  },
+  {
+    "section": 5,
+    "anchor": "None of those decisions",
+    "title": "Không quy mọi nâng cấp là sai",
+    "mode": "hero",
+    "headline": "NOT NECESSARILY\nA MISTAKE.",
+    "start": 256.68,
+    "message": "LOOK AT THE PATTERN.",
+    "pose": "alex-think",
+    "prop": "shield",
+    "detail": "",
+    "end": 259.8,
+    "clipId": "salary-v02-050"
+  },
+  {
+    "section": 5,
+    "anchor": "The problem was that every raise",
+    "title": "Mỗi lần tăng lương thêm cam kết",
+    "mode": "art",
+    "headline": "ANOTHER RAISE.\nANOTHER COMMITMENT.",
+    "start": 259.8,
+    "art": "art-05b",
+    "detail": "",
+    "end": 262.94,
+    "clipId": "salary-v02-051"
+  },
+  {
+    "section": 5,
+    "anchor": "More money came in.",
+    "title": "Thu nhập và tiền hứa trả cùng tăng",
+    "mode": "cards",
+    "headline": "MORE IN.\nMORE PROMISED AWAY.",
+    "start": 262.94,
+    "items": [
+      {
+        "icon": "money",
+        "label": "MONEY COMING IN",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "receipt",
+        "label": "MONEY ALREADY PROMISED",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 267.9,
+    "clipId": "salary-v02-052"
+  },
+  {
+    "section": 5,
+    "anchor": "This is lifestyle creep.",
+    "title": "Mức sống tăng dần",
+    "mode": "hero",
+    "headline": "LIFESTYLE CREEP.",
+    "start": 267.9,
+    "message": "YESTERDAY’S LUXURIES.\nTODAY’S NORMAL.",
+    "pose": "alex-present",
+    "prop": "money",
+    "detail": "",
+    "end": 270.72,
+    "clipId": "salary-v02-053"
+  },
+  {
+    "section": 5,
+    "anchor": "It rarely feels like",
+    "title": "Không phải một lần mua sắm lớn",
+    "mode": "cards",
+    "headline": "LESS LIKE A SHOPPING SPREE.\nMORE LIKE A NEW ROUTINE.",
+    "start": 270.72,
+    "items": [
+      {
+        "icon": "mpt-parcel",
+        "label": "ONE BIG PURCHASE?",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "calendar",
+        "label": "A HIGHER BASELINE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 274.8,
+    "clipId": "salary-v02-054"
+  },
+  {
+    "section": 5,
+    "anchor": "It feels like slowly turning",
+    "title": "Thói quen chi tiêu thay đổi dần",
+    "mode": "hero",
+    "headline": "YESTERDAY’S LUXURIES.\nTODAY’S NORMAL EXPENSES.",
+    "start": 274.8,
+    "message": "THE BASELINE MOVES.",
+    "pose": "alex-think",
+    "prop": "calendar",
+    "detail": "",
+    "end": 281.02,
+    "clipId": "salary-v02-055"
+  },
+  {
+    "section": 5,
+    "anchor": "And once a higher standard",
+    "title": "Lùi một bước có thể thêm tự do",
+    "mode": "hero",
+    "headline": "STEPPING BACK\nCAN CREATE MORE FREEDOM.",
+    "start": 281.02,
+    "message": "LESS COMMITTED. MORE FLEXIBLE.",
+    "pose": "alex-think",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 290.46,
+    "clipId": "salary-v02-056"
+  },
+  {
+    "section": 6,
+    "anchor": "Then Alex opens social media.",
+    "title": "Bảng tin mạng xã hội",
+    "mode": "art",
+    "headline": "THE HIGHLIGHT REEL.",
+    "start": 290.46,
+    "art": "art-06a",
+    "detail": "",
+    "end": 294.28,
+    "clipId": "salary-v02-057"
+  },
+  {
+    "section": 6,
+    "anchor": "Someone just bought a house.",
+    "title": "Ba hình ảnh dễ đem so sánh",
+    "mode": "cards",
+    "headline": "A HOUSE. ITALY. A BOAT.",
+    "start": 294.28,
+    "items": [
+      {
+        "icon": "home",
+        "label": "A HOUSE",
+        "value": "",
+        "detail": "",
+        "reveal": "Someone just bought a house."
+      },
+      {
+        "icon": "flight",
+        "label": "ITALY",
+        "value": "",
+        "detail": "",
+        "reveal": "Someone else is in Italy."
+      },
+      {
+        "icon": "vacation",
+        "label": "A BOAT",
+        "value": "",
+        "detail": "",
+        "reveal": "A person Alex barely remembers"
+      }
+    ],
+    "note": "",
+    "end": 304.42,
+    "clipId": "salary-v02-058"
+  },
+  {
+    "section": 6,
+    "anchor": "Nobody is posting their",
+    "title": "Những gì không có trên bảng tin",
+    "mode": "cards",
+    "headline": "WHAT YOU DON’T SEE.",
+    "start": 304.42,
+    "items": [
+      {
+        "icon": "shield",
+        "label": "THE INSURANCE DEDUCTIBLE",
+        "value": "",
+        "detail": "",
+        "reveal": "Nobody is posting their"
+      },
+      {
+        "icon": "card",
+        "label": "THE CREDIT CARD INTEREST",
+        "value": "",
+        "detail": "",
+        "reveal": "Nobody is making a highlight reel"
+      }
+    ],
+    "note": "",
+    "end": 312.44,
+    "clipId": "salary-v02-059"
+  },
+  {
+    "section": 6,
+    "anchor": "And a photo doesn't tell",
+    "title": "Nguồn tiền mà bức ảnh không cho biết",
+    "mode": "art",
+    "headline": "A PHOTO DOESN’T\nSHOW THE FUNDING.",
+    "start": 312.44,
+    "art": "art-new-social-context",
+    "detail": "Savings, debt, family help or a larger income: possibilities, not assumptions.",
+    "end": 321.64,
+    "clipId": "salary-v02-060"
+  },
+  {
+    "section": 6,
+    "anchor": "But your brain fills",
+    "title": "Não tự điền phần còn thiếu",
+    "mode": "hero",
+    "headline": "YOUR BRAIN\nFILLS IN THE BLANKS.",
+    "start": 321.64,
+    "message": "EVERYONE ELSE LOOKS COMFORTABLE.",
+    "pose": "alex-think",
+    "prop": "phone",
+    "detail": "",
+    "end": 327.58,
+    "clipId": "salary-v02-061"
+  },
+  {
+    "section": 6,
+    "anchor": "So you start treating their spending",
+    "title": "Lấy chi tiêu người khác làm chuẩn",
+    "mode": "hero",
+    "headline": "THEIR SPENDING\nBECOMES YOUR BENCHMARK.",
+    "start": 327.58,
+    "message": "CAN YOUR PAYCHECK SUPPORT IT?",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-bank-card",
+    "detail": "",
+    "end": 332.76,
+    "clipId": "salary-v02-062"
+  },
+  {
+    "section": 6,
+    "anchor": "Now your paycheck has",
+    "title": "Một lương gánh hai cuộc sống",
+    "mode": "art",
+    "headline": "ONE PAYCHECK.\nTWO LIVES.",
+    "start": 332.76,
+    "art": "art-06b",
+    "detail": "",
+    "end": 335.92,
+    "clipId": "salary-v02-063"
+  },
+  {
+    "section": 6,
+    "anchor": "The life you actually live.",
+    "title": "Cuộc sống thật và cuộc sống mong đợi",
+    "mode": "cards",
+    "headline": "THE LIFE YOU LIVE.\nTHE LIFE YOU FEEL YOU SHOULD LIVE.",
+    "start": 335.92,
+    "items": [
+      {
+        "icon": "home",
+        "label": "YOUR ACTUAL LIFE",
+        "value": "",
+        "detail": "",
+        "reveal": "The life you actually live."
+      },
+      {
+        "icon": "vacation",
+        "label": "THE EXPECTED LIFE",
+        "value": "",
+        "detail": "",
+        "reveal": "And the life you feel"
+      }
+    ],
+    "note": "",
+    "end": 341.04,
+    "clipId": "salary-v02-064"
+  },
+  {
+    "section": 6,
+    "anchor": "That's an expensive comparison.",
+    "title": "Cái giá của sự so sánh",
+    "mode": "hero",
+    "headline": "AN EXPENSIVE COMPARISON.",
+    "start": 341.04,
+    "message": "START WITH YOUR OWN NUMBERS.",
+    "pose": "alex-think",
+    "prop": "wallet",
+    "detail": "",
+    "end": 342.5,
+    "clipId": "salary-v02-065"
+  },
+  {
+    "section": 7,
+    "anchor": "So how does Alex get",
+    "title": "Bắt đầu tìm khoảng thở",
+    "mode": "hero",
+    "headline": "START WITH\nWHAT ACTUALLY ARRIVES.",
+    "start": 342.5,
+    "message": "TAKE-HOME PAY",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-pay-envelope",
+    "detail": "",
+    "end": 349.54,
+    "clipId": "salary-v02-066"
+  },
+  {
+    "section": 7,
+    "anchor": "Build the plan around",
+    "title": "Lập ngân sách trên thực nhận",
+    "mode": "cards",
+    "headline": "THE JOB OFFER\nISN’T THE MONTHLY PLAN.",
+    "start": 349.54,
+    "items": [
+      {
+        "icon": "paycheck",
+        "label": "GROSS SALARY",
+        "value": "$100,000 / year",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "phone",
+        "label": "TAKE-HOME PAY",
+        "value": "$6,000 / month",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Take-home figure is illustrative for this story.",
+    "end": 355.7,
+    "clipId": "salary-v02-067"
+  },
+  {
+    "section": 7,
+    "anchor": "Then look at the biggest",
+    "title": "Ba cam kết lớn nên xem lại",
+    "mode": "cards",
+    "headline": "START WITH THE BIGGEST COMMITMENTS.",
+    "start": 355.7,
+    "items": [
+      {
+        "icon": "home",
+        "label": "HOUSING",
+        "value": "",
+        "detail": "",
+        "reveal": "Housing."
+      },
+      {
+        "icon": "car",
+        "label": "TRANSPORTATION",
+        "value": "",
+        "detail": "",
+        "reveal": "Transportation."
+      },
+      {
+        "icon": "debt",
+        "label": "DEBT PAYMENTS",
+        "value": "",
+        "detail": "",
+        "reveal": "Debt payments."
+      }
+    ],
+    "note": "",
+    "end": 362.58,
+    "clipId": "salary-v02-068"
+  },
+  {
+    "section": 7,
+    "anchor": "Canceling a subscription can help.",
+    "title": "Nhỏ và lớn trong ngân sách",
+    "mode": "cards",
+    "headline": "SMALL SAVINGS CAN HELP.\nFIND THE BIG PRESSURE.",
+    "start": 362.58,
+    "items": [
+      {
+        "icon": "streaming",
+        "label": "A CHEAPER SUBSCRIPTION",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car",
+        "label": "AN EXPENSIVE CAR PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 365.06,
+    "clipId": "salary-v02-069"
+  },
+  {
+    "section": 7,
+    "anchor": "But if the real pressure",
+    "title": "Chọn đúng nguồn gây áp lực",
+    "mode": "hero",
+    "headline": "FIX THE SOURCE\nOF THE PRESSURE.",
+    "start": 365.06,
+    "message": "THE BIG RECURRING COST",
+    "pose": "mpt-alex-plan",
+    "prop": "car",
+    "detail": "",
+    "end": 372.88,
+    "clipId": "salary-v02-070"
+  },
+  {
+    "section": 7,
+    "anchor": "Some changes take time.",
+    "title": "Thay đổi cần thời gian",
+    "mode": "cards",
+    "headline": "SOME CHANGES TAKE TIME.",
+    "start": 372.88,
+    "items": [
+      {
+        "icon": "calendar",
+        "label": "A LEASE MAY NEED TO END",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "debt",
+        "label": "A DEBT NEEDS A PLAN",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 379.74,
+    "clipId": "salary-v02-071"
+  },
+  {
+    "section": 7,
+    "anchor": "You don't have to fix everything",
+    "title": "Không cần sửa hết trong một ngày",
+    "mode": "hero",
+    "headline": "NOT EVERYTHING\nHAS TO CHANGE TODAY.",
+    "start": 379.74,
+    "message": "ONE STEP AT A TIME.",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-clipboard",
+    "detail": "",
+    "end": 383.54,
+    "clipId": "salary-v02-072"
+  },
+  {
+    "section": 7,
+    "anchor": "Next, stop calling predictable",
+    "title": "Lập quỹ cho khoản có thể dự tính",
+    "mode": "art",
+    "headline": "PREDICTABLE COSTS\nDESERVE A PLAN.",
+    "start": 383.54,
+    "art": "art-new-annual-funds",
+    "detail": "",
+    "end": 388.56,
+    "clipId": "salary-v02-073"
+  },
+  {
+    "section": 7,
+    "anchor": "Car repairs, annual bills,",
+    "title": "Ba nhóm quỹ dự tính",
+    "mode": "cards",
+    "headline": "SET SOMETHING ASIDE EACH PAYDAY.",
+    "start": 388.56,
+    "items": [
+      {
+        "icon": "wrench",
+        "label": "CAR REPAIRS",
+        "value": "",
+        "detail": "",
+        "reveal": "Car repairs,"
+      },
+      {
+        "icon": "receipt",
+        "label": "ANNUAL BILLS",
+        "value": "",
+        "detail": "",
+        "reveal": "annual bills,"
+      },
+      {
+        "icon": "gift",
+        "label": "HOLIDAY SPENDING",
+        "value": "",
+        "detail": "",
+        "reveal": "and holiday spending"
+      }
+    ],
+    "note": "",
+    "end": 395.96,
+    "clipId": "salary-v02-074"
+  },
+  {
+    "section": 7,
+    "anchor": "When the bill arrives,",
+    "title": "Tiền được giao việc trước khi hóa đơn đến",
+    "mode": "hero",
+    "headline": "THE BILL ARRIVES.\nTHE MONEY HAS A JOB.",
+    "start": 395.96,
+    "message": "READY FOR A PREDICTABLE COST.",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 401.06,
+    "clipId": "salary-v02-075"
+  },
+  {
+    "section": 7,
+    "anchor": "And when your income rises,",
+    "title": "Chia tăng lương có kế hoạch",
+    "mode": "art",
+    "headline": "PLAN THE RAISE\nBEFORE IT BECOMES ROUTINE.",
+    "start": 401.06,
+    "art": "art-new-raise-plan",
+    "detail": "",
+    "end": 407.98,
+    "clipId": "salary-v02-076"
+  },
+  {
+    "section": 7,
+    "anchor": "Some can improve your life today.",
+    "title": "Hiện tại tiết kiệm và trả nợ",
+    "mode": "cards",
+    "headline": "GIVE THE INCREASE A JOB.",
+    "start": 407.98,
+    "items": [
+      {
+        "icon": "food",
+        "label": "LIFE TODAY",
+        "value": "",
+        "detail": "",
+        "reveal": "Some can improve your life"
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "SAVINGS + GOALS",
+        "value": "",
+        "detail": "",
+        "reveal": "Some can build savings,"
+      },
+      {
+        "icon": "debt",
+        "label": "LESS DEBT",
+        "value": "",
+        "detail": "",
+        "reveal": "reduce debt,"
+      }
+    ],
+    "note": "No fixed allocation or guaranteed result is assumed.",
+    "end": 416.92,
+    "clipId": "salary-v02-077"
+  },
+  {
+    "section": 7,
+    "anchor": "The point isn't to reject every upgrade.",
+    "title": "Không cần từ chối mọi nâng cấp",
+    "mode": "hero",
+    "headline": "ENJOY AN UPGRADE.\nKEEP SOME FREEDOM.",
+    "start": 416.92,
+    "message": "DON’T COMMIT THE ENTIRE RAISE.",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-cash-tray",
+    "detail": "",
+    "end": 423.98,
+    "clipId": "salary-v02-078"
+  },
+  {
+    "section": 8,
+    "anchor": "Of course, not every tight budget",
+    "title": "Không phải mọi khó khăn đều do mức sống",
+    "mode": "hero",
+    "headline": "NOT EVERY TIGHT BUDGET\nIS A LIFESTYLE PROBLEM.",
+    "start": 423.98,
+    "message": "START WITH THE REAL CIRCUMSTANCES.",
+    "pose": "alex-think",
+    "prop": "shield",
+    "detail": "",
+    "end": 428.45,
+    "clipId": "salary-v02-079"
+  },
+  {
+    "section": 8,
+    "anchor": "Childcare, medical needs,",
+    "title": "Áp lực thật từ chi phí thiết yếu",
+    "mode": "art",
+    "headline": "CHILDCARE. MEDICAL NEEDS.\nFAMILY. LOCATION.",
+    "start": 428.45,
+    "art": "art-08a",
+    "detail": "",
+    "end": 437.14,
+    "clipId": "salary-v02-080"
+  },
+  {
+    "section": 8,
+    "anchor": "Sometimes the biggest issue isn't",
+    "title": "Chi phí thiết yếu có thể thực sự cao",
+    "mode": "hero",
+    "headline": "ESSENTIAL COSTS\nCAN BE GENUINELY HIGH.",
+    "start": 437.14,
+    "message": "THIS ISN’T ALWAYS CARELESS SPENDING.",
+    "pose": "alex-think",
+    "prop": "home",
+    "detail": "",
+    "end": 445.32,
+    "clipId": "salary-v02-081"
+  },
+  {
+    "section": 8,
+    "anchor": "But whatever the cause,",
+    "title": "Tìm tiền đã được cam kết ở đâu",
+    "mode": "art",
+    "headline": "WHERE IS THE MONEY\nALREADY COMMITTED?",
+    "start": 445.32,
+    "art": "art-new-cashflow",
+    "detail": "",
+    "end": 452.04,
+    "clipId": "salary-v02-082"
+  },
+  {
+    "section": 8,
+    "anchor": "Because a higher salary",
+    "title": "Thu nhập cho lựa chọn nhưng cần kế hoạch",
+    "mode": "cards",
+    "headline": "MORE OPTIONS.\nSTILL NEEDS A PLAN.",
+    "start": 452.04,
+    "items": [
+      {
+        "icon": "money",
+        "label": "A HIGHER SALARY",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-clipboard",
+        "label": "A WORKABLE PLAN",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 458.5,
+    "clipId": "salary-v02-083"
+  },
+  {
+    "section": 8,
+    "anchor": "For Alex, financial progress",
+    "title": "Những tiến bộ có thể bắt đầu nhỏ",
+    "mode": "cards",
+    "headline": "PROGRESS CAN START WITH…",
+    "start": 458.5,
+    "items": [
+      {
+        "icon": "paid",
+        "label": "ONE LESS PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": "one less payment,"
+      },
+      {
+        "icon": "home",
+        "label": "A SMALLER FIXED COST",
+        "value": "",
+        "detail": "",
+        "reveal": "a smaller fixed expense,"
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "A CASH BUFFER",
+        "value": "",
+        "detail": "",
+        "reveal": "or a cash buffer"
+      }
+    ],
+    "note": "",
+    "end": 470.62,
+    "clipId": "salary-v02-084"
+  },
+  {
+    "section": 8,
+    "anchor": "Not something impressive enough",
+    "title": "Khoảng thở không cần phô trương",
+    "mode": "art",
+    "headline": "NOT SOMETHING\nYOU NEED TO POST.",
+    "start": 470.62,
+    "art": "art-08b",
+    "detail": "",
+    "end": 473.74,
+    "clipId": "salary-v02-085"
+  },
+  {
+    "section": 8,
+    "anchor": "Just enough space to stop feeling trapped.",
+    "title": "Bớt cảm giác bị mắc kẹt",
+    "mode": "hero",
+    "headline": "ENOUGH SPACE\nTO STOP FEELING TRAPPED.",
+    "start": 473.74,
+    "message": "ROOM TO BREATHE.",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 476.18,
+    "clipId": "salary-v02-086"
+  },
+  {
+    "section": 8,
+    "anchor": "And that raises a better question",
+    "title": "Câu hỏi tốt hơn về tiền",
+    "mode": "hero",
+    "headline": "MORE THAN\n“DO I MAKE GOOD MONEY?”",
+    "start": 476.18,
+    "message": "WHAT IS YOUR MONEY HELPING YOU BUILD?",
+    "pose": "alex-think",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 481.58,
+    "clipId": "salary-v02-087"
+  },
+  {
+    "section": 8,
+    "anchor": "How much of the money I make",
+    "title": "Câu hỏi kết về cuộc sống muốn xây",
+    "mode": "art",
+    "headline": "IS YOUR MONEY BUILDING\nTHE LIFE YOU ACTUALLY WANT?",
+    "start": 481.58,
+    "art": "art-08b",
+    "detail": "",
+    "end": 486.75,
+    "clipId": "salary-v02-088"
+  }
+]

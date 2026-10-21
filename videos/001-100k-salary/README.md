@@ -8,11 +8,25 @@
 - [Ảnh mẫu phong cách](../../assets/samples/finance-hand-drawn-2d.png).
 - [Xem toàn bộ bộ hình](index.html) · [Trang xem online](https://tai23082004l02-svg.github.io/Credit_Studio/videos/001-100k-salary/).
 - [Phân cảnh và hướng chuyển động](storyboard.md).
-- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ](exports/full-review-v01.mp4) · [MP4 mở đầu cũ 40,5 giây](exports/intro-v01.mp4).
+- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ v02](exports/full-review-v02.mp4) · [MP4 mở đầu cũ 40,5 giây](exports/intro-v01.mp4).
 
 Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001) để quản lý bản dựng, cảnh ảnh, audio và lời thoại cùng một chỗ. Chọn **Hình ảnh → Chỉnh cảnh trong dự án** để sửa trực tiếp, mỗi cảnh có bản lưu riêng. **Sao lưu dự án** giữ cả bản video, các cảnh đã sửa và tệp bạn thêm vào trình duyệt.
 
-## Bản duyệt đầy đủ
+## Bản duyệt đầy đủ v02 hiện tại
+
+Đã dựng lại **88 cảnh / 486,75 giây**, tăng 24 nhịp cắt so với v01, giữ nguyên lời đọc. Đây là bản duyệt mới, chưa phải bản cuối được người dùng chấp thuận.
+
+- [MP4 v02](exports/full-review-v02.mp4), 1920×1080 / 30 fps.
+- [Dự án chỉnh được](review-v02/project.json) · [Timecode 88 cảnh](review-v02/README.md) · [Kiểm tra thực tế](review-v02/validation.json).
+- Bốn minh họa mới: dòng tiền, quỹ chi phí trong năm, nguồn tiền sau hình ảnh trên mạng và kế hoạch tăng lương. Có trong **Hình ảnh**, cùng 16 thiết kế gốc; chữ chỉnh riêng được.
+- Bố cục mới dành vùng riêng cho tiêu đề và nhân vật; đã sửa cảnh “PLAN AROUND WHAT ARRIVES” che tóc. Thẻ đạo cụ/nhãn căn giữa, biểu đồ 4.900 + 600 + 500 đúng tỉ lệ trên 6.000 USD minh họa.
+- `review-v02/voiceover.mp3` chuẩn hóa âm lượng từ WAV gốc; không thay lời, không thêm nhạc nền hoặc rig khớp nhân vật.
+- Studio lưu nguyên bản intro/full v01 đã chỉnh vào **Bản lưu trước cập nhật** trước khi mở v02. Những thay đổi riêng trong IndexedDB không tự có trên GitHub và không được ghép vào bản v02 này; muốn tiếp tục từ chúng, cung cấp `.credit.json` hoặc JSON đã chỉnh.
+- `review/`, `intro/`, toàn bộ 16 ảnh/thiết kế gốc và MP4 trước đây được giữ nguyên. Các sửa đổi trên v02 được giữ khi reload.
+
+Tạo dữ liệu: `python3 tools/build-salary-review-v02.py`; đóng gói bốn thiết kế mới: `node tools/build-salary-v02-designs.cjs`. Cả hai chặn ghi đè trừ `--force`; chỉ dùng sau khi sao lưu bản sửa tay. Xuất MP4 bằng `tools/render-intro.cjs` với đầu vào `review-v02/project.json` và tên xuất mới. Không chạy công cụ đóng gói 16 thiết kế cũ lên các mục v02.
+
+## Bản duyệt đầy đủ v01 được giữ lại
 
 Đã nối toàn bộ lời đọc thành **64 cảnh, dài 8 phút 06,75 giây**, giữ nguyên 8 cảnh mở đầu. Đây là bản duyệt v01 để sửa tiểu tiết trước bản xuất cuối.
 
@@ -52,18 +66,18 @@ Chữ trong video, phụ đề, giao diện và các dự án cảnh hiện dùn
 
 - `images/scenes/`: 16 ảnh cảnh chính, hai cảnh cho mỗi phần lời thoại.
 - `images/sheets/`: 3 bảng PNG nền trong suốt, gồm 4 tư thế Alex và 24 nhóm đạo cụ.
-- `projects/`: 16 dự án JSON, mở bằng nút **Mở dự án** trong Credit Studio để sửa chữ và số.
+- `projects/`: 20 dự án JSON (16 gốc + 4 bổ sung v02), mở bằng nút **Mở dự án** trong Credit Studio để sửa chữ và số.
 - `artwork.json`: danh sách cảnh, câu bắt đầu trong lời thoại, vị trí lớp chữ và liên kết tệp.
 
 Ảnh cảnh gốc là PNG 1672 × 941, bố cục gần 16:9. Trang dự án là 1920 × 1080; ảnh gốc không được nâng độ phân giải hoặc chỉnh sửa trong bước đóng gói. Nhân vật và đồ vật trong mỗi ảnh cảnh là một lớp ảnh, chưa tách riêng. Các bảng tài nguyên là PNG nền trong suốt, chưa tách từng vật thể hoặc gắn khớp hoạt hình.
 
 Chữ và số tài chính được giữ riêng trong JSON để sửa được và tránh sai số trong ảnh tạo sinh. Mở trang xem bộ hình để thấy phiên bản có lớp chữ; PNG gốc chưa có các lớp chữ đó.
 
-Để đóng gói lại JSON sau khi cập nhật lớp chữ trong `artwork.json`, chạy `python3 tools/build-video-projects.py` từ thư mục gốc kho mã. Lệnh chỉ đóng gói ảnh và chữ, không tạo lại hoặc sửa ảnh.
+Để đóng gói lại JSON sau khi cập nhật lớp chữ trong `artwork.json`, chạy `python3 tools/build-video-projects.py` từ thư mục gốc kho mã. Công cụ này dành cho bộ hình gốc; không chạy lên bốn mục v02. Với mục v02 dùng `tools/build-salary-v02-designs.cjs` sau khi sao lưu.
 
 ## Trạng thái
 
-Đã có bộ hình, công cụ chỉnh video và bản duyệt đầy đủ 64 cảnh / 486,75 giây. Chờ người dùng duyệt và yêu cầu chỉnh tiểu tiết; giữ nguyên WAV gốc và MP4 mở đầu.
+Hiện tại: bản duyệt v02 gồm 88 cảnh / 486,75 giây, 20 thiết kế ảnh. Chờ người dùng góp ý kèm timecode; bảo toàn WAV, bản v01 và intro.
 
 ## Quy trình bàn giao
 

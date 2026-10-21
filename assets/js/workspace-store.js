@@ -6,8 +6,9 @@ export const LEGACY_DESIGN_ID='legacy-design';
 // Only known published predecessors are automatically archived and replaced.
 // Restored copies and edits to a current review never match these rules.
 export function canUpgradePublishedVideo(id,from,to){
- const rule=id===FINANCE_ID?['intro-v01','full-review-v01']:id==='finance-002'?['artwork-board-v01','monthly-payment-review-v01']:null;
- return !!rule&&from===rule[0]&&(arguments.length<3||to===rule[1]);
+ const rules=id===FINANCE_ID?[['intro-v01','full-review-v01'],['intro-v01','salary-review-v02'],['full-review-v01','salary-review-v02']]:id==='finance-002'?[['artwork-board-v01','monthly-payment-review-v01']]:[];
+ const hasTarget=arguments.length>=3;
+ return rules.some(rule=>from===rule[0]&&(!hasTarget||to===rule[1]));
 }
 let opening,catalogPromise;
 const validID=id=>typeof id==='string'&&/^[a-zA-Z0-9_-]{1,80}$/.test(id);

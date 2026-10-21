@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-21",
+  "stage": "full review v02, pending user approval",
+  "timelineSeconds": 486.75,
+  "formatSeconds": 486.766667,
+  "frames": 14603,
+  "bytes": 42954002,
+  "codecs": {
+    "video": "h264",
+    "audio": "aac"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "decodedWithoutErrors": true,
+  "layout": {
+    "clips": 88,
+    "duration": 486.7500000000001,
+    "checkedFrames": 264,
+    "maxCaptionLines": 1,
+    "assets": 54
+  },
+  "sourceAudioComparison": [
+    {
+      "seconds": 10,
+      "sourceWholeSnippetCorrelation": 0.997667,
+      "source50msMedianCorrelation": 0.999982,
+      "derivedMP3Correlation": 0.99184,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 200,
+      "sourceWholeSnippetCorrelation": 0.980188,
+      "source50msMedianCorrelation": 0.999957,
+      "derivedMP3Correlation": 0.997217,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 480,
+      "sourceWholeSnippetCorrelation": 0.979621,
+      "source50msMedianCorrelation": 0.999968,
+      "derivedMP3Correlation": 0.997052,
+      "timeLagSamplesAt16kHz": 0
+    }
+  ],
+  "finalAudioLoudness": {
+    "integratedLUFS": -16.69,
+    "truePeakDBTP": -1.56,
+    "loudnessRangeLU": 2.3
+  },
+  "sourceWAVPreserved": true,
+  "browserSuites": [
+    "salary-review-v02: 88 clips, 264 entrance/middle/exit frame checks; image/text separation; caption space",
+    "salary-review-upgrade: edited full v01 and intro archive/download/backup; edit persistence; audio seeks/playback; mobile",
+    "salary-v02-artwork: 20 designs; four new editable compositions with centered titles",
+    "project-workspaces: project isolation, old intro archive, backups and restoration"
+  ],
+  "unitTests": "10 passed (engine, WebM, media storage)",
+  "font": "TimesNewRomanPS-BoldMT verified through Chrome platform fonts",
+  "notes": [
+    "MP4 uses the same canvas renderer as Studio",
+    "Video frames round to 30fps; narration/timeline remain 486.75 seconds",
+    "Original full v01, intro, source WAV, 16 artwork projects and all video 002 files preserved",
+    "Audio normalization changes gain over time; source comparison uses short-window correlations and zero-lag checks",
+    "No music or joint-rig animation",
+    "Captions available in Studio, disabled in default MP4",
+    "Word alignment is automatic and can have word-level timing error"
+  ],
+  "pending": [
+    "User review and timecoded notes",
+    "Receive browser backup before continuing any user-only edits"
+  ]
+}

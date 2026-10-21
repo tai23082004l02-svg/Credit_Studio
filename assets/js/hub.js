@@ -1,5 +1,5 @@
 import {loadProps,drawProp,propPNG,insertProp} from './prop-library.js?v=r2-v1';
-import {APP_ROOT,FINANCE_ID,catalog,listWorkspaces,getWorkspace,registerWorkspace,createWorkspace,getDocument,saveDocument,promotePublishedVideo,canUpgradePublishedVideo,blankVideo,getFiles,addFile,dataURL,resourceURL,makeBackup,restoreBackup,migrateLegacy} from './workspace-store.js?v=monthly-review-v1';
+import {APP_ROOT,FINANCE_ID,catalog,listWorkspaces,getWorkspace,registerWorkspace,createWorkspace,getDocument,saveDocument,promotePublishedVideo,canUpgradePublishedVideo,blankVideo,getFiles,addFile,dataURL,resourceURL,makeBackup,restoreBackup,migrateLegacy} from './workspace-store.js?v=salary-v02-v1';
 import {validate as validateVideo,duration} from '../../video/engine.js?v=r2-v1';
 import {validateDesign} from './design-model.js';
 const $=s=>document.querySelector(s);
@@ -34,7 +34,7 @@ async function overview(meta){const section=$('#overview');section.hidden=false;
 }
 async function images(meta,params){$('#image-tools').hidden=false;$('#show-library').hidden=!meta.gallery;const editing=params.get('view')==='edit'||params.has('scene')||params.has('file')||!meta.gallery;$('#scene-select-label').hidden=!editing;$('#show-library').classList.toggle('primary',!editing);$('#show-design').classList.toggle('primary',editing);
  $('#scene-select').replaceChildren(el('option',{value:''},'Thiết kế tự do'));
- if(meta.artwork){const r=await fetch(resourceURL(meta.artwork));if(!r.ok)throw Error('Không tải được thư viện cảnh.');const data=await r.json();for(const f of data.frames)$('#scene-select').append(el('option',{value:f.id},f.id+' · '+f.title));}
+ if(meta.artwork){const r=await fetch(resourceURL(meta.artwork),{cache:'no-cache'});if(!r.ok)throw Error('Không tải được thư viện cảnh.');const data=await r.json();for(const f of data.frames)$('#scene-select').append(el('option',{value:f.id},f.id+' · '+f.title));}
  $('#scene-select').value=params.get('scene')||'';
  if(editing){const url=new URL('design/',APP_ROOT);url.searchParams.set('project',meta.id);url.searchParams.set('embed','1');for(const k of ['scene','file'])if(params.get(k))url.searchParams.set(k,params.get(k));frame(url);}else{const url=resourceURL(meta.gallery);url.searchParams.set('project',meta.id);url.searchParams.set('embed','1');frame(url);}
 }
@@ -46,7 +46,7 @@ async function files(meta){$('#files-panel').hidden=false;const list=$('#file-li
  if(!list.children.length)list.append(el('div',{class:'empty'},'Chưa có tài nguyên. Thêm giọng đọc, ảnh hoặc lời thoại cho dự án này.'));
 }
 async function renderRoute(){const ticket=++routeTicket;const params=new URLSearchParams(location.search),id=params.get('project');hideSections();if(params.get('view')==='props'){await showProps(id,ticket);return;}if(!id){await renderHome();return;}const meta=await getWorkspace(id);if(ticket!==routeTicket)return;activeMeta=meta;currentTab=['overview','video','images','files'].includes(params.get('tab'))?params.get('tab'):'overview';$('#home').hidden=true;$('#workspace').hidden=false;$('#workspace-name').textContent=meta.name;$('#workspace-description').textContent=meta.description;document.title=meta.name+' · Credit Studio';document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===currentTab));
- if(currentTab==='overview')await overview(meta);else if(currentTab==='video'){const url=new URL('video/',APP_ROOT);url.searchParams.set('project',meta.id);url.searchParams.set('embed','1');url.searchParams.set('v','monthly-review-v1');if(params.get('clip'))url.searchParams.set('clip',params.get('clip'));frame(url);}else if(currentTab==='images')await images(meta,params);else await files(meta);
+ if(currentTab==='overview')await overview(meta);else if(currentTab==='video'){const url=new URL('video/',APP_ROOT);url.searchParams.set('project',meta.id);url.searchParams.set('embed','1');url.searchParams.set('v','salary-v02-v1');if(params.get('clip'))url.searchParams.set('clip',params.get('clip'));frame(url);}else if(currentTab==='images')await images(meta,params);else await files(meta);
 }
 let props=[],propContext=null,targetTicket=0;
 async function propTargets(){const ticket=++targetTicket,id=$('#prop-project').value,select=$('#prop-scene');select.replaceChildren(el('option',{value:''},id?'Đang tải cảnh…':'Chọn dự án trước'));select.disabled=true;if(!id)return;try{const doc=await videoDocument(await getWorkspace(id));if(ticket!==targetTicket)return;select.replaceChildren(...doc.clips.map((c,i)=>el('option',{value:String(i)},`${String(i+1).padStart(2,'0')} · ${c.title}`)));select.disabled=false;}catch(e){if(ticket===targetTicket){select.replaceChildren(el('option',{value:''},'Chưa tải được cảnh'));toast(e.message);}}}

@@ -6,7 +6,7 @@ function el(tag,attrs={},text=''){const n=document.createElement(tag);for(const 
 function link(label,href,download=false){return el('a',{href,...(download?{download:''}:{})},label);}
 async function renderGallery(){
  await initStorage();const media=path=>mediaURL(path,new URL('./',import.meta.url));
- const response=await fetch('artwork.json');if(!response.ok)throw Error('Không tải được danh sách ảnh.');
+ const response=await fetch('artwork.json',{cache:'no-cache'});if(!response.ok)throw Error('Không tải được danh sách ảnh.');
  const data=await response.json();
  for(const frame of data.frames){
   const card=el('article'),figure=el('figure');

@@ -14,7 +14,7 @@ Website được triển khai bằng GitHub Pages từ thư mục gốc của nh
 Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật website.
 Địa chỉ chính mở trang **Dự án của bạn**. Tạo dự án mới hoặc chọn dự án hiện có, rồi chuyển giữa **Tổng quan**, **Dựng video**, **Hình ảnh**, **Âm thanh & tài liệu** trên cùng trang. `/video/` và `/design/` là các công cụ bên trong, vẫn mở riêng được nếu cần; không cần nhớ các đường dẫn này để sử dụng.
 
-[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt đầy đủ 8 phút 06,75 giây (64 cảnh), 16 cảnh ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-đầy-đủ).
+[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt đầy đủ v02 dài 8 phút 06,75 giây (88 cảnh), 20 thiết kế ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-đầy-đủ-v02-hiện-tại).
 
 ## Quản lý và lưu dự án
 
@@ -26,7 +26,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 - Dự án mới và các bản sửa được lưu trong trình duyệt hiện tại bằng IndexedDB; không tự đồng bộ sang máy khác hoặc GitHub. Tài nguyên đã xuất bản vẫn lấy từ website. Sao lưu để chuyển máy, bảo vệ khi xóa dữ liệu trình duyệt hoặc gửi bản sửa lại.
 - Dữ liệu của hai trình chỉnh cũ được chuyển sang từng dự án một lần; các khóa localStorage cũ được giữ nguyên để bảo toàn dữ liệu.
 
-Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 cũ được lưu vào **Bản lưu trước cập nhật** rồi chuyển sang bản đầy đủ. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên bản đầy đủ được giữ khi mở lại. Video 002 cũng lưu bảng hình 96 giây cũ vào lịch sử trước khi mở bản review theo audio. Các revision khác và dự án khôi phục vẫn được giữ, hiện thông báo khi có bản xuất bản khác.
+Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 hoặc bản đầy đủ v01 cũ được lưu nguyên vẹn vào **Bản lưu trước cập nhật** rồi chuyển sang v02. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên v02 được giữ khi mở lại. Video 002 cũng lưu bảng hình 96 giây cũ vào lịch sử trước khi mở bản review theo audio. Các revision khác và dự án khôi phục vẫn được giữ, hiện thông báo khi có bản xuất bản khác.
 
 ## Kho đạo cụ dùng chung
 

@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "note": "New v02 illustrations; titles/amounts are separate Studio layers. Original files retained without cropping.",
+  "scenes": [
+    {
+      "id": "cashflow",
+      "title": "Dòng tiền có người chờ sẵn",
+      "scene": "Alex stands full-body on the left, holding a cream pay envelope. Green banknotes flow across the center into a neat sequence of three blank trays: a pay envelope tray, a living-cost tray illustrated by a small apartment and car, and a cash-reserve tray with a small savings jar. Three independent green arrows connect stages, no percentages or proportional claims. Alex looks thoughtfully at the full flow. Clear cause-and-effect money story.",
+      "image": "images/cashflow.png"
+    },
+    {
+      "id": "annual-funds",
+      "title": "Lập quỹ cho các khoản chi trong năm",
+      "scene": "Alex stands full-body behind and beside a small neat table with THREE evenly spaced transparent savings jars. Jar one has a simple tooth icon, jar two a small airplane icon, jar three a laptop icon. Alex is gently placing a coin into one jar. A simple blank calendar with unnumbered cells stands to the side. All jars and icons completely separate, ample space between jars for animation. Financial preparedness, not an emergency panic.",
+      "image": "images/annual-funds.png"
+    },
+    {
+      "id": "social-context",
+      "title": "Những gì bức ảnh không kể",
+      "scene": "Alex stands full-body on the left holding a smartphone, thoughtfully comparing a large floating picture of a vacation beach and simple house on the right with FOUR separate small blank option cards below that picture. The four cards show a savings jar, a bank card, a family gift and a pay envelope. These are alternative possible funding sources, not linked debt accusations. No actual social-media interface, no real people, no letters or captions. Balanced visual metaphor: the picture does not reveal its funding.",
+      "image": "images/social-context.png"
+    },
+    {
+      "id": "raise-plan",
+      "title": "Lên kế hoạch cho lần tăng lương",
+      "scene": "Alex stands full-body in the center, calmly organizing a modest new stack of green banknotes between THREE separate cream trays on a low table. Each tray has a single centered icon: a small pleasant meal for present life, a green sprout savings jar for future goals, and a loan receipt with checkmark for reducing debt. Arrows branch from one pay envelope above the table to the three trays with NO numeric fractions or equal-allocation claims. Hopeful, practical, clear financial choices.",
+      "image": "images/raise-plan.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source": "videos/001-100k-salary/audio/Why You Feel Broke on a $100,000 Salary.wav",
+  "sha256": "340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df",
+  "duration": 486.75,
+  "sampleRate": 24000,
+  "channels": 1,
+  "alignmentModel": "faster-whisper base.en int8 CPU",
+  "matchedScriptTokens": 1007,
+  "scriptTokens": 1083,
+  "normalization": "Derived MP3 only: FFmpeg loudnorm, target -16 LUFS, true peak -1.5 dBTP; original WAV unchanged.",
+  "music": false,
+  "sourceSpeedChanged": false,
+  "alignmentSource": "videos/001-100k-salary/review/alignment.json",
+  "preservedReviewV01": "videos/001-100k-salary/review/project.json",
+  "preservedMP4V01": "videos/001-100k-salary/exports/full-review-v01.mp4",
+  "newIllustrations": 4
+}

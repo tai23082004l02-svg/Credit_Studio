@@ -6,7 +6,7 @@
     "width": 1920,
     "height": 1080
   },
-  "status": "Full editable review v01: 64 shots, 486.75 seconds; source artwork remains unchanged.",
+  "status": "Full editable review v02: 88 shots, 486.75 seconds; 16 original designs preserved, four new illustrations.",
   "frames": [
     {
       "id": "01a",
@@ -447,6 +447,58 @@
         }
       ],
       "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
+    },
+    {
+      "id": "v02-cashflow",
+      "section": 3,
+      "slug": "v02-cashflow",
+      "title": "Dòng tiền có người chờ sẵn",
+      "caption": "GIVE THE PAYCHECK\nSOMEWHERE TO GO.",
+      "cue": "Now let's give that six thousand dollars somewhere to go.",
+      "scene": "Alex stands full-body on the left, holding a cream pay envelope. Green banknotes flow across the center into a neat sequence of three blank trays: a pay envelope tray, a living-cost tray illustrated by a small apartment and car, and a cash-reserve tray with a small savings jar. Three independent green arrows connect stages, no percentages or proportional claims. Alex looks thoughtfully at the full flow. Clear cause-and-effect money story.",
+      "image": "review-v02/images/cashflow-board.png",
+      "project": "projects/v02-cashflow.json",
+      "overlays": [],
+      "motion": "Minh họa bổ sung v02. Chữ là lớp riêng trong thiết kế; toàn bộ minh họa là một lớp ảnh, chưa rig khớp. Timecode: review-v02/README.md."
+    },
+    {
+      "id": "v02-annual-funds",
+      "section": 4,
+      "slug": "v02-annual-funds",
+      "title": "Lập quỹ cho các khoản chi trong năm",
+      "caption": "PREDICTABLE COSTS\nDESERVE A PLAN.",
+      "cue": "Then real life walks in.",
+      "scene": "Alex stands full-body behind and beside a small neat table with THREE evenly spaced transparent savings jars. Jar one has a simple tooth icon, jar two a small airplane icon, jar three a laptop icon. Alex is gently placing a coin into one jar. A simple blank calendar with unnumbered cells stands to the side. All jars and icons completely separate, ample space between jars for animation. Financial preparedness, not an emergency panic.",
+      "image": "review-v02/images/annual-funds-board.png",
+      "project": "projects/v02-annual-funds.json",
+      "overlays": [],
+      "motion": "Minh họa bổ sung v02. Chữ là lớp riêng trong thiết kế; toàn bộ minh họa là một lớp ảnh, chưa rig khớp. Timecode: review-v02/README.md."
+    },
+    {
+      "id": "v02-social-context",
+      "section": 6,
+      "slug": "v02-social-context",
+      "title": "Những gì bức ảnh không kể",
+      "caption": "A PHOTO DOESN’T\nSHOW THE FUNDING.",
+      "cue": "Then Alex opens social media.",
+      "scene": "Alex stands full-body on the left holding a smartphone, thoughtfully comparing a large floating picture of a vacation beach and simple house on the right with FOUR separate small blank option cards below that picture. The four cards show a savings jar, a bank card, a family gift and a pay envelope. These are alternative possible funding sources, not linked debt accusations. No actual social-media interface, no real people, no letters or captions. Balanced visual metaphor: the picture does not reveal its funding.",
+      "image": "review-v02/images/social-context-board.png",
+      "project": "projects/v02-social-context.json",
+      "overlays": [],
+      "motion": "Minh họa bổ sung v02. Chữ là lớp riêng trong thiết kế; toàn bộ minh họa là một lớp ảnh, chưa rig khớp. Timecode: review-v02/README.md."
+    },
+    {
+      "id": "v02-raise-plan",
+      "section": 7,
+      "slug": "v02-raise-plan",
+      "title": "Lên kế hoạch cho lần tăng lương",
+      "caption": "PLAN THE RAISE\nBEFORE IT BECOMES ROUTINE.",
+      "cue": "And when the next raise comes",
+      "scene": "Alex stands full-body in the center, calmly organizing a modest new stack of green banknotes between THREE separate cream trays on a low table. Each tray has a single centered icon: a small pleasant meal for present life, a green sprout savings jar for future goals, and a loan receipt with checkmark for reducing debt. Arrows branch from one pay envelope above the table to the three trays with NO numeric fractions or equal-allocation claims. Hopeful, practical, clear financial choices.",
+      "image": "review-v02/images/raise-plan-board.png",
+      "project": "projects/v02-raise-plan.json",
+      "overlays": [],
+      "motion": "Minh họa bổ sung v02. Chữ là lớp riêng trong thiết kế; toàn bộ minh họa là một lớp ảnh, chưa rig khớp. Timecode: review-v02/README.md."
     }
   ],
   "sheets": [
