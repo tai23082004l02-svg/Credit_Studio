@@ -96,3 +96,7 @@ R2 đã kết nối thành công ngày 2026-10-21. Môi trường hiện có đ�
 Chưa chuyển ảnh/audio/MP4 khỏi GitHub, chưa đổi URL tài nguyên, chưa thiết lập endpoint công khai/CORS cho Studio và chưa có đồng bộ bản sửa online. Đây là các bước tiếp theo sau khi kết nối; không báo là đã hoàn tất di chuyển kho. Xem `docs/R2_SETUP.md`.
 
 Chọn/đính kèm repo `tai23082004l02-svg/Credit_Studio`, yêu cầu đọc `AGENTS.md`, tài liệu này và README. Chat mới không tự nhớ lịch sử chat cũ. Nếu chưa có quyền truy cập repo, cần kết nối/chọn repo trước. Nếu công việc phụ thuộc bản sửa chỉ có trên trình duyệt, cung cấp bản sao lưu dự án; chỉ GitHub là chưa đủ.
+
+## R2: cần thay token đã lộ
+
+Sau kiểm tra kết nối, phát hiện commit người dùng cập nhật `.env.r2.example` trên repo công khai có khóa trùng biến môi trường đang hoạt động (chỉ so sánh trong bộ nhớ, không in giá trị). Đã khôi phục tệp mẫu hiện tại về giá trị trống. Lịch sử Git vẫn có thể chứa token cũ: yêu cầu người dùng thu hồi token cũ, tạo token mới giới hạn bucket và cập nhật biến môi trường, rồi kiểm tra lại. Chưa chuyển tài nguyên thực tế. Không tiếp tục dùng token cũ để di chuyển dữ liệu.

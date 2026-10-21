@@ -19,3 +19,7 @@ Cấu hình đã áp dụng thành công qua **Biến môi trường** của Cod
 Đã xác minh list bucket (200, trống), tải lên tệp thử nhỏ (200), tải xuống và đối chiếu đúng nội dung (200), xóa chính tệp thử (204). Không giữ tệp thử hoặc chuyển tài nguyên thực tế trong lần kiểm tra này. Không ghi khóa, Authorization header hoặc chữ ký vào log/tài liệu. Quyền truy cập khi tạo môi trường mới cần kiểm tra lại.
 
 Tài nguyên hiện vẫn phục vụ từ GitHub Pages. Chuyển tài nguyên, cấu hình phát ảnh/audio/video và đồng bộ bản sửa là các việc riêng chưa thực hiện.
+
+## Khóa cần thay sau khi kiểm tra
+
+Phát hiện tệp mẫu công khai đã được điền hai khóa trùng với thông tin đang hoạt động. Đã đưa bản hiện tại về mẫu trống. Giá trị cũ có thể còn trong lịch sử Git: người dùng cần thu hồi token cũ tại Cloudflare, tạo token thay thế giới hạn bucket và cập nhật hai biến khóa trong môi trường. Không tiếp tục chuyển tài nguyên với token đã lộ. Không đưa giá trị khóa vào bản bàn giao hoặc log.
