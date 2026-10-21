@@ -40,7 +40,9 @@ Bản mở đầu kết thúc sau câu “before you buy a single thing”, trư
 
 Người dùng đã yêu cầu dựng tiếp. Đã dựng toàn bộ **486,75 giây / 64 cảnh**, nối nguyên 8 cảnh intro với 56 cảnh mới. Bản duyệt chỉnh được: `review/project.json`; nguồn âm thanh MP3 toàn bộ: `review/voiceover.mp3`; mốc nhận dạng: `review/alignment.json`; phụ đề: `review/captions.vtt`. Tất cả nằm trong `videos/001-100k-salary/`. `review/README.md` có bảng timecode từng cảnh. Bản MP4 để duyệt: `exports/full-review-v01.mp4` (1920×1080, 30 fps, Times New Roman, lời đọc gốc, chưa nhạc nền). WAV và bản intro cũ được bảo toàn.
 
-`projects.json` vẫn dùng ID `finance-001`, nay trỏ bản video và MP4 đầy đủ. Trang chủ/Tổng quan xem MP4 mới, tab Dựng video chỉnh timeline. Nếu trình duyệt còn bản sửa intro cũ, nó vẫn được giữ; trình video hiện thông báo **Mở bản dựng mới**. Người dùng sao lưu trước rồi xác nhận mở bản mới, hoặc dùng nút **Bản gốc**. Không tự ghi đè bản sửa cục bộ.
+`projects.json` vẫn dùng ID `finance-001`, trỏ bản video và MP4 đầy đủ. Trang chủ/Tổng quan xem MP4 mới, tab Dựng video chỉnh timeline. Đã sửa lỗi người dùng thấy Tổng quan 8 phút nhưng trình dựng chỉ 40,5 giây: ưu tiên bản lưu intro cũ, và thông báo mở bản mới bị ẩn trên mobile.
+
+Trình dựng nay tự chuyển riêng `finance-001` từ revision `intro-v01` sang `full-review-v01`. Trước khi chuyển, lưu nguyên vẹn bản cũ vào document slot `history-<uuid>` trong cùng giao dịch IndexedDB với việc thay main; lỗi giao dịch không được làm mất bản cũ. Mục **Bản lưu trước cập nhật** tải từng JSON cũ, hiển thị cả trên điện thoại; `.credit.json` chứa cả lịch sử. Giữ localStorage gốc. Các bản cùng revision full được giữ nguyên khi reload, không tạo thêm lịch sử hoặc reset sửa đổi. Nếu không tải được bản mới, vẫn mở bản cũ. Dự án khác, bản khôi phục và revision khác không tự chuyển. Module/iframe đã đổi tham số phiên bản để bỏ cache ứng dụng cũ.
 
 Các cảnh mới kết hợp nhân vật/đạo cụ tách lớp, thẻ chữ/số, biểu đồ ngân sách đúng tỉ lệ và ảnh cảnh có sẵn. Một số cảnh dùng ảnh tổng thể, không phải mọi chi tiết của ảnh đều chỉnh riêng được. Mốc từ tự động bằng faster-whisper base.en được ánh xạ lại script để giữ đúng chữ; có sai số ở mức từ. Các nhóm đạo cụ quan trọng xuất hiện theo mốc câu. Phụ đề mặc định tắt trong MP4; bật được trong Studio. Chưa có rig khớp hoặc nhạc nền.
 
@@ -62,6 +64,8 @@ Bước tiếp theo: người dùng xem **bản duyệt đầy đủ v01**, cung
 Đã kiểm tra ở lần triển khai gộp công cụ: 8 bài unit test cho engine/WebM; bộ Playwright `tests/video-editor.cjs` và `tests/project-workspaces.cjs` (tách dữ liệu dự án, lưu lại, âm thanh, xuất WebM, sao lưu/khôi phục và mobile); MP4 thực bằng FFmpeg/ffprobe. GitHub Pages triển khai thành công cho commit `0f542fa`; tài nguyên online đã đối chiếu qua HTTPS. Đây là kết quả của phiên trước, không thay cho kiểm tra phù hợp với thay đổi mới.
 
 Kiểm tra bản đầy đủ ngày 2026-10-21: 8 unit test và cả hai bộ Playwright đã qua, gồm bảo toàn/sao lưu bản sửa cũ, hủy mở bản mới, xác nhận mở và reload bản đầy đủ. Kiểm tra thực tế toàn bộ bố cục chữ bằng Times New Roman, tua audio ở 8 phần, phát đoạn kết, timeline và mobile đã qua. MP4 đã giải mã toàn bộ bằng FFmpeg không lỗi; âm thanh đối chiếu WAV ở giây 10/200/480 có tương quan >0,9999. MP4 dài 486,766667 giây do làm tròn khung 30 fps; audio/timeline 486,75 giây. Xem `review/validation.json` và `review/source.json`. Trạng thái triển khai cần kiểm tra theo commit mới nhất trên GitHub Actions.
+
+Kiểm tra bản sửa mở video: Playwright tái hiện bản intro đã chỉnh trong localStorage/IndexedDB rồi xác nhận tự mở 64 cảnh; JSON cũ được tải lại nguyên vẹn, backup chứa main mới và lịch sử, sửa bản đầy đủ rồi reload vẫn giữ, lịch sử không nhân đôi. Kiểm tra mở trực tiếp `/video/` chỉ có localStorage, lỗi mạng tải bản mới và thử lại thành công. Không cần dựng lại MP4 vì chỉ sửa cách chọn bản dự án.
 
 ## Cách tiếp tục trong chat mới
 

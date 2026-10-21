@@ -26,7 +26,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 - Dự án mới và các bản sửa được lưu trong trình duyệt hiện tại bằng IndexedDB; không tự đồng bộ sang máy khác hoặc GitHub. Tài nguyên đã xuất bản vẫn lấy từ website. Sao lưu để chuyển máy, bảo vệ khi xóa dữ liệu trình duyệt hoặc gửi bản sửa lại.
 - Dữ liệu của hai trình chỉnh cũ được chuyển sang từng dự án một lần; các khóa localStorage cũ được giữ nguyên để bảo toàn dữ liệu.
 
-Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký; đường dẫn bản dựng/tài nguyên mới từ danh mục được cập nhật mà không tự ghi đè các bản sửa cục bộ.
+Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 cũ được lưu vào **Bản lưu trước cập nhật** rồi chuyển sang bản đầy đủ. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên bản đầy đủ được giữ khi mở lại. Những bản khác vẫn được giữ và hiện thông báo khi có bản xuất bản khác.
 
 ## Bố trí thư mục
 

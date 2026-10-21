@@ -1,4 +1,4 @@
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved} from '../assets/js/workspace-store.js?v=hub-v1';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo} from '../assets/js/workspace-store.js?v=full-draft-fix-v1';
 import {finalizeWebM} from './webm.js';
 import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=hub-v1';
 const $=s=>document.querySelector(s);
@@ -147,20 +147,28 @@ async function init(){try{
  $('#workspace-label').textContent=workspaceMeta.kind==='video'?'DỰ ÁN VIDEO CỦA BẠN':'VIDEO TRONG DỰ ÁN';
  $('#gallery-link').hidden=!workspaceMeta.gallery;if(workspaceMeta.gallery)$('#gallery-link').href=resourceURL(workspaceMeta.gallery);
  let saved=await getDocument(workspaceID,'video');
- if(!saved&&workspaceID===FINANCE_ID){try{const raw=localStorage.getItem(KEY);if(raw)saved=validate(JSON.parse(raw));}catch{toast('Không đọc được bản lưu cũ. Bản cũ vẫn được giữ trong trình duyệt.');}}
- let data=saved;
- if(!data&&defaultURL){const r=await fetch(defaultURL);if(!r.ok)throw Error('Không tải được bản dựng gốc.');data=await r.json();}
+ if(!saved&&workspaceID===FINANCE_ID){try{const raw=localStorage.getItem(KEY);if(raw){saved=validate(JSON.parse(raw));await saveDocument(workspaceID,'video',saved);}}catch{toast('Không đọc được bản lưu cũ. Bản cũ vẫn được giữ trong trình duyệt.');}}
+ let latest;
+ if(defaultURL){try{const r=await fetch(defaultURL,{cache:'no-cache'});if(!r.ok)throw Error('Không tải được bản dựng gốc.');latest=validate(await r.json());}catch(e){if(!saved)throw e;toast('Chưa tải được bản mới. Đang giữ bản lưu hiện tại.');}}
+ if(workspaceID===FINANCE_ID&&saved?.revision==='intro-v01'&&latest?.revision==='full-review-v01'){
+  // The known intro-to-full upgrade preserves even edited intro drafts atomically.
+  saved=await promotePublishedVideo(workspaceID,'intro-v01',latest)||saved;
+ }
+ let data=saved||latest;
  if(!data)data=blankVideo(workspaceMeta.name);
  if(!saved)data.name=workspaceMeta.name;
  await loadProject(data,{save:true});
- if(saved&&defaultURL){
-  try{const r=await fetch(defaultURL,{cache:'no-cache'});if(r.ok){const latest=validate(await r.json());
+ const archived=await videoHistory(workspaceID);
+ if(archived.length){const history=document.createElement('details');history.id='video-history';history.className='video-history';const summary=document.createElement('summary');summary.textContent='Bản lưu trước cập nhật';history.append(summary);
+  for(const entry of archived){const b=document.createElement('button');b.textContent=`Tải bản ${duration(entry.data).toLocaleString('vi-VN')} giây`;b.onclick=()=>download(new Blob([JSON.stringify(entry.data,null,2)],{type:'application/json'}),'credit-studio-before-update-'+entry.slot+'.json');history.append(b);}
+  $('#scene-list').before(history);
+ }
+ if(saved&&latest){
    if(latest.revision&&saved.revision!==latest.revision){
-    const notice=document.createElement('p');notice.id='published-update';notice.className='muted';
+    const notice=document.createElement('p');notice.id='published-update';notice.className='published-notice';
     notice.append(document.createTextNode('Có bản dựng mới trên GitHub. Bản sửa của bạn vẫn được giữ. Hãy Sao lưu dự án trước khi chọn '));
     const open=document.createElement('button');open.textContent='Mở bản dựng mới';open.onclick=()=>$('#reset').click();notice.append(open);$('#scene-list').before(notice);
    }
-  }}catch{toast('Chưa kiểm tra được bản dựng mới; bản lưu của bạn vẫn mở bình thường.');}
  }
  }catch(e){$('#loading').textContent=e.message;toast(e.message);}}
 function fitCanvas(){const stage=$('#stage'),style=getComputedStyle(stage);const w=stage.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight);const h=stage.clientHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom);const width=Math.max(1,Math.min(w,h*16/9));canvas.style.width=width+'px';canvas.style.height=(width*9/16)+'px';}

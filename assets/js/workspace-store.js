@@ -30,6 +30,20 @@ export async function getWorkspace(id){requireID(id);const local=await read('pro
 export async function listWorkspaces(){const [published,local]=await Promise.all([catalog(),all('projects')]);const merged=new Map(published.map(p=>[p.id,p]));for(const p of local)merged.set(p.id,mergeMeta(merged.get(p.id),p));return [...merged.values()].sort((a,b)=>String(b.updatedAt).localeCompare(String(a.updatedAt)));}
 export async function registerWorkspace(meta){const checked=cleanMeta(meta);await write(['projects'],tx=>tx.objectStore('projects').put(checked));return checked;}
 export async function getDocument(id,kind,slot='main'){requireID(id);requireID(slot);const row=await read('documents',`${id}:${kind}:${slot}`);return row?.data;}
+export async function videoHistory(id){requireID(id);return (await byProject('documents',id)).filter(d=>d.kind==='video'&&d.slot.startsWith('history-')).sort((a,b)=>String(b.updatedAt).localeCompare(String(a.updatedAt)));}
+// Archive and replace together: a failed write must never discard the previous draft.
+export async function promotePublishedVideo(id,expectedRevision,latest){
+ requireID(id);const meta=await getWorkspace(id),now=new Date().toISOString();let result;
+ await write(['projects','documents'],tx=>{const store=tx.objectStore('documents'),key=`${id}:video:main`,request=store.get(key);
+  request.onsuccess=()=>{const row=request.result;
+   if(!row||row.data.revision!==expectedRevision){result=row?.data;return;}
+   const slot='history-'+crypto.randomUUID();
+   store.put({...row,key:`${id}:video:${slot}`,slot,updatedAt:now});
+   result={...latest,name:meta.name};store.put({key,projectId:id,kind:'video',slot:'main',data:result,updatedAt:now});
+   tx.objectStore('projects').put({...meta,updatedAt:now});
+  };
+ });return result;
+}
 export async function saveDocument(id,kind,data,slot='main'){
  requireID(id);requireID(slot);if(!['video','design'].includes(kind))throw Error('Loại tài liệu không hợp lệ.');const meta=await getWorkspace(id);const now=new Date().toISOString();meta.updatedAt=now;
  if(meta.kind===kind&&slot==='main'&&typeof data.name==='string')meta.name=data.name.slice(0,100)||meta.name;

@@ -3,3 +3,5 @@
 
 .embedded header .brand{display:none}.embedded header #project-name{margin-left:0;max-width:300px}.embedded header{padding:0 14px}
 .embedded header #load{display:none}
+
+#video-history,.published-notice{margin:12px 0;font-size:11px;line-height:1.7;color:#617455}#video-history summary{cursor:pointer}#video-history button,.published-notice button{display:block;margin-top:8px;max-width:100%;white-space:normal}

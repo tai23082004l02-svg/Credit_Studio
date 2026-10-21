@@ -23,7 +23,7 @@ Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_St
 - `review/alignment.json` và `review/captions.vtt`: nhận dạng mốc từ và phụ đề đối chiếu script; có sai số căn từ tự động.
 - [Danh sách timecode 64 cảnh](review/README.md).
 
-Nếu trình duyệt vẫn mở bản cũ, dùng **Sao lưu dự án** trước, rồi chọn **Mở bản dựng mới** trong tab Dựng video (hoặc **Bản gốc**). Bản lưu cục bộ không tự bị ghi đè. MP4 ở Tổng quan là bản đã xuất trên GitHub; các chỉnh sửa mới trong trình duyệt cần xuất lại.
+Khi mở tab Dựng video, bản intro v01 cũ trong trình duyệt được tự lưu nguyên vẹn vào **Bản lưu trước cập nhật** rồi chuyển sang 64 cảnh. Có thể tải lại JSON cũ từ mục này, trên máy tính lẫn điện thoại; **Sao lưu dự án** cũng chứa bản cũ. Các sửa đổi trên bản đầy đủ được giữ khi tải lại trang. MP4 ở Tổng quan là bản đã xuất trên GitHub; các chỉnh sửa mới trong trình duyệt cần xuất lại.
 
 Các đoạn mới kết hợp nhân vật/đạo cụ riêng với ảnh cảnh đã có. Phần ngân sách tăng dần theo từng khoản, có biểu đồ đúng tỉ lệ; các cảnh dùng ảnh tổng thể chỉ chỉnh chữ và toàn bộ lớp ảnh, chưa tách mọi chi tiết bên trong. Giữ Times New Roman. Có thể bật phụ đề trong Studio, bản MP4 mặc định không chèn phụ đề.
 
