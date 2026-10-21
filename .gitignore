@@ -1,0 +1,7 @@
+# Local credentials must never be committed or published.
+.env
+.env.*
+!.env.r2.example
+r2.env
+r2.local.env
+__pycache__/

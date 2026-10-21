@@ -91,4 +91,6 @@ Kiểm tra bản sửa mở video: Playwright tái hiện bản intro đã chỉ
 
 ## Cách tiếp tục trong chat mới
 
+R2: người dùng cho biết đã tạo và lưu khóa trên Cloudflare, nhưng kiểm tra biến và cấu hình môi trường chưa thấy các tên R2. Theo yêu cầu tạo tệp để điền, đã chuẩn bị mẫu công khai `.env.r2.example` (không chứa khóa) và tệp riêng `/workspace/.credit-studio/r2.env` ngoài repo/website, quyền 0600. Xem `docs/R2_SETUP.md`. Không đọc/in giá trị khóa ra log hoặc commit tệp riêng. Chưa có kết nối R2 được xác minh; cần kiểm tra lại sau khi người dùng điền, không giả định tệp riêng có sẵn trong môi trường mới.
+
 Chọn/đính kèm repo `tai23082004l02-svg/Credit_Studio`, yêu cầu đọc `AGENTS.md`, tài liệu này và README. Chat mới không tự nhớ lịch sử chat cũ. Nếu chưa có quyền truy cập repo, cần kết nối/chọn repo trước. Nếu công việc phụ thuộc bản sửa chỉ có trên trình duyệt, cung cấp bản sao lưu dự án; chỉ GitHub là chưa đủ.
