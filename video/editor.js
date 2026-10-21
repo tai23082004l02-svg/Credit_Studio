@@ -76,6 +76,7 @@ function updateProperties(){const c=current();if(!c)return;
  $('#undo').disabled=!history.length;$('#redo').disabled=!future.length;$('#delete-scene').disabled=project.clips.length<=1;refreshMP4();
 }
 function build(){const c=current();if(!c)return;const total=duration(project);const signature=project.clips.map(c=>c.id).join('|');
+ $('#timeline-track').style.minWidth=`${Math.max(600,total*12,project.clips.length*70)}px`;
  if($('#scene-list').dataset.signature!==signature){$('#scene-list').replaceChildren();$('#clips').replaceChildren();$('#scene-list').dataset.signature=signature;}
  let start=0;
  project.clips.forEach((clip,index)=>{
@@ -89,7 +90,7 @@ function build(){const c=current();if(!c)return;const total=duration(project);co
  $('#timeline-ruler').replaceChildren();for(let i=0;i<=5;i++){const s=document.createElement('span');s.textContent=clock(total*i/5);$('#timeline-ruler').append(s);}
  highlight();updateProperties();updateTime();drawWave();draw();
 }
-function selectScene(index){if(recording)return;stop();activeIndex=index;selected=null;setTime(clipStart(project,index)+Math.min(.4,current().duration/2));highlight();updateProperties();draw();}
+function selectScene(index){if(recording)return;stop();activeIndex=index;selected=null;setTime(clipStart(project,index)+Math.min(.4,current().duration/2));const scroller=$('.timeline-scroll');scroller.scrollLeft=$('#timeline-track').scrollWidth*time/duration(project)-scroller.clientWidth/2;highlight();updateProperties();draw();}
 function drawWave(){if(!project)return;const wave=$('#waveform'),wctx=wave.getContext('2d');wave.width=1000;wctx.clearRect(0,0,1000,48);wctx.fillStyle='#9eaf90';document.querySelector('.audio-track span').textContent=project.audio.src?'♫ Giọng đọc của bạn':'Chưa có âm thanh';const peaks=project.waveform||[];const total=duration(project);for(let i=0;i<400;i++){const seconds=i/400*total+project.audio.offset;const idx=Math.floor(seconds/(project.waveformDuration||total)*peaks.length);const value=peaks[idx]||0;wctx.fillRect(i*2.5,24-value*20,1.5,Math.max(1,value*40));}}
 function property(selector,fn){$(selector).onchange=event=>{const input=event.target;if(input.type==='number'&&(!Number.isFinite(Number(input.value))||!input.checkValidity())){toast('Giá trị nằm ngoài phạm vi.');updateProperties();return;}change(()=>fn(input.value));};}
 property('#project-name',v=>project.name=v.trim()||'Video của tôi');property('#scene-title',v=>current().title=v.trim()||'Cảnh');
@@ -121,7 +122,7 @@ document.addEventListener('keydown',event=>{if(event.target.closest('input,texta
 function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);}
 $('#save').onclick=()=>download(new Blob([JSON.stringify(project,null,2)],{type:'application/json'}),'credit-studio-video.json');
 $('#load').onclick=()=>$('#json-file').click();$('#json-file').onchange=async e=>{const file=e.target.files[0];e.target.value='';if(!file)return;if(file.size>45*1024*1024)return toast('Dự án tối đa 45 MiB.');try{const data=validate(JSON.parse(await file.text()));if(!confirm('Mở dự án này? Hãy Lưu JSON trước nếu muốn giữ bản hiện tại.'))return;await loadProject(data,{save:true});}catch(error){toast(error.message);}};
-$('#reset').onclick=async()=>{if(!confirm('Mở lại bản dựng gốc? Hãy Lưu JSON trước để giữ bản sửa.'))return;try{let data;if(defaultURL){const r=await fetch(defaultURL,{cache:'no-cache'});if(!r.ok)throw Error('Không tải được bản gốc.');data=await r.json();}else data=blankVideo(workspaceMeta.name);await loadProject(data,{save:true});}catch(e){toast(e.message);}};
+$('#reset').onclick=async()=>{if(!confirm('Mở lại bản dựng gốc mới nhất? Hãy Sao lưu dự án hoặc Lưu JSON trước để giữ bản sửa hiện tại.'))return;try{let data;if(defaultURL){const r=await fetch(defaultURL,{cache:'no-cache'});if(!r.ok)throw Error('Không tải được bản gốc.');data=await r.json();}else data=blankVideo(workspaceMeta.name);await loadProject(data,{save:true});$('#published-update')?.remove();}catch(e){toast(e.message);}};
 $('#upload-audio').onclick=()=>$('#audio-file').click();$('#audio-file').onchange=async event=>{const file=event.target.files[0];event.target.value='';if(!file)return;if(!/^audio\//.test(file.type)||file.size>25*1024*1024)return toast('Chọn tệp audio tối đa 25 MiB.');
  try{const data=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(file);});const next=clone(project);next.audio.src=data;next.audio.offset=0;next.waveform=[];next.captions=[];next.showCaptions=false;validate(next);remember();await loadProject(next,{resetHistory:false,save:true});toast('Đã thay giọng đọc. Phụ đề cũ đã bỏ; hãy kiểm tra lại nhịp cảnh.');}catch(e){toast(e.message);}};
 async function audioGraph(){if(!audioContext){audioContext=new AudioContext();audioSource=audioContext.createMediaElementSource(audio);gainNode=audioContext.createGain();audioDestination=audioContext.createMediaStreamDestination();audioSource.connect(gainNode);gainNode.connect(audioContext.destination);gainNode.connect(audioDestination);}await audioContext.resume();setVolume();}
@@ -152,6 +153,15 @@ async function init(){try{
  if(!data)data=blankVideo(workspaceMeta.name);
  if(!saved)data.name=workspaceMeta.name;
  await loadProject(data,{save:true});
+ if(saved&&defaultURL){
+  try{const r=await fetch(defaultURL,{cache:'no-cache'});if(r.ok){const latest=validate(await r.json());
+   if(latest.revision&&saved.revision!==latest.revision){
+    const notice=document.createElement('p');notice.id='published-update';notice.className='muted';
+    notice.append(document.createTextNode('Có bản dựng mới trên GitHub. Bản sửa của bạn vẫn được giữ. Hãy Sao lưu dự án trước khi chọn '));
+    const open=document.createElement('button');open.textContent='Mở bản dựng mới';open.onclick=()=>$('#reset').click();notice.append(open);$('#scene-list').before(notice);
+   }
+  }}catch{toast('Chưa kiểm tra được bản dựng mới; bản lưu của bạn vẫn mở bình thường.');}
+ }
  }catch(e){$('#loading').textContent=e.message;toast(e.message);}}
 function fitCanvas(){const stage=$('#stage'),style=getComputedStyle(stage);const w=stage.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight);const h=stage.clientHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom);const width=Math.max(1,Math.min(w,h*16/9));canvas.style.width=width+'px';canvas.style.height=(width*9/16)+'px';}
 new ResizeObserver(fitCanvas).observe($('#stage'));

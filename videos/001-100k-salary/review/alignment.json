@@ -1,0 +1,7022 @@
+[
+  {
+    "start": 0.08,
+    "end": 6.28,
+    "text": " You finally did it. You got the job. You got the raise. Your salary now has six figures,",
+    "words": [
+      {
+        "start": 0.08,
+        "end": 0.54,
+        "word": " You",
+        "probability": 0.8731124997138977
+      },
+      {
+        "start": 0.54,
+        "end": 0.86,
+        "word": " finally",
+        "probability": 0.9849317073822021
+      },
+      {
+        "start": 0.86,
+        "end": 1.32,
+        "word": " did",
+        "probability": 0.995650589466095
+      },
+      {
+        "start": 1.32,
+        "end": 1.46,
+        "word": " it.",
+        "probability": 0.9974729418754578
+      },
+      {
+        "start": 1.78,
+        "end": 1.78,
+        "word": " You",
+        "probability": 0.9930811524391174
+      },
+      {
+        "start": 1.78,
+        "end": 1.96,
+        "word": " got",
+        "probability": 0.9966409206390381
+      },
+      {
+        "start": 1.96,
+        "end": 2.14,
+        "word": " the",
+        "probability": 0.9987125396728516
+      },
+      {
+        "start": 2.14,
+        "end": 2.42,
+        "word": " job.",
+        "probability": 0.9991016387939453
+      },
+      {
+        "start": 3.0,
+        "end": 3.04,
+        "word": " You",
+        "probability": 0.9934306740760803
+      },
+      {
+        "start": 3.04,
+        "end": 3.22,
+        "word": " got",
+        "probability": 0.9963195323944092
+      },
+      {
+        "start": 3.22,
+        "end": 3.4,
+        "word": " the",
+        "probability": 0.9988414645195007
+      },
+      {
+        "start": 3.4,
+        "end": 3.68,
+        "word": " raise.",
+        "probability": 0.846980094909668
+      },
+      {
+        "start": 4.44,
+        "end": 4.48,
+        "word": " Your",
+        "probability": 0.987149715423584
+      },
+      {
+        "start": 4.48,
+        "end": 4.76,
+        "word": " salary",
+        "probability": 0.9979596138000488
+      },
+      {
+        "start": 4.76,
+        "end": 5.18,
+        "word": " now",
+        "probability": 0.991753339767456
+      },
+      {
+        "start": 5.18,
+        "end": 5.46,
+        "word": " has",
+        "probability": 0.9976964592933655
+      },
+      {
+        "start": 5.46,
+        "end": 5.74,
+        "word": " six",
+        "probability": 0.9325698018074036
+      },
+      {
+        "start": 5.74,
+        "end": 6.28,
+        "word": " figures,",
+        "probability": 0.9981264472007751
+      }
+    ]
+  },
+  {
+    "start": 6.28,
+    "end": 13.26,
+    "text": " $100,000 a year. That sounds like the moment money is supposed to stop being stressful,",
+    "words": [
+      {
+        "start": 6.28,
+        "end": 7.22,
+        "word": " $100",
+        "probability": 0.7968184947967529
+      },
+      {
+        "start": 7.22,
+        "end": 8.0,
+        "word": ",000",
+        "probability": 0.9944571852684021
+      },
+      {
+        "start": 8.0,
+        "end": 8.62,
+        "word": " a",
+        "probability": 0.9679522514343262
+      },
+      {
+        "start": 8.62,
+        "end": 8.98,
+        "word": " year.",
+        "probability": 0.9976906776428223
+      },
+      {
+        "start": 9.52,
+        "end": 9.7,
+        "word": " That",
+        "probability": 0.9966688752174377
+      },
+      {
+        "start": 9.7,
+        "end": 10.02,
+        "word": " sounds",
+        "probability": 0.9955859184265137
+      },
+      {
+        "start": 10.02,
+        "end": 10.36,
+        "word": " like",
+        "probability": 0.9984960556030273
+      },
+      {
+        "start": 10.36,
+        "end": 10.52,
+        "word": " the",
+        "probability": 0.9969934225082397
+      },
+      {
+        "start": 10.52,
+        "end": 10.82,
+        "word": " moment",
+        "probability": 0.9943515062332153
+      },
+      {
+        "start": 10.82,
+        "end": 11.16,
+        "word": " money",
+        "probability": 0.9932048320770264
+      },
+      {
+        "start": 11.16,
+        "end": 11.48,
+        "word": " is",
+        "probability": 0.9983364939689636
+      },
+      {
+        "start": 11.48,
+        "end": 11.76,
+        "word": " supposed",
+        "probability": 0.9973267316818237
+      },
+      {
+        "start": 11.76,
+        "end": 12.06,
+        "word": " to",
+        "probability": 0.9995044469833374
+      },
+      {
+        "start": 12.06,
+        "end": 12.4,
+        "word": " stop",
+        "probability": 0.9963374137878418
+      },
+      {
+        "start": 12.4,
+        "end": 12.68,
+        "word": " being",
+        "probability": 0.9992870688438416
+      },
+      {
+        "start": 12.68,
+        "end": 13.26,
+        "word": " stressful,",
+        "probability": 0.9983653426170349
+      }
+    ]
+  },
+  {
+    "start": 13.84,
+    "end": 18.18,
+    "text": " but somehow you're still checking your bank account before ordering take-out.",
+    "words": [
+      {
+        "start": 13.84,
+        "end": 14.04,
+        "word": " but",
+        "probability": 0.9854076504707336
+      },
+      {
+        "start": 14.04,
+        "end": 14.38,
+        "word": " somehow",
+        "probability": 0.9963041543960571
+      },
+      {
+        "start": 14.38,
+        "end": 14.86,
+        "word": " you're",
+        "probability": 0.9328823685646057
+      },
+      {
+        "start": 14.86,
+        "end": 15.18,
+        "word": " still",
+        "probability": 0.999106228351593
+      },
+      {
+        "start": 15.18,
+        "end": 15.52,
+        "word": " checking",
+        "probability": 0.997914731502533
+      },
+      {
+        "start": 15.52,
+        "end": 15.8,
+        "word": " your",
+        "probability": 0.9985553622245789
+      },
+      {
+        "start": 15.8,
+        "end": 16.02,
+        "word": " bank",
+        "probability": 0.9987558126449585
+      },
+      {
+        "start": 16.02,
+        "end": 16.52,
+        "word": " account",
+        "probability": 0.9986377358436584
+      },
+      {
+        "start": 16.52,
+        "end": 16.82,
+        "word": " before",
+        "probability": 0.9931208491325378
+      },
+      {
+        "start": 16.82,
+        "end": 17.52,
+        "word": " ordering",
+        "probability": 0.9985260367393494
+      },
+      {
+        "start": 17.52,
+        "end": 17.76,
+        "word": " take",
+        "probability": 0.9480489492416382
+      },
+      {
+        "start": 17.76,
+        "end": 18.18,
+        "word": "-out.",
+        "probability": 0.6634550839662552
+      }
+    ]
+  },
+  {
+    "start": 18.62,
+    "end": 24.4,
+    "text": " Your car needs new tires and suddenly you're doing mental gymnastics and payday.",
+    "words": [
+      {
+        "start": 18.62,
+        "end": 19.0,
+        "word": " Your",
+        "probability": 0.9935761094093323
+      },
+      {
+        "start": 19.0,
+        "end": 19.32,
+        "word": " car",
+        "probability": 0.9980758428573608
+      },
+      {
+        "start": 19.32,
+        "end": 19.66,
+        "word": " needs",
+        "probability": 0.9987346529960632
+      },
+      {
+        "start": 19.66,
+        "end": 19.94,
+        "word": " new",
+        "probability": 0.9993639588356018
+      },
+      {
+        "start": 19.94,
+        "end": 20.44,
+        "word": " tires",
+        "probability": 0.9902601838111877
+      },
+      {
+        "start": 20.44,
+        "end": 20.86,
+        "word": " and",
+        "probability": 0.6903260946273804
+      },
+      {
+        "start": 20.86,
+        "end": 21.2,
+        "word": " suddenly",
+        "probability": 0.9823257327079773
+      },
+      {
+        "start": 21.2,
+        "end": 21.56,
+        "word": " you're",
+        "probability": 0.9728738367557526
+      },
+      {
+        "start": 21.56,
+        "end": 21.94,
+        "word": " doing",
+        "probability": 0.9991341233253479
+      },
+      {
+        "start": 21.94,
+        "end": 22.26,
+        "word": " mental",
+        "probability": 0.9942333102226257
+      },
+      {
+        "start": 22.26,
+        "end": 23.24,
+        "word": " gymnastics",
+        "probability": 0.9981838464736938
+      },
+      {
+        "start": 23.24,
+        "end": 24.1,
+        "word": " and",
+        "probability": 0.2903880178928375
+      },
+      {
+        "start": 24.1,
+        "end": 24.4,
+        "word": " payday.",
+        "probability": 0.8759796619415283
+      }
+    ]
+  },
+  {
+    "start": 25.1,
+    "end": 27.8,
+    "text": " Payday still feels like a rescue mission.",
+    "words": [
+      {
+        "start": 25.1,
+        "end": 25.58,
+        "word": " Payday",
+        "probability": 0.9462351500988007
+      },
+      {
+        "start": 25.58,
+        "end": 25.96,
+        "word": " still",
+        "probability": 0.9957742094993591
+      },
+      {
+        "start": 25.96,
+        "end": 26.36,
+        "word": " feels",
+        "probability": 0.998250424861908
+      },
+      {
+        "start": 26.36,
+        "end": 26.82,
+        "word": " like",
+        "probability": 0.9996520280838013
+      },
+      {
+        "start": 26.82,
+        "end": 26.94,
+        "word": " a",
+        "probability": 0.9995670914649963
+      },
+      {
+        "start": 26.94,
+        "end": 27.24,
+        "word": " rescue",
+        "probability": 0.9970675110816956
+      },
+      {
+        "start": 27.24,
+        "end": 27.8,
+        "word": " mission.",
+        "probability": 0.9941785335540771
+      }
+    ]
+  },
+  {
+    "start": 28.54,
+    "end": 34.38,
+    "text": " So what happened? How can someone make $100,000 a year and still feel broke?",
+    "words": [
+      {
+        "start": 28.54,
+        "end": 29.22,
+        "word": " So",
+        "probability": 0.7469412684440613
+      },
+      {
+        "start": 29.22,
+        "end": 29.46,
+        "word": " what",
+        "probability": 0.7175871729850769
+      },
+      {
+        "start": 29.46,
+        "end": 29.82,
+        "word": " happened?",
+        "probability": 0.9930241107940674
+      },
+      {
+        "start": 30.52,
+        "end": 30.6,
+        "word": " How",
+        "probability": 0.9907251000404358
+      },
+      {
+        "start": 30.6,
+        "end": 30.76,
+        "word": " can",
+        "probability": 0.9911696910858154
+      },
+      {
+        "start": 30.76,
+        "end": 31.0,
+        "word": " someone",
+        "probability": 0.9957917928695679
+      },
+      {
+        "start": 31.0,
+        "end": 31.32,
+        "word": " make",
+        "probability": 0.9978551268577576
+      },
+      {
+        "start": 31.32,
+        "end": 31.82,
+        "word": " $100",
+        "probability": 0.8413865566253662
+      },
+      {
+        "start": 31.82,
+        "end": 32.38,
+        "word": ",000",
+        "probability": 0.9921134114265442
+      },
+      {
+        "start": 32.38,
+        "end": 32.98,
+        "word": " a",
+        "probability": 0.9176400303840637
+      },
+      {
+        "start": 32.98,
+        "end": 33.28,
+        "word": " year",
+        "probability": 0.9981978535652161
+      },
+      {
+        "start": 33.28,
+        "end": 33.52,
+        "word": " and",
+        "probability": 0.976520299911499
+      },
+      {
+        "start": 33.52,
+        "end": 33.74,
+        "word": " still",
+        "probability": 0.9977173805236816
+      },
+      {
+        "start": 33.74,
+        "end": 34.06,
+        "word": " feel",
+        "probability": 0.9993768334388733
+      },
+      {
+        "start": 34.06,
+        "end": 34.38,
+        "word": " broke?",
+        "probability": 0.9984031319618225
+      }
+    ]
+  },
+  {
+    "start": 35.18,
+    "end": 40.02,
+    "text": " Let's follow the money. Because the answer starts before you buy a single thing.",
+    "words": [
+      {
+        "start": 35.18,
+        "end": 35.32,
+        "word": " Let's",
+        "probability": 0.992408037185669
+      },
+      {
+        "start": 35.32,
+        "end": 35.72,
+        "word": " follow",
+        "probability": 0.9970095157623291
+      },
+      {
+        "start": 35.72,
+        "end": 35.9,
+        "word": " the",
+        "probability": 0.9965202808380127
+      },
+      {
+        "start": 35.9,
+        "end": 36.18,
+        "word": " money.",
+        "probability": 0.9974478483200073
+      },
+      {
+        "start": 37.08,
+        "end": 37.08,
+        "word": " Because",
+        "probability": 0.9876168370246887
+      },
+      {
+        "start": 37.08,
+        "end": 37.28,
+        "word": " the",
+        "probability": 0.9957848191261292
+      },
+      {
+        "start": 37.28,
+        "end": 37.68,
+        "word": " answer",
+        "probability": 0.997246265411377
+      },
+      {
+        "start": 37.68,
+        "end": 38.12,
+        "word": " starts",
+        "probability": 0.9992161989212036
+      },
+      {
+        "start": 38.12,
+        "end": 38.48,
+        "word": " before",
+        "probability": 0.9988137483596802
+      },
+      {
+        "start": 38.48,
+        "end": 38.82,
+        "word": " you",
+        "probability": 0.9977959394454956
+      },
+      {
+        "start": 38.82,
+        "end": 39.04,
+        "word": " buy",
+        "probability": 0.9973254203796387
+      },
+      {
+        "start": 39.04,
+        "end": 39.26,
+        "word": " a",
+        "probability": 0.9975221753120422
+      },
+      {
+        "start": 39.26,
+        "end": 39.52,
+        "word": " single",
+        "probability": 0.998678982257843
+      },
+      {
+        "start": 39.52,
+        "end": 40.02,
+        "word": " thing.",
+        "probability": 0.998066246509552
+      }
+    ]
+  },
+  {
+    "start": 40.8,
+    "end": 50.58,
+    "text": " Meet Alex. Alex makes $100,000 a year. Divide that by 12 and you get about $8,300 a month.",
+    "words": [
+      {
+        "start": 40.8,
+        "end": 40.96,
+        "word": " Meet",
+        "probability": 0.8790995478630066
+      },
+      {
+        "start": 40.96,
+        "end": 41.38,
+        "word": " Alex.",
+        "probability": 0.9903668165206909
+      },
+      {
+        "start": 42.32,
+        "end": 42.64,
+        "word": " Alex",
+        "probability": 0.9936234354972839
+      },
+      {
+        "start": 42.64,
+        "end": 42.94,
+        "word": " makes",
+        "probability": 0.9969378709793091
+      },
+      {
+        "start": 42.94,
+        "end": 43.42,
+        "word": " $100",
+        "probability": 0.9908283054828644
+      },
+      {
+        "start": 43.42,
+        "end": 44.54,
+        "word": ",000",
+        "probability": 0.9973955750465393
+      },
+      {
+        "start": 44.54,
+        "end": 44.86,
+        "word": " a",
+        "probability": 0.9852681159973145
+      },
+      {
+        "start": 44.86,
+        "end": 45.18,
+        "word": " year.",
+        "probability": 0.9994617104530334
+      },
+      {
+        "start": 45.96,
+        "end": 46.08,
+        "word": " Divide",
+        "probability": 0.9949573874473572
+      },
+      {
+        "start": 46.08,
+        "end": 46.54,
+        "word": " that",
+        "probability": 0.9985400438308716
+      },
+      {
+        "start": 46.54,
+        "end": 46.8,
+        "word": " by",
+        "probability": 0.9973034858703613
+      },
+      {
+        "start": 46.8,
+        "end": 47.28,
+        "word": " 12",
+        "probability": 0.7347884774208069
+      },
+      {
+        "start": 47.28,
+        "end": 47.7,
+        "word": " and",
+        "probability": 0.7053490877151489
+      },
+      {
+        "start": 47.7,
+        "end": 47.84,
+        "word": " you",
+        "probability": 0.9965497255325317
+      },
+      {
+        "start": 47.84,
+        "end": 48.0,
+        "word": " get",
+        "probability": 0.9974090456962585
+      },
+      {
+        "start": 48.0,
+        "end": 48.2,
+        "word": " about",
+        "probability": 0.9842661619186401
+      },
+      {
+        "start": 48.2,
+        "end": 48.62,
+        "word": " $8",
+        "probability": 0.9781934022903442
+      },
+      {
+        "start": 48.62,
+        "end": 49.34,
+        "word": ",300",
+        "probability": 0.9981253147125244
+      },
+      {
+        "start": 49.34,
+        "end": 50.32,
+        "word": " a",
+        "probability": 0.9568712711334229
+      },
+      {
+        "start": 50.32,
+        "end": 50.58,
+        "word": " month.",
+        "probability": 0.9997860789299011
+      }
+    ]
+  },
+  {
+    "start": 51.22,
+    "end": 52.4,
+    "text": " Sounds pretty comfortable.",
+    "words": [
+      {
+        "start": 51.22,
+        "end": 51.4,
+        "word": " Sounds",
+        "probability": 0.9880672693252563
+      },
+      {
+        "start": 51.4,
+        "end": 51.88,
+        "word": " pretty",
+        "probability": 0.994099497795105
+      },
+      {
+        "start": 51.88,
+        "end": 52.4,
+        "word": " comfortable.",
+        "probability": 0.9951618313789368
+      }
+    ]
+  },
+  {
+    "start": 53.3,
+    "end": 59.06,
+    "text": " Except that isn't what lands in Alex's bank account. Taxes take a portion.",
+    "words": [
+      {
+        "start": 53.3,
+        "end": 54.14,
+        "word": " Except",
+        "probability": 0.4295352101325989
+      },
+      {
+        "start": 54.14,
+        "end": 54.38,
+        "word": " that",
+        "probability": 0.9545249938964844
+      },
+      {
+        "start": 54.38,
+        "end": 54.7,
+        "word": " isn't",
+        "probability": 0.9948800504207611
+      },
+      {
+        "start": 54.7,
+        "end": 54.84,
+        "word": " what",
+        "probability": 0.9979487061500549
+      },
+      {
+        "start": 54.84,
+        "end": 55.22,
+        "word": " lands",
+        "probability": 0.9669514894485474
+      },
+      {
+        "start": 55.22,
+        "end": 55.54,
+        "word": " in",
+        "probability": 0.9928702712059021
+      },
+      {
+        "start": 55.54,
+        "end": 56.12,
+        "word": " Alex's",
+        "probability": 0.9555281400680542
+      },
+      {
+        "start": 56.12,
+        "end": 56.4,
+        "word": " bank",
+        "probability": 0.9788235425949097
+      },
+      {
+        "start": 56.4,
+        "end": 56.86,
+        "word": " account.",
+        "probability": 0.9994625449180603
+      },
+      {
+        "start": 57.6,
+        "end": 58.1,
+        "word": " Taxes",
+        "probability": 0.9107800126075745
+      },
+      {
+        "start": 58.1,
+        "end": 58.44,
+        "word": " take",
+        "probability": 0.9962024092674255
+      },
+      {
+        "start": 58.44,
+        "end": 58.62,
+        "word": " a",
+        "probability": 0.7594923377037048
+      },
+      {
+        "start": 58.62,
+        "end": 59.06,
+        "word": " portion.",
+        "probability": 0.9894735217094421
+      }
+    ]
+  },
+  {
+    "start": 59.7,
+    "end": 66.74,
+    "text": " Health insurance takes another. Retirement contributions may come out before the paycheck arrives too.",
+    "words": [
+      {
+        "start": 59.7,
+        "end": 59.96,
+        "word": " Health",
+        "probability": 0.9938822984695435
+      },
+      {
+        "start": 59.96,
+        "end": 60.32,
+        "word": " insurance",
+        "probability": 0.985368549823761
+      },
+      {
+        "start": 60.32,
+        "end": 60.96,
+        "word": " takes",
+        "probability": 0.9960565567016602
+      },
+      {
+        "start": 60.96,
+        "end": 61.38,
+        "word": " another.",
+        "probability": 0.9992129802703857
+      },
+      {
+        "start": 62.08,
+        "end": 62.78,
+        "word": " Retirement",
+        "probability": 0.9847458600997925
+      },
+      {
+        "start": 62.78,
+        "end": 63.22,
+        "word": " contributions",
+        "probability": 0.9977217316627502
+      },
+      {
+        "start": 63.22,
+        "end": 64.1,
+        "word": " may",
+        "probability": 0.9954807758331299
+      },
+      {
+        "start": 64.1,
+        "end": 64.36,
+        "word": " come",
+        "probability": 0.9992559552192688
+      },
+      {
+        "start": 64.36,
+        "end": 64.62,
+        "word": " out",
+        "probability": 0.9986629486083984
+      },
+      {
+        "start": 64.62,
+        "end": 65.0,
+        "word": " before",
+        "probability": 0.9987938404083252
+      },
+      {
+        "start": 65.0,
+        "end": 65.22,
+        "word": " the",
+        "probability": 0.9945136308670044
+      },
+      {
+        "start": 65.22,
+        "end": 65.58,
+        "word": " paycheck",
+        "probability": 0.9450773000717163
+      },
+      {
+        "start": 65.58,
+        "end": 66.12,
+        "word": " arrives",
+        "probability": 0.9977450966835022
+      },
+      {
+        "start": 66.12,
+        "end": 66.74,
+        "word": " too.",
+        "probability": 0.5667763352394104
+      }
+    ]
+  },
+  {
+    "start": 67.58,
+    "end": 73.48,
+    "text": " For our example, let's say Alex brings home $6,000 a month after those deductions.",
+    "words": [
+      {
+        "start": 67.58,
+        "end": 67.82,
+        "word": " For",
+        "probability": 0.9971721768379211
+      },
+      {
+        "start": 67.82,
+        "end": 67.96,
+        "word": " our",
+        "probability": 0.9933887720108032
+      },
+      {
+        "start": 67.96,
+        "end": 68.42,
+        "word": " example,",
+        "probability": 0.9985764026641846
+      },
+      {
+        "start": 69.08,
+        "end": 69.32,
+        "word": " let's",
+        "probability": 0.9906380474567413
+      },
+      {
+        "start": 69.32,
+        "end": 69.5,
+        "word": " say",
+        "probability": 0.9990691542625427
+      },
+      {
+        "start": 69.5,
+        "end": 69.9,
+        "word": " Alex",
+        "probability": 0.9943919777870178
+      },
+      {
+        "start": 69.9,
+        "end": 70.32,
+        "word": " brings",
+        "probability": 0.9946274161338806
+      },
+      {
+        "start": 70.32,
+        "end": 70.62,
+        "word": " home",
+        "probability": 0.8981956243515015
+      },
+      {
+        "start": 70.62,
+        "end": 71.18,
+        "word": " $6",
+        "probability": 0.8462482392787933
+      },
+      {
+        "start": 71.18,
+        "end": 71.72,
+        "word": ",000",
+        "probability": 0.9946789741516113
+      },
+      {
+        "start": 71.72,
+        "end": 72.38,
+        "word": " a",
+        "probability": 0.9621444940567017
+      },
+      {
+        "start": 72.38,
+        "end": 72.64,
+        "word": " month",
+        "probability": 0.999775230884552
+      },
+      {
+        "start": 72.64,
+        "end": 73.06,
+        "word": " after",
+        "probability": 0.9978253841400146
+      },
+      {
+        "start": 73.06,
+        "end": 73.26,
+        "word": " those",
+        "probability": 0.9949860572814941
+      },
+      {
+        "start": 73.26,
+        "end": 73.48,
+        "word": " deductions.",
+        "probability": 0.997552216053009
+      }
+    ]
+  },
+  {
+    "start": 74.64,
+    "end": 77.88,
+    "text": " That's an illustration, not a universal paycheck.",
+    "words": [
+      {
+        "start": 74.64,
+        "end": 75.1,
+        "word": " That's",
+        "probability": 0.9961524307727814
+      },
+      {
+        "start": 75.1,
+        "end": 75.18,
+        "word": " an",
+        "probability": 0.9957684278488159
+      },
+      {
+        "start": 75.18,
+        "end": 75.74,
+        "word": " illustration,",
+        "probability": 0.996970534324646
+      },
+      {
+        "start": 76.36,
+        "end": 76.62,
+        "word": " not",
+        "probability": 0.9991558790206909
+      },
+      {
+        "start": 76.62,
+        "end": 76.76,
+        "word": " a",
+        "probability": 0.9989913105964661
+      },
+      {
+        "start": 76.76,
+        "end": 77.26,
+        "word": " universal",
+        "probability": 0.9835701584815979
+      },
+      {
+        "start": 77.26,
+        "end": 77.88,
+        "word": " paycheck.",
+        "probability": 0.9906502962112427
+      }
+    ]
+  },
+  {
+    "start": 78.72,
+    "end": 84.5,
+    "text": " The actual amount depends on things like location, benefits, and tax circumstances.",
+    "words": [
+      {
+        "start": 78.72,
+        "end": 79.46,
+        "word": " The",
+        "probability": 0.11484547704458237
+      },
+      {
+        "start": 79.46,
+        "end": 79.84,
+        "word": " actual",
+        "probability": 0.992134690284729
+      },
+      {
+        "start": 79.84,
+        "end": 80.24,
+        "word": " amount",
+        "probability": 0.9970051646232605
+      },
+      {
+        "start": 80.24,
+        "end": 80.56,
+        "word": " depends",
+        "probability": 0.9978269934654236
+      },
+      {
+        "start": 80.56,
+        "end": 80.98,
+        "word": " on",
+        "probability": 0.9987722039222717
+      },
+      {
+        "start": 80.98,
+        "end": 81.3,
+        "word": " things",
+        "probability": 0.9947633147239685
+      },
+      {
+        "start": 81.3,
+        "end": 81.64,
+        "word": " like",
+        "probability": 0.9901132583618164
+      },
+      {
+        "start": 81.64,
+        "end": 82.2,
+        "word": " location,",
+        "probability": 0.965777575969696
+      },
+      {
+        "start": 82.72,
+        "end": 83.14,
+        "word": " benefits,",
+        "probability": 0.9957003593444824
+      },
+      {
+        "start": 83.42,
+        "end": 83.54,
+        "word": " and",
+        "probability": 0.9962856769561768
+      },
+      {
+        "start": 83.54,
+        "end": 83.82,
+        "word": " tax",
+        "probability": 0.9981850981712341
+      },
+      {
+        "start": 83.82,
+        "end": 84.5,
+        "word": " circumstances.",
+        "probability": 0.9942479133605957
+      }
+    ]
+  },
+  {
+    "start": 85.58,
+    "end": 94.54,
+    "text": " But here's the important part. Alex hears $100,000. Alex's checking account sees $6,000 a month.",
+    "words": [
+      {
+        "start": 85.58,
+        "end": 85.66,
+        "word": " But",
+        "probability": 0.982862651348114
+      },
+      {
+        "start": 85.66,
+        "end": 85.96,
+        "word": " here's",
+        "probability": 0.9672766327857971
+      },
+      {
+        "start": 85.96,
+        "end": 86.1,
+        "word": " the",
+        "probability": 0.9980145692825317
+      },
+      {
+        "start": 86.1,
+        "end": 86.44,
+        "word": " important",
+        "probability": 0.9975774884223938
+      },
+      {
+        "start": 86.44,
+        "end": 86.96,
+        "word": " part.",
+        "probability": 0.9994921684265137
+      },
+      {
+        "start": 87.88,
+        "end": 87.96,
+        "word": " Alex",
+        "probability": 0.9421330094337463
+      },
+      {
+        "start": 87.96,
+        "end": 88.28,
+        "word": " hears",
+        "probability": 0.9592099189758301
+      },
+      {
+        "start": 88.28,
+        "end": 89.22,
+        "word": " $100",
+        "probability": 0.8525738716125488
+      },
+      {
+        "start": 89.22,
+        "end": 89.88,
+        "word": ",000.",
+        "probability": 0.9932934045791626
+      },
+      {
+        "start": 90.96,
+        "end": 91.7,
+        "word": " Alex's",
+        "probability": 0.9550908803939819
+      },
+      {
+        "start": 91.7,
+        "end": 92.12,
+        "word": " checking",
+        "probability": 0.9903383851051331
+      },
+      {
+        "start": 92.12,
+        "end": 92.48,
+        "word": " account",
+        "probability": 0.6444482803344727
+      },
+      {
+        "start": 92.48,
+        "end": 92.96,
+        "word": " sees",
+        "probability": 0.9541019201278687
+      },
+      {
+        "start": 92.96,
+        "end": 93.7,
+        "word": " $6",
+        "probability": 0.7520779073238373
+      },
+      {
+        "start": 93.7,
+        "end": 94.18,
+        "word": ",000",
+        "probability": 0.9977016448974609
+      },
+      {
+        "start": 94.18,
+        "end": 94.3,
+        "word": " a",
+        "probability": 0.9887702465057373
+      },
+      {
+        "start": 94.3,
+        "end": 94.54,
+        "word": " month.",
+        "probability": 0.999593198299408
+      }
+    ]
+  },
+  {
+    "start": 95.38,
+    "end": 98.66,
+    "text": " Those are two very different starting points for a budget.",
+    "words": [
+      {
+        "start": 95.38,
+        "end": 95.56,
+        "word": " Those",
+        "probability": 0.9970253109931946
+      },
+      {
+        "start": 95.56,
+        "end": 95.82,
+        "word": " are",
+        "probability": 0.9953517913818359
+      },
+      {
+        "start": 95.82,
+        "end": 96.1,
+        "word": " two",
+        "probability": 0.984432578086853
+      },
+      {
+        "start": 96.1,
+        "end": 96.54,
+        "word": " very",
+        "probability": 0.9792894124984741
+      },
+      {
+        "start": 96.54,
+        "end": 96.98,
+        "word": " different",
+        "probability": 0.9988889098167419
+      },
+      {
+        "start": 96.98,
+        "end": 97.38,
+        "word": " starting",
+        "probability": 0.9948614239692688
+      },
+      {
+        "start": 97.38,
+        "end": 97.94,
+        "word": " points",
+        "probability": 0.9984935522079468
+      },
+      {
+        "start": 97.94,
+        "end": 98.24,
+        "word": " for",
+        "probability": 0.9985914826393127
+      },
+      {
+        "start": 98.24,
+        "end": 98.36,
+        "word": " a",
+        "probability": 0.9977178573608398
+      },
+      {
+        "start": 98.36,
+        "end": 98.66,
+        "word": " budget.",
+        "probability": 0.9886032342910767
+      }
+    ]
+  },
+  {
+    "start": 99.38,
+    "end": 104.6,
+    "text": " And if Alex spends based on the bigger number, the smaller number is going to have a problem.",
+    "words": [
+      {
+        "start": 99.38,
+        "end": 99.46,
+        "word": " And",
+        "probability": 0.975378155708313
+      },
+      {
+        "start": 99.46,
+        "end": 99.58,
+        "word": " if",
+        "probability": 0.9814441204071045
+      },
+      {
+        "start": 99.58,
+        "end": 99.86,
+        "word": " Alex",
+        "probability": 0.9965729713439941
+      },
+      {
+        "start": 99.86,
+        "end": 100.3,
+        "word": " spends",
+        "probability": 0.9947196245193481
+      },
+      {
+        "start": 100.3,
+        "end": 100.74,
+        "word": " based",
+        "probability": 0.980855405330658
+      },
+      {
+        "start": 100.74,
+        "end": 101.0,
+        "word": " on",
+        "probability": 0.9990296363830566
+      },
+      {
+        "start": 101.0,
+        "end": 101.1,
+        "word": " the",
+        "probability": 0.9979820251464844
+      },
+      {
+        "start": 101.1,
+        "end": 101.34,
+        "word": " bigger",
+        "probability": 0.9974552989006042
+      },
+      {
+        "start": 101.34,
+        "end": 101.78,
+        "word": " number,",
+        "probability": 0.9979028701782227
+      },
+      {
+        "start": 102.24,
+        "end": 102.26,
+        "word": " the",
+        "probability": 0.9977735877037048
+      },
+      {
+        "start": 102.26,
+        "end": 102.64,
+        "word": " smaller",
+        "probability": 0.998930037021637
+      },
+      {
+        "start": 102.64,
+        "end": 103.18,
+        "word": " number",
+        "probability": 0.9924848675727844
+      },
+      {
+        "start": 103.18,
+        "end": 103.4,
+        "word": " is",
+        "probability": 0.9988396763801575
+      },
+      {
+        "start": 103.4,
+        "end": 103.66,
+        "word": " going",
+        "probability": 0.9987677335739136
+      },
+      {
+        "start": 103.66,
+        "end": 103.88,
+        "word": " to",
+        "probability": 0.9990390539169312
+      },
+      {
+        "start": 103.88,
+        "end": 104.04,
+        "word": " have",
+        "probability": 0.9993615746498108
+      },
+      {
+        "start": 104.04,
+        "end": 104.14,
+        "word": " a",
+        "probability": 0.9982665181159973
+      },
+      {
+        "start": 104.14,
+        "end": 104.6,
+        "word": " problem.",
+        "probability": 0.9996261596679688
+      }
+    ]
+  },
+  {
+    "start": 105.46,
+    "end": 109.26,
+    "text": " Now let's give that $6,000 somewhere to go.",
+    "words": [
+      {
+        "start": 105.46,
+        "end": 106.14,
+        "word": " Now",
+        "probability": 0.35507264733314514
+      },
+      {
+        "start": 106.14,
+        "end": 106.5,
+        "word": " let's",
+        "probability": 0.8938696682453156
+      },
+      {
+        "start": 106.5,
+        "end": 106.68,
+        "word": " give",
+        "probability": 0.9914905428886414
+      },
+      {
+        "start": 106.68,
+        "end": 106.92,
+        "word": " that",
+        "probability": 0.9898967742919922
+      },
+      {
+        "start": 106.92,
+        "end": 107.34,
+        "word": " $6",
+        "probability": 0.889573484659195
+      },
+      {
+        "start": 107.34,
+        "end": 107.84,
+        "word": ",000",
+        "probability": 0.9896585941314697
+      },
+      {
+        "start": 107.84,
+        "end": 108.6,
+        "word": " somewhere",
+        "probability": 0.949026882648468
+      },
+      {
+        "start": 108.6,
+        "end": 109.02,
+        "word": " to",
+        "probability": 0.9973704814910889
+      },
+      {
+        "start": 109.02,
+        "end": 109.26,
+        "word": " go.",
+        "probability": 0.9981092214584351
+      }
+    ]
+  },
+  {
+    "start": 109.92,
+    "end": 116.02,
+    "text": " Rent $2300, not a mansion, just an apartment in a fairly expensive area.",
+    "words": [
+      {
+        "start": 109.92,
+        "end": 110.22,
+        "word": " Rent",
+        "probability": 0.8497067093849182
+      },
+      {
+        "start": 110.22,
+        "end": 111.54,
+        "word": " $2300,",
+        "probability": 0.7498064835866293
+      },
+      {
+        "start": 112.4,
+        "end": 112.52,
+        "word": " not",
+        "probability": 0.995410144329071
+      },
+      {
+        "start": 112.52,
+        "end": 112.62,
+        "word": " a",
+        "probability": 0.99861741065979
+      },
+      {
+        "start": 112.62,
+        "end": 112.98,
+        "word": " mansion,",
+        "probability": 0.9949859380722046
+      },
+      {
+        "start": 113.42,
+        "end": 113.54,
+        "word": " just",
+        "probability": 0.988198459148407
+      },
+      {
+        "start": 113.54,
+        "end": 113.72,
+        "word": " an",
+        "probability": 0.9920194745063782
+      },
+      {
+        "start": 113.72,
+        "end": 114.06,
+        "word": " apartment",
+        "probability": 0.9997949004173279
+      },
+      {
+        "start": 114.06,
+        "end": 114.4,
+        "word": " in",
+        "probability": 0.9816828966140747
+      },
+      {
+        "start": 114.4,
+        "end": 114.48,
+        "word": " a",
+        "probability": 0.995978593826294
+      },
+      {
+        "start": 114.48,
+        "end": 114.82,
+        "word": " fairly",
+        "probability": 0.9856938123703003
+      },
+      {
+        "start": 114.82,
+        "end": 115.44,
+        "word": " expensive",
+        "probability": 0.9957602620124817
+      },
+      {
+        "start": 115.44,
+        "end": 116.02,
+        "word": " area.",
+        "probability": 0.9983273148536682
+      }
+    ]
+  },
+  {
+    "start": 116.68,
+    "end": 124.72,
+    "text": " Transportation $850. That's the car payment, insurance, gas, and some money set aside for maintenance.",
+    "words": [
+      {
+        "start": 116.68,
+        "end": 117.12,
+        "word": " Transportation",
+        "probability": 0.9924793243408203
+      },
+      {
+        "start": 117.12,
+        "end": 118.94,
+        "word": " $850.",
+        "probability": 0.9392468333244324
+      },
+      {
+        "start": 119.86,
+        "end": 120.3,
+        "word": " That's",
+        "probability": 0.9947080016136169
+      },
+      {
+        "start": 120.3,
+        "end": 120.42,
+        "word": " the",
+        "probability": 0.9948728680610657
+      },
+      {
+        "start": 120.42,
+        "end": 120.66,
+        "word": " car",
+        "probability": 0.989503026008606
+      },
+      {
+        "start": 120.66,
+        "end": 121.18,
+        "word": " payment,",
+        "probability": 0.9640653133392334
+      },
+      {
+        "start": 121.46,
+        "end": 121.78,
+        "word": " insurance,",
+        "probability": 0.9983834028244019
+      },
+      {
+        "start": 122.3,
+        "end": 122.5,
+        "word": " gas,",
+        "probability": 0.9931257963180542
+      },
+      {
+        "start": 122.84,
+        "end": 122.9,
+        "word": " and",
+        "probability": 0.9982112646102905
+      },
+      {
+        "start": 122.9,
+        "end": 123.12,
+        "word": " some",
+        "probability": 0.9971358776092529
+      },
+      {
+        "start": 123.12,
+        "end": 123.46,
+        "word": " money",
+        "probability": 0.9970007538795471
+      },
+      {
+        "start": 123.46,
+        "end": 123.74,
+        "word": " set",
+        "probability": 0.9984763264656067
+      },
+      {
+        "start": 123.74,
+        "end": 124.04,
+        "word": " aside",
+        "probability": 0.9989880919456482
+      },
+      {
+        "start": 124.04,
+        "end": 124.44,
+        "word": " for",
+        "probability": 0.9728996157646179
+      },
+      {
+        "start": 124.44,
+        "end": 124.72,
+        "word": " maintenance.",
+        "probability": 0.9981864094734192
+      }
+    ]
+  },
+  {
+    "start": 125.84,
+    "end": 127.96,
+    "text": " Groceries and eating out $650.",
+    "words": [
+      {
+        "start": 125.84,
+        "end": 126.52,
+        "word": " Groceries",
+        "probability": 0.9192650516827902
+      },
+      {
+        "start": 126.52,
+        "end": 126.72,
+        "word": " and",
+        "probability": 0.9534403085708618
+      },
+      {
+        "start": 126.72,
+        "end": 127.0,
+        "word": " eating",
+        "probability": 0.8640413880348206
+      },
+      {
+        "start": 127.0,
+        "end": 127.38,
+        "word": " out",
+        "probability": 0.9936880469322205
+      },
+      {
+        "start": 127.38,
+        "end": 127.96,
+        "word": " $650.",
+        "probability": 0.8884299695491791
+      }
+    ]
+  },
+  {
+    "start": 130.28,
+    "end": 132.44,
+    "text": " Utilities, internet, and phone $400.",
+    "words": [
+      {
+        "start": 130.28,
+        "end": 130.28,
+        "word": " Utilities,",
+        "probability": 0.9332331418991089
+      },
+      {
+        "start": 130.7,
+        "end": 130.88,
+        "word": " internet,",
+        "probability": 0.8160330057144165
+      },
+      {
+        "start": 131.2,
+        "end": 131.22,
+        "word": " and",
+        "probability": 0.9968194961547852
+      },
+      {
+        "start": 131.22,
+        "end": 131.48,
+        "word": " phone",
+        "probability": 0.9935708045959473
+      },
+      {
+        "start": 131.48,
+        "end": 132.44,
+        "word": " $400.",
+        "probability": 0.7889232933521271
+      }
+    ]
+  },
+  {
+    "start": 133.44,
+    "end": 137.4,
+    "text": " Student loans or other debt payments. Another $400.",
+    "words": [
+      {
+        "start": 133.44,
+        "end": 134.16,
+        "word": " Student",
+        "probability": 0.007633104920387268
+      },
+      {
+        "start": 134.16,
+        "end": 134.64,
+        "word": " loans",
+        "probability": 0.9282183647155762
+      },
+      {
+        "start": 134.64,
+        "end": 135.18,
+        "word": " or",
+        "probability": 0.9017643928527832
+      },
+      {
+        "start": 135.18,
+        "end": 135.42,
+        "word": " other",
+        "probability": 0.9960599541664124
+      },
+      {
+        "start": 135.42,
+        "end": 135.66,
+        "word": " debt",
+        "probability": 0.998660683631897
+      },
+      {
+        "start": 135.66,
+        "end": 136.12,
+        "word": " payments.",
+        "probability": 0.99741530418396
+      },
+      {
+        "start": 136.72,
+        "end": 136.92,
+        "word": " Another",
+        "probability": 0.9220213294029236
+      },
+      {
+        "start": 136.92,
+        "end": 137.4,
+        "word": " $400.",
+        "probability": 0.7877649366855621
+      }
+    ]
+  },
+  {
+    "start": 138.4,
+    "end": 142.84,
+    "text": " Then $300 for things like subscriptions, clothes, and gifts.",
+    "words": [
+      {
+        "start": 138.4,
+        "end": 138.56,
+        "word": " Then",
+        "probability": 0.7999570965766907
+      },
+      {
+        "start": 138.56,
+        "end": 139.08,
+        "word": " $300",
+        "probability": 0.9441535472869873
+      },
+      {
+        "start": 139.08,
+        "end": 140.04,
+        "word": " for",
+        "probability": 0.9679898619651794
+      },
+      {
+        "start": 140.04,
+        "end": 140.38,
+        "word": " things",
+        "probability": 0.9963724613189697
+      },
+      {
+        "start": 140.38,
+        "end": 140.7,
+        "word": " like",
+        "probability": 0.9916239380836487
+      },
+      {
+        "start": 140.7,
+        "end": 141.24,
+        "word": " subscriptions,",
+        "probability": 0.9944825172424316
+      },
+      {
+        "start": 141.72,
+        "end": 142.02,
+        "word": " clothes,",
+        "probability": 0.9678946137428284
+      },
+      {
+        "start": 142.56,
+        "end": 142.56,
+        "word": " and",
+        "probability": 0.9932182431221008
+      },
+      {
+        "start": 142.56,
+        "end": 142.84,
+        "word": " gifts.",
+        "probability": 0.9940381050109863
+      }
+    ]
+  },
+  {
+    "start": 143.7,
+    "end": 152.94,
+    "text": " Total $4,900. Alex has $1,100 left. Now $1,100 isn't nothing.",
+    "words": [
+      {
+        "start": 143.7,
+        "end": 143.88,
+        "word": " Total",
+        "probability": 0.9232645630836487
+      },
+      {
+        "start": 143.88,
+        "end": 144.84,
+        "word": " $4",
+        "probability": 0.568297728896141
+      },
+      {
+        "start": 144.84,
+        "end": 145.92,
+        "word": ",900.",
+        "probability": 0.9865058958530426
+      },
+      {
+        "start": 147.1,
+        "end": 147.48,
+        "word": " Alex",
+        "probability": 0.9135602712631226
+      },
+      {
+        "start": 147.48,
+        "end": 147.8,
+        "word": " has",
+        "probability": 0.9946547746658325
+      },
+      {
+        "start": 147.8,
+        "end": 148.2,
+        "word": " $1",
+        "probability": 0.8044053018093109
+      },
+      {
+        "start": 148.2,
+        "end": 148.74,
+        "word": ",100",
+        "probability": 0.997393935918808
+      },
+      {
+        "start": 148.74,
+        "end": 149.46,
+        "word": " left.",
+        "probability": 0.9788151979446411
+      },
+      {
+        "start": 150.56,
+        "end": 150.56,
+        "word": " Now",
+        "probability": 0.9939467906951904
+      },
+      {
+        "start": 150.56,
+        "end": 151.08,
+        "word": " $1",
+        "probability": 0.972240149974823
+      },
+      {
+        "start": 151.08,
+        "end": 151.62,
+        "word": ",100",
+        "probability": 0.9968633055686951
+      },
+      {
+        "start": 151.62,
+        "end": 152.54,
+        "word": " isn't",
+        "probability": 0.9685544073581696
+      },
+      {
+        "start": 152.54,
+        "end": 152.94,
+        "word": " nothing.",
+        "probability": 0.9975220561027527
+      }
+    ]
+  },
+  {
+    "start": 153.7,
+    "end": 157.16,
+    "text": " This budget still has room. But notice what happened.",
+    "words": [
+      {
+        "start": 153.7,
+        "end": 153.8,
+        "word": " This",
+        "probability": 0.9943580031394958
+      },
+      {
+        "start": 153.8,
+        "end": 154.14,
+        "word": " budget",
+        "probability": 0.9930154085159302
+      },
+      {
+        "start": 154.14,
+        "end": 154.58,
+        "word": " still",
+        "probability": 0.9971707463264465
+      },
+      {
+        "start": 154.58,
+        "end": 154.86,
+        "word": " has",
+        "probability": 0.9993141889572144
+      },
+      {
+        "start": 154.86,
+        "end": 155.16,
+        "word": " room.",
+        "probability": 0.9975038170814514
+      },
+      {
+        "start": 155.9,
+        "end": 155.96,
+        "word": " But",
+        "probability": 0.9924606680870056
+      },
+      {
+        "start": 155.96,
+        "end": 156.26,
+        "word": " notice",
+        "probability": 0.9735174179077148
+      },
+      {
+        "start": 156.26,
+        "end": 156.72,
+        "word": " what",
+        "probability": 0.9964796900749207
+      },
+      {
+        "start": 156.72,
+        "end": 157.16,
+        "word": " happened.",
+        "probability": 0.997614860534668
+      }
+    ]
+  },
+  {
+    "start": 158.02,
+    "end": 163.68,
+    "text": " Most of the paycheck was already committed before Alex made a single decision about this weekend.",
+    "words": [
+      {
+        "start": 158.02,
+        "end": 158.74,
+        "word": " Most",
+        "probability": 0.6910048127174377
+      },
+      {
+        "start": 158.74,
+        "end": 158.94,
+        "word": " of",
+        "probability": 0.9942944645881653
+      },
+      {
+        "start": 158.94,
+        "end": 159.02,
+        "word": " the",
+        "probability": 0.9977158308029175
+      },
+      {
+        "start": 159.02,
+        "end": 159.32,
+        "word": " paycheck",
+        "probability": 0.9387862682342529
+      },
+      {
+        "start": 159.32,
+        "end": 159.78,
+        "word": " was",
+        "probability": 0.9985706806182861
+      },
+      {
+        "start": 159.78,
+        "end": 160.2,
+        "word": " already",
+        "probability": 0.9984937906265259
+      },
+      {
+        "start": 160.2,
+        "end": 160.56,
+        "word": " committed",
+        "probability": 0.9910117387771606
+      },
+      {
+        "start": 160.56,
+        "end": 161.06,
+        "word": " before",
+        "probability": 0.992954671382904
+      },
+      {
+        "start": 161.06,
+        "end": 161.46,
+        "word": " Alex",
+        "probability": 0.9478866457939148
+      },
+      {
+        "start": 161.46,
+        "end": 161.86,
+        "word": " made",
+        "probability": 0.9974954724311829
+      },
+      {
+        "start": 161.86,
+        "end": 161.96,
+        "word": " a",
+        "probability": 0.9993441700935364
+      },
+      {
+        "start": 161.96,
+        "end": 162.2,
+        "word": " single",
+        "probability": 0.9988012313842773
+      },
+      {
+        "start": 162.2,
+        "end": 162.9,
+        "word": " decision",
+        "probability": 0.999382495880127
+      },
+      {
+        "start": 162.9,
+        "end": 163.16,
+        "word": " about",
+        "probability": 0.9977694749832153
+      },
+      {
+        "start": 163.16,
+        "end": 163.42,
+        "word": " this",
+        "probability": 0.9956581592559814
+      },
+      {
+        "start": 163.42,
+        "end": 163.68,
+        "word": " weekend.",
+        "probability": 0.9942800998687744
+      }
+    ]
+  },
+  {
+    "start": 164.76,
+    "end": 168.46,
+    "text": " The money didn't disappear. It arrived with a waiting list.",
+    "words": [
+      {
+        "start": 164.76,
+        "end": 164.86,
+        "word": " The",
+        "probability": 0.9839001893997192
+      },
+      {
+        "start": 164.86,
+        "end": 165.06,
+        "word": " money",
+        "probability": 0.9992683529853821
+      },
+      {
+        "start": 165.06,
+        "end": 165.54,
+        "word": " didn't",
+        "probability": 0.9950214922428131
+      },
+      {
+        "start": 165.54,
+        "end": 165.94,
+        "word": " disappear.",
+        "probability": 0.9991720914840698
+      },
+      {
+        "start": 166.78,
+        "end": 166.86,
+        "word": " It",
+        "probability": 0.9952743053436279
+      },
+      {
+        "start": 166.86,
+        "end": 167.16,
+        "word": " arrived",
+        "probability": 0.9991245865821838
+      },
+      {
+        "start": 167.16,
+        "end": 167.62,
+        "word": " with",
+        "probability": 0.9983339905738831
+      },
+      {
+        "start": 167.62,
+        "end": 167.74,
+        "word": " a",
+        "probability": 0.9960511326789856
+      },
+      {
+        "start": 167.74,
+        "end": 168.06,
+        "word": " waiting",
+        "probability": 0.9857989549636841
+      },
+      {
+        "start": 168.06,
+        "end": 168.46,
+        "word": " list.",
+        "probability": 0.9992998838424683
+      }
+    ]
+  },
+  {
+    "start": 169.36,
+    "end": 174.92,
+    "text": " Then real life walks in. A trip to the dentist. A flight to a family wedding.",
+    "words": [
+      {
+        "start": 169.36,
+        "end": 169.4,
+        "word": " Then",
+        "probability": 0.9670295119285583
+      },
+      {
+        "start": 169.4,
+        "end": 169.64,
+        "word": " real",
+        "probability": 0.7605980634689331
+      },
+      {
+        "start": 169.64,
+        "end": 170.12,
+        "word": " life",
+        "probability": 0.9617354869842529
+      },
+      {
+        "start": 170.12,
+        "end": 170.5,
+        "word": " walks",
+        "probability": 0.9993137121200562
+      },
+      {
+        "start": 170.5,
+        "end": 170.88,
+        "word": " in.",
+        "probability": 0.99854975938797
+      },
+      {
+        "start": 171.54,
+        "end": 171.56,
+        "word": " A",
+        "probability": 0.9940137267112732
+      },
+      {
+        "start": 171.56,
+        "end": 171.8,
+        "word": " trip",
+        "probability": 0.9989556074142456
+      },
+      {
+        "start": 171.8,
+        "end": 172.04,
+        "word": " to",
+        "probability": 0.9990372657775879
+      },
+      {
+        "start": 172.04,
+        "end": 172.14,
+        "word": " the",
+        "probability": 0.9899777173995972
+      },
+      {
+        "start": 172.14,
+        "end": 172.42,
+        "word": " dentist.",
+        "probability": 0.9790325164794922
+      },
+      {
+        "start": 173.5,
+        "end": 173.56,
+        "word": " A",
+        "probability": 0.9971523284912109
+      },
+      {
+        "start": 173.56,
+        "end": 173.82,
+        "word": " flight",
+        "probability": 0.9971861243247986
+      },
+      {
+        "start": 173.82,
+        "end": 174.08,
+        "word": " to",
+        "probability": 0.9980847835540771
+      },
+      {
+        "start": 174.08,
+        "end": 174.18,
+        "word": " a",
+        "probability": 0.9906324148178101
+      },
+      {
+        "start": 174.18,
+        "end": 174.52,
+        "word": " family",
+        "probability": 0.9993488192558289
+      },
+      {
+        "start": 174.52,
+        "end": 174.92,
+        "word": " wedding.",
+        "probability": 0.9955507516860962
+      }
+    ]
+  },
+  {
+    "start": 175.72,
+    "end": 178.72,
+    "text": " A laptop that decides today is its last day.",
+    "words": [
+      {
+        "start": 175.72,
+        "end": 175.76,
+        "word": " A",
+        "probability": 0.9983188509941101
+      },
+      {
+        "start": 175.76,
+        "end": 176.18,
+        "word": " laptop",
+        "probability": 0.9980370402336121
+      },
+      {
+        "start": 176.18,
+        "end": 176.56,
+        "word": " that",
+        "probability": 0.9990334510803223
+      },
+      {
+        "start": 176.56,
+        "end": 176.92,
+        "word": " decides",
+        "probability": 0.9964286684989929
+      },
+      {
+        "start": 176.92,
+        "end": 177.54,
+        "word": " today",
+        "probability": 0.9828146696090698
+      },
+      {
+        "start": 177.54,
+        "end": 177.9,
+        "word": " is",
+        "probability": 0.9957675933837891
+      },
+      {
+        "start": 177.9,
+        "end": 178.04,
+        "word": " its",
+        "probability": 0.8536630868911743
+      },
+      {
+        "start": 178.04,
+        "end": 178.34,
+        "word": " last",
+        "probability": 0.9990405440330505
+      },
+      {
+        "start": 178.34,
+        "end": 178.72,
+        "word": " day.",
+        "probability": 0.998584508895874
+      }
+    ]
+  },
+  {
+    "start": 179.66,
+    "end": 183.94,
+    "text": " These expenses feel like surprises because they don't happen every month.",
+    "words": [
+      {
+        "start": 179.66,
+        "end": 179.66,
+        "word": " These",
+        "probability": 0.9957656860351562
+      },
+      {
+        "start": 179.66,
+        "end": 180.1,
+        "word": " expenses",
+        "probability": 0.998702883720398
+      },
+      {
+        "start": 180.1,
+        "end": 180.7,
+        "word": " feel",
+        "probability": 0.9971814155578613
+      },
+      {
+        "start": 180.7,
+        "end": 181.04,
+        "word": " like",
+        "probability": 0.9994670748710632
+      },
+      {
+        "start": 181.04,
+        "end": 181.4,
+        "word": " surprises",
+        "probability": 0.9898748397827148
+      },
+      {
+        "start": 181.4,
+        "end": 182.24,
+        "word": " because",
+        "probability": 0.9488587975502014
+      },
+      {
+        "start": 182.24,
+        "end": 182.62,
+        "word": " they",
+        "probability": 0.9989677667617798
+      },
+      {
+        "start": 182.62,
+        "end": 182.88,
+        "word": " don't",
+        "probability": 0.9992157220840454
+      },
+      {
+        "start": 182.88,
+        "end": 183.22,
+        "word": " happen",
+        "probability": 0.9987272620201111
+      },
+      {
+        "start": 183.22,
+        "end": 183.6,
+        "word": " every",
+        "probability": 0.9979181885719299
+      },
+      {
+        "start": 183.6,
+        "end": 183.94,
+        "word": " month.",
+        "probability": 0.9997186064720154
+      }
+    ]
+  },
+  {
+    "start": 183.94,
+    "end": 187.38,
+    "text": " But some version of them happens most years.",
+    "words": [
+      {
+        "start": 183.94,
+        "end": 184.84,
+        "word": " But",
+        "probability": 0.3674831986427307
+      },
+      {
+        "start": 184.84,
+        "end": 185.1,
+        "word": " some",
+        "probability": 0.9539257884025574
+      },
+      {
+        "start": 185.1,
+        "end": 185.56,
+        "word": " version",
+        "probability": 0.9956576824188232
+      },
+      {
+        "start": 185.56,
+        "end": 185.82,
+        "word": " of",
+        "probability": 0.997404158115387
+      },
+      {
+        "start": 185.82,
+        "end": 186.0,
+        "word": " them",
+        "probability": 0.998595654964447
+      },
+      {
+        "start": 186.0,
+        "end": 186.32,
+        "word": " happens",
+        "probability": 0.994476854801178
+      },
+      {
+        "start": 186.32,
+        "end": 186.86,
+        "word": " most",
+        "probability": 0.9957215785980225
+      },
+      {
+        "start": 186.86,
+        "end": 187.38,
+        "word": " years.",
+        "probability": 0.9971303343772888
+      }
+    ]
+  },
+  {
+    "start": 188.66,
+    "end": 194.58,
+    "text": " If Alex needs an average of $600 a month to cover those irregular expenses,",
+    "words": [
+      {
+        "start": 188.66,
+        "end": 188.96,
+        "word": " If",
+        "probability": 0.9398484826087952
+      },
+      {
+        "start": 188.96,
+        "end": 189.3,
+        "word": " Alex",
+        "probability": 0.9547662734985352
+      },
+      {
+        "start": 189.3,
+        "end": 189.74,
+        "word": " needs",
+        "probability": 0.9953302145004272
+      },
+      {
+        "start": 189.74,
+        "end": 189.98,
+        "word": " an",
+        "probability": 0.990740180015564
+      },
+      {
+        "start": 189.98,
+        "end": 190.46,
+        "word": " average",
+        "probability": 0.9942388534545898
+      },
+      {
+        "start": 190.46,
+        "end": 190.78,
+        "word": " of",
+        "probability": 0.9944795370101929
+      },
+      {
+        "start": 190.78,
+        "end": 191.22,
+        "word": " $600",
+        "probability": 0.9601602852344513
+      },
+      {
+        "start": 191.22,
+        "end": 192.28,
+        "word": " a",
+        "probability": 0.9658529758453369
+      },
+      {
+        "start": 192.28,
+        "end": 192.54,
+        "word": " month",
+        "probability": 0.9997096657752991
+      },
+      {
+        "start": 192.54,
+        "end": 192.8,
+        "word": " to",
+        "probability": 0.9961138963699341
+      },
+      {
+        "start": 192.8,
+        "end": 193.02,
+        "word": " cover",
+        "probability": 0.9992475509643555
+      },
+      {
+        "start": 193.02,
+        "end": 193.42,
+        "word": " those",
+        "probability": 0.9966714382171631
+      },
+      {
+        "start": 193.42,
+        "end": 193.86,
+        "word": " irregular",
+        "probability": 0.98543381690979
+      },
+      {
+        "start": 193.86,
+        "end": 194.58,
+        "word": " expenses,",
+        "probability": 0.9983087778091431
+      }
+    ]
+  },
+  {
+    "start": 195.46,
+    "end": 201.26,
+    "text": " that $1,100 becomes $500. $500 of breathing room.",
+    "words": [
+      {
+        "start": 195.46,
+        "end": 195.7,
+        "word": " that",
+        "probability": 0.9384307265281677
+      },
+      {
+        "start": 195.7,
+        "end": 195.94,
+        "word": " $1",
+        "probability": 0.8662629425525665
+      },
+      {
+        "start": 195.94,
+        "end": 196.48,
+        "word": ",100",
+        "probability": 0.9916931390762329
+      },
+      {
+        "start": 196.48,
+        "end": 197.24,
+        "word": " becomes",
+        "probability": 0.9940537810325623
+      },
+      {
+        "start": 197.24,
+        "end": 198.1,
+        "word": " $500.",
+        "probability": 0.9432057738304138
+      },
+      {
+        "start": 199.1,
+        "end": 199.82,
+        "word": " $500",
+        "probability": 0.9750400185585022
+      },
+      {
+        "start": 199.82,
+        "end": 200.56,
+        "word": " of",
+        "probability": 0.9902284145355225
+      },
+      {
+        "start": 200.56,
+        "end": 200.82,
+        "word": " breathing",
+        "probability": 0.9616589546203613
+      },
+      {
+        "start": 200.82,
+        "end": 201.26,
+        "word": " room.",
+        "probability": 0.9997932314872742
+      }
+    ]
+  },
+  {
+    "start": 201.9,
+    "end": 208.64,
+    "text": " Enough to make progress, yes. But a lot less than Alex imagined when signing that six-figure offer.",
+    "words": [
+      {
+        "start": 201.9,
+        "end": 202.14,
+        "word": " Enough",
+        "probability": 0.9838129281997681
+      },
+      {
+        "start": 202.14,
+        "end": 202.36,
+        "word": " to",
+        "probability": 0.9992703795433044
+      },
+      {
+        "start": 202.36,
+        "end": 202.5,
+        "word": " make",
+        "probability": 0.9990449547767639
+      },
+      {
+        "start": 202.5,
+        "end": 203.06,
+        "word": " progress,",
+        "probability": 0.998467743396759
+      },
+      {
+        "start": 203.38,
+        "end": 203.52,
+        "word": " yes.",
+        "probability": 0.9953321814537048
+      },
+      {
+        "start": 204.3,
+        "end": 204.5,
+        "word": " But",
+        "probability": 0.9947195053100586
+      },
+      {
+        "start": 204.5,
+        "end": 204.6,
+        "word": " a",
+        "probability": 0.9889756441116333
+      },
+      {
+        "start": 204.6,
+        "end": 204.8,
+        "word": " lot",
+        "probability": 0.9996670484542847
+      },
+      {
+        "start": 204.8,
+        "end": 205.2,
+        "word": " less",
+        "probability": 0.9990953207015991
+      },
+      {
+        "start": 205.2,
+        "end": 205.36,
+        "word": " than",
+        "probability": 0.9943380951881409
+      },
+      {
+        "start": 205.36,
+        "end": 205.76,
+        "word": " Alex",
+        "probability": 0.9972901344299316
+      },
+      {
+        "start": 205.76,
+        "end": 206.48,
+        "word": " imagined",
+        "probability": 0.9982455968856812
+      },
+      {
+        "start": 206.48,
+        "end": 206.72,
+        "word": " when",
+        "probability": 0.9912312626838684
+      },
+      {
+        "start": 206.72,
+        "end": 207.12,
+        "word": " signing",
+        "probability": 0.9984083771705627
+      },
+      {
+        "start": 207.12,
+        "end": 207.5,
+        "word": " that",
+        "probability": 0.9981288313865662
+      },
+      {
+        "start": 207.5,
+        "end": 207.8,
+        "word": " six",
+        "probability": 0.7939343452453613
+      },
+      {
+        "start": 207.8,
+        "end": 208.26,
+        "word": "-figure",
+        "probability": 0.8642660677433014
+      },
+      {
+        "start": 208.26,
+        "end": 208.64,
+        "word": " offer.",
+        "probability": 0.9979682564735413
+      }
+    ]
+  },
+  {
+    "start": 209.36,
+    "end": 215.32,
+    "text": " And if those irregular costs aren't planned for, they may land on a credit card instead.",
+    "words": [
+      {
+        "start": 209.36,
+        "end": 209.66,
+        "word": " And",
+        "probability": 0.41383928060531616
+      },
+      {
+        "start": 209.66,
+        "end": 209.8,
+        "word": " if",
+        "probability": 0.9851020574569702
+      },
+      {
+        "start": 209.8,
+        "end": 210.0,
+        "word": " those",
+        "probability": 0.9953500032424927
+      },
+      {
+        "start": 210.0,
+        "end": 210.44,
+        "word": " irregular",
+        "probability": 0.980801522731781
+      },
+      {
+        "start": 210.44,
+        "end": 211.42,
+        "word": " costs",
+        "probability": 0.9975938200950623
+      },
+      {
+        "start": 211.42,
+        "end": 211.8,
+        "word": " aren't",
+        "probability": 0.9789509773254395
+      },
+      {
+        "start": 211.8,
+        "end": 212.1,
+        "word": " planned",
+        "probability": 0.9986947178840637
+      },
+      {
+        "start": 212.1,
+        "end": 212.5,
+        "word": " for,",
+        "probability": 0.9982243180274963
+      },
+      {
+        "start": 212.98,
+        "end": 213.1,
+        "word": " they",
+        "probability": 0.9960250854492188
+      },
+      {
+        "start": 213.1,
+        "end": 213.24,
+        "word": " may",
+        "probability": 0.9982202649116516
+      },
+      {
+        "start": 213.24,
+        "end": 213.78,
+        "word": " land",
+        "probability": 0.9955307841300964
+      },
+      {
+        "start": 213.78,
+        "end": 214.0,
+        "word": " on",
+        "probability": 0.9984013438224792
+      },
+      {
+        "start": 214.0,
+        "end": 214.08,
+        "word": " a",
+        "probability": 0.9934390187263489
+      },
+      {
+        "start": 214.08,
+        "end": 214.32,
+        "word": " credit",
+        "probability": 0.9983506202697754
+      },
+      {
+        "start": 214.32,
+        "end": 214.76,
+        "word": " card",
+        "probability": 0.9992491602897644
+      },
+      {
+        "start": 214.76,
+        "end": 215.32,
+        "word": " instead.",
+        "probability": 0.9825970530509949
+      }
+    ]
+  },
+  {
+    "start": 216.84,
+    "end": 222.12,
+    "text": " Next month, the budget gets a new expense. A payment for something that already happened.",
+    "words": [
+      {
+        "start": 216.84,
+        "end": 217.06,
+        "word": " Next",
+        "probability": 0.8095786571502686
+      },
+      {
+        "start": 217.06,
+        "end": 217.44,
+        "word": " month,",
+        "probability": 0.9989709854125977
+      },
+      {
+        "start": 217.46,
+        "end": 217.66,
+        "word": " the",
+        "probability": 0.9957969188690186
+      },
+      {
+        "start": 217.66,
+        "end": 217.94,
+        "word": " budget",
+        "probability": 0.9909148216247559
+      },
+      {
+        "start": 217.94,
+        "end": 218.2,
+        "word": " gets",
+        "probability": 0.9966875910758972
+      },
+      {
+        "start": 218.2,
+        "end": 218.38,
+        "word": " a",
+        "probability": 0.9979581832885742
+      },
+      {
+        "start": 218.38,
+        "end": 218.56,
+        "word": " new",
+        "probability": 0.9978665709495544
+      },
+      {
+        "start": 218.56,
+        "end": 219.02,
+        "word": " expense.",
+        "probability": 0.9983184337615967
+      },
+      {
+        "start": 219.88,
+        "end": 220.02,
+        "word": " A",
+        "probability": 0.9915225505828857
+      },
+      {
+        "start": 220.02,
+        "end": 220.4,
+        "word": " payment",
+        "probability": 0.9991375207901001
+      },
+      {
+        "start": 220.4,
+        "end": 220.64,
+        "word": " for",
+        "probability": 0.9960923790931702
+      },
+      {
+        "start": 220.64,
+        "end": 220.96,
+        "word": " something",
+        "probability": 0.9989829659461975
+      },
+      {
+        "start": 220.96,
+        "end": 221.3,
+        "word": " that",
+        "probability": 0.9990772008895874
+      },
+      {
+        "start": 221.3,
+        "end": 221.54,
+        "word": " already",
+        "probability": 0.9932255148887634
+      },
+      {
+        "start": 221.54,
+        "end": 222.12,
+        "word": " happened.",
+        "probability": 0.9986100196838379
+      }
+    ]
+  },
+  {
+    "start": 222.8,
+    "end": 227.32,
+    "text": " That's how a decent income can start to feel like it's always one step behind.",
+    "words": [
+      {
+        "start": 222.8,
+        "end": 223.08,
+        "word": " That's",
+        "probability": 0.996591329574585
+      },
+      {
+        "start": 223.08,
+        "end": 223.22,
+        "word": " how",
+        "probability": 0.9994932413101196
+      },
+      {
+        "start": 223.22,
+        "end": 223.34,
+        "word": " a",
+        "probability": 0.9960856437683105
+      },
+      {
+        "start": 223.34,
+        "end": 223.72,
+        "word": " decent",
+        "probability": 0.998772919178009
+      },
+      {
+        "start": 223.72,
+        "end": 224.26,
+        "word": " income",
+        "probability": 0.9992081522941589
+      },
+      {
+        "start": 224.26,
+        "end": 224.66,
+        "word": " can",
+        "probability": 0.9960731267929077
+      },
+      {
+        "start": 224.66,
+        "end": 224.92,
+        "word": " start",
+        "probability": 0.9989930987358093
+      },
+      {
+        "start": 224.92,
+        "end": 225.06,
+        "word": " to",
+        "probability": 0.998781144618988
+      },
+      {
+        "start": 225.06,
+        "end": 225.32,
+        "word": " feel",
+        "probability": 0.999186098575592
+      },
+      {
+        "start": 225.32,
+        "end": 225.62,
+        "word": " like",
+        "probability": 0.9977220892906189
+      },
+      {
+        "start": 225.62,
+        "end": 225.78,
+        "word": " it's",
+        "probability": 0.9952753484249115
+      },
+      {
+        "start": 225.78,
+        "end": 226.26,
+        "word": " always",
+        "probability": 0.9981016516685486
+      },
+      {
+        "start": 226.26,
+        "end": 226.56,
+        "word": " one",
+        "probability": 0.997660756111145
+      },
+      {
+        "start": 226.56,
+        "end": 226.88,
+        "word": " step",
+        "probability": 0.9897739291191101
+      },
+      {
+        "start": 226.88,
+        "end": 227.32,
+        "word": " behind.",
+        "probability": 0.9995773434638977
+      }
+    ]
+  },
+  {
+    "start": 228.06,
+    "end": 229.86,
+    "text": " But there's another part of this story.",
+    "words": [
+      {
+        "start": 228.06,
+        "end": 228.2,
+        "word": " But",
+        "probability": 0.9958091974258423
+      },
+      {
+        "start": 228.2,
+        "end": 228.44,
+        "word": " there's",
+        "probability": 0.9761916995048523
+      },
+      {
+        "start": 228.44,
+        "end": 228.68,
+        "word": " another",
+        "probability": 0.9984666109085083
+      },
+      {
+        "start": 228.68,
+        "end": 229.08,
+        "word": " part",
+        "probability": 0.9994650483131409
+      },
+      {
+        "start": 229.08,
+        "end": 229.26,
+        "word": " of",
+        "probability": 0.9992572665214539
+      },
+      {
+        "start": 229.26,
+        "end": 229.42,
+        "word": " this",
+        "probability": 0.9948029518127441
+      },
+      {
+        "start": 229.42,
+        "end": 229.86,
+        "word": " story.",
+        "probability": 0.9993196725845337
+      }
+    ]
+  },
+  {
+    "start": 230.58,
+    "end": 234.7,
+    "text": " A few years ago, Alex made less money. The apartment was smaller.",
+    "words": [
+      {
+        "start": 230.58,
+        "end": 230.74,
+        "word": " A",
+        "probability": 0.997071385383606
+      },
+      {
+        "start": 230.74,
+        "end": 230.94,
+        "word": " few",
+        "probability": 0.9993705153465271
+      },
+      {
+        "start": 230.94,
+        "end": 231.22,
+        "word": " years",
+        "probability": 0.9990872144699097
+      },
+      {
+        "start": 231.22,
+        "end": 231.66,
+        "word": " ago,",
+        "probability": 0.9992311000823975
+      },
+      {
+        "start": 231.9,
+        "end": 232.12,
+        "word": " Alex",
+        "probability": 0.9659030437469482
+      },
+      {
+        "start": 232.12,
+        "end": 232.44,
+        "word": " made",
+        "probability": 0.9982853531837463
+      },
+      {
+        "start": 232.44,
+        "end": 232.72,
+        "word": " less",
+        "probability": 0.9992221593856812
+      },
+      {
+        "start": 232.72,
+        "end": 233.06,
+        "word": " money.",
+        "probability": 0.9999098777770996
+      },
+      {
+        "start": 233.58,
+        "end": 233.68,
+        "word": " The",
+        "probability": 0.9981654286384583
+      },
+      {
+        "start": 233.68,
+        "end": 233.94,
+        "word": " apartment",
+        "probability": 0.9994575381278992
+      },
+      {
+        "start": 233.94,
+        "end": 234.36,
+        "word": " was",
+        "probability": 0.9994533658027649
+      },
+      {
+        "start": 234.36,
+        "end": 234.7,
+        "word": " smaller.",
+        "probability": 0.9992185831069946
+      }
+    ]
+  },
+  {
+    "start": 234.7,
+    "end": 239.9,
+    "text": " The car was older. Dinner delivery was an occasional treat.",
+    "words": [
+      {
+        "start": 234.7,
+        "end": 235.68,
+        "word": " The",
+        "probability": 0.2803797125816345
+      },
+      {
+        "start": 235.68,
+        "end": 235.94,
+        "word": " car",
+        "probability": 0.5425642132759094
+      },
+      {
+        "start": 235.94,
+        "end": 236.28,
+        "word": " was",
+        "probability": 0.9932855367660522
+      },
+      {
+        "start": 236.28,
+        "end": 236.86,
+        "word": " older.",
+        "probability": 0.9832351207733154
+      },
+      {
+        "start": 237.48,
+        "end": 237.7,
+        "word": " Dinner",
+        "probability": 0.9640681743621826
+      },
+      {
+        "start": 237.7,
+        "end": 238.16,
+        "word": " delivery",
+        "probability": 0.9778423309326172
+      },
+      {
+        "start": 238.16,
+        "end": 238.64,
+        "word": " was",
+        "probability": 0.998468816280365
+      },
+      {
+        "start": 238.64,
+        "end": 238.8,
+        "word": " an",
+        "probability": 0.9968122839927673
+      },
+      {
+        "start": 238.8,
+        "end": 239.26,
+        "word": " occasional",
+        "probability": 0.994086742401123
+      },
+      {
+        "start": 239.26,
+        "end": 239.9,
+        "word": " treat.",
+        "probability": 0.9991254210472107
+      }
+    ]
+  },
+  {
+    "start": 240.66,
+    "end": 242.36,
+    "text": " Then the raises started coming.",
+    "words": [
+      {
+        "start": 240.66,
+        "end": 240.78,
+        "word": " Then",
+        "probability": 0.9795200824737549
+      },
+      {
+        "start": 240.78,
+        "end": 240.96,
+        "word": " the",
+        "probability": 0.9285958409309387
+      },
+      {
+        "start": 240.96,
+        "end": 241.4,
+        "word": " raises",
+        "probability": 0.9026506543159485
+      },
+      {
+        "start": 241.4,
+        "end": 241.82,
+        "word": " started",
+        "probability": 0.997245192527771
+      },
+      {
+        "start": 241.82,
+        "end": 242.36,
+        "word": " coming.",
+        "probability": 0.9990873336791992
+      }
+    ]
+  },
+  {
+    "start": 243.72,
+    "end": 246.38,
+    "text": " And every upgrade had a reasonable explanation.",
+    "words": [
+      {
+        "start": 243.72,
+        "end": 243.82,
+        "word": " And",
+        "probability": 0.6556652188301086
+      },
+      {
+        "start": 243.82,
+        "end": 244.1,
+        "word": " every",
+        "probability": 0.9884765148162842
+      },
+      {
+        "start": 244.1,
+        "end": 244.62,
+        "word": " upgrade",
+        "probability": 0.9969351291656494
+      },
+      {
+        "start": 244.62,
+        "end": 245.04,
+        "word": " had",
+        "probability": 0.9983697533607483
+      },
+      {
+        "start": 245.04,
+        "end": 245.16,
+        "word": " a",
+        "probability": 0.9993622899055481
+      },
+      {
+        "start": 245.16,
+        "end": 245.64,
+        "word": " reasonable",
+        "probability": 0.9927409291267395
+      },
+      {
+        "start": 245.64,
+        "end": 246.38,
+        "word": " explanation.",
+        "probability": 0.9992915391921997
+      }
+    ]
+  },
+  {
+    "start": 247.4,
+    "end": 251.88,
+    "text": " The nicer apartment cut the commute. The newer car felt more reliable.",
+    "words": [
+      {
+        "start": 247.4,
+        "end": 247.46,
+        "word": " The",
+        "probability": 0.9951554536819458
+      },
+      {
+        "start": 247.46,
+        "end": 247.74,
+        "word": " nicer",
+        "probability": 0.9858998656272888
+      },
+      {
+        "start": 247.74,
+        "end": 248.36,
+        "word": " apartment",
+        "probability": 0.9885431528091431
+      },
+      {
+        "start": 248.36,
+        "end": 248.74,
+        "word": " cut",
+        "probability": 0.9924110174179077
+      },
+      {
+        "start": 248.74,
+        "end": 248.96,
+        "word": " the",
+        "probability": 0.9991859793663025
+      },
+      {
+        "start": 248.96,
+        "end": 249.28,
+        "word": " commute.",
+        "probability": 0.9915374517440796
+      },
+      {
+        "start": 250.16,
+        "end": 250.18,
+        "word": " The",
+        "probability": 0.9954119324684143
+      },
+      {
+        "start": 250.18,
+        "end": 250.38,
+        "word": " newer",
+        "probability": 0.9891665577888489
+      },
+      {
+        "start": 250.38,
+        "end": 250.8,
+        "word": " car",
+        "probability": 0.9983388185501099
+      },
+      {
+        "start": 250.8,
+        "end": 251.16,
+        "word": " felt",
+        "probability": 0.9931158423423767
+      },
+      {
+        "start": 251.16,
+        "end": 251.48,
+        "word": " more",
+        "probability": 0.9994103908538818
+      },
+      {
+        "start": 251.48,
+        "end": 251.88,
+        "word": " reliable.",
+        "probability": 0.998807430267334
+      }
+    ]
+  },
+  {
+    "start": 252.88,
+    "end": 255.86,
+    "text": " The extra subscriptions were only a few dollars each.",
+    "words": [
+      {
+        "start": 252.88,
+        "end": 252.94,
+        "word": " The",
+        "probability": 0.9972156286239624
+      },
+      {
+        "start": 252.94,
+        "end": 253.24,
+        "word": " extra",
+        "probability": 0.9956450462341309
+      },
+      {
+        "start": 253.24,
+        "end": 253.96,
+        "word": " subscriptions",
+        "probability": 0.9920795559883118
+      },
+      {
+        "start": 253.96,
+        "end": 254.38,
+        "word": " were",
+        "probability": 0.9956113696098328
+      },
+      {
+        "start": 254.38,
+        "end": 254.76,
+        "word": " only",
+        "probability": 0.9980554580688477
+      },
+      {
+        "start": 254.76,
+        "end": 254.94,
+        "word": " a",
+        "probability": 0.9947191476821899
+      },
+      {
+        "start": 254.94,
+        "end": 255.12,
+        "word": " few",
+        "probability": 0.9992794394493103
+      },
+      {
+        "start": 255.12,
+        "end": 255.54,
+        "word": " dollars",
+        "probability": 0.9981207251548767
+      },
+      {
+        "start": 255.54,
+        "end": 255.86,
+        "word": " each.",
+        "probability": 0.9984012246131897
+      }
+    ]
+  },
+  {
+    "start": 256.68,
+    "end": 258.92,
+    "text": " None of those decisions had to be a mistake.",
+    "words": [
+      {
+        "start": 256.68,
+        "end": 256.8,
+        "word": " None",
+        "probability": 0.9960307478904724
+      },
+      {
+        "start": 256.8,
+        "end": 256.98,
+        "word": " of",
+        "probability": 0.9996705055236816
+      },
+      {
+        "start": 256.98,
+        "end": 257.14,
+        "word": " those",
+        "probability": 0.9967478513717651
+      },
+      {
+        "start": 257.14,
+        "end": 257.62,
+        "word": " decisions",
+        "probability": 0.982471764087677
+      },
+      {
+        "start": 257.62,
+        "end": 258.1,
+        "word": " had",
+        "probability": 0.9987179040908813
+      },
+      {
+        "start": 258.1,
+        "end": 258.28,
+        "word": " to",
+        "probability": 0.998918890953064
+      },
+      {
+        "start": 258.28,
+        "end": 258.44,
+        "word": " be",
+        "probability": 0.9993996620178223
+      },
+      {
+        "start": 258.44,
+        "end": 258.58,
+        "word": " a",
+        "probability": 0.9987686276435852
+      },
+      {
+        "start": 258.58,
+        "end": 258.92,
+        "word": " mistake.",
+        "probability": 0.9994507431983948
+      }
+    ]
+  },
+  {
+    "start": 259.8,
+    "end": 262.94,
+    "text": " The problem was that every raise came with a new commitment.",
+    "words": [
+      {
+        "start": 259.8,
+        "end": 259.88,
+        "word": " The",
+        "probability": 0.9970515966415405
+      },
+      {
+        "start": 259.88,
+        "end": 260.26,
+        "word": " problem",
+        "probability": 0.999406099319458
+      },
+      {
+        "start": 260.26,
+        "end": 260.6,
+        "word": " was",
+        "probability": 0.9987447261810303
+      },
+      {
+        "start": 260.6,
+        "end": 260.8,
+        "word": " that",
+        "probability": 0.9968045949935913
+      },
+      {
+        "start": 260.8,
+        "end": 261.2,
+        "word": " every",
+        "probability": 0.9918163418769836
+      },
+      {
+        "start": 261.2,
+        "end": 261.6,
+        "word": " raise",
+        "probability": 0.9780752658843994
+      },
+      {
+        "start": 261.6,
+        "end": 262.02,
+        "word": " came",
+        "probability": 0.9970642924308777
+      },
+      {
+        "start": 262.02,
+        "end": 262.3,
+        "word": " with",
+        "probability": 0.9989370703697205
+      },
+      {
+        "start": 262.3,
+        "end": 262.42,
+        "word": " a",
+        "probability": 0.990528404712677
+      },
+      {
+        "start": 262.42,
+        "end": 262.62,
+        "word": " new",
+        "probability": 0.9992377758026123
+      },
+      {
+        "start": 262.62,
+        "end": 262.94,
+        "word": " commitment.",
+        "probability": 0.9962145686149597
+      }
+    ]
+  },
+  {
+    "start": 262.94,
+    "end": 267.1,
+    "text": " More money came in. More money was promised away.",
+    "words": [
+      {
+        "start": 262.94,
+        "end": 264.0,
+        "word": " More",
+        "probability": 0.09309295564889908
+      },
+      {
+        "start": 264.0,
+        "end": 264.24,
+        "word": " money",
+        "probability": 0.9936030507087708
+      },
+      {
+        "start": 264.24,
+        "end": 264.58,
+        "word": " came",
+        "probability": 0.9328190088272095
+      },
+      {
+        "start": 264.58,
+        "end": 264.94,
+        "word": " in.",
+        "probability": 0.9970570802688599
+      },
+      {
+        "start": 265.54,
+        "end": 265.76,
+        "word": " More",
+        "probability": 0.9708375334739685
+      },
+      {
+        "start": 265.76,
+        "end": 266.1,
+        "word": " money",
+        "probability": 0.9994090795516968
+      },
+      {
+        "start": 266.1,
+        "end": 266.3,
+        "word": " was",
+        "probability": 0.9990015625953674
+      },
+      {
+        "start": 266.3,
+        "end": 266.66,
+        "word": " promised",
+        "probability": 0.993416428565979
+      },
+      {
+        "start": 266.66,
+        "end": 267.1,
+        "word": " away.",
+        "probability": 0.9966069459915161
+      }
+    ]
+  },
+  {
+    "start": 267.9,
+    "end": 269.66,
+    "text": " This is lifestyle creep.",
+    "words": [
+      {
+        "start": 267.9,
+        "end": 268.14,
+        "word": " This",
+        "probability": 0.8890075087547302
+      },
+      {
+        "start": 268.14,
+        "end": 268.42,
+        "word": " is",
+        "probability": 0.998285710811615
+      },
+      {
+        "start": 268.42,
+        "end": 268.86,
+        "word": " lifestyle",
+        "probability": 0.8724686503410339
+      },
+      {
+        "start": 268.86,
+        "end": 269.66,
+        "word": " creep.",
+        "probability": 0.986665666103363
+      }
+    ]
+  },
+  {
+    "start": 270.72,
+    "end": 274.18,
+    "text": " It rarely feels like one dramatic shopping spree.",
+    "words": [
+      {
+        "start": 270.72,
+        "end": 271.18,
+        "word": " It",
+        "probability": 0.9715149402618408
+      },
+      {
+        "start": 271.18,
+        "end": 271.44,
+        "word": " rarely",
+        "probability": 0.9977098703384399
+      },
+      {
+        "start": 271.44,
+        "end": 272.1,
+        "word": " feels",
+        "probability": 0.9964693784713745
+      },
+      {
+        "start": 272.1,
+        "end": 272.46,
+        "word": " like",
+        "probability": 0.9983648657798767
+      },
+      {
+        "start": 272.46,
+        "end": 272.72,
+        "word": " one",
+        "probability": 0.9900082349777222
+      },
+      {
+        "start": 272.72,
+        "end": 273.28,
+        "word": " dramatic",
+        "probability": 0.9898214340209961
+      },
+      {
+        "start": 273.28,
+        "end": 273.66,
+        "word": " shopping",
+        "probability": 0.9985559582710266
+      },
+      {
+        "start": 273.66,
+        "end": 274.18,
+        "word": " spree.",
+        "probability": 0.9970467686653137
+      }
+    ]
+  },
+  {
+    "start": 274.8,
+    "end": 280.06,
+    "text": " It feels like slowly turning yesterday's luxuries into today's normal expenses.",
+    "words": [
+      {
+        "start": 274.8,
+        "end": 275.04,
+        "word": " It",
+        "probability": 0.9962510466575623
+      },
+      {
+        "start": 275.04,
+        "end": 275.26,
+        "word": " feels",
+        "probability": 0.998015284538269
+      },
+      {
+        "start": 275.26,
+        "end": 275.74,
+        "word": " like",
+        "probability": 0.9985561966896057
+      },
+      {
+        "start": 275.74,
+        "end": 276.12,
+        "word": " slowly",
+        "probability": 0.9951234459877014
+      },
+      {
+        "start": 276.12,
+        "end": 276.76,
+        "word": " turning",
+        "probability": 0.9976133108139038
+      },
+      {
+        "start": 276.76,
+        "end": 277.7,
+        "word": " yesterday's",
+        "probability": 0.9915336966514587
+      },
+      {
+        "start": 277.7,
+        "end": 278.14,
+        "word": " luxuries",
+        "probability": 0.9952975511550903
+      },
+      {
+        "start": 278.14,
+        "end": 278.52,
+        "word": " into",
+        "probability": 0.9935630559921265
+      },
+      {
+        "start": 278.52,
+        "end": 279.2,
+        "word": " today's",
+        "probability": 0.9941691756248474
+      },
+      {
+        "start": 279.2,
+        "end": 279.58,
+        "word": " normal",
+        "probability": 0.9924097061157227
+      },
+      {
+        "start": 279.58,
+        "end": 280.06,
+        "word": " expenses.",
+        "probability": 0.9981650710105896
+      }
+    ]
+  },
+  {
+    "start": 281.02,
+    "end": 284.04,
+    "text": " And once a higher standard of living becomes normal,",
+    "words": [
+      {
+        "start": 281.02,
+        "end": 281.26,
+        "word": " And",
+        "probability": 0.9843674302101135
+      },
+      {
+        "start": 281.26,
+        "end": 281.44,
+        "word": " once",
+        "probability": 0.9829760789871216
+      },
+      {
+        "start": 281.44,
+        "end": 281.64,
+        "word": " a",
+        "probability": 0.9969661831855774
+      },
+      {
+        "start": 281.64,
+        "end": 282.0,
+        "word": " higher",
+        "probability": 0.9584193229675293
+      },
+      {
+        "start": 282.0,
+        "end": 282.64,
+        "word": " standard",
+        "probability": 0.9972367286682129
+      },
+      {
+        "start": 282.64,
+        "end": 282.88,
+        "word": " of",
+        "probability": 0.9983586668968201
+      },
+      {
+        "start": 282.88,
+        "end": 283.12,
+        "word": " living",
+        "probability": 0.9984937906265259
+      },
+      {
+        "start": 283.12,
+        "end": 283.58,
+        "word": " becomes",
+        "probability": 0.9974371194839478
+      },
+      {
+        "start": 283.58,
+        "end": 284.04,
+        "word": " normal,",
+        "probability": 0.9916505217552185
+      }
+    ]
+  },
+  {
+    "start": 284.62,
+    "end": 287.02,
+    "text": " stepping back can feel like losing something.",
+    "words": [
+      {
+        "start": 284.62,
+        "end": 284.84,
+        "word": " stepping",
+        "probability": 0.9689268469810486
+      },
+      {
+        "start": 284.84,
+        "end": 285.28,
+        "word": " back",
+        "probability": 0.9994995594024658
+      },
+      {
+        "start": 285.28,
+        "end": 285.58,
+        "word": " can",
+        "probability": 0.9970044493675232
+      },
+      {
+        "start": 285.58,
+        "end": 285.84,
+        "word": " feel",
+        "probability": 0.9983281493186951
+      },
+      {
+        "start": 285.84,
+        "end": 286.16,
+        "word": " like",
+        "probability": 0.9992726445198059
+      },
+      {
+        "start": 286.16,
+        "end": 286.48,
+        "word": " losing",
+        "probability": 0.9938216209411621
+      },
+      {
+        "start": 286.48,
+        "end": 287.02,
+        "word": " something.",
+        "probability": 0.9987108707427979
+      }
+    ]
+  },
+  {
+    "start": 287.8,
+    "end": 290.46,
+    "text": " Even when stepping back would give you more freedom.",
+    "words": [
+      {
+        "start": 287.8,
+        "end": 288.14,
+        "word": " Even",
+        "probability": 0.9975551962852478
+      },
+      {
+        "start": 288.14,
+        "end": 288.36,
+        "word": " when",
+        "probability": 0.9989408850669861
+      },
+      {
+        "start": 288.36,
+        "end": 288.64,
+        "word": " stepping",
+        "probability": 0.9969639182090759
+      },
+      {
+        "start": 288.64,
+        "end": 289.16,
+        "word": " back",
+        "probability": 0.9991544485092163
+      },
+      {
+        "start": 289.16,
+        "end": 289.38,
+        "word": " would",
+        "probability": 0.9924920201301575
+      },
+      {
+        "start": 289.38,
+        "end": 289.6,
+        "word": " give",
+        "probability": 0.9990780353546143
+      },
+      {
+        "start": 289.6,
+        "end": 289.82,
+        "word": " you",
+        "probability": 0.9978252649307251
+      },
+      {
+        "start": 289.82,
+        "end": 290.04,
+        "word": " more",
+        "probability": 0.9989198446273804
+      },
+      {
+        "start": 290.04,
+        "end": 290.46,
+        "word": " freedom.",
+        "probability": 0.9995793700218201
+      }
+    ]
+  },
+  {
+    "start": 290.46,
+    "end": 295.78,
+    "text": " Then Alex opens social media. Someone just bought a house.",
+    "words": [
+      {
+        "start": 290.46,
+        "end": 291.52,
+        "word": " Then",
+        "probability": 0.3418540358543396
+      },
+      {
+        "start": 291.52,
+        "end": 291.98,
+        "word": " Alex",
+        "probability": 0.7107855677604675
+      },
+      {
+        "start": 291.98,
+        "end": 292.58,
+        "word": " opens",
+        "probability": 0.8912310600280762
+      },
+      {
+        "start": 292.58,
+        "end": 293.04,
+        "word": " social",
+        "probability": 0.9855508804321289
+      },
+      {
+        "start": 293.04,
+        "end": 293.5,
+        "word": " media.",
+        "probability": 0.9984708428382874
+      },
+      {
+        "start": 294.28,
+        "end": 294.6,
+        "word": " Someone",
+        "probability": 0.9868758916854858
+      },
+      {
+        "start": 294.6,
+        "end": 294.86,
+        "word": " just",
+        "probability": 0.9954590797424316
+      },
+      {
+        "start": 294.86,
+        "end": 295.2,
+        "word": " bought",
+        "probability": 0.9969235062599182
+      },
+      {
+        "start": 295.2,
+        "end": 295.34,
+        "word": " a",
+        "probability": 0.9976025223731995
+      },
+      {
+        "start": 295.34,
+        "end": 295.78,
+        "word": " house.",
+        "probability": 0.999038815498352
+      }
+    ]
+  },
+  {
+    "start": 296.36,
+    "end": 297.86,
+    "text": " Someone else is in Italy.",
+    "words": [
+      {
+        "start": 296.36,
+        "end": 296.6,
+        "word": " Someone",
+        "probability": 0.996516227722168
+      },
+      {
+        "start": 296.6,
+        "end": 296.88,
+        "word": " else",
+        "probability": 0.9949171543121338
+      },
+      {
+        "start": 296.88,
+        "end": 297.22,
+        "word": " is",
+        "probability": 0.9952284097671509
+      },
+      {
+        "start": 297.22,
+        "end": 297.44,
+        "word": " in",
+        "probability": 0.9976175427436829
+      },
+      {
+        "start": 297.44,
+        "end": 297.86,
+        "word": " Italy.",
+        "probability": 0.9935012459754944
+      }
+    ]
+  },
+  {
+    "start": 299.28,
+    "end": 303.66,
+    "text": " A person Alex barely remembers from high school is posting from a boat.",
+    "words": [
+      {
+        "start": 299.28,
+        "end": 299.36,
+        "word": " A",
+        "probability": 0.5694484114646912
+      },
+      {
+        "start": 299.36,
+        "end": 299.76,
+        "word": " person",
+        "probability": 0.9985451698303223
+      },
+      {
+        "start": 299.76,
+        "end": 300.24,
+        "word": " Alex",
+        "probability": 0.9676026701927185
+      },
+      {
+        "start": 300.24,
+        "end": 300.62,
+        "word": " barely",
+        "probability": 0.9960504174232483
+      },
+      {
+        "start": 300.62,
+        "end": 301.24,
+        "word": " remembers",
+        "probability": 0.9986695051193237
+      },
+      {
+        "start": 301.24,
+        "end": 301.6,
+        "word": " from",
+        "probability": 0.9946130514144897
+      },
+      {
+        "start": 301.6,
+        "end": 301.86,
+        "word": " high",
+        "probability": 0.985967218875885
+      },
+      {
+        "start": 301.86,
+        "end": 302.32,
+        "word": " school",
+        "probability": 0.9977689981460571
+      },
+      {
+        "start": 302.32,
+        "end": 302.62,
+        "word": " is",
+        "probability": 0.9406718015670776
+      },
+      {
+        "start": 302.62,
+        "end": 302.92,
+        "word": " posting",
+        "probability": 0.9963478446006775
+      },
+      {
+        "start": 302.92,
+        "end": 303.32,
+        "word": " from",
+        "probability": 0.9958505630493164
+      },
+      {
+        "start": 303.32,
+        "end": 303.4,
+        "word": " a",
+        "probability": 0.9934889078140259
+      },
+      {
+        "start": 303.4,
+        "end": 303.66,
+        "word": " boat.",
+        "probability": 0.9971312284469604
+      }
+    ]
+  },
+  {
+    "start": 304.42,
+    "end": 306.78,
+    "text": " Nobody is posting their insurance deductible.",
+    "words": [
+      {
+        "start": 304.42,
+        "end": 304.74,
+        "word": " Nobody",
+        "probability": 0.9823347330093384
+      },
+      {
+        "start": 304.74,
+        "end": 305.12,
+        "word": " is",
+        "probability": 0.9991495609283447
+      },
+      {
+        "start": 305.12,
+        "end": 305.44,
+        "word": " posting",
+        "probability": 0.998339056968689
+      },
+      {
+        "start": 305.44,
+        "end": 305.82,
+        "word": " their",
+        "probability": 0.9969402551651001
+      },
+      {
+        "start": 305.82,
+        "end": 306.36,
+        "word": " insurance",
+        "probability": 0.9961844086647034
+      },
+      {
+        "start": 306.36,
+        "end": 306.78,
+        "word": " deductible.",
+        "probability": 0.9226340055465698
+      }
+    ]
+  },
+  {
+    "start": 307.84,
+    "end": 311.48,
+    "text": " Nobody is making a highlight reel of their credit card interest.",
+    "words": [
+      {
+        "start": 307.84,
+        "end": 308.28,
+        "word": " Nobody",
+        "probability": 0.9900882840156555
+      },
+      {
+        "start": 308.28,
+        "end": 308.6,
+        "word": " is",
+        "probability": 0.9987523555755615
+      },
+      {
+        "start": 308.6,
+        "end": 308.88,
+        "word": " making",
+        "probability": 0.9992456436157227
+      },
+      {
+        "start": 308.88,
+        "end": 309.12,
+        "word": " a",
+        "probability": 0.9965315461158752
+      },
+      {
+        "start": 309.12,
+        "end": 309.48,
+        "word": " highlight",
+        "probability": 0.9803563356399536
+      },
+      {
+        "start": 309.48,
+        "end": 310.0,
+        "word": " reel",
+        "probability": 0.9796000123023987
+      },
+      {
+        "start": 310.0,
+        "end": 310.3,
+        "word": " of",
+        "probability": 0.9983940720558167
+      },
+      {
+        "start": 310.3,
+        "end": 310.44,
+        "word": " their",
+        "probability": 0.9986020922660828
+      },
+      {
+        "start": 310.44,
+        "end": 310.76,
+        "word": " credit",
+        "probability": 0.9961692690849304
+      },
+      {
+        "start": 310.76,
+        "end": 311.1,
+        "word": " card",
+        "probability": 0.9969398975372314
+      },
+      {
+        "start": 311.1,
+        "end": 311.48,
+        "word": " interest.",
+        "probability": 0.9904810786247253
+      }
+    ]
+  },
+  {
+    "start": 312.44,
+    "end": 316.32,
+    "text": " And a photo doesn't tell you whether a purchase was paid for with savings,",
+    "words": [
+      {
+        "start": 312.44,
+        "end": 312.56,
+        "word": " And",
+        "probability": 0.9611199498176575
+      },
+      {
+        "start": 312.56,
+        "end": 312.62,
+        "word": " a",
+        "probability": 0.991942286491394
+      },
+      {
+        "start": 312.62,
+        "end": 312.98,
+        "word": " photo",
+        "probability": 0.9680220484733582
+      },
+      {
+        "start": 312.98,
+        "end": 313.66,
+        "word": " doesn't",
+        "probability": 0.997140496969223
+      },
+      {
+        "start": 313.66,
+        "end": 313.88,
+        "word": " tell",
+        "probability": 0.9988247752189636
+      },
+      {
+        "start": 313.88,
+        "end": 314.1,
+        "word": " you",
+        "probability": 0.9916811585426331
+      },
+      {
+        "start": 314.1,
+        "end": 314.36,
+        "word": " whether",
+        "probability": 0.9924641847610474
+      },
+      {
+        "start": 314.36,
+        "end": 314.52,
+        "word": " a",
+        "probability": 0.9935624599456787
+      },
+      {
+        "start": 314.52,
+        "end": 314.9,
+        "word": " purchase",
+        "probability": 0.9988932013511658
+      },
+      {
+        "start": 314.9,
+        "end": 315.16,
+        "word": " was",
+        "probability": 0.9984087347984314
+      },
+      {
+        "start": 315.16,
+        "end": 315.42,
+        "word": " paid",
+        "probability": 0.9964073300361633
+      },
+      {
+        "start": 315.42,
+        "end": 315.8,
+        "word": " for",
+        "probability": 0.9969924688339233
+      },
+      {
+        "start": 315.8,
+        "end": 316.02,
+        "word": " with",
+        "probability": 0.9855285286903381
+      },
+      {
+        "start": 316.02,
+        "end": 316.32,
+        "word": " savings,",
+        "probability": 0.9917864203453064
+      }
+    ]
+  },
+  {
+    "start": 316.32,
+    "end": 320.72,
+    "text": " debt, family help, or a much bigger income.",
+    "words": [
+      {
+        "start": 316.32,
+        "end": 317.3,
+        "word": " debt,",
+        "probability": 0.000626430322881788
+      },
+      {
+        "start": 317.72,
+        "end": 318.26,
+        "word": " family",
+        "probability": 0.9967266321182251
+      },
+      {
+        "start": 318.26,
+        "end": 318.6,
+        "word": " help,",
+        "probability": 0.9636794328689575
+      },
+      {
+        "start": 319.06,
+        "end": 319.36,
+        "word": " or",
+        "probability": 0.994607150554657
+      },
+      {
+        "start": 319.36,
+        "end": 319.48,
+        "word": " a",
+        "probability": 0.9886720180511475
+      },
+      {
+        "start": 319.48,
+        "end": 319.68,
+        "word": " much",
+        "probability": 0.9968350529670715
+      },
+      {
+        "start": 319.68,
+        "end": 320.12,
+        "word": " bigger",
+        "probability": 0.9972654581069946
+      },
+      {
+        "start": 320.12,
+        "end": 320.72,
+        "word": " income.",
+        "probability": 0.994770348072052
+      }
+    ]
+  },
+  {
+    "start": 321.64,
+    "end": 323.76,
+    "text": " But your brain fills in the blanks anyway.",
+    "words": [
+      {
+        "start": 321.64,
+        "end": 321.74,
+        "word": " But",
+        "probability": 0.9674767851829529
+      },
+      {
+        "start": 321.74,
+        "end": 321.86,
+        "word": " your",
+        "probability": 0.9790809750556946
+      },
+      {
+        "start": 321.86,
+        "end": 322.26,
+        "word": " brain",
+        "probability": 0.99868243932724
+      },
+      {
+        "start": 322.26,
+        "end": 322.72,
+        "word": " fills",
+        "probability": 0.9588345885276794
+      },
+      {
+        "start": 322.72,
+        "end": 323.02,
+        "word": " in",
+        "probability": 0.994508683681488
+      },
+      {
+        "start": 323.02,
+        "end": 323.1,
+        "word": " the",
+        "probability": 0.9956788420677185
+      },
+      {
+        "start": 323.1,
+        "end": 323.46,
+        "word": " blanks",
+        "probability": 0.9892159700393677
+      },
+      {
+        "start": 323.46,
+        "end": 323.76,
+        "word": " anyway.",
+        "probability": 0.9170577526092529
+      }
+    ]
+  },
+  {
+    "start": 324.62,
+    "end": 326.28,
+    "text": " Everyone else seems comfortable.",
+    "words": [
+      {
+        "start": 324.62,
+        "end": 324.98,
+        "word": " Everyone",
+        "probability": 0.9957398176193237
+      },
+      {
+        "start": 324.98,
+        "end": 325.32,
+        "word": " else",
+        "probability": 0.9983609318733215
+      },
+      {
+        "start": 325.32,
+        "end": 325.68,
+        "word": " seems",
+        "probability": 0.9962431192398071
+      },
+      {
+        "start": 325.68,
+        "end": 326.28,
+        "word": " comfortable.",
+        "probability": 0.9860777854919434
+      }
+    ]
+  },
+  {
+    "start": 327.58,
+    "end": 331.8,
+    "text": " So you start treating their spending as evidence of what you should be able to afford.",
+    "words": [
+      {
+        "start": 327.58,
+        "end": 327.86,
+        "word": " So",
+        "probability": 0.9860556125640869
+      },
+      {
+        "start": 327.86,
+        "end": 328.02,
+        "word": " you",
+        "probability": 0.8710174560546875
+      },
+      {
+        "start": 328.02,
+        "end": 328.28,
+        "word": " start",
+        "probability": 0.9977332353591919
+      },
+      {
+        "start": 328.28,
+        "end": 328.6,
+        "word": " treating",
+        "probability": 0.9968928098678589
+      },
+      {
+        "start": 328.6,
+        "end": 328.88,
+        "word": " their",
+        "probability": 0.9942164421081543
+      },
+      {
+        "start": 328.88,
+        "end": 329.28,
+        "word": " spending",
+        "probability": 0.9981703758239746
+      },
+      {
+        "start": 329.28,
+        "end": 329.66,
+        "word": " as",
+        "probability": 0.9973291158676147
+      },
+      {
+        "start": 329.66,
+        "end": 329.94,
+        "word": " evidence",
+        "probability": 0.9923134446144104
+      },
+      {
+        "start": 329.94,
+        "end": 330.32,
+        "word": " of",
+        "probability": 0.9957463145256042
+      },
+      {
+        "start": 330.32,
+        "end": 330.52,
+        "word": " what",
+        "probability": 0.9992774128913879
+      },
+      {
+        "start": 330.52,
+        "end": 330.72,
+        "word": " you",
+        "probability": 0.9983135461807251
+      },
+      {
+        "start": 330.72,
+        "end": 330.9,
+        "word": " should",
+        "probability": 0.999256432056427
+      },
+      {
+        "start": 330.9,
+        "end": 331.06,
+        "word": " be",
+        "probability": 0.9990506768226624
+      },
+      {
+        "start": 331.06,
+        "end": 331.3,
+        "word": " able",
+        "probability": 0.9989472031593323
+      },
+      {
+        "start": 331.3,
+        "end": 331.48,
+        "word": " to",
+        "probability": 0.998491644859314
+      },
+      {
+        "start": 331.48,
+        "end": 331.8,
+        "word": " afford.",
+        "probability": 0.9993945360183716
+      }
+    ]
+  },
+  {
+    "start": 332.76,
+    "end": 335.16,
+    "text": " Now your paycheck has to support two lives.",
+    "words": [
+      {
+        "start": 332.76,
+        "end": 332.96,
+        "word": " Now",
+        "probability": 0.9983097314834595
+      },
+      {
+        "start": 332.96,
+        "end": 333.18,
+        "word": " your",
+        "probability": 0.9412715435028076
+      },
+      {
+        "start": 333.18,
+        "end": 333.5,
+        "word": " paycheck",
+        "probability": 0.9853864908218384
+      },
+      {
+        "start": 333.5,
+        "end": 333.98,
+        "word": " has",
+        "probability": 0.9985080361366272
+      },
+      {
+        "start": 333.98,
+        "end": 334.14,
+        "word": " to",
+        "probability": 0.9990267753601074
+      },
+      {
+        "start": 334.14,
+        "end": 334.5,
+        "word": " support",
+        "probability": 0.9993987083435059
+      },
+      {
+        "start": 334.5,
+        "end": 334.8,
+        "word": " two",
+        "probability": 0.9877561330795288
+      },
+      {
+        "start": 334.8,
+        "end": 335.16,
+        "word": " lives.",
+        "probability": 0.9987603425979614
+      }
+    ]
+  },
+  {
+    "start": 335.92,
+    "end": 340.24,
+    "text": " The life you actually live. And the life you feel like you should be living.",
+    "words": [
+      {
+        "start": 335.92,
+        "end": 336.02,
+        "word": " The",
+        "probability": 0.9939601421356201
+      },
+      {
+        "start": 336.02,
+        "end": 336.24,
+        "word": " life",
+        "probability": 0.9979726672172546
+      },
+      {
+        "start": 336.24,
+        "end": 336.54,
+        "word": " you",
+        "probability": 0.9960797429084778
+      },
+      {
+        "start": 336.54,
+        "end": 337.0,
+        "word": " actually",
+        "probability": 0.9982713460922241
+      },
+      {
+        "start": 337.0,
+        "end": 337.46,
+        "word": " live.",
+        "probability": 0.9960120916366577
+      },
+      {
+        "start": 338.2,
+        "end": 338.34,
+        "word": " And",
+        "probability": 0.9823684096336365
+      },
+      {
+        "start": 338.34,
+        "end": 338.44,
+        "word": " the",
+        "probability": 0.9970229268074036
+      },
+      {
+        "start": 338.44,
+        "end": 338.64,
+        "word": " life",
+        "probability": 0.9994730353355408
+      },
+      {
+        "start": 338.64,
+        "end": 338.88,
+        "word": " you",
+        "probability": 0.997109591960907
+      },
+      {
+        "start": 338.88,
+        "end": 339.12,
+        "word": " feel",
+        "probability": 0.9988693594932556
+      },
+      {
+        "start": 339.12,
+        "end": 339.46,
+        "word": " like",
+        "probability": 0.9934791326522827
+      },
+      {
+        "start": 339.46,
+        "end": 339.64,
+        "word": " you",
+        "probability": 0.9985120892524719
+      },
+      {
+        "start": 339.64,
+        "end": 339.82,
+        "word": " should",
+        "probability": 0.9995577931404114
+      },
+      {
+        "start": 339.82,
+        "end": 340.0,
+        "word": " be",
+        "probability": 0.9994497895240784
+      },
+      {
+        "start": 340.0,
+        "end": 340.24,
+        "word": " living.",
+        "probability": 0.9993680119514465
+      }
+    ]
+  },
+  {
+    "start": 341.04,
+    "end": 342.5,
+    "text": " That's an expensive comparison.",
+    "words": [
+      {
+        "start": 341.04,
+        "end": 341.3,
+        "word": " That's",
+        "probability": 0.9934864640235901
+      },
+      {
+        "start": 341.3,
+        "end": 341.4,
+        "word": " an",
+        "probability": 0.9944572448730469
+      },
+      {
+        "start": 341.4,
+        "end": 341.84,
+        "word": " expensive",
+        "probability": 0.9927754402160645
+      },
+      {
+        "start": 341.84,
+        "end": 342.5,
+        "word": " comparison.",
+        "probability": 0.9993360638618469
+      }
+    ]
+  },
+  {
+    "start": 342.5,
+    "end": 345.78,
+    "text": " So how does Alex get some breathing room?",
+    "words": [
+      {
+        "start": 342.5,
+        "end": 343.68,
+        "word": " So",
+        "probability": 0.39059367775917053
+      },
+      {
+        "start": 343.68,
+        "end": 343.9,
+        "word": " how",
+        "probability": 0.7948061227798462
+      },
+      {
+        "start": 343.9,
+        "end": 344.12,
+        "word": " does",
+        "probability": 0.9897173643112183
+      },
+      {
+        "start": 344.12,
+        "end": 344.42,
+        "word": " Alex",
+        "probability": 0.9543047547340393
+      },
+      {
+        "start": 344.42,
+        "end": 344.84,
+        "word": " get",
+        "probability": 0.9943085312843323
+      },
+      {
+        "start": 344.84,
+        "end": 345.06,
+        "word": " some",
+        "probability": 0.9987022876739502
+      },
+      {
+        "start": 345.06,
+        "end": 345.36,
+        "word": " breathing",
+        "probability": 0.9929064512252808
+      },
+      {
+        "start": 345.36,
+        "end": 345.78,
+        "word": " room?",
+        "probability": 0.9995648264884949
+      }
+    ]
+  },
+  {
+    "start": 346.34,
+    "end": 348.56,
+    "text": " Start with the number that actually arrives.",
+    "words": [
+      {
+        "start": 346.34,
+        "end": 346.64,
+        "word": " Start",
+        "probability": 0.9896153211593628
+      },
+      {
+        "start": 346.64,
+        "end": 346.9,
+        "word": " with",
+        "probability": 0.9985051155090332
+      },
+      {
+        "start": 346.9,
+        "end": 347.04,
+        "word": " the",
+        "probability": 0.9869728684425354
+      },
+      {
+        "start": 347.04,
+        "end": 347.36,
+        "word": " number",
+        "probability": 0.9991752505302429
+      },
+      {
+        "start": 347.36,
+        "end": 347.6,
+        "word": " that",
+        "probability": 0.998414158821106
+      },
+      {
+        "start": 347.6,
+        "end": 348.0,
+        "word": " actually",
+        "probability": 0.9976577758789062
+      },
+      {
+        "start": 348.0,
+        "end": 348.56,
+        "word": " arrives.",
+        "probability": 0.9978601336479187
+      }
+    ]
+  },
+  {
+    "start": 349.54,
+    "end": 354.48,
+    "text": " Build the plan around take home pay, not the salary in the job offer.",
+    "words": [
+      {
+        "start": 349.54,
+        "end": 349.78,
+        "word": " Build",
+        "probability": 0.9790908098220825
+      },
+      {
+        "start": 349.78,
+        "end": 349.98,
+        "word": " the",
+        "probability": 0.9883717894554138
+      },
+      {
+        "start": 349.98,
+        "end": 350.32,
+        "word": " plan",
+        "probability": 0.9971213936805725
+      },
+      {
+        "start": 350.32,
+        "end": 350.68,
+        "word": " around",
+        "probability": 0.9832887053489685
+      },
+      {
+        "start": 350.68,
+        "end": 351.14,
+        "word": " take",
+        "probability": 0.7746356129646301
+      },
+      {
+        "start": 351.14,
+        "end": 351.5,
+        "word": " home",
+        "probability": 0.8020533919334412
+      },
+      {
+        "start": 351.5,
+        "end": 351.94,
+        "word": " pay,",
+        "probability": 0.9976567029953003
+      },
+      {
+        "start": 352.34,
+        "end": 352.62,
+        "word": " not",
+        "probability": 0.9957751631736755
+      },
+      {
+        "start": 352.62,
+        "end": 352.82,
+        "word": " the",
+        "probability": 0.9960683584213257
+      },
+      {
+        "start": 352.82,
+        "end": 353.28,
+        "word": " salary",
+        "probability": 0.9994935989379883
+      },
+      {
+        "start": 353.28,
+        "end": 353.6,
+        "word": " in",
+        "probability": 0.6436183452606201
+      },
+      {
+        "start": 353.6,
+        "end": 353.72,
+        "word": " the",
+        "probability": 0.996935248374939
+      },
+      {
+        "start": 353.72,
+        "end": 354.0,
+        "word": " job",
+        "probability": 0.9937039017677307
+      },
+      {
+        "start": 354.0,
+        "end": 354.48,
+        "word": " offer.",
+        "probability": 0.9945847392082214
+      }
+    ]
+  },
+  {
+    "start": 355.7,
+    "end": 357.94,
+    "text": " Then look at the biggest recurring commitments.",
+    "words": [
+      {
+        "start": 355.7,
+        "end": 355.96,
+        "word": " Then",
+        "probability": 0.993800938129425
+      },
+      {
+        "start": 355.96,
+        "end": 356.2,
+        "word": " look",
+        "probability": 0.9892304539680481
+      },
+      {
+        "start": 356.2,
+        "end": 356.36,
+        "word": " at",
+        "probability": 0.9980535507202148
+      },
+      {
+        "start": 356.36,
+        "end": 356.5,
+        "word": " the",
+        "probability": 0.9980674386024475
+      },
+      {
+        "start": 356.5,
+        "end": 356.84,
+        "word": " biggest",
+        "probability": 0.9983214735984802
+      },
+      {
+        "start": 356.84,
+        "end": 357.28,
+        "word": " recurring",
+        "probability": 0.9946272969245911
+      },
+      {
+        "start": 357.28,
+        "end": 357.94,
+        "word": " commitments.",
+        "probability": 0.9905166029930115
+      }
+    ]
+  },
+  {
+    "start": 358.74,
+    "end": 361.7,
+    "text": " Housing, transportation, debt payments,",
+    "words": [
+      {
+        "start": 358.74,
+        "end": 359.0,
+        "word": " Housing,",
+        "probability": 0.976601243019104
+      },
+      {
+        "start": 359.78,
+        "end": 360.24,
+        "word": " transportation,",
+        "probability": 0.8334073424339294
+      },
+      {
+        "start": 361.22,
+        "end": 361.22,
+        "word": " debt",
+        "probability": 0.9990425705909729
+      },
+      {
+        "start": 361.22,
+        "end": 361.7,
+        "word": " payments,",
+        "probability": 0.9957402944564819
+      }
+    ]
+  },
+  {
+    "start": 362.58,
+    "end": 364.34,
+    "text": " canceling a subscription can help.",
+    "words": [
+      {
+        "start": 362.58,
+        "end": 362.96,
+        "word": " canceling",
+        "probability": 0.8428412079811096
+      },
+      {
+        "start": 362.96,
+        "end": 363.08,
+        "word": " a",
+        "probability": 0.99696284532547
+      },
+      {
+        "start": 363.08,
+        "end": 363.56,
+        "word": " subscription",
+        "probability": 0.9967703819274902
+      },
+      {
+        "start": 363.56,
+        "end": 364.0,
+        "word": " can",
+        "probability": 0.9949010610580444
+      },
+      {
+        "start": 364.0,
+        "end": 364.34,
+        "word": " help.",
+        "probability": 0.9995390176773071
+      }
+    ]
+  },
+  {
+    "start": 365.06,
+    "end": 368.66,
+    "text": " But if the real pressure is a car that costs too much every month,",
+    "words": [
+      {
+        "start": 365.06,
+        "end": 365.14,
+        "word": " But",
+        "probability": 0.9933037161827087
+      },
+      {
+        "start": 365.14,
+        "end": 365.24,
+        "word": " if",
+        "probability": 0.9803224205970764
+      },
+      {
+        "start": 365.24,
+        "end": 365.38,
+        "word": " the",
+        "probability": 0.9965502023696899
+      },
+      {
+        "start": 365.38,
+        "end": 365.56,
+        "word": " real",
+        "probability": 0.9965261816978455
+      },
+      {
+        "start": 365.56,
+        "end": 365.9,
+        "word": " pressure",
+        "probability": 0.9965944886207581
+      },
+      {
+        "start": 365.9,
+        "end": 366.3,
+        "word": " is",
+        "probability": 0.998896598815918
+      },
+      {
+        "start": 366.3,
+        "end": 366.4,
+        "word": " a",
+        "probability": 0.9988189339637756
+      },
+      {
+        "start": 366.4,
+        "end": 366.68,
+        "word": " car",
+        "probability": 0.9907331466674805
+      },
+      {
+        "start": 366.68,
+        "end": 367.02,
+        "word": " that",
+        "probability": 0.9958027005195618
+      },
+      {
+        "start": 367.02,
+        "end": 367.26,
+        "word": " costs",
+        "probability": 0.9972621202468872
+      },
+      {
+        "start": 367.26,
+        "end": 367.74,
+        "word": " too",
+        "probability": 0.9923650026321411
+      },
+      {
+        "start": 367.74,
+        "end": 367.94,
+        "word": " much",
+        "probability": 0.9994401335716248
+      },
+      {
+        "start": 367.94,
+        "end": 368.28,
+        "word": " every",
+        "probability": 0.9975395202636719
+      },
+      {
+        "start": 368.28,
+        "end": 368.66,
+        "word": " month,",
+        "probability": 0.9995608925819397
+      }
+    ]
+  },
+  {
+    "start": 368.66,
+    "end": 372.14,
+    "text": " a cheaper streaming plan won't solve the whole problem.",
+    "words": [
+      {
+        "start": 368.66,
+        "end": 369.08,
+        "word": " a",
+        "probability": 0.19913727045059204
+      },
+      {
+        "start": 369.08,
+        "end": 369.34,
+        "word": " cheaper",
+        "probability": 0.9781378507614136
+      },
+      {
+        "start": 369.34,
+        "end": 369.88,
+        "word": " streaming",
+        "probability": 0.8757636547088623
+      },
+      {
+        "start": 369.88,
+        "end": 370.4,
+        "word": " plan",
+        "probability": 0.9970914125442505
+      },
+      {
+        "start": 370.4,
+        "end": 370.82,
+        "word": " won't",
+        "probability": 0.9844167232513428
+      },
+      {
+        "start": 370.82,
+        "end": 371.12,
+        "word": " solve",
+        "probability": 0.9991306662559509
+      },
+      {
+        "start": 371.12,
+        "end": 371.38,
+        "word": " the",
+        "probability": 0.9979054927825928
+      },
+      {
+        "start": 371.38,
+        "end": 371.54,
+        "word": " whole",
+        "probability": 0.9944601058959961
+      },
+      {
+        "start": 371.54,
+        "end": 372.14,
+        "word": " problem.",
+        "probability": 0.9989438652992249
+      }
+    ]
+  },
+  {
+    "start": 372.88,
+    "end": 374.46,
+    "text": " Some changes take time.",
+    "words": [
+      {
+        "start": 372.88,
+        "end": 373.08,
+        "word": " Some",
+        "probability": 0.9959462285041809
+      },
+      {
+        "start": 373.08,
+        "end": 373.52,
+        "word": " changes",
+        "probability": 0.9973432421684265
+      },
+      {
+        "start": 373.52,
+        "end": 374.02,
+        "word": " take",
+        "probability": 0.9967395663261414
+      },
+      {
+        "start": 374.02,
+        "end": 374.46,
+        "word": " time.",
+        "probability": 0.9990345239639282
+      }
+    ]
+  },
+  {
+    "start": 375.18,
+    "end": 376.48,
+    "text": " A lease may need to end.",
+    "words": [
+      {
+        "start": 375.18,
+        "end": 375.22,
+        "word": " A",
+        "probability": 0.9141263961791992
+      },
+      {
+        "start": 375.22,
+        "end": 375.42,
+        "word": " lease",
+        "probability": 0.9891218543052673
+      },
+      {
+        "start": 375.42,
+        "end": 375.74,
+        "word": " may",
+        "probability": 0.9983834028244019
+      },
+      {
+        "start": 375.74,
+        "end": 375.96,
+        "word": " need",
+        "probability": 0.9982069730758667
+      },
+      {
+        "start": 375.96,
+        "end": 376.14,
+        "word": " to",
+        "probability": 0.9990798234939575
+      },
+      {
+        "start": 376.14,
+        "end": 376.48,
+        "word": " end.",
+        "probability": 0.9985581040382385
+      }
+    ]
+  },
+  {
+    "start": 377.26,
+    "end": 379.22,
+    "text": " A debt may need a repayment plan.",
+    "words": [
+      {
+        "start": 377.26,
+        "end": 377.34,
+        "word": " A",
+        "probability": 0.998002827167511
+      },
+      {
+        "start": 377.34,
+        "end": 377.56,
+        "word": " debt",
+        "probability": 0.9968812465667725
+      },
+      {
+        "start": 377.56,
+        "end": 377.84,
+        "word": " may",
+        "probability": 0.9978142976760864
+      },
+      {
+        "start": 377.84,
+        "end": 378.1,
+        "word": " need",
+        "probability": 0.9992227554321289
+      },
+      {
+        "start": 378.1,
+        "end": 378.24,
+        "word": " a",
+        "probability": 0.9973286390304565
+      },
+      {
+        "start": 378.24,
+        "end": 378.56,
+        "word": " repayment",
+        "probability": 0.9950220584869385
+      },
+      {
+        "start": 378.56,
+        "end": 379.22,
+        "word": " plan.",
+        "probability": 0.9997081160545349
+      }
+    ]
+  },
+  {
+    "start": 379.74,
+    "end": 382.04,
+    "text": " You don't have to fix everything this afternoon.",
+    "words": [
+      {
+        "start": 379.74,
+        "end": 379.84,
+        "word": " You",
+        "probability": 0.9980637431144714
+      },
+      {
+        "start": 379.84,
+        "end": 380.0,
+        "word": " don't",
+        "probability": 0.9994145929813385
+      },
+      {
+        "start": 380.0,
+        "end": 380.14,
+        "word": " have",
+        "probability": 0.9985721111297607
+      },
+      {
+        "start": 380.14,
+        "end": 380.32,
+        "word": " to",
+        "probability": 0.997798502445221
+      },
+      {
+        "start": 380.32,
+        "end": 380.6,
+        "word": " fix",
+        "probability": 0.9986943602561951
+      },
+      {
+        "start": 380.6,
+        "end": 381.08,
+        "word": " everything",
+        "probability": 0.99795001745224
+      },
+      {
+        "start": 381.08,
+        "end": 381.48,
+        "word": " this",
+        "probability": 0.9959489107131958
+      },
+      {
+        "start": 381.48,
+        "end": 382.04,
+        "word": " afternoon.",
+        "probability": 0.9968709349632263
+      }
+    ]
+  },
+  {
+    "start": 383.54,
+    "end": 387.5,
+    "text": " Next stop calling predictable irregular expenses emergencies.",
+    "words": [
+      {
+        "start": 383.54,
+        "end": 383.92,
+        "word": " Next",
+        "probability": 0.9789739847183228
+      },
+      {
+        "start": 383.92,
+        "end": 384.46,
+        "word": " stop",
+        "probability": 0.3607533872127533
+      },
+      {
+        "start": 384.46,
+        "end": 384.96,
+        "word": " calling",
+        "probability": 0.9505565166473389
+      },
+      {
+        "start": 384.96,
+        "end": 385.26,
+        "word": " predictable",
+        "probability": 0.9187599420547485
+      },
+      {
+        "start": 385.26,
+        "end": 386.04,
+        "word": " irregular",
+        "probability": 0.9635396599769592
+      },
+      {
+        "start": 386.04,
+        "end": 386.8,
+        "word": " expenses",
+        "probability": 0.9937220215797424
+      },
+      {
+        "start": 386.8,
+        "end": 387.5,
+        "word": " emergencies.",
+        "probability": 0.8485464453697205
+      }
+    ]
+  },
+  {
+    "start": 388.56,
+    "end": 395.96,
+    "text": " Car repairs, annual bills, and holiday spending can each get a small amount set aside every payday.",
+    "words": [
+      {
+        "start": 388.56,
+        "end": 389.0,
+        "word": " Car",
+        "probability": 0.909213662147522
+      },
+      {
+        "start": 389.0,
+        "end": 389.4,
+        "word": " repairs,",
+        "probability": 0.9983515739440918
+      },
+      {
+        "start": 390.06,
+        "end": 390.56,
+        "word": " annual",
+        "probability": 0.9970874190330505
+      },
+      {
+        "start": 390.56,
+        "end": 390.96,
+        "word": " bills,",
+        "probability": 0.9947221279144287
+      },
+      {
+        "start": 391.38,
+        "end": 391.42,
+        "word": " and",
+        "probability": 0.9984097480773926
+      },
+      {
+        "start": 391.42,
+        "end": 391.8,
+        "word": " holiday",
+        "probability": 0.9960518479347229
+      },
+      {
+        "start": 391.8,
+        "end": 392.36,
+        "word": " spending",
+        "probability": 0.9987782835960388
+      },
+      {
+        "start": 392.36,
+        "end": 392.82,
+        "word": " can",
+        "probability": 0.8908922672271729
+      },
+      {
+        "start": 392.82,
+        "end": 393.08,
+        "word": " each",
+        "probability": 0.9980332255363464
+      },
+      {
+        "start": 393.08,
+        "end": 393.38,
+        "word": " get",
+        "probability": 0.9987179040908813
+      },
+      {
+        "start": 393.38,
+        "end": 393.46,
+        "word": " a",
+        "probability": 0.9983232617378235
+      },
+      {
+        "start": 393.46,
+        "end": 393.8,
+        "word": " small",
+        "probability": 0.9989169836044312
+      },
+      {
+        "start": 393.8,
+        "end": 394.24,
+        "word": " amount",
+        "probability": 0.9675341248512268
+      },
+      {
+        "start": 394.24,
+        "end": 394.66,
+        "word": " set",
+        "probability": 0.9968476891517639
+      },
+      {
+        "start": 394.66,
+        "end": 395.14,
+        "word": " aside",
+        "probability": 0.9957402944564819
+      },
+      {
+        "start": 395.14,
+        "end": 395.62,
+        "word": " every",
+        "probability": 0.9944301247596741
+      },
+      {
+        "start": 395.62,
+        "end": 395.96,
+        "word": " payday.",
+        "probability": 0.9800631999969482
+      }
+    ]
+  },
+  {
+    "start": 395.96,
+    "end": 400.12,
+    "text": " When the bill arrives, the money already has a job.",
+    "words": [
+      {
+        "start": 395.96,
+        "end": 397.06,
+        "word": " When",
+        "probability": 0.4698544144630432
+      },
+      {
+        "start": 397.06,
+        "end": 397.22,
+        "word": " the",
+        "probability": 0.9944844841957092
+      },
+      {
+        "start": 397.22,
+        "end": 397.38,
+        "word": " bill",
+        "probability": 0.996945321559906
+      },
+      {
+        "start": 397.38,
+        "end": 397.82,
+        "word": " arrives,",
+        "probability": 0.9964467883110046
+      },
+      {
+        "start": 398.6,
+        "end": 398.68,
+        "word": " the",
+        "probability": 0.9955000281333923
+      },
+      {
+        "start": 398.68,
+        "end": 398.9,
+        "word": " money",
+        "probability": 0.9982860684394836
+      },
+      {
+        "start": 398.9,
+        "end": 399.4,
+        "word": " already",
+        "probability": 0.9886433482170105
+      },
+      {
+        "start": 399.4,
+        "end": 399.7,
+        "word": " has",
+        "probability": 0.9986646175384521
+      },
+      {
+        "start": 399.7,
+        "end": 399.86,
+        "word": " a",
+        "probability": 0.9984326958656311
+      },
+      {
+        "start": 399.86,
+        "end": 400.12,
+        "word": " job.",
+        "probability": 0.9977805018424988
+      }
+    ]
+  },
+  {
+    "start": 401.06,
+    "end": 407.0,
+    "text": " And when your income rises, decide what happens to the increase before it becomes part of your routine.",
+    "words": [
+      {
+        "start": 401.06,
+        "end": 401.18,
+        "word": " And",
+        "probability": 0.9607407450675964
+      },
+      {
+        "start": 401.18,
+        "end": 401.3,
+        "word": " when",
+        "probability": 0.9865228533744812
+      },
+      {
+        "start": 401.3,
+        "end": 401.44,
+        "word": " your",
+        "probability": 0.9937667846679688
+      },
+      {
+        "start": 401.44,
+        "end": 401.78,
+        "word": " income",
+        "probability": 0.9989504814147949
+      },
+      {
+        "start": 401.78,
+        "end": 402.48,
+        "word": " rises,",
+        "probability": 0.9989479184150696
+      },
+      {
+        "start": 403.04,
+        "end": 403.18,
+        "word": " decide",
+        "probability": 0.9977498650550842
+      },
+      {
+        "start": 403.18,
+        "end": 403.72,
+        "word": " what",
+        "probability": 0.9989905953407288
+      },
+      {
+        "start": 403.72,
+        "end": 404.12,
+        "word": " happens",
+        "probability": 0.9976733326911926
+      },
+      {
+        "start": 404.12,
+        "end": 404.36,
+        "word": " to",
+        "probability": 0.9950331449508667
+      },
+      {
+        "start": 404.36,
+        "end": 404.46,
+        "word": " the",
+        "probability": 0.9968438148498535
+      },
+      {
+        "start": 404.46,
+        "end": 404.84,
+        "word": " increase",
+        "probability": 0.9967017769813538
+      },
+      {
+        "start": 404.84,
+        "end": 405.28,
+        "word": " before",
+        "probability": 0.9970230460166931
+      },
+      {
+        "start": 405.28,
+        "end": 405.6,
+        "word": " it",
+        "probability": 0.9987185001373291
+      },
+      {
+        "start": 405.6,
+        "end": 405.94,
+        "word": " becomes",
+        "probability": 0.9975141286849976
+      },
+      {
+        "start": 405.94,
+        "end": 406.3,
+        "word": " part",
+        "probability": 0.9899871945381165
+      },
+      {
+        "start": 406.3,
+        "end": 406.46,
+        "word": " of",
+        "probability": 0.9983513355255127
+      },
+      {
+        "start": 406.46,
+        "end": 406.56,
+        "word": " your",
+        "probability": 0.9943118095397949
+      },
+      {
+        "start": 406.56,
+        "end": 407.0,
+        "word": " routine.",
+        "probability": 0.9985995888710022
+      }
+    ]
+  },
+  {
+    "start": 407.98,
+    "end": 409.8,
+    "text": " Some can improve your life today.",
+    "words": [
+      {
+        "start": 407.98,
+        "end": 408.2,
+        "word": " Some",
+        "probability": 0.9922096729278564
+      },
+      {
+        "start": 408.2,
+        "end": 408.46,
+        "word": " can",
+        "probability": 0.9989584684371948
+      },
+      {
+        "start": 408.46,
+        "end": 408.72,
+        "word": " improve",
+        "probability": 0.9986044764518738
+      },
+      {
+        "start": 408.72,
+        "end": 409.2,
+        "word": " your",
+        "probability": 0.9970903396606445
+      },
+      {
+        "start": 409.2,
+        "end": 409.48,
+        "word": " life",
+        "probability": 0.9991617202758789
+      },
+      {
+        "start": 409.48,
+        "end": 409.8,
+        "word": " today.",
+        "probability": 0.9947326183319092
+      }
+    ]
+  },
+  {
+    "start": 411.18,
+    "end": 415.86,
+    "text": " Some can build savings, reduce debt, or support longer term goals.",
+    "words": [
+      {
+        "start": 411.18,
+        "end": 411.46,
+        "word": " Some",
+        "probability": 0.9903620481491089
+      },
+      {
+        "start": 411.46,
+        "end": 411.7,
+        "word": " can",
+        "probability": 0.998258650302887
+      },
+      {
+        "start": 411.7,
+        "end": 411.98,
+        "word": " build",
+        "probability": 0.9972357153892517
+      },
+      {
+        "start": 411.98,
+        "end": 412.4,
+        "word": " savings,",
+        "probability": 0.9948662519454956
+      },
+      {
+        "start": 413.1,
+        "end": 413.26,
+        "word": " reduce",
+        "probability": 0.9947919249534607
+      },
+      {
+        "start": 413.26,
+        "end": 413.94,
+        "word": " debt,",
+        "probability": 0.9991269707679749
+      },
+      {
+        "start": 414.18,
+        "end": 414.28,
+        "word": " or",
+        "probability": 0.9983004927635193
+      },
+      {
+        "start": 414.28,
+        "end": 414.7,
+        "word": " support",
+        "probability": 0.9979174733161926
+      },
+      {
+        "start": 414.7,
+        "end": 415.1,
+        "word": " longer",
+        "probability": 0.9861533641815186
+      },
+      {
+        "start": 415.1,
+        "end": 415.54,
+        "word": " term",
+        "probability": 0.5043392181396484
+      },
+      {
+        "start": 415.54,
+        "end": 415.86,
+        "word": " goals.",
+        "probability": 0.995613694190979
+      }
+    ]
+  },
+  {
+    "start": 416.92,
+    "end": 418.9,
+    "text": " The point isn't to reject every upgrade.",
+    "words": [
+      {
+        "start": 416.92,
+        "end": 416.98,
+        "word": " The",
+        "probability": 0.9968580007553101
+      },
+      {
+        "start": 416.98,
+        "end": 417.26,
+        "word": " point",
+        "probability": 0.9982560276985168
+      },
+      {
+        "start": 417.26,
+        "end": 417.66,
+        "word": " isn't",
+        "probability": 0.9929868876934052
+      },
+      {
+        "start": 417.66,
+        "end": 417.78,
+        "word": " to",
+        "probability": 0.9991229176521301
+      },
+      {
+        "start": 417.78,
+        "end": 418.04,
+        "word": " reject",
+        "probability": 0.998953104019165
+      },
+      {
+        "start": 418.04,
+        "end": 418.54,
+        "word": " every",
+        "probability": 0.9964271187782288
+      },
+      {
+        "start": 418.54,
+        "end": 418.9,
+        "word": " upgrade.",
+        "probability": 0.996253490447998
+      }
+    ]
+  },
+  {
+    "start": 419.82,
+    "end": 423.24,
+    "text": " It's to keep every upgrade from consuming the entire raise.",
+    "words": [
+      {
+        "start": 419.82,
+        "end": 420.1,
+        "word": " It's",
+        "probability": 0.9809984266757965
+      },
+      {
+        "start": 420.1,
+        "end": 420.2,
+        "word": " to",
+        "probability": 0.9984413981437683
+      },
+      {
+        "start": 420.2,
+        "end": 420.4,
+        "word": " keep",
+        "probability": 0.9990509152412415
+      },
+      {
+        "start": 420.4,
+        "end": 420.7,
+        "word": " every",
+        "probability": 0.997875452041626
+      },
+      {
+        "start": 420.7,
+        "end": 421.32,
+        "word": " upgrade",
+        "probability": 0.9985552430152893
+      },
+      {
+        "start": 421.32,
+        "end": 421.62,
+        "word": " from",
+        "probability": 0.9983397722244263
+      },
+      {
+        "start": 421.62,
+        "end": 422.02,
+        "word": " consuming",
+        "probability": 0.997766375541687
+      },
+      {
+        "start": 422.02,
+        "end": 422.42,
+        "word": " the",
+        "probability": 0.999091625213623
+      },
+      {
+        "start": 422.42,
+        "end": 422.8,
+        "word": " entire",
+        "probability": 0.9993534684181213
+      },
+      {
+        "start": 422.8,
+        "end": 423.24,
+        "word": " raise.",
+        "probability": 0.8471524119377136
+      }
+    ]
+  },
+  {
+    "start": 423.98,
+    "end": 428.06,
+    "text": " Of course, not every tight budget is a lifestyle problem.",
+    "words": [
+      {
+        "start": 423.98,
+        "end": 424.34,
+        "word": " Of",
+        "probability": 0.2742215394973755
+      },
+      {
+        "start": 424.34,
+        "end": 424.54,
+        "word": " course,",
+        "probability": 0.9963296055793762
+      },
+      {
+        "start": 425.06,
+        "end": 425.44,
+        "word": " not",
+        "probability": 0.9974746108055115
+      },
+      {
+        "start": 425.44,
+        "end": 425.78,
+        "word": " every",
+        "probability": 0.9963975548744202
+      },
+      {
+        "start": 425.78,
+        "end": 426.08,
+        "word": " tight",
+        "probability": 0.7249619364738464
+      },
+      {
+        "start": 426.08,
+        "end": 426.5,
+        "word": " budget",
+        "probability": 0.9933695197105408
+      },
+      {
+        "start": 426.5,
+        "end": 426.74,
+        "word": " is",
+        "probability": 0.997442364692688
+      },
+      {
+        "start": 426.74,
+        "end": 426.84,
+        "word": " a",
+        "probability": 0.9989879727363586
+      },
+      {
+        "start": 426.84,
+        "end": 427.12,
+        "word": " lifestyle",
+        "probability": 0.9104071259498596
+      },
+      {
+        "start": 427.12,
+        "end": 428.06,
+        "word": " problem.",
+        "probability": 0.9992682337760925
+      }
+    ]
+  },
+  {
+    "start": 428.82,
+    "end": 433.82,
+    "text": " Child care, medical needs, supporting family, and living in an expensive area",
+    "words": [
+      {
+        "start": 428.82,
+        "end": 429.2,
+        "word": " Child",
+        "probability": 0.9343539476394653
+      },
+      {
+        "start": 429.2,
+        "end": 429.52,
+        "word": " care,",
+        "probability": 0.6581270694732666
+      },
+      {
+        "start": 429.78,
+        "end": 430.04,
+        "word": " medical",
+        "probability": 0.9990488886833191
+      },
+      {
+        "start": 430.04,
+        "end": 430.46,
+        "word": " needs,",
+        "probability": 0.9970386028289795
+      },
+      {
+        "start": 430.86,
+        "end": 431.22,
+        "word": " supporting",
+        "probability": 0.9958035349845886
+      },
+      {
+        "start": 431.22,
+        "end": 431.7,
+        "word": " family,",
+        "probability": 0.9938479065895081
+      },
+      {
+        "start": 432.14,
+        "end": 432.18,
+        "word": " and",
+        "probability": 0.9962232112884521
+      },
+      {
+        "start": 432.18,
+        "end": 432.48,
+        "word": " living",
+        "probability": 0.9995254278182983
+      },
+      {
+        "start": 432.48,
+        "end": 432.76,
+        "word": " in",
+        "probability": 0.9973433613777161
+      },
+      {
+        "start": 432.76,
+        "end": 432.84,
+        "word": " an",
+        "probability": 0.9943017959594727
+      },
+      {
+        "start": 432.84,
+        "end": 433.22,
+        "word": " expensive",
+        "probability": 0.9927449226379395
+      },
+      {
+        "start": 433.22,
+        "end": 433.82,
+        "word": " area",
+        "probability": 0.9990209341049194
+      }
+    ]
+  },
+  {
+    "start": 433.82,
+    "end": 436.28,
+    "text": " can put real pressure on a good income.",
+    "words": [
+      {
+        "start": 433.82,
+        "end": 434.3,
+        "word": " can",
+        "probability": 0.9301629662513733
+      },
+      {
+        "start": 434.3,
+        "end": 434.5,
+        "word": " put",
+        "probability": 0.9989538192749023
+      },
+      {
+        "start": 434.5,
+        "end": 434.7,
+        "word": " real",
+        "probability": 0.9965670108795166
+      },
+      {
+        "start": 434.7,
+        "end": 435.24,
+        "word": " pressure",
+        "probability": 0.9993112087249756
+      },
+      {
+        "start": 435.24,
+        "end": 435.56,
+        "word": " on",
+        "probability": 0.9989295601844788
+      },
+      {
+        "start": 435.56,
+        "end": 435.64,
+        "word": " a",
+        "probability": 0.9916970729827881
+      },
+      {
+        "start": 435.64,
+        "end": 435.84,
+        "word": " good",
+        "probability": 0.998649537563324
+      },
+      {
+        "start": 435.84,
+        "end": 436.28,
+        "word": " income.",
+        "probability": 0.9973956346511841
+      }
+    ]
+  },
+  {
+    "start": 437.14,
+    "end": 440.26,
+    "text": " Sometimes the biggest issue isn't careless spending.",
+    "words": [
+      {
+        "start": 437.14,
+        "end": 437.6,
+        "word": " Sometimes",
+        "probability": 0.9885030388832092
+      },
+      {
+        "start": 437.6,
+        "end": 438.04,
+        "word": " the",
+        "probability": 0.8401644229888916
+      },
+      {
+        "start": 438.04,
+        "end": 438.36,
+        "word": " biggest",
+        "probability": 0.9978594183921814
+      },
+      {
+        "start": 438.36,
+        "end": 438.92,
+        "word": " issue",
+        "probability": 0.9961878657341003
+      },
+      {
+        "start": 438.92,
+        "end": 439.36,
+        "word": " isn't",
+        "probability": 0.9953068792819977
+      },
+      {
+        "start": 439.36,
+        "end": 439.72,
+        "word": " careless",
+        "probability": 0.9654770493507385
+      },
+      {
+        "start": 439.72,
+        "end": 440.26,
+        "word": " spending.",
+        "probability": 0.9915114045143127
+      }
+    ]
+  },
+  {
+    "start": 441.46,
+    "end": 444.44,
+    "text": " It's that the essential costs are genuinely high.",
+    "words": [
+      {
+        "start": 441.46,
+        "end": 441.9,
+        "word": " It's",
+        "probability": 0.9897790551185608
+      },
+      {
+        "start": 441.9,
+        "end": 442.04,
+        "word": " that",
+        "probability": 0.9967334270477295
+      },
+      {
+        "start": 442.04,
+        "end": 442.22,
+        "word": " the",
+        "probability": 0.9921138286590576
+      },
+      {
+        "start": 442.22,
+        "end": 442.58,
+        "word": " essential",
+        "probability": 0.9969745874404907
+      },
+      {
+        "start": 442.58,
+        "end": 443.1,
+        "word": " costs",
+        "probability": 0.9973852038383484
+      },
+      {
+        "start": 443.1,
+        "end": 443.5,
+        "word": " are",
+        "probability": 0.9994180202484131
+      },
+      {
+        "start": 443.5,
+        "end": 443.92,
+        "word": " genuinely",
+        "probability": 0.9964467883110046
+      },
+      {
+        "start": 443.92,
+        "end": 444.44,
+        "word": " high.",
+        "probability": 0.9994617104530334
+      }
+    ]
+  },
+  {
+    "start": 445.32,
+    "end": 448.64,
+    "text": " But whatever the cause, the first useful step is the same.",
+    "words": [
+      {
+        "start": 445.32,
+        "end": 445.4,
+        "word": " But",
+        "probability": 0.9935223460197449
+      },
+      {
+        "start": 445.4,
+        "end": 445.6,
+        "word": " whatever",
+        "probability": 0.9884305000305176
+      },
+      {
+        "start": 445.6,
+        "end": 445.9,
+        "word": " the",
+        "probability": 0.9965656399726868
+      },
+      {
+        "start": 445.9,
+        "end": 446.24,
+        "word": " cause,",
+        "probability": 0.9885513782501221
+      },
+      {
+        "start": 446.62,
+        "end": 446.7,
+        "word": " the",
+        "probability": 0.9982540011405945
+      },
+      {
+        "start": 446.7,
+        "end": 446.98,
+        "word": " first",
+        "probability": 0.9979800581932068
+      },
+      {
+        "start": 446.98,
+        "end": 447.28,
+        "word": " useful",
+        "probability": 0.973581075668335
+      },
+      {
+        "start": 447.28,
+        "end": 447.9,
+        "word": " step",
+        "probability": 0.9988923668861389
+      },
+      {
+        "start": 447.9,
+        "end": 448.12,
+        "word": " is",
+        "probability": 0.9767265319824219
+      },
+      {
+        "start": 448.12,
+        "end": 448.28,
+        "word": " the",
+        "probability": 0.9990478157997131
+      },
+      {
+        "start": 448.28,
+        "end": 448.64,
+        "word": " same.",
+        "probability": 0.9994102716445923
+      }
+    ]
+  },
+  {
+    "start": 448.64,
+    "end": 451.2,
+    "text": " Find out where the money is committed.",
+    "words": [
+      {
+        "start": 448.64,
+        "end": 449.68,
+        "word": " Find",
+        "probability": 0.44325655698776245
+      },
+      {
+        "start": 449.68,
+        "end": 449.96,
+        "word": " out",
+        "probability": 0.9911596179008484
+      },
+      {
+        "start": 449.96,
+        "end": 450.22,
+        "word": " where",
+        "probability": 0.9943802952766418
+      },
+      {
+        "start": 450.22,
+        "end": 450.38,
+        "word": " the",
+        "probability": 0.9915311336517334
+      },
+      {
+        "start": 450.38,
+        "end": 450.64,
+        "word": " money",
+        "probability": 0.9986145496368408
+      },
+      {
+        "start": 450.64,
+        "end": 450.88,
+        "word": " is",
+        "probability": 0.9988559484481812
+      },
+      {
+        "start": 450.88,
+        "end": 451.2,
+        "word": " committed.",
+        "probability": 0.9946069121360779
+      }
+    ]
+  },
+  {
+    "start": 452.04,
+    "end": 454.62,
+    "text": " Because a higher salary gives you more options.",
+    "words": [
+      {
+        "start": 452.04,
+        "end": 452.26,
+        "word": " Because",
+        "probability": 0.9886791110038757
+      },
+      {
+        "start": 452.26,
+        "end": 452.42,
+        "word": " a",
+        "probability": 0.9938198924064636
+      },
+      {
+        "start": 452.42,
+        "end": 452.7,
+        "word": " higher",
+        "probability": 0.9656168222427368
+      },
+      {
+        "start": 452.7,
+        "end": 453.3,
+        "word": " salary",
+        "probability": 0.9989013671875
+      },
+      {
+        "start": 453.3,
+        "end": 453.74,
+        "word": " gives",
+        "probability": 0.9946985244750977
+      },
+      {
+        "start": 453.74,
+        "end": 453.96,
+        "word": " you",
+        "probability": 0.9968497157096863
+      },
+      {
+        "start": 453.96,
+        "end": 454.1,
+        "word": " more",
+        "probability": 0.9991783499717712
+      },
+      {
+        "start": 454.1,
+        "end": 454.62,
+        "word": " options.",
+        "probability": 0.997512936592102
+      }
+    ]
+  },
+  {
+    "start": 455.5,
+    "end": 457.66,
+    "text": " It doesn't automatically give you a plan.",
+    "words": [
+      {
+        "start": 455.5,
+        "end": 455.62,
+        "word": " It",
+        "probability": 0.987288236618042
+      },
+      {
+        "start": 455.62,
+        "end": 455.9,
+        "word": " doesn't",
+        "probability": 0.9970293641090393
+      },
+      {
+        "start": 455.9,
+        "end": 456.42,
+        "word": " automatically",
+        "probability": 0.9976121187210083
+      },
+      {
+        "start": 456.42,
+        "end": 456.96,
+        "word": " give",
+        "probability": 0.9954826831817627
+      },
+      {
+        "start": 456.96,
+        "end": 457.18,
+        "word": " you",
+        "probability": 0.9913432598114014
+      },
+      {
+        "start": 457.18,
+        "end": 457.28,
+        "word": " a",
+        "probability": 0.9981083869934082
+      },
+      {
+        "start": 457.28,
+        "end": 457.66,
+        "word": " plan.",
+        "probability": 0.9989922642707825
+      }
+    ]
+  },
+  {
+    "start": 458.5,
+    "end": 462.5,
+    "text": " For Alex, financial progress might start with one less payment,",
+    "words": [
+      {
+        "start": 458.5,
+        "end": 458.64,
+        "word": " For",
+        "probability": 0.989547073841095
+      },
+      {
+        "start": 458.64,
+        "end": 458.96,
+        "word": " Alex,",
+        "probability": 0.9333229660987854
+      },
+      {
+        "start": 459.54,
+        "end": 459.92,
+        "word": " financial",
+        "probability": 0.9682860970497131
+      },
+      {
+        "start": 459.92,
+        "end": 460.64,
+        "word": " progress",
+        "probability": 0.9989197254180908
+      },
+      {
+        "start": 460.64,
+        "end": 460.98,
+        "word": " might",
+        "probability": 0.996682345867157
+      },
+      {
+        "start": 460.98,
+        "end": 461.34,
+        "word": " start",
+        "probability": 0.9989757537841797
+      },
+      {
+        "start": 461.34,
+        "end": 461.6,
+        "word": " with",
+        "probability": 0.9985547661781311
+      },
+      {
+        "start": 461.6,
+        "end": 461.88,
+        "word": " one",
+        "probability": 0.9708923697471619
+      },
+      {
+        "start": 461.88,
+        "end": 462.1,
+        "word": " less",
+        "probability": 0.9870849251747131
+      },
+      {
+        "start": 462.1,
+        "end": 462.5,
+        "word": " payment,",
+        "probability": 0.9984183311462402
+      }
+    ]
+  },
+  {
+    "start": 463.22,
+    "end": 469.4,
+    "text": " a smaller fixed expense, or a cash buffer that finally survives until the next payday.",
+    "words": [
+      {
+        "start": 463.22,
+        "end": 463.3,
+        "word": " a",
+        "probability": 0.9941058158874512
+      },
+      {
+        "start": 463.3,
+        "end": 463.74,
+        "word": " smaller",
+        "probability": 0.9929895401000977
+      },
+      {
+        "start": 463.74,
+        "end": 464.18,
+        "word": " fixed",
+        "probability": 0.9849498271942139
+      },
+      {
+        "start": 464.18,
+        "end": 464.72,
+        "word": " expense,",
+        "probability": 0.998162567615509
+      },
+      {
+        "start": 465.36,
+        "end": 465.52,
+        "word": " or",
+        "probability": 0.9969396591186523
+      },
+      {
+        "start": 465.52,
+        "end": 465.66,
+        "word": " a",
+        "probability": 0.9935281872749329
+      },
+      {
+        "start": 465.66,
+        "end": 465.96,
+        "word": " cash",
+        "probability": 0.9980084300041199
+      },
+      {
+        "start": 465.96,
+        "end": 466.46,
+        "word": " buffer",
+        "probability": 0.9737299084663391
+      },
+      {
+        "start": 466.46,
+        "end": 466.86,
+        "word": " that",
+        "probability": 0.9884065985679626
+      },
+      {
+        "start": 466.86,
+        "end": 467.36,
+        "word": " finally",
+        "probability": 0.988663375377655
+      },
+      {
+        "start": 467.36,
+        "end": 467.92,
+        "word": " survives",
+        "probability": 0.9992144107818604
+      },
+      {
+        "start": 467.92,
+        "end": 468.56,
+        "word": " until",
+        "probability": 0.9916885495185852
+      },
+      {
+        "start": 468.56,
+        "end": 468.8,
+        "word": " the",
+        "probability": 0.9970882534980774
+      },
+      {
+        "start": 468.8,
+        "end": 469.04,
+        "word": " next",
+        "probability": 0.998927891254425
+      },
+      {
+        "start": 469.04,
+        "end": 469.4,
+        "word": " payday.",
+        "probability": 0.9138653874397278
+      }
+    ]
+  },
+  {
+    "start": 470.62,
+    "end": 472.96,
+    "text": " Not something impressive enough to post.",
+    "words": [
+      {
+        "start": 470.62,
+        "end": 471.1,
+        "word": " Not",
+        "probability": 0.9766275882720947
+      },
+      {
+        "start": 471.1,
+        "end": 471.54,
+        "word": " something",
+        "probability": 0.9989235997200012
+      },
+      {
+        "start": 471.54,
+        "end": 472.08,
+        "word": " impressive",
+        "probability": 0.995016872882843
+      },
+      {
+        "start": 472.08,
+        "end": 472.5,
+        "word": " enough",
+        "probability": 0.9987367987632751
+      },
+      {
+        "start": 472.5,
+        "end": 472.72,
+        "word": " to",
+        "probability": 0.9988499879837036
+      },
+      {
+        "start": 472.72,
+        "end": 472.96,
+        "word": " post.",
+        "probability": 0.9917449355125427
+      }
+    ]
+  },
+  {
+    "start": 473.74,
+    "end": 476.18,
+    "text": " Just enough space to stop feeling trapped.",
+    "words": [
+      {
+        "start": 473.74,
+        "end": 474.04,
+        "word": " Just",
+        "probability": 0.9966457486152649
+      },
+      {
+        "start": 474.04,
+        "end": 474.3,
+        "word": " enough",
+        "probability": 0.9997313618659973
+      },
+      {
+        "start": 474.3,
+        "end": 474.72,
+        "word": " space",
+        "probability": 0.9997891783714294
+      },
+      {
+        "start": 474.72,
+        "end": 475.02,
+        "word": " to",
+        "probability": 0.9988429546356201
+      },
+      {
+        "start": 475.02,
+        "end": 475.34,
+        "word": " stop",
+        "probability": 0.9989957213401794
+      },
+      {
+        "start": 475.34,
+        "end": 475.88,
+        "word": " feeling",
+        "probability": 0.9932900667190552
+      },
+      {
+        "start": 475.88,
+        "end": 476.18,
+        "word": " trapped.",
+        "probability": 0.9951863884925842
+      }
+    ]
+  },
+  {
+    "start": 476.18,
+    "end": 480.88,
+    "text": " And that raises a better question than, do I make good money?",
+    "words": [
+      {
+        "start": 476.18,
+        "end": 477.16,
+        "word": " And",
+        "probability": 0.20711401104927063
+      },
+      {
+        "start": 477.16,
+        "end": 477.36,
+        "word": " that",
+        "probability": 0.9733417630195618
+      },
+      {
+        "start": 477.36,
+        "end": 477.82,
+        "word": " raises",
+        "probability": 0.986420750617981
+      },
+      {
+        "start": 477.82,
+        "end": 478.12,
+        "word": " a",
+        "probability": 0.9964656829833984
+      },
+      {
+        "start": 478.12,
+        "end": 478.36,
+        "word": " better",
+        "probability": 0.9982979893684387
+      },
+      {
+        "start": 478.36,
+        "end": 478.86,
+        "word": " question",
+        "probability": 0.9975653886795044
+      },
+      {
+        "start": 478.86,
+        "end": 479.2,
+        "word": " than,",
+        "probability": 0.7321609854698181
+      },
+      {
+        "start": 479.52,
+        "end": 479.84,
+        "word": " do",
+        "probability": 0.22700056433677673
+      },
+      {
+        "start": 479.84,
+        "end": 480.06,
+        "word": " I",
+        "probability": 0.9947823882102966
+      },
+      {
+        "start": 480.06,
+        "end": 480.26,
+        "word": " make",
+        "probability": 0.9988915324211121
+      },
+      {
+        "start": 480.26,
+        "end": 480.5,
+        "word": " good",
+        "probability": 0.9961420893669128
+      },
+      {
+        "start": 480.5,
+        "end": 480.88,
+        "word": " money?",
+        "probability": 0.9990519881248474
+      }
+    ]
+  },
+  {
+    "start": 481.58,
+    "end": 485.86,
+    "text": " How much of the money I make is helping me build the life I actually want?",
+    "words": [
+      {
+        "start": 481.58,
+        "end": 481.78,
+        "word": " How",
+        "probability": 0.992033064365387
+      },
+      {
+        "start": 481.78,
+        "end": 481.98,
+        "word": " much",
+        "probability": 0.9988440275192261
+      },
+      {
+        "start": 481.98,
+        "end": 482.16,
+        "word": " of",
+        "probability": 0.9954478144645691
+      },
+      {
+        "start": 482.16,
+        "end": 482.26,
+        "word": " the",
+        "probability": 0.9956563711166382
+      },
+      {
+        "start": 482.26,
+        "end": 482.52,
+        "word": " money",
+        "probability": 0.9981065988540649
+      },
+      {
+        "start": 482.52,
+        "end": 482.76,
+        "word": " I",
+        "probability": 0.9915751814842224
+      },
+      {
+        "start": 482.76,
+        "end": 483.06,
+        "word": " make",
+        "probability": 0.9970138072967529
+      },
+      {
+        "start": 483.06,
+        "end": 483.32,
+        "word": " is",
+        "probability": 0.991925060749054
+      },
+      {
+        "start": 483.32,
+        "end": 483.6,
+        "word": " helping",
+        "probability": 0.9973375201225281
+      },
+      {
+        "start": 483.6,
+        "end": 483.96,
+        "word": " me",
+        "probability": 0.997852087020874
+      },
+      {
+        "start": 483.96,
+        "end": 484.3,
+        "word": " build",
+        "probability": 0.9948644042015076
+      },
+      {
+        "start": 484.3,
+        "end": 484.5,
+        "word": " the",
+        "probability": 0.995851993560791
+      },
+      {
+        "start": 484.5,
+        "end": 484.76,
+        "word": " life",
+        "probability": 0.9981210827827454
+      },
+      {
+        "start": 484.76,
+        "end": 485.06,
+        "word": " I",
+        "probability": 0.9930914640426636
+      },
+      {
+        "start": 485.06,
+        "end": 485.48,
+        "word": " actually",
+        "probability": 0.9943933486938477
+      },
+      {
+        "start": 485.48,
+        "end": 485.86,
+        "word": " want?",
+        "probability": 0.9988706707954407
+      }
+    ]
+  }
+]

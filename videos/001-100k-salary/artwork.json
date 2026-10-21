@@ -6,7 +6,7 @@
     "width": 1920,
     "height": 1080
   },
-  "status": "Artwork prepared; no audio timing or rendered video yet.",
+  "status": "Full editable review v01: 64 shots, 486.75 seconds; source artwork remains unchanged.",
   "frames": [
     {
       "id": "01a",
@@ -26,7 +26,7 @@
           "text": "A SIX-FIGURE\nSALARY"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "01b",
@@ -46,7 +46,7 @@
           "text": "STILL WAITING FOR PAYDAY?"
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "02a",
@@ -78,7 +78,7 @@
           "text": "Illustration: $6,000/month deposited after deductions"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "02b",
@@ -110,7 +110,7 @@
           "text": "Illustrative example • actual deductions vary"
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "03a",
@@ -208,7 +208,7 @@
           "fill": "#236b59"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "03b",
@@ -234,7 +234,7 @@
           "text": "$6,000 − $4,900 = $1,100 LEFT"
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "04a",
@@ -260,7 +260,7 @@
           "text": "$1,100 − $600 = $500 BREATHING ROOM"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "04b",
@@ -286,7 +286,7 @@
           "text": "THIS MONTH’S COST → NEXT MONTH’S PAYMENT"
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "05a",
@@ -306,7 +306,7 @@
           "text": "EVERY RAISE. A NEW COMMITMENT."
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "05b",
@@ -326,7 +326,7 @@
           "text": "MORE IN.\nMORE PROMISED\nAWAY."
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "06a",
@@ -346,7 +346,7 @@
           "text": "YOU’RE SEEING\nTHE HIGHLIGHT REEL"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "06b",
@@ -366,7 +366,7 @@
           "text": "ONE PAYCHECK. TWO LIVES."
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "07a",
@@ -386,7 +386,7 @@
           "text": "START WITH THE\nBIGGEST COMMITMENTS"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "07b",
@@ -406,7 +406,7 @@
           "text": "GIVE YOUR MONEY A JOB"
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     },
     {
       "id": "08a",
@@ -426,7 +426,7 @@
           "text": "NOT EVERY TIGHT BUDGET\nIS A LIFESTYLE PROBLEM"
         }
       ],
-      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; chưa gán timecode."
+      "motion": "Mở toàn cảnh, sau đó phóng cận lần lượt các chi tiết theo câu đọc. Chữ và số xuất hiện theo nhịp; Timecode bản dựng: review/README.md."
     },
     {
       "id": "08b",
@@ -446,7 +446,7 @@
           "text": "BUILD A LIFE WITH BREATHING ROOM"
         }
       ],
-      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; chưa gán timecode."
+      "motion": "Đổi bố cục để nhấn ý; chuyển chữ theo lời đọc, dùng bảng nhân vật/đạo cụ cho lớp chuyển động riêng; Timecode bản dựng: review/README.md."
     }
   ],
   "sheets": [

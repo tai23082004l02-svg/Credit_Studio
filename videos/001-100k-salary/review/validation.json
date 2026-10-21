@@ -1,0 +1,40 @@
+{
+  "duration": "486.766667",
+  "bytes": 54554618,
+  "video": "h264",
+  "audio": "aac",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "decodedWithoutErrors": true,
+  "sourceAudioComparison": [
+    {
+      "seconds": 10,
+      "correlation": 0.99994
+    },
+    {
+      "seconds": 200,
+      "correlation": 0.99996
+    },
+    {
+      "seconds": 480,
+      "correlation": 0.99997
+    }
+  ],
+  "checkedAt": "2026-10-21",
+  "engineTests": "8 passed",
+  "browserSuites": [
+    "tests/video-editor.cjs passed",
+    "tests/project-workspaces.cjs passed, including old-draft backup/cancel/update/reload"
+  ],
+  "fullReviewChecks": [
+    "64 scenes, original 8 clips unchanged, source WAV unchanged",
+    "All assets resolve and entrance cues occur within their scene",
+    "All text layers checked with actual Times New Roman metrics; no canvas overflow",
+    "Audio seek at 8 sections; playback near ending; final scene reachable; mobile layout",
+    "Actual browser font: TimesNewRomanPS-BoldMT"
+  ],
+  "durationNote": "Narration/timeline 486.75s; MP4 video rounded to the next 30fps frame (486.766667s)."
+}

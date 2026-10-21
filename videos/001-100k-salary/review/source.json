@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "sourceAudio": "videos/001-100k-salary/audio/Why You Feel Broke on a $100,000 Salary.wav",
+  "sourceSHA256": "340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df",
+  "sourceDuration": 486.75,
+  "alignment": {
+    "model": "Systran/faster-whisper-base.en",
+    "implementation": "faster-whisper",
+    "compute": "CPU int8",
+    "beamSize": 5,
+    "wordTimestamps": true,
+    "vadFilter": true,
+    "note": "Automatic recognition mapped to the supplied script; word-level timing may be approximate."
+  },
+  "project": "review/project.json",
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "font": "Times New Roman",
+    "fontVerified": "TimesNewRomanPS-BoldMT",
+    "music": false,
+    "captionsBurnedIn": false
+  },
+  "retainedOriginalIntro": "intro/project.json"
+}

@@ -1,6 +1,6 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
-Cập nhật: 2026-10-20. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
+Cập nhật: 2026-10-21. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
 
 ## Mục tiêu và quyết định đã chốt
 
@@ -34,9 +34,19 @@ Thư mục: `videos/001-100k-salary/`.
 - `intro/voiceover.mp3`, `alignment.json`, `captions.vtt`: đoạn âm thanh dẫn xuất, mốc từ tự động và 14 đoạn phụ đề. Xem `intro/README.md` để biết thời điểm cụ thể.
 - `exports/intro-v01.mp4`: bản duyệt H.264/AAC 40,5 giây, Times New Roman, chưa thêm nhạc nền.
 
-Bản mở đầu kết thúc sau câu “before you buy a single thing”, trước “Meet Alex.” Người dùng đã đánh giá tốt bản duyệt và yêu cầu đổi font, sau đó gộp công cụ quản lý. **Phần còn lại của video hơn 8 phút chưa được dựng hoàn chỉnh.** Chuyển động hiện là fade/slide/pop/drift của các lớp; chưa có rig khớp nhân vật.
+Bản mở đầu kết thúc sau câu “before you buy a single thing”, trước “Meet Alex.” Người dùng đã đánh giá tốt bản duyệt và yêu cầu đổi font, sau đó gộp công cụ quản lý. **Ngày 2026-10-21 đã dựng tiếp toàn bộ thành bản duyệt đầy đủ; xem cập nhật bên dưới.** Chuyển động hiện là fade/slide/pop/drift của các lớp; chưa có rig khớp nhân vật.
 
-Bước sản xuất tiếp theo, khi người dùng yêu cầu tiếp tục: đọc script/storyboard và nghe phần audio còn lại, xác định mốc lời đọc, dựng tiếp các cảnh trong cùng dự án, đưa bản duyệt chỉnh được vào Studio rồi kiểm tra bản xuất. Không tự thay lời thoại/giọng đọc hoặc tuyên bố toàn bộ video đã hoàn tất.
+## Cập nhật bản dựng đầy đủ — 2026-10-21
+
+Người dùng đã yêu cầu dựng tiếp. Đã dựng toàn bộ **486,75 giây / 64 cảnh**, nối nguyên 8 cảnh intro với 56 cảnh mới. Bản duyệt chỉnh được: `review/project.json`; nguồn âm thanh MP3 toàn bộ: `review/voiceover.mp3`; mốc nhận dạng: `review/alignment.json`; phụ đề: `review/captions.vtt`. Tất cả nằm trong `videos/001-100k-salary/`. `review/README.md` có bảng timecode từng cảnh. Bản MP4 để duyệt: `exports/full-review-v01.mp4` (1920×1080, 30 fps, Times New Roman, lời đọc gốc, chưa nhạc nền). WAV và bản intro cũ được bảo toàn.
+
+`projects.json` vẫn dùng ID `finance-001`, nay trỏ bản video và MP4 đầy đủ. Trang chủ/Tổng quan xem MP4 mới, tab Dựng video chỉnh timeline. Nếu trình duyệt còn bản sửa intro cũ, nó vẫn được giữ; trình video hiện thông báo **Mở bản dựng mới**. Người dùng sao lưu trước rồi xác nhận mở bản mới, hoặc dùng nút **Bản gốc**. Không tự ghi đè bản sửa cục bộ.
+
+Các cảnh mới kết hợp nhân vật/đạo cụ tách lớp, thẻ chữ/số, biểu đồ ngân sách đúng tỉ lệ và ảnh cảnh có sẵn. Một số cảnh dùng ảnh tổng thể, không phải mọi chi tiết của ảnh đều chỉnh riêng được. Mốc từ tự động bằng faster-whisper base.en được ánh xạ lại script để giữ đúng chữ; có sai số ở mức từ. Các nhóm đạo cụ quan trọng xuất hiện theo mốc câu. Phụ đề mặc định tắt trong MP4; bật được trong Studio. Chưa có rig khớp hoặc nhạc nền.
+
+Công cụ tái tạo: `tools/build-full-video.py` đọc script, mốc nhận dạng và tài nguyên, tạo lại JSON/VTT/timecode; không chỉnh WAV hay intro. Không chạy lại nếu có bản sửa tay chưa sao lưu. Dựng MP4 bằng `tools/render-intro.cjs` với đầu vào `review/project.json` và đường dẫn xuất mới.
+
+Bước tiếp theo: người dùng xem **bản duyệt đầy đủ v01**, cung cấp các chi tiết cần sửa (tốt nhất kèm timecode). Nếu đã sửa trong trình duyệt, cần nhận `.credit.json` hoặc JSON video trước khi trợ lý tiếp tục từ các sửa đổi đó. Chưa coi bản duyệt là bản cuối đã được người dùng duyệt.
 
 ## Mã nguồn và kiểm tra
 
@@ -44,12 +54,14 @@ Bước sản xuất tiếp theo, khi người dùng yêu cầu tiếp tục: đ
 - `assets/js/workspace-store.js`: IndexedDB, danh mục, sao lưu/khôi phục, chuyển dữ liệu cũ.
 - `design/index.html`, `assets/js/app.js`, `assets/js/design-model.js`: trình ảnh và kiểm tra dữ liệu thiết kế.
 - `video/editor.js`, `video/engine.js`, `video/webm.js`: trình video, bộ vẽ dùng chung và xuất WebM.
-- `tools/build-video-projects.py`, `tools/build-intro-project.py`: tạo lại thiết kế/bản intro từ cấu hình; đọc hướng dẫn trước khi chạy vì có thể thay JSON hiện có.
+- `tools/build-video-projects.py`, `tools/build-intro-project.py`, `tools/build-full-video.py`: tạo lại thiết kế/bản intro từ cấu hình; đọc hướng dẫn trước khi chạy vì có thể thay JSON hiện có.
 - `tools/render-intro.cjs`: dựng MP4 từ JSON bằng bộ vẽ dùng chung, Playwright và FFmpeg; dùng đường dẫn xuất mới để giữ bản cũ.
 
 Đọc README để chạy máy chủ, kiểm tra và dựng MP4. Ứng dụng không cần thư viện production. Bộ kiểm tra trình duyệt/công cụ MP4 cần Playwright, Chromium và FFmpeg. Font cục bộ ở môi trường trước nằm ngoài repo tại `/workspace/shared/credit-studio-fonts`; máy mới cần kiểm tra lại, không giả định tệp đó luôn tồn tại. Không đưa tệp font độc quyền vào website/repo.
 
 Đã kiểm tra ở lần triển khai gộp công cụ: 8 bài unit test cho engine/WebM; bộ Playwright `tests/video-editor.cjs` và `tests/project-workspaces.cjs` (tách dữ liệu dự án, lưu lại, âm thanh, xuất WebM, sao lưu/khôi phục và mobile); MP4 thực bằng FFmpeg/ffprobe. GitHub Pages triển khai thành công cho commit `0f542fa`; tài nguyên online đã đối chiếu qua HTTPS. Đây là kết quả của phiên trước, không thay cho kiểm tra phù hợp với thay đổi mới.
+
+Kiểm tra bản đầy đủ ngày 2026-10-21: 8 unit test và cả hai bộ Playwright đã qua, gồm bảo toàn/sao lưu bản sửa cũ, hủy mở bản mới, xác nhận mở và reload bản đầy đủ. Kiểm tra thực tế toàn bộ bố cục chữ bằng Times New Roman, tua audio ở 8 phần, phát đoạn kết, timeline và mobile đã qua. MP4 đã giải mã toàn bộ bằng FFmpeg không lỗi; âm thanh đối chiếu WAV ở giây 10/200/480 có tương quan >0,9999. MP4 dài 486,766667 giây do làm tròn khung 30 fps; audio/timeline 486,75 giây. Xem `review/validation.json` và `review/source.json`. Trạng thái triển khai cần kiểm tra theo commit mới nhất trên GitHub Actions.
 
 ## Cách tiếp tục trong chat mới
 

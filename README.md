@@ -14,7 +14,7 @@ Website được triển khai bằng GitHub Pages từ thư mục gốc của nh
 Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật website.
 Địa chỉ chính mở trang **Dự án của bạn**. Tạo dự án mới hoặc chọn dự án hiện có, rồi chuyển giữa **Tổng quan**, **Dựng video**, **Hình ảnh**, **Âm thanh & tài liệu** trên cùng trang. `/video/` và `/design/` là các công cụ bên trong, vẫn mở riêng được nếu cần; không cần nhớ các đường dẫn này để sử dụng.
 
-[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt 40,5 giây, 16 cảnh ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-mở-đầu).
+[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt đầy đủ 8 phút 06,75 giây (64 cảnh), 16 cảnh ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-đầy-đủ).
 
 ## Quản lý và lưu dự án
 
@@ -53,8 +53,9 @@ videos/
     projects/                      16 trang JSON chỉnh chữ trong Studio
     storyboard.md                  Phân cảnh và hướng chuyển động
     index.html                     Trang xem bộ hình
-    intro/                         Dự án video, audio cắt và mốc lời đọc
-    exports/                       MP4 bản nháp mở đầu
+    intro/                         Bản mở đầu 40,5 giây được giữ lại
+    review/                        Bản dựng đầy đủ, audio dẫn xuất và phụ đề
+    exports/                       MP4 bản mở đầu và bản duyệt đầy đủ
 ```
 
 Mỗi video tiếp theo sẽ có thư mục riêng dưới `videos/` để không lẫn tài nguyên.

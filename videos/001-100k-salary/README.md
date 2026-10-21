@@ -2,7 +2,7 @@
 
 - Khán giả: người xem Mỹ, ngôn ngữ tiếng Anh.
 - Phong cách: nhân vật nét vẽ 2D, nền sáng, kết hợp biểu đồ.
-- Thời lượng dự kiến: 6–8 phút, cần đo lại theo tệp giọng đọc thực tế.
+- Thời lượng thực tế: 486,75 giây (8 phút 06,75 giây), theo WAV đã nhận.
 - [Lời thoại](script.md): 8 đoạn; không đọc tiêu đề đoạn.
 - [Audio](audio/): nơi tải giọng đọc MP3/WAV lên.
 - [Ảnh mẫu phong cách](../../assets/samples/finance-hand-drawn-2d.png).
@@ -11,6 +11,23 @@
 - [Duyệt và chỉnh bản mở đầu online](https://tai23082004l02-svg.github.io/Credit_Studio/video/) · [MP4 bản nháp 40,5 giây](exports/intro-v01.mp4).
 
 Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001) để quản lý bản dựng, cảnh ảnh, audio và lời thoại cùng một chỗ. Chọn **Hình ảnh → Chỉnh cảnh trong dự án** để sửa trực tiếp, mỗi cảnh có bản lưu riêng. **Sao lưu dự án** giữ cả bản video, các cảnh đã sửa và tệp bạn thêm vào trình duyệt.
+
+## Bản duyệt đầy đủ
+
+Đã nối toàn bộ lời đọc thành **64 cảnh, dài 8 phút 06,75 giây**, giữ nguyên 8 cảnh mở đầu. Đây là bản duyệt v01 để sửa tiểu tiết trước bản xuất cuối.
+
+- [Mở dựng video trong dự án](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video).
+- [MP4 đầy đủ v01](exports/full-review-v01.mp4), 1920×1080, 30 fps, có lời đọc gốc, chưa có nhạc nền.
+- `review/project.json`: bản dựng đầy đủ với các lớp chữ, số, đạo cụ và cảnh ảnh.
+- `review/voiceover.mp3`: dẫn xuất toàn bộ WAV gốc, không cắt bỏ nội dung.
+- `review/alignment.json` và `review/captions.vtt`: nhận dạng mốc từ và phụ đề đối chiếu script; có sai số căn từ tự động.
+- [Danh sách timecode 64 cảnh](review/README.md).
+
+Nếu trình duyệt vẫn mở bản cũ, dùng **Sao lưu dự án** trước, rồi chọn **Mở bản dựng mới** trong tab Dựng video (hoặc **Bản gốc**). Bản lưu cục bộ không tự bị ghi đè. MP4 ở Tổng quan là bản đã xuất trên GitHub; các chỉnh sửa mới trong trình duyệt cần xuất lại.
+
+Các đoạn mới kết hợp nhân vật/đạo cụ riêng với ảnh cảnh đã có. Phần ngân sách tăng dần theo từng khoản, có biểu đồ đúng tỉ lệ; các cảnh dùng ảnh tổng thể chỉ chỉnh chữ và toàn bộ lớp ảnh, chưa tách mọi chi tiết bên trong. Giữ Times New Roman. Có thể bật phụ đề trong Studio, bản MP4 mặc định không chèn phụ đề.
+
+Dựng lại dữ liệu: `python3 tools/build-full-video.py`. Dựng MP4 với đường dẫn xuất mới theo hướng dẫn README gốc, thay đầu vào bằng `videos/001-100k-salary/review/project.json`. Không chạy lại công cụ tạo dữ liệu nếu đang giữ bản sửa thủ công chưa sao lưu.
 
 ## Bản duyệt mở đầu
 
@@ -46,7 +63,7 @@ Chữ và số tài chính được giữ riêng trong JSON để sửa được
 
 ## Trạng thái
 
-Đã có bộ hình đầy đủ, công cụ chỉnh video cơ bản và bản dựng mở đầu 40,5 giây. WAV gốc dài 486,75 giây (8 phút 6,75 giây). Đã đối chiếu và căn nhịp phần mở đầu; phần còn lại chưa dựng.
+Đã có bộ hình, công cụ chỉnh video và bản duyệt đầy đủ 64 cảnh / 486,75 giây. Chờ người dùng duyệt và yêu cầu chỉnh tiểu tiết; giữ nguyên WAV gốc và MP4 mở đầu.
 
 ## Quy trình bàn giao
 
