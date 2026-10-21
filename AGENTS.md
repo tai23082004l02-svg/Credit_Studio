@@ -5,6 +5,7 @@ For video production, also read the current video's README, script and storyboar
 
 - Communicate with the user in Vietnamese. Current video narration targets US viewers in English.
 - Preserve the user's Times New Roman preference throughout the editors, captions and rendered video.
+- For icon-and-label cards, center both the artwork and label horizontally within each card; use balanced padding and consistent spacing across the group. The user requested this for future video layouts after reviewing the Taxes card.
 - Keep the root website as the single project-management entry point; preserve existing project IDs and saved-project compatibility.
 - Preserve source audio, existing projects and user edits. Do not overwrite original recordings or previous exports without an explicit reason and authorization.
 - Browser drafts and attachments live in IndexedDB, not GitHub. Do not assume repository files include the user's latest browser edits; request a project backup when those edits are needed.

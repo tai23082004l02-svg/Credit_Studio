@@ -8,6 +8,7 @@ Cập nhật: 2026-10-21. Đây là ghi chú tiếp nối công việc, không p
 - Người dùng cung cấp âm thanh (có thể do AI đọc). Trợ lý chuẩn bị lời thoại, hình ảnh, phân cảnh, dựng video và bản duyệt chỉnh được trong Credit Studio; người dùng sửa tiểu tiết trước bản xuất cuối.
 - Phong cách đã chọn: nhân vật nét vẽ 2D, biểu đồ và biểu tượng đơn giản. Nhân vật Alex có tóc nâu sẫm, áo kem xắn tay, quần xanh teal; nền kem, nét than, xanh tiền, coral cho chi phí và điểm nhấn vàng.
 - **Giữ Times New Roman cho toàn bộ chữ**, bao gồm giao diện, chữ trong hình và phụ đề. Website có font serif dự phòng khi thiết bị thiếu font; bản MP4 hiện có được dựng bằng Times New Roman thực.
+- **Bố cục thẻ biểu tượng + nhãn:** người dùng góp ý từ ô “Taxes”: những lần dựng sau cần căn giữa cả biểu tượng và chữ theo chiều ngang trong từng ô, giữ khoảng cách giữa hình/chữ và lề cân đối, đồng đều giữa các ô. Đây là yêu cầu áp dụng cho lần sau; chưa thay bố cục hay xuất lại video hiện tại chỉ từ góp ý này.
 - Dùng online, quản lý nhiều dự án qua một địa chỉ: https://tai23082004l02-svg.github.io/Credit_Studio/ . Không yêu cầu người dùng nhớ các URL công cụ riêng.
 
 ## Website và lưu dữ liệu
