@@ -19,12 +19,25 @@
     "Browser: gallery, PNG download, Studio image editing, silent storyboard, shared props and mobile",
     "Existing prop-library, replace-prop, project-workspaces browser suites passed",
     "10 engine, WebM and media-storage unit tests passed",
-    "Video 001 source, WAV, projects, MP4s and application source unchanged"
+    "Video 001 source, WAV, projects, MP4s and application source unchanged",
+    "R2 compatibility browser suite passed with mocked R2 and GitHub fallback for new assets; runtime manifest remains disabled"
   ],
   "pending": [
     "User artwork review",
     "Source narration WAV/MP3",
     "Final shot timing, entrance/middle/exit inspection with actual animation",
     "Final audio mix/loudness, subtitles, new MP4 review export"
-  ]
+  ],
+  "deployment": {
+    "artworkCommit": "3f3dbefb6ffa924c96ecd860933350dacd90a177",
+    "pagesRun": 39599766439,
+    "result": "success",
+    "verifiedOnline": [
+      "projects.json",
+      "videos/002-monthly-payment-trap/artwork.json",
+      "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "videos/002-monthly-payment-trap/images/scenes/03b.png"
+    ],
+    "verification": "HTTP 200 and SHA-256 identical to checked local files"
+  }
 }

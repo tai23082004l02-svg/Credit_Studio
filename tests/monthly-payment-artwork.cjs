@@ -2,6 +2,7 @@ const {chromium}=require('playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const base=process.env.CREDIT_STUDIO_URL||'http://127.0.0.1:8000';
 const folder='videos/002-monthly-payment-trap',art=JSON.parse(fs.readFileSync(folder+'/artwork.json'));
+const itemCount=JSON.parse(fs.readFileSync('library/props/catalog.json')).items.length;
 const scratch=path.resolve('work/monthly-payment-trap');fs.mkdirSync(scratch,{recursive:true});
 (async()=>{const browser=await chromium.launch();try{
  const page=await browser.newPage({viewport:{width:1440,height:1100},acceptDownloads:true}),errors=[];
@@ -48,7 +49,7 @@ const scratch=path.resolve('work/monthly-payment-trap');fs.mkdirSync(scratch,{re
  await page.locator('#tool-frame').evaluate(f=>{f.contentWindow.creditVideo.seek(93);});
  await page.goto(base+'/?project=finance-002&tab=images&scene=04b');await editor.locator('#add-text:not([disabled])').waitFor();assert.match(await editor.locator('#artboard').textContent(),/\$2,160/);
  assert.equal(await editor.locator('#artboard image').count(),2);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
- await page.goto(base+'/?view=props');await page.waitForFunction(()=>document.querySelectorAll('.prop-card').length===61);await page.fill('#prop-search','mpt');assert.equal(await page.locator('.prop-card').count(),30);await page.waitForFunction(()=>[...document.querySelectorAll('.prop-card canvas')].every(c=>c.getContext('2d').getImageData(0,0,c.width,c.height).data.some((v,i)=>i%4===3&&v>0)));
+ await page.goto(base+'/?view=props');await page.waitForFunction(n=>document.querySelectorAll('.prop-card').length===n,itemCount);await page.fill('#prop-search','mpt');assert.equal(await page.locator('.prop-card').count(),30);await page.waitForFunction(()=>[...document.querySelectorAll('.prop-card canvas')].every(c=>c.getContext('2d').getImageData(0,0,c.width,c.height).data.some((v,i)=>i%4===3&&v>0)));
  // Contact sheet for human inspection, using actual exported 1920x1080 boards.
  fs.writeFileSync(path.join(scratch,'contact.html'),'<!doctype html><html><head><meta charset="utf-8"><title>Artwork contact sheet</title></head><body></body></html>');
  await page.setViewportSize({width:1920,height:1200});await page.goto(base+'/work/monthly-payment-trap/contact.html');
