@@ -34,6 +34,14 @@ Danh mục: `library/props/catalog.json`. Ảnh hiện có được tham chiếu
 
 Đã kiểm tra: 8 unit test, `tests/prop-library.cjs`, `tests/project-workspaces.cjs`, `tests/video-editor.cjs` đều qua. Kiểm tra kho bao gồm 27 vùng cắt hiện đúng, tìm không dấu/lọc nhóm, PNG tải đúng kích thước, thêm vào đúng cảnh và mở đúng cảnh đó, reload giữ lớp mới, không đổi cảnh khác/audio, thêm PNG mới từ đường dẫn library/props, từ chối nguồn/vùng cắt lỗi, mobile và công cụ lập danh mục giữ ID khi chạy lại.
 
+### Thay đạo cụ ngay trong trình dựng
+
+Chọn lớp ảnh rồi **Chỉnh phần tử → Thay đạo cụ** để mở hộp chọn ngay trong trình dựng. Có tìm nhiều từ/không dấu, lọc nhóm (gồm Nhân vật), hình và tên căn giữa. Chọn mẫu thay toàn bộ lớp ảnh đó, giữ ID lớp, thứ tự lớp, x/y/w/h, enter/effect/opacity/drift, thời lượng cảnh và audio. Ảnh mới giữ đúng tỉ lệ trong khung cũ, không kéo méo. Ảnh tổng thể chỉ thay được toàn bộ lớp, không tự tách vật thể bên trong.
+
+`replaceProp` trong `assets/js/prop-library.js` tạo tham chiếu tài nguyên riêng cho lớp mới; giữ tài nguyên cũ nếu còn cảnh/lớp khác dùng, thu hồi tham chiếu không dùng để tránh tăng mãi. Trình dựng tải ảnh trước khi thay, dùng lịch sử Hoàn tác/Làm lại và lưu dự án hiện tại; không sửa JSON/MP4 xuất bản gốc. Hủy hoặc lỗi tải danh mục giữ bản đang chỉnh. Phím tắt trình dựng không tác động cảnh khi hộp chọn mở.
+
+Kiểm tra: `tests/replace-prop.cjs` qua — thay nhân vật/đạo cụ, giữ hình học/chuyển động/audio/cảnh khác và tham chiếu dùng chung, undo/redo/reload, hủy/lỗi danh mục, mobile, thay nhiều lần không tăng tài nguyên thừa. 8 unit test engine/WebM cũng qua.
+
 ## Video đầu tiên: trạng thái thực tế
 
 Tên: **Why You Feel Broke on a $100,000 Salary**.

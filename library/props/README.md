@@ -11,6 +11,8 @@ Kho dành cho nhân vật, nhà, xe, tiền, hóa đơn, đồ ăn và các vậ
 3. Commit lên `main`, rồi báo trợ lý cập nhật kho. Upload trên GitHub chưa tự đăng ký tệp vào danh mục.
 4. Trợ lý chạy `python3 tools/index-props.py`, bổ sung tên tiếng Việt, nhóm và từ khóa trong `catalog.json`, kiểm tra hình rồi commit/push. GitHub Pages sẽ cập nhật kho.
 
+Để thay một đạo cụ/nhân vật đang có, mở **Dựng video**, chọn lớp ảnh, bấm **Thay đạo cụ** rồi chọn mẫu trong kho. Giữ nguyên vị trí, khung kích thước và hiệu ứng của lớp; hoàn tác/làm lại được. Lớp dùng chung ở cảnh khác không bị thay theo.
+
 Trong Studio, bấm **Kho đạo cụ**, tìm theo tên/từ khóa, chọn dự án video và cảnh rồi **Thêm vào cảnh**. Một lớp đạo cụ riêng được đặt giữa khung; chỉnh vị trí/kích thước trong trình dựng. **Tải PNG** tải riêng đạo cụ ở độ phân giải vùng ảnh gốc, giữ nền trong suốt nếu ảnh nguồn có.
 
 Kho đã xuất bản trên GitHub có thể xem ở mọi máy. Việc thêm đạo cụ vào bản đang dựng vẫn lưu trong trình duyệt; dùng **Sao lưu dự án** để bàn giao các chỉnh sửa. Không có đồng bộ dự án online hay kết nối R2 trong thay đổi này. Tài nguyên ở repo công khai có thể được xem/tải công khai.

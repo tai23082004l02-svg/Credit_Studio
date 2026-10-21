@@ -12,3 +12,11 @@ export async function propPNG(p){const {img,crop}=await propImage(p),canvas=docu
 export async function insertProp(project,p,index){validate(project);validateProp(p);if(!Number.isInteger(index)||!project.clips[index])throw Error('Hãy chọn cảnh cần thêm đạo cụ.');const {crop}=await propImage(p),key='prop-'+crypto.randomUUID(),scale=Math.min(560/crop[2],560/crop[3]);const next=structuredClone(project),w=crop[2]*scale,h=crop[3]*scale;
  next.assets[key]={src:p.src,label:p.name,...(p.crop?{crop:[...p.crop]}:{})};next.clips[index].layers.push({id:key,type:'image',asset:key,x:(1920-w)/2,y:(1080-h)/2,w,h,enter:0,effect:'pop',opacity:1,drift:0});return validate(next);
 }
+export function replaceProp(project,p,clipID,layerID){
+ validate(project);validateProp(p);const next=structuredClone(project),clip=next.clips.find(c=>c.id===clipID),layer=clip?.layers.find(l=>l.id===layerID);
+ if(!layer||layer.type!=='image')throw Error('Hãy chọn lớp ảnh cần thay.');
+ const previous=layer.asset,key='prop-'+crypto.randomUUID();
+ next.assets[key]={src:p.src,label:p.name,...(p.crop?{crop:[...p.crop]}:{})};layer.asset=key;
+ if(!next.clips.some(c=>c.layers.some(l=>l.type==='image'&&l.asset===previous)))delete next.assets[previous];
+ return validate(next);
+}
