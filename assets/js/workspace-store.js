@@ -3,6 +3,12 @@ import {initStorage,mediaURL} from './media-storage.js?v=r2-v1';
 export const APP_ROOT=new URL('../../',import.meta.url);
 export const FINANCE_ID='finance-001';
 export const LEGACY_DESIGN_ID='legacy-design';
+// Only known published predecessors are automatically archived and replaced.
+// Restored copies and edits to a current review never match these rules.
+export function canUpgradePublishedVideo(id,from,to){
+ const rule=id===FINANCE_ID?['intro-v01','full-review-v01']:id==='finance-002'?['artwork-board-v01','monthly-payment-review-v01']:null;
+ return !!rule&&from===rule[0]&&(arguments.length<3||to===rule[1]);
+}
 let opening,catalogPromise;
 const validID=id=>typeof id==='string'&&/^[a-zA-Z0-9_-]{1,80}$/.test(id);
 export function requireID(id){if(!validID(id))throw Error('Mã dự án không hợp lệ.');return id;}

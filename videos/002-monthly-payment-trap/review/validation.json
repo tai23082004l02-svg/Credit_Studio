@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-10-21",
+  "stage": "full review v01, pending user approval",
+  "timelineSeconds": 495.475,
+  "formatSeconds": 495.475,
+  "frames": 14864,
+  "bytes": 36273109,
+  "codecs": {
+    "video": "h264",
+    "audio": "aac"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "decodedWithoutErrors": true,
+  "layout": {
+    "clips": 79,
+    "duration": 495.47499999999997,
+    "checkedFrames": 237,
+    "maxCaptionLines": 1,
+    "assets": 39
+  },
+  "sourceAudioComparison": [
+    {
+      "seconds": 10,
+      "sourceWholeSnippetCorrelation": 0.998058,
+      "source50msMedianCorrelation": 0.999963,
+      "derivedMP3Correlation": 0.999569,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 200,
+      "sourceWholeSnippetCorrelation": 0.960404,
+      "source50msMedianCorrelation": 0.999893,
+      "derivedMP3Correlation": 0.991245,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 480,
+      "sourceWholeSnippetCorrelation": 0.961871,
+      "source50msMedianCorrelation": 0.999972,
+      "derivedMP3Correlation": 0.995587,
+      "timeLagSamplesAt16kHz": 0
+    }
+  ],
+  "finalAudioLoudness": {
+    "integratedLUFS": -16.75,
+    "truePeakDBTP": -1.22,
+    "loudnessRangeLU": 2.4
+  },
+  "sourceWAVPreserved": true,
+  "browserSuites": [
+    "monthly-payment-review: 79 clips, 237 entrance/middle/exit frame checks; image/text separation; caption space",
+    "monthly-payment-upgrade: old board archive/download/backup; edit persistence; audio seeks/playback; mobile",
+    "monthly-payment-artwork: original 16 designs, 3 atlases, 30 PNGs still usable",
+    "project-workspaces: project isolation, old intro archive, backups and restoration"
+  ],
+  "unitTests": "10 passed (engine, WebM, media storage)",
+  "font": "TimesNewRomanPS-BoldMT verified through Chrome platform fonts",
+  "notes": [
+    "MP4 uses the same canvas renderer as Studio",
+    "Video frames round to 30fps; narration/timeline remain 495.475 seconds",
+    "Original 96-second storyboard and 16 artwork projects preserved",
+    "Audio normalization changes gain over time; source comparison uses short-window correlations and zero-lag checks",
+    "No music or joint-rig animation",
+    "Captions available in Studio, disabled in default MP4",
+    "Word alignment is automatic and can have word-level timing error"
+  ],
+  "pending": [
+    "User review and timecoded notes",
+    "Receive browser backup before continuing any user-only edits"
+  ]
+}

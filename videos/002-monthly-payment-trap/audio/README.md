@@ -1,5 +1,5 @@
 # Giọng đọc video 002
 
-Chưa nhận audio. Tạo giọng đọc từ phần tiếng Anh trong `../script.md`, bỏ qua tiêu đề và hướng dẫn tiếng Việt. Tải WAV/MP3 vào đây và giữ bản gốc. Không dùng âm thanh của video 001 cho video này.
+Đã nhận `monthly-payment-trap-voiceover.wav`: PCM 16-bit, mono 24 kHz, **495,475 giây**. Giữ nguyên tệp gốc, không cắt hoặc ghi đè.
 
-Sau khi có audio mới chốt thời lượng, chia thêm các shot, căn chuyển động, phụ đề và xuất bản duyệt. `../storyboard/project.json` hiện chỉ là bảng hình 16 cảnh, mỗi cảnh tạm 6 giây, không phải video đã căn lời đọc.
+Bản dựng đầy đủ: `../review/project.json`, 79 cảnh; MP4: `../exports/full-review-v01.mp4`. Audio dùng trong Studio là MP3 dẫn xuất `../review/voiceover.mp3`, nâng âm lượng bằng loudnorm, không đổi tốc độ hoặc bỏ nội dung. Bảng hình `../storyboard/project.json` vẫn là bản tĩnh 96 giây cũ, không phải video theo audio.

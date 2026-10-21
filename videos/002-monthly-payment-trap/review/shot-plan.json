@@ -1,0 +1,1454 @@
+[
+  {
+    "section": 1,
+    "anchor": "You didn’t buy anything",
+    "title": "Cảm giác vẫn mua trong khả năng",
+    "mode": "hero",
+    "headline": "IT FELT AFFORDABLE.",
+    "start": 0,
+    "message": "SO WHY SO LITTLE LEFT?",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-empty-wallet",
+    "detail": "One manageable payment at a time.",
+    "end": 5.42,
+    "clipId": "mpt-review-001"
+  },
+  {
+    "section": 1,
+    "anchor": "The phone was only",
+    "title": "Điện thoại chỉ thêm một chút",
+    "mode": "hero",
+    "headline": "JUST A LITTLE MORE EACH MONTH.",
+    "start": 5.42,
+    "message": "THE PHONE",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-new-phone",
+    "detail": "",
+    "end": 8.46,
+    "clipId": "mpt-review-002"
+  },
+  {
+    "section": 1,
+    "anchor": "The car payment fit",
+    "title": "Khoản trả xe vừa ngân sách",
+    "mode": "hero",
+    "headline": "IT FIT THE BUDGET.",
+    "start": 8.46,
+    "message": "THE CAR PAYMENT",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-compact-car",
+    "detail": "",
+    "end": 10.04,
+    "clipId": "mpt-review-003"
+  },
+  {
+    "section": 1,
+    "anchor": "And those four easy payments?",
+    "title": "Bốn khoản trả nghe rất nhẹ",
+    "mode": "cards",
+    "headline": "FOUR EASY PAYMENTS?",
+    "start": 10.04,
+    "items": [
+      {
+        "icon": "mpt-parcel",
+        "label": "A SMALLER PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "STILL A PURCHASE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 15.5,
+    "clipId": "mpt-review-004"
+  },
+  {
+    "section": 1,
+    "anchor": "So why does payday arrive",
+    "title": "Câu hỏi về ngày lương",
+    "mode": "hero",
+    "headline": "PAYDAY ARRIVES.\nWHAT CAN YOU ACTUALLY USE?",
+    "start": 15.5,
+    "message": "WHERE DID IT GO?",
+    "pose": "mpt-alex-receipt",
+    "prop": "mpt-empty-wallet",
+    "detail": "",
+    "end": 20.02,
+    "clipId": "mpt-review-005"
+  },
+  {
+    "section": 1,
+    "anchor": "Meet Alex.",
+    "title": "Alex nhận lương",
+    "mode": "hero",
+    "headline": "MEET ALEX.",
+    "start": 20.02,
+    "message": "PAYCHECK RECEIVED",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-pay-envelope",
+    "detail": "",
+    "end": 26.76,
+    "clipId": "mpt-review-006"
+  },
+  {
+    "section": 1,
+    "anchor": "Then the automatic payments start.",
+    "title": "Các khoản tự động lấy tiền",
+    "mode": "art",
+    "headline": "THEN THE PAYMENTS START.",
+    "start": 26.76,
+    "art": "art-01a",
+    "detail": "",
+    "end": 35.86,
+    "clipId": "mpt-review-007"
+  },
+  {
+    "section": 1,
+    "anchor": "Alex hasn’t gone on a shopping spree.",
+    "title": "Các quyết định nhỏ cộng dồn",
+    "mode": "cards",
+    "headline": "NO SHOPPING SPREE.\nJUST A SERIES OF COMMITMENTS.",
+    "start": 35.86,
+    "items": [
+      {
+        "icon": "mpt-new-phone",
+        "label": "ONE PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-compact-car",
+        "label": "ANOTHER PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-parcel",
+        "label": "AND ANOTHER",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 43.02,
+    "clipId": "mpt-review-008"
+  },
+  {
+    "section": 1,
+    "anchor": "And that’s the monthly payment trap.",
+    "title": "Bẫy trả tiền hằng tháng",
+    "mode": "hero",
+    "headline": "THE MONTHLY PAYMENT TRAP.",
+    "start": 43.02,
+    "message": "YOUR FUTURE INCOME",
+    "pose": "mpt-alex-receipt",
+    "prop": "mpt-padlock",
+    "detail": "",
+    "end": 45.76,
+    "clipId": "mpt-review-009"
+  },
+  {
+    "section": 2,
+    "anchor": "Alex needs a new phone.",
+    "title": "Điện thoại cũ cần thay",
+    "mode": "hero",
+    "headline": "A REPLACEMENT MAKES SENSE.",
+    "start": 45.76,
+    "message": "A CRACKED SCREEN.\nA WEAK BATTERY.",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-old-phone",
+    "detail": "",
+    "end": 53.64,
+    "clipId": "mpt-review-010"
+  },
+  {
+    "section": 2,
+    "anchor": "At checkout, there are two ways",
+    "title": "Hai cách nhìn cùng điện thoại",
+    "mode": "art",
+    "headline": "ONE PHONE. TWO PRICE FRAMES.",
+    "start": 53.64,
+    "art": "art-02a",
+    "detail": "",
+    "end": 57.1,
+    "clipId": "mpt-review-011"
+  },
+  {
+    "section": 2,
+    "anchor": "Nine hundred dollars today.",
+    "title": "Giá mua ngay",
+    "mode": "math",
+    "headline": "PAY TODAY.",
+    "start": 57.1,
+    "equation": "$900",
+    "detail": "The full purchase price.",
+    "icon": "mpt-new-phone",
+    "end": 59.82,
+    "clipId": "mpt-review-012"
+  },
+  {
+    "section": 2,
+    "anchor": "Or thirty-seven dollars",
+    "title": "Khoản trả mỗi tháng",
+    "mode": "math",
+    "headline": "PAY OVER TWO YEARS.",
+    "start": 59.82,
+    "equation": "$37.50 / month",
+    "detail": "24 monthly payments.",
+    "icon": "mpt-new-phone",
+    "end": 64.62,
+    "clipId": "mpt-review-013"
+  },
+  {
+    "section": 2,
+    "anchor": "Same price, assuming no interest or fees.",
+    "title": "Cùng tổng tiền nếu không lãi phí",
+    "mode": "cards",
+    "headline": "SAME PRICE.\nVERY DIFFERENT FEELING.",
+    "start": 64.62,
+    "items": [
+      {
+        "icon": "mpt-new-phone",
+        "label": "PAY TODAY",
+        "value": "$900",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-new-phone",
+        "label": "24 MONTHS",
+        "value": "$37.50 / month",
+        "detail": "$37.50 × 24 = $900",
+        "reveal": null
+      }
+    ],
+    "note": "Assumes no interest or fees · Hypothetical example",
+    "end": 69.385,
+    "clipId": "mpt-review-014"
+  },
+  {
+    "section": 2,
+    "anchor": "Nine hundred dollars makes Alex",
+    "title": "Cảm giác của con số nhỏ",
+    "mode": "hero",
+    "headline": "THE SMALLER NUMBER FEELS EASIER.",
+    "start": 69.385,
+    "message": "THE BUDGET CAN ABSORB IT?",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "end": 78.42,
+    "clipId": "mpt-review-015"
+  },
+  {
+    "section": 2,
+    "anchor": "Then come the questions.",
+    "title": "Những lần nâng cấp",
+    "mode": "cards",
+    "headline": "MORE STORAGE?\nA BETTER CAMERA?",
+    "start": 78.42,
+    "items": [
+      {
+        "icon": "mpt-new-phone",
+        "label": "THE BASE MODEL",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-new-phone",
+        "label": "THE UPGRADE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 85.18,
+    "clipId": "mpt-review-016"
+  },
+  {
+    "section": 2,
+    "anchor": "When the difference gets divided",
+    "title": "Chia nhỏ chi phí nâng cấp",
+    "mode": "math",
+    "headline": "THE UPGRADE STARTS LOOKING SMALL.",
+    "start": 85.18,
+    "equation": "EXTRA COST ÷ 24",
+    "detail": "Still part of the full purchase price.",
+    "icon": "mpt-comparison-cards",
+    "end": 93.68,
+    "clipId": "mpt-review-017"
+  },
+  {
+    "section": 2,
+    "anchor": "Instead of asking,",
+    "title": "Câu hỏi về tổng giá",
+    "mode": "hero",
+    "headline": "“HOW MUCH DO I WANT\nTO SPEND ON A PHONE?”",
+    "start": 93.68,
+    "message": "THE FULL PRICE",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-new-phone",
+    "detail": "",
+    "end": 97.72,
+    "clipId": "mpt-review-018"
+  },
+  {
+    "section": 2,
+    "anchor": "Alex starts asking,",
+    "title": "Câu hỏi chuyển sang hằng tháng",
+    "mode": "hero",
+    "headline": "“HOW MUCH MORE\nCAN I HANDLE EACH MONTH?”",
+    "start": 97.72,
+    "message": "THE MONTHLY PAYMENT",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-calendar",
+    "detail": "",
+    "end": 102.22,
+    "clipId": "mpt-review-019"
+  },
+  {
+    "section": 2,
+    "anchor": "And that second question",
+    "title": "Quyết định mua trở nên dễ hơn",
+    "mode": "art",
+    "headline": "AN EXPENSIVE PURCHASE.\nAN EASIER-LOOKING DECISION.",
+    "start": 102.22,
+    "art": "art-02a",
+    "detail": "",
+    "end": 107.14,
+    "clipId": "mpt-review-020"
+  },
+  {
+    "section": 3,
+    "anchor": "Now look at the rest",
+    "title": "Nhìn toàn bộ tháng",
+    "mode": "art",
+    "headline": "NOW LOOK AT THE WHOLE MONTH.",
+    "start": 107.14,
+    "art": "art-03a",
+    "detail": "",
+    "end": 111.46,
+    "clipId": "mpt-review-021"
+  },
+  {
+    "section": 3,
+    "anchor": "A car payment:",
+    "title": "Khoản trả xe",
+    "mode": "math",
+    "headline": "THE CAR PAYMENT.",
+    "start": 111.46,
+    "equation": "$525",
+    "detail": "Due each month in this example.",
+    "icon": "mpt-compact-car",
+    "end": 114.72,
+    "clipId": "mpt-review-022"
+  },
+  {
+    "section": 3,
+    "anchor": "The phone installment:",
+    "title": "Khoản trả điện thoại",
+    "mode": "math",
+    "headline": "THE PHONE INSTALLMENT.",
+    "start": 114.72,
+    "equation": "$37.50",
+    "detail": "Due each month in this example.",
+    "icon": "mpt-new-phone",
+    "end": 118.22,
+    "clipId": "mpt-review-023"
+  },
+  {
+    "section": 3,
+    "anchor": "A furniture payment:",
+    "title": "Khoản trả nội thất",
+    "mode": "math",
+    "headline": "THE FURNITURE PAYMENT.",
+    "start": 118.22,
+    "equation": "$90",
+    "detail": "Due each month in this example.",
+    "icon": "mpt-sofa",
+    "end": 120.92,
+    "clipId": "mpt-review-024"
+  },
+  {
+    "section": 3,
+    "anchor": "Several buy-now-pay-later purchases,",
+    "title": "Tổng kỳ BNPL đến hạn",
+    "mode": "math",
+    "headline": "BUY NOW. PAY LATER.",
+    "start": 120.92,
+    "equation": "$120",
+    "detail": "Installments due THIS month.",
+    "icon": "mpt-parcel",
+    "end": 128.22,
+    "clipId": "mpt-review-025"
+  },
+  {
+    "section": 3,
+    "anchor": "And forty-five dollars in subscriptions.",
+    "title": "Đăng ký dịch vụ",
+    "mode": "math",
+    "headline": "THE SUBSCRIPTIONS.",
+    "start": 128.22,
+    "equation": "$45",
+    "detail": "Recurring services in this example.",
+    "icon": "mpt-streaming",
+    "end": 131.24,
+    "clipId": "mpt-review-026"
+  },
+  {
+    "section": 3,
+    "anchor": "That adds up to",
+    "title": "Tổng cam kết trong tháng",
+    "mode": "math",
+    "headline": "TOGETHER, THEY ADD UP.",
+    "start": 131.24,
+    "equation": "$817.50",
+    "detail": "525 + 37.50 + 90 + 120 + 45",
+    "icon": "mpt-receipt",
+    "end": 134.94,
+    "clipId": "mpt-review-027"
+  },
+  {
+    "section": 3,
+    "anchor": "Before rent.",
+    "title": "Chưa tính sinh hoạt thiết yếu",
+    "mode": "cards",
+    "headline": "BEFORE THE REST OF LIFE.",
+    "start": 134.94,
+    "items": [
+      {
+        "icon": "home",
+        "label": "RENT",
+        "value": "",
+        "detail": "",
+        "reveal": "Before rent."
+      },
+      {
+        "icon": "groceries",
+        "label": "GROCERIES",
+        "value": "",
+        "detail": "",
+        "reveal": "Before groceries."
+      },
+      {
+        "icon": "mpt-compact-car",
+        "label": "UTILITIES, INSURANCE\nAND GAS",
+        "value": "",
+        "detail": "",
+        "reveal": "Before utilities,"
+      }
+    ],
+    "note": "",
+    "end": 144.18,
+    "clipId": "mpt-review-028"
+  },
+  {
+    "section": 3,
+    "anchor": "These payments aren’t all the same.",
+    "title": "Các nghĩa vụ khác nhau",
+    "mode": "cards",
+    "headline": "SAME CASH FLOW.\nDIFFERENT OBLIGATIONS.",
+    "start": 144.18,
+    "items": [
+      {
+        "icon": "mpt-streaming",
+        "label": "SUBSCRIPTIONS",
+        "value": "Often cancelable",
+        "detail": "",
+        "reveal": "A subscription can often"
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "LOAN BALANCES",
+        "value": "Still owed",
+        "detail": "",
+        "reveal": "A loan balance still"
+      },
+      {
+        "icon": "mpt-receipt",
+        "label": "INSTALLMENT PLANS",
+        "value": "Check interest",
+        "detail": "",
+        "reveal": "Some installment plans"
+      }
+    ],
+    "note": "",
+    "end": 156.24,
+    "clipId": "mpt-review-029"
+  },
+  {
+    "section": 3,
+    "anchor": "But every one of them",
+    "title": "Tất cả đều chiếm chỗ trong dòng tiền",
+    "mode": "hero",
+    "headline": "EVERY PAYMENT NEEDS SPACE.",
+    "start": 156.24,
+    "message": "IN THE SAME CASH FLOW",
+    "pose": "mpt-alex-receipt",
+    "prop": "mpt-pay-envelope",
+    "detail": "",
+    "end": 161.04,
+    "clipId": "mpt-review-030"
+  },
+  {
+    "section": 3,
+    "anchor": "And they didn’t arrive together.",
+    "title": "Các khoản được thêm ở những thời điểm khác",
+    "mode": "cards",
+    "headline": "SEPARATE DECISIONS.\nONE SHARED MONTH.",
+    "start": 161.04,
+    "items": [
+      {
+        "icon": "mpt-compact-car",
+        "label": "THE CAR CAME FIRST",
+        "value": "",
+        "detail": "",
+        "reveal": "The car came first."
+      },
+      {
+        "icon": "mpt-new-phone",
+        "label": "SIX MONTHS LATER",
+        "value": "",
+        "detail": "",
+        "reveal": "The phone came six months"
+      },
+      {
+        "icon": "mpt-sofa",
+        "label": "AFTER A MOVE",
+        "value": "",
+        "detail": "",
+        "reveal": "The furniture showed up"
+      }
+    ],
+    "note": "",
+    "end": 171.12,
+    "clipId": "mpt-review-031"
+  },
+  {
+    "section": 3,
+    "anchor": "Each decision was made",
+    "title": "Chỉ nhìn khoản trả trước mắt",
+    "mode": "hero",
+    "headline": "ONE PAYMENT IN FRONT OF YOU.",
+    "start": 171.12,
+    "message": "THE REST IS STILL THERE.",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-bank-card",
+    "detail": "",
+    "end": 176.18,
+    "clipId": "mpt-review-032"
+  },
+  {
+    "section": 3,
+    "anchor": "Now all those decisions",
+    "title": "Các quyết định gặp nhau trên lịch",
+    "mode": "art",
+    "headline": "ALL ON THE SAME CALENDAR.",
+    "start": 176.18,
+    "art": "art-03a",
+    "detail": "",
+    "end": 180.44,
+    "clipId": "mpt-review-033"
+  },
+  {
+    "section": 4,
+    "anchor": "This gets especially important",
+    "title": "Nhìn ra ngoài khoản trả tháng",
+    "mode": "hero",
+    "headline": "LOOK PAST THE MONTHLY NUMBER.",
+    "start": 180.44,
+    "message": "WHEN BORROWING IS INVOLVED",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-receipt",
+    "detail": "",
+    "end": 184.44,
+    "clipId": "mpt-review-034"
+  },
+  {
+    "section": 4,
+    "anchor": "Imagine Alex is comparing",
+    "title": "Giá mua minh họa",
+    "mode": "math",
+    "headline": "A HYPOTHETICAL PURCHASE.",
+    "start": 184.44,
+    "equation": "$1,800",
+    "detail": "Compare the full financing arrangement.",
+    "icon": "mpt-comparison-cards",
+    "end": 192.44,
+    "clipId": "mpt-review-035"
+  },
+  {
+    "section": 4,
+    "anchor": "One option is seventy-five",
+    "title": "Lựa chọn 24 tháng",
+    "mode": "math",
+    "headline": "OPTION ONE.",
+    "start": 192.44,
+    "equation": "$75 × 24 = $1,800",
+    "detail": "24 months · Total payments: $1,800",
+    "icon": "mpt-calendar",
+    "end": 201.2,
+    "clipId": "mpt-review-036"
+  },
+  {
+    "section": 4,
+    "anchor": "Another is sixty dollars",
+    "title": "Lựa chọn 36 tháng",
+    "mode": "math",
+    "headline": "OPTION TWO.",
+    "start": 201.2,
+    "equation": "$60 × 36 = $2,160",
+    "detail": "36 months · Total payments: $2,160",
+    "icon": "mpt-calendar",
+    "end": 209.32,
+    "clipId": "mpt-review-037"
+  },
+  {
+    "section": 4,
+    "anchor": "The second option frees up",
+    "title": "Thấp hơn mỗi tháng, cao hơn tổng tiền",
+    "mode": "cards",
+    "headline": "A SMALLER PAYMENT.\nA BIGGER TOTAL.",
+    "start": 209.32,
+    "items": [
+      {
+        "icon": "mpt-coins",
+        "label": "EACH MONTH",
+        "value": "$15 LESS",
+        "detail": "",
+        "reveal": "The second option frees up"
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "OVERALL",
+        "value": "$360 MORE",
+        "detail": "And another year.",
+        "reveal": "But Alex pays three hundred"
+      }
+    ],
+    "note": "Simplified hypothetical financing · Not an actual offer",
+    "end": 220.6,
+    "clipId": "mpt-review-038"
+  },
+  {
+    "section": 4,
+    "anchor": "These are simplified examples,",
+    "title": "Điều khoản thực tế khác nhau",
+    "mode": "cards",
+    "headline": "REAL FINANCING DEPENDS ON…",
+    "start": 220.6,
+    "items": [
+      {
+        "icon": "mpt-bank-card",
+        "label": "THE RATE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-receipt",
+        "label": "THE FEES",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-clipboard",
+        "label": "THE CONTRACT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Examples illustrate the comparison; actual terms vary.",
+    "end": 233.14,
+    "clipId": "mpt-review-039"
+  },
+  {
+    "section": 4,
+    "anchor": "A smaller monthly payment can come",
+    "title": "Khoản trả nhỏ có nhiều nguyên nhân",
+    "mode": "art",
+    "headline": "A BETTER DEAL?\nOR A LONGER COMMITMENT?",
+    "start": 233.14,
+    "art": "art-04a",
+    "detail": "Calendar paths are visual metaphors, not a scale diagram.",
+    "end": 241.06,
+    "clipId": "mpt-review-040"
+  },
+  {
+    "section": 4,
+    "anchor": "You need the total cost",
+    "title": "Hai con số phải xem cùng nhau",
+    "mode": "cards",
+    "headline": "TOTAL COST + PAYOFF DATE.",
+    "start": 241.06,
+    "items": [
+      {
+        "icon": "mpt-calendar",
+        "label": "24 MONTHS",
+        "value": "$75 / month",
+        "detail": "Total: $1,800",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "36 MONTHS",
+        "value": "$60 / month",
+        "detail": "Total: $2,160",
+        "reveal": null
+      }
+    ],
+    "note": "Hypothetical financing · Read actual rates, fees and terms.",
+    "end": 245.48,
+    "clipId": "mpt-review-041"
+  },
+  {
+    "section": 4,
+    "anchor": "Otherwise, the easiest number",
+    "title": "Một con số không đủ quyết định",
+    "mode": "hero",
+    "headline": "ONE NUMBER\nISN’T THE WHOLE DEAL.",
+    "start": 245.48,
+    "message": "COMPARE THE COMMITMENT.",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "end": 251.4,
+    "clipId": "mpt-review-042"
+  },
+  {
+    "section": 5,
+    "anchor": "Then Alex needs a car repair.",
+    "title": "Phát sinh sửa xe",
+    "mode": "art",
+    "headline": "A REPAIR THAT CAN’T WAIT.",
+    "start": 251.4,
+    "art": "art-05a",
+    "detail": "",
+    "end": 256.44,
+    "clipId": "mpt-review-043"
+  },
+  {
+    "section": 5,
+    "anchor": "The problem isn’t just the repair itself.",
+    "title": "Vấn đề là tháng đã kín lịch",
+    "mode": "hero",
+    "headline": "THE MONTH ALREADY\nHAS APPOINTMENTS.",
+    "start": 256.44,
+    "message": "$600 REPAIR",
+    "pose": "mpt-alex-repair",
+    "prop": "mpt-wrench",
+    "detail": "",
+    "end": 262.8,
+    "clipId": "mpt-review-044"
+  },
+  {
+    "section": 5,
+    "anchor": "The car payment is due Tuesday.",
+    "title": "Lịch các khoản đến hạn",
+    "mode": "cards",
+    "headline": "THE DUE DATES KEEP COMING.",
+    "start": 262.8,
+    "items": [
+      {
+        "icon": "mpt-compact-car",
+        "label": "TUESDAY",
+        "value": "$525",
+        "detail": "",
+        "reveal": "The car payment is due Tuesday."
+      },
+      {
+        "icon": "mpt-sofa",
+        "label": "THURSDAY",
+        "value": "$90",
+        "detail": "",
+        "reveal": "The furniture payment comes out"
+      },
+      {
+        "icon": "mpt-parcel",
+        "label": "NEXT WEEK",
+        "value": "MORE DUE",
+        "detail": "",
+        "reveal": "Two installment purchases"
+      }
+    ],
+    "note": "Illustrative due dates from Alex’s story",
+    "end": 272.9,
+    "clipId": "mpt-review-045"
+  },
+  {
+    "section": 5,
+    "anchor": "Alex may earn enough",
+    "title": "Có đủ cả tháng nhưng thiếu đúng ngày",
+    "mode": "cards",
+    "headline": "THE TOTAL IS ONE QUESTION.\nTHE TIMING IS ANOTHER.",
+    "start": 272.9,
+    "items": [
+      {
+        "icon": "mpt-pay-envelope",
+        "label": "OVER THE MONTH",
+        "value": "ENOUGH?",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-clock",
+        "label": "ON THE RIGHT DAY",
+        "value": "AVAILABLE?",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 282.3,
+    "clipId": "mpt-review-046"
+  },
+  {
+    "section": 5,
+    "anchor": "And automatic payments don’t know",
+    "title": "Thanh toán tự động vẫn đến",
+    "mode": "hero",
+    "headline": "AUTO PAY\nDOESN’T KNOW ABOUT THE REPAIR.",
+    "start": 282.3,
+    "message": "THE MECHANIC NEEDED PAYING.",
+    "pose": "mpt-alex-repair",
+    "prop": "mpt-calendar",
+    "detail": "",
+    "end": 287.16,
+    "clipId": "mpt-review-047"
+  },
+  {
+    "section": 5,
+    "anchor": "Depending on the account",
+    "title": "Hậu quả có thể có khi hụt tiền",
+    "mode": "cards",
+    "headline": "WHAT A SHORTFALL CAN MEAN.",
+    "start": 287.16,
+    "items": [
+      {
+        "icon": "mpt-alert-bell",
+        "label": "AN OVERDRAFT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-receipt",
+        "label": "A LATE FEE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "ANOTHER CARD BILL",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Depends on the account, agreement and circumstances.",
+    "end": 297.98,
+    "clipId": "mpt-review-048"
+  },
+  {
+    "section": 5,
+    "anchor": "One unexpected expense can expose",
+    "title": "Một lần phát sinh bộc lộ khoảng trống",
+    "mode": "hero",
+    "headline": "ONE EXPENSE.\nVERY LITTLE FLEXIBILITY.",
+    "start": 297.98,
+    "message": "HOW MUCH ROOM WAS LEFT?",
+    "pose": "mpt-alex-repair",
+    "prop": "mpt-empty-wallet",
+    "detail": "",
+    "end": 304.26,
+    "clipId": "mpt-review-049"
+  },
+  {
+    "section": 5,
+    "anchor": "The payments were manageable.",
+    "title": "Khoản trả và cả tháng",
+    "mode": "cards",
+    "headline": "THE PAYMENTS WERE MANAGEABLE.\nTHE MONTH WASN’T.",
+    "start": 304.26,
+    "items": [
+      {
+        "icon": "mpt-bank-card",
+        "label": "EACH PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "THE WHOLE MONTH",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 307.96,
+    "clipId": "mpt-review-050"
+  },
+  {
+    "section": 6,
+    "anchor": "Paying over time can be useful.",
+    "title": "Trả dần có thể hữu ích",
+    "mode": "art",
+    "headline": "PAYMENTS CAN BE USEFUL.",
+    "start": 307.96,
+    "art": "art-06a",
+    "detail": "",
+    "end": 315.04,
+    "clipId": "mpt-review-051"
+  },
+  {
+    "section": 6,
+    "anchor": "A reliable car may be necessary",
+    "title": "Xe cần thiết để đi làm",
+    "mode": "hero",
+    "headline": "A RELIABLE CAR\nMAY BE NECESSARY FOR WORK.",
+    "start": 315.04,
+    "message": "A PRACTICAL NEED",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-compact-car",
+    "detail": "",
+    "end": 317.74,
+    "clipId": "mpt-review-052"
+  },
+  {
+    "section": 6,
+    "anchor": "An interest-free installment plan",
+    "title": "Khi kế hoạch không tăng giá mua",
+    "mode": "cards",
+    "headline": "PRESERVE CASH.\nCHECK THE TERMS.",
+    "start": 317.74,
+    "items": [
+      {
+        "icon": "mpt-savings-jar",
+        "label": "CASH AVAILABLE TODAY",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-refrigerator",
+        "label": "THE SAME PURCHASE PRICE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Only if there is no added cost and the payments fit.",
+    "end": 328.94,
+    "clipId": "mpt-review-053"
+  },
+  {
+    "section": 6,
+    "anchor": "The useful question is what",
+    "title": "Xem tác động lên tài chính",
+    "mode": "hero",
+    "headline": "WHAT DOES THIS ARRANGEMENT\nDO TO YOUR FINANCES?",
+    "start": 328.94,
+    "message": "LOOK AT THE WHOLE DEAL.",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-clipboard",
+    "detail": "",
+    "end": 333.66,
+    "clipId": "mpt-review-054"
+  },
+  {
+    "section": 6,
+    "anchor": "Would Alex still choose",
+    "title": "Có muốn mua ở giá đầy đủ không",
+    "mode": "hero",
+    "headline": "WOULD YOU STILL CHOOSE IT\nAT THE FULL PRICE?",
+    "start": 333.66,
+    "message": "THE FULL PRICE",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-bank-card",
+    "detail": "",
+    "end": 337.46,
+    "clipId": "mpt-review-055"
+  },
+  {
+    "section": 6,
+    "anchor": "Does financing add interest",
+    "title": "Kiểm tra lãi và phí",
+    "mode": "hero",
+    "headline": "DOES FINANCING\nADD INTEREST OR FEES?",
+    "start": 337.46,
+    "message": "THE TOTAL COST",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-receipt",
+    "detail": "",
+    "end": 341.38,
+    "clipId": "mpt-review-056"
+  },
+  {
+    "section": 6,
+    "anchor": "Will the payments still fit",
+    "title": "Tháng tốn kém hơn có trả được không",
+    "mode": "hero",
+    "headline": "WILL IT FIT\nA MORE EXPENSIVE MONTH?",
+    "start": 341.38,
+    "message": "THE LESS-PERFECT MONTH",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-calendar",
+    "detail": "",
+    "end": 344.38,
+    "clipId": "mpt-review-057"
+  },
+  {
+    "section": 6,
+    "anchor": "And will there be money left",
+    "title": "Còn tiền cho chuyện ngoài kế hoạch không",
+    "mode": "hero",
+    "headline": "WILL THERE BE MONEY LEFT\nFOR THE REST OF LIFE?",
+    "start": 344.38,
+    "message": "LEAVE SOME ROOM.",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 349.58,
+    "clipId": "mpt-review-058"
+  },
+  {
+    "section": 6,
+    "anchor": "Those questions leave room",
+    "title": "Ra quyết định với đủ thông tin",
+    "mode": "hero",
+    "headline": "PRACTICAL BORROWING.\nA CLEARER DECISION.",
+    "start": 349.58,
+    "message": "MORE THAN A MONTHLY NUMBER",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "end": 359.14,
+    "clipId": "mpt-review-059"
+  },
+  {
+    "section": 7,
+    "anchor": "So Alex tries something different.",
+    "title": "Alex lập một danh sách",
+    "mode": "art",
+    "headline": "BEFORE THE NEXT PURCHASE: ONE LIST.",
+    "start": 359.14,
+    "art": "art-07a",
+    "detail": "",
+    "end": 365.66,
+    "clipId": "mpt-review-060"
+  },
+  {
+    "section": 7,
+    "anchor": "Every installment.",
+    "title": "Liệt kê các nghĩa vụ",
+    "mode": "cards",
+    "headline": "PUT EVERY COMMITMENT ON THE LIST.",
+    "start": 365.66,
+    "items": [
+      {
+        "icon": "mpt-parcel",
+        "label": "INSTALLMENTS",
+        "value": "",
+        "detail": "",
+        "reveal": "Every installment."
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "MINIMUM DEBT PAYMENTS",
+        "value": "",
+        "detail": "",
+        "reveal": "Every minimum debt payment."
+      },
+      {
+        "icon": "mpt-streaming",
+        "label": "RECURRING SUBSCRIPTIONS",
+        "value": "",
+        "detail": "",
+        "reveal": "Every recurring subscription."
+      }
+    ],
+    "note": "",
+    "end": 370.92,
+    "clipId": "mpt-review-061"
+  },
+  {
+    "section": 7,
+    "anchor": "Next to each one:",
+    "title": "Những cột cần ghi",
+    "mode": "cards",
+    "headline": "RECORD THE DETAILS.",
+    "start": 370.92,
+    "items": [
+      {
+        "icon": "mpt-coins",
+        "label": "AMOUNT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-clock",
+        "label": "DUE DATE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-receipt",
+        "label": "REMAINING BALANCE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "PAYOFF DATE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Include balances and payoff dates where applicable.",
+    "end": 378.92,
+    "clipId": "mpt-review-062"
+  },
+  {
+    "section": 7,
+    "anchor": "For the first time, Alex",
+    "title": "Nhìn được cả tháng",
+    "mode": "art",
+    "headline": "THE WHOLE MONTH.\nIN ONE VIEW.",
+    "start": 378.92,
+    "art": "art-07a",
+    "detail": "",
+    "end": 382.28,
+    "clipId": "mpt-review-063"
+  },
+  {
+    "section": 7,
+    "anchor": "Then Alex looks at the next",
+    "title": "Nhìn cả những tháng sau",
+    "mode": "cards",
+    "headline": "HOW LONG WILL IT LAST?",
+    "start": 382.28,
+    "items": [
+      {
+        "icon": "mpt-parcel",
+        "label": "A SHORT-TERM PLAN",
+        "value": "MAY END SOON",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-compact-car",
+        "label": "A CAR LOAN",
+        "value": "MAY LAST YEARS",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 394.12,
+    "clipId": "mpt-review-064"
+  },
+  {
+    "section": 7,
+    "anchor": "Before adding another payment,",
+    "title": "Kiểm tra trước khoản trả mới",
+    "mode": "cards",
+    "headline": "BEFORE ADDING A PAYMENT…",
+    "start": 394.12,
+    "items": [
+      {
+        "icon": "mpt-bank-card",
+        "label": "FULL PURCHASE PRICE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-receipt",
+        "label": "TOTAL FINANCING COST",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "ESSENTIALS + SAVINGS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 405.0,
+    "clipId": "mpt-review-065"
+  },
+  {
+    "section": 7,
+    "anchor": "There’s also a little room",
+    "title": "Chừa chỗ cho tháng không hoàn hảo",
+    "mode": "hero",
+    "headline": "LEAVE ROOM\nFOR AN IMPERFECT MONTH.",
+    "start": 405.0,
+    "message": "A LITTLE FLEXIBILITY",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 413.18,
+    "clipId": "mpt-review-066"
+  },
+  {
+    "section": 7,
+    "anchor": "And when an old payment finally ends,",
+    "title": "Dừng trước khi thay khoản trả cũ",
+    "mode": "cards",
+    "headline": "A PAYMENT ENDS.\nPAUSE BEFORE REPLACING IT.",
+    "start": 413.18,
+    "items": [
+      {
+        "icon": "mpt-receipt",
+        "label": "THE OLD PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-broken-chain",
+        "label": "ROOM OPENS UP",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "KEEP SOME OF IT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 418.78,
+    "clipId": "mpt-review-067"
+  },
+  {
+    "section": 7,
+    "anchor": "For a while, that money goes",
+    "title": "Chuyển tiền sang quỹ đệm",
+    "mode": "hero",
+    "headline": "GIVE THAT MONEY\nTO YOUR CASH BUFFER.",
+    "start": 418.78,
+    "message": "KEEP THE ROOM.",
+    "pose": "mpt-alex-buffer",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 423.3,
+    "clipId": "mpt-review-068"
+  },
+  {
+    "section": 7,
+    "anchor": "The paycheck stays the same.",
+    "title": "Thu nhập như cũ, tiền tự do nhiều hơn",
+    "mode": "cards",
+    "headline": "SAME PAYCHECK.\nMORE AVAILABLE.",
+    "start": 423.3,
+    "items": [
+      {
+        "icon": "mpt-pay-envelope",
+        "label": "THE SAME INCOME",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-cash-tray",
+        "label": "MORE FLEXIBILITY",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 428.58,
+    "clipId": "mpt-review-069"
+  },
+  {
+    "section": 8,
+    "anchor": "There’s a reason monthly payments",
+    "title": "Vì sao con số nhỏ nghe dễ chịu",
+    "mode": "hero",
+    "headline": "ONE LARGE DECISION.\nA SMALLER-LOOKING COMMITMENT.",
+    "start": 428.58,
+    "message": "THE MONTHLY FRAME",
+    "pose": "mpt-alex-phone",
+    "prop": "mpt-new-phone",
+    "detail": "",
+    "end": 437.56,
+    "clipId": "mpt-review-070"
+  },
+  {
+    "section": 8,
+    "anchor": "Sometimes that commitment is useful.",
+    "title": "Cam kết có ích hoặc kéo dài",
+    "mode": "cards",
+    "headline": "SOMETIMES USEFUL.\nSOMETIMES LONG-LASTING.",
+    "start": 437.56,
+    "items": [
+      {
+        "icon": "mpt-refrigerator",
+        "label": "A USEFUL ARRANGEMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "AFTER THE EXCITEMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 446.36,
+    "clipId": "mpt-review-071"
+  },
+  {
+    "section": 8,
+    "anchor": "Alex doesn’t need to avoid",
+    "title": "Không phải từ chối mọi khoản vay",
+    "mode": "hero",
+    "headline": "NO NEED TO REJECT\nEVERY EXPENSIVE NECESSITY.",
+    "start": 446.36,
+    "message": "UNDERSTAND THE TRADE.",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-refrigerator",
+    "detail": "",
+    "end": 455.86,
+    "clipId": "mpt-review-072"
+  },
+  {
+    "section": 8,
+    "anchor": "Alex needs a clear view",
+    "title": "Nhìn rõ thu nhập tương lai đã cam kết",
+    "mode": "art",
+    "headline": "HOW MUCH FUTURE INCOME\nIS ALREADY SPOKEN FOR?",
+    "start": 455.86,
+    "art": "art-03a",
+    "detail": "",
+    "end": 461.56,
+    "clipId": "mpt-review-073"
+  },
+  {
+    "section": 8,
+    "anchor": "Because getting approved",
+    "title": "Được duyệt không nói hết ngân sách",
+    "mode": "cards",
+    "headline": "APPROVED?\nHOW WILL IT FIT YOUR LIFE?",
+    "start": 461.56,
+    "items": [
+      {
+        "icon": "mpt-bank-card",
+        "label": "WHAT A LENDER WILL OFFER",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "EVERYTHING ELSE YOU PAY",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "end": 472.26,
+    "clipId": "mpt-review-074"
+  },
+  {
+    "section": 8,
+    "anchor": "Before the next “only forty-nine",
+    "title": "Nhìn những tháng của khoản trả mới",
+    "mode": "hero",
+    "headline": "BEFORE “ONLY $49 A MONTH”…",
+    "start": 472.26,
+    "message": "LOOK AT THE MONTHS.",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-calendar",
+    "detail": "",
+    "end": 479.24,
+    "clipId": "mpt-review-075"
+  },
+  {
+    "section": 8,
+    "anchor": "What will you pay in total?",
+    "title": "Câu hỏi về tổng chi phí",
+    "mode": "math",
+    "headline": "WHAT WILL YOU PAY IN TOTAL?",
+    "start": 479.24,
+    "equation": "THE FULL COST",
+    "detail": "Not just the next payment.",
+    "icon": "mpt-cash-stack",
+    "end": 481.36,
+    "clipId": "mpt-review-076"
+  },
+  {
+    "section": 8,
+    "anchor": "What else will need that money?",
+    "title": "Câu hỏi về những nhu cầu khác",
+    "mode": "hero",
+    "headline": "WHAT ELSE\nWILL NEED THAT MONEY?",
+    "start": 481.36,
+    "message": "YOUR OTHER PRIORITIES",
+    "pose": "mpt-alex-plan",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "end": 483.46,
+    "clipId": "mpt-review-077"
+  },
+  {
+    "section": 8,
+    "anchor": "And when the payment is finally gone,",
+    "title": "Câu hỏi về giá trị đánh đổi",
+    "mode": "hero",
+    "headline": "WHEN THE PAYMENT IS GONE,\nWILL THE TRADE FEEL WORTH IT?",
+    "start": 483.46,
+    "message": "THINK BEYOND CHECKOUT.",
+    "pose": "mpt-alex-compare",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "end": 488.78,
+    "clipId": "mpt-review-078"
+  },
+  {
+    "section": 8,
+    "anchor": "The goal is to leave enough",
+    "title": "Giữ chỗ cho cuộc sống",
+    "mode": "art",
+    "headline": "LEAVE ROOM\nFOR LIFE BETWEEN PURCHASES.",
+    "start": 488.78,
+    "art": "art-08a",
+    "detail": "",
+    "end": 495.475,
+    "clipId": "mpt-review-079"
+  }
+]

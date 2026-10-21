@@ -1,6 +1,6 @@
 # Phân cảnh hình — Video 002
 
-16 bố cục chính cho 8 phần lời thoại. Chưa có audio, không gán timecode thật; bảng trong trình dựng dùng 6 giây/cảnh để duyệt hình. Sẽ chia thêm shot và căn các lớp khi nhận WAV.
+16 bố cục hình gốc cho 8 phần lời thoại, được giữ để tham khảo. Đã dựng thành **79 shot / 495,475 giây** theo WAV: [xem timecode bản đầy đủ](review/README.md). `storyboard/project.json` vẫn là bảng hình 96 giây cũ; bản hiện tại nằm ở `review/project.json`.
 
 | Cảnh | Ý chính | Câu bắt đầu | PNG hoàn chỉnh | JSON sửa chữ/lớp |
 |---|---|---|---|---|

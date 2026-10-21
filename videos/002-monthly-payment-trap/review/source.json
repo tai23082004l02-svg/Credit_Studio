@@ -1,0 +1,23 @@
+{
+  "source": "videos/002-monthly-payment-trap/audio/monthly-payment-trap-voiceover.wav",
+  "sha256": "d824b5830079a818da3c2c46a37dc377fac9de2baf70ee91c871546b2637b65e",
+  "duration": 495.475,
+  "sampleRate": 24000,
+  "channels": 1,
+  "alignmentModel": "faster-whisper base.en int8 CPU",
+  "matchedScriptTokens": 1031,
+  "scriptTokens": 1101,
+  "normalization": "Derived MP3 only: FFmpeg loudnorm, target -16 LUFS, true peak -1.5 dBTP; original WAV unchanged.",
+  "music": false,
+  "sourceSpeedChanged": false,
+  "derivedAudioLoudness": {
+    "integratedLUFS": -16.73,
+    "truePeakDBTP": -1.65,
+    "loudnessRangeLU": 2.4
+  },
+  "sourceAudioLoudness": {
+    "integratedLUFS": -27.27,
+    "truePeakDBTP": -3.55,
+    "loudnessRangeLU": 3.2
+  }
+}

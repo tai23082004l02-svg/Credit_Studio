@@ -19,15 +19,17 @@
     {
       "id": "finance-002",
       "name": "The Monthly Payment Trap: How “Affordable” Keeps You Broke",
-      "description": "Video tài chính thứ hai · 16 khung hình · 3 sheet · 30 PNG tách sẵn · Chưa có audio, chưa căn thời lượng",
+      "description": "Video tài chính · Alex · Bản duyệt đầy đủ 8 phút 15,475 giây · 79 cảnh",
       "kind": "video",
-      "status": "Đã chuẩn bị hình ảnh · Chờ giọng đọc",
+      "status": "Bản dựng đầy đủ v01 chờ duyệt",
       "createdAt": "2026-10-21T06:00:00.000Z",
-      "defaultVideo": "videos/002-monthly-payment-trap/storyboard/project.json",
+      "defaultVideo": "videos/002-monthly-payment-trap/review/project.json",
       "artwork": "videos/002-monthly-payment-trap/artwork.json",
       "gallery": "videos/002-monthly-payment-trap/",
       "script": "videos/002-monthly-payment-trap/script.md",
-      "cover": "videos/002-monthly-payment-trap/images/scenes/01a.png"
+      "cover": "videos/002-monthly-payment-trap/images/scenes/01a.png",
+      "audio": "videos/002-monthly-payment-trap/audio/monthly-payment-trap-voiceover.wav",
+      "review": "videos/002-monthly-payment-trap/exports/full-review-v01.mp4"
     }
   ]
 }

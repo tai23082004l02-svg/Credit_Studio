@@ -26,7 +26,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 - Dự án mới và các bản sửa được lưu trong trình duyệt hiện tại bằng IndexedDB; không tự đồng bộ sang máy khác hoặc GitHub. Tài nguyên đã xuất bản vẫn lấy từ website. Sao lưu để chuyển máy, bảo vệ khi xóa dữ liệu trình duyệt hoặc gửi bản sửa lại.
 - Dữ liệu của hai trình chỉnh cũ được chuyển sang từng dự án một lần; các khóa localStorage cũ được giữ nguyên để bảo toàn dữ liệu.
 
-Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 cũ được lưu vào **Bản lưu trước cập nhật** rồi chuyển sang bản đầy đủ. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên bản đầy đủ được giữ khi mở lại. Những bản khác vẫn được giữ và hiện thông báo khi có bản xuất bản khác.
+Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 cũ được lưu vào **Bản lưu trước cập nhật** rồi chuyển sang bản đầy đủ. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên bản đầy đủ được giữ khi mở lại. Video 002 cũng lưu bảng hình 96 giây cũ vào lịch sử trước khi mở bản review theo audio. Các revision khác và dự án khôi phục vẫn được giữ, hiện thông báo khi có bản xuất bản khác.
 
 ## Kho đạo cụ dùng chung
 
@@ -75,7 +75,7 @@ Thư mục hình, dự án dựng và bản xuất sẽ được thêm vào từ
 
 ## Video thứ hai — Monthly Payment Trap
 
-[Mở dự án video 002](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002) · [Xem bộ hình](videos/002-monthly-payment-trap/) · [Hướng dẫn](videos/002-monthly-payment-trap/README.md). Có 16 khung hình (8 minh họa + 8 bố cục thông tin chỉnh riêng), 3 sheet trong suốt có ô đều, bản hướng dẫn đánh số, 30 PNG tách sẵn và tọa độ cắt. Tiêu đề và số dùng Times New Roman, nằm ngoài vùng minh họa. Đã lưu lời thoại được chấp thuận; chưa nhận audio, chưa có MP4 hoặc thời lượng video chính thức. Bảng cảnh trong Dựng video dùng 6 giây/cảnh để xem hình, không phải bản dựng đã căn lời đọc.
+[Mở dự án video 002](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002) · [Xem bộ hình](videos/002-monthly-payment-trap/) · [Hướng dẫn](videos/002-monthly-payment-trap/README.md). Có 16 khung hình (8 minh họa + 8 bố cục thông tin chỉnh riêng), 3 sheet trong suốt có ô đều, bản hướng dẫn đánh số, 30 PNG tách sẵn và tọa độ cắt. Tiêu đề và số dùng Times New Roman, nằm ngoài vùng minh họa. Đã nhận WAV và dựng **79 cảnh / 495,475 giây**, [MP4 duyệt v01](videos/002-monthly-payment-trap/exports/full-review-v01.mp4), chữ Times New Roman, audio dẫn xuất được nâng âm lượng, chưa nhạc nền. Bản dựng chỉnh được ở `review/project.json`; bảng hình 96 giây trước đó vẫn được giữ. [Timecode và trạng thái](videos/002-monthly-payment-trap/review/README.md).
 
 ## Gửi âm thanh cho video đầu tiên
 

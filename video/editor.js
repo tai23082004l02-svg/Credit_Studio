@@ -1,6 +1,6 @@
 import {mediaURL} from '../assets/js/media-storage.js?v=r2-v1';
 import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-v1';
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo} from '../assets/js/workspace-store.js?v=r2-v1';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=monthly-review-v1';
 import {finalizeWebM} from './webm.js';
 import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=r2-v1';
 const $=s=>document.querySelector(s);
@@ -168,9 +168,9 @@ async function init(){try{
  if(!saved&&workspaceID===FINANCE_ID){try{const raw=localStorage.getItem(KEY);if(raw){saved=validate(JSON.parse(raw));await saveDocument(workspaceID,'video',saved);}}catch{toast('Không đọc được bản lưu cũ. Bản cũ vẫn được giữ trong trình duyệt.');}}
  let latest;
  if(defaultURL){try{const r=await fetch(defaultURL,{cache:'no-cache'});if(!r.ok)throw Error('Không tải được bản dựng gốc.');latest=validate(await r.json());}catch(e){if(!saved)throw e;toast('Chưa tải được bản mới. Đang giữ bản lưu hiện tại.');}}
- if(workspaceID===FINANCE_ID&&saved?.revision==='intro-v01'&&latest?.revision==='full-review-v01'){
-  // The known intro-to-full upgrade preserves even edited intro drafts atomically.
-  saved=await promotePublishedVideo(workspaceID,'intro-v01',latest)||saved;
+ if(canUpgradePublishedVideo(workspaceID,saved?.revision,latest?.revision)&&latest){
+  // Preserve the complete old draft in the same transaction as the review upgrade.
+  saved=await promotePublishedVideo(workspaceID,saved.revision,latest)||saved;
  }
  let data=saved||latest;
  if(!data)data=blankVideo(workspaceMeta.name);

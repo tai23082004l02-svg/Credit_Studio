@@ -1,6 +1,6 @@
 # The Monthly Payment Trap: How “Affordable” Keeps You Broke
 
-Lời thoại đã được người dùng chấp thuận trong chat. Chỉ đọc phần tiếng Anh; bỏ qua tiêu đề. Chưa có audio nên chưa chốt thời lượng hoặc timecode. Các số liệu là ví dụ minh họa, không phải đề nghị tín dụng thực tế.
+Lời thoại đã được người dùng chấp thuận trong chat. Chỉ đọc phần tiếng Anh; bỏ qua tiêu đề. Đã có WAV 495,475 giây; bản dựng và timecode ở `review/README.md`. Các số liệu là ví dụ minh họa, không phải đề nghị tín dụng thực tế.
 
 ## 01 — Hook
 
