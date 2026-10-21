@@ -15,6 +15,19 @@
       "audio": "videos/001-100k-salary/audio/Why You Feel Broke on a $100,000 Salary.wav",
       "review": "videos/001-100k-salary/exports/full-review-v01.mp4",
       "cover": "videos/001-100k-salary/images/scenes/01a-six-figure-celebration.png"
+    },
+    {
+      "id": "finance-002",
+      "name": "The Monthly Payment Trap: How “Affordable” Keeps You Broke",
+      "description": "Video tài chính thứ hai · 16 khung hình · 3 sheet · 30 PNG tách sẵn · Chưa có audio, chưa căn thời lượng",
+      "kind": "video",
+      "status": "Đã chuẩn bị hình ảnh · Chờ giọng đọc",
+      "createdAt": "2026-10-21T06:00:00.000Z",
+      "defaultVideo": "videos/002-monthly-payment-trap/storyboard/project.json",
+      "artwork": "videos/002-monthly-payment-trap/artwork.json",
+      "gallery": "videos/002-monthly-payment-trap/",
+      "script": "videos/002-monthly-payment-trap/script.md",
+      "cover": "videos/002-monthly-payment-trap/images/scenes/01a.png"
     }
   ]
 }

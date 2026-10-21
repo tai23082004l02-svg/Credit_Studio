@@ -1,0 +1,663 @@
+{
+  "jobs": [
+    {
+      "id": "01a",
+      "slug": "payday-already-spent",
+      "title": "Lương vừa đến, tiền đã có nơi đi",
+      "section": 1,
+      "caption": "YOUR NEXT PAYCHECK.\nALREADY SPENT.",
+      "cue": "Then the automatic payments start.",
+      "scene": "Alex stands full-body center-left, relieved smile fading into surprise as he holds an open cream pay envelope. On the right, a large blank desk calendar floats above three separate blank payment receipts, and a trail of green banknotes travels from his envelope toward the receipts. Clearly legible visual metaphor of a paycheck being claimed by bills, no written amounts.",
+      "motion": "Lần lượt hiện phong bì, ba hóa đơn và dòng tiền; giữ toàn bộ tóc/tay/chân trong vùng hình.",
+      "image": "images/illustrations/01a-payday-already-spent.png"
+    },
+    {
+      "id": "02a",
+      "slug": "phone-price-choice",
+      "title": "Một giá mua, hai cảm giác",
+      "section": 2,
+      "caption": "ONE PHONE.\nTWO WAYS TO SEE THE PRICE.",
+      "cue": "Nine hundred dollars today.",
+      "scene": "Alex full-body thoughtfully comparing two identical new smartphones displayed on two clean separate cream pedestals on left and right, with ample blank cream placards below each phone for later editable prices. At lower left by Alex's feet sits his old phone with a cracked screen; Alex's hand gently rests at chin. Symmetrical comparison, no drawn written prices or text.",
+      "motion": "Giữ hai điện thoại cùng cỡ; số $900 và $37.50/month là lớp chữ riêng, không vẽ trong PNG.",
+      "image": "images/illustrations/02a-phone-price-choice.png"
+    },
+    {
+      "id": "03a",
+      "slug": "crowded-payment-calendar",
+      "title": "Nhiều khoản nhỏ, một tháng chật kín",
+      "section": 3,
+      "caption": "SMALL PAYMENTS.\nA CROWDED MONTH.",
+      "cue": "Now all those decisions are showing up on the same calendar.",
+      "scene": "A large unnumbered clean monthly calendar dominates the center. Small tasteful symbols sit in separate calendar cells: coral car, phone, teal sofa, parcel and play-triangle subscription screen. Alex stands full-body at right holding a long blank receipt, surprised at the crowded calendar. No digits, weekday names, labels or scribbles anywhere. Calm structured composition with clearly separated objects.",
+      "motion": "Tô sáng từng khoản theo lời thoại; đối chiếu tổng $817.50 bằng lớp chữ riêng.",
+      "image": "images/illustrations/03a-crowded-payment-calendar.png"
+    },
+    {
+      "id": "04a",
+      "slug": "longer-payment-path",
+      "title": "Khoản trả thấp hơn có thể kéo dài hơn",
+      "section": 4,
+      "caption": "LOWER EACH MONTH.\nLONGER IN YOUR FUTURE.",
+      "cue": "But Alex pays three hundred sixty dollars more overall",
+      "scene": "Alex full-body stands left comparing two horizontal paths made of evenly spaced small blank calendar tiles. Upper green path has FOUR calendar tiles and ends near center-right with a small money stack. Lower coral path has SIX tiles and extends farther right ending in a visibly larger money stack. Clear metaphor longer term may cost more, two paths separated with generous empty room. No numbers text or currency glyphs. Paths are illustrative, not a quantitatively labeled chart.",
+      "motion": "Dùng hai thẻ so sánh chỉnh được cho phép tính; đường đi chỉ là ẩn dụ, không gán tỉ lệ giả.",
+      "image": "images/illustrations/04a-longer-payment-path.png"
+    },
+    {
+      "id": "05a",
+      "slug": "repair-meets-due-dates",
+      "title": "Sửa xe đúng lúc lịch thanh toán kín",
+      "section": 5,
+      "caption": "THE REPAIR CAN’T WAIT.\nTHE PAYMENTS WON’T EITHER.",
+      "cue": "Then Alex needs a car repair.",
+      "scene": "Alex full-body center holds a mechanic's wrench at waist, one hand on forehead worried. A small coral car sits safely parked left with hood open, a detached blank repair invoice below it. On right an oversized blank calendar has three coral circled cells and three small separate cream payment cards. All hair hands shoes visible, car contained, no lettering, smoke, numbers or logos.",
+      "motion": "Nhấn hóa đơn $600 rồi ngày đến hạn; không vẽ vụ tai nạn hoặc làm quá mức hậu quả.",
+      "image": "images/illustrations/05a-repair-meets-due-dates.png"
+    },
+    {
+      "id": "06a",
+      "slug": "practical-financing-choice",
+      "title": "Một lựa chọn hữu ích khi điều khoản phù hợp",
+      "section": 6,
+      "caption": "USEFUL FINANCING\nSTARTS WITH THE TERMS.",
+      "cue": "Replacing a broken refrigerator may be urgent.",
+      "scene": "Alex full-body calmly considers a new clean green refrigerator on right; an old refrigerator on left has a simple tiny broken hinge symbol and unplugged cord. Alex holds a blank clipboard with three check-mark boxes and no writing. Beside new fridge a small green shield with check mark and modest cash reserve jar. Balanced practical scene about useful financing, no moralizing, no crossed-out credit cards or scary imagery. Everything intact.",
+      "motion": "Giữ thông điệp cân bằng: trả góp có thể hữu ích; điều khoản và khả năng chi trả cần kiểm tra.",
+      "image": "images/illustrations/06a-practical-financing-choice.png"
+    },
+    {
+      "id": "07a",
+      "slug": "see-the-whole-month",
+      "title": "Nhìn cả tháng trước khi thêm khoản mới",
+      "section": 7,
+      "caption": "GIVE THE WHOLE\nMONTH A VOTE.",
+      "cue": "For the first time, Alex can see the whole month.",
+      "scene": "Alex stands full-body behind and slightly left of a small neat writing desk, both shoes fully visible outside desk silhouette. He writes on a blank clipboard. On the desk a blank monthly calendar, a calculator with blank screen, two tidy receipts, and a small savings jar are spaced neatly. The scene feels organized and empowering. Desk does NOT hide Alex's head hands or legs, no lettering digits on any objects.",
+      "motion": "Trình bày bảng khoản trả, ngày hạn, số dư và ngày kết thúc bằng lớp riêng; tăng quỹ đệm.",
+      "image": "images/illustrations/07a-see-the-whole-month.png"
+    },
+    {
+      "id": "08a",
+      "slug": "paycheck-with-breathing-room",
+      "title": "Giữ chỗ cho cuộc sống giữa các lần mua",
+      "section": 8,
+      "caption": "LEAVE ROOM\nFOR LIFE.",
+      "cue": "The goal is to leave enough of your paycheck available",
+      "scene": "Alex full-body walks confidently toward right along a gentle simple curved path in a minimal warm scene. Left behind him a neat small stack of blank bills is balanced beside a closed wallet; ahead of him a small sprout savings jar and a simple sunny horizon. Subtle green leaves and golden sun, lots of cream negative space, hopeful quiet ending, no mansion, boat, lavish wealth or financial promises. Show full hair, both hands, both shoes.",
+      "motion": "Kết bằng khoảng trống và quỹ đệm; giữ hình khi câu hỏi cuối kết thúc.",
+      "image": "images/illustrations/08a-paycheck-with-breathing-room.png"
+    }
+  ],
+  "sheets": [
+    {
+      "id": "alex-actions",
+      "title": "Alex — 6 tư thế cho câu chuyện trả góp",
+      "columns": 3,
+      "rows": 2,
+      "sourceImage": "images/sources/alex-actions-original.png",
+      "items": [
+        {
+          "id": "mpt-alex-phone",
+          "slug": "alex-phone",
+          "name": "Alex — Xem điện thoại",
+          "sourceCrop": [
+            128,
+            48,
+            272,
+            471
+          ],
+          "sourceCell": [
+            0,
+            0,
+            512,
+            526
+          ],
+          "image": "images/cutouts/alex-phone.png"
+        },
+        {
+          "id": "mpt-alex-receipt",
+          "slug": "alex-receipt",
+          "name": "Alex — Xem biên lai",
+          "sourceCrop": [
+            645,
+            48,
+            262,
+            471
+          ],
+          "sourceCell": [
+            512,
+            0,
+            512,
+            526
+          ],
+          "image": "images/cutouts/alex-receipt.png"
+        },
+        {
+          "id": "mpt-alex-compare",
+          "slug": "alex-compare",
+          "name": "Alex — So sánh lựa chọn",
+          "sourceCrop": [
+            1108,
+            48,
+            327,
+            471
+          ],
+          "sourceCell": [
+            1024,
+            0,
+            512,
+            526
+          ],
+          "image": "images/cutouts/alex-compare.png"
+        },
+        {
+          "id": "mpt-alex-repair",
+          "slug": "alex-repair",
+          "name": "Alex — Lo chi phí sửa xe",
+          "sourceCrop": [
+            139,
+            537,
+            274,
+            468
+          ],
+          "sourceCell": [
+            0,
+            526,
+            512,
+            498
+          ],
+          "image": "images/cutouts/alex-repair.png"
+        },
+        {
+          "id": "mpt-alex-plan",
+          "slug": "alex-plan",
+          "name": "Alex — Lập kế hoạch",
+          "sourceCrop": [
+            637,
+            540,
+            268,
+            464
+          ],
+          "sourceCell": [
+            512,
+            526,
+            512,
+            498
+          ],
+          "image": "images/cutouts/alex-plan.png"
+        },
+        {
+          "id": "mpt-alex-buffer",
+          "slug": "alex-buffer",
+          "name": "Alex — Giữ quỹ đệm",
+          "sourceCrop": [
+            1146,
+            531,
+            279,
+            474
+          ],
+          "sourceCell": [
+            1024,
+            526,
+            512,
+            498
+          ],
+          "image": "images/cutouts/alex-buffer.png"
+        }
+      ]
+    },
+    {
+      "id": "purchase-props",
+      "title": "Mua sắm & trả góp — 12 đạo cụ",
+      "columns": 4,
+      "rows": 3,
+      "sourceImage": "images/sources/purchase-props-original.png",
+      "items": [
+        {
+          "id": "mpt-old-phone",
+          "slug": "old-phone",
+          "name": "Điện thoại cũ nứt màn hình",
+          "sourceCrop": [
+            93,
+            57,
+            200,
+            293
+          ],
+          "sourceCell": [
+            0,
+            0,
+            384,
+            350
+          ],
+          "image": "images/cutouts/old-phone.png"
+        },
+        {
+          "id": "mpt-new-phone",
+          "slug": "new-phone",
+          "name": "Điện thoại mới",
+          "sourceCrop": [
+            486,
+            58,
+            168,
+            291
+          ],
+          "sourceCell": [
+            384,
+            0,
+            356,
+            350
+          ],
+          "image": "images/cutouts/new-phone.png"
+        },
+        {
+          "id": "mpt-compact-car",
+          "slug": "compact-car",
+          "name": "Xe nhỏ màu coral",
+          "sourceCrop": [
+            752,
+            131,
+            376,
+            203
+          ],
+          "sourceCell": [
+            740,
+            0,
+            404,
+            350
+          ],
+          "image": "images/cutouts/compact-car.png"
+        },
+        {
+          "id": "mpt-sofa",
+          "slug": "sofa",
+          "name": "Ghế sofa teal",
+          "sourceCrop": [
+            1159,
+            124,
+            358,
+            209
+          ],
+          "sourceCell": [
+            1144,
+            0,
+            392,
+            350
+          ],
+          "image": "images/cutouts/sofa.png"
+        },
+        {
+          "id": "mpt-parcel",
+          "slug": "parcel",
+          "name": "Kiện hàng",
+          "sourceCrop": [
+            47,
+            399,
+            298,
+            246
+          ],
+          "sourceCell": [
+            0,
+            350,
+            384,
+            320
+          ],
+          "image": "images/cutouts/parcel.png"
+        },
+        {
+          "id": "mpt-refrigerator",
+          "slug": "refrigerator",
+          "name": "Tủ lạnh",
+          "sourceCrop": [
+            481,
+            354,
+            192,
+            310
+          ],
+          "sourceCell": [
+            384,
+            350,
+            356,
+            320
+          ],
+          "image": "images/cutouts/refrigerator.png"
+        },
+        {
+          "id": "mpt-streaming",
+          "slug": "streaming",
+          "name": "Màn hình đăng ký",
+          "sourceCrop": [
+            802,
+            396,
+            312,
+            243
+          ],
+          "sourceCell": [
+            740,
+            350,
+            404,
+            320
+          ],
+          "image": "images/cutouts/streaming.png"
+        },
+        {
+          "id": "mpt-bank-card",
+          "slug": "bank-card",
+          "name": "Thẻ thanh toán",
+          "sourceCrop": [
+            1194,
+            421,
+            293,
+            192
+          ],
+          "sourceCell": [
+            1144,
+            350,
+            392,
+            320
+          ],
+          "image": "images/cutouts/bank-card.png"
+        },
+        {
+          "id": "mpt-receipt",
+          "slug": "receipt",
+          "name": "Biên lai trả góp",
+          "sourceCrop": [
+            108,
+            673,
+            198,
+            286
+          ],
+          "sourceCell": [
+            0,
+            670,
+            384,
+            354
+          ],
+          "image": "images/cutouts/receipt.png"
+        },
+        {
+          "id": "mpt-wrench",
+          "slug": "wrench",
+          "name": "Cờ lê sửa xe",
+          "sourceCrop": [
+            444,
+            684,
+            264,
+            280
+          ],
+          "sourceCell": [
+            384,
+            670,
+            356,
+            354
+          ],
+          "image": "images/cutouts/wrench.png"
+        },
+        {
+          "id": "mpt-pay-envelope",
+          "slug": "pay-envelope",
+          "name": "Phong bì tiền lương",
+          "sourceCrop": [
+            804,
+            670,
+            287,
+            275
+          ],
+          "sourceCell": [
+            740,
+            670,
+            404,
+            354
+          ],
+          "image": "images/cutouts/pay-envelope.png"
+        },
+        {
+          "id": "mpt-empty-wallet",
+          "slug": "empty-wallet",
+          "name": "Ví trống",
+          "sourceCrop": [
+            1163,
+            703,
+            343,
+            242
+          ],
+          "sourceCell": [
+            1144,
+            670,
+            392,
+            354
+          ],
+          "image": "images/cutouts/empty-wallet.png"
+        }
+      ]
+    },
+    {
+      "id": "planning-props",
+      "title": "Lập kế hoạch — 12 đạo cụ",
+      "columns": 4,
+      "rows": 3,
+      "sourceImage": "images/sources/planning-props-original.png",
+      "items": [
+        {
+          "id": "mpt-calendar",
+          "slug": "calendar",
+          "name": "Lịch thanh toán",
+          "sourceCrop": [
+            35,
+            74,
+            322,
+            261
+          ],
+          "sourceCell": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/calendar.png"
+        },
+        {
+          "id": "mpt-cash-stack",
+          "slug": "cash-stack",
+          "name": "Xấp tiền",
+          "sourceCrop": [
+            397,
+            97,
+            324,
+            237
+          ],
+          "sourceCell": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/cash-stack.png"
+        },
+        {
+          "id": "mpt-coins",
+          "slug": "coins",
+          "name": "Chồng tiền xu",
+          "sourceCrop": [
+            775,
+            93,
+            294,
+            240
+          ],
+          "sourceCell": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/coins.png"
+        },
+        {
+          "id": "mpt-savings-jar",
+          "slug": "savings-jar",
+          "name": "Lọ quỹ đệm",
+          "sourceCrop": [
+            1152,
+            63,
+            230,
+            291
+          ],
+          "sourceCell": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/savings-jar.png"
+        },
+        {
+          "id": "mpt-clipboard",
+          "slug": "clipboard",
+          "name": "Bảng ghi kế hoạch",
+          "sourceCrop": [
+            54,
+            372,
+            275,
+            338
+          ],
+          "sourceCell": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/clipboard.png"
+        },
+        {
+          "id": "mpt-clock",
+          "slug": "clock",
+          "name": "Đồng hồ thời hạn",
+          "sourceCrop": [
+            408,
+            393,
+            293,
+            296
+          ],
+          "sourceCell": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/clock.png"
+        },
+        {
+          "id": "mpt-alert-bell",
+          "slug": "alert-bell",
+          "name": "Chuông nhắc hạn",
+          "sourceCrop": [
+            770,
+            418,
+            284,
+            259
+          ],
+          "sourceCell": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/alert-bell.png"
+        },
+        {
+          "id": "mpt-shield",
+          "slug": "shield",
+          "name": "Khiên kiểm tra",
+          "sourceCrop": [
+            1154,
+            419,
+            235,
+            270
+          ],
+          "sourceCell": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/shield.png"
+        },
+        {
+          "id": "mpt-padlock",
+          "slug": "padlock",
+          "name": "Ổ khóa cam kết",
+          "sourceCrop": [
+            74,
+            730,
+            231,
+            291
+          ],
+          "sourceCell": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/padlock.png"
+        },
+        {
+          "id": "mpt-broken-chain",
+          "slug": "broken-chain",
+          "name": "Tháo xích nghĩa vụ",
+          "sourceCrop": [
+            362,
+            790,
+            356,
+            184
+          ],
+          "sourceCell": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/broken-chain.png"
+        },
+        {
+          "id": "mpt-comparison-cards",
+          "slug": "comparison-cards",
+          "name": "Hai thẻ lựa chọn",
+          "sourceCrop": [
+            746,
+            746,
+            340,
+            243
+          ],
+          "sourceCell": [
+            724,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/comparison-cards.png"
+        },
+        {
+          "id": "mpt-cash-tray",
+          "slug": "cash-tray",
+          "name": "Khay tiền dự phòng",
+          "sourceCrop": [
+            1110,
+            792,
+            306,
+            204
+          ],
+          "sourceCell": [
+            1086,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/cash-tray.png"
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "note": "Original generated PNGs are preserved. Crop coordinates measured on original sources. Production atlases are assembled without changing the source illustrations."
+}

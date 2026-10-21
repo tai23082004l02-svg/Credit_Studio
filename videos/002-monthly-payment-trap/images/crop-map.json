@@ -1,0 +1,946 @@
+{
+  "version": 1,
+  "coordinateFormat": "[x, y, width, height] in source pixels; zero-based",
+  "padding": 32,
+  "sheets": [
+    {
+      "id": "alex-actions",
+      "title": "Alex — 6 tư thế cho câu chuyện trả góp",
+      "columns": 3,
+      "rows": 2,
+      "sourceImage": "images/sources/alex-actions-original.png",
+      "items": [
+        {
+          "id": "mpt-alex-phone",
+          "slug": "alex-phone",
+          "name": "Alex — Xem điện thoại",
+          "sourceCrop": [
+            128,
+            48,
+            272,
+            471
+          ],
+          "sourceCell": [
+            0,
+            0,
+            512,
+            526
+          ],
+          "image": "images/cutouts/alex-phone.png",
+          "crop": [
+            0,
+            0,
+            640,
+            768
+          ],
+          "artBounds": [
+            152,
+            117,
+            336,
+            535
+          ]
+        },
+        {
+          "id": "mpt-alex-receipt",
+          "slug": "alex-receipt",
+          "name": "Alex — Xem biên lai",
+          "sourceCrop": [
+            645,
+            48,
+            262,
+            471
+          ],
+          "sourceCell": [
+            512,
+            0,
+            512,
+            526
+          ],
+          "image": "images/cutouts/alex-receipt.png",
+          "crop": [
+            640,
+            0,
+            640,
+            768
+          ],
+          "artBounds": [
+            797,
+            117,
+            326,
+            535
+          ]
+        },
+        {
+          "id": "mpt-alex-compare",
+          "slug": "alex-compare",
+          "name": "Alex — So sánh lựa chọn",
+          "sourceCrop": [
+            1108,
+            48,
+            327,
+            471
+          ],
+          "sourceCell": [
+            1024,
+            0,
+            512,
+            526
+          ],
+          "image": "images/cutouts/alex-compare.png",
+          "crop": [
+            1280,
+            0,
+            640,
+            768
+          ],
+          "artBounds": [
+            1405,
+            117,
+            391,
+            535
+          ]
+        },
+        {
+          "id": "mpt-alex-repair",
+          "slug": "alex-repair",
+          "name": "Alex — Lo chi phí sửa xe",
+          "sourceCrop": [
+            139,
+            537,
+            274,
+            468
+          ],
+          "sourceCell": [
+            0,
+            526,
+            512,
+            498
+          ],
+          "image": "images/cutouts/alex-repair.png",
+          "crop": [
+            0,
+            768,
+            640,
+            768
+          ],
+          "artBounds": [
+            151,
+            886,
+            338,
+            532
+          ]
+        },
+        {
+          "id": "mpt-alex-plan",
+          "slug": "alex-plan",
+          "name": "Alex — Lập kế hoạch",
+          "sourceCrop": [
+            637,
+            540,
+            268,
+            464
+          ],
+          "sourceCell": [
+            512,
+            526,
+            512,
+            498
+          ],
+          "image": "images/cutouts/alex-plan.png",
+          "crop": [
+            640,
+            768,
+            640,
+            768
+          ],
+          "artBounds": [
+            794,
+            888,
+            332,
+            528
+          ]
+        },
+        {
+          "id": "mpt-alex-buffer",
+          "slug": "alex-buffer",
+          "name": "Alex — Giữ quỹ đệm",
+          "sourceCrop": [
+            1146,
+            531,
+            279,
+            474
+          ],
+          "sourceCell": [
+            1024,
+            526,
+            512,
+            498
+          ],
+          "image": "images/cutouts/alex-buffer.png",
+          "crop": [
+            1280,
+            768,
+            640,
+            768
+          ],
+          "artBounds": [
+            1429,
+            883,
+            343,
+            538
+          ]
+        }
+      ],
+      "image": "images/sheets/alex-actions.png",
+      "guide": "images/sheets/alex-actions-guide.png",
+      "width": 1920,
+      "height": 1536
+    },
+    {
+      "id": "purchase-props",
+      "title": "Mua sắm & trả góp — 12 đạo cụ",
+      "columns": 4,
+      "rows": 3,
+      "sourceImage": "images/sources/purchase-props-original.png",
+      "items": [
+        {
+          "id": "mpt-old-phone",
+          "slug": "old-phone",
+          "name": "Điện thoại cũ nứt màn hình",
+          "sourceCrop": [
+            93,
+            57,
+            200,
+            293
+          ],
+          "sourceCell": [
+            0,
+            0,
+            384,
+            350
+          ],
+          "image": "images/cutouts/old-phone.png",
+          "crop": [
+            0,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            138,
+            64,
+            237,
+            320
+          ]
+        },
+        {
+          "id": "mpt-new-phone",
+          "slug": "new-phone",
+          "name": "Điện thoại mới",
+          "sourceCrop": [
+            486,
+            58,
+            168,
+            291
+          ],
+          "sourceCell": [
+            384,
+            0,
+            356,
+            350
+          ],
+          "image": "images/cutouts/new-phone.png",
+          "crop": [
+            512,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            663,
+            64,
+            210,
+            320
+          ]
+        },
+        {
+          "id": "mpt-compact-car",
+          "slug": "compact-car",
+          "name": "Xe nhỏ màu coral",
+          "sourceCrop": [
+            752,
+            131,
+            376,
+            203
+          ],
+          "sourceCell": [
+            740,
+            0,
+            404,
+            350
+          ],
+          "image": "images/cutouts/compact-car.png",
+          "crop": [
+            1024,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1080,
+            103,
+            400,
+            243
+          ]
+        },
+        {
+          "id": "mpt-sofa",
+          "slug": "sofa",
+          "name": "Ghế sofa teal",
+          "sourceCrop": [
+            1159,
+            124,
+            358,
+            209
+          ],
+          "sourceCell": [
+            1144,
+            0,
+            392,
+            350
+          ],
+          "image": "images/cutouts/sofa.png",
+          "crop": [
+            1536,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1592,
+            95,
+            400,
+            259
+          ]
+        },
+        {
+          "id": "mpt-parcel",
+          "slug": "parcel",
+          "name": "Kiện hàng",
+          "sourceCrop": [
+            47,
+            399,
+            298,
+            246
+          ],
+          "sourceCell": [
+            0,
+            350,
+            384,
+            320
+          ],
+          "image": "images/cutouts/parcel.png",
+          "crop": [
+            0,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            75,
+            517,
+            362,
+            310
+          ]
+        },
+        {
+          "id": "mpt-refrigerator",
+          "slug": "refrigerator",
+          "name": "Tủ lạnh",
+          "sourceCrop": [
+            481,
+            354,
+            192,
+            310
+          ],
+          "sourceCell": [
+            384,
+            350,
+            356,
+            320
+          ],
+          "image": "images/cutouts/refrigerator.png",
+          "crop": [
+            512,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            658,
+            512,
+            220,
+            320
+          ]
+        },
+        {
+          "id": "mpt-streaming",
+          "slug": "streaming",
+          "name": "Màn hình đăng ký",
+          "sourceCrop": [
+            802,
+            396,
+            312,
+            243
+          ],
+          "sourceCell": [
+            740,
+            350,
+            404,
+            320
+          ],
+          "image": "images/cutouts/streaming.png",
+          "crop": [
+            1024,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1092,
+            519,
+            376,
+            307
+          ]
+        },
+        {
+          "id": "mpt-bank-card",
+          "slug": "bank-card",
+          "name": "Thẻ thanh toán",
+          "sourceCrop": [
+            1194,
+            421,
+            293,
+            192
+          ],
+          "sourceCell": [
+            1144,
+            350,
+            392,
+            320
+          ],
+          "image": "images/cutouts/bank-card.png",
+          "crop": [
+            1536,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1614,
+            544,
+            357,
+            256
+          ]
+        },
+        {
+          "id": "mpt-receipt",
+          "slug": "receipt",
+          "name": "Biên lai trả góp",
+          "sourceCrop": [
+            108,
+            673,
+            198,
+            286
+          ],
+          "sourceCell": [
+            0,
+            670,
+            384,
+            354
+          ],
+          "image": "images/cutouts/receipt.png",
+          "crop": [
+            0,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            136,
+            960,
+            240,
+            320
+          ]
+        },
+        {
+          "id": "mpt-wrench",
+          "slug": "wrench",
+          "name": "Cờ lê sửa xe",
+          "sourceCrop": [
+            444,
+            684,
+            264,
+            280
+          ],
+          "sourceCell": [
+            384,
+            670,
+            356,
+            354
+          ],
+          "image": "images/cutouts/wrench.png",
+          "crop": [
+            512,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            615,
+            960,
+            306,
+            320
+          ]
+        },
+        {
+          "id": "mpt-pay-envelope",
+          "slug": "pay-envelope",
+          "name": "Phong bì tiền lương",
+          "sourceCrop": [
+            804,
+            670,
+            287,
+            275
+          ],
+          "sourceCell": [
+            740,
+            670,
+            404,
+            354
+          ],
+          "image": "images/cutouts/pay-envelope.png",
+          "crop": [
+            1024,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            1114,
+            960,
+            332,
+            320
+          ]
+        },
+        {
+          "id": "mpt-empty-wallet",
+          "slug": "empty-wallet",
+          "name": "Ví trống",
+          "sourceCrop": [
+            1163,
+            703,
+            343,
+            242
+          ],
+          "sourceCell": [
+            1144,
+            670,
+            392,
+            354
+          ],
+          "image": "images/cutouts/empty-wallet.png",
+          "crop": [
+            1536,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            1592,
+            970,
+            400,
+            301
+          ]
+        }
+      ],
+      "image": "images/sheets/purchase-props.png",
+      "guide": "images/sheets/purchase-props-guide.png",
+      "width": 2048,
+      "height": 1344
+    },
+    {
+      "id": "planning-props",
+      "title": "Lập kế hoạch — 12 đạo cụ",
+      "columns": 4,
+      "rows": 3,
+      "sourceImage": "images/sources/planning-props-original.png",
+      "items": [
+        {
+          "id": "mpt-calendar",
+          "slug": "calendar",
+          "name": "Lịch thanh toán",
+          "sourceCrop": [
+            35,
+            74,
+            322,
+            261
+          ],
+          "sourceCell": [
+            0,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/calendar.png",
+          "crop": [
+            0,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            66,
+            64,
+            381,
+            320
+          ]
+        },
+        {
+          "id": "mpt-cash-stack",
+          "slug": "cash-stack",
+          "name": "Xấp tiền",
+          "sourceCrop": [
+            397,
+            97,
+            324,
+            237
+          ],
+          "sourceCell": [
+            362,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/cash-stack.png",
+          "crop": [
+            512,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            574,
+            74,
+            388,
+            301
+          ]
+        },
+        {
+          "id": "mpt-coins",
+          "slug": "coins",
+          "name": "Chồng tiền xu",
+          "sourceCrop": [
+            775,
+            93,
+            294,
+            240
+          ],
+          "sourceCell": [
+            724,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/coins.png",
+          "crop": [
+            1024,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1101,
+            72,
+            358,
+            304
+          ]
+        },
+        {
+          "id": "mpt-savings-jar",
+          "slug": "savings-jar",
+          "name": "Lọ quỹ đệm",
+          "sourceCrop": [
+            1152,
+            63,
+            230,
+            291
+          ],
+          "sourceCell": [
+            1086,
+            0,
+            362,
+            362
+          ],
+          "image": "images/cutouts/savings-jar.png",
+          "crop": [
+            1536,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1659,
+            64,
+            266,
+            320
+          ]
+        },
+        {
+          "id": "mpt-clipboard",
+          "slug": "clipboard",
+          "name": "Bảng ghi kế hoạch",
+          "sourceCrop": [
+            54,
+            372,
+            275,
+            338
+          ],
+          "sourceCell": [
+            0,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/clipboard.png",
+          "crop": [
+            0,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            121,
+            512,
+            270,
+            320
+          ]
+        },
+        {
+          "id": "mpt-clock",
+          "slug": "clock",
+          "name": "Đồng hồ thời hạn",
+          "sourceCrop": [
+            408,
+            393,
+            293,
+            296
+          ],
+          "sourceCell": [
+            362,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/clock.png",
+          "crop": [
+            512,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            609,
+            512,
+            318,
+            320
+          ]
+        },
+        {
+          "id": "mpt-alert-bell",
+          "slug": "alert-bell",
+          "name": "Chuông nhắc hạn",
+          "sourceCrop": [
+            770,
+            418,
+            284,
+            259
+          ],
+          "sourceCell": [
+            724,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/alert-bell.png",
+          "crop": [
+            1024,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1108,
+            512,
+            345,
+            320
+          ]
+        },
+        {
+          "id": "mpt-shield",
+          "slug": "shield",
+          "name": "Khiên kiểm tra",
+          "sourceCrop": [
+            1154,
+            419,
+            235,
+            270
+          ],
+          "sourceCell": [
+            1086,
+            362,
+            362,
+            362
+          ],
+          "image": "images/cutouts/shield.png",
+          "crop": [
+            1536,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1649,
+            512,
+            287,
+            320
+          ]
+        },
+        {
+          "id": "mpt-padlock",
+          "slug": "padlock",
+          "name": "Ổ khóa cam kết",
+          "sourceCrop": [
+            74,
+            730,
+            231,
+            291
+          ],
+          "sourceCell": [
+            0,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/padlock.png",
+          "crop": [
+            0,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            123,
+            960,
+            266,
+            320
+          ]
+        },
+        {
+          "id": "mpt-broken-chain",
+          "slug": "broken-chain",
+          "name": "Tháo xích nghĩa vụ",
+          "sourceCrop": [
+            362,
+            790,
+            356,
+            184
+          ],
+          "sourceCell": [
+            362,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/broken-chain.png",
+          "crop": [
+            512,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            568,
+            1002,
+            400,
+            237
+          ]
+        },
+        {
+          "id": "mpt-comparison-cards",
+          "slug": "comparison-cards",
+          "name": "Hai thẻ lựa chọn",
+          "sourceCrop": [
+            746,
+            746,
+            340,
+            243
+          ],
+          "sourceCell": [
+            724,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/comparison-cards.png",
+          "crop": [
+            1024,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            1080,
+            968,
+            400,
+            304
+          ]
+        },
+        {
+          "id": "mpt-cash-tray",
+          "slug": "cash-tray",
+          "name": "Khay tiền dự phòng",
+          "sourceCrop": [
+            1110,
+            792,
+            306,
+            204
+          ],
+          "sourceCell": [
+            1086,
+            724,
+            362,
+            362
+          ],
+          "image": "images/cutouts/cash-tray.png",
+          "crop": [
+            1536,
+            896,
+            512,
+            448
+          ],
+          "artBounds": [
+            1607,
+            986,
+            370,
+            268
+          ]
+        }
+      ],
+      "image": "images/sheets/planning-props.png",
+      "guide": "images/sheets/planning-props-guide.png",
+      "width": 2048,
+      "height": 1344
+    }
+  ]
+}

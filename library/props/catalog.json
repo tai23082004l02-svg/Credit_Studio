@@ -510,6 +510,546 @@
         536,
         769
       ]
+    },
+    {
+      "id": "mpt-alex-phone",
+      "name": "Alex — Xem điện thoại",
+      "category": "Nhân vật",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alex-phone",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        0,
+        0,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "mpt-alex-receipt",
+      "name": "Alex — Xem biên lai",
+      "category": "Nhân vật",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alex-receipt",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        640,
+        0,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "mpt-alex-compare",
+      "name": "Alex — So sánh lựa chọn",
+      "category": "Nhân vật",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alex-compare",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        1280,
+        0,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "mpt-alex-repair",
+      "name": "Alex — Lo chi phí sửa xe",
+      "category": "Nhân vật",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alex-repair",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        0,
+        768,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "mpt-alex-plan",
+      "name": "Alex — Lập kế hoạch",
+      "category": "Nhân vật",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alex-plan",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        640,
+        768,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "mpt-alex-buffer",
+      "name": "Alex — Giữ quỹ đệm",
+      "category": "Nhân vật",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alex-buffer",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        1280,
+        768,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "mpt-old-phone",
+      "name": "Điện thoại cũ nứt màn hình",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "old-phone",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        0,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-new-phone",
+      "name": "Điện thoại mới",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "new-phone",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        512,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-compact-car",
+      "name": "Xe nhỏ màu coral",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "compact-car",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        1024,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-sofa",
+      "name": "Ghế sofa teal",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "sofa",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        1536,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-parcel",
+      "name": "Kiện hàng",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "parcel",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        0,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-refrigerator",
+      "name": "Tủ lạnh",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "refrigerator",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        512,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-streaming",
+      "name": "Màn hình đăng ký",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "streaming",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        1024,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-bank-card",
+      "name": "Thẻ thanh toán",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "bank-card",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        1536,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-receipt",
+      "name": "Biên lai trả góp",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "receipt",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        0,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-wrench",
+      "name": "Cờ lê sửa xe",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "wrench",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        512,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-pay-envelope",
+      "name": "Phong bì tiền lương",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "pay-envelope",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        1024,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-empty-wallet",
+      "name": "Ví trống",
+      "category": "Mua sắm & trả góp",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "empty-wallet",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/purchase-props.png",
+      "crop": [
+        1536,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-calendar",
+      "name": "Lịch thanh toán",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "calendar",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        0,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-cash-stack",
+      "name": "Xấp tiền",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "cash-stack",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        512,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-coins",
+      "name": "Chồng tiền xu",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "coins",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        1024,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-savings-jar",
+      "name": "Lọ quỹ đệm",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "savings-jar",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        1536,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-clipboard",
+      "name": "Bảng ghi kế hoạch",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "clipboard",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        0,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-clock",
+      "name": "Đồng hồ thời hạn",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "clock",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        512,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-alert-bell",
+      "name": "Chuông nhắc hạn",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "alert-bell",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        1024,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-shield",
+      "name": "Khiên kiểm tra",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "shield",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        1536,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-padlock",
+      "name": "Ổ khóa cam kết",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "padlock",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        0,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-broken-chain",
+      "name": "Tháo xích nghĩa vụ",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "broken-chain",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        512,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-comparison-cards",
+      "name": "Hai thẻ lựa chọn",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "comparison-cards",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        1024,
+        896,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "mpt-cash-tray",
+      "name": "Khay tiền dự phòng",
+      "category": "Lập kế hoạch",
+      "tags": [
+        "monthly payment",
+        "installment",
+        "cash-tray",
+        "mpt"
+      ],
+      "src": "videos/002-monthly-payment-trap/images/sheets/planning-props.png",
+      "crop": [
+        1536,
+        896,
+        512,
+        448
+      ]
     }
   ]
 }

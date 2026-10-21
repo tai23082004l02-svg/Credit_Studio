@@ -30,7 +30,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 ## Kho đạo cụ dùng chung
 
-Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 31 mục: 27 đạo cụ và 4 tư thế Alex trong nhóm **Nhân vật** (vui mừng, lo lắng, suy nghĩ, giới thiệu). Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
+Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 61 mục: 51 đạo cụ và 10 tư thế Alex trong nhóm **Nhân vật** (4 tư thế ban đầu và 6 hành động mới cho video trả góp). Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
 
 Trong **Dựng video**, chọn lớp ảnh/nhân vật trên khung xem hoặc danh sách **Các lớp**, bấm **Thay đạo cụ** trong **Chỉnh phần tử**, rồi tìm/lọc mẫu thay thế. Thao tác giữ vị trí, khung kích thước, thời điểm và hiệu ứng; có Hoàn tác/Làm lại và tự lưu. Chỉ thay lớp đang chọn, không đổi các cảnh khác đang dùng cùng hình. Nếu lớp là ảnh cảnh tổng thể, thao tác thay cả ảnh đó.
 
@@ -72,6 +72,10 @@ Mỗi video tiếp theo sẽ có thư mục riêng dưới `videos/` để khôn
 Thư mục hình, dự án dựng và bản xuất sẽ được thêm vào từng video khi có các tệp đó.
 
 [Xem bộ hình video đầu tiên](https://tai23082004l02-svg.github.io/Credit_Studio/videos/001-100k-salary/) · [Phân cảnh](videos/001-100k-salary/storyboard.md).
+
+## Video thứ hai — Monthly Payment Trap
+
+[Mở dự án video 002](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002) · [Xem bộ hình](videos/002-monthly-payment-trap/) · [Hướng dẫn](videos/002-monthly-payment-trap/README.md). Có 16 khung hình (8 minh họa + 8 bố cục thông tin chỉnh riêng), 3 sheet trong suốt có ô đều, bản hướng dẫn đánh số, 30 PNG tách sẵn và tọa độ cắt. Tiêu đề và số dùng Times New Roman, nằm ngoài vùng minh họa. Đã lưu lời thoại được chấp thuận; chưa nhận audio, chưa có MP4 hoặc thời lượng video chính thức. Bảng cảnh trong Dựng video dùng 6 giây/cảnh để xem hình, không phải bản dựng đã căn lời đọc.
 
 ## Gửi âm thanh cho video đầu tiên
 

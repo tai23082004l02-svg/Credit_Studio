@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-21",
+  "stage": "artwork only; narration pending",
+  "frames": 16,
+  "narrativeIllustrations": 8,
+  "layeredInfographicFrames": 8,
+  "transparentAtlases": 3,
+  "atlasGuides": 3,
+  "newCharacterPoses": 6,
+  "newProps": 24,
+  "isolatedPNGs": 30,
+  "checks": [
+    "Reviewed all 16 composited frames and Alex atlas guide visually",
+    "All 30 atlas cell crops have at least 40 pixels clear of meaningful alpha at cell boundaries",
+    "All isolated PNGs have 32-pixel transparent outer padding",
+    "All 16 design projects pass schema validation; no stretched images or off-canvas elements",
+    "Narrative frame titles are outside illustration rectangles",
+    "Arithmetic verified: 37.50×24=900; recurring example total=817.50; 60×36−75×24=360",
+    "Browser: gallery, PNG download, Studio image editing, silent storyboard, shared props and mobile",
+    "Existing prop-library, replace-prop, project-workspaces browser suites passed",
+    "10 engine, WebM and media-storage unit tests passed",
+    "Video 001 source, WAV, projects, MP4s and application source unchanged"
+  ],
+  "pending": [
+    "User artwork review",
+    "Source narration WAV/MP3",
+    "Final shot timing, entrance/middle/exit inspection with actual animation",
+    "Final audio mix/loudness, subtitles, new MP4 review export"
+  ]
+}
