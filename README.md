@@ -77,6 +77,10 @@ Thư mục hình, dự án dựng và bản xuất sẽ được thêm vào từ
 
 [Mở dự án video 002](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002) · [Xem bộ hình](videos/002-monthly-payment-trap/) · [Hướng dẫn](videos/002-monthly-payment-trap/README.md). Có 16 khung hình (8 minh họa + 8 bố cục thông tin chỉnh riêng), 3 sheet trong suốt có ô đều, bản hướng dẫn đánh số, 30 PNG tách sẵn và tọa độ cắt. Tiêu đề và số dùng Times New Roman, nằm ngoài vùng minh họa. Đã nhận WAV và dựng **79 cảnh / 495,475 giây**, [MP4 duyệt v01](videos/002-monthly-payment-trap/exports/full-review-v01.mp4), chữ Times New Roman, audio dẫn xuất được nâng âm lượng, chưa nhạc nền. Bản dựng chỉnh được ở `review/project.json`; bảng hình 96 giây trước đó vẫn được giữ. [Timecode và trạng thái](videos/002-monthly-payment-trap/review/README.md).
 
+## Video thứ tư — Living Alone (lời thoại)
+
+Video 004 đã chốt **Why Living Alone Has Become So Expensive**, thử phong cách tài liệu tài chính với ảnh cắt ghép/nền giấy kem/đỏ trầm, vẫn dùng Times New Roman. Có [lời thoại tiếng Anh v01](videos/004-living-alone/script.md), [bản chỉ lời đọc](videos/004-living-alone/narration.txt) và [nguồn/phép tính](videos/004-living-alone/sources.md). Khoảng 1.279 từ, dự kiến 8–10 phút. Đang chờ xem lời thoại; chưa có audio, hình hoặc bản dựng, chưa thêm dự án rỗng vào Studio.
+
 ## Gửi âm thanh cho video đầu tiên
 
 Mở [thư mục audio trên GitHub](https://github.com/tai23082004l02-svg/Credit_Studio/tree/main/videos/001-100k-salary/audio), chọn **Add file → Upload files**, tải tệp lên rồi chọn **Commit changes** vào nhánh `main`.

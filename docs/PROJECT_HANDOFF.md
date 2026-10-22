@@ -1,6 +1,16 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
-Cập nhật: 2026-10-21. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
+Cập nhật: 2026-10-22. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
+
+## Video 004 — lời thoại Living Alone v01 (2026-10-22, trạng thái mới nhất)
+
+Người dùng cân nhắc kể chuyện/bí ẩn/lịch sử rồi quyết định **quay lại tài chính**, chốt **Why Living Alone Has Become So Expensive** và yêu cầu chuẩn bị lời thoại. Phong cách mới riêng video 004: **phim tài liệu tài chính thu nhỏ, ảnh cắt ghép có viền, giấy kem, đỏ trầm, Times New Roman**, lời đọc tiếng Anh Mỹ. Không đổi phong cách/tài nguyên ba video trước.
+
+Đã lưu `videos/004-living-alone/script.md`: 8 phần / khoảng **1.279 từ**, 8–10 phút dự kiến; `narration.txt` chỉ chứa lời đọc để TTS; `sources.md` đối chiếu nguồn và số học; README/trang hướng dẫn audio. Đây là bản lời thoại v01 chờ người dùng xem, chưa chốt audio. **Chưa có hình, storyboard, audio, dự án dựng hoặc MP4; chưa thêm mục rỗng trong projects.json.**
+
+Mạch: nhận chìa khóa → chi phí theo hộ → giá tăng/living alone phổ biến → khoản nhỏ và upfront → rủi ro một thu nhập → giá trị riêng tư → kế hoạch cho một người → kết. Alex/hai người bạn là minh họa hư cấu: rent 1.800 vs 2.400/2=1.200; internet 60 vs 60/2=30; rent+internet 1.860 vs 1.230, chênh 630/tháng=7.560/năm; 2×1.860=3.720 chỉ hai nhóm chi, không phải emergency target đầy đủ. Luôn ghi minh họa, không national averages. Dữ liệu lịch sử: Census 2024 38,5 triệu/29% **hộ**, BLS rent CPI +4,3% 12 tháng kết thúc 12/2024; không gọi là bộ số mới nhất/giá thuê hiện tại 2026. CFPB hỗ trợ phần quỹ khẩn cấp, mục tiêu tùy hoàn cảnh. Link trực tiếp tại sources.md.
+
+Đã kiểm tra 8 phần, bản narration khớp nội dung script, phép tính, link tài liệu và diff chỉ tài liệu mới + README/handoff; không cần render hoặc test trình duyệt cho thay đổi tài liệu. Video 001–003, projects.json, thư viện, WAV/MP4 và IndexedDB không bị sửa. Tiếp theo: người dùng xem lời thoại, yêu cầu tạo hình theo phong cách mới rồi cung cấp audio để dựng. Chưa tự tạo ảnh hoặc xuất video trong bước lời thoại.
 
 ## Mục tiêu và quyết định đã chốt
 

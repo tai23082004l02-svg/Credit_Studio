@@ -1,0 +1,187 @@
+# Why Living Alone Has Become So Expensive
+
+Bản lời thoại v01 · Khán giả Mỹ · Giọng Anh Mỹ tự nhiên, trầm vừa, có cảm xúc; đọc như kể một câu chuyện, không đọc như quảng cáo. Chỉ thu phần tiếng Anh dưới các tiêu đề đánh số; bỏ tiêu đề và hướng dẫn này. Có bản chỉ lời đọc ở `narration.txt`. Thời lượng là dự kiến theo tốc độ đọc, chưa có audio thực tế. Alex và mọi ngân sách là ví dụ hư cấu minh họa; dữ liệu lịch sử có năm và nguồn riêng tại `sources.md`.
+
+## 01 — The keys
+
+The first night in your own apartment feels different.
+
+You put your keys on the counter. You leave your shoes wherever you want. Nobody asks when you'll be home.
+
+For a moment, the silence feels like success.
+
+Then the bills arrive.
+
+Rent. Electricity. Internet. Groceries.
+
+And you notice something strange.
+
+There's only one person living here. But most of the bills don't look like half of anything.
+
+You use one bedroom. You watch one television. You eat one dinner.
+
+So why does living alone feel like you're paying for an entire household?
+
+Because, in several important ways, you are.
+
+To understand why it has become so expensive, we need to separate two things: prices going up, and the cost of having nobody to split them with.
+
+## 02 — One front door, one full bill
+
+Imagine two apartments in the same building.
+
+Alex lives alone in a one-bedroom apartment. Across the hall, two friends share a two-bedroom.
+
+Let's use an illustrative budget, not a national average.
+
+Alex pays eighteen hundred dollars a month in rent.
+
+The two-bedroom costs twenty-four hundred. Split equally, that's twelve hundred dollars each.
+
+The shared apartment costs more overall. But each person pays six hundred dollars less than Alex.
+
+Now add internet.
+
+Suppose both apartments have the same sixty-dollar plan. Alex pays sixty. Each friend pays thirty.
+
+That puts Alex at eighteen hundred and sixty dollars for rent and internet. Each friend pays twelve hundred and thirty.
+
+A difference of six hundred and thirty dollars a month. Seven thousand five hundred and sixty dollars over a year.
+
+That's before comparing utilities or anything else.
+
+These aren't identical living arrangements. Alex gets privacy, and the friends share a kitchen and living room. Local prices could make the gap much smaller or much larger.
+
+But the mechanism is simple: sharing a household lets people divide some costs that don't double when a second person moves in.
+
+## 03 — What changed
+
+That sharing advantage isn't new.
+
+What's changed is the price of the things being shared.
+
+Take rent. The Bureau of Labor Statistics reported that its rent of primary residence index rose four point three percent over the twelve months ending December twenty twenty-four.
+
+That's a national measure of rent changes, not a quote for your next apartment. Your city, building, and lease can tell a different story.
+
+But it shows how a cost can keep getting bigger even after the fastest inflation has passed.
+
+Slower price growth still means prices are rising. It doesn't mean the old price comes back.
+
+And when your rent increases, there's nobody across the breakfast table to share the increase with.
+
+Living alone is also far from unusual. In twenty twenty-four, the Census Bureau counted about thirty-eight point five million one-person households, roughly twenty-nine percent of all U.S. households.
+
+That's households, not twenty-nine percent of Americans.
+
+People live alone after a move, a breakup, a loss, or simply because they prefer it.
+
+Different stories. The same practical question: how much household can one income carry?
+
+## 04 — The smaller bills add up
+
+Some costs shrink when you live alone. Others barely move.
+
+You probably use less water than two people. You buy less food. Your electricity use may be lower.
+
+But a refrigerator still runs all day. An internet connection still needs a plan. A couch doesn't come at half price because only one person sits on it.
+
+Even groceries involve tradeoffs.
+
+A larger package might cost less per serving, but only if you actually use it. The cheaper bag of spinach isn't cheaper if half of it ends up in the trash.
+
+Buying smaller portions can mean paying more per ounce. Buying bigger portions can mean paying for food you never eat.
+
+Then there are the costs of setting up a home.
+
+A mattress. Pots and pans. Cleaning supplies. A table.
+
+Some are one-time purchases, not monthly bills. But if they all arrive during your first month, your checking account feels the difference immediately.
+
+And a security deposit, even if it's refundable, ties up cash you can't use elsewhere.
+
+The rent advertised online is only one part of what it takes to move in and stay there.
+
+## 05 — One income, no automatic backup
+
+There's another cost that doesn't appear on the lease.
+
+The risk is concentrated.
+
+If Alex loses a job, the apartment still needs the full rent. The utility company still sends the bill.
+
+A household with two earners may have another paycheck to lean on. That isn't guaranteed protection. Both people can lose work, and two people also have more expenses.
+
+But living alone on one paycheck means there is no second household income automatically waiting in the background.
+
+Go back to Alex's example.
+
+Rent and internet alone need eighteen hundred and sixty dollars each month. Two months of just those bills would be thirty-seven hundred and twenty dollars.
+
+That's not a complete emergency fund target. It leaves out food, utilities, transportation, healthcare, and other obligations.
+
+It's a way to see the exposure.
+
+When one person carries the full household bill, protecting that income becomes part of the cost of independence.
+
+## 06 — What privacy is worth
+
+At this point, the obvious advice is: get a roommate.
+
+Sometimes, that is the right financial move.
+
+But people don't choose a home using a calculator alone.
+
+Living alone can mean sleeping properly after a night shift. Recovering from a difficult relationship. Having a quiet place to work. Feeling safe.
+
+Those benefits are real, even when you can't put a precise dollar amount on them.
+
+The useful question is whether the extra cost fits alongside the rest of your life.
+
+In Alex's example, the rent-and-internet difference is six hundred and thirty dollars a month.
+
+For someone else, it might be much less. Or much more.
+
+Once you estimate your own difference, you can decide what you're getting for it, what you're giving up, and whether that trade still feels worth making.
+
+## 07 — Build a plan for one
+
+Start with the full cost of your home.
+
+Before signing a lease, add rent, required fees, utilities, internet, renters insurance, and the transportation costs tied to that location.
+
+A cheaper apartment that requires a car can leave you spending more overall.
+
+List moving costs separately. Include deposits, basic furniture, and the money needed before the first normal month even begins.
+
+Then build a bare-bones monthly budget: the expenses you'd still need to cover if your income stopped.
+
+Use that number to start planning a cash buffer that fits your situation. Even a small reserve can help with a surprise bill; building one takes time.
+
+Next, examine the biggest recurring commitments before spending all your energy on tiny purchases.
+
+A smaller apartment, a different neighborhood, or a lower-cost internet plan may create room. Check the actual tradeoffs, including safety, commute, and moving expenses.
+
+For food, plan around ingredients you can finish. Freeze portions. Compare the cost of what you eat, not just the price on the package.
+
+And build a practical support network. Someone you can call when you're sick or need help getting home.
+
+Living independently doesn't mean handling every problem without anyone else.
+
+## 08 — The room to stay
+
+The next time Alex puts the keys on the counter, the apartment is still quiet.
+
+The privacy still matters.
+
+But now the budget includes more than the rent. It includes the smaller bills, the move-in costs, and a plan for the months that don't go smoothly.
+
+Living alone has become more expensive because higher prices meet a household that has fewer ways to share them.
+
+Understanding that won't make a lease cheaper. It can help explain why being careful with money sometimes still feels like falling behind.
+
+If living alone matters to you, give it an honest place in your budget.
+
+And leave room for something beyond paying to stay there.
+
+The goal is to enjoy the home you worked for, with enough breathing room to keep it.
