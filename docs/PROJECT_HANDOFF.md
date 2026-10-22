@@ -178,7 +178,7 @@ MP4 v03 đã giải mã toàn bộ không lỗi: 14.603 khung, 486,766667 giây 
 
 ## Video 003 — bộ hình Car Payment Trap (2026-10-22)
 
-Người dùng đã chọn chủ đề **Your Car Payment Is Keeping You Broke**, nhận lời thoại và yêu cầu tạo hình. Đã lưu lời thoại tiếng Anh đúng bản trong chat vào `videos/003-car-payment-trap/script.md` và tạo bộ tài nguyên mới, đăng ký dự án **finance-003** trên trang chủ.
+Người dùng đã chọn chủ đề **Your Car Payment Is Keeping You Broke**, nhận lời thoại và yêu cầu tạo hình. Đã lưu lời thoại tiếng Anh từ bản trong chat vào `videos/003-car-payment-trap/script.md` và tạo bộ tài nguyên mới, đăng ký dự án **finance-003** trên trang chủ.
 
 - 8 PNG minh họa mới theo 8 phần lời thoại: đại lý/giá tháng, chi phí sở hữu, kỳ hạn dài, negative equity, cash flow so với resale value, mục tiêu bị chiếm chỗ, so sánh báo giá, lựa chọn xe phù hợp cuộc sống.
 - 8 bảng thông tin bổ sung; tổng **16 thiết kế JSON chỉnh được**, 16 PNG xem trước qua cùng renderer Studio. Tiêu đề ngoài vùng minh họa; ảnh giữ tỉ lệ, đầu/tay/chân đầy đủ. Chữ/số Times New Roman tách riêng; hình/nhãn trong thẻ căn giữa.
@@ -194,3 +194,5 @@ Kiểm tra `tests/car-payment-artwork.cjs`: 16 ảnh tải đủ, 2 atlas và 12
 Số liệu cần giữ: vay $35,000 ở APR 8% / 72 tháng → khoảng $614/tháng, tổng khoảng $44,200 và lãi khoảng $9,200 (fixed rate, không thêm financed fees); 614 + 180 + 160 + 90 = 1,044, một năm 12,528 làm tròn gần 12,500; negative equity 28,000 − 23,000 = 5,000; xe thay 30,000 + nợ cũ 5,000 = 35,000 trước thuế/phí và tùy lender; giảm chi 200/tháng tương đương 2,400/năm. Không cộng depreciation vào toàn bộ payment rồi gọi là cash spending.
 
 Tiếp theo: người dùng làm giọng đọc từ script và tải bản gốc vào `videos/003-car-payment-trap/audio/` (gợi ý `car-payment-trap-voiceover.wav`). Sau khi nhận, căn toàn bộ video và chuyển động theo WAV, tạo review/MP4 tên mới; lưu bảng hình cũ. Nếu đã chỉnh trong Studio, nhận `.credit.json`/JSON trước khi tiếp tục từ sửa riêng đó. Khi có bản narrated review thật, thêm quy tắc nâng cấp riêng finance-003 từ revision bảng hình, dùng giao dịch archive draft cũ trước khi đổi main; chưa thêm quy tắc này lúc chưa có review. R2/CORS/manifest không thay đổi.
+
+Trước khi thu âm video 003, đã sửa một câu chuyển thời gian ở phần 04 từ “A couple of years pass” thành “Some time passes”. Lý do: $28,000 là số dư giả định cho ví dụ negative equity, không phải số dư chính xác sau 24 kỳ của khoản vay $35,000 / APR 8% / 72 tháng ở phần trước. Giữ nguyên các con số và toàn bộ hình; đã thông báo thay đổi cho người dùng.
