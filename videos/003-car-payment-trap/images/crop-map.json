@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "coordinateFormat": "[x, y, width, height], zero-based. sourceCrop/sourceArtCrop use sourceImage pixels; crop/artBounds use packed image pixels.",
+  "padding": 32,
+  "sheets": [
+    {
+      "id": "car-props",
+      "title": "Đạo cụ xe và khoản vay",
+      "sourceImage": "images/originals/car-props.png",
+      "columns": 4,
+      "rows": 2,
+      "items": [
+        {
+          "id": "car3-red-sedan",
+          "slug": "red-sedan",
+          "name": "Xe sedan coral",
+          "sourceCrop": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "image": "images/cutouts/red-sedan.png",
+          "sourceArtCrop": [
+            33,
+            148,
+            402,
+            232
+          ],
+          "crop": [
+            0,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            56,
+            97,
+            400,
+            255
+          ]
+        },
+        {
+          "id": "car3-teal-sedan",
+          "slug": "teal-sedan",
+          "name": "Xe sedan teal",
+          "sourceCrop": [
+            444,
+            0,
+            443,
+            444
+          ],
+          "image": "images/cutouts/teal-sedan.png",
+          "sourceArtCrop": [
+            488,
+            147,
+            399,
+            231
+          ],
+          "crop": [
+            512,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            568,
+            97,
+            400,
+            255
+          ]
+        },
+        {
+          "id": "car3-car-keys",
+          "slug": "car-keys",
+          "name": "Chìa khóa ô tô",
+          "sourceCrop": [
+            887,
+            0,
+            443,
+            444
+          ],
+          "image": "images/cutouts/car-keys.png",
+          "sourceArtCrop": [
+            954,
+            126,
+            363,
+            287
+          ],
+          "crop": [
+            1024,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1085,
+            64,
+            390,
+            320
+          ]
+        },
+        {
+          "id": "car3-auto-insurance",
+          "slug": "auto-insurance",
+          "name": "Bảo hiểm ô tô",
+          "sourceCrop": [
+            1330,
+            0,
+            444,
+            444
+          ],
+          "image": "images/cutouts/auto-insurance.png",
+          "sourceArtCrop": [
+            1424,
+            79,
+            288,
+            334
+          ],
+          "crop": [
+            1536,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1650,
+            64,
+            284,
+            320
+          ]
+        },
+        {
+          "id": "car3-fuel-pump",
+          "slug": "fuel-pump",
+          "name": "Trụ bơm nhiên liệu",
+          "sourceCrop": [
+            0,
+            444,
+            444,
+            443
+          ],
+          "image": "images/cutouts/fuel-pump.png",
+          "sourceArtCrop": [
+            99,
+            465,
+            284,
+            345
+          ],
+          "crop": [
+            0,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            120,
+            512,
+            273,
+            320
+          ]
+        },
+        {
+          "id": "car3-loan-folder",
+          "slug": "loan-folder",
+          "name": "Hồ sơ khoản vay",
+          "sourceCrop": [
+            444,
+            444,
+            443,
+            443
+          ],
+          "image": "images/cutouts/loan-folder.png",
+          "sourceArtCrop": [
+            498,
+            506,
+            358,
+            297
+          ],
+          "crop": [
+            512,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            581,
+            512,
+            375,
+            320
+          ]
+        },
+        {
+          "id": "car3-trade-in-envelope",
+          "slug": "trade-in-envelope",
+          "name": "Phong bì nợ chuyển tiếp",
+          "sourceCrop": [
+            887,
+            444,
+            443,
+            443
+          ],
+          "image": "images/cutouts/trade-in-envelope.png",
+          "sourceArtCrop": [
+            962,
+            488,
+            345,
+            306
+          ],
+          "crop": [
+            1024,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1103,
+            512,
+            354,
+            320
+          ]
+        },
+        {
+          "id": "car3-offer-sheet",
+          "slug": "offer-sheet",
+          "name": "Bảng báo giá xe",
+          "sourceCrop": [
+            1330,
+            444,
+            444,
+            443
+          ],
+          "image": "images/cutouts/offer-sheet.png",
+          "sourceArtCrop": [
+            1433,
+            459,
+            268,
+            351
+          ],
+          "crop": [
+            1536,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1664,
+            512,
+            256,
+            320
+          ]
+        }
+      ],
+      "image": "images/sheets/car-props.png",
+      "guide": "images/sheets/car-props-guide.png",
+      "width": 2048,
+      "height": 896
+    },
+    {
+      "id": "alex-actions",
+      "title": "Alex — Quyết định mua xe",
+      "sourceImage": "images/originals/alex-car-actions.png",
+      "columns": 2,
+      "rows": 2,
+      "items": [
+        {
+          "id": "car3-alex-keys",
+          "slug": "alex-keys",
+          "name": "Alex — Cầm chìa khóa",
+          "sourceCrop": [
+            0,
+            0,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-keys.png",
+          "sourceArtCrop": [
+            86,
+            38,
+            385,
+            708
+          ],
+          "crop": [
+            0,
+            0,
+            640,
+            768
+          ],
+          "artBounds": [
+            134,
+            64,
+            373,
+            640
+          ]
+        },
+        {
+          "id": "car3-alex-compare-offers",
+          "slug": "alex-compare-offers",
+          "name": "Alex — So sánh báo giá",
+          "sourceCrop": [
+            512,
+            0,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-compare-offers.png",
+          "sourceArtCrop": [
+            571,
+            41,
+            386,
+            702
+          ],
+          "crop": [
+            640,
+            0,
+            640,
+            768
+          ],
+          "artBounds": [
+            772,
+            64,
+            376,
+            640
+          ]
+        },
+        {
+          "id": "car3-alex-phone-quote",
+          "slug": "alex-phone-quote",
+          "name": "Alex — Xem báo giá trên điện thoại",
+          "sourceCrop": [
+            0,
+            768,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-phone-quote.png",
+          "sourceArtCrop": [
+            81,
+            785,
+            402,
+            707
+          ],
+          "crop": [
+            0,
+            768,
+            640,
+            768
+          ],
+          "artBounds": [
+            127,
+            832,
+            387,
+            640
+          ]
+        },
+        {
+          "id": "car3-alex-explain-car",
+          "slug": "alex-explain-car",
+          "name": "Alex — Giải thích lựa chọn",
+          "sourceCrop": [
+            512,
+            768,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-explain-car.png",
+          "sourceArtCrop": [
+            547,
+            784,
+            467,
+            706
+          ],
+          "crop": [
+            640,
+            768,
+            640,
+            768
+          ],
+          "artBounds": [
+            739,
+            832,
+            442,
+            640
+          ]
+        }
+      ],
+      "image": "images/sheets/alex-actions.png",
+      "guide": "images/sheets/alex-actions-guide.png",
+      "width": 1280,
+      "height": 1536
+    }
+  ]
+}

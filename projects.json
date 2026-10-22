@@ -30,6 +30,19 @@
       "cover": "videos/002-monthly-payment-trap/images/scenes/01a.png",
       "audio": "videos/002-monthly-payment-trap/audio/monthly-payment-trap-voiceover.wav",
       "review": "videos/002-monthly-payment-trap/exports/full-review-v01.mp4"
+    },
+    {
+      "id": "finance-003",
+      "name": "Your Car Payment Is Keeping You Broke",
+      "description": "Video tài chính · Alex · 16 thiết kế ảnh · 12 PNG rời · Chờ giọng đọc",
+      "kind": "video",
+      "status": "Đã chuẩn bị hình · Chờ audio",
+      "createdAt": "2026-10-22T00:00:00.000Z",
+      "defaultVideo": "videos/003-car-payment-trap/storyboard/project.json",
+      "artwork": "videos/003-car-payment-trap/artwork.json",
+      "gallery": "videos/003-car-payment-trap/",
+      "script": "videos/003-car-payment-trap/script.md",
+      "cover": "videos/003-car-payment-trap/images/scenes/01a.png"
     }
   ]
 }

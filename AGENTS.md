@@ -17,3 +17,5 @@ For video production, also read the current video's README, script and storyboar
 Use validation appropriate to the change; commands and deployment instructions are in README.md. Documentation-only changes do not require video rendering or browser tests.
 
 - Content animation uses validated per-layer `animation` keys in `video/engine.js`. Keep interpolation deterministic for seeking/export, and preserve legacy projects with no animation. Currency and account-meter widths must agree; calendar rollover uses step easing. UI controls live in `video/editor.js`. Tests: `video-motion.mjs`, `video-motion-editor.cjs`, `salary-motion-review.cjs`, `salary-motion-upgrade.cjs`.
+
+- Video 003 (`videos/003-car-payment-trap/`, `finance-003`) has 16 artwork designs, 8 illustrations and 12 new isolated assets, but no audio or finished video. Its `storyboard/project.json` is a silent 96-second browsing board, revision `car-artwork-board-v01`. Do not mistake it for a narrated review. Receive WAV before timing; archive browser drafts before any later published-review promotion. Shared library now has 73 items (59 props, 14 Alex poses).

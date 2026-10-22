@@ -175,3 +175,22 @@ Kiểm tra: 15 unit test engine/motion/WebM/media; Playwright `salary-motion-rev
 Tiếp theo: duyệt mức độ chuyển động trong v03 và gửi góp ý kèm timecode. Nếu tiếp tục từ các sửa riêng trong Studio, nhận bản sao lưu trước. Lần xuất sau dùng v04, giữ các bản cũ.
 
 MP4 v03 đã giải mã toàn bộ không lỗi: 14.603 khung, 486,766667 giây do làm tròn 30 fps, H.264/AAC. Âm lượng đo thực tế −16,69 LUFS, true peak −1,56 dBTP; đối chiếu tiếng ở giây 10/200/480 có độ trễ 0 mẫu và tương quan ngắn hạn >0,9999. Kiểm tra vùng thanh ngay trong MP4 thấy giảm từ khoảng 1.192 xuống 740 pixel, đúng số dư 3.700/6.000; đã xem khung lịch tháng 2 ngày 1. Có bản xem nhanh **18,36 giây** ở `exports/motion-preview-v03.mp4`, trích ba đoạn từ MP4 đầy đủ.
+
+## Video 003 — bộ hình Car Payment Trap (2026-10-22)
+
+Người dùng đã chọn chủ đề **Your Car Payment Is Keeping You Broke**, nhận lời thoại và yêu cầu tạo hình. Đã lưu lời thoại tiếng Anh đúng bản trong chat vào `videos/003-car-payment-trap/script.md` và tạo bộ tài nguyên mới, đăng ký dự án **finance-003** trên trang chủ.
+
+- 8 PNG minh họa mới theo 8 phần lời thoại: đại lý/giá tháng, chi phí sở hữu, kỳ hạn dài, negative equity, cash flow so với resale value, mục tiêu bị chiếm chỗ, so sánh báo giá, lựa chọn xe phù hợp cuộc sống.
+- 8 bảng thông tin bổ sung; tổng **16 thiết kế JSON chỉnh được**, 16 PNG xem trước qua cùng renderer Studio. Tiêu đề ngoài vùng minh họa; ảnh giữ tỉ lệ, đầu/tay/chân đầy đủ. Chữ/số Times New Roman tách riêng; hình/nhãn trong thẻ căn giữa.
+- 2 sheet nguồn và 2 atlas đóng gói nền trong suốt, có guide ô đều/nhãn tham chiếu. **12 PNG rời mới: 8 đạo cụ ô tô và 4 tư thế Alex**. Cắt theo ô gốc, lấy trọn vùng hình và thêm 32 pixel trong suốt quanh mỗi mục; atlas giữ khoảng đệm ít nhất 40 pixel quanh nét rõ. Không dùng ảnh cảnh phức tạp làm nguồn cắt vật thể.
+- `asset-layout.json`: cấu hình; `images/crop-map.json`: sourceCrop/sourceArtCrop theo sheet nguồn, crop/artBounds theo atlas đã đóng gói. Không hoán đổi hệ tọa độ. Các bản nguồn AI giữ nguyên, thông tin/hash tại `image-generation.json`.
+- 6 biểu tượng dùng lại từ kho cũ được đóng gói vào `images/reused/`, không đăng ký trùng. Kho chung từ 61 lên **73 mục: 59 đạo cụ và 14 tư thế Alex**, chỉ thêm 12 ID `car3-*`; 61 mục cũ giữ nguyên dữ liệu.
+- `tools/build-car-payment-artwork.cjs`: đóng gói/cắt hình/thiết kế và xuất PNG; mặc định chặn ghi đè, chỉ `--force` sau khi sao lưu chỉnh tay. Công cụ không gọi lại AI hoặc sửa bản ghi âm.
+
+**Chưa có WAV/MP3. Chưa căn lời đọc, chưa có MP4 hoàn chỉnh.** `storyboard/project.json` là bảng hình **16 × 6 = 96 giây**, audio rỗng, revision `car-artwork-board-v01`, chỉ để duyệt bố cục. Dự án không khai báo review MP4 hoặc audio chưa tồn tại, nên nút MP4 được ẩn. Các lớp minh họa tổng thể chưa tách tiếp bên trong; PNG rời, thanh và chữ sẽ dùng để dựng chuyển động sau khi nhận audio. Chưa rig khớp hoặc nhạc nền.
+
+Kiểm tra `tests/car-payment-artwork.cjs`: 16 ảnh tải đủ, 2 atlas và 12 PNG rời, bounds vùng cắt, lề trong suốt, hình không kéo méo, tiêu đề không che minh họa, số liệu đúng phép tính và mức làm tròn, tải PNG/JSON, mở cảnh chỉnh được trong Studio, bảng video im lặng/ẩn MP4, mobile và 12 mục mới trong kho chung. Đã xem toàn bộ contact sheet và hai guide; Chrome xác nhận TimesNewRomanPS-BoldMT. Video 001/002, các dự án và bản xuất cũ không thay đổi; metadata hai dự án cũ và 61 mục đạo cụ cũ giữ nguyên.
+
+Số liệu cần giữ: vay $35,000 ở APR 8% / 72 tháng → khoảng $614/tháng, tổng khoảng $44,200 và lãi khoảng $9,200 (fixed rate, không thêm financed fees); 614 + 180 + 160 + 90 = 1,044, một năm 12,528 làm tròn gần 12,500; negative equity 28,000 − 23,000 = 5,000; xe thay 30,000 + nợ cũ 5,000 = 35,000 trước thuế/phí và tùy lender; giảm chi 200/tháng tương đương 2,400/năm. Không cộng depreciation vào toàn bộ payment rồi gọi là cash spending.
+
+Tiếp theo: người dùng làm giọng đọc từ script và tải bản gốc vào `videos/003-car-payment-trap/audio/` (gợi ý `car-payment-trap-voiceover.wav`). Sau khi nhận, căn toàn bộ video và chuyển động theo WAV, tạo review/MP4 tên mới; lưu bảng hình cũ. Nếu đã chỉnh trong Studio, nhận `.credit.json`/JSON trước khi tiếp tục từ sửa riêng đó. Khi có bản narrated review thật, thêm quy tắc nâng cấp riêng finance-003 từ revision bảng hình, dùng giao dịch archive draft cũ trước khi đổi main; chưa thêm quy tắc này lúc chưa có review. R2/CORS/manifest không thay đổi.

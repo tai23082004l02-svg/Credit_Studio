@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-22",
+  "stage": "artwork only; waiting for narration",
+  "checks": {
+    "frames": 16,
+    "atlasCount": 2,
+    "isolatedPNGs": 12
+  },
+  "font": {
+    "fonts": [
+      {
+        "familyName": "Times New Roman",
+        "postScriptName": "TimesNewRomanPS-BoldMT",
+        "isCustomFont": false,
+        "glyphCount": 25
+      }
+    ]
+  },
+  "reviewed": [
+    "all 16 composited boards",
+    "both packed sheet guides",
+    "full character hair/hands/feet",
+    "centered card icons and labels"
+  ],
+  "calculations": {
+    "payment614": true,
+    "totalRounded44200": true,
+    "interestRounded9200": true,
+    "monthlyCosts1044": true,
+    "negativeEquity5000": true,
+    "annualRoom2400": true
+  },
+  "sourceOriginalsPreserved": true,
+  "existingProjectsAndMediaUnchanged": true,
+  "original61CatalogEntriesUnchanged": true,
+  "newCatalogItems": 12,
+  "catalogTotal": 73,
+  "placeholderVideo": {
+    "clips": 16,
+    "durationSeconds": 96,
+    "audioReceived": false,
+    "finishedMP4": false
+  },
+  "browserSuites": [
+    "car-payment-artwork",
+    "project-workspaces"
+  ],
+  "pending": [
+    "Receive source WAV/MP3",
+    "Align narration and plan motion with real timings",
+    "Receive browser backup before incorporating any user-only edits"
+  ]
+}

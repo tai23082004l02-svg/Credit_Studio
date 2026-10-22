@@ -1,0 +1,274 @@
+{
+  "jobs": [
+    {
+      "id": "01a",
+      "section": 1,
+      "title": "Khoản trả nhìn có vẻ vừa túi tiền",
+      "caption": "THE PAYMENT FITS.\nDOES THE CAR?",
+      "cue": "The salesperson asks a simple question.",
+      "scene": "Alex stands full-body at left holding a small car key fob and looking cautiously pleased beside an unbranded coral-red compact sedan shown in complete three-quarter view at center-right. A friendly salesperson stands full-body at far right offering one entirely blank cream financing document. One blank small payment card floats over the car, while three distinct small unlabelled cost symbols sit neatly below it: an insurance shield, a fuel pump and a wrench. A minimal airy dealership setting with ample negative space. No words, digits, prices, letters, logos or number plates.",
+      "image": "images/illustrations/01a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "02a",
+      "section": 2,
+      "title": "Những chi phí không nằm trên màn hình trả góp",
+      "caption": "THE PAYMENT\nIS ONLY THE START.",
+      "cue": "Then the other costs arrive.",
+      "scene": "Alex stands full-body at far left with a thoughtful slightly concerned expression. An unbranded coral-red compact sedan sits fully visible in the center. Three separate large cream cost cards arranged neatly to its right show only these centered icons: insurance shield, fuel pump, wrench with small registration paper. A small separate banknote stack near the car indicates the loan payment. Spacious clear infographic illustration; all four cost groups separated, no arrows implying exact numerical proportions. No words, digits, letters, logos or written marks.",
+      "image": "images/illustrations/02a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "03a",
+      "section": 3,
+      "title": "Kỳ hạn dài làm khoản trả trông nhỏ hơn",
+      "caption": "A SMALLER PAYMENT.\nA LONGER COMMITMENT.",
+      "cue": "One way is to stretch the loan over more months.",
+      "scene": "Alex stands full-body at left pointing thoughtfully toward a winding road made from six clearly separate blank calendar pages arranged across the center and right. The same complete coral-red compact sedan is parked at the start of the road. Near the far end, small symbols for moving house, a baby stroller and a repair wrench suggest changing life circumstances, each separate from the calendar. The visual emphasizes time passing, not the vehicle becoming cheaper. No numbers or letters on calendar pages, no prices, logos, words or scribbles.",
+      "image": "images/illustrations/03a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "04a",
+      "section": 4,
+      "title": "Khoản nợ cũ đi theo chiếc xe mới",
+      "caption": "NEW CAR.\nOLD DEBT COMES ALONG.",
+      "cue": "Trading in the car doesn’t make that gap disappear.",
+      "scene": "Alex stands full-body center-left between two fully visible unbranded compact cars: an older coral-red sedan at left and a newer muted teal sedan at right. A small cream debt envelope with a coral paper tab travels along a simple clean curved arrow from the old car toward a larger blank financing folder beside the new car. The cars do not touch Alex, clear generous space around every hand and foot. Metaphor of an unpaid loan gap carried to the next purchase. No exact amounts, numerical scales, lettering, prices, logos or license-plate text.",
+      "image": "images/illustrations/04a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "05a",
+      "section": 5,
+      "title": "Tiền rời tài khoản và giá trị xe là hai góc nhìn",
+      "caption": "CASH FLOW\nAND CAR VALUE.",
+      "cue": "They measure different things.",
+      "scene": "Alex stands full-body in the middle comparing two separate cream presentation boards, one on each side. The left board contains a pay envelope, banknotes and a simple arrow pointing outward, representing monthly cash leaving an account. The right board contains the same coral-red car and a simple downward arrow beside a small price-tag shape, representing resale value. Boards have generous empty blank space and no fake line graph or numerical proportions. Head, fingers and shoes entirely visible, no overlap. No text, digits, logos or scribbles.",
+      "image": "images/illustrations/05a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "06a",
+      "section": 6,
+      "title": "Khoản trả xe chiếm chỗ của những mục tiêu khác",
+      "caption": "WHAT DOES THE CAR\nPUSH ASIDE?",
+      "cue": "The same dollars can’t also build an emergency fund",
+      "scene": "Alex stands full-body left, calmly considering financial tradeoffs. In the center a coral-red compact car rests on a sturdy cream budget tray. To the right are three distinct smaller goal objects, each on its own separate cream tray: an emergency cash jar, a credit-card debt receipt, and a moving-box with house key. A single pay envelope above the trays has simple branching arrows toward the alternatives, no fixed allocation or proportional claims. Respectful practical mood, no shame. No words, digits, prices, logos or marks.",
+      "image": "images/illustrations/06a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "07a",
+      "section": 7,
+      "title": "So sánh toàn bộ thỏa thuận trước khi ký",
+      "caption": "COMPARE THE WHOLE DEAL.",
+      "cue": "Set that limit before someone starts adjusting loan terms.",
+      "scene": "Alex stands full-body at left, holding a pencil and carefully reviewing two large blank cream vehicle offer sheets arranged neatly on separate stands to the right. The sheets have empty rectangular fields only, no writing or tiny imitation text. Separate icons sit beside the sheets: price tag, loan folder, percent symbol rendered as a simple geometric icon, blank calendar and calculator with an entirely blank screen. A small coral-red car rests below the comparison. Keep all fingers and shoes unobscured. Clean thoughtful consumer decision scene, no words, numbers, brands or logos.",
+      "image": "images/illustrations/07a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    },
+    {
+      "id": "08a",
+      "section": 8,
+      "title": "Một chiếc xe phục vụ được cuộc sống còn lại",
+      "caption": "A CAR THAT FITS\nTHE REST OF YOUR LIFE.",
+      "cue": "You need one your budget can live with.",
+      "scene": "Alex stands full-body at left with a relieved, practical smile holding a small car key fob next to the same modest fully visible coral-red compact sedan. A clear road leads toward a small welcoming home and an upright savings jar with a growing sprout in the right background. Modest reliable transport and financial breathing room, not luxury aspiration. Wide airy composition, gentle hopeful mood, every hair outline, hand and shoe fully visible, clear margins. No words, digits, brands, logos or license-plate lettering.",
+      "image": "images/illustrations/08a.png",
+      "motion": "Giữ toàn bộ hình dưới tiêu đề; thêm lớp chữ/số riêng. Căn thời gian theo WAV sau khi nhận audio."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "car-props",
+      "title": "Đạo cụ xe và khoản vay",
+      "sourceImage": "images/originals/car-props.png",
+      "columns": 4,
+      "rows": 2,
+      "items": [
+        {
+          "id": "car3-red-sedan",
+          "slug": "red-sedan",
+          "name": "Xe sedan coral",
+          "sourceCrop": [
+            0,
+            0,
+            444,
+            444
+          ],
+          "image": "images/cutouts/red-sedan.png"
+        },
+        {
+          "id": "car3-teal-sedan",
+          "slug": "teal-sedan",
+          "name": "Xe sedan teal",
+          "sourceCrop": [
+            444,
+            0,
+            443,
+            444
+          ],
+          "image": "images/cutouts/teal-sedan.png"
+        },
+        {
+          "id": "car3-car-keys",
+          "slug": "car-keys",
+          "name": "Chìa khóa ô tô",
+          "sourceCrop": [
+            887,
+            0,
+            443,
+            444
+          ],
+          "image": "images/cutouts/car-keys.png"
+        },
+        {
+          "id": "car3-auto-insurance",
+          "slug": "auto-insurance",
+          "name": "Bảo hiểm ô tô",
+          "sourceCrop": [
+            1330,
+            0,
+            444,
+            444
+          ],
+          "image": "images/cutouts/auto-insurance.png"
+        },
+        {
+          "id": "car3-fuel-pump",
+          "slug": "fuel-pump",
+          "name": "Trụ bơm nhiên liệu",
+          "sourceCrop": [
+            0,
+            444,
+            444,
+            443
+          ],
+          "image": "images/cutouts/fuel-pump.png"
+        },
+        {
+          "id": "car3-loan-folder",
+          "slug": "loan-folder",
+          "name": "Hồ sơ khoản vay",
+          "sourceCrop": [
+            444,
+            444,
+            443,
+            443
+          ],
+          "image": "images/cutouts/loan-folder.png"
+        },
+        {
+          "id": "car3-trade-in-envelope",
+          "slug": "trade-in-envelope",
+          "name": "Phong bì nợ chuyển tiếp",
+          "sourceCrop": [
+            887,
+            444,
+            443,
+            443
+          ],
+          "image": "images/cutouts/trade-in-envelope.png"
+        },
+        {
+          "id": "car3-offer-sheet",
+          "slug": "offer-sheet",
+          "name": "Bảng báo giá xe",
+          "sourceCrop": [
+            1330,
+            444,
+            444,
+            443
+          ],
+          "image": "images/cutouts/offer-sheet.png"
+        }
+      ]
+    },
+    {
+      "id": "alex-actions",
+      "title": "Alex — Quyết định mua xe",
+      "sourceImage": "images/originals/alex-car-actions.png",
+      "columns": 2,
+      "rows": 2,
+      "items": [
+        {
+          "id": "car3-alex-keys",
+          "slug": "alex-keys",
+          "name": "Alex — Cầm chìa khóa",
+          "sourceCrop": [
+            0,
+            0,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-keys.png"
+        },
+        {
+          "id": "car3-alex-compare-offers",
+          "slug": "alex-compare-offers",
+          "name": "Alex — So sánh báo giá",
+          "sourceCrop": [
+            512,
+            0,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-compare-offers.png"
+        },
+        {
+          "id": "car3-alex-phone-quote",
+          "slug": "alex-phone-quote",
+          "name": "Alex — Xem báo giá trên điện thoại",
+          "sourceCrop": [
+            0,
+            768,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-phone-quote.png"
+        },
+        {
+          "id": "car3-alex-explain-car",
+          "slug": "alex-explain-car",
+          "name": "Alex — Giải thích lựa chọn",
+          "sourceCrop": [
+            512,
+            768,
+            512,
+            768
+          ],
+          "image": "images/cutouts/alex-explain-car.png"
+        }
+      ]
+    }
+  ],
+  "reuse": [
+    {
+      "id": "mpt-cash-stack",
+      "slug": "cash-stack"
+    },
+    {
+      "id": "mpt-calendar",
+      "slug": "calendar"
+    },
+    {
+      "id": "mpt-clock",
+      "slug": "clock"
+    },
+    {
+      "id": "mpt-wrench",
+      "slug": "wrench"
+    },
+    {
+      "id": "mpt-savings-jar",
+      "slug": "savings-jar"
+    },
+    {
+      "id": "mpt-comparison-cards",
+      "slug": "comparison-cards"
+    }
+  ]
+}

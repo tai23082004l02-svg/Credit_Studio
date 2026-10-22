@@ -1050,6 +1050,222 @@
         512,
         448
       ]
+    },
+    {
+      "id": "car3-red-sedan",
+      "name": "Xe sedan coral",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "red-sedan"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        0,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-teal-sedan",
+      "name": "Xe sedan teal",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "teal-sedan"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        512,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-car-keys",
+      "name": "Chìa khóa ô tô",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "car-keys"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        1024,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-auto-insurance",
+      "name": "Bảo hiểm ô tô",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "auto-insurance"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        1536,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-fuel-pump",
+      "name": "Trụ bơm nhiên liệu",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "fuel-pump"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        0,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-loan-folder",
+      "name": "Hồ sơ khoản vay",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "loan-folder"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        512,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-trade-in-envelope",
+      "name": "Phong bì nợ chuyển tiếp",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "trade-in-envelope"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        1024,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-offer-sheet",
+      "name": "Bảng báo giá xe",
+      "category": "Ô tô & khoản vay",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "offer-sheet"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/car-props.png",
+      "crop": [
+        1536,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "car3-alex-keys",
+      "name": "Alex — Cầm chìa khóa",
+      "category": "Nhân vật",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "alex-keys"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        0,
+        0,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "car3-alex-compare-offers",
+      "name": "Alex — So sánh báo giá",
+      "category": "Nhân vật",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "alex-compare-offers"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        640,
+        0,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "car3-alex-phone-quote",
+      "name": "Alex — Xem báo giá trên điện thoại",
+      "category": "Nhân vật",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "alex-phone-quote"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        0,
+        768,
+        640,
+        768
+      ]
+    },
+    {
+      "id": "car3-alex-explain-car",
+      "name": "Alex — Giải thích lựa chọn",
+      "category": "Nhân vật",
+      "tags": [
+        "car payment",
+        "auto loan",
+        "car3",
+        "alex-explain-car"
+      ],
+      "src": "videos/003-car-payment-trap/images/sheets/alex-actions.png",
+      "crop": [
+        640,
+        768,
+        640,
+        768
+      ]
     }
   ]
 }

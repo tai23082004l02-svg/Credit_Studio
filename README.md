@@ -30,7 +30,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 ## Kho đạo cụ dùng chung
 
-Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 61 mục: 51 đạo cụ và 10 tư thế Alex trong nhóm **Nhân vật** (4 tư thế ban đầu và 6 hành động mới cho video trả góp). Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
+Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 73 mục: 59 đạo cụ và 14 tư thế Alex trong nhóm **Nhân vật** (4 tư thế ban đầu, 6 hành động cho video trả góp và 4 hành động cho video ô tô). Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
 
 Trong **Dựng video**, chọn lớp ảnh/nhân vật trên khung xem hoặc danh sách **Các lớp**, bấm **Thay đạo cụ** trong **Chỉnh phần tử**, rồi tìm/lọc mẫu thay thế. Thao tác giữ vị trí, khung kích thước, thời điểm và hiệu ứng; có Hoàn tác/Làm lại và tự lưu. Chỉ thay lớp đang chọn, không đổi các cảnh khác đang dùng cùng hình. Nếu lớp là ảnh cảnh tổng thể, thao tác thay cả ảnh đó.
 
@@ -142,3 +142,7 @@ Font hiện dùng là Times New Roman cho chữ và phụ đề. Khi dựng MP4 
 ## Chuyển động nội dung trong video
 
 Trong **Chỉnh phần tử → Chuyển động nội dung**, chọn thanh tăng/giảm, di chuyển ngang/dọc hoặc số thay đổi. Chỉnh mốc `giây: giá trị`, nhịp chuyển và định dạng số. Studio và các bản xuất dùng cùng trạng thái theo thời gian, hỗ trợ tua ngược, hoàn tác/làm lại và lưu JSON. [Hướng dẫn bản v03](videos/001-100k-salary/review-v03/README.md). Kiểm tra: `node --test tests/video-motion.mjs` và `node tests/video-motion-editor.cjs`.
+
+## Video thứ ba — Car Payment Trap
+
+[Your Car Payment Is Keeping You Broke](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-003) đã có [16 thiết kế ảnh](videos/003-car-payment-trap/), 8 minh họa, 2 sheet có ô cắt/guide và 12 PNG mới (8 đạo cụ, 4 tư thế Alex). Chữ/số Times New Roman chỉnh riêng trong Studio. [Lời thoại](videos/003-car-payment-trap/script.md) đã lưu; **chưa có audio, chưa căn thời gian và chưa có MP4**. Bảng 96 giây chỉ để duyệt hình. [Hướng dẫn](videos/003-car-payment-trap/README.md).

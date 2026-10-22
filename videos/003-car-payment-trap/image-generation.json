@@ -1,0 +1,82 @@
+{
+  "tool": "image_gen",
+  "createdAt": "2026-10-22",
+  "styleReference": "videos/001-100k-salary/review-v02/images/cashflow.png",
+  "notes": [
+    "Generated originals preserved; no financial numbers or title text in illustration PNGs",
+    "Lossless rectangular extraction and packing; source cells have no opaque art crossing boundaries",
+    "Titles and financial data are separate Times New Roman elements"
+  ],
+  "originals": [
+    {
+      "file": "images/illustrations/01a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d2fcbd38b45ade5d7228c37c8d16d8b8b4110a988f7c5afbc5e32c81c34fd153",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/02a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/03a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "765bf3c77696aaecce0e90008820ee4346479368f82eae12ec5213336a49ecde",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/04a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3f0329abd1731b3794f74281ae195d6bea2b7d4f587ae87e30bb005cef5c7449",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/05a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4228cce60e0131f76e0e5235e27dd8256595ecba6f004d0558b96cb1ae2e7b9e",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/06a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3179881a528a53546e46cc24e4130dfec1bfdf2a2223e6a4dd9dc91ae18f0a9d",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/07a.png",
+      "width": 1672,
+      "height": 940,
+      "sha256": "206edf1579436524b08cee8e92d8d97742072e4c2248d5d94c7fd86384dd5553",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/illustrations/08a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d54128cb1f90f88fb94fb69b557b5371912b2d381a880f4a389bbfb7d2ee5234",
+      "mode": "RGB"
+    },
+    {
+      "file": "images/originals/car-props.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "8bab0f5d83944ac134c609c77622d36bcc4d8c83e401292ddaffff7aa068bb0e",
+      "mode": "RGBA"
+    },
+    {
+      "file": "images/originals/alex-car-actions.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c6b196cb487376ac2981b8e70088de35275e43e32863b405e0fbc7fd9aa7cd01",
+      "mode": "RGBA"
+    }
+  ]
+}
