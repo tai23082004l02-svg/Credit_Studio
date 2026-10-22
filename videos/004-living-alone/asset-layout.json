@@ -1,0 +1,297 @@
+{
+  "jobs": [
+    {
+      "id": "01a",
+      "section": 1,
+      "title": "Nhận chìa khóa",
+      "caption": "ONE PERSON.\nONE WHOLE HOUSEHOLD.",
+      "cue": "The first night in your own apartment feels different.",
+      "image": "images/illustrations/01a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "Quiet first evening: keys on counter, modest sofa, lamp, shoes, dusk window."
+    },
+    {
+      "id": "02a",
+      "section": 2,
+      "title": "Một người trả toàn bộ, hai người chia sẻ",
+      "caption": "ONE FRONT DOOR.\nONE FULL BILL.",
+      "cue": "Imagine two apartments in the same building.",
+      "image": "images/illustrations/02a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "A cinematic architectural paper collage of TWO COMPLETE apartment interiors side by side as freestanding miniature cutaway rooms, both with fully visible outer borders. Left: a modest one-bedroom with one chair, one bed and a compact kitchen; right: a larger two-bedroom with two beds in separate rooms and a shared kitchen and two chairs. No people. One small brass key ring below left, two brass key rings below right. Ivory walls, burgundy fabric details, warm shadows, visual balance, no writing, labels or prices. Composition conveys sharing household costs without pretending the rooms are identical."
+    },
+    {
+      "id": "03a",
+      "section": 3,
+      "title": "Giá tăng, lợi thế chia sẻ vẫn còn",
+      "caption": "HIGHER PRICES.\nNO ONE TO SPLIT THEM WITH.",
+      "cue": "What's changed is the price of the things being shared.",
+      "image": "images/illustrations/03a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "An evocative editorial collage: three fully visible modest American residential buildings rising behind a large blank cream lease paper in the foreground; one burgundy upward arrow made from torn paper sits separately beside the lease. A complete small brass key ring rests in front. Architectural photography cutouts, restrained metropolitan texture. This is an abstract metaphor of rising rent, NOT a numerical chart; no data points, numbers, axis, currency or written marks. Buildings clear and discrete, no licensed landmarks."
+    },
+    {
+      "id": "04a",
+      "section": 4,
+      "title": "Những khoản nhỏ và chi phí dọn vào",
+      "caption": "SOME COSTS SHRINK.\nOTHERS BARELY MOVE.",
+      "cue": "Some costs shrink when you live alone. Others barely move.",
+      "image": "images/illustrations/04a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "A domestic still-life editorial paper collage with three visually separated clusters: a complete running ivory refrigerator and dark wifi router on left; a kraft grocery bag, spinach leaves and two plain food containers at center; a complete brown moving box holding cookware next to one blank cream deposit envelope on right. Wide composition, all items intact and comfortably inside frame. Tactile photographic objects, muted burgundy accent circle behind center. No text, brand labels or written marks."
+    },
+    {
+      "id": "05a",
+      "section": 5,
+      "title": "Một nguồn thu, toàn bộ nghĩa vụ",
+      "caption": "ONE PAYCHECK.\nTHE FULL HOUSEHOLD BILL.",
+      "cue": "The risk is concentrated.",
+      "image": "images/illustrations/05a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "A quiet empty home workspace: complete wooden desk with an unbranded closed laptop, one totally blank cream pay envelope, and a blank calendar with burgundy binding. A single empty chair beside desk and one modest apartment front door standing as a separate paper cutout on the right. A small torn burgundy paper strip between pay envelope and door visually suggests a fragile connection, not an accurate chart. Melancholy but dignified, no disaster imagery. Full silhouettes, no words or numbers."
+    },
+    {
+      "id": "06a",
+      "section": 6,
+      "title": "Sự riêng tư có giá trị",
+      "caption": "WHAT IS YOUR\nPRIVACY WORTH?",
+      "cue": "But people don't choose a home using a calculator alone.",
+      "image": "images/illustrations/06a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "A warm private reading corner: one fictional adult with short dark brown hair wearing cream sweater and dark trousers seated comfortably in a burgundy armchair, holding an entirely blank-cover book. Full seated person visible from top of hair through hands and both feet; whole armchair and complete floor lamp within generous margins. Realistic photographic paper cutouts with white edges, not cartoon. A small leafy plant, soft window light and calm open space. Privacy, rest and safety conveyed without assigning a money value. No text."
+    },
+    {
+      "id": "07a",
+      "section": 7,
+      "title": "Lên kế hoạch cho một người",
+      "caption": "BUILD A PLAN\nFOR ONE.",
+      "cue": "Start with the full cost of your home.",
+      "image": "images/illustrations/07a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "An overhead-to-oblique editorial collage still life of a practical household planning table: complete blank cream notebook open with two completely blank pages, burgundy pencil, brass key ring, compact ivory calculator with blank display, plain glass cash-reserve jar containing a few unmarked folded notes, and small paper-cut apartment building. Each object separate, no overlapping the notebook writing area, ample breathing room, photographic tactile shadows. No hands, no people, no letters, no digits or currency symbols."
+    },
+    {
+      "id": "08a",
+      "section": 8,
+      "title": "Có khoảng thở trong chính căn nhà mình",
+      "caption": "ROOM TO LIVE.\nROOM TO BREATHE.",
+      "cue": "The next time Alex puts the keys on the counter, the apartment is still quiet.",
+      "image": "images/illustrations/08a.png",
+      "motion": "Minh họa collage là một lớp ảnh tổng thể; tiêu đề tách riêng. Căn chuyển động và thời gian sau khi nhận WAV.",
+      "scene": "Hopeful closing composition echoing a modest first apartment: brass house keys with a burgundy fob resting on a complete small wooden side table; complete sofa with one burgundy cushion and a sage throw; a complete potted plant and a bright warm window behind. A small closed cream notebook and plain glass savings jar beside the keys. Peaceful morning light, mature restrained magazine collage, plenty of breathing room, no luxury imagery. No people, no writing or currency marks."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "household",
+      "title": "Nhà ở và sinh hoạt",
+      "sourceImage": "images/originals/household.png",
+      "columns": 4,
+      "rows": 2,
+      "items": [
+        {
+          "id": "solo4-house-keys",
+          "slug": "house-keys",
+          "name": "Chìa khóa nhà",
+          "image": "images/cutouts/house-keys.png",
+          "sourceCrop": [
+            0,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-apartment",
+          "slug": "apartment",
+          "name": "Tòa nhà căn hộ",
+          "image": "images/cutouts/apartment.png",
+          "sourceCrop": [
+            384,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-router",
+          "slug": "router",
+          "name": "Bộ phát internet",
+          "image": "images/cutouts/router.png",
+          "sourceCrop": [
+            768,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-bills",
+          "slug": "bills",
+          "name": "Hóa đơn trống",
+          "image": "images/cutouts/bills.png",
+          "sourceCrop": [
+            1152,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-fridge",
+          "slug": "fridge",
+          "name": "Tủ lạnh",
+          "image": "images/cutouts/fridge.png",
+          "sourceCrop": [
+            0,
+            512,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-groceries",
+          "slug": "groceries",
+          "name": "Túi thực phẩm",
+          "image": "images/cutouts/groceries.png",
+          "sourceCrop": [
+            384,
+            512,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-moving-box",
+          "slug": "moving-box",
+          "name": "Hộp chuyển nhà",
+          "image": "images/cutouts/moving-box.png",
+          "sourceCrop": [
+            768,
+            512,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-calendar",
+          "slug": "calendar",
+          "name": "Lịch trống",
+          "image": "images/cutouts/calendar.png",
+          "sourceCrop": [
+            1152,
+            512,
+            384,
+            512
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "title": "Kế hoạch và khoảng thở",
+      "sourceImage": "images/originals/planning.png",
+      "columns": 4,
+      "rows": 2,
+      "items": [
+        {
+          "id": "solo4-pay-envelope",
+          "slug": "pay-envelope",
+          "name": "Phong bì thu nhập",
+          "image": "images/cutouts/pay-envelope.png",
+          "sourceCrop": [
+            0,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-reserve-jar",
+          "slug": "reserve-jar",
+          "name": "Lọ tiền dự phòng",
+          "image": "images/cutouts/reserve-jar.png",
+          "sourceCrop": [
+            384,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-calculator",
+          "slug": "calculator",
+          "name": "Máy tính",
+          "image": "images/cutouts/calculator.png",
+          "sourceCrop": [
+            768,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-notebook",
+          "slug": "notebook",
+          "name": "Sổ kế hoạch",
+          "image": "images/cutouts/notebook.png",
+          "sourceCrop": [
+            1152,
+            0,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-armchair",
+          "slug": "armchair",
+          "name": "Ghế thư giãn",
+          "image": "images/cutouts/armchair.png",
+          "sourceCrop": [
+            0,
+            512,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-plant",
+          "slug": "plant",
+          "name": "Cây trong nhà",
+          "image": "images/cutouts/plant.png",
+          "sourceCrop": [
+            384,
+            512,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-deposit",
+          "slug": "deposit",
+          "name": "Tiền đặt cọc",
+          "image": "images/cutouts/deposit.png",
+          "sourceCrop": [
+            768,
+            512,
+            384,
+            512
+          ]
+        },
+        {
+          "id": "solo4-support-phone",
+          "slug": "support-phone",
+          "name": "Điện thoại hỗ trợ",
+          "image": "images/cutouts/support-phone.png",
+          "sourceCrop": [
+            1152,
+            512,
+            384,
+            512
+          ]
+        }
+      ]
+    }
+  ],
+  "reuse": []
+}

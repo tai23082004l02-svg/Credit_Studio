@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "coordinateFormat": "[x, y, width, height], zero-based. sourceCrop/sourceArtCrop use sourceImage pixels; crop/artBounds use packed image pixels.",
+  "padding": 32,
+  "sheets": [
+    {
+      "id": "household",
+      "title": "Nhà ở và sinh hoạt",
+      "sourceImage": "images/originals/household.png",
+      "columns": 4,
+      "rows": 2,
+      "items": [
+        {
+          "id": "solo4-house-keys",
+          "slug": "house-keys",
+          "name": "Chìa khóa nhà",
+          "image": "images/cutouts/house-keys.png",
+          "sourceCrop": [
+            0,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            67,
+            121,
+            286,
+            333
+          ],
+          "crop": [
+            0,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            115,
+            64,
+            283,
+            320
+          ]
+        },
+        {
+          "id": "solo4-apartment",
+          "slug": "apartment",
+          "name": "Tòa nhà căn hộ",
+          "image": "images/cutouts/apartment.png",
+          "sourceCrop": [
+            384,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            412,
+            70,
+            334,
+            399
+          ],
+          "crop": [
+            512,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            630,
+            64,
+            276,
+            320
+          ]
+        },
+        {
+          "id": "solo4-router",
+          "slug": "router",
+          "name": "Bộ phát internet",
+          "image": "images/cutouts/router.png",
+          "sourceCrop": [
+            768,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            802,
+            149,
+            320,
+            298
+          ],
+          "crop": [
+            1024,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1110,
+            64,
+            340,
+            320
+          ]
+        },
+        {
+          "id": "solo4-bills",
+          "slug": "bills",
+          "name": "Hóa đơn trống",
+          "image": "images/cutouts/bills.png",
+          "sourceCrop": [
+            1152,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            1214,
+            110,
+            276,
+            357
+          ],
+          "crop": [
+            1536,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1663,
+            64,
+            259,
+            320
+          ]
+        },
+        {
+          "id": "solo4-fridge",
+          "slug": "fridge",
+          "name": "Tủ lạnh",
+          "image": "images/cutouts/fridge.png",
+          "sourceCrop": [
+            0,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            89,
+            555,
+            254,
+            382
+          ],
+          "crop": [
+            0,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            142,
+            512,
+            229,
+            320
+          ]
+        },
+        {
+          "id": "solo4-groceries",
+          "slug": "groceries",
+          "name": "Túi thực phẩm",
+          "image": "images/cutouts/groceries.png",
+          "sourceCrop": [
+            384,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            438,
+            587,
+            303,
+            345
+          ],
+          "crop": [
+            512,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            624,
+            512,
+            288,
+            320
+          ]
+        },
+        {
+          "id": "solo4-moving-box",
+          "slug": "moving-box",
+          "name": "Hộp chuyển nhà",
+          "image": "images/cutouts/moving-box.png",
+          "sourceCrop": [
+            768,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            790,
+            600,
+            330,
+            330
+          ],
+          "crop": [
+            1024,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1120,
+            512,
+            320,
+            320
+          ]
+        },
+        {
+          "id": "solo4-calendar",
+          "slug": "calendar",
+          "name": "Lịch trống",
+          "image": "images/cutouts/calendar.png",
+          "sourceCrop": [
+            1152,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            1199,
+            577,
+            282,
+            343
+          ],
+          "crop": [
+            1536,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1656,
+            512,
+            273,
+            320
+          ]
+        }
+      ],
+      "image": "images/sheets/household.png",
+      "guide": "images/sheets/household-guide.png",
+      "width": 2048,
+      "height": 896
+    },
+    {
+      "id": "planning",
+      "title": "Kế hoạch và khoảng thở",
+      "sourceImage": "images/originals/planning.png",
+      "columns": 4,
+      "rows": 2,
+      "items": [
+        {
+          "id": "solo4-pay-envelope",
+          "slug": "pay-envelope",
+          "name": "Phong bì thu nhập",
+          "image": "images/cutouts/pay-envelope.png",
+          "sourceCrop": [
+            0,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            87,
+            205,
+            257,
+            195
+          ],
+          "crop": [
+            0,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            96,
+            95,
+            321,
+            259
+          ]
+        },
+        {
+          "id": "solo4-reserve-jar",
+          "slug": "reserve-jar",
+          "name": "Lọ tiền dự phòng",
+          "image": "images/cutouts/reserve-jar.png",
+          "sourceCrop": [
+            384,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            489,
+            156,
+            203,
+            272
+          ],
+          "crop": [
+            512,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            641,
+            64,
+            255,
+            320
+          ]
+        },
+        {
+          "id": "solo4-calculator",
+          "slug": "calculator",
+          "name": "Máy tính",
+          "image": "images/cutouts/calculator.png",
+          "sourceCrop": [
+            768,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            843,
+            174,
+            203,
+            244
+          ],
+          "crop": [
+            1024,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1147,
+            70,
+            267,
+            308
+          ]
+        },
+        {
+          "id": "solo4-notebook",
+          "slug": "notebook",
+          "name": "Sổ kế hoạch",
+          "image": "images/cutouts/notebook.png",
+          "sourceCrop": [
+            1152,
+            0,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            1152,
+            182,
+            322,
+            259
+          ],
+          "crop": [
+            1536,
+            0,
+            512,
+            448
+          ],
+          "artBounds": [
+            1601,
+            64,
+            383,
+            320
+          ]
+        },
+        {
+          "id": "solo4-armchair",
+          "slug": "armchair",
+          "name": "Ghế thư giãn",
+          "image": "images/cutouts/armchair.png",
+          "sourceCrop": [
+            0,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            85,
+            610,
+            278,
+            278
+          ],
+          "crop": [
+            0,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            96,
+            512,
+            320,
+            320
+          ]
+        },
+        {
+          "id": "solo4-plant",
+          "slug": "plant",
+          "name": "Cây trong nhà",
+          "image": "images/cutouts/plant.png",
+          "sourceCrop": [
+            384,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            462,
+            587,
+            242,
+            296
+          ],
+          "crop": [
+            512,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            632,
+            512,
+            272,
+            320
+          ]
+        },
+        {
+          "id": "solo4-deposit",
+          "slug": "deposit",
+          "name": "Tiền đặt cọc",
+          "image": "images/cutouts/deposit.png",
+          "sourceCrop": [
+            768,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            818,
+            662,
+            255,
+            206
+          ],
+          "crop": [
+            1024,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1121,
+            537,
+            319,
+            270
+          ]
+        },
+        {
+          "id": "solo4-support-phone",
+          "slug": "support-phone",
+          "name": "Điện thoại hỗ trợ",
+          "image": "images/cutouts/support-phone.png",
+          "sourceCrop": [
+            1152,
+            512,
+            384,
+            512
+          ],
+          "sourceArtCrop": [
+            1196,
+            596,
+            268,
+            279
+          ],
+          "crop": [
+            1536,
+            448,
+            512,
+            448
+          ],
+          "artBounds": [
+            1637,
+            512,
+            310,
+            320
+          ]
+        }
+      ],
+      "image": "images/sheets/planning.png",
+      "guide": "images/sheets/planning-guide.png",
+      "width": 2048,
+      "height": 896
+    }
+  ]
+}

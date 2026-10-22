@@ -23,4 +23,4 @@ Alex, hai người bạn và giá căn hộ cùng tòa là tình huống minh h�
 
 ## Hướng hình và nội dung cần giữ
 
-Phong cách documentary collage: giấy kem, ảnh cắt ghép có viền, đỏ trầm; chữ/số Times New Roman tách lớp. Tự tạo hoặc dùng ảnh có quyền phù hợp; không mặc định ảnh trên trang nguồn được phép tái sử dụng. Với chart số liệu lịch sử, giữ năm, đơn vị và tên nguồn trên hình. Chưa có bộ hình, storyboard theo audio hay video dựng.
+Phong cách documentary collage: giấy kem, ảnh cắt ghép có viền, đỏ trầm; chữ/số Times New Roman tách lớp. Bộ hình v01 dùng hình AI mới, không sao chép ảnh từ các trang nguồn và không trình bày như ảnh tư liệu thật. Bảng dữ liệu lịch sử giữ năm, đơn vị và tên nguồn trên hình. Đã có 16 khung hình; chưa có storyboard theo audio hay video dựng đầy đủ.

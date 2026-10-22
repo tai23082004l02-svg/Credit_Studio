@@ -1266,6 +1266,294 @@
         640,
         768
       ]
+    },
+    {
+      "id": "solo4-house-keys",
+      "name": "Chìa khóa nhà",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "house-keys"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        0,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-apartment",
+      "name": "Tòa nhà căn hộ",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "apartment"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        512,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-router",
+      "name": "Bộ phát internet",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "router"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        1024,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-bills",
+      "name": "Hóa đơn trống",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "bills"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        1536,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-fridge",
+      "name": "Tủ lạnh",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "fridge"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        0,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-groceries",
+      "name": "Túi thực phẩm",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "groceries"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        512,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-moving-box",
+      "name": "Hộp chuyển nhà",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "moving-box"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        1024,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-calendar",
+      "name": "Lịch trống",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "calendar"
+      ],
+      "src": "videos/004-living-alone/images/sheets/household.png",
+      "crop": [
+        1536,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-pay-envelope",
+      "name": "Phong bì thu nhập",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "pay-envelope"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        0,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-reserve-jar",
+      "name": "Lọ tiền dự phòng",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "reserve-jar"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        512,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-calculator",
+      "name": "Máy tính",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "calculator"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        1024,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-notebook",
+      "name": "Sổ kế hoạch",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "notebook"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        1536,
+        0,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-armchair",
+      "name": "Ghế thư giãn",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "armchair"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        0,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-plant",
+      "name": "Cây trong nhà",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "plant"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        512,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-deposit",
+      "name": "Tiền đặt cọc",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "deposit"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        1024,
+        448,
+        512,
+        448
+      ]
+    },
+    {
+      "id": "solo4-support-phone",
+      "name": "Điện thoại hỗ trợ",
+      "category": "Nhà ở · Collage",
+      "tags": [
+        "living alone",
+        "documentary collage",
+        "solo4",
+        "support-phone"
+      ],
+      "src": "videos/004-living-alone/images/sheets/planning.png",
+      "crop": [
+        1536,
+        448,
+        512,
+        448
+      ]
     }
   ]
 }

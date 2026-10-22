@@ -30,7 +30,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 ## Kho đạo cụ dùng chung
 
-Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 73 mục: 59 đạo cụ và 14 tư thế Alex trong nhóm **Nhân vật** (4 tư thế ban đầu, 6 hành động cho video trả góp và 4 hành động cho video ô tô). Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
+Bấm **Kho đạo cụ** ở đầu Studio hoặc [mở kho online](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props). Hiện có 89 mục: 75 đạo cụ và 14 tư thế Alex trong nhóm **Nhân vật** (4 tư thế ban đầu, 6 hành động cho video trả góp và 4 hành động cho video ô tô). Video 004 bổ sung 16 đạo cụ ảnh cắt ghép trong nhóm **Nhà ở · Collage**, giữ các mẫu vẽ tay cũ. Tìm theo tên/từ khóa, lọc nhóm, tải PNG riêng hoặc chọn dự án + cảnh rồi **Thêm vào cảnh**. Hình và nhãn được căn giữa; đạo cụ thêm vào video là lớp ảnh riêng.
 
 Trong **Dựng video**, chọn lớp ảnh/nhân vật trên khung xem hoặc danh sách **Các lớp**, bấm **Thay đạo cụ** trong **Chỉnh phần tử**, rồi tìm/lọc mẫu thay thế. Thao tác giữ vị trí, khung kích thước, thời điểm và hiệu ứng; có Hoàn tác/Làm lại và tự lưu. Chỉ thay lớp đang chọn, không đổi các cảnh khác đang dùng cùng hình. Nếu lớp là ảnh cảnh tổng thể, thao tác thay cả ảnh đó.
 
@@ -77,9 +77,9 @@ Thư mục hình, dự án dựng và bản xuất sẽ được thêm vào từ
 
 [Mở dự án video 002](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002) · [Xem bộ hình](videos/002-monthly-payment-trap/) · [Hướng dẫn](videos/002-monthly-payment-trap/README.md). Có 16 khung hình (8 minh họa + 8 bố cục thông tin chỉnh riêng), 3 sheet trong suốt có ô đều, bản hướng dẫn đánh số, 30 PNG tách sẵn và tọa độ cắt. Tiêu đề và số dùng Times New Roman, nằm ngoài vùng minh họa. Đã nhận WAV và dựng **79 cảnh / 495,475 giây**, [MP4 duyệt v01](videos/002-monthly-payment-trap/exports/full-review-v01.mp4), chữ Times New Roman, audio dẫn xuất được nâng âm lượng, chưa nhạc nền. Bản dựng chỉnh được ở `review/project.json`; bảng hình 96 giây trước đó vẫn được giữ. [Timecode và trạng thái](videos/002-monthly-payment-trap/review/README.md).
 
-## Video thứ tư — Living Alone (lời thoại)
+## Video thứ tư — Living Alone (bộ hình)
 
-Video 004 đã chốt **Why Living Alone Has Become So Expensive**, thử phong cách tài liệu tài chính với ảnh cắt ghép/nền giấy kem/đỏ trầm, vẫn dùng Times New Roman. Có [lời thoại tiếng Anh v01](videos/004-living-alone/script.md), [bản chỉ lời đọc](videos/004-living-alone/narration.txt) và [nguồn/phép tính](videos/004-living-alone/sources.md). Khoảng 1.279 từ, dự kiến 8–10 phút. Đang chờ xem lời thoại; chưa có audio, hình hoặc bản dựng, chưa thêm dự án rỗng vào Studio.
+Video 004 **Why Living Alone Has Become So Expensive** dùng phong cách tài liệu tài chính với ảnh cắt ghép/nền giấy kem/đỏ trầm, vẫn dùng Times New Roman. [Mở dự án](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-004&tab=images) · [Bộ hình online](videos/004-living-alone/) · [Lời thoại](videos/004-living-alone/script.md) · [Chỉ lời đọc](videos/004-living-alone/narration.txt) · [Nguồn/phép tính](videos/004-living-alone/sources.md). Đã có **16 khung PNG/JSON chỉnh được, 2 sheet trong suốt và 16 đạo cụ rời**. **Chưa nhận audio hoặc dựng MP4**; bảng hình 96 giây chỉ dùng duyệt bố cục. Lời thoại khoảng 1.279 từ, dự kiến 8–10 phút, chưa phải thời lượng thật.
 
 ## Gửi âm thanh cho video đầu tiên
 

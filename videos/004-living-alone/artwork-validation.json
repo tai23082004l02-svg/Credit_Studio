@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "date": "2026-10-22",
+  "stage": "Artwork only; no narration, final timings or finished video",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "checks": {
+    "frames": 16,
+    "atlasCount": 2,
+    "isolatedPNGs": 16
+  },
+  "actualFont": [
+    {
+      "familyName": "Times New Roman",
+      "postScriptName": "TimesNewRomanPS-BoldMT",
+      "isCustomFont": false,
+      "glyphCount": 39
+    }
+  ],
+  "verified": [
+    "Source-cell boundaries contain no opaque art; no cut silhouettes",
+    "Atlas cells have at least 40px padding around visible alpha",
+    "Standalone PNGs have transparent outer padding of at least 32px",
+    "No text-text or text-image overlap; image aspect ratios preserved",
+    "Times New Roman font name and actual platform font confirmed",
+    "Centered artwork and labels in prop cards",
+    "Historical units, dates and illustrative arithmetic checked",
+    "PNG download, editable design, silent 96s board, hidden MP4, mobile layout",
+    "All 16 boards and two sheet guides visually inspected"
+  ],
+  "preservation": {
+    "preservedOriginalFiles": 272,
+    "unchangedOldProps": 73,
+    "addedProps": 16,
+    "unchangedPublishedProjects": 3,
+    "intentionalChangesToExistingLibraryFiles": [
+      "Append-only catalogue entries; old 73 entries unchanged",
+      "README updated for current prop count"
+    ]
+  },
+  "limitations": [
+    "Generated illustrations are flat scene images, not fully separated objects",
+    "No source audio yet, no narrated-video duration or audio tests",
+    "Motion timing and character path checks required again after narration edit"
+  ],
+  "tests": [
+    "10 unit tests: engine, WebM, media-storage",
+    "living-alone-artwork: 16 designs, 2 sheets, 16 cutouts, source/atlas boundaries, transparent padding, text collisions, TNR, financial labels, downloads, Studio, mobile",
+    "project-workspaces: migration, independent projects, history, backup/restore, per-scene edits, mobile",
+    "prop-library: crops, accent-insensitive search, PNG export, insertion, persistence, indexer, validation",
+    "replace-prop: geometry/audio/scene preservation, undo/redo/reload, error/cancel, mobile"
+  ]
+}

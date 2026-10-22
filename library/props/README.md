@@ -2,7 +2,7 @@
 
 [Mở kho trong Credit Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props).
 
-Kho dành cho nhân vật, nhà, xe, tiền, hóa đơn, đồ ăn và các vật thể dùng lại ở nhiều video. Hiện có 61 mục: 51 đạo cụ và 10 tư thế Alex trong nhóm **Nhân vật**. Video 002 thêm 6 tư thế (điện thoại, biên lai, so sánh, sửa xe, lập kế hoạch, quỹ đệm) và 24 đạo cụ. Chúng được đăng ký bằng vùng cắt trong `catalog.json`, trỏ về sheet gốc hoặc sheet sản xuất đã căn ô; không sao chép hoặc di chuyển ảnh đang dùng trong video.
+Kho dành cho nhân vật, nhà, xe, tiền, hóa đơn, đồ ăn và các vật thể dùng lại ở nhiều video. Hiện có **89 mục: 75 đạo cụ và 14 tư thế Alex** trong nhóm **Nhân vật**. Video 004 thêm 16 đạo cụ photographic collage trong nhóm **Nhà ở · Collage**, ID `solo4-*`; 73 mục vẽ tay trước đó giữ nguyên. Chúng được đăng ký bằng vùng cắt trong `catalog.json`, trỏ về sheet gốc hoặc sheet sản xuất đã căn ô; không sao chép hoặc di chuyển ảnh đang dùng trong video. Các mẫu collage có PNG rời, sheet trong suốt và bản hướng dẫn tại `videos/004-living-alone/images/`; không dùng tọa độ nguồn để cắt atlas đóng gói.
 
 ## Đưa đạo cụ mới vào kho
 

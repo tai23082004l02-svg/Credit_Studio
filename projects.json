@@ -45,6 +45,19 @@
       "cover": "videos/003-car-payment-trap/images/scenes/01a.png",
       "audio": "videos/003-car-payment-trap/audio/tts_20261022_115123_7124d9.wav",
       "review": "videos/003-car-payment-trap/exports/full-review-v01.mp4"
+    },
+    {
+      "id": "finance-004",
+      "name": "Why Living Alone Has Become So Expensive",
+      "description": "Tài liệu tài chính · Documentary collage · 16 khung hình · Chưa có audio",
+      "kind": "video",
+      "status": "Bộ hình chờ duyệt · Chưa có giọng đọc",
+      "createdAt": "2026-10-22T00:00:00.000Z",
+      "defaultVideo": "videos/004-living-alone/storyboard/project.json",
+      "artwork": "videos/004-living-alone/artwork.json",
+      "gallery": "videos/004-living-alone/",
+      "script": "videos/004-living-alone/script.md",
+      "cover": "videos/004-living-alone/images/scenes/01a.png"
     }
   ]
 }

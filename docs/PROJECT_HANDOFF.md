@@ -2,7 +2,25 @@
 
 Cập nhật: 2026-10-22. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
 
-## Video 004 — lời thoại Living Alone v01 (2026-10-22, trạng thái mới nhất)
+## Video 004 — bộ hình Living Alone v01 (2026-10-22, trạng thái mới nhất)
+
+Người dùng đã yêu cầu triển khai hình sau lời thoại. Đã tạo bộ **documentary photographic collage** riêng, ảnh cắt ghép có viền, giấy kem, đỏ trầm; chữ Times New Roman. Dự án **finance-004** đã đăng ký ở trang chủ, gallery `videos/004-living-alone/` có tải PNG, JSON thiết kế, sheet/guide và PNG rời.
+
+- **8 minh họa AI mới** (`images/illustrations/01a.png`…`08a.png`) + **8 bảng thông tin** = **16 thiết kế JSON và PNG 1920×1080**. Hình tạo sinh là minh họa biên tập, không phải ảnh tư liệu thật; nguồn, prompt/ghi chú và hash ở `image-generation.json`.
+- **2 sheet nguồn trong suốt**, 2 atlas **4×2 ô**, mỗi ô **512×448**, 2 guide có nhãn và **16 PNG đạo cụ rời**. Đã chỉnh lại sheet vì bản thử có đồ vật sát ranh ô; nguồn sản xuất có lề an toàn. PNG riêng lấy đủ vùng alpha + feather 8px + lề trong suốt 32px; atlas không nâng độ phân giải. `crop-map.json` phân biệt sourceCrop/sourceArtCrop với crop/artBounds ở atlas.
+- Thêm **16 mục `solo4-*`** nhóm **Nhà ở · Collage**, giữ nguyên 73 mục cũ. Kho chung hiện **89 mục = 75 đạo cụ + 14 tư thế Alex**. Không đổi Alex vẽ tay của video trước.
+- Tiêu đề nằm ngoài vùng minh họa, ảnh fit giữ tỉ lệ; nhân vật ngồi ở 06a đầy đủ tóc/tay/hai chân. Hình và nhãn trong thẻ căn giữa. Bảng 02b có thanh cùng thang 1.860, độ dài đúng tỉ lệ 1.860 và 1.230; giữ mọi số minh họa/nhãn nguồn, năm, mẫu số hộ và giới hạn emergency fund.
+- **Chưa có audio, MP4 hoặc timeline đầy đủ.** `storyboard/project.json` chỉ là bảng duyệt hình **16×6=96 giây**, revision `living-artwork-board-v01`, audio rỗng, chưa có chuyển động theo lời kể. Không thêm quy tắc nâng cấp browser draft khi chưa có review thật. Ảnh `a` vẫn là ảnh phẳng từng cảnh; đạo cụ và bảng `b` có lớp riêng, chưa rig khớp hoặc nhạc nền.
+
+`tools/build-living-alone-artwork.cjs` đóng gói nguồn đã tạo và xuất khung qua renderer Studio, mặc định chặn ghi đè; chỉ `--force` sau khi sao lưu sửa tay. Các bản thử AI giữ ở `generated_images`, không dùng làm nguồn cắt sản xuất. Không chạy công cụ đóng gói video cũ lên video mới.
+
+Đã qua **10 unit test** engine/WebM/media-storage; `living-alone-artwork` kiểm tra 16 thiết kế, 2 sheet, 16 PNG, biên nguồn, khoảng đệm trong suốt, ảnh không méo, không chồng chữ/chữ hoặc chữ/ảnh, thẻ căn giữa, số học và nhãn, tải tệp, mở/chỉnh trong Studio, bảng im lặng/ẩn MP4, mobile. Chrome xác nhận **TimesNewRomanPS-BoldMT**. Đã xem toàn bộ 16 khung tổng hợp, khung so sánh và nhân vật lớn, hai guide. `project-workspaces`, `prop-library`, `replace-prop` qua. Test tìm “hoa don” nay có thêm mục solo4-bills; test mobile chờ bố cục ổn định sau đổi viewport, không sửa mã sản phẩm.
+
+Đối chiếu **272 tệp cũ giữ nguyên byte**, gồm toàn bộ video 001–003, WAV, dự án, MP4 và nguồn sheet; 73 mục catalog cũ và metadata ba dự án cũ giữ nguyên. Chỉ catalog thêm mục và README thư viện cập nhật số lượng; các tài liệu gốc khác cập nhật trạng thái. Không đọc/ghi bản sửa riêng trong IndexedDB của người dùng; R2/CORS/manifest giữ nguyên. Báo cáo tại `artwork-validation.json`.
+
+Tiếp theo: người dùng duyệt hình và cung cấp WAV gốc vào `videos/004-living-alone/audio/` (gợi ý `living-alone-voiceover.wav`). Căn dựng đầy đủ theo audio, triển khai chuyển động tiền/lịch/checklist, lưu bảng 96 giây cũ, tạo review/MP4 tên mới. Nếu cần ghép sửa riêng trong Studio, nhận `.credit.json`/JSON trước. Sau đó mới thêm quy tắc finance-004 archive bảng cũ trước khi chuyển review thật.
+
+## Video 004 — lời thoại Living Alone v01 (2026-10-22, trước bước tạo hình)
 
 Người dùng cân nhắc kể chuyện/bí ẩn/lịch sử rồi quyết định **quay lại tài chính**, chốt **Why Living Alone Has Become So Expensive** và yêu cầu chuẩn bị lời thoại. Phong cách mới riêng video 004: **phim tài liệu tài chính thu nhỏ, ảnh cắt ghép có viền, giấy kem, đỏ trầm, Times New Roman**, lời đọc tiếng Anh Mỹ. Không đổi phong cách/tài nguyên ba video trước.
 
