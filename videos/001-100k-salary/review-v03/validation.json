@@ -1,0 +1,168 @@
+{
+  "checkedAt": "2026-10-22",
+  "stage": "full motion review v03, pending user approval",
+  "timelineSeconds": 486.75,
+  "formatSeconds": 486.766667,
+  "frames": 14603,
+  "bytes": 42320977,
+  "codecs": {
+    "video": "h264",
+    "audio": "aac"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "decodedWithoutErrors": true,
+  "layout": {
+    "clips": 88,
+    "duration": 486.7500000000001,
+    "checkedFrames": 4991,
+    "maxCaptionLines": 1,
+    "assets": 54
+  },
+  "sourceAudioComparison": [
+    {
+      "seconds": 10,
+      "sourceWholeSnippetCorrelation": 0.997667,
+      "source50msMedianCorrelation": 0.999982,
+      "derivedMP3Correlation": 0.99184,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 200,
+      "sourceWholeSnippetCorrelation": 0.980188,
+      "source50msMedianCorrelation": 0.999957,
+      "derivedMP3Correlation": 0.997217,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 480,
+      "sourceWholeSnippetCorrelation": 0.979621,
+      "source50msMedianCorrelation": 0.999968,
+      "derivedMP3Correlation": 0.997052,
+      "timeLagSamplesAt16kHz": 0
+    }
+  ],
+  "finalAudioLoudness": {
+    "integratedLUFS": -16.69,
+    "truePeakDBTP": -1.56,
+    "loudnessRangeLU": 2.3
+  },
+  "sourceWAVPreserved": true,
+  "motion": {
+    "basedOn": "review-v02/project.json",
+    "revision": "salary-motion-v03",
+    "durationSeconds": 486.75,
+    "clips": 88,
+    "changedClips": [
+      {
+        "index": 9,
+        "title": "Theo dòng tiền từ đầu"
+      },
+      {
+        "index": 23,
+        "title": "Tiền thuê nhà"
+      },
+      {
+        "index": 24,
+        "title": "Chi phí đi lại tổng hợp"
+      },
+      {
+        "index": 26,
+        "title": "Thực phẩm và ăn ngoài"
+      },
+      {
+        "index": 27,
+        "title": "Điện nước internet điện thoại"
+      },
+      {
+        "index": 28,
+        "title": "Khoản trả nợ"
+      },
+      {
+        "index": 29,
+        "title": "Các chi phí khác"
+      },
+      {
+        "index": 31,
+        "title": "Số dư sau chi cố định"
+      },
+      {
+        "index": 38,
+        "title": "Trừ dự trù chi phí không đều"
+      },
+      {
+        "index": 39,
+        "title": "Tổng hợp dòng tiền còn lại"
+      },
+      {
+        "index": 43,
+        "title": "Khoản trả cho chuyện đã qua"
+      }
+    ],
+    "animatedLayers": 23,
+    "audioUnchanged": {
+      "src": "videos/001-100k-salary/review-v02/voiceover.mp3",
+      "offset": 0,
+      "volume": 1
+    },
+    "notes": [
+      "Same narration, timing and assets as v02",
+      "No music or character joint rigs",
+      "Calendar dates are illustrative; day rollover uses numeric keyframes",
+      "Previous reviews and exports are preserved"
+    ]
+  },
+  "preservation": {
+    "originalFilesByteIdentical": 175,
+    "video002MetadataUnchanged": true,
+    "audioCaptionsTimingUnchanged": true
+  },
+  "browserSuites": [
+    "salary-motion-review: 88 clips, 4991 timeline frame samples; safe image/text geometry and captions",
+    "salary-motion-upgrade: edited v02 archive/download/backup, current motion edits preserved, audio seek/playback, mobile",
+    "video-motion-editor: controls, invalid input, undo/redo, path edits/duplication, JSON/reload, real WebM moving pixels with audio, mobile",
+    "project-workspaces: project isolation, old intro archive, backups and restoration"
+  ],
+  "unitTests": "15 passed (engine, motion, WebM, media storage)",
+  "font": "TimesNewRomanPS-BoldMT verified through Chrome platform fonts",
+  "notes": [
+    "MP4 uses the same canvas renderer as Studio",
+    "Video frames round to 30fps; narration/timeline remain 486.75 seconds",
+    "Original full v01/v02, intro, source WAV, all 20 image designs and all video 002 files preserved",
+    "Audio normalization changes gain over time; source comparison uses short-window correlations and zero-lag checks",
+    "No music or joint-rig animation",
+    "Captions available in Studio, disabled in default MP4",
+    "Word alignment is automatic and can have word-level timing error"
+  ],
+  "pending": [
+    "User review and timecoded notes",
+    "Receive browser backup before continuing any user-only edits"
+  ],
+  "encodedMotionCheck": {
+    "meterPixelsAt110_22s": 1192,
+    "meterPixelsAt112_42s": 740,
+    "expectedFinalPixels": 740,
+    "calendarMonth2Day1FrameInspected": true
+  },
+  "preview": {
+    "file": "exports/motion-preview-v03.mp4",
+    "seconds": 18.36,
+    "sourceTimelineSeconds": [
+      [
+        35.18,
+        40.8
+      ],
+      [
+        109.92,
+        116.68
+      ],
+      [
+        216.84,
+        222.8
+      ]
+    ]
+  }
+}

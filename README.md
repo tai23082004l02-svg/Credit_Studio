@@ -14,7 +14,7 @@ Website được triển khai bằng GitHub Pages từ thư mục gốc của nh
 Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật website.
 Địa chỉ chính mở trang **Dự án của bạn**. Tạo dự án mới hoặc chọn dự án hiện có, rồi chuyển giữa **Tổng quan**, **Dựng video**, **Hình ảnh**, **Âm thanh & tài liệu** trên cùng trang. `/video/` và `/design/` là các công cụ bên trong, vẫn mở riêng được nếu cần; không cần nhớ các đường dẫn này để sử dụng.
 
-[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt đầy đủ v02 dài 8 phút 06,75 giây (88 cảnh), 20 thiết kế ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-đầy-đủ-v02-hiện-tại).
+[Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt chuyển động v03 dài 8 phút 06,75 giây (88 cảnh), 20 thiết kế ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-chuyển-động-v03-hiện-tại).
 
 ## Quản lý và lưu dự án
 
@@ -26,7 +26,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 - Dự án mới và các bản sửa được lưu trong trình duyệt hiện tại bằng IndexedDB; không tự đồng bộ sang máy khác hoặc GitHub. Tài nguyên đã xuất bản vẫn lấy từ website. Sao lưu để chuyển máy, bảo vệ khi xóa dữ liệu trình duyệt hoặc gửi bản sửa lại.
 - Dữ liệu của hai trình chỉnh cũ được chuyển sang từng dự án một lần; các khóa localStorage cũ được giữ nguyên để bảo toàn dữ liệu.
 
-Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01 hoặc bản đầy đủ v01 cũ được lưu nguyên vẹn vào **Bản lưu trước cập nhật** rồi chuyển sang v02. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên v02 được giữ khi mở lại. Video 002 cũng lưu bảng hình 96 giây cũ vào lịch sử trước khi mở bản review theo audio. Các revision khác và dự án khôi phục vẫn được giữ, hiện thông báo khi có bản xuất bản khác.
+Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01, bản đầy đủ v01 hoặc v02 cũ được lưu nguyên vẹn vào **Bản lưu trước cập nhật** rồi chuyển sang v03. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên v03 được giữ khi mở lại. Video 002 cũng lưu bảng hình 96 giây cũ vào lịch sử trước khi mở bản review theo audio. Các revision khác và dự án khôi phục vẫn được giữ, hiện thông báo khi có bản xuất bản khác.
 
 ## Kho đạo cụ dùng chung
 
@@ -138,3 +138,7 @@ node tools/render-intro.cjs videos/001-100k-salary/intro/project.json /tmp/intro
 Có thể thay đối số đầu bằng JSON đã lưu từ trình chỉnh video. Không ghi đè tệp xuất cũ trừ khi chọn đường dẫn mới hoặc đặt `CREDIT_STUDIO_OVERWRITE=1`. Đặt `CREDIT_STUDIO_URL` nếu máy chủ dùng địa chỉ khác. Chạy `python3 tools/build-intro-project.py` chỉ khi muốn tạo lại dự án mở đầu từ cấu hình trong công cụ; lệnh sẽ thay thế `intro/project.json` và `intro/captions.vtt`.
 
 Font hiện dùng là Times New Roman cho chữ và phụ đề. Khi dựng MP4 cần có font này trên máy; kiểm tra bằng `fc-match 'Times New Roman'` trên Linux. Trong môi trường đám mây đã chuẩn bị font tại `/workspace/shared/credit-studio-fonts`; dùng tiền tố `FONTCONFIG_FILE=/workspace/shared/credit-studio-fonts/fonts.conf` khi chạy lệnh dựng. Website dùng Times New Roman cục bộ và font serif dự phòng nếu thiết bị thiếu font.
+
+## Chuyển động nội dung trong video
+
+Trong **Chỉnh phần tử → Chuyển động nội dung**, chọn thanh tăng/giảm, di chuyển ngang/dọc hoặc số thay đổi. Chỉnh mốc `giây: giá trị`, nhịp chuyển và định dạng số. Studio và các bản xuất dùng cùng trạng thái theo thời gian, hỗ trợ tua ngược, hoàn tác/làm lại và lưu JSON. [Hướng dẫn bản v03](videos/001-100k-salary/review-v03/README.md). Kiểm tra: `node --test tests/video-motion.mjs` và `node tests/video-motion-editor.cjs`.

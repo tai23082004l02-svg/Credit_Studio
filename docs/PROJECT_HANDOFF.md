@@ -158,3 +158,20 @@ Công cụ mới `tools/build-salary-review-v02.py` tạo dữ liệu từ scrip
 Tiếp theo: người dùng duyệt MP4 v02, gửi góp ý kèm timecode. Nếu cần tiếp tục từ thay đổi riêng đã chỉnh trong Studio, nhận `.credit.json` hoặc JSON video trước. Giữ nguyên các bản xuất cũ, dùng tên v03 cho lần xuất tiếp theo.
 
 MP4 v02 đã giải mã toàn bộ không lỗi, H.264/AAC, 14.603 khung, 486,766667 giây do làm tròn 30 fps. Âm lượng đo thực tế −16,69 LUFS, true peak −1,56 dBTP. Đối chiếu đoạn tiếng ở giây 10/200/480 với WAV: độ trễ 0 mẫu; trung vị tương quan cửa sổ 50 ms đều >0,9999. Kết quả chi tiết ở `review-v02/validation.json`.
+
+## Video 001 — chuyển động nội dung v03 (2026-10-22)
+
+Theo góp ý video còn giống slide, bổ sung **23 lớp chuyển động trong 11 cảnh** trên bản v02 đã xuất bản: tiền di chuyển qua nhóm thu–chi; số dư/thanh ngân sách cùng giảm qua sáu khoản cố định và quỹ không đều; thanh phân bổ tăng đúng tỉ lệ; lịch nhảy 28→29→30→1 và tháng 1→2. Ngày trên lịch là minh họa. Giữ nguyên 88 cảnh / 486,75 giây, lời đọc, caption và đường dẫn audio v02; không thêm nhạc hoặc rig khớp nhân vật. Không tự coi đây là bản cuối được duyệt.
+
+- Dự án mới `videos/001-100k-salary/review-v03/project.json`, revision `salary-motion-v03`; MP4 mới `exports/full-review-v03.mp4`.
+- `review-v03/motion-plan.json`: 11 cảnh/23 lớp; `review-v03/README.md`: mốc và cách chỉnh; `validation.json`: kết quả kiểm tra bản xuất thực tế.
+- `tools/build-salary-motion-v03.py` đọc v02 rồi tạo v03, mặc định chặn ghi đè. Không dùng `--force` nếu chưa sao lưu bản chỉnh tay. Audio tiếp tục dùng `review-v02/voiceover.mp3`, không nhân bản hoặc sửa file.
+- `video/engine.js`: thuộc tính `animation` tùy chọn gồm property width/x/y/number, keys thời gian–giá trị và nhịp smooth/linear/step. Nội suy trực tiếp từ thời gian, không phụ thuộc lịch sử playback, nên tua ngược và xuất cho cùng kết quả. Số hỗ trợ currency USD/integer và prefix/suffix. Kiểm tra loại lớp, giới hạn số, mốc tăng và số lượng mốc; dự án cũ không có animation giữ nguyên cách vẽ.
+- Studio có **Chỉnh phần tử → Chuyển động nội dung** để tạo/tắt/chỉnh mốc, nhịp và định dạng số. Có hoàn tác/làm lại, JSON, tự lưu và xuất WebM. Di chuyển/nhân bản lớp dịch cả đường chuyển động; chỉnh rộng thanh co giãn các mốc theo cùng tỉ lệ. Nhân bản tách bản sao keys, không làm đổi lớp nguồn. Không thêm lịch sử cho thay đổi không làm đổi dữ liệu.
+- `projects.json` nay mở v03; intro/v01/v02 đã chỉnh trong trình duyệt được lưu nguyên vẹn vào lịch sử bằng giao dịch cũ trước khi chuyển main. Bản v03 đang chỉnh, revision lạ và dự án khôi phục không bị tự thay. V03 dựa trên repo, chưa ghép các sửa riêng trong IndexedDB; muốn tiếp tục từ chúng cần `.credit.json` hoặc JSON.
+
+Kiểm tra: 15 unit test engine/motion/WebM/media; Playwright `salary-motion-review` lấy 4.991 mẫu trên timeline, xác nhận vùng nhân vật, chữ và caption; `video-motion-editor` kiểm tra controls, từ chối mốc sai, hoàn tác/làm lại, sửa/nhân bản đường chuyển động, JSON/reload, mobile và xuất WebM thực có audio, vùng thanh khác nhau giữa hai thời điểm; `salary-motion-upgrade` giữ v02 đã chỉnh nguyên vẹn trong lịch sử/backup và giữ sửa v03; `project-workspaces`, `replace-prop`, `monthly-payment-upgrade`. Chrome tiếp tục xác nhận font thực TimesNewRomanPS-BoldMT. Đối chiếu 175 tệp đã có: WAV, mọi bản dựng/xuất cũ, thiết kế/ảnh và toàn bộ video 002 không đổi byte; metadata video 002, audio, captions và toàn bộ ID/thời lượng clip giữ nguyên. R2/CORS/manifest không thay đổi.
+
+Tiếp theo: duyệt mức độ chuyển động trong v03 và gửi góp ý kèm timecode. Nếu tiếp tục từ các sửa riêng trong Studio, nhận bản sao lưu trước. Lần xuất sau dùng v04, giữ các bản cũ.
+
+MP4 v03 đã giải mã toàn bộ không lỗi: 14.603 khung, 486,766667 giây do làm tròn 30 fps, H.264/AAC. Âm lượng đo thực tế −16,69 LUFS, true peak −1,56 dBTP; đối chiếu tiếng ở giây 10/200/480 có độ trễ 0 mẫu và tương quan ngắn hạn >0,9999. Kiểm tra vùng thanh ngay trong MP4 thấy giảm từ khoảng 1.192 xuống 740 pixel, đúng số dư 3.700/6.000; đã xem khung lịch tháng 2 ngày 1. Có bản xem nhanh **18,36 giây** ở `exports/motion-preview-v03.mp4`, trích ba đoạn từ MP4 đầy đủ.

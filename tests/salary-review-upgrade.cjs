@@ -1,6 +1,6 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const base=process.env.CREDIT_STUDIO_URL||'http://127.0.0.1:8000';
-const board=JSON.parse(fs.readFileSync('videos/001-100k-salary/review/project.json')),review=JSON.parse(fs.readFileSync('videos/001-100k-salary/review-v02/project.json'));
+const board=JSON.parse(fs.readFileSync('videos/001-100k-salary/review/project.json')),review=JSON.parse(fs.readFileSync(JSON.parse(fs.readFileSync('projects.json')).projects.find(p=>p.id==='finance-001').defaultVideo));
 const scratch=path.resolve('work/salary-v02');
 (async()=>{const b=await chromium.launch();try{
  const page=await b.newPage({viewport:{width:1500,height:1100},acceptDownloads:true}),errors=[];page.on('pageerror',e=>errors.push(e.message));

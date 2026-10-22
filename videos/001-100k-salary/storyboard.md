@@ -56,3 +56,7 @@ Bốn minh họa mới được đặt dưới tiêu đề, giữ trọn nhân v
 | Quỹ trong năm | Chuẩn bị cho khoản chi có thể dự trù | [JSON](projects/v02-annual-funds.json) |
 | Hình ảnh xã hội | Bức ảnh không cho biết nguồn tiền | [JSON](projects/v02-social-context.json) |
 | Tăng lương | Chọn phần cho hiện tại, tiết kiệm và giảm nợ | [JSON](projects/v02-raise-plan.json) |
+
+## Chuyển động v03
+
+11 cảnh được bổ sung chuyển động nội dung, giữ nguyên timecode v02: tiền đi qua nhóm thu–chi; số dư và thanh ngân sách cùng giảm; thanh phân bổ tăng đúng tỉ lệ; lịch nhảy ngày cuối tháng sang tháng sau. Xem [mốc và cách chỉnh](review-v03/README.md). Toàn bộ chuyển động là lớp chỉnh được trong Studio, chưa rig khớp nhân vật.

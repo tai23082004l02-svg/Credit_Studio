@@ -4,16 +4,16 @@
     {
       "id": "finance-001",
       "name": "Why You Feel Broke on a $100,000 Salary",
-      "description": "Video tài chính · Alex · Bản duyệt v02 · 8 phút 06,75 giây · 88 cảnh",
+      "description": "Video tài chính · Alex · Chuyển động dòng tiền v03 · 8 phút 06,75 giây · 88 cảnh",
       "kind": "video",
-      "status": "Bản dựng đầy đủ v02 chờ duyệt",
+      "status": "Bản duyệt chuyển động v03 chờ duyệt",
       "createdAt": "2026-10-20T00:00:00.000Z",
-      "defaultVideo": "videos/001-100k-salary/review-v02/project.json",
+      "defaultVideo": "videos/001-100k-salary/review-v03/project.json",
       "artwork": "videos/001-100k-salary/artwork.json",
       "gallery": "videos/001-100k-salary/",
       "script": "videos/001-100k-salary/script.md",
       "audio": "videos/001-100k-salary/audio/Why You Feel Broke on a $100,000 Salary.wav",
-      "review": "videos/001-100k-salary/exports/full-review-v02.mp4",
+      "review": "videos/001-100k-salary/exports/full-review-v03.mp4",
       "cover": "videos/001-100k-salary/images/scenes/01a-six-figure-celebration.png"
     },
     {

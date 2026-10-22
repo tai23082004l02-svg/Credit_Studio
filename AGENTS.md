@@ -11,7 +11,9 @@ For video production, also read the current video's README, script and storyboar
 - Keep the root website as the single project-management entry point; preserve existing project IDs and saved-project compatibility.
 - Preserve source audio, existing projects and user edits. Do not overwrite original recordings or previous exports without an explicit reason and authorization.
 - Browser drafts and attachments live in IndexedDB, not GitHub. Do not assume repository files include the user's latest browser edits; request a project backup when those edits are needed.
-- The first video now has a rebuilt 486.75-second review in `review-v02/` (88 shots); the original `review/` (64 shots) and MP4 v01 are preserved; `intro/` is the preserved 40.5-second style draft. Distinguish a full review from a user-approved final export.
+- The first video now has a animated 486.75-second review in `review-v03/` (88 shots, 23 animated layers in 11 clips); `review-v02/` is preserved; the original `review/` (64 shots) and MP4 v01 are preserved; `intro/` is the preserved 40.5-second style draft. Distinguish a full review from a user-approved final export.
 - Update the handoff after significant changes, recording what is implemented, verified and still pending. Never put credentials or private chat data in it.
 
 Use validation appropriate to the change; commands and deployment instructions are in README.md. Documentation-only changes do not require video rendering or browser tests.
+
+- Content animation uses validated per-layer `animation` keys in `video/engine.js`. Keep interpolation deterministic for seeking/export, and preserve legacy projects with no animation. Currency and account-meter widths must agree; calendar rollover uses step easing. UI controls live in `video/editor.js`. Tests: `video-motion.mjs`, `video-motion-editor.cjs`, `salary-motion-review.cjs`, `salary-motion-upgrade.cjs`.

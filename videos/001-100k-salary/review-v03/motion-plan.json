@@ -1,0 +1,64 @@
+{
+  "basedOn": "review-v02/project.json",
+  "revision": "salary-motion-v03",
+  "durationSeconds": 486.75,
+  "clips": 88,
+  "changedClips": [
+    {
+      "index": 9,
+      "title": "Theo dòng tiền từ đầu"
+    },
+    {
+      "index": 23,
+      "title": "Tiền thuê nhà"
+    },
+    {
+      "index": 24,
+      "title": "Chi phí đi lại tổng hợp"
+    },
+    {
+      "index": 26,
+      "title": "Thực phẩm và ăn ngoài"
+    },
+    {
+      "index": 27,
+      "title": "Điện nước internet điện thoại"
+    },
+    {
+      "index": 28,
+      "title": "Khoản trả nợ"
+    },
+    {
+      "index": 29,
+      "title": "Các chi phí khác"
+    },
+    {
+      "index": 31,
+      "title": "Số dư sau chi cố định"
+    },
+    {
+      "index": 38,
+      "title": "Trừ dự trù chi phí không đều"
+    },
+    {
+      "index": 39,
+      "title": "Tổng hợp dòng tiền còn lại"
+    },
+    {
+      "index": 43,
+      "title": "Khoản trả cho chuyện đã qua"
+    }
+  ],
+  "animatedLayers": 23,
+  "audioUnchanged": {
+    "src": "videos/001-100k-salary/review-v02/voiceover.mp3",
+    "offset": 0,
+    "volume": 1
+  },
+  "notes": [
+    "Same narration, timing and assets as v02",
+    "No music or character joint rigs",
+    "Calendar dates are illustrative; day rollover uses numeric keyframes",
+    "Previous reviews and exports are preserved"
+  ]
+}

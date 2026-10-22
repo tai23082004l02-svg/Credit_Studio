@@ -40,6 +40,13 @@ export function validate(project) {
     for (const l of c.layers) {
       if (!l||typeof l.id!=='string'||layers.has(l.id)||!['text','image','rect'].includes(l.type)||!n(l.x,-1920,3840)||!n(l.y,-1080,2160)||!n(l.w,1,3840)||!n(l.h,1,2160)||!n(l.enter,0,120)||!n(l.opacity,0,1)||!EFFECTS.includes(l.effect)||!n(l.drift,-40,40)) fail();
       layers.add(l.id);
+      if(l.animation!==undefined){
+        const a=l.animation,ranges={width:[0,3840],x:[-1920,3840],y:[-1080,2160],number:[-1e9,1e9]},range=a&&Object.hasOwn(ranges,a.property)?ranges[a.property]:null;
+        if(!a||!range||!['linear','smooth','step'].includes(a.easing)||!Array.isArray(a.keys)||a.keys.length<2||a.keys.length>32)fail();
+        if(a.property==='width'&&l.type!=='rect'||a.property==='number'&&l.type!=='text')fail();
+        if(a.property==='number'&&(!['currency','integer'].includes(a.format)||typeof a.prefix!=='string'||a.prefix.length>40||typeof a.suffix!=='string'||a.suffix.length>40))fail();
+        if(a.keys.some((k,i)=>!k||!n(k.time,0,120)||!n(k.value,...range)||(i>0&&k.time<=a.keys[i-1].time)))fail();
+      }
       if (l.type==='image' && !Object.hasOwn(project.assets,l.asset)) fail();
       if (l.type==='text' && (typeof l.text!=='string'||l.text.length>3000||!n(l.size,12,300)||!color(l.fill)||!['left','center','right'].includes(l.align))) fail();
       if (l.type==='rect' && (!color(l.fill)||!n(l.radius,0,200))) fail();
@@ -64,7 +71,19 @@ export async function loadAssets(project, baseURL) {
   return images;
 }
 const ease = t => 1 - Math.pow(1-clamp(t,0,1),3);
+// Sample the timeline directly: seeking, playback and exports never depend on prior frames.
+export function animatedValue(animation,local){
+  const keys=animation.keys;if(local<=keys[0].time)return keys[0].value;
+  for(let i=1;i<keys.length;i++)if(local<keys[i].time){const a=keys[i-1],b=keys[i];let p=(local-a.time)/(b.time-a.time);if(animation.easing==='smooth')p=p*p*(3-2*p);if(animation.easing==='step')p=0;return a.value+(b.value-a.value)*p;}
+  return keys.at(-1).value;
+}
+export function layerText(l,local){
+  const a=l.animation;if(a?.property!=='number')return l.text;
+  const value=Math.round(animatedValue(a,local));
+  return a.prefix+(a.format==='currency'?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(value):String(value))+a.suffix;
+}
 export function layerBox(l, local) {
+  if(l.animation&&l.animation.property!=='number'){const a=l.animation;l={...l,[a.property==='width'?'w':a.property]:animatedValue(a,local)};}
   const p = l.effect==='none' ? (local>=l.enter?1:0) : ease((local-l.enter)/.55);
   const scale = l.effect==='pop' ? .82+.18*p : 1;
   return {x:l.x+(l.effect==='slide'?(1-p)*90:0)+(l.type==='image'?Math.sin(Math.max(0,local-l.enter)*1.4)*l.drift:0)+(1-scale)*l.w/2,
@@ -82,9 +101,9 @@ export function wrapText(ctx, text, width) {
   }
   return result;
 }
-function textLayer(ctx,l,b) {
+function textLayer(ctx,l,b,local) {
   ctx.fillStyle=l.fill;ctx.font=`700 ${l.size}px "Times New Roman", Times, serif`;ctx.textBaseline='top';ctx.textAlign=l.align;
-  const lines=wrapText(ctx,l.text,l.w);const x=l.align==='center'?b.x+b.w/2:l.align==='right'?b.x+b.w:b.x;
+  const lines=wrapText(ctx,layerText(l,local),l.w);const x=l.align==='center'?b.x+b.w/2:l.align==='right'?b.x+b.w:b.x;
   lines.forEach((line,i)=>ctx.fillText(line,x,b.y+i*l.size*1.18));
 }
 export function render(ctx, project, images, time, {selection=null,captions=false}={}) {
@@ -103,7 +122,7 @@ export function render(ctx, project, images, time, {selection=null,captions=fals
         const scale=Math.min(b.w/crop[2],b.h/crop[3]),w=crop[2]*scale,h=crop[3]*scale;
         ctx.drawImage(im,...crop,b.x+(b.w-w)/2,b.y+(b.h-h)/2,w,h);
       }
-    } else if(l.type==='text') textLayer(ctx,l,b);
+    } else if(l.type==='text') textLayer(ctx,l,b,at.local);
     else {ctx.fillStyle=l.fill;ctx.beginPath();ctx.roundRect(b.x,b.y,b.w,b.h,l.radius);ctx.fill();}
     ctx.restore();
   }

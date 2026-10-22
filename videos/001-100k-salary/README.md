@@ -8,11 +8,19 @@
 - [Ảnh mẫu phong cách](../../assets/samples/finance-hand-drawn-2d.png).
 - [Xem toàn bộ bộ hình](index.html) · [Trang xem online](https://tai23082004l02-svg.github.io/Credit_Studio/videos/001-100k-salary/).
 - [Phân cảnh và hướng chuyển động](storyboard.md).
-- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ v02](exports/full-review-v02.mp4) · [MP4 mở đầu cũ 40,5 giây](exports/intro-v01.mp4).
+- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ v03](exports/full-review-v03.mp4) · [MP4 mở đầu cũ 40,5 giây](exports/intro-v01.mp4).
 
 Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001) để quản lý bản dựng, cảnh ảnh, audio và lời thoại cùng một chỗ. Chọn **Hình ảnh → Chỉnh cảnh trong dự án** để sửa trực tiếp, mỗi cảnh có bản lưu riêng. **Sao lưu dự án** giữ cả bản video, các cảnh đã sửa và tệp bạn thêm vào trình duyệt.
 
-## Bản duyệt đầy đủ v02 hiện tại
+## Bản duyệt chuyển động v03 hiện tại
+
+Đã bổ sung **23 lớp chuyển động trong 11 cảnh**, giữ nguyên 88 cảnh / 486,75 giây và âm thanh v02. Thanh số dư giảm đúng từng khoản chi, tiền di chuyển qua các nhóm, biểu đồ phân bổ tăng đúng tỉ lệ và lịch nhảy sang tháng mới. Ngày trên lịch là minh họa. Chữ Times New Roman, không thêm nhạc nền hoặc rig khớp.
+
+[MP4 v03](exports/full-review-v03.mp4) · [Dự án v03](review-v03/project.json) · [Mốc chuyển động, cách chỉnh và kiểm tra](review-v03/README.md).
+
+Chọn lớp → **Chuyển động nội dung** trong Studio để sửa mốc và giá trị. V02/intro/v01 đang chỉnh được giữ nguyên trong lịch sử trước khi mở v03; sửa v03 rồi reload vẫn giữ. V03 dựa trên bản repo, chưa ghép các sửa riêng trong trình duyệt. Các bản xuất và WAV trước đây giữ nguyên.
+
+## Bản duyệt đầy đủ v02 được giữ lại
 
 Đã dựng lại **88 cảnh / 486,75 giây**, tăng 24 nhịp cắt so với v01, giữ nguyên lời đọc. Đây là bản duyệt mới, chưa phải bản cuối được người dùng chấp thuận.
 
@@ -77,7 +85,7 @@ Chữ và số tài chính được giữ riêng trong JSON để sửa được
 
 ## Trạng thái
 
-Hiện tại: bản duyệt v02 gồm 88 cảnh / 486,75 giây, 20 thiết kế ảnh. Chờ người dùng góp ý kèm timecode; bảo toàn WAV, bản v01 và intro.
+Hiện tại: bản duyệt chuyển động v03 gồm 88 cảnh / 486,75 giây, 20 thiết kế ảnh. Chờ người dùng góp ý kèm timecode; bảo toàn WAV, bản v01 và intro.
 
 ## Quy trình bàn giao
 
