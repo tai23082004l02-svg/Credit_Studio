@@ -1,0 +1,937 @@
+{
+  "version": 1,
+  "revision": "living-alone-review-v01",
+  "language": "vi",
+  "captions": [
+    {
+      "start": 0.11,
+      "end": 3.21,
+      "text": "The first night in your own apartment feels different.",
+      "textVi": "Đêm đầu tiên trong căn hộ riêng mang lại cảm giác rất khác."
+    },
+    {
+      "start": 3.79,
+      "end": 5.37,
+      "text": "You put your keys on the counter.",
+      "textVi": "Bạn đặt chìa khóa lên quầy."
+    },
+    {
+      "start": 5.87,
+      "end": 7.87,
+      "text": "You leave your shoes wherever you want.",
+      "textVi": "Bạn để giày ở bất cứ đâu mình muốn."
+    },
+    {
+      "start": 8.37,
+      "end": 10.15,
+      "text": "Nobody asks when you'll be home.",
+      "textVi": "Không ai hỏi khi nào bạn về nhà."
+    },
+    {
+      "start": 10.73,
+      "end": 13.27,
+      "text": "For a moment, the silence feels like success.",
+      "textVi": "Trong khoảnh khắc ấy, sự yên tĩnh giống như một thành tựu."
+    },
+    {
+      "start": 14.23,
+      "end": 15.27,
+      "text": "Then the bills arrive.",
+      "textVi": "Rồi các hóa đơn xuất hiện."
+    },
+    {
+      "start": 16.11,
+      "end": 18.305,
+      "text": "Rent. Electricity. Internet.",
+      "textVi": "Tiền thuê nhà. Tiền điện. Internet."
+    },
+    {
+      "start": 18.33,
+      "end": 21.31,
+      "text": "Groceries. And you notice something strange.",
+      "textVi": "Thực phẩm. Và bạn nhận ra một điều lạ."
+    },
+    {
+      "start": 22.11,
+      "end": 24.37,
+      "text": "There's only one person living here.",
+      "textVi": "Ở đây chỉ có mình bạn."
+    },
+    {
+      "start": 24.47,
+      "end": 27.31,
+      "text": "But most of the bills don't look like half of anything.",
+      "textVi": "Nhưng phần lớn hóa đơn chẳng hề giảm đi một nửa."
+    },
+    {
+      "start": 28.13,
+      "end": 29.91,
+      "text": "You use one bedroom.",
+      "textVi": "Bạn dùng một phòng ngủ."
+    },
+    {
+      "start": 30.57,
+      "end": 31.87,
+      "text": "You watch one television.",
+      "textVi": "Bạn xem một chiếc TV."
+    },
+    {
+      "start": 32.55,
+      "end": 33.69,
+      "text": "You eat one dinner.",
+      "textVi": "Bạn ăn một bữa tối."
+    },
+    {
+      "start": 34.13,
+      "end": 37.385,
+      "text": "So why does living alone feel like you're paying for an entire",
+      "textVi": "Vậy vì sao sống một mình lại giống như đang trả tiền cho cả một"
+    },
+    {
+      "start": 37.41,
+      "end": 42.11,
+      "text": "household? Because, in several important ways, you are.",
+      "textVi": "hộ gia đình? Bởi ở nhiều khía cạnh quan trọng, đúng là như vậy."
+    },
+    {
+      "start": 42.51,
+      "end": 46.605,
+      "text": "To understand why it has become so expensive, we need to separate",
+      "textVi": "Để hiểu vì sao chi phí tăng cao, cần phân biệt"
+    },
+    {
+      "start": 46.63,
+      "end": 51.445,
+      "text": "two things: prices going up, and the cost of having nobody to",
+      "textVi": "hai điều: giá cả tăng lên, và việc không có ai cùng"
+    },
+    {
+      "start": 51.47,
+      "end": 52.45,
+      "text": "split them with.",
+      "textVi": "chia sẻ các khoản đó."
+    },
+    {
+      "start": 52.89,
+      "end": 55.81,
+      "text": "Imagine two apartments in the same building.",
+      "textVi": "Hãy hình dung hai căn hộ trong cùng một tòa nhà."
+    },
+    {
+      "start": 56.47,
+      "end": 59.87,
+      "text": "Alex lives alone in a one-bedroom apartment.",
+      "textVi": "Alex sống một mình trong căn hộ một phòng ngủ."
+    },
+    {
+      "start": 60.25,
+      "end": 63.51,
+      "text": "Across the hall, two friends share a two-bedroom.",
+      "textVi": "Bên kia hành lang, hai người bạn ở chung căn hộ hai phòng ngủ."
+    },
+    {
+      "start": 63.79,
+      "end": 67.15,
+      "text": "Let's use an illustrative budget, not a national average.",
+      "textVi": "Ta dùng ngân sách minh họa, không phải mức trung bình toàn quốc."
+    },
+    {
+      "start": 67.91,
+      "end": 71.13,
+      "text": "Alex pays eighteen hundred dollars a month in rent.",
+      "textVi": "Alex trả 1.800 đô mỗi tháng tiền thuê nhà."
+    },
+    {
+      "start": 71.81,
+      "end": 74.46,
+      "text": "The two-bedroom costs twenty-four hundred.",
+      "textVi": "Căn hộ hai phòng ngủ có giá 2.400 đô."
+    },
+    {
+      "start": 74.87,
+      "end": 77.83,
+      "text": "Split equally, that's twelve hundred dollars each.",
+      "textVi": "Chia đều, mỗi người trả 1.200 đô."
+    },
+    {
+      "start": 78.61,
+      "end": 80.89,
+      "text": "The shared apartment costs more overall.",
+      "textVi": "Tổng tiền thuê căn hộ chung cao hơn."
+    },
+    {
+      "start": 81.33,
+      "end": 85.43,
+      "text": "But each person pays six hundred dollars less than Alex.",
+      "textVi": "Nhưng mỗi người trả ít hơn Alex 600 đô."
+    },
+    {
+      "start": 86.49,
+      "end": 87.87,
+      "text": "Now add internet.",
+      "textVi": "Giờ cộng thêm internet."
+    },
+    {
+      "start": 88.35,
+      "end": 91.87,
+      "text": "Suppose both apartments have the same sixty-dollar plan.",
+      "textVi": "Giả sử cả hai căn hộ đều dùng gói 60 đô."
+    },
+    {
+      "start": 92.55,
+      "end": 94.21,
+      "text": "Alex pays sixty.",
+      "textVi": "Alex trả đủ 60 đô."
+    },
+    {
+      "start": 94.75,
+      "end": 96.42,
+      "text": "Each friend pays thirty.",
+      "textVi": "Mỗi người bạn trả 30 đô."
+    },
+    {
+      "start": 96.87,
+      "end": 100.865,
+      "text": "That puts Alex at eighteen hundred and sixty dollars for rent and",
+      "textVi": "Như vậy, Alex trả 1.860 đô cho tiền thuê nhà và"
+    },
+    {
+      "start": 100.89,
+      "end": 104.972,
+      "text": "internet. Each friend pays twelve hundred and thirty.",
+      "textVi": "internet. Mỗi người bạn trả 1.230 đô."
+    },
+    {
+      "start": 105.03,
+      "end": 108.332,
+      "text": "A difference of six hundred and thirty dollars a month.",
+      "textVi": "Chênh lệch là 630 đô mỗi tháng."
+    },
+    {
+      "start": 108.358,
+      "end": 112.79,
+      "text": "Seven thousand five hundred and sixty dollars over a year.",
+      "textVi": "Tức 7.560 đô trong một năm."
+    },
+    {
+      "start": 113.89,
+      "end": 117.25,
+      "text": "That's before comparing utilities or anything else.",
+      "textVi": "Đó là chưa so sánh tiền điện, nước hay các khoản khác."
+    },
+    {
+      "start": 117.85,
+      "end": 120.07,
+      "text": "These aren't identical living arrangements.",
+      "textVi": "Hai cách sống này không hoàn toàn giống nhau."
+    },
+    {
+      "start": 120.79,
+      "end": 125.07,
+      "text": "Alex gets privacy, and the friends share a kitchen and living room.",
+      "textVi": "Alex có sự riêng tư; hai người bạn dùng chung bếp và phòng khách."
+    },
+    {
+      "start": 125.51,
+      "end": 129.51,
+      "text": "Local prices could make the gap much smaller or much larger.",
+      "textVi": "Giá tại từng nơi có thể khiến chênh lệch nhỏ hơn hoặc lớn hơn nhiều."
+    },
+    {
+      "start": 129.99,
+      "end": 135.045,
+      "text": "But the mechanism is simple: sharing a household lets people divide some",
+      "textVi": "Nhưng cơ chế rất đơn giản: ở chung cho phép chia sẻ những"
+    },
+    {
+      "start": 135.07,
+      "end": 138.67,
+      "text": "costs that don't double when a second person moves in.",
+      "textVi": "khoản không tăng gấp đôi khi có thêm người thứ hai."
+    },
+    {
+      "start": 139.25,
+      "end": 141.73,
+      "text": "That sharing advantage isn't new.",
+      "textVi": "Lợi thế của việc chia sẻ không phải điều mới."
+    },
+    {
+      "start": 142.81,
+      "end": 145.85,
+      "text": "What's changed is the price of the things being shared.",
+      "textVi": "Điều thay đổi là giá của những thứ được chia sẻ."
+    },
+    {
+      "start": 146.65,
+      "end": 151.625,
+      "text": "Take rent. The Bureau of Labor Statistics reported that its rent of",
+      "textVi": "Lấy tiền thuê nhà làm ví dụ. Theo Cục Thống kê Lao động Mỹ, chỉ số"
+    },
+    {
+      "start": 151.65,
+      "end": 156.845,
+      "text": "primary residence index rose four point three percent over the twelve months",
+      "textVi": "giá thuê nơi ở chính tăng 4,3% trong 12 tháng"
+    },
+    {
+      "start": 156.87,
+      "end": 159.273,
+      "text": "ending December twenty twenty-four.",
+      "textVi": "kết thúc vào tháng 12 năm 2024."
+    },
+    {
+      "start": 159.63,
+      "end": 163.905,
+      "text": "That's a national measure of rent changes, not a quote for your",
+      "textVi": "Đây là mức thay đổi giá thuê toàn quốc, không phải báo giá cho"
+    },
+    {
+      "start": 163.93,
+      "end": 169.41,
+      "text": "next apartment. Your city, building, and lease can tell a different story.",
+      "textVi": "căn hộ sắp thuê. Thành phố, tòa nhà và hợp đồng của bạn có thể khác."
+    },
+    {
+      "start": 170.51,
+      "end": 174.065,
+      "text": "But it shows how a cost can keep getting bigger even after",
+      "textVi": "Nhưng nó cho thấy chi phí vẫn có thể tăng, ngay cả sau khi"
+    },
+    {
+      "start": 174.09,
+      "end": 176.37,
+      "text": "the fastest inflation has passed.",
+      "textVi": "giai đoạn lạm phát cao nhất đã qua."
+    },
+    {
+      "start": 177.05,
+      "end": 180.63,
+      "text": "Slower price growth still means prices are rising.",
+      "textVi": "Giá tăng chậm hơn vẫn có nghĩa là giá đang tăng."
+    },
+    {
+      "start": 181.13,
+      "end": 183.53,
+      "text": "It doesn't mean the old price comes back.",
+      "textVi": "Không có nghĩa là giá cũ quay trở lại."
+    },
+    {
+      "start": 184.11,
+      "end": 188.845,
+      "text": "And when your rent increases, there's nobody across the breakfast table to",
+      "textVi": "Và khi tiền thuê tăng, không có ai ngồi bên kia bàn ăn để"
+    },
+    {
+      "start": 188.87,
+      "end": 190.125,
+      "text": "share the increase with.",
+      "textVi": "chia sẻ phần tăng thêm đó."
+    },
+    {
+      "start": 190.15,
+      "end": 193.83,
+      "text": "Living alone is also far from unusual.",
+      "textVi": "Sống một mình cũng chẳng hiếm gặp."
+    },
+    {
+      "start": 195.25,
+      "end": 200.17,
+      "text": "In twenty twenty-four, the Census Bureau counted about thirty-eight point five million",
+      "textVi": "Năm 2024, Cục Điều tra Dân số Mỹ ghi nhận khoảng 38,5 triệu"
+    },
+    {
+      "start": 200.24,
+      "end": 205.05,
+      "text": "one-person households, roughly twenty-nine percent of all U.S.",
+      "textVi": "hộ chỉ có một người, chiếm khoảng 29% tổng số hộ"
+    },
+    {
+      "start": 205.31,
+      "end": 209.49,
+      "text": "households. That's households, not twenty-nine percent of Americans.",
+      "textVi": "ở Mỹ. Đó là tỷ lệ hộ gia đình, không phải 29% người Mỹ."
+    },
+    {
+      "start": 210.55,
+      "end": 215.165,
+      "text": "People live alone after a move, a breakup, a loss, or simply",
+      "textVi": "Người ta sống một mình sau khi chuyển nhà, chia tay, mất người thân, hoặc"
+    },
+    {
+      "start": 215.19,
+      "end": 216.585,
+      "text": "because they prefer it.",
+      "textVi": "đơn giản vì họ muốn thế."
+    },
+    {
+      "start": 216.61,
+      "end": 223.265,
+      "text": "Different stories. The same practical question: how much household can one income",
+      "textVi": "Mỗi người một câu chuyện. Cùng một câu hỏi: một nguồn thu có thể"
+    },
+    {
+      "start": 223.29,
+      "end": 227.25,
+      "text": "carry? Some costs shrink when you live alone.",
+      "textVi": "gánh bao nhiêu chi phí? Sống một mình giúp giảm một số khoản."
+    },
+    {
+      "start": 228.13,
+      "end": 229.11,
+      "text": "Others barely move.",
+      "textVi": "Những khoản khác thì gần như không đổi."
+    },
+    {
+      "start": 229.71,
+      "end": 232.37,
+      "text": "You probably use less water than two people.",
+      "textVi": "Bạn có thể dùng ít nước hơn hai người."
+    },
+    {
+      "start": 232.59,
+      "end": 233.71,
+      "text": "You buy less food.",
+      "textVi": "Bạn mua ít thực phẩm hơn."
+    },
+    {
+      "start": 234.39,
+      "end": 236.43,
+      "text": "Your electricity use may be lower.",
+      "textVi": "Tiền điện cũng có thể thấp hơn."
+    },
+    {
+      "start": 237.11,
+      "end": 239.77,
+      "text": "But a refrigerator still runs all day.",
+      "textVi": "Nhưng tủ lạnh vẫn chạy suốt ngày."
+    },
+    {
+      "start": 240.31,
+      "end": 242.61,
+      "text": "An internet connection still needs a plan.",
+      "textVi": "Đường truyền internet vẫn cần một gói dịch vụ."
+    },
+    {
+      "start": 243.31,
+      "end": 247.065,
+      "text": "A couch doesn't come at half price because only one person sits",
+      "textVi": "Ghế sofa không được giảm nửa giá chỉ vì có một người"
+    },
+    {
+      "start": 247.09,
+      "end": 250.68,
+      "text": "on it. Even groceries involve tradeoffs.",
+      "textVi": "ngồi lên. Ngay cả việc mua thực phẩm cũng có sự đánh đổi."
+    },
+    {
+      "start": 251.75,
+      "end": 255.385,
+      "text": "A larger package might cost less per serving, but only if you",
+      "textVi": "Gói lớn có thể rẻ hơn tính trên mỗi khẩu phần, nhưng chỉ khi bạn"
+    },
+    {
+      "start": 255.41,
+      "end": 256.65,
+      "text": "actually use it.",
+      "textVi": "thực sự dùng hết."
+    },
+    {
+      "start": 257.13,
+      "end": 260.345,
+      "text": "The cheaper bag of spinach isn't cheaper if half of it ends",
+      "textVi": "Túi rau chân vịt giá rẻ chẳng còn rẻ nếu một nửa bị"
+    },
+    {
+      "start": 260.37,
+      "end": 261.29,
+      "text": "up in the trash.",
+      "textVi": "vứt vào thùng rác."
+    },
+    {
+      "start": 261.99,
+      "end": 265.15,
+      "text": "Buying smaller portions can mean paying more per ounce.",
+      "textVi": "Mua phần nhỏ có thể khiến đơn giá cao hơn."
+    },
+    {
+      "start": 265.77,
+      "end": 269.51,
+      "text": "Buying bigger portions can mean paying for food you never eat.",
+      "textVi": "Mua phần lớn có thể khiến bạn trả tiền cho đồ ăn không dùng đến."
+    },
+    {
+      "start": 270.11,
+      "end": 272.205,
+      "text": "Then there are the costs of setting up a home.",
+      "textVi": "Rồi còn chi phí để sắp xếp một nơi ở mới."
+    },
+    {
+      "start": 272.23,
+      "end": 275.39,
+      "text": "A mattress. Pots and pans.",
+      "textVi": "Nệm. Nồi niêu, chảo."
+    },
+    {
+      "start": 275.99,
+      "end": 278.35,
+      "text": "Cleaning supplies. A table.",
+      "textVi": "Đồ lau dọn. Một chiếc bàn."
+    },
+    {
+      "start": 279.59,
+      "end": 283.39,
+      "text": "Some are one-time purchases, not monthly bills.",
+      "textVi": "Có những thứ chỉ mua một lần, không phải hóa đơn hằng tháng."
+    },
+    {
+      "start": 284.05,
+      "end": 287.945,
+      "text": "But if they all arrive during your first month, your checking account",
+      "textVi": "Nhưng nếu tất cả cùng đến trong tháng đầu, tài khoản ngân hàng của bạn"
+    },
+    {
+      "start": 287.97,
+      "end": 289.83,
+      "text": "feels the difference immediately.",
+      "textVi": "sẽ cảm nhận ngay sự khác biệt."
+    },
+    {
+      "start": 290.59,
+      "end": 295.425,
+      "text": "And a security deposit, even if it's refundable, ties up cash you",
+      "textVi": "Tiền đặt cọc, dù có thể hoàn lại, vẫn giữ lại số tiền bạn"
+    },
+    {
+      "start": 295.45,
+      "end": 296.51,
+      "text": "can't use elsewhere.",
+      "textVi": "chưa thể dùng cho việc khác."
+    },
+    {
+      "start": 297.61,
+      "end": 301.405,
+      "text": "The rent advertised online is only one part of what it takes",
+      "textVi": "Giá thuê quảng cáo chỉ là một phần số tiền cần có"
+    },
+    {
+      "start": 301.43,
+      "end": 303.45,
+      "text": "to move in and stay there.",
+      "textVi": "để dọn vào và tiếp tục sống ở đó."
+    },
+    {
+      "start": 303.89,
+      "end": 306.69,
+      "text": "There's another cost that doesn't appear on the lease.",
+      "textVi": "Còn một chi phí không xuất hiện trong hợp đồng thuê."
+    },
+    {
+      "start": 307.91,
+      "end": 309.31,
+      "text": "The risk is concentrated.",
+      "textVi": "Rủi ro tập trung vào một người."
+    },
+    {
+      "start": 310.19,
+      "end": 314.47,
+      "text": "If Alex loses a job, the apartment still needs the full rent.",
+      "textVi": "Nếu Alex mất việc, căn hộ vẫn cần được trả đủ tiền thuê."
+    },
+    {
+      "start": 315.19,
+      "end": 317.65,
+      "text": "The utility company still sends the bill.",
+      "textVi": "Công ty điện, nước vẫn gửi hóa đơn."
+    },
+    {
+      "start": 318.23,
+      "end": 322.47,
+      "text": "A household with two earners may have another paycheck to lean on.",
+      "textVi": "Gia đình có hai người đi làm có thể dựa vào khoản lương còn lại."
+    },
+    {
+      "start": 322.99,
+      "end": 324.87,
+      "text": "That isn't guaranteed protection.",
+      "textVi": "Nhưng đó không phải sự bảo vệ chắc chắn."
+    },
+    {
+      "start": 325.63,
+      "end": 329.93,
+      "text": "Both people can lose work, and two people also have more expenses.",
+      "textVi": "Cả hai có thể cùng mất việc; hai người cũng có nhiều chi phí hơn."
+    },
+    {
+      "start": 330.69,
+      "end": 335.505,
+      "text": "But living alone on one paycheck means there is no second household",
+      "textVi": "Còn sống một mình bằng một khoản lương nghĩa là không có nguồn thu thứ hai"
+    },
+    {
+      "start": 335.53,
+      "end": 338.71,
+      "text": "income automatically waiting in the background.",
+      "textVi": "của gia đình tự động chờ sẵn phía sau."
+    },
+    {
+      "start": 339.47,
+      "end": 341.35,
+      "text": "Go back to Alex's example.",
+      "textVi": "Quay lại ví dụ của Alex."
+    },
+    {
+      "start": 342.01,
+      "end": 347.75,
+      "text": "Rent and internet alone need eighteen hundred and sixty dollars each month.",
+      "textVi": "Chỉ tiền thuê nhà và internet đã cần 1.860 đô mỗi tháng."
+    },
+    {
+      "start": 348.45,
+      "end": 352.598,
+      "text": "Two months of just those bills would be thirty-seven hundred and twenty",
+      "textVi": "Hai tháng của riêng hai khoản đó là 3.720"
+    },
+    {
+      "start": 352.623,
+      "end": 356.39,
+      "text": "dollars. That's not a complete emergency fund target.",
+      "textVi": "đô. Đó chưa phải mục tiêu đầy đủ cho quỹ khẩn cấp."
+    },
+    {
+      "start": 357.21,
+      "end": 362.91,
+      "text": "It leaves out food, utilities, transportation, healthcare, and other obligations.",
+      "textVi": "Chưa tính thực phẩm, điện nước, đi lại, y tế và các nghĩa vụ khác."
+    },
+    {
+      "start": 363.83,
+      "end": 365.51,
+      "text": "It's a way to see the exposure.",
+      "textVi": "Đây là cách nhìn rõ mức độ rủi ro."
+    },
+    {
+      "start": 366.19,
+      "end": 371.345,
+      "text": "When one person carries the full household bill, protecting that income becomes",
+      "textVi": "Khi một người gánh toàn bộ hóa đơn của gia đình, bảo vệ nguồn thu trở thành"
+    },
+    {
+      "start": 371.37,
+      "end": 373.25,
+      "text": "part of the cost of independence.",
+      "textVi": "một phần chi phí của sự độc lập."
+    },
+    {
+      "start": 374.19,
+      "end": 377.95,
+      "text": "At this point, the obvious advice is: get a roommate.",
+      "textVi": "Đến đây, lời khuyên dễ thấy là: tìm người ở ghép."
+    },
+    {
+      "start": 378.81,
+      "end": 381.425,
+      "text": "Sometimes, that is the right financial move.",
+      "textVi": "Đôi khi đó là lựa chọn đúng về tài chính."
+    },
+    {
+      "start": 381.45,
+      "end": 385.75,
+      "text": "But people don't choose a home using a calculator alone.",
+      "textVi": "Nhưng người ta không chỉ dùng máy tính để chọn một mái nhà."
+    },
+    {
+      "start": 386.79,
+      "end": 390.89,
+      "text": "Living alone can mean sleeping properly after a night shift.",
+      "textVi": "Sống một mình có thể giúp ngủ ngon sau ca làm đêm."
+    },
+    {
+      "start": 391.19,
+      "end": 393.77,
+      "text": "Recovering from a difficult relationship.",
+      "textVi": "Hồi phục sau một mối quan hệ khó khăn."
+    },
+    {
+      "start": 394.31,
+      "end": 396.29,
+      "text": "Having a quiet place to work.",
+      "textVi": "Có nơi yên tĩnh để làm việc."
+    },
+    {
+      "start": 396.75,
+      "end": 401.765,
+      "text": "Feeling safe. Those benefits are real, even when you can't put a",
+      "textVi": "Cảm thấy an toàn. Những lợi ích ấy có thật, dù không thể gắn cho chúng"
+    },
+    {
+      "start": 401.79,
+      "end": 403.91,
+      "text": "precise dollar amount on them.",
+      "textVi": "một con số tiền chính xác."
+    },
+    {
+      "start": 404.47,
+      "end": 408.845,
+      "text": "The useful question is whether the extra cost fits alongside the rest",
+      "textVi": "Câu hỏi hữu ích là khoản chi thêm ấy có phù hợp với những phần còn lại"
+    },
+    {
+      "start": 408.87,
+      "end": 409.69,
+      "text": "of your life.",
+      "textVi": "trong cuộc sống của bạn không."
+    },
+    {
+      "start": 410.41,
+      "end": 414.905,
+      "text": "In Alex's example, the rent-and-internet difference is six hundred and thirty dollars",
+      "textVi": "Trong ví dụ của Alex, tiền thuê nhà và internet chênh 630 đô"
+    },
+    {
+      "start": 414.93,
+      "end": 419.55,
+      "text": "a month. For someone else, it might be much less.",
+      "textVi": "mỗi tháng. Với người khác, chênh lệch có thể thấp hơn nhiều."
+    },
+    {
+      "start": 420.23,
+      "end": 421.07,
+      "text": "Or much more.",
+      "textVi": "Hoặc cao hơn nhiều."
+    },
+    {
+      "start": 421.97,
+      "end": 425.565,
+      "text": "Once you estimate your own difference, you can decide what you're getting",
+      "textVi": "Khi tính được chênh lệch của mình, bạn có thể cân nhắc những gì nhận"
+    },
+    {
+      "start": 425.59,
+      "end": 429.785,
+      "text": "for it, what you're giving up, and whether that trade still feels",
+      "textVi": "lại, những gì phải từ bỏ, và liệu sự đánh đổi ấy còn"
+    },
+    {
+      "start": 429.81,
+      "end": 433.71,
+      "text": "worth making. Start with the full cost of your home.",
+      "textVi": "đáng giá không. Hãy bắt đầu từ toàn bộ chi phí nơi ở."
+    },
+    {
+      "start": 434.35,
+      "end": 441.81,
+      "text": "Before signing a lease, add rent, required fees, utilities, internet, renters insurance,",
+      "textVi": "Trước khi ký hợp đồng, cộng tiền thuê, phí bắt buộc, điện nước, internet, bảo hiểm người thuê,"
+    },
+    {
+      "start": 442.49,
+      "end": 445.43,
+      "text": "and the transportation costs tied to that location.",
+      "textVi": "và chi phí đi lại gắn với địa điểm đó."
+    },
+    {
+      "start": 446.37,
+      "end": 450.225,
+      "text": "A cheaper apartment that requires a car can leave you spending more",
+      "textVi": "Căn hộ rẻ hơn nhưng khiến bạn phải có ô tô có thể làm tổng chi phí"
+    },
+    {
+      "start": 450.25,
+      "end": 453.65,
+      "text": "overall. List moving costs separately.",
+      "textVi": "cao hơn. Hãy liệt kê riêng chi phí chuyển nhà."
+    },
+    {
+      "start": 454.87,
+      "end": 459.505,
+      "text": "Include deposits, basic furniture, and the money needed before the first normal",
+      "textVi": "Gồm tiền đặt cọc, đồ đạc cơ bản và số tiền cần có trước khi tháng sinh hoạt"
+    },
+    {
+      "start": 459.53,
+      "end": 460.97,
+      "text": "month even begins.",
+      "textVi": "bình thường đầu tiên bắt đầu."
+    },
+    {
+      "start": 461.83,
+      "end": 466.965,
+      "text": "Then build a bare-bones monthly budget: the expenses you'd still need to",
+      "textVi": "Sau đó lập ngân sách thiết yếu hằng tháng: những khoản vẫn cần"
+    },
+    {
+      "start": 466.99,
+      "end": 468.79,
+      "text": "cover if your income stopped.",
+      "textVi": "chi trả nếu thu nhập ngừng lại."
+    },
+    {
+      "start": 469.43,
+      "end": 472.925,
+      "text": "Use that number to start planning a cash buffer that fits your",
+      "textVi": "Dùng con số ấy để lập khoản dự phòng phù hợp với hoàn cảnh"
+    },
+    {
+      "start": 472.95,
+      "end": 478.785,
+      "text": "situation. Even a small reserve can help with a surprise bill; building",
+      "textVi": "của bạn. Dù nhỏ, khoản dự phòng cũng có thể giúp xử lý hóa đơn bất ngờ; để tích lũy"
+    },
+    {
+      "start": 478.81,
+      "end": 480.15,
+      "text": "one takes time.",
+      "textVi": "được nó cần có thời gian."
+    },
+    {
+      "start": 480.85,
+      "end": 486.725,
+      "text": "Next, examine the biggest recurring commitments before spending all your energy on",
+      "textVi": "Tiếp theo, xem lại những khoản cam kết chi lớn trước khi dồn hết sức vào"
+    },
+    {
+      "start": 486.75,
+      "end": 493.445,
+      "text": "tiny purchases. A smaller apartment, a different neighborhood, or a lower-cost internet",
+      "textVi": "các món nhỏ. Căn hộ nhỏ hơn, khu vực khác, hoặc gói internet rẻ hơn"
+    },
+    {
+      "start": 493.47,
+      "end": 495.13,
+      "text": "plan may create room.",
+      "textVi": "có thể tạo thêm khoảng thở."
+    },
+    {
+      "start": 495.83,
+      "end": 500.83,
+      "text": "Check the actual tradeoffs, including safety, commute, and moving expenses.",
+      "textVi": "Hãy tính đủ sự đánh đổi về an toàn, đi làm và chi phí chuyển nhà."
+    },
+    {
+      "start": 501.65,
+      "end": 504.97,
+      "text": "For food, plan around ingredients you can finish.",
+      "textVi": "Với thực phẩm, lên kế hoạch theo nguyên liệu bạn có thể dùng hết."
+    },
+    {
+      "start": 506.01,
+      "end": 510.285,
+      "text": "Freeze portions. Compare the cost of what you eat, not just the",
+      "textVi": "Chia phần để cấp đông. So sánh chi phí của phần thực sự ăn, thay vì chỉ nhìn"
+    },
+    {
+      "start": 510.31,
+      "end": 511.55,
+      "text": "price on the package.",
+      "textVi": "vào giá ghi trên bao bì."
+    },
+    {
+      "start": 511.87,
+      "end": 514.13,
+      "text": "And build a practical support network.",
+      "textVi": "Và hãy có những người bạn có thể nhờ hỗ trợ."
+    },
+    {
+      "start": 514.95,
+      "end": 518.97,
+      "text": "Someone you can call when you're sick or need help getting home.",
+      "textVi": "Người bạn có thể gọi khi ốm hoặc cần giúp về nhà."
+    },
+    {
+      "start": 519.55,
+      "end": 524.07,
+      "text": "Living independently doesn't mean handling every problem without anyone else.",
+      "textVi": "Sống độc lập không có nghĩa là phải tự giải quyết mọi vấn đề."
+    },
+    {
+      "start": 524.73,
+      "end": 528.145,
+      "text": "The next time Alex puts the keys on the counter, the apartment",
+      "textVi": "Lần sau khi Alex đặt chìa khóa lên quầy, căn hộ"
+    },
+    {
+      "start": 528.17,
+      "end": 529.37,
+      "text": "is still quiet.",
+      "textVi": "vẫn yên tĩnh như trước."
+    },
+    {
+      "start": 530.05,
+      "end": 531.73,
+      "text": "The privacy still matters.",
+      "textVi": "Sự riêng tư vẫn quan trọng."
+    },
+    {
+      "start": 532.37,
+      "end": 535.09,
+      "text": "But now the budget includes more than the rent.",
+      "textVi": "Nhưng giờ ngân sách đã tính nhiều hơn tiền thuê."
+    },
+    {
+      "start": 535.69,
+      "end": 540.245,
+      "text": "It includes the smaller bills, the move-in costs, and a plan for",
+      "textVi": "Gồm cả hóa đơn nhỏ, chi phí dọn vào và kế hoạch cho"
+    },
+    {
+      "start": 540.27,
+      "end": 542.01,
+      "text": "the months that don't go smoothly.",
+      "textVi": "những tháng mọi việc không suôn sẻ."
+    },
+    {
+      "start": 542.95,
+      "end": 548.285,
+      "text": "Living alone has become more expensive because higher prices meet a household",
+      "textVi": "Sống một mình đắt đỏ hơn vì giá tăng trong một hộ gia đình"
+    },
+    {
+      "start": 548.31,
+      "end": 551.09,
+      "text": "that has fewer ways to share them.",
+      "textVi": "có ít cách chia sẻ chi phí hơn."
+    },
+    {
+      "start": 551.61,
+      "end": 554.07,
+      "text": "Understanding that won't make a lease cheaper.",
+      "textVi": "Hiểu điều đó không làm hợp đồng thuê rẻ đi."
+    },
+    {
+      "start": 554.67,
+      "end": 559.205,
+      "text": "It can help explain why being careful with money sometimes still feels",
+      "textVi": "Nhưng có thể lý giải vì sao dù cẩn thận với tiền, bạn vẫn cảm thấy"
+    },
+    {
+      "start": 559.23,
+      "end": 560.61,
+      "text": "like falling behind.",
+      "textVi": "mình đang tụt lại."
+    },
+    {
+      "start": 561.45,
+      "end": 565.585,
+      "text": "If living alone matters to you, give it an honest place in",
+      "textVi": "Nếu sống một mình quan trọng với bạn, hãy dành cho nó một vị trí thực tế trong"
+    },
+    {
+      "start": 565.61,
+      "end": 570.49,
+      "text": "your budget. And leave room for something beyond paying to stay there.",
+      "textVi": "ngân sách. Và để lại khoảng thở cho cuộc sống ngoài việc trả tiền để ở đó."
+    },
+    {
+      "start": 571.03,
+      "end": 575.165,
+      "text": "The goal is to enjoy the home you worked for, with enough",
+      "textVi": "Mục tiêu là tận hưởng mái nhà bạn đã làm việc để có, với đủ"
+    },
+    {
+      "start": 575.19,
+      "end": 576.89,
+      "text": "breathing room to keep it.",
+      "textVi": "khoảng thở để tiếp tục giữ được nó."
+    }
+  ]
+}

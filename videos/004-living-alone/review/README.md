@@ -1,5 +1,7 @@
 # Video 004 — Bản duyệt đầy đủ v01
 
+Có **155 đoạn dịch tiếng Việt** tại `captions.vi.json` và [VTT](captions.vi.vtt). Trong Studio, chọn **Tiếng Việt** cạnh ô **Phụ đề** để bật; lựa chọn được lưu và dùng khi xuất WebM. Tiếng Anh và mọi mốc giữ nguyên; MP4 v01 không bị xuất đè hoặc chèn thêm chữ. Draft cùng revision được bổ sung bản dịch khi toàn bộ cue tiếng Anh/mốc khớp, không thay timeline hoặc ghi đè bản dịch riêng.
+
 **577.500 giây · 91 cảnh · 1920×1080 / 30 fps.** Chờ người dùng duyệt, chưa phải bản cuối.
 
 Dự án chỉnh được: `project.json`; MP4: `../exports/full-review-v01.mp4`; audio dẫn xuất: `voiceover.mp3`. WAV gốc và bảng duyệt hình 96 giây giữ nguyên.

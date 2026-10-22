@@ -53,7 +53,8 @@ export function validate(project) {
     }
   }
   if(duration(project)>900) fail();
-  if(project.captions!==undefined && (!Array.isArray(project.captions)||project.captions.length>2000||project.captions.some(c=>!c||!n(c.start,0,3600)||!n(c.end,0,3600)||c.end<=c.start||typeof c.text!=='string'||c.text.length>500))) fail();
+  if(project.captions!==undefined && (!Array.isArray(project.captions)||project.captions.length>2000||project.captions.some(c=>!c||!n(c.start,0,3600)||!n(c.end,0,3600)||c.end<=c.start||typeof c.text!=='string'||c.text.length>500||(c.textVi!==undefined&&(typeof c.textVi!=='string'||c.textVi.length>500))))) fail();
+  if(project.captionLanguage!==undefined&&!['en','vi'].includes(project.captionLanguage))fail();
   return project;
 }
 export async function loadAssets(project, baseURL) {
@@ -106,6 +107,7 @@ function textLayer(ctx,l,b,local) {
   const lines=wrapText(ctx,layerText(l,local),l.w);const x=l.align==='center'?b.x+b.w/2:l.align==='right'?b.x+b.w:b.x;
   lines.forEach((line,i)=>ctx.fillText(line,x,b.y+i*l.size*1.18));
 }
+export function captionText(cue,language='en'){return language==='vi'&&cue.textVi?.trim()?cue.textVi:cue.text;}
 export function render(ctx, project, images, time, {selection=null,captions=false}={}) {
   const at=locate(project,time),c=at.clip;
   ctx.save();ctx.clearRect(0,0,WIDTH,HEIGHT);ctx.fillStyle=c.background;ctx.fillRect(0,0,WIDTH,HEIGHT);
@@ -130,7 +132,7 @@ export function render(ctx, project, images, time, {selection=null,captions=fals
     const cue=project.captions.find(cue=>time>=cue.start&&time<cue.end);
     if(cue) {
       ctx.font='500 35px "Times New Roman", Times, serif';ctx.textBaseline='middle';ctx.textAlign='center';
-      const lines=wrapText(ctx,cue.text,1620),h=lines.length*45+24,y=HEIGHT-h-24;
+      const lines=wrapText(ctx,captionText(cue,project.captionLanguage),1620),h=lines.length*45+24,y=HEIGHT-h-24;
       ctx.fillStyle='#1f2b29e8';ctx.beginPath();ctx.roundRect(90,y,1740,h,14);ctx.fill();ctx.fillStyle='#ffffff';
       lines.forEach((line,i)=>ctx.fillText(line,WIDTH/2,y+34+i*45));
     }

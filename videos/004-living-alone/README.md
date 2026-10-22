@@ -11,6 +11,8 @@ Lời đọc có khoảng **1.279 từ**. Đã nhận WAV dài **577,5 giây (9 
 
 ## Bản duyệt đầy đủ v01
 
+**Phụ đề tiếng Việt để xem hiểu nội dung:** trong Studio, chọn **Tiếng Việt** bên cạnh ô **Phụ đề** phía trên khung xem. Có đủ **155 đoạn**, dùng cùng mốc lời đọc và Times New Roman; chuyển lại Tiếng Anh hoặc tắt bất cứ lúc nào. Lựa chọn được lưu và áp dụng khi Xuất WebM. [Tải VTT tiếng Việt](review/captions.vi.vtt). MP4 v01, audio, hình và timeline gốc không thay đổi.
+
 **91 cảnh · 577,5 giây · 1920×1080 / 30 fps**, chờ người dùng duyệt, chưa phải bản cuối.
 
 - [Mở bản dựng trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-004&tab=video) · [MP4 v01](exports/full-review-v01.mp4) · [Timecode](review/README.md) · [Kiểm tra thực tế](review/validation.json).

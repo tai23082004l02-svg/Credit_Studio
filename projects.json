@@ -59,7 +59,8 @@
       "script": "videos/004-living-alone/script.md",
       "cover": "videos/004-living-alone/images/scenes/01a.png",
       "audio": "videos/004-living-alone/audio/tts_20261022_133142_ba54ee.wav",
-      "review": "videos/004-living-alone/exports/full-review-v01.mp4"
+      "review": "videos/004-living-alone/exports/full-review-v01.mp4",
+      "captionTranslation": "videos/004-living-alone/review/captions.vi.json"
     }
   ]
 }

@@ -196,6 +196,12 @@ flush()
 peaks=[round(min(1,float(np.sqrt(np.mean(c*c)))/7000),3) for c in np.array_split(samples,1400)]
 used={l['asset'] for c in clips for l in c['layers'] if l['type']=='image'}
 project=dict(kind='credit-studio-video',version=1,revision='living-alone-review-v01',name='Living Alone — Bản duyệt đầy đủ v01',width=1920,height=1080,fps=30,audio=dict(src=P+'review/voiceover.mp3',offset=0,volume=1),assets={k:v for k,v in assets.items() if k in used},clips=clips,captions=caps,showCaptions=False,waveform=peaks,waveformDuration=total)
+translation_file=OUT/'captions.vi.json'
+if translation_file.exists():
+ bundle=json.loads(translation_file.read_text())
+ translated=bundle.get('captions',[])
+ if bundle.get('revision')==project['revision'] and len(translated)==len(caps) and all(all(a.get(k)==b.get(k) for k in ['start','end','text']) and isinstance(b.get('textVi'),str) and len(b['textVi'])<=500 for a,b in zip(caps,translated)):
+  for a,b in zip(caps,translated):a['textVi']=b['textVi']
 OUT.mkdir(exist_ok=True);(OUT/'project.json').write_text(json.dumps(project,ensure_ascii=False,indent=2)+'\n')
 shotdata=[dict(**s,end=round(s['start']+s['duration'],6)) for s in shots];(OUT/'shot-plan.json').write_text(json.dumps(shotdata,ensure_ascii=False,indent=2)+'\n')
 def stamp(t):

@@ -143,6 +143,10 @@ Có thể thay đối số đầu bằng JSON đã lưu từ trình chỉnh vide
 
 Font hiện dùng là Times New Roman cho chữ và phụ đề. Khi dựng MP4 cần có font này trên máy; kiểm tra bằng `fc-match 'Times New Roman'` trên Linux. Trong môi trường đám mây đã chuẩn bị font tại `/workspace/shared/credit-studio-fonts`; dùng tiền tố `FONTCONFIG_FILE=/workspace/shared/credit-studio-fonts/fonts.conf` khi chạy lệnh dựng. Website dùng Times New Roman cục bộ và font serif dự phòng nếu thiết bị thiếu font.
 
+## Phụ đề trong trình dựng
+
+Trên khung xem của trình dựng, bật **Phụ đề** và chọn **Tiếng Anh / Tiếng Việt**. Chọn ngôn ngữ tự bật phụ đề, được lưu cùng bản chỉnh và dùng khi xuất WebM. Hiện video 004 có 155 đoạn dịch tiếng Việt; các video chưa dịch vẫn dùng tiếng Anh. Bổ sung bản dịch vào draft đã lưu chỉ khi mốc và chữ tiếng Anh khớp, giữ nguyên timeline và các sửa riêng. MP4 bản duyệt gốc giữ nguyên.
+
 ## Chuyển động nội dung trong video
 
 Trong **Chỉnh phần tử → Chuyển động nội dung**, chọn thanh tăng/giảm, di chuyển ngang/dọc hoặc số thay đổi. Chỉnh mốc `giây: giá trị`, nhịp chuyển và định dạng số. Studio và các bản xuất dùng cùng trạng thái theo thời gian, hỗ trợ tua ngược, hoàn tác/làm lại và lưu JSON. [Hướng dẫn bản v03](videos/001-100k-salary/review-v03/README.md). Kiểm tra: `node --test tests/video-motion.mjs` và `node tests/video-motion-editor.cjs`.

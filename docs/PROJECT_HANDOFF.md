@@ -2,6 +2,14 @@
 
 Cập nhật: 2026-10-22. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
 
+## Phụ đề tiếng Việt — video 004 (2026-10-22)
+
+Theo yêu cầu xem hiểu nội dung, đã thêm lựa chọn **Tiếng Anh / Tiếng Việt** cạnh checkbox **Phụ đề** ở đầu preview Studio. Có **155 cue dịch tiếng Việt**, giữ toàn bộ tiếng Anh, mốc và chữ Times New Roman. Chọn ngôn ngữ tự bật phụ đề; `captionLanguage: en|vi` và `showCaptions` lưu trong project, đi cùng JSON/backup và WebM. Dự án cũ mặc định vẫn tiếng Anh; lựa chọn Việt bị vô hiệu nếu chưa có đủ bản dịch. MP4 v01 không xuất lại, không thêm nhạc hoặc đổi audio.
+
+`review/project.json` chỉ thêm `textVi` vào từng cue. Sidecar `review/captions.vi.json` có revision/ngôn ngữ/cue tiếng Anh và bản dịch; VTT tiếng Việt ở `captions.vi.vtt`. Metadata `captionTranslation` là đường dẫn sidecar, được giữ qua cleanMeta/mergeMeta/backup. `video/captions.js` ghép bổ sung vào draft có sẵn **chỉ khi revision và toàn bộ start/end/text tiếng Anh khớp**; giữ timeline, lớp đã sửa, audio, lựa chọn cũ và bản dịch riêng. Không nâng revision hoặc thay toàn bộ draft. Lỗi mạng/khác mốc vẫn mở được bản đang lưu bằng tiếng Anh. Đổi audio vẫn xóa caption cũ theo hành vi trước. Builder chỉ giữ bản dịch khi mốc và chữ khớp sau khi tái tạo; không chạy lại builder hoặc renderer cho thay đổi phụ đề này.
+
+Engine kiểm tra `textVi` tùy chọn và captionLanguage, renderer dùng cùng lựa chọn cho preview/WebM. Header responsive, Times New Roman. Query hub/editor/store/engine/iframe/CSS là `captions-vi-v1`. Đã qua **19 unit test** engine/motion/WebM/media/caption, và Playwright `vietnamese-captions-editor`: draft đã sửa giữ nguyên khi ghép, English/Vi thay đổi canvas thật, lưu/reload/backup, mobile, xuất WebM thật có audio, dự án cũ và offline. 155 cue tiếng Việt đều vừa một dòng ở font caption thực. Đã xem screenshot; kiểm tra MP4, WAV, MP3 và VTT tiếng Anh không đổi byte; project bỏ textVi thì giống hệt bản trước. Vẫn chờ người dùng duyệt video cuối và góp ý kèm timecode.
+
 ## Video 004 — bản duyệt đầy đủ từ audio gửi qua chat (2026-10-22, trạng thái mới nhất)
 
 Người dùng gửi **`tts_20261022_133142_ba54ee.wav`** trực tiếp qua chat vì tệp lớn và tiếp tục yêu cầu dựng. Đã lưu nguyên bản vào `videos/004-living-alone/audio/`: **27.720.044 byte, 577,5 giây, PCM 16-bit / 24 kHz / mono**, SHA-256 **`10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d`**. Không cần người dùng upload lại. Bản gốc giữ nguyên; `review/voiceover.mp3` là dẫn xuất FFmpeg loudnorm (-16 LUFS / -1,5 dBTP mục tiêu), không cắt lời hoặc đổi tốc độ. Chưa nhạc nền.

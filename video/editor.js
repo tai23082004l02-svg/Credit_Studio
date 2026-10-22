@@ -1,8 +1,9 @@
 import {mediaURL} from '../assets/js/media-storage.js?v=r2-v1';
 import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-v1';
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=living-review-v1';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=captions-vi-v1';
 import {finalizeWebM} from './webm.js';
-import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=living-review-v1';
+import {mergeCaptionTranslation,hasVietnameseCaptions} from './captions.js?v=captions-vi-v1';
+import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=captions-vi-v1';
 const $=s=>document.querySelector(s);
 const canvas=$('#preview'),ctx=canvas.getContext('2d'),audio=$('#audio');
 const baseURL=APP_ROOT,params=new URLSearchParams(location.search),workspaceID=params.get('project')||FINANCE_ID;
@@ -60,12 +61,22 @@ async function prepareAudio(){audioReady=false;$('#play').disabled=true;$('#audi
  audioReady=true;setVolume();$('#audio-status').textContent=`Giọng đọc ${clock(audio.duration)} · bắt đầu từ ${project.audio.offset.toFixed(1)}s`;$('#play').disabled=false;
 }
 function setVolume(){if(gainNode){audio.volume=1;gainNode.gain.value=project.audio.volume;}else audio.volume=project.audio.volume;}
+function syncCaptionControls(){
+ $('#captions').checked=!!project.showCaptions;
+ const available=hasVietnameseCaptions(project),option=$('#caption-language option[value="vi"]');
+ option.disabled=!available;option.textContent=available?'Tiếng Việt':'Tiếng Việt (chưa có)';
+ $('#caption-language').value=available&&project.captionLanguage==='vi'?'vi':'en';
+}
 async function loadProject(data,{resetHistory=true,save=false}={}){
- const checked=validate(clone(data));stop();loading=true;audioReady=false;const ticket=++loadTicket;$('#loading').hidden=false;$('#loading').textContent='Đang tải hình và giọng đọc…';setBusy(true);
+ let checked=validate(clone(data));stop();loading=true;audioReady=false;const ticket=++loadTicket;$('#loading').hidden=false;$('#loading').textContent='Đang tải hình và giọng đọc…';setBusy(true);
  try{
+  if(workspaceMeta?.captionTranslation&&!hasVietnameseCaptions(checked)){
+   try{const r=await fetch(resourceURL(workspaceMeta.captionTranslation),{cache:'no-cache',signal:AbortSignal.timeout(8000)});if(r.ok)checked=validate(mergeCaptionTranslation(checked,await r.json()));}catch{/* Keep the saved draft usable offline. */}
+   if(ticket!==loadTicket)return;
+  }
   const loaded=await loadAssets(checked,baseURL);if(ticket!==loadTicket)return;
   project=checked;images=loaded;time=0;activeIndex=0;selected=null;if(resetHistory){history=[];future=[];}
-  $('#captions').checked=!!project.showCaptions;build();draw();await prepareAudio();if(ticket!==loadTicket)return;
+  syncCaptionControls();build();draw();await prepareAudio();if(ticket!==loadTicket)return;
   if(save)await persist();loading=false;$('#loading').hidden=true;setBusy(false);setTime(0);if(!save)$('#save-status').textContent='Dự án đã sẵn sàng';
  }catch(e){loading=false;$('#loading').hidden=false;$('#loading').textContent=e.message+' Chọn Bản gốc để thử lại.';setBusy(false);toast(e.message);throw e;}
 }
@@ -114,6 +125,7 @@ property('#audio-offset',v=>{project.audio.offset=Number(v);$('#audio-status').t
 $('#volume').onchange=()=>change(()=>{project.audio.volume=Number($('#volume').value);setVolume();});
 $('#volume').oninput=()=>{if(gainNode)gainNode.gain.value=Number($('#volume').value);else audio.volume=Number($('#volume').value);};
 $('#captions').onchange=()=>{if(!project)return;project.showCaptions=$('#captions').checked;persist();draw();};
+$('#caption-language').onchange=()=>{if(!project)return;project.captionLanguage=$('#caption-language').value;project.showCaptions=true;syncCaptionControls();persist();draw();};
 $('#play').onclick=()=>playing?stop():play();$('#restart').onclick=()=>{stop();setTime(0);};$('#scrub').oninput=event=>{stop();selected=null;setTime(Number(event.target.value));};
 $('#add-text').onclick=()=>change(()=>{const l={id:uid(),type:'text',text:'Nội dung của bạn',x:100,y:120,w:1200,h:160,size:75,fill:'#27332f',align:'left',enter:0,effect:'fade',opacity:1,drift:0};current().layers.push(l);selected=l.id;});
 let pickerItems=[],pickerTarget=null;
@@ -138,7 +150,7 @@ $('#duplicate-scene').onclick=()=>{if(project.clips.length>=100)return toast('T�
 $('#delete-scene').onclick=()=>{if(project.clips.length<=1)return;change(()=>{project.clips.splice(activeIndex,1);activeIndex=Math.min(activeIndex,project.clips.length-1);selected=null;time=clipStart(project,activeIndex)+.2;});};
 for(const [id,delta]of [['earlier',-1],['later',1]])$('#'+id).onclick=()=>{const j=activeIndex+delta;if(j<0||j>=project.clips.length)return;change(()=>{[project.clips[activeIndex],project.clips[j]]=[project.clips[j],project.clips[activeIndex]];activeIndex=j;time=clipStart(project,j)+.2;selected=null;});};
 async function restore(stack,other){if(!stack.length||loading||recording)return;stop();const old=clone(project),snapshot=stack.pop();other.push(JSON.stringify(old));const next=JSON.parse(snapshot);const audioChanged=next.audio.src!==old.audio.src;
- if(audioChanged){await loadProject(next,{resetHistory:false,save:true});}else{project=validate(next);time=clamp(time,0,duration(project));activeIndex=locate(project,time).index;selected=null;setVolume();$('#captions').checked=!!project.showCaptions;build();setTime(time);persist();}}
+ if(audioChanged){await loadProject(next,{resetHistory:false,save:true});}else{project=validate(next);time=clamp(time,0,duration(project));activeIndex=locate(project,time).index;selected=null;setVolume();syncCaptionControls();build();setTime(time);persist();}}
 $('#undo').onclick=()=>restore(history,future).catch(e=>toast(e.message));$('#redo').onclick=()=>restore(future,history).catch(e=>toast(e.message));
 function point(event){const r=canvas.getBoundingClientRect();return{x:(event.clientX-r.left)*WIDTH/r.width,y:(event.clientY-r.top)*HEIGHT/r.height};}
 canvas.onpointerdown=event=>{if(loading||recording||event.button!==0)return;stop();const p=point(event),at=locate(project,time);const hit=[...at.clip.layers].reverse().find(l=>{const b=layerBox(l,at.local);return b.alpha>.1&&p.x>=b.x&&p.x<=b.x+b.w&&p.y>=b.y&&p.y<=b.y+b.h;});selected=hit?.id??null;if(hit){drag={x:p.x,y:p.y,ox:hit.x,oy:hit.y,before:JSON.stringify(project),animation:clone(hit.animation||null)};canvas.setPointerCapture(event.pointerId);}updateProperties();draw();};
