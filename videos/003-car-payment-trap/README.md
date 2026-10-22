@@ -11,13 +11,28 @@ Khán giả Mỹ; lời thoại tiếng Anh; Alex và đồ họa vẽ tay 2D; c
 - `projects/`: 16 thiết kế có lớp chữ/số/ảnh riêng; `images/scenes/`: 16 bản PNG xem nhanh qua cùng renderer Studio.
 - `storyboard/project.json`: bảng 16 cảnh × 6 giây, **không có audio, chưa căn lời đọc**, revision `car-artwork-board-v01`. Không phải video hoàn chỉnh và chưa có MP4.
 
+## Bản duyệt đầy đủ v01 hiện tại
+
+**98 cảnh · 522,2 giây (8 phút 42,2 giây) · 1920×1080 / 30 fps.** Chờ người dùng duyệt, chưa phải bản cuối.
+
+- [MP4 v01](exports/full-review-v01.mp4) · [Dự án chỉnh được](review/project.json) · [Timecode](review/README.md) · [Kiểm tra thực tế](review/validation.json).
+- WAV gốc `audio/tts_20261022_115123_7124d9.wav` giữ nguyên; `review/voiceover.mp3` là bản dẫn xuất chuẩn hóa âm lượng, không đổi tốc độ hoặc cắt lời.
+- 27 lớp chuyển động nội dung trong 14 cảnh, cùng các thẻ xuất hiện theo lời đọc: thanh tổng chi phí xe, bảng tiết kiệm 12 tháng, lịch và dư nợ theo công thức trả góp, phong bì nợ đi sang khoản vay mới. Chữ Times New Roman; không nhạc nền hoặc rig khớp.
+- `review/alignment.json`: mốc từ tự động, `review/captions.vtt`: phụ đề bật được trong Studio; MP4 mặc định không chèn phụ đề. Có sai số căn từ tự động.
+- Audio dùng câu chuyển thời gian cũ “A couple of years pass”; giữ nguyên lời đọc và ghi rõ phần trade-in là **ví dụ giả định riêng**, không phải số dư hai năm của khoản vay trước. Văn bản đối chiếu audio nằm ở `review/narration.md`; script dự định vẫn giữ bản đã chỉnh.
+- Bảng 96 giây, 16 thiết kế/ảnh và sheet trước đây giữ nguyên. Studio lưu draft bảng hình đã chỉnh vào **Bản lưu trước cập nhật** trước khi mở review; bản đó tải JSON được và nằm trong `.credit.json`. Các sửa đổi trên review v01 được giữ khi reload.
+
+Vào **Chỉnh phần tử → Chuyển động nội dung** để sửa mốc, giá trị và nhịp của từng lớp. Vị trí/thời gian audio giữ nguyên khi xem/tua và xuất. Bản dựng này dựa trên tài nguyên repo, chưa ghép các sửa riêng trong IndexedDB; nếu cần tiếp tục từ sửa đó, cung cấp `.credit.json` hoặc JSON.
+
+Tạo lại dữ liệu: `python3 tools/build-car-payment-video.py`. Mặc định chặn ghi đè; chỉ `--force` sau khi sao lưu sửa tay. Công cụ không sửa WAV/MP4. Xuất bằng `tools/render-intro.cjs` với tên mới; giữ v01 cho lần xuất sau.
+
 ## Số liệu minh họa
 
 $35,000 vay ở APR 8% / 72 tháng cho payment khoảng $614/tháng; tổng khoảng $44,200 và interest khoảng $9,200, giả định fixed rate và không thêm financed fees. Các số đã làm tròn; không lấy $614 làm số chưa làm tròn để kiểm tra tổng chính xác. Payment + insurance + gas + upkeep/registration dùng ví dụ 614 + 180 + 160 + 90 = 1,044; 12,528/năm được đọc và hiển thị gần $12,500. Negative equity: 28,000 − 23,000 = 5,000; 30,000 + 5,000 = 35,000 trước tax/fees, tùy lender. 200 × 12 = 2,400.
 
 ## Tiếp theo
 
-Tạo giọng đọc từ `script.md`, bỏ tiêu đề đoạn và hướng dẫn tiếng Việt. Lưu WAV hoặc MP3 vào `audio/`, commit lên GitHub rồi báo để bắt đầu căn cảnh và chuyển động theo audio thật. Giữ bản ghi gốc. Chưa thêm nhạc nền hoặc rig khớp.
+Người dùng duyệt MP4 v01 và gửi góp ý kèm timecode. Nếu đã chỉnh trong Studio, gửi bản sao lưu trước khi tiếp tục từ sửa đó. Giữ bản WAV gốc và dùng tên v02 cho lần xuất tiếp theo. Chưa thêm nhạc nền hoặc rig khớp.
 
 Bản sửa trong Studio nằm ở IndexedDB, không tự lên GitHub. Nếu đã chỉnh, tải **Sao lưu dự án .credit.json** hoặc JSON trước khi nhờ trợ lý tiếp tục từ bản đó. Các video 001/002 và bản xuất trước giữ nguyên.
 

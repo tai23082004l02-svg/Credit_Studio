@@ -34,15 +34,17 @@
     {
       "id": "finance-003",
       "name": "Your Car Payment Is Keeping You Broke",
-      "description": "Video tài chính · Alex · 16 thiết kế ảnh · 12 PNG rời · Chờ giọng đọc",
+      "description": "Video tài chính · Alex · Bản duyệt đầy đủ 8 phút 42,2 giây · 98 cảnh",
       "kind": "video",
-      "status": "Đã chuẩn bị hình · Chờ audio",
+      "status": "Bản dựng đầy đủ v01 chờ duyệt",
       "createdAt": "2026-10-22T00:00:00.000Z",
-      "defaultVideo": "videos/003-car-payment-trap/storyboard/project.json",
+      "defaultVideo": "videos/003-car-payment-trap/review/project.json",
       "artwork": "videos/003-car-payment-trap/artwork.json",
       "gallery": "videos/003-car-payment-trap/",
       "script": "videos/003-car-payment-trap/script.md",
-      "cover": "videos/003-car-payment-trap/images/scenes/01a.png"
+      "cover": "videos/003-car-payment-trap/images/scenes/01a.png",
+      "audio": "videos/003-car-payment-trap/audio/tts_20261022_115123_7124d9.wav",
+      "review": "videos/003-car-payment-trap/exports/full-review-v01.mp4"
     }
   ]
 }

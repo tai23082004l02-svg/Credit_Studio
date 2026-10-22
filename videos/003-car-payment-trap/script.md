@@ -1,6 +1,6 @@
 # Your Car Payment Is Keeping You Broke
 
-Lời thoại tiếng Anh từ bản đã thống nhất trong chat. Câu mở phần 04 đã đổi thành “Some time passes” để khoản nợ giả định $28,000 không bị gán đúng hai năm sau khoản vay ở phần trước. Chỉ đưa phần tiếng Anh bên dưới vào công cụ đọc; bỏ tiêu đề đánh số và hướng dẫn này. Giọng Mỹ tự nhiên, nghỉ rõ giữa các đoạn. Chưa có WAV; thời lượng thực tế sẽ căn sau khi nhận audio. Các số liệu là ví dụ minh họa, không phải trung bình toàn nước Mỹ.
+Lời thoại tiếng Anh từ bản đã thống nhất trong chat. Câu mở phần 04 đã đổi thành “Some time passes” để khoản nợ giả định $28,000 không bị gán đúng hai năm sau khoản vay ở phần trước. Chỉ đưa phần tiếng Anh bên dưới vào công cụ đọc; bỏ tiêu đề đánh số và hướng dẫn này. Giọng Mỹ tự nhiên, nghỉ rõ giữa các đoạn. Đã nhận WAV 522,2 giây; bản audio dùng câu chuyển thời gian cũ ở phần 04. Xem `review/narration.md` cho văn bản đối chiếu lời đọc thực tế. Các số liệu là ví dụ minh họa, không phải trung bình toàn nước Mỹ.
 
 ## 01 — The payment that looked affordable
 

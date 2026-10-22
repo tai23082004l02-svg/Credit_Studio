@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-22",
+  "stage": "full narrated review v01, pending user approval",
+  "timelineSeconds": 522.2,
+  "formatSeconds": 522.2,
+  "frames": 15666,
+  "bytes": 42799984,
+  "codecs": {
+    "video": "h264",
+    "audio": "aac"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "decodedWithoutErrors": true,
+  "layout": {
+    "clips": 98,
+    "duration": 522.1999999999998,
+    "checkedFrames": 5363,
+    "maxCaptionLines": 1,
+    "assets": 31
+  },
+  "sourceAudioComparison": [
+    {
+      "seconds": 10,
+      "sourceWholeSnippetCorrelation": 0.999117,
+      "source50msMedianCorrelation": 0.999984,
+      "derivedMP3Correlation": 0.993383,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 250,
+      "sourceWholeSnippetCorrelation": 0.902319,
+      "source50msMedianCorrelation": 0.999919,
+      "derivedMP3Correlation": 0.999954,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 515,
+      "sourceWholeSnippetCorrelation": 0.968879,
+      "source50msMedianCorrelation": 0.999939,
+      "derivedMP3Correlation": 0.999863,
+      "timeLagSamplesAt16kHz": 0
+    }
+  ],
+  "finalAudioLoudness": {
+    "integratedLUFS": -16.67,
+    "truePeakDBTP": -1.45,
+    "loudnessRangeLU": 2.4
+  },
+  "sourceWAVPreserved": true,
+  "motion": {
+    "animatedLayers": 27,
+    "animatedClips": 14,
+    "loanSnapshots": 25,
+    "loanMonths": 72,
+    "yearlySavingsSteps": 12
+  },
+  "preservation": {
+    "originalFilesByteIdentical": 254,
+    "video001And002Unchanged": true,
+    "originalArtworkAndSourceWAVPreserved": true,
+    "originalSilentBoardPreserved": true,
+    "catalogUnchanged": true
+  },
+  "browserSuites": [
+    "car-payment-review: 98 clips, 5363 timeline frame samples, safe images/text and no text collisions",
+    "car-payment-upgrade: exact old-board archive/download/backup, current edit persistence, audio seek/playback, mobile",
+    "car-payment-artwork: 16 old designs, 2 atlases and 12 cutouts still usable",
+    "project-workspaces: project isolation, old intro archive, backup/restore"
+  ],
+  "unitTests": "20 passed (engine, financial motion, WebM, media storage)",
+  "font": "TimesNewRomanPS-BoldMT verified through Chrome platform fonts",
+  "notes": [
+    "MP4 uses the same canvas renderer as Studio",
+    "Video frames round to 30fps; narration/timeline remain 522.2 seconds",
+    "Source WAV, 16 artwork designs, silent 96-second board, all video 001/002 media and shared catalog preserved",
+    "Audio normalization changes gain over time; source comparison uses short-window correlations and zero-lag checks",
+    "No music or joint-rig animation",
+    "Captions available in Studio, disabled in default MP4",
+    "Word alignment is automatic and can have word-level timing error"
+  ],
+  "audioTransitionNote": "Audio uses A couple of years pass; trade-in figures are explicitly shown as a separate hypothetical example. WAV unchanged.",
+  "pending": [
+    "User review and timecoded notes",
+    "Receive browser backup before continuing any user-only edits"
+  ],
+  "encodedMotionCheck": {
+    "insuranceMeterPixelsBefore": 710.0,
+    "insuranceMeterPixelsAfter": 912.0,
+    "expectedEndPixels": 912.64,
+    "movingPixelsVerifiedInEncodedMP4": true,
+    "savingsFrameInspected": true
+  }
+}

@@ -1,6 +1,6 @@
 # Phân cảnh — Your Car Payment Is Keeping You Broke
 
-8 minh họa và 8 bảng thông tin, 16 thiết kế chỉnh riêng. Chưa có WAV; bảng xem hình 96 giây chỉ dùng duyệt bố cục, chưa là thời gian dựng thật.
+8 minh họa và 8 bảng thông tin, 16 thiết kế chỉnh riêng. Đã căn WAV thành 98 cảnh / 522,2 giây. [Timecode bản duyệt](review/README.md). Bảng xem hình 96 giây cũ được giữ nguyên.
 
 | Cảnh | Ý chính | Câu gợi mốc trong script | Hình gốc |
 |---|---|---|---|
@@ -25,3 +25,7 @@
 - 08b: giữ xe đáng tin cậy, refinance hoặc bán/downsizing cần tính toàn bộ chi phí; nếu khó trả, liên hệ lender sớm. Không coi payment thấp hơn là tự động rẻ hơn.
 
 Tiêu đề ở ngoài vùng nhân vật; hình chứa trọn tóc, tay và chân. Các minh họa tổng thể là một lớp ảnh; PNG rời và chữ/số hỗ trợ dựng chuyển động. Chưa có rig khớp nhân vật.
+
+## Trạng thái dựng theo audio
+
+Bản duyệt v01 dùng thẻ xuất hiện theo lời đọc và 27 lớp chuyển động trong 14 cảnh. Thanh chi phí chạy từ 614→794→954→1.044 USD; dư nợ dùng công thức trả góp ở các mốc 3 tháng từ 0 đến 72 tháng; phần trade-in là ví dụ giả định riêng. Phong bì nợ chuyển giữa xe/khoản vay; tiết kiệm tăng 12 lần 200 USD. Giữ nguyên WAV và toàn bộ bộ hình.

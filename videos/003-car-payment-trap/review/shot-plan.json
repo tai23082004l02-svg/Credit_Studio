@@ -1,0 +1,1875 @@
+[
+  {
+    "section": 1,
+    "anchor": "The salesperson asks",
+    "title": "Câu hỏi ở đại lý",
+    "mode": "art",
+    "headline": "THE PAYMENT FITS.\nDOES THE CAR?",
+    "start": 0,
+    "art": "art-01a",
+    "detail": "",
+    "duration": 3.62,
+    "end": 3.62,
+    "clipId": "car-review-001"
+  },
+  {
+    "section": 1,
+    "anchor": "What monthly payment",
+    "title": "Câu hỏi về khoản trả tháng",
+    "mode": "hero",
+    "headline": "“WHAT PAYMENT\nARE YOU COMFORTABLE WITH?”",
+    "start": 3.62,
+    "message": "THE MONTHLY NUMBER",
+    "pose": "car3-alex-keys",
+    "prop": "car3-car-keys",
+    "detail": "",
+    "duration": 3.12,
+    "end": 6.74,
+    "clipId": "car-review-002"
+  },
+  {
+    "section": 1,
+    "anchor": "You give them a number",
+    "title": "Đưa ra con số tháng",
+    "mode": "hero",
+    "headline": "YOU GIVE THEM A NUMBER.",
+    "start": 6.74,
+    "message": "THE TERMS CAN MOVE.",
+    "pose": "car3-alex-compare-offers",
+    "prop": "car3-offer-sheet",
+    "detail": "",
+    "duration": 6.8,
+    "end": 13.54,
+    "clipId": "car-review-003"
+  },
+  {
+    "section": 1,
+    "anchor": "Good news.",
+    "title": "Đề nghị được duyệt",
+    "mode": "hero",
+    "headline": "GOOD NEWS.\nTHEY MADE IT WORK.",
+    "start": 13.54,
+    "message": "DOES THE WHOLE COST FIT?",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-loan-folder",
+    "detail": "",
+    "duration": 2.62,
+    "end": 16.16,
+    "clipId": "car-review-004"
+  },
+  {
+    "section": 1,
+    "anchor": "You drive home",
+    "title": "Nhận chiếc xe mới",
+    "mode": "art",
+    "headline": "A NICER CAR.\nA PAYMENT THAT FITS.",
+    "start": 16.16,
+    "art": "art-01a",
+    "detail": "",
+    "duration": 4.26,
+    "end": 20.42,
+    "clipId": "car-review-005"
+  },
+  {
+    "section": 1,
+    "anchor": "At least,",
+    "title": "Vài tháng sau khoản trả vẫn được",
+    "mode": "cards",
+    "headline": "THE PAYMENT IS MANAGEABLE.",
+    "start": 20.42,
+    "items": [
+      {
+        "icon": "car3-red-sedan",
+        "label": "THE CAR PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "THE REST OF THE BUDGET",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 6.08,
+    "end": 26.5,
+    "clipId": "car-review-006"
+  },
+  {
+    "section": 1,
+    "anchor": "But saving money",
+    "title": "Tiết kiệm không theo kịp",
+    "mode": "hero",
+    "headline": "BUT SAVING MONEY ISN’T.",
+    "start": 26.5,
+    "message": "VERY LITTLE ROOM LEFT.",
+    "pose": "car3-alex-phone-quote",
+    "prop": "mpt-empty-wallet",
+    "detail": "",
+    "duration": 2.52,
+    "end": 29.02,
+    "clipId": "car-review-007"
+  },
+  {
+    "section": 1,
+    "anchor": "The emergency fund",
+    "title": "Quỹ dự phòng thẻ tín dụng chi bất ngờ",
+    "mode": "cards",
+    "headline": "THE OTHER PRESSURES.",
+    "start": 29.02,
+    "items": [
+      {
+        "icon": "mpt-savings-jar",
+        "label": "EMERGENCY FUND",
+        "value": "",
+        "detail": "Barely moving",
+        "reveal": "The emergency fund"
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "CREDIT CARD",
+        "value": "",
+        "detail": "Balance hanging around",
+        "reveal": "The credit card balance"
+      },
+      {
+        "icon": "mpt-wrench",
+        "label": "UNEXPECTED COSTS",
+        "value": "",
+        "detail": "What can wait?",
+        "reveal": "And every unexpected"
+      }
+    ],
+    "note": "",
+    "duration": 11.44,
+    "end": 40.46,
+    "clipId": "car-review-008"
+  },
+  {
+    "section": 1,
+    "anchor": "The car didn’t suddenly",
+    "title": "Những phần chưa thấy trên màn hình",
+    "mode": "art",
+    "headline": "THE COSTS\nWEREN’T ALL ON THE SCREEN.",
+    "start": 40.46,
+    "art": "art-02a",
+    "detail": "",
+    "duration": 8.3,
+    "end": 48.76,
+    "clipId": "car-review-009"
+  },
+  {
+    "section": 1,
+    "anchor": "Let’s follow the money.",
+    "title": "Bắt đầu theo dòng tiền",
+    "mode": "flow",
+    "headline": "LET’S FOLLOW THE MONEY.",
+    "start": 48.76,
+    "duration": 1.92,
+    "end": 50.68,
+    "clipId": "car-review-010"
+  },
+  {
+    "section": 2,
+    "anchor": "Meet Alex.",
+    "title": "Gặp Alex",
+    "mode": "hero",
+    "headline": "MEET ALEX.",
+    "start": 50.68,
+    "message": "A MONTHLY TRANSPORTATION BUDGET",
+    "pose": "car3-alex-keys",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 1.44,
+    "end": 52.12,
+    "clipId": "car-review-011"
+  },
+  {
+    "section": 2,
+    "anchor": "Alex brings home",
+    "title": "Thu nhập và số tiền vay",
+    "mode": "cards",
+    "headline": "THE STARTING NUMBERS.",
+    "start": 52.12,
+    "items": [
+      {
+        "icon": "mpt-pay-envelope",
+        "label": "TAKE-HOME PAY",
+        "value": "$6,000 / month",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "AMOUNT FINANCED",
+        "value": "$35,000",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Illustrative example · Income and vehicle financing are separate figures.",
+    "duration": 7.9,
+    "end": 60.02,
+    "clipId": "car-review-012"
+  },
+  {
+    "section": 2,
+    "anchor": "At eight percent",
+    "title": "Lãi suất kỳ hạn và khoản trả",
+    "mode": "loan-offer",
+    "headline": "THE LOAN PAYMENT.",
+    "start": 60.02,
+    "duration": 6.54,
+    "end": 66.56,
+    "clipId": "car-review-013"
+  },
+  {
+    "section": 2,
+    "anchor": "That’s a simplified",
+    "title": "Giả định khoản vay minh họa",
+    "mode": "cards",
+    "headline": "A SIMPLIFIED EXAMPLE.",
+    "start": 66.56,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "FIXED RATE",
+        "value": "8% APR",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "LOAN LENGTH",
+        "value": "72 months",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-offer-sheet",
+        "label": "EXTRA FINANCED FEES",
+        "value": "Not included",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Real rates, fees and qualification vary.",
+    "duration": 5.333,
+    "end": 71.893,
+    "clipId": "car-review-014"
+  },
+  {
+    "section": 2,
+    "anchor": "Six hundred and fourteen dollars doesn’t",
+    "title": "Khoản trả có vẻ làm được",
+    "mode": "hero",
+    "headline": "NOT SMALL.\nBUT IT SOUNDS POSSIBLE.",
+    "start": 71.893,
+    "message": "ABOUT $614 / MONTH",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 6.467,
+    "end": 78.36,
+    "clipId": "car-review-015"
+  },
+  {
+    "section": 2,
+    "anchor": "Then the other costs arrive.",
+    "title": "Những chi phí khác đến",
+    "mode": "art",
+    "headline": "THE PAYMENT\nIS ONLY THE START.",
+    "start": 78.36,
+    "art": "art-02a",
+    "detail": "",
+    "duration": 3.7,
+    "end": 82.06,
+    "clipId": "car-review-016"
+  },
+  {
+    "section": 2,
+    "anchor": "In Alex’s example, insurance",
+    "title": "Thêm bảo hiểm",
+    "mode": "cost-meter",
+    "headline": "INSURANCE JOINS THE PAYMENT.",
+    "start": 82.06,
+    "before": 614,
+    "after": 794,
+    "cost": "INSURANCE: $180 / MONTH",
+    "prop": "car3-auto-insurance",
+    "duration": 5.66,
+    "end": 87.72,
+    "clipId": "car-review-017"
+  },
+  {
+    "section": 2,
+    "anchor": "Gas adds",
+    "title": "Thêm nhiên liệu",
+    "mode": "cost-meter",
+    "headline": "GAS JOINS THE BUDGET.",
+    "start": 87.72,
+    "before": 794,
+    "after": 954,
+    "cost": "GAS: $160 / MONTH",
+    "prop": "car3-fuel-pump",
+    "duration": 2.64,
+    "end": 90.36,
+    "clipId": "car-review-018"
+  },
+  {
+    "section": 2,
+    "anchor": "And Alex sets aside",
+    "title": "Thêm bảo dưỡng đăng ký",
+    "mode": "cost-meter",
+    "headline": "PLAN FOR UPKEEP, TOO.",
+    "start": 90.36,
+    "before": 954,
+    "after": 1044,
+    "cost": "MAINTENANCE + REPAIRS + REGISTRATION: $90",
+    "prop": "mpt-wrench",
+    "duration": 6.84,
+    "end": 97.2,
+    "clipId": "car-review-019"
+  },
+  {
+    "section": 2,
+    "anchor": "Those are illustrative",
+    "title": "Ví dụ không phải mức trung bình",
+    "mode": "hero",
+    "headline": "ILLUSTRATIVE AMOUNTS.",
+    "start": 97.2,
+    "message": "YOUR COSTS CAN BE DIFFERENT.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-offer-sheet",
+    "detail": "",
+    "duration": 5.86,
+    "end": 103.06,
+    "clipId": "car-review-020"
+  },
+  {
+    "section": 2,
+    "anchor": "Now the car needs",
+    "title": "Tổng chi phí mỗi tháng",
+    "mode": "cost-total",
+    "headline": "ABOUT $1,044 / MONTH.",
+    "start": 103.06,
+    "duration": 4.06,
+    "end": 107.12,
+    "clipId": "car-review-021"
+  },
+  {
+    "section": 2,
+    "anchor": "Roughly twelve thousand",
+    "title": "Chi phí theo năm",
+    "mode": "math",
+    "headline": "ROUGHLY $12,500 / YEAR.",
+    "start": 107.12,
+    "equation": "$1,044 × 12 = $12,528",
+    "detail": "Rounded to about $12,500 in the narration.",
+    "icon": "car3-red-sedan",
+    "duration": 4.88,
+    "end": 112.0,
+    "clipId": "car-review-022"
+  },
+  {
+    "section": 2,
+    "anchor": "And that doesn’t include",
+    "title": "Chưa bao gồm đỗ xe và phí đường",
+    "mode": "cards",
+    "headline": "PLUS PARKING OR TOLLS.",
+    "start": 112.0,
+    "items": [
+      {
+        "icon": "car3-red-sedan",
+        "label": "PARKING",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-offer-sheet",
+        "label": "TOLLS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 3.6,
+    "end": 115.6,
+    "clipId": "car-review-023"
+  },
+  {
+    "section": 2,
+    "anchor": "Alex bought the car",
+    "title": "Hai con số khác nhau",
+    "mode": "cards",
+    "headline": "ONE PURCHASE.\nTWO DIFFERENT COMMITMENTS.",
+    "start": 115.6,
+    "items": [
+      {
+        "icon": "car3-red-sedan",
+        "label": "PAYMENT IN MIND",
+        "value": "About $600",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-auto-insurance",
+        "label": "TRANSPORTATION BUDGET",
+        "value": "About $1,000",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Actual illustrative total above: about $1,044 per month.",
+    "duration": 10.38,
+    "end": 125.98,
+    "clipId": "car-review-024"
+  },
+  {
+    "section": 2,
+    "anchor": "Those are two different decisions.",
+    "title": "Khoản trả khác toàn bộ quyết định",
+    "mode": "hero",
+    "headline": "TWO DIFFERENT DECISIONS.",
+    "start": 125.98,
+    "message": "LOOK BEYOND THE PAYMENT.",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "duration": 2.68,
+    "end": 128.66,
+    "clipId": "car-review-025"
+  },
+  {
+    "section": 3,
+    "anchor": "So why does",
+    "title": "Vì sao hỏi khoản tháng đầu tiên",
+    "mode": "hero",
+    "headline": "WHY START\nWITH THE MONTHLY PAYMENT?",
+    "start": 128.66,
+    "message": "IT IS AN EASIER NUMBER.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-offer-sheet",
+    "detail": "",
+    "duration": 4.3,
+    "end": 132.96,
+    "clipId": "car-review-026"
+  },
+  {
+    "section": 3,
+    "anchor": "Because the payment can change",
+    "title": "Khoản tháng đổi giá xe không đổi",
+    "mode": "hero",
+    "headline": "THE PAYMENT CAN CHANGE.",
+    "start": 132.96,
+    "message": "THE CAR MAY NOT GET CHEAPER.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 5.82,
+    "end": 138.78,
+    "clipId": "car-review-027"
+  },
+  {
+    "section": 3,
+    "anchor": "One way is",
+    "title": "Kéo dài thời hạn vay",
+    "mode": "art",
+    "headline": "SMALLER PAYMENTS.\nMORE MONTHS.",
+    "start": 138.78,
+    "art": "art-03a",
+    "detail": "",
+    "duration": 3.48,
+    "end": 142.26,
+    "clipId": "car-review-028"
+  },
+  {
+    "section": 3,
+    "anchor": "For the same amount",
+    "title": "Giữ số tiền vay và lãi suất",
+    "mode": "cards",
+    "headline": "SAME AMOUNT. SAME RATE.",
+    "start": 142.26,
+    "items": [
+      {
+        "icon": "mpt-calendar",
+        "label": "LONGER TERM",
+        "value": "Lower monthly bill",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "MORE TIME",
+        "value": "Interest lasts longer",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "For otherwise comparable fixed-rate financing.",
+    "duration": 8.02,
+    "end": 150.28,
+    "clipId": "car-review-029"
+  },
+  {
+    "section": 3,
+    "anchor": "But interest keeps",
+    "title": "Lãi tích lũy theo thời gian",
+    "mode": "interest",
+    "headline": "INTEREST HAS MORE TIME.",
+    "start": 150.28,
+    "duration": 2.88,
+    "end": 153.16,
+    "clipId": "car-review-030"
+  },
+  {
+    "section": 3,
+    "anchor": "In Alex’s example, seventy-two",
+    "title": "Bảy mươi hai khoản trả",
+    "mode": "math",
+    "headline": "72 PAYMENTS.\nABOUT $44,200 REPAID.",
+    "start": 153.16,
+    "equation": "≈ $614 × 72 ≈ $44,200",
+    "detail": "Rounded display · Fixed-rate example · No extra financed fees.",
+    "icon": "car3-loan-folder",
+    "duration": 11.12,
+    "end": 164.28,
+    "clipId": "car-review-031"
+  },
+  {
+    "section": 3,
+    "anchor": "That’s about nine thousand",
+    "title": "Tiền gốc và tiền lãi",
+    "mode": "cards",
+    "headline": "PRINCIPAL + INTEREST.",
+    "start": 164.28,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "ORIGINAL PRINCIPAL",
+        "value": "$35,000",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-cash-stack",
+        "label": "TOTAL INTEREST",
+        "value": "About $9,200",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Totals use the unrounded monthly loan calculation, then round for display.",
+    "duration": 6.26,
+    "end": 170.54,
+    "clipId": "car-review-032"
+  },
+  {
+    "section": 3,
+    "anchor": "The payment made",
+    "title": "Cảm giác mua được",
+    "mode": "hero",
+    "headline": "THE PURCHASE FELT REACHABLE.",
+    "start": 170.54,
+    "message": "THE CALENDAR TELLS MORE.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-car-keys",
+    "detail": "",
+    "duration": 2.94,
+    "end": 173.48,
+    "clipId": "car-review-033"
+  },
+  {
+    "section": 3,
+    "anchor": "The calendar helped hide",
+    "title": "Lịch dư nợ qua kỳ hạn",
+    "mode": "amortization",
+    "headline": "72 MONTHS OF COMMITMENT.",
+    "start": 173.48,
+    "duration": 9.98,
+    "end": 183.46,
+    "clipId": "car-review-034"
+  },
+  {
+    "section": 3,
+    "anchor": "A different job.",
+    "title": "Những thay đổi trong sáu năm",
+    "mode": "cards",
+    "headline": "LIFE CAN CHANGE.",
+    "start": 183.46,
+    "items": [
+      {
+        "icon": "mpt-pay-envelope",
+        "label": "A DIFFERENT JOB",
+        "value": "",
+        "detail": "",
+        "reveal": "A different job."
+      },
+      {
+        "icon": "home",
+        "label": "A MOVE",
+        "value": "",
+        "detail": "",
+        "reveal": "A move."
+      },
+      {
+        "icon": "gift",
+        "label": "A NEW BABY",
+        "value": "",
+        "detail": "",
+        "reveal": "A new baby."
+      },
+      {
+        "icon": "car3-offer-sheet",
+        "label": "A RENT INCREASE",
+        "value": "",
+        "detail": "",
+        "reveal": "A rent increase."
+      }
+    ],
+    "note": "",
+    "duration": 5.72,
+    "end": 189.18,
+    "clipId": "car-review-035"
+  },
+  {
+    "section": 3,
+    "anchor": "The payment stays",
+    "title": "Khoản trả vẫn trên lịch",
+    "mode": "calendar",
+    "headline": "THE PAYMENT STAYS ON THE CALENDAR.",
+    "start": 189.18,
+    "duration": 4.1,
+    "end": 193.28,
+    "clipId": "car-review-036"
+  },
+  {
+    "section": 3,
+    "anchor": "And depending on",
+    "title": "Sửa xe khi vẫn trả nợ",
+    "mode": "cards",
+    "headline": "REPAIRS MAY ARRIVE\nBEFORE THE LOAN ENDS.",
+    "start": 193.28,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "LOAN PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-wrench",
+        "label": "REPAIR COSTS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 5.56,
+    "end": 198.84,
+    "clipId": "car-review-037"
+  },
+  {
+    "section": 4,
+    "anchor": "A couple of years pass.",
+    "title": "Chuyển sang ví dụ đổi xe riêng",
+    "mode": "art",
+    "headline": "A SEPARATE\nTRADE-IN EXAMPLE.",
+    "start": 198.84,
+    "art": "art-04a",
+    "detail": "The following trade-in figures are hypothetical, not year-two balances for the earlier loan.",
+    "duration": 1.94,
+    "end": 200.78,
+    "clipId": "car-review-038"
+  },
+  {
+    "section": 4,
+    "anchor": "Alex starts looking",
+    "title": "Xem chiếc xe khác",
+    "mode": "hero",
+    "headline": "LOOKING AT ANOTHER CAR.",
+    "start": 200.78,
+    "message": "ANOTHER FINANCING DECISION",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-teal-sedan",
+    "detail": "",
+    "duration": 2.4,
+    "end": 203.18,
+    "clipId": "car-review-039"
+  },
+  {
+    "section": 4,
+    "anchor": "Maybe the family",
+    "title": "Lý do đổi xe",
+    "mode": "cards",
+    "headline": "THE REASONS CAN MAKE SENSE.",
+    "start": 203.18,
+    "items": [
+      {
+        "icon": "home",
+        "label": "MORE SPACE",
+        "value": "",
+        "detail": "",
+        "reveal": "Maybe the family"
+      },
+      {
+        "icon": "mpt-wrench",
+        "label": "RELIABILITY",
+        "value": "",
+        "detail": "",
+        "reveal": "Maybe the current"
+      },
+      {
+        "icon": "car3-teal-sedan",
+        "label": "A NEWER LOOK",
+        "value": "",
+        "detail": "",
+        "reveal": "Maybe the newer"
+      }
+    ],
+    "note": "",
+    "duration": 8.78,
+    "end": 211.96,
+    "clipId": "car-review-040"
+  },
+  {
+    "section": 4,
+    "anchor": "But there’s a problem.",
+    "title": "Vấn đề trước khi đổi xe",
+    "mode": "hero",
+    "headline": "BUT THERE’S A PROBLEM.",
+    "start": 211.96,
+    "message": "WHAT IS STILL OWED?",
+    "pose": "car3-alex-phone-quote",
+    "prop": "car3-loan-folder",
+    "detail": "",
+    "duration": 1.62,
+    "end": 213.58,
+    "clipId": "car-review-041"
+  },
+  {
+    "section": 4,
+    "anchor": "Suppose Alex still owes",
+    "title": "Số dư vay giả định",
+    "mode": "trade-owed",
+    "headline": "STILL OWED: $28,000.",
+    "start": 213.58,
+    "duration": 4.32,
+    "end": 217.9,
+    "clipId": "car-review-042"
+  },
+  {
+    "section": 4,
+    "anchor": "The trade-in offer",
+    "title": "Giá thu đổi xe",
+    "mode": "trade-offer",
+    "headline": "TRADE-IN OFFER: $23,000.",
+    "start": 217.9,
+    "duration": 3.52,
+    "end": 221.42,
+    "clipId": "car-review-043"
+  },
+  {
+    "section": 4,
+    "anchor": "That leaves a",
+    "title": "Khoản thiếu năm nghìn",
+    "mode": "equity-gap",
+    "headline": "A $5,000 GAP.",
+    "start": 221.42,
+    "duration": 3.76,
+    "end": 225.18,
+    "clipId": "car-review-044"
+  },
+  {
+    "section": 4,
+    "anchor": "This is negative equity:",
+    "title": "Định nghĩa âm vốn chủ sở hữu",
+    "mode": "cards",
+    "headline": "NEGATIVE EQUITY.",
+    "start": 225.18,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "OWED",
+        "value": "$28,000",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-red-sedan",
+        "label": "VEHICLE VALUE",
+        "value": "$23,000",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-trade-in-envelope",
+        "label": "GAP",
+        "value": "$5,000",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Separate illustrative trade-in scenario, not a balance derived from the earlier loan.",
+    "duration": 5.38,
+    "end": 230.56,
+    "clipId": "car-review-045"
+  },
+  {
+    "section": 4,
+    "anchor": "Trading in the car",
+    "title": "Khoản nợ không biến mất",
+    "mode": "debt-transfer",
+    "headline": "THE GAP DOESN’T DISAPPEAR.",
+    "start": 230.56,
+    "duration": 3.62,
+    "end": 234.18,
+    "clipId": "car-review-046"
+  },
+  {
+    "section": 4,
+    "anchor": "Alex needs to cover",
+    "title": "Phải xử lý khoản thiếu",
+    "mode": "hero",
+    "headline": "THE GAP NEEDS TO BE COVERED.",
+    "start": 234.18,
+    "message": "IT DOESN’T VANISH AT TRADE-IN.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-trade-in-envelope",
+    "detail": "",
+    "duration": 2.94,
+    "end": 237.12,
+    "clipId": "car-review-047"
+  },
+  {
+    "section": 4,
+    "anchor": "If a lender allows",
+    "title": "Điều kiện cộng nợ vào vay mới",
+    "mode": "cards",
+    "headline": "IF THE LENDER ALLOWS IT…",
+    "start": 237.12,
+    "items": [
+      {
+        "icon": "car3-teal-sedan",
+        "label": "REPLACEMENT",
+        "value": "$30,000",
+        "detail": "",
+        "reveal": "A thirty-thousand-dollar replacement"
+      },
+      {
+        "icon": "car3-trade-in-envelope",
+        "label": "OLD DEBT GAP",
+        "value": "$5,000",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "NEW FINANCING",
+        "value": "$35,000",
+        "detail": "",
+        "reveal": "Can become thirty-five thousand"
+      }
+    ],
+    "note": "Before taxes and fees · Approval is not guaranteed.",
+    "duration": 12.47,
+    "end": 249.59,
+    "clipId": "car-review-048"
+  },
+  {
+    "section": 4,
+    "anchor": "Five thousand dollars of",
+    "title": "Nợ cũ trong khoản vay mới",
+    "mode": "rolled-debt",
+    "headline": "NEW CAR.\nOLD DEBT COMES ALONG.",
+    "start": 249.59,
+    "duration": 6.51,
+    "end": 256.1,
+    "clipId": "car-review-049"
+  },
+  {
+    "section": 4,
+    "anchor": "A longer term might",
+    "title": "Kỳ hạn lại làm khoản trả dễ chịu",
+    "mode": "hero",
+    "headline": "A COMFORTABLE PAYMENT?",
+    "start": 256.1,
+    "message": "CHECK THE WHOLE ARRANGEMENT.",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-calendar",
+    "detail": "",
+    "duration": 3.76,
+    "end": 259.86,
+    "clipId": "car-review-050"
+  },
+  {
+    "section": 4,
+    "anchor": "But now the next car",
+    "title": "Xe mới mang hóa đơn cũ",
+    "mode": "debt-transfer",
+    "headline": "PART OF THE PREVIOUS CAR’S BILL.",
+    "start": 259.86,
+    "duration": 5.26,
+    "end": 265.12,
+    "clipId": "car-review-051"
+  },
+  {
+    "section": 4,
+    "anchor": "Repeat that cycle,",
+    "title": "Vòng chuyển nợ sang xe tiếp theo",
+    "mode": "art",
+    "headline": "THE CAR CHANGES.\nTHE DEBT FINDS A NEW HOME.",
+    "start": 265.12,
+    "art": "art-04a",
+    "detail": "Separate hypothetical trade-in example · Financing depends on the lender.",
+    "duration": 6.58,
+    "end": 271.7,
+    "clipId": "car-review-052"
+  },
+  {
+    "section": 5,
+    "anchor": "There’s another number",
+    "title": "Một thước đo nữa",
+    "mode": "hero",
+    "headline": "ANOTHER NUMBER:\nDEPRECIATION.",
+    "start": 271.7,
+    "message": "THE CAR’S CHANGING VALUE",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 5.02,
+    "end": 276.72,
+    "clipId": "car-review-053"
+  },
+  {
+    "section": 5,
+    "anchor": "As a car loses",
+    "title": "Giá trị thị trường giảm",
+    "mode": "art",
+    "headline": "VALUE CAN BE HARDER\nTO RECOVER WHEN YOU SELL.",
+    "start": 276.72,
+    "art": "art-05a",
+    "detail": "",
+    "duration": 7.46,
+    "end": 284.18,
+    "clipId": "car-review-054"
+  },
+  {
+    "section": 5,
+    "anchor": "That matters when",
+    "title": "Khi giá trị bán lại quan trọng",
+    "mode": "cards",
+    "headline": "TRADE. MOVE. EXIT THE LOAN.",
+    "start": 284.18,
+    "items": [
+      {
+        "icon": "car3-red-sedan",
+        "label": "TRADE IN",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "home",
+        "label": "MOVE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "GET OUT OF THE LOAN",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 3.98,
+    "end": 288.16,
+    "clipId": "car-review-055"
+  },
+  {
+    "section": 5,
+    "anchor": "But don’t simply add",
+    "title": "Không cộng hai thước đo sai cách",
+    "mode": "cards",
+    "headline": "DON’T DOUBLE-COUNT.",
+    "start": 288.16,
+    "items": [
+      {
+        "icon": "mpt-cash-stack",
+        "label": "MONTHLY CASH FLOW",
+        "value": "Money leaving",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-teal-sedan",
+        "label": "DEPRECIATION",
+        "value": "Loss of value",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Do not add depreciation to the entire payment and call it monthly cash spending.",
+    "duration": 8.12,
+    "end": 296.28,
+    "clipId": "car-review-056"
+  },
+  {
+    "section": 5,
+    "anchor": "Part of the payment",
+    "title": "Một phần khoản trả giảm nợ",
+    "mode": "hero",
+    "headline": "PART OF THE PAYMENT\nREDUCES THE DEBT.",
+    "start": 296.28,
+    "message": "PRINCIPAL REPAYMENT",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-loan-folder",
+    "detail": "",
+    "duration": 2.8,
+    "end": 299.08,
+    "clipId": "car-review-057"
+  },
+  {
+    "section": 5,
+    "anchor": "Depreciation describes",
+    "title": "Khấu hao là mất giá xe",
+    "mode": "hero",
+    "headline": "DEPRECIATION\nDESCRIBES LOST VALUE.",
+    "start": 299.08,
+    "message": "A DIFFERENT MEASURE",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 4.22,
+    "end": 303.3,
+    "clipId": "car-review-058"
+  },
+  {
+    "section": 5,
+    "anchor": "They measure different things.",
+    "title": "Hai thước đo khác nhau",
+    "mode": "art",
+    "headline": "CASH FLOW\nAND CAR VALUE.",
+    "start": 303.3,
+    "art": "art-05a",
+    "detail": "",
+    "duration": 2.62,
+    "end": 305.92,
+    "clipId": "car-review-059"
+  },
+  {
+    "section": 5,
+    "anchor": "For a monthly budget,",
+    "title": "Ngân sách tháng theo tiền rời tài khoản",
+    "mode": "cards",
+    "headline": "TRACK THE CASH LEAVING.",
+    "start": 305.92,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "LOAN PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-fuel-pump",
+        "label": "OPERATING COSTS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 4.28,
+    "end": 310.2,
+    "clipId": "car-review-060"
+  },
+  {
+    "section": 5,
+    "anchor": "For the bigger purchase",
+    "title": "Xem toàn bộ quyết định mua",
+    "mode": "cards",
+    "headline": "THE BIGGER PURCHASE DECISION.",
+    "start": 310.2,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "INTEREST",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-wrench",
+        "label": "OWNERSHIP COSTS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-teal-sedan",
+        "label": "VALUE WHEN SOLD",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 8.74,
+    "end": 318.94,
+    "clipId": "car-review-061"
+  },
+  {
+    "section": 5,
+    "anchor": "The uncomfortable part",
+    "title": "Xe cũ đi nợ vẫn chưa xong",
+    "mode": "hero",
+    "headline": "GETTING OLDER.\nSTILL FINANCIALLY UNFINISHED.",
+    "start": 318.94,
+    "message": "CHECK THE WHOLE COMMITMENT.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 6.8,
+    "end": 325.74,
+    "clipId": "car-review-062"
+  },
+  {
+    "section": 6,
+    "anchor": "Back in Alex’s budget,",
+    "title": "Quay lại ngân sách tháng",
+    "mode": "hero",
+    "headline": "ABOUT $1,000 EVERY MONTH.",
+    "start": 325.74,
+    "message": "TRANSPORTATION HAS A JOB.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "Illustrative all-in amount above: about $1,044.",
+    "duration": 5.66,
+    "end": 331.4,
+    "clipId": "car-review-063"
+  },
+  {
+    "section": 6,
+    "anchor": "That money supports",
+    "title": "Xe giúp công việc và đời sống",
+    "mode": "art",
+    "headline": "TRANSPORTATION\nDOES SOMETHING USEFUL.",
+    "start": 331.4,
+    "art": "art-08a",
+    "detail": "",
+    "duration": 7.24,
+    "end": 338.64,
+    "clipId": "car-review-064"
+  },
+  {
+    "section": 6,
+    "anchor": "But the same dollars",
+    "title": "Một đồng tiền không thể làm mọi việc",
+    "mode": "hero",
+    "headline": "THE SAME DOLLARS\nCAN’T DO EVERY JOB.",
+    "start": 338.64,
+    "message": "WHAT ELSE NEEDS THAT MONEY?",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "duration": 2.76,
+    "end": 341.4,
+    "clipId": "car-review-065"
+  },
+  {
+    "section": 6,
+    "anchor": "Build an emergency fund",
+    "title": "Những mục tiêu không dùng cùng một đô la",
+    "mode": "cards",
+    "headline": "THE SAME DOLLARS\nCAN’T DO EVERY JOB.",
+    "start": 341.4,
+    "items": [
+      {
+        "icon": "mpt-savings-jar",
+        "label": "EMERGENCY FUND",
+        "value": "",
+        "detail": "",
+        "reveal": "Build an emergency fund"
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "CREDIT CARD DEBT",
+        "value": "",
+        "detail": "",
+        "reveal": "Pay down a credit card"
+      },
+      {
+        "icon": "home",
+        "label": "A FUTURE MOVE",
+        "value": "",
+        "detail": "",
+        "reveal": "Or cover a future move"
+      }
+    ],
+    "note": "",
+    "duration": 6.44,
+    "end": 347.84,
+    "clipId": "car-review-066"
+  },
+  {
+    "section": 6,
+    "anchor": "That’s the tradeoff.",
+    "title": "Đánh đổi giữa các nhu cầu",
+    "mode": "art",
+    "headline": "WHAT DOES THE CAR\nPUSH ASIDE?",
+    "start": 347.84,
+    "art": "art-06a",
+    "detail": "",
+    "duration": 1.56,
+    "end": 349.4,
+    "clipId": "car-review-067"
+  },
+  {
+    "section": 6,
+    "anchor": "And small changes",
+    "title": "Thay đổi nhỏ vẫn có ý nghĩa",
+    "mode": "hero",
+    "headline": "SMALL CHANGES\nCAN STILL MATTER.",
+    "start": 349.4,
+    "message": "LOOK FOR SOME ROOM.",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "duration": 2.98,
+    "end": 352.38,
+    "clipId": "car-review-068"
+  },
+  {
+    "section": 6,
+    "anchor": "If Alex could safely",
+    "title": "Hai trăm mỗi tháng thành hai nghìn bốn trăm",
+    "mode": "savings-year",
+    "headline": "$200 LESS PER MONTH.\n$2,400 MORE ROOM PER YEAR.",
+    "start": 352.38,
+    "duration": 9.52,
+    "end": 361.9,
+    "clipId": "car-review-069"
+  },
+  {
+    "section": 6,
+    "anchor": "It wouldn’t instantly",
+    "title": "Không hứa giải quyết mọi vấn đề",
+    "mode": "hero",
+    "headline": "NOT AN INSTANT FIX.",
+    "start": 361.9,
+    "message": "A LITTLE MORE FLEXIBILITY.",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-savings-jar",
+    "detail": "",
+    "duration": 3.94,
+    "end": 365.84,
+    "clipId": "car-review-070"
+  },
+  {
+    "section": 6,
+    "anchor": "It could make the next repair",
+    "title": "Sửa xe không nhất thiết thêm nợ thẻ",
+    "mode": "cards",
+    "headline": "THE NEXT REPAIR\nDOESN’T HAVE TO START A CYCLE.",
+    "start": 365.84,
+    "items": [
+      {
+        "icon": "mpt-wrench",
+        "label": "REPAIR COST",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-savings-jar",
+        "label": "A CASH BUFFER",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "LESS NEW DEBT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 5.58,
+    "end": 371.42,
+    "clipId": "car-review-071"
+  },
+  {
+    "section": 6,
+    "anchor": "The goal isn’t",
+    "title": "Không cần chi phí bằng không",
+    "mode": "hero",
+    "headline": "THE GOAL ISN’T\nZERO TRANSPORTATION COST.",
+    "start": 371.42,
+    "message": "SAFE. RELIABLE. WORKABLE.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 4.08,
+    "end": 375.5,
+    "clipId": "car-review-072"
+  },
+  {
+    "section": 6,
+    "anchor": "It’s to leave enough",
+    "title": "Giữ khoảng trống cho đời sống",
+    "mode": "art",
+    "headline": "LEAVE ROOM\nFOR THE REST OF YOUR LIFE.",
+    "start": 375.5,
+    "art": "art-08a",
+    "detail": "",
+    "duration": 3.48,
+    "end": 378.98,
+    "clipId": "car-review-073"
+  },
+  {
+    "section": 7,
+    "anchor": "Before shopping",
+    "title": "Tự đặt ngân sách trước khi mua",
+    "mode": "hero",
+    "headline": "BUILD YOUR NUMBER\nBEFORE SHOPPING.",
+    "start": 378.98,
+    "message": "THE WHOLE TRANSPORTATION COST",
+    "pose": "car3-alex-compare-offers",
+    "prop": "car3-offer-sheet",
+    "detail": "",
+    "duration": 5.74,
+    "end": 384.72,
+    "clipId": "car-review-074"
+  },
+  {
+    "section": 7,
+    "anchor": "Include the payment,",
+    "title": "Tính đủ các nhóm chi phí",
+    "mode": "cards",
+    "headline": "PAYMENT + OWNERSHIP COSTS.",
+    "start": 384.72,
+    "items": [
+      {
+        "icon": "car3-red-sedan",
+        "label": "PAYMENT",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-auto-insurance",
+        "label": "INSURANCE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-fuel-pump",
+        "label": "FUEL",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-wrench",
+        "label": "UPKEEP + FEES",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "Include registration and regular parking or tolls, too.",
+    "duration": 9.1,
+    "end": 393.82,
+    "clipId": "car-review-075"
+  },
+  {
+    "section": 7,
+    "anchor": "Get an insurance quote",
+    "title": "Báo giá bảo hiểm cho đúng chiếc xe",
+    "mode": "hero",
+    "headline": "QUOTE THE ACTUAL VEHICLE.",
+    "start": 393.82,
+    "message": "CHECK INSURANCE BEFORE YOU BUY.",
+    "pose": "car3-alex-phone-quote",
+    "prop": "car3-auto-insurance",
+    "detail": "",
+    "duration": 4.98,
+    "end": 398.8,
+    "clipId": "car-review-076"
+  },
+  {
+    "section": 7,
+    "anchor": "Then look at",
+    "title": "Tiền còn sau các hóa đơn thiết yếu",
+    "mode": "hero",
+    "headline": "WHAT REMAINS\nAFTER ESSENTIAL BILLS?",
+    "start": 398.8,
+    "message": "START WITH YOUR OWN BUDGET.",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-pay-envelope",
+    "detail": "",
+    "duration": 4.02,
+    "end": 402.82,
+    "clipId": "car-review-077"
+  },
+  {
+    "section": 7,
+    "anchor": "How much can you spend",
+    "title": "Vẫn tiến bộ với tiết kiệm và nợ",
+    "mode": "cards",
+    "headline": "KEEP MAKING PROGRESS.",
+    "start": 402.82,
+    "items": [
+      {
+        "icon": "mpt-savings-jar",
+        "label": "SAVINGS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-bank-card",
+        "label": "DEBT PAYDOWN",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 4.88,
+    "end": 407.7,
+    "clipId": "car-review-078"
+  },
+  {
+    "section": 7,
+    "anchor": "Set that limit",
+    "title": "Đặt giới hạn trước khi thay điều khoản",
+    "mode": "art",
+    "headline": "COMPARE THE WHOLE DEAL.",
+    "start": 407.7,
+    "art": "art-07a",
+    "detail": "",
+    "duration": 4.56,
+    "end": 412.26,
+    "clipId": "car-review-079"
+  },
+  {
+    "section": 7,
+    "anchor": "When comparing offers,",
+    "title": "Đặt các điều khoản cạnh nhau",
+    "mode": "hero",
+    "headline": "COMPARE OFFERS\nSIDE BY SIDE.",
+    "start": 412.26,
+    "message": "THE WHOLE DEAL",
+    "pose": "car3-alex-compare-offers",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "duration": 4.0,
+    "end": 416.26,
+    "clipId": "car-review-080"
+  },
+  {
+    "section": 7,
+    "anchor": "The out-the-door price.",
+    "title": "Năm yếu tố so sánh cạnh nhau",
+    "mode": "cards",
+    "headline": "PUT THESE SIDE BY SIDE.",
+    "start": 416.26,
+    "items": [
+      {
+        "icon": "car3-offer-sheet",
+        "label": "OUT-THE-DOOR\nPRICE",
+        "value": "",
+        "detail": "",
+        "reveal": "The out-the-door price."
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "AMOUNT\nFINANCED",
+        "value": "",
+        "detail": "",
+        "reveal": "The amount financed."
+      },
+      {
+        "icon": "car3-offer-sheet",
+        "label": "APR",
+        "value": "",
+        "detail": "",
+        "reveal": "The annual percentage rate."
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "LOAN\nLENGTH",
+        "value": "",
+        "detail": "",
+        "reveal": "The loan length."
+      },
+      {
+        "icon": "mpt-cash-stack",
+        "label": "TOTAL OF\nPAYMENTS",
+        "value": "",
+        "detail": "",
+        "reveal": "And the total of payments."
+      }
+    ],
+    "note": "",
+    "duration": 9.18,
+    "end": 425.44,
+    "clipId": "car-review-081"
+  },
+  {
+    "section": 7,
+    "anchor": "Check whether optional",
+    "title": "Kiểm tra sản phẩm tùy chọn và phí",
+    "mode": "cards",
+    "headline": "CHECK WHAT WAS ADDED.",
+    "start": 425.44,
+    "items": [
+      {
+        "icon": "car3-offer-sheet",
+        "label": "OPTIONAL PRODUCTS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "FINANCED FEES",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 4.64,
+    "end": 430.08,
+    "clipId": "car-review-082"
+  },
+  {
+    "section": 7,
+    "anchor": "If there’s a trade-in,",
+    "title": "Tách giá xe khỏi số tiền còn nợ",
+    "mode": "cards",
+    "headline": "TRADE-IN VALUE\nAND LOAN BALANCE.",
+    "start": 430.08,
+    "items": [
+      {
+        "icon": "car3-red-sedan",
+        "label": "WHAT IT IS WORTH",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-loan-folder",
+        "label": "WHAT YOU STILL OWE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 5.06,
+    "end": 435.14,
+    "clipId": "car-review-083"
+  },
+  {
+    "section": 7,
+    "anchor": "A monthly payment is useful",
+    "title": "Khoản trả hữu ích nhưng chưa đủ",
+    "mode": "hero",
+    "headline": "A USEFUL NUMBER.\nAN INCOMPLETE PICTURE.",
+    "start": 435.14,
+    "message": "JUDGE THE WHOLE DEAL.",
+    "pose": "car3-alex-explain-car",
+    "prop": "mpt-comparison-cards",
+    "detail": "",
+    "duration": 7.12,
+    "end": 442.26,
+    "clipId": "car-review-084"
+  },
+  {
+    "section": 8,
+    "anchor": "If you already own",
+    "title": "Đã có xe thì bắt đầu từ dữ kiện",
+    "mode": "hero",
+    "headline": "ALREADY OWN THE CAR?",
+    "start": 442.26,
+    "message": "START WITH THE FACTS.",
+    "pose": "car3-alex-phone-quote",
+    "prop": "car3-loan-folder",
+    "detail": "",
+    "duration": 4.46,
+    "end": 446.72,
+    "clipId": "car-review-085"
+  },
+  {
+    "section": 8,
+    "anchor": "Find your payoff amount",
+    "title": "Bắt đầu với thông tin khoản vay hiện tại",
+    "mode": "cards",
+    "headline": "START WITH THE FACTS.",
+    "start": 446.72,
+    "items": [
+      {
+        "icon": "car3-loan-folder",
+        "label": "PAYOFF\nAMOUNT",
+        "value": "",
+        "detail": "",
+        "reveal": "Find your payoff amount"
+      },
+      {
+        "icon": "car3-offer-sheet",
+        "label": "INTEREST\nRATE",
+        "value": "",
+        "detail": "",
+        "reveal": "Interest rate, remaining"
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "REMAINING\nTERM",
+        "value": "",
+        "detail": "",
+        "reveal": "Remaining term,"
+      },
+      {
+        "icon": "car3-red-sedan",
+        "label": "VEHICLE\nVALUE",
+        "value": "",
+        "detail": "",
+        "reveal": "And a realistic estimate"
+      }
+    ],
+    "note": "",
+    "duration": 7.78,
+    "end": 454.5,
+    "clipId": "car-review-086"
+  },
+  {
+    "section": 8,
+    "anchor": "Refinancing may help",
+    "title": "Tái cấp vốn khi có lợi",
+    "mode": "hero",
+    "headline": "REFINANCING MAY HELP.",
+    "start": 454.5,
+    "message": "IF THE WHOLE DEAL IMPROVES.",
+    "pose": "car3-alex-phone-quote",
+    "prop": "car3-loan-folder",
+    "detail": "",
+    "duration": 4.06,
+    "end": 458.56,
+    "clipId": "car-review-087"
+  },
+  {
+    "section": 8,
+    "anchor": "Compare fees,",
+    "title": "So sánh phí ngày kết thúc tổng còn lại",
+    "mode": "cards",
+    "headline": "COMPARE THE REMAINING COST.",
+    "start": 458.56,
+    "items": [
+      {
+        "icon": "car3-offer-sheet",
+        "label": "FEES",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-calendar",
+        "label": "NEW PAYOFF DATE",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "mpt-cash-stack",
+        "label": "TOTAL REMAINING COST",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 5.84,
+    "end": 464.4,
+    "clipId": "car-review-088"
+  },
+  {
+    "section": 8,
+    "anchor": "A lower payment created",
+    "title": "Khoản thấp nhờ kéo dài có thể đắt hơn",
+    "mode": "art",
+    "headline": "A LOWER PAYMENT\nCAN STILL COST MORE OVERALL.",
+    "start": 464.4,
+    "art": "art-03a",
+    "detail": "",
+    "duration": 4.94,
+    "end": 469.34,
+    "clipId": "car-review-089"
+  },
+  {
+    "section": 8,
+    "anchor": "Selling or downsizing",
+    "title": "Bán hoặc giảm quy mô xe",
+    "mode": "hero",
+    "headline": "SELLING OR DOWNSIZING\nMAY HELP.",
+    "start": 469.34,
+    "message": "COMPARE THE FULL CHANGE.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-teal-sedan",
+    "detail": "",
+    "duration": 4.18,
+    "end": 473.52,
+    "clipId": "car-review-090"
+  },
+  {
+    "section": 8,
+    "anchor": "But include any negative",
+    "title": "Tính đủ chi phí khi đổi lựa chọn",
+    "mode": "cards",
+    "headline": "COUNT THE COSTS OF CHANGING.",
+    "start": 473.52,
+    "items": [
+      {
+        "icon": "car3-trade-in-envelope",
+        "label": "NEGATIVE EQUITY",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-red-sedan",
+        "label": "REPLACEMENT\nTRANSPORTATION",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      },
+      {
+        "icon": "car3-offer-sheet",
+        "label": "TRANSACTION COSTS",
+        "value": "",
+        "detail": "",
+        "reveal": null
+      }
+    ],
+    "note": "",
+    "duration": 8.12,
+    "end": 481.64,
+    "clipId": "car-review-091"
+  },
+  {
+    "section": 8,
+    "anchor": "Sometimes keeping",
+    "title": "Giữ xe đáng tin và trả xong nợ",
+    "mode": "hero",
+    "headline": "KEEP A RELIABLE CAR.\nFINISH THE LOAN.",
+    "start": 481.64,
+    "message": "SOMETIMES THAT IS THE BETTER MOVE.",
+    "pose": "car3-alex-keys",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 6.34,
+    "end": 487.98,
+    "clipId": "car-review-092"
+  },
+  {
+    "section": 8,
+    "anchor": "And if you’re struggling",
+    "title": "Liên hệ bên cho vay sớm",
+    "mode": "hero",
+    "headline": "STRUGGLING TO MAKE PAYMENTS?",
+    "start": 487.98,
+    "message": "CONTACT THE LENDER EARLY.",
+    "pose": "car3-alex-phone-quote",
+    "prop": "phone",
+    "detail": "Ask what options are available before falling behind.",
+    "duration": 7.96,
+    "end": 495.94,
+    "clipId": "car-review-093"
+  },
+  {
+    "section": 8,
+    "anchor": "You don’t need a decision",
+    "title": "Quyết định vừa ngân sách thay vì phô trương",
+    "mode": "hero",
+    "headline": "A DECISION\nYOUR BUDGET CAN LIVE WITH.",
+    "start": 495.94,
+    "message": "NOT JUST AN IMPRESSIVE DRIVEWAY.",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-red-sedan",
+    "detail": "",
+    "duration": 7.02,
+    "end": 502.96,
+    "clipId": "car-review-094"
+  },
+  {
+    "section": 8,
+    "anchor": "A good car should",
+    "title": "Chiếc xe phục vụ đời sống",
+    "mode": "art",
+    "headline": "A CAR THAT FITS\nTHE REST OF YOUR LIFE.",
+    "start": 502.96,
+    "art": "art-08a",
+    "detail": "",
+    "duration": 3.4,
+    "end": 506.36,
+    "clipId": "car-review-095"
+  },
+  {
+    "section": 8,
+    "anchor": "Its financing should",
+    "title": "Khoản vay chừa chỗ cho mục tiêu",
+    "mode": "art",
+    "headline": "LEAVE ROOM\nFOR WHERE LIFE GOES NEXT.",
+    "start": 506.36,
+    "art": "art-06a",
+    "detail": "",
+    "duration": 5.32,
+    "end": 511.68,
+    "clipId": "car-review-096"
+  },
+  {
+    "section": 8,
+    "anchor": "Before the next purchase,",
+    "title": "Câu hỏi trước khi mua tiếp",
+    "mode": "hero",
+    "headline": "MORE THAN\n“CAN I MAKE THIS PAYMENT?”",
+    "start": 511.68,
+    "message": "WHAT ELSE DOES YOUR LIFE NEED?",
+    "pose": "car3-alex-explain-car",
+    "prop": "car3-offer-sheet",
+    "detail": "",
+    "duration": 5.64,
+    "end": 517.32,
+    "clipId": "car-review-097"
+  },
+  {
+    "section": 8,
+    "anchor": "After paying for this car,",
+    "title": "Câu hỏi kết về phần đời còn lại",
+    "mode": "art",
+    "headline": "AFTER THE CAR,\nCAN YOU AFFORD YOUR LIFE?",
+    "start": 517.32,
+    "art": "art-08a",
+    "detail": "",
+    "duration": 4.88,
+    "end": 522.2,
+    "clipId": "car-review-098"
+  }
+]

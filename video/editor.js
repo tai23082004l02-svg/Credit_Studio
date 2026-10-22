@@ -1,8 +1,8 @@
 import {mediaURL} from '../assets/js/media-storage.js?v=r2-v1';
 import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-v1';
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=motion-v03-v1';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=car-review-v1';
 import {finalizeWebM} from './webm.js';
-import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=motion-v03-v1';
+import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=car-review-v1';
 const $=s=>document.querySelector(s);
 const canvas=$('#preview'),ctx=canvas.getContext('2d'),audio=$('#audio');
 const baseURL=APP_ROOT,params=new URLSearchParams(location.search),workspaceID=params.get('project')||FINANCE_ID;

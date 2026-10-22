@@ -1,0 +1,15 @@
+{
+  "source": "videos/003-car-payment-trap/audio/tts_20261022_115123_7124d9.wav",
+  "sha256": "e0d47280389d7f6592b3bd6bed5f1b41389b29088da07c14522ac13258888938",
+  "duration": 522.2,
+  "sampleRate": 24000,
+  "channels": 1,
+  "alignmentModel": "faster-whisper base.en int8 CPU",
+  "matchedScriptTokens": 1066,
+  "scriptTokens": 1155,
+  "normalization": "Derived MP3 only: FFmpeg loudnorm, target -16 LUFS, true peak -1.5 dBTP; original WAV unchanged.",
+  "music": false,
+  "sourceSpeedChanged": false,
+  "narrationText": "review/narration.md",
+  "tradeInExample": "Separate hypothetical example; audio uses earlier time transition; WAV preserved."
+}

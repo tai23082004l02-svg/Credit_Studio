@@ -196,3 +196,27 @@ Số liệu cần giữ: vay $35,000 ở APR 8% / 72 tháng → khoảng $614/th
 Tiếp theo: người dùng làm giọng đọc từ script và tải bản gốc vào `videos/003-car-payment-trap/audio/` (gợi ý `car-payment-trap-voiceover.wav`). Sau khi nhận, căn toàn bộ video và chuyển động theo WAV, tạo review/MP4 tên mới; lưu bảng hình cũ. Nếu đã chỉnh trong Studio, nhận `.credit.json`/JSON trước khi tiếp tục từ sửa riêng đó. Khi có bản narrated review thật, thêm quy tắc nâng cấp riêng finance-003 từ revision bảng hình, dùng giao dịch archive draft cũ trước khi đổi main; chưa thêm quy tắc này lúc chưa có review. R2/CORS/manifest không thay đổi.
 
 Trước khi thu âm video 003, đã sửa một câu chuyển thời gian ở phần 04 từ “A couple of years pass” thành “Some time passes”. Lý do: $28,000 là số dư giả định cho ví dụ negative equity, không phải số dư chính xác sau 24 kỳ của khoản vay $35,000 / APR 8% / 72 tháng ở phần trước. Giữ nguyên các con số và toàn bộ hình; đã thông báo thay đổi cho người dùng.
+
+## Video 003 — bản duyệt đầy đủ theo WAV (2026-10-22)
+
+Đã nhận `audio/tts_20261022_115123_7124d9.wav` từ commit người dùng `b90cae5`: **522,2 giây**, PCM 16-bit / 24 kHz / mono. SHA-256 `e0d47280389d7f6592b3bd6bed5f1b41389b29088da07c14522ac13258888938`. WAV giữ nguyên byte. `review/voiceover.mp3` là dẫn xuất chuẩn hóa âm lượng, không đổi tốc độ hoặc cắt lời; không thêm nhạc nền.
+
+Bản dựng mới **98 cảnh / 8 phút 42,2 giây**, chỉnh được ở `videos/003-car-payment-trap/review/project.json`, revision `car-payment-review-v01`; MP4 `exports/full-review-v01.mp4`. Đây là bản duyệt chờ người dùng, chưa phải bản cuối. `review/README.md` có timecode, `shot-plan.json` có cue và bố cục, `source.json` có nguồn/hash, `alignment.json` có mốc từ. Đối chiếu trực tiếp 1.066/1.155 token của văn bản; các token số và dấu câu có nội suy. Có sai số căn tự động ở mức từ; phụ đề mặc định tắt trong MP4, bật được trong Studio.
+
+- **27 lớp chuyển động nội dung trong 14 cảnh**, cùng các thẻ xuất hiện theo lời đọc: chi phí xe tăng 614→794→954→1.044 USD; thanh/số dùng cùng mốc và cùng thang 1.044 USD minh họa. Tổng chi phí là các đoạn thanh đúng tỉ lệ 614/180/160/90.
+- Dư nợ tính bằng công thức khoản vay fixed-rate $35.000 / APR 8% / 72 tháng, lấy 25 mốc cách nhau 3 tháng. Lịch nén có nhãn rõ, counter/thanh cùng nhịp step; không dùng số dư $28.000 của ví dụ trade-in để suy ra đường dư nợ này.
+- Phong bì nợ $5.000 đi từ xe cũ sang khoản vay mới; tổng tài trợ tăng $30.000→$35.000, có ghi điều kiện lender và trước tax/fees. Quỹ khoảng thở tăng 12 lần $200 = $2.400/năm.
+- Audio thực tế vẫn dùng câu cũ **“A couple of years pass”** ở khoảng 03:18,84, khác script đã sửa trước. Giữ nguyên WAV và lời đọc; header/ghi chú trên hình xác định trade-in là **ví dụ giả định riêng**, không phải số dư chính xác sau hai năm của khoản vay 72 tháng trước đó. Văn bản dùng căn audio ở `review/narration.md`; không đổi lại phần tiếng Anh trong script dự định.
+- Times New Roman thực, vùng tiêu đề tách khỏi nhân vật; hình/nhãn căn giữa. Giữ trọn đầu, tay, chân ở các khung chuyển động. Hình minh họa tổng thể vẫn là lớp ảnh; chưa rig khớp nhân vật.
+
+`projects.json` giữ ID finance-003, nay trỏ review/audio/MP4 thật. Quy tắc nâng cấp riêng car-artwork-board-v01→car-payment-review-v01 dùng giao dịch archive draft cũ trước khi thay main. Bảng hình 96 giây đã chỉnh tải JSON được và có trong `.credit.json`; reload giữ sửa review, không nhân đôi lịch sử. Không tự thay revision lạ, bản review đang chỉnh hay dự án khôi phục ID khác. Cập nhật query hub/editor/store/iframe để tránh mở lại bản 96 giây từ cache.
+
+Bản này dựng từ tài nguyên repo, chưa ghép các sửa riêng chỉ có trong IndexedDB. Bảng hình 96 giây, 16 thiết kế/ảnh, sheet/PNG rời và source WAV giữ nguyên. Đối chiếu **254 tệp cũ không đổi byte**, gồm toàn bộ video 001/002, tài nguyên video 003 và kho chung 73 mục; metadata hai dự án cũ cũng không đổi. R2/CORS/manifest giữ nguyên.
+
+Công cụ mới `tools/build-car-payment-video.py` đọc narration/alignment/tài nguyên để tạo review; mặc định chặn ghi đè. Chỉ dùng `--force` sau khi sao lưu sửa tay, không sửa WAV/MP4. Xuất MP4 bằng `tools/render-intro.cjs` với đầu vào review/project.json và tên xuất mới.
+
+Đã qua **20 unit test** engine/financial motion/WebM/media. Playwright `car-payment-review`: **5.363 mốc hình**, kiểm tra biên, hình/chữ và chữ/chữ không chồng nhau, caption một dòng. `car-payment-upgrade`: archive/tải JSON/backup bảng hình đã sửa nguyên vẹn, giữ sửa review khi reload, tua/phát audio, mobile và Tổng quan mở 98 cảnh, loại trừ revision lạ/dự án khôi phục. `car-payment-artwork`: 16 thiết kế, 2 atlas, 12 cutout vẫn dùng được. `project-workspaces` giữ tách dự án/lịch sử/backup/khôi phục. Chrome xác nhận TimesNewRomanPS-BoldMT. Kết quả bản MP4 thực được ghi tại `review/validation.json`.
+
+Tiếp theo: người dùng duyệt MP4 v01 và góp ý kèm timecode. Nếu đã chỉnh riêng trong Studio, nhận `.credit.json`/JSON trước khi tiếp tục từ chúng. Lần xuất sau dùng tên v02, giữ v01 và WAV gốc.
+
+MP4 thực đã giải mã toàn bộ không lỗi: H.264/AAC, 1920×1080 / 30 fps, 15,666 khung, 522.2 giây. Âm lượng đo -16.67 LUFS, true peak -1.45 dBTP. Đối chiếu tiếng ở giây 10/250/515: độ trễ 0 mẫu, tương quan trung vị cửa sổ 50 ms >0,995; chi tiết trong review/validation.json. Kiểm tra ngay trên MP4 thấy thanh bảo hiểm tăng từ 710 lên 912 pixel, khớp mức cuối 794/1.044 × 1.200 pixel; đã xem khung bảng tiết kiệm trong bản xuất.
