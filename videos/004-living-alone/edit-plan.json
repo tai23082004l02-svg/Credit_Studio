@@ -1,0 +1,792 @@
+{
+  "version": 1,
+  "status": "Prepared shot cues only; source audio not yet available in repository. No timing or rendered video.",
+  "sourceAudio": null,
+  "style": {
+    "background": "#f6f0e5",
+    "ink": "#292722",
+    "accent": "#873e3d",
+    "font": "Times New Roman"
+  },
+  "plannedCanvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "sourceScript": "narration.txt",
+  "shots": [
+    {
+      "id": "living-review-001",
+      "section": 1,
+      "cue": "The first night in your own apartment",
+      "headline": "THE FIRST NIGHT.",
+      "layout": "illustration",
+      "asset": "art-01a"
+    },
+    {
+      "id": "living-review-002",
+      "section": 1,
+      "cue": "You put your keys on the counter.",
+      "headline": "YOUR OWN KEYS.",
+      "layout": "prop",
+      "asset": "solo4-house-keys"
+    },
+    {
+      "id": "living-review-003",
+      "section": 1,
+      "cue": "For a moment, the silence",
+      "headline": "THE SILENCE FEELS LIKE SUCCESS.",
+      "layout": "illustration",
+      "asset": "art-01a"
+    },
+    {
+      "id": "living-review-004",
+      "section": 1,
+      "cue": "Then the bills arrive.",
+      "headline": "THEN THE BILLS ARRIVE.",
+      "layout": "bill-reveal",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-005",
+      "section": 1,
+      "cue": "And you notice something strange.",
+      "headline": "ONE PERSON. ONE WHOLE HOUSEHOLD.",
+      "layout": "prop",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-006",
+      "section": 1,
+      "cue": "There's only one person living here.",
+      "headline": "THE BILLS DON’T COME IN HALVES.",
+      "layout": "bill-reveal",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-007",
+      "section": 1,
+      "cue": "You use one bedroom.",
+      "headline": "ONE BEDROOM. ONE DINNER.",
+      "layout": "illustration",
+      "asset": "art-02a"
+    },
+    {
+      "id": "living-review-008",
+      "section": 1,
+      "cue": "So why does living alone feel",
+      "headline": "WHY DOES IT COST SO MUCH?",
+      "layout": "illustration",
+      "asset": "art-01a"
+    },
+    {
+      "id": "living-review-009",
+      "section": 1,
+      "cue": "Because, in several important ways,",
+      "headline": "YOU ARE PAYING FOR A HOUSEHOLD.",
+      "layout": "prop",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-010",
+      "section": 1,
+      "cue": "To understand why it has become",
+      "headline": "TWO PRESSURES.",
+      "layout": "two-factors",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-011",
+      "section": 2,
+      "cue": "Imagine two apartments",
+      "headline": "ACROSS THE HALL.",
+      "layout": "illustration",
+      "asset": "art-02a"
+    },
+    {
+      "id": "living-review-012",
+      "section": 2,
+      "cue": "Alex lives alone",
+      "headline": "ONE BEDROOM. ONE PERSON.",
+      "layout": "prop",
+      "asset": "solo4-house-keys"
+    },
+    {
+      "id": "living-review-013",
+      "section": 2,
+      "cue": "Let's use an illustrative budget,",
+      "headline": "AN ILLUSTRATIVE EXAMPLE.",
+      "layout": "example-intro",
+      "asset": "solo4-notebook"
+    },
+    {
+      "id": "living-review-014",
+      "section": 2,
+      "cue": "Alex pays eighteen hundred",
+      "headline": "SOLO RENT: $1,800.",
+      "layout": "rent-solo",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-015",
+      "section": 2,
+      "cue": "The two-bedroom costs twenty-four hundred.",
+      "headline": "$2,400 SHARED BY TWO.",
+      "layout": "rent-shared",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-016",
+      "section": 2,
+      "cue": "The shared apartment costs more overall.",
+      "headline": "MORE TOTAL. LESS PER PERSON.",
+      "layout": "rent-compare",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-017",
+      "section": 2,
+      "cue": "Now add internet.",
+      "headline": "NOW ADD INTERNET.",
+      "layout": "prop",
+      "asset": "solo4-router"
+    },
+    {
+      "id": "living-review-018",
+      "section": 2,
+      "cue": "Suppose both apartments have",
+      "headline": "ONE CONNECTION. TWO WAYS TO PAY.",
+      "layout": "internet-split",
+      "asset": "solo4-router"
+    },
+    {
+      "id": "living-review-019",
+      "section": 2,
+      "cue": "That puts Alex at",
+      "headline": "RENT + INTERNET.",
+      "layout": "monthly-total",
+      "asset": "solo4-router"
+    },
+    {
+      "id": "living-review-020",
+      "section": 2,
+      "cue": "A difference of six hundred",
+      "headline": "THE MONTHLY GAP.",
+      "layout": "monthly-gap",
+      "asset": "solo4-calculator"
+    },
+    {
+      "id": "living-review-021",
+      "section": 2,
+      "cue": "Seven thousand five hundred",
+      "headline": "THE YEARLY GAP.",
+      "layout": "annual-gap",
+      "asset": "solo4-calendar"
+    },
+    {
+      "id": "living-review-022",
+      "section": 2,
+      "cue": "That's before comparing utilities",
+      "headline": "RENT + INTERNET ONLY.",
+      "layout": "scope-note",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-023",
+      "section": 2,
+      "cue": "These aren't identical living arrangements.",
+      "headline": "DIFFERENT ARRANGEMENTS.",
+      "layout": "illustration",
+      "asset": "art-02a"
+    },
+    {
+      "id": "living-review-024",
+      "section": 2,
+      "cue": "But the mechanism is simple:",
+      "headline": "SOME COSTS DON’T DOUBLE.",
+      "layout": "sharing-flow",
+      "asset": "solo4-house-keys"
+    },
+    {
+      "id": "living-review-025",
+      "section": 3,
+      "cue": "That sharing advantage isn't new.",
+      "headline": "THE SHARING ADVANTAGE ISN’T NEW.",
+      "layout": "illustration",
+      "asset": "art-02a"
+    },
+    {
+      "id": "living-review-026",
+      "section": 3,
+      "cue": "What's changed is the price",
+      "headline": "WHAT CHANGED: THE PRICE.",
+      "layout": "illustration",
+      "asset": "art-03a"
+    },
+    {
+      "id": "living-review-027",
+      "section": 3,
+      "cue": "Take rent.",
+      "headline": "RENT PRICE INDEX.",
+      "layout": "prop",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-028",
+      "section": 3,
+      "cue": "The Bureau of Labor Statistics reported",
+      "headline": "+4.3% OVER 12 MONTHS.",
+      "layout": "rent-stat",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-029",
+      "section": 3,
+      "cue": "That's a national measure",
+      "headline": "A NATIONAL CHANGE, NOT A QUOTE.",
+      "layout": "scope-note",
+      "asset": "solo4-notebook"
+    },
+    {
+      "id": "living-review-030",
+      "section": 3,
+      "cue": "Your city, building, and lease",
+      "headline": "YOUR LEASE CAN TELL A DIFFERENT STORY.",
+      "layout": "illustration",
+      "asset": "art-03a"
+    },
+    {
+      "id": "living-review-031",
+      "section": 3,
+      "cue": "But it shows how",
+      "headline": "PRICES CAN KEEP GETTING BIGGER.",
+      "layout": "illustration",
+      "asset": "art-03a"
+    },
+    {
+      "id": "living-review-032",
+      "section": 3,
+      "cue": "Slower price growth still",
+      "headline": "SLOWER GROWTH ≠ LOWER PRICES.",
+      "layout": "price-concept",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-033",
+      "section": 3,
+      "cue": "And when your rent increases,",
+      "headline": "THE WHOLE INCREASE IS YOURS.",
+      "layout": "prop",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-034",
+      "section": 3,
+      "cue": "Living alone is also far from unusual.",
+      "headline": "FAR FROM UNUSUAL.",
+      "layout": "illustration",
+      "asset": "art-06a"
+    },
+    {
+      "id": "living-review-035",
+      "section": 3,
+      "cue": "In twenty twenty-four, the Census Bureau",
+      "headline": "38.5 MILLION ONE-PERSON HOUSEHOLDS.",
+      "layout": "household-stat",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-036",
+      "section": 3,
+      "cue": "That's households, not",
+      "headline": "HOUSEHOLDS. NOT PEOPLE.",
+      "layout": "denominator",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-037",
+      "section": 3,
+      "cue": "People live alone after",
+      "headline": "DIFFERENT STORIES.",
+      "layout": "illustration",
+      "asset": "art-06a"
+    },
+    {
+      "id": "living-review-038",
+      "section": 3,
+      "cue": "Different stories. The same practical question:",
+      "headline": "HOW MUCH CAN ONE INCOME CARRY?",
+      "layout": "prop",
+      "asset": "solo4-pay-envelope"
+    },
+    {
+      "id": "living-review-039",
+      "section": 4,
+      "cue": "Some costs shrink",
+      "headline": "SOME SHRINK. OTHERS BARELY MOVE.",
+      "layout": "illustration",
+      "asset": "art-04a"
+    },
+    {
+      "id": "living-review-040",
+      "section": 4,
+      "cue": "You probably use less water",
+      "headline": "USAGE CAN FALL.",
+      "layout": "variable-costs",
+      "asset": "solo4-groceries"
+    },
+    {
+      "id": "living-review-041",
+      "section": 4,
+      "cue": "But a refrigerator still runs",
+      "headline": "THE FRIDGE KEEPS RUNNING.",
+      "layout": "prop",
+      "asset": "solo4-fridge"
+    },
+    {
+      "id": "living-review-042",
+      "section": 4,
+      "cue": "An internet connection still needs",
+      "headline": "ONE HOME. ONE PLAN.",
+      "layout": "prop",
+      "asset": "solo4-router"
+    },
+    {
+      "id": "living-review-043",
+      "section": 4,
+      "cue": "A couch doesn't come at half price",
+      "headline": "THE WHOLE COUCH.",
+      "layout": "prop",
+      "asset": "solo4-armchair"
+    },
+    {
+      "id": "living-review-044",
+      "section": 4,
+      "cue": "Even groceries involve tradeoffs.",
+      "headline": "THE GROCERY TRADEOFF.",
+      "layout": "prop",
+      "asset": "solo4-groceries"
+    },
+    {
+      "id": "living-review-045",
+      "section": 4,
+      "cue": "A larger package might cost less",
+      "headline": "CHEAPER PER SERVING—IF YOU USE IT.",
+      "layout": "food-tradeoff",
+      "asset": "solo4-groceries"
+    },
+    {
+      "id": "living-review-046",
+      "section": 4,
+      "cue": "Buying smaller portions can",
+      "headline": "BUYING MORE CAN MEAN WASTING MORE.",
+      "layout": "food-tradeoff",
+      "asset": "solo4-groceries"
+    },
+    {
+      "id": "living-review-047",
+      "section": 4,
+      "cue": "Then there are the costs",
+      "headline": "MOVING IN COSTS MONEY, TOO.",
+      "layout": "illustration",
+      "asset": "art-04a"
+    },
+    {
+      "id": "living-review-048",
+      "section": 4,
+      "cue": "A mattress. Pots and pans.",
+      "headline": "SETTING UP A HOME.",
+      "layout": "move-in-reveal",
+      "asset": "solo4-moving-box"
+    },
+    {
+      "id": "living-review-049",
+      "section": 4,
+      "cue": "Some are one-time purchases,",
+      "headline": "UPFRONT ≠ MONTHLY.",
+      "layout": "cost-categories",
+      "asset": "solo4-moving-box"
+    },
+    {
+      "id": "living-review-050",
+      "section": 4,
+      "cue": "And a security deposit,",
+      "headline": "CASH TIED UP.",
+      "layout": "deposit",
+      "asset": "solo4-deposit"
+    },
+    {
+      "id": "living-review-051",
+      "section": 4,
+      "cue": "The rent advertised online",
+      "headline": "THE LISTING IS ONLY THE START.",
+      "layout": "prop",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-052",
+      "section": 5,
+      "cue": "There's another cost",
+      "headline": "THE RISK YOU DON’T SEE ON THE LEASE.",
+      "layout": "illustration",
+      "asset": "art-05a"
+    },
+    {
+      "id": "living-review-053",
+      "section": 5,
+      "cue": "The risk is concentrated.",
+      "headline": "ONE INCOME. THE FULL BILL.",
+      "layout": "income-risk",
+      "asset": "solo4-pay-envelope"
+    },
+    {
+      "id": "living-review-054",
+      "section": 5,
+      "cue": "If Alex loses a job,",
+      "headline": "THE RENT DOESN’T STOP.",
+      "layout": "income-risk",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-055",
+      "section": 5,
+      "cue": "A household with two earners",
+      "headline": "ANOTHER PAYCHECK MAY HELP.",
+      "layout": "two-income-note",
+      "asset": "solo4-pay-envelope"
+    },
+    {
+      "id": "living-review-056",
+      "section": 5,
+      "cue": "But living alone on one paycheck",
+      "headline": "NO AUTOMATIC SECOND PAYCHECK.",
+      "layout": "prop",
+      "asset": "solo4-pay-envelope"
+    },
+    {
+      "id": "living-review-057",
+      "section": 5,
+      "cue": "Go back to Alex's example.",
+      "headline": "BACK TO THE EXAMPLE.",
+      "layout": "illustration",
+      "asset": "art-02a"
+    },
+    {
+      "id": "living-review-058",
+      "section": 5,
+      "cue": "Rent and internet alone need",
+      "headline": "$1,860 EVERY MONTH.",
+      "layout": "monthly-total",
+      "asset": "solo4-calendar"
+    },
+    {
+      "id": "living-review-059",
+      "section": 5,
+      "cue": "Two months of just those bills",
+      "headline": "TWO MONTHS. $3,720.",
+      "layout": "two-months",
+      "asset": "solo4-calendar"
+    },
+    {
+      "id": "living-review-060",
+      "section": 5,
+      "cue": "That's not a complete emergency fund target.",
+      "headline": "THIS IS NOT THE WHOLE BUDGET.",
+      "layout": "excluded-costs",
+      "asset": "solo4-bills"
+    },
+    {
+      "id": "living-review-061",
+      "section": 5,
+      "cue": "It's a way to see the exposure.",
+      "headline": "SEE WHAT NEEDS PROTECTING.",
+      "layout": "prop",
+      "asset": "solo4-reserve-jar"
+    },
+    {
+      "id": "living-review-062",
+      "section": 5,
+      "cue": "When one person carries",
+      "headline": "PROTECTING THE INCOME MATTERS.",
+      "layout": "illustration",
+      "asset": "art-05a"
+    },
+    {
+      "id": "living-review-063",
+      "section": 6,
+      "cue": "At this point, the obvious advice",
+      "headline": "GET A ROOMMATE?",
+      "layout": "prop",
+      "asset": "solo4-house-keys"
+    },
+    {
+      "id": "living-review-064",
+      "section": 6,
+      "cue": "Sometimes, that is",
+      "headline": "SOMETIMES, THAT HELPS.",
+      "layout": "illustration",
+      "asset": "art-02a"
+    },
+    {
+      "id": "living-review-065",
+      "section": 6,
+      "cue": "But people don't choose",
+      "headline": "A HOME IS MORE THAN A CALCULATION.",
+      "layout": "illustration",
+      "asset": "art-06a"
+    },
+    {
+      "id": "living-review-066",
+      "section": 6,
+      "cue": "Living alone can mean",
+      "headline": "REST. SAFETY. QUIET.",
+      "layout": "privacy-reveal",
+      "asset": "solo4-armchair"
+    },
+    {
+      "id": "living-review-067",
+      "section": 6,
+      "cue": "Those benefits are real,",
+      "headline": "THE BENEFITS ARE REAL.",
+      "layout": "illustration",
+      "asset": "art-06a"
+    },
+    {
+      "id": "living-review-068",
+      "section": 6,
+      "cue": "The useful question is whether",
+      "headline": "DOES THE TRADEOFF FIT YOUR LIFE?",
+      "layout": "prop",
+      "asset": "solo4-calculator"
+    },
+    {
+      "id": "living-review-069",
+      "section": 6,
+      "cue": "In Alex's example, the rent-and-internet",
+      "headline": "$630 MORE PER MONTH.",
+      "layout": "monthly-gap",
+      "asset": "solo4-armchair"
+    },
+    {
+      "id": "living-review-070",
+      "section": 6,
+      "cue": "For someone else,",
+      "headline": "YOUR OWN DIFFERENCE MAY VARY.",
+      "layout": "scope-note",
+      "asset": "solo4-notebook"
+    },
+    {
+      "id": "living-review-071",
+      "section": 6,
+      "cue": "Once you estimate your own difference,",
+      "headline": "WHAT YOU GET. WHAT YOU GIVE UP.",
+      "layout": "privacy-tradeoff",
+      "asset": "solo4-armchair"
+    },
+    {
+      "id": "living-review-072",
+      "section": 7,
+      "cue": "Start with the full cost",
+      "headline": "START WITH THE WHOLE HOME.",
+      "layout": "illustration",
+      "asset": "art-07a"
+    },
+    {
+      "id": "living-review-073",
+      "section": 7,
+      "cue": "Before signing a lease,",
+      "headline": "ADD THE RECURRING COSTS.",
+      "layout": "budget-reveal",
+      "asset": "solo4-calculator"
+    },
+    {
+      "id": "living-review-074",
+      "section": 7,
+      "cue": "A cheaper apartment that requires",
+      "headline": "ADD THE COMMUTE, TOO.",
+      "layout": "transport-note",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-075",
+      "section": 7,
+      "cue": "List moving costs separately.",
+      "headline": "MOVE-IN CASH GOES ON A SEPARATE LIST.",
+      "layout": "move-in-reveal",
+      "asset": "solo4-moving-box"
+    },
+    {
+      "id": "living-review-076",
+      "section": 7,
+      "cue": "Then build a bare-bones monthly budget:",
+      "headline": "WHAT MUST STILL BE PAID?",
+      "layout": "essentials",
+      "asset": "solo4-notebook"
+    },
+    {
+      "id": "living-review-077",
+      "section": 7,
+      "cue": "Use that number to start",
+      "headline": "A BUFFER THAT FITS YOUR SITUATION.",
+      "layout": "buffer",
+      "asset": "solo4-reserve-jar"
+    },
+    {
+      "id": "living-review-078",
+      "section": 7,
+      "cue": "Next, examine the biggest",
+      "headline": "START WITH THE BIG COMMITMENTS.",
+      "layout": "prop",
+      "asset": "solo4-calculator"
+    },
+    {
+      "id": "living-review-079",
+      "section": 7,
+      "cue": "A smaller apartment,",
+      "headline": "COMPARE THE WHOLE CHANGE.",
+      "layout": "housing-options",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-080",
+      "section": 7,
+      "cue": "For food, plan around",
+      "headline": "PLAN FOR WHAT YOU WILL EAT.",
+      "layout": "prop",
+      "asset": "solo4-groceries"
+    },
+    {
+      "id": "living-review-081",
+      "section": 7,
+      "cue": "Freeze portions.",
+      "headline": "PORTIONS. FREEZER. LESS WASTE.",
+      "layout": "food-tradeoff",
+      "asset": "solo4-groceries"
+    },
+    {
+      "id": "living-review-082",
+      "section": 7,
+      "cue": "And build a practical support network.",
+      "headline": "HAVE SOMEONE TO CALL.",
+      "layout": "prop",
+      "asset": "solo4-support-phone"
+    },
+    {
+      "id": "living-review-083",
+      "section": 7,
+      "cue": "Living independently doesn't mean",
+      "headline": "INDEPENDENT DOESN’T MEAN ALONE.",
+      "layout": "prop",
+      "asset": "solo4-support-phone"
+    },
+    {
+      "id": "living-review-084",
+      "section": 8,
+      "cue": "The next time Alex puts",
+      "headline": "THE KEYS ARE STILL YOURS.",
+      "layout": "illustration",
+      "asset": "art-08a"
+    },
+    {
+      "id": "living-review-085",
+      "section": 8,
+      "cue": "The privacy still matters.",
+      "headline": "THE PRIVACY STILL MATTERS.",
+      "layout": "illustration",
+      "asset": "art-06a"
+    },
+    {
+      "id": "living-review-086",
+      "section": 8,
+      "cue": "But now the budget includes",
+      "headline": "A PLAN BEYOND THE RENT.",
+      "layout": "closing-plan",
+      "asset": "solo4-notebook"
+    },
+    {
+      "id": "living-review-087",
+      "section": 8,
+      "cue": "Living alone has become more expensive",
+      "headline": "HIGHER PRICES. FEWER WAYS TO SHARE.",
+      "layout": "two-factors",
+      "asset": "solo4-apartment"
+    },
+    {
+      "id": "living-review-088",
+      "section": 8,
+      "cue": "Understanding that won't make",
+      "headline": "UNDERSTAND THE PRESSURE.",
+      "layout": "illustration",
+      "asset": "art-08a"
+    },
+    {
+      "id": "living-review-089",
+      "section": 8,
+      "cue": "If living alone matters to you,",
+      "headline": "GIVE IT AN HONEST PLACE IN YOUR BUDGET.",
+      "layout": "prop",
+      "asset": "solo4-notebook"
+    },
+    {
+      "id": "living-review-090",
+      "section": 8,
+      "cue": "And leave room for something",
+      "headline": "LEAVE ROOM TO LIVE.",
+      "layout": "illustration",
+      "asset": "art-08a"
+    },
+    {
+      "id": "living-review-091",
+      "section": 8,
+      "cue": "The goal is to enjoy",
+      "headline": "A HOME YOU CAN ENJOY AND KEEP.",
+      "layout": "illustration",
+      "asset": "art-08a"
+    }
+  ],
+  "financialMotion": {
+    "rentSplit": {
+      "total": 2400,
+      "people": 2,
+      "perPerson": 1200
+    },
+    "internetSplit": {
+      "total": 60,
+      "people": 2,
+      "perPerson": 30
+    },
+    "monthlyTotals": [
+      1860,
+      1230
+    ],
+    "monthlyGap": 630,
+    "annualGap": 7560,
+    "twoMonthsRentInternetOnly": 3720,
+    "exampleLabel": "Illustrative example — not national averages",
+    "rentStatistic": {
+      "changePercent": 4.3,
+      "period": "12 months ending December 2024",
+      "source": "BLS"
+    },
+    "households": {
+      "countMillions": 38.5,
+      "sharePercent": 29,
+      "year": 2024,
+      "denominator": "U.S. households",
+      "source": "Census Bureau"
+    }
+  },
+  "preserve": [
+    "Original WAV/MP3",
+    "Existing 96-second artwork board",
+    "All 16 editable designs and images",
+    "All previous videos, exports and saved browser drafts"
+  ],
+  "pending": [
+    "Receive or locate the actual narration audio",
+    "Align word timestamps and review narrative differences",
+    "Build full review with timed content motion",
+    "Validate composition, audio and rendered MP4",
+    "Archive old artwork draft before published review upgrade"
+  ]
+}

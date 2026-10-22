@@ -22,3 +22,9 @@ Lời đọc có khoảng **1.279 từ**, dự kiến **8–10 phút** (khoảng
 Đóng gói lại: `node tools/build-living-alone-artwork.cjs`, cần server cục bộ và font theo README gốc. Mặc định chặn ghi đè; chỉ dùng `--force` sau khi sao lưu sửa tay. Công cụ cắt/đóng gói nguồn đã tạo, không gọi lại AI hoặc sửa audio. Kiểm tra: `node tests/living-alone-artwork.cjs`.
 
 Tiếp theo: người dùng duyệt hình, cung cấp WAV gốc trong `audio/`, rồi căn dựng đầy đủ với chuyển động theo lời kể. Chưa nhạc nền hoặc rig khớp. Giữ mọi tài nguyên video 001–003. Các sửa riêng trong Studio lưu ở IndexedDB; nhận `.credit.json`/JSON trước khi cần tiếp tục từ chúng.
+
+## Chuẩn bị dựng sau yêu cầu nhận audio
+
+Người dùng đã báo thêm âm thanh và yêu cầu dựng. Khi kiểm tra nhánh `main` và các nhánh GitHub, chưa thấy tệp audio mới của video 004; thư mục `audio/` mới có README. Đang chờ xác định nơi lưu/nhận tệp thực tế. Audio thêm trong Studio chỉ nằm trong IndexedDB, không tự xuất hiện trong repo.
+
+Đã chuẩn bị [91 cảnh và mốc lời kể](edit-plan.json), gồm chia tiền thuê/internet, so sánh tổng tháng, chênh theo năm, lịch hai tháng, dữ liệu lịch sử và checklist. Đây là **kế hoạch dựng chưa có timing**, không phải JSON video để nhập Studio. Chưa tạo review/MP4, chưa đổi bảng duyệt hình 96 giây hoặc bản sửa trình duyệt. Chỉ căn thời gian và xuất sau khi nhận đúng audio.

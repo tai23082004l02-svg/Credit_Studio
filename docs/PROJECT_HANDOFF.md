@@ -2,6 +2,14 @@
 
 Cập nhật: 2026-10-22. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
 
+## Video 004 — yêu cầu dựng, đang chờ tệp audio (2026-10-22)
+
+Người dùng báo đã thêm âm thanh và yêu cầu triển khai. Đã `git pull --ff-only origin main`, đối chiếu GitHub API commit/branch và tìm audio trong repo/workspace: main vẫn ở `c8665c4`, chỉ có nhánh main; `videos/004-living-alone/audio/` chỉ có README, không có WAV/MP3 của 004. Không lấy nhầm WAV của 001–003. Đã hỏi nơi lưu; nếu audio chỉ thêm trong Studio thì cần `.credit.json` chứa tệp hoặc nhận WAV/MP3, nếu upload GitHub chưa commit thì hoàn tất commit vào main.
+
+Đã chuẩn bị `videos/004-living-alone/edit-plan.json`: **91 cue cảnh** theo thứ tự lời thoại, có layout/tài nguyên/ý chuyển động và các phép tính cần giữ. Kiểm tra mọi cue khớp đúng bản narration, số cảnh ≤100. Plan chưa có timing, `sourceAudio: null`, không phải dự án video. Chưa tạo review hoặc MP4, chưa sửa projects.json/quy tắc nâng cấp browser draft. Bảng hình 96 giây và mọi tài nguyên gốc vẫn giữ nguyên.
+
+Tiếp theo: kiểm tra lại main vì người dùng có thể commit audio sau lần kiểm tra; khi nhận đúng audio thì đo thời lượng/hash, đối chiếu lời đọc, căn mốc từ và dùng kế hoạch làm cơ sở dựng. Chỉ bật migration finance-004 khi đã có narrated review thật và kiểm tra archive draft cũ. Không tự tạo giọng thay thế hoặc giả định audio khác đúng video.
+
 ## Video 004 — bộ hình Living Alone v01 (2026-10-22, trạng thái mới nhất)
 
 Người dùng đã yêu cầu triển khai hình sau lời thoại. Đã tạo bộ **documentary photographic collage** riêng, ảnh cắt ghép có viền, giấy kem, đỏ trầm; chữ Times New Roman. Dự án **finance-004** đã đăng ký ở trang chủ, gallery `videos/004-living-alone/` có tải PNG, JSON thiết kế, sheet/guide và PNG rời.
