@@ -2,7 +2,32 @@
 
 Cập nhật: 2026-10-22. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
 
-## Video 004 — yêu cầu dựng, đang chờ tệp audio (2026-10-22)
+## Video 004 — bản duyệt đầy đủ từ audio gửi qua chat (2026-10-22, trạng thái mới nhất)
+
+Người dùng gửi **`tts_20261022_133142_ba54ee.wav`** trực tiếp qua chat vì tệp lớn và tiếp tục yêu cầu dựng. Đã lưu nguyên bản vào `videos/004-living-alone/audio/`: **27.720.044 byte, 577,5 giây, PCM 16-bit / 24 kHz / mono**, SHA-256 **`10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d`**. Không cần người dùng upload lại. Bản gốc giữ nguyên; `review/voiceover.mp3` là dẫn xuất FFmpeg loudnorm (-16 LUFS / -1,5 dBTP mục tiêu), không cắt lời hoặc đổi tốc độ. Chưa nhạc nền.
+
+Đã dùng kế hoạch 91 cue để dựng **91 cảnh / 9 phút 37,5 giây**, **1920×1080 / 30 fps**. Dự án chỉnh được **`review/project.json`**, revision **`living-alone-review-v01`**; MP4 **`exports/full-review-v01.mp4`**. Đây là bản duyệt chờ người dùng, chưa phải bản cuối. `review/README.md` có timecode; `shot-plan.json`, `motion-plan.json`, `source.json`, `alignment.json`, `captions.vtt` ghi mốc và nguồn. 154 đoạn / 1.261 từ nhận dạng; khớp trực tiếp 1.198/1.278 token narration, token số/dấu có nội suy; vẫn có sai số căn tự động mức từ. 155 cue phụ đề một dòng, mặc định tắt trong MP4, bật được trong Studio.
+
+- Giữ phong cách **photographic collage / giấy kem / đỏ trầm / Times New Roman**, không đưa Alex vẽ tay cũ vào cảnh mới. 23 tài nguyên được dùng; 16 thiết kế, ảnh nguồn, sheet và 16 đạo cụ vẫn giữ nguyên.
+- **29 lớp chuyển động nội dung trong 15 cảnh**, cùng các thẻ xuất hiện theo lời: rent/internet chia theo hai người, số và thanh cùng mốc/thang, chênh $630/tháng tăng đúng 12 lần thành $7.560/năm; lịch hai tháng và $3.720 chỉ rent + internet; tỷ lệ hộ, phong bì thu nhập và tiền đặt cọc chuyển động. Các giá trị phần chia sẻ đợi cue tương ứng; tiền đặt cọc không bị tính thành chi phí mất đi.
+- Dữ liệu lịch sử có nhãn **BLS +4,3%, 12 tháng kết thúc 12/2024** và **Census 38,5 triệu / 29% hộ, năm 2024**, không biến thành giá thuê hiện tại 2026 hoặc phần trăm dân số. Không tạo đường giá/số dư giả. Số tiền đều có nhãn ví dụ hư cấu và phạm vi.
+- Ảnh nhân vật/đạo cụ nằm dưới tiêu đề, không bị panel/chữ che; ảnh fit giữ tỉ lệ, thẻ căn giữa. Minh họa tổng thể vẫn là ảnh phẳng; chưa rig khớp.
+
+`projects.json` giữ ID finance-004, nay mở review/audio/MP4 thật. Quy tắc riêng **living-artwork-board-v01→living-alone-review-v01** archive draft bảng hình cũ nguyên vẹn trước khi thay main. Bản cũ tải JSON được và nằm trong `.credit.json`; current review edit/revision lạ/dự án khôi phục không bị reset. Đổi query hub/editor/store/iframe thành `living-review-v1` để bỏ cache bản bảng hình. **Không ghép các sửa riêng chỉ có trong IndexedDB của người dùng**; cần backup nếu tiếp tục từ chúng.
+
+`tools/build-living-alone-video.py` tạo JSON/VTT/timecode từ narration/alignment/kế hoạch; mặc định chặn ghi đè, chỉ `--force` sau khi sao lưu sửa tay. Không sửa WAV/bộ hình/MP4. Dựng MP4 dùng renderer Studio `tools/render-intro.cjs`; lần xuất sau dùng v02, giữ v01.
+
+Đã qua **21 unit test** engine/financial motion/WebM/media-storage. `living-alone-review`: **5.904 mốc hình** trên 91 cảnh, kiểm tra vùng ảnh/chữ, panel không che ảnh, không va chữ/chữ, một dòng caption. Đã xem toàn bộ contact sheet và nhân vật/khung tiền lớn. `living-alone-upgrade`: archive/backup/history download đúng draft cũ, giữ sửa review/reload, audio seek/playback ở 8 mốc, mobile, Tổng quan và loại trừ revision/dự án không phù hợp. `living-alone-artwork`: 16 thiết kế cũ, 2 sheet, 16 PNG và chữ TimesNewRomanPS-BoldMT vẫn đúng. Kết quả MP4/audio thực tế tại `review/validation.json`.
+
+Đối chiếu **345 tệp cũ giữ nguyên byte**, gồm toàn bộ video 001–003, nguồn WAV mới, mọi ảnh/JSON thiết kế/sheet/PNG rời/bảng hình 96 giây của 004 và catalog 89 mục; metadata ba dự án cũ giữ nguyên. Chỉ tài liệu/kế hoạch và status artwork 004 cập nhật; frames/sheets trong artwork giữ nguyên. R2/CORS/manifest không đổi.
+
+Tiếp theo: người dùng duyệt MP4 và góp ý kèm timecode; nhận `.credit.json`/JSON trước nếu cần ghép sửa riêng trong Studio. Không coi bản duyệt là đã được duyệt cuối; chưa thêm nhạc nền hoặc rig khớp.
+
+MP4 thực đã giải mã toàn bộ không lỗi: **17.325 khung, 577,5 giây, H.264/AAC**, 1920×1080 / 30 fps, **65.516.385 byte**. Âm lượng **−16,68 LUFS**, true peak **−1,47 dBTP**. Đối chiếu tiếng tại giây 10/285/570: độ trễ 0 mẫu ở 16 kHz, tương quan trung vị cửa sổ 50 ms >0,9999. Thanh so sánh trong MP4 dài **660 và 436 pixel**, khớp tỉ lệ 1.860 và 1.230; phần chia sẻ chưa hiện trước cue. Đã xem khung cuối $7.560/12 tháng và $3.720/hai tháng.
+
+`project-workspaces` qua toàn bộ assertions khi chạy riêng bằng bản chẩn đoán sau kiểm tra MP4, gồm xuất WebM im lặng thật; hai lần chạy đồng thời với xử lý media bị quá thời gian chờ download. Không đổi mã sản phẩm để xử lý khác biệt thời gian chạy này.
+
+## Video 004 — yêu cầu dựng, chưa tìm thấy audio trên repo (lịch sử trước khi nhận WAV qua chat)
 
 Người dùng báo đã thêm âm thanh và yêu cầu triển khai. Đã `git pull --ff-only origin main`, đối chiếu GitHub API commit/branch và tìm audio trong repo/workspace: main vẫn ở `c8665c4`, chỉ có nhánh main; `videos/004-living-alone/audio/` chỉ có README, không có WAV/MP3 của 004. Không lấy nhầm WAV của 001–003. Đã hỏi nơi lưu; nếu audio chỉ thêm trong Studio thì cần `.credit.json` chứa tệp hoặc nhận WAV/MP3, nếu upload GitHub chưa commit thì hoàn tất commit vào main.
 
@@ -10,7 +35,7 @@ Người dùng báo đã thêm âm thanh và yêu cầu triển khai. Đã `git 
 
 Tiếp theo: kiểm tra lại main vì người dùng có thể commit audio sau lần kiểm tra; khi nhận đúng audio thì đo thời lượng/hash, đối chiếu lời đọc, căn mốc từ và dùng kế hoạch làm cơ sở dựng. Chỉ bật migration finance-004 khi đã có narrated review thật và kiểm tra archive draft cũ. Không tự tạo giọng thay thế hoặc giả định audio khác đúng video.
 
-## Video 004 — bộ hình Living Alone v01 (2026-10-22, trạng thái mới nhất)
+## Video 004 — bộ hình Living Alone v01 (lịch sử trước khi nhận audio)
 
 Người dùng đã yêu cầu triển khai hình sau lời thoại. Đã tạo bộ **documentary photographic collage** riêng, ảnh cắt ghép có viền, giấy kem, đỏ trầm; chữ Times New Roman. Dự án **finance-004** đã đăng ký ở trang chủ, gallery `videos/004-living-alone/` có tải PNG, JSON thiết kế, sheet/guide và PNG rời.
 

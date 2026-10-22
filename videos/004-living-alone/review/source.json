@@ -1,0 +1,17 @@
+{
+  "source": "videos/004-living-alone/audio/tts_20261022_133142_ba54ee.wav",
+  "sha256": "10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d",
+  "duration": 577.5,
+  "sampleRate": 24000,
+  "channels": 1,
+  "alignmentModel": "faster-whisper base.en int8 CPU",
+  "matchedScriptTokens": 1198,
+  "scriptTokens": 1278,
+  "normalization": "Derived MP3: two-pass FFmpeg loudnorm, target -16 LUFS / -1.5 dBTP; original WAV unchanged.",
+  "music": false,
+  "sourceSpeedChanged": false,
+  "narrationText": "../narration.txt",
+  "captions": "Default off; original spelling with automatic word timing, including interpolated numeric tokens.",
+  "receivedVia": "User-provided chat attachment",
+  "sourceBytes": 27720044
+}

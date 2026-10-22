@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-22",
+  "stage": "full narrated review v01, pending user approval",
+  "timelineSeconds": 577.5,
+  "formatSeconds": 577.5,
+  "frames": 17325,
+  "bytes": 65516385,
+  "codecs": {
+    "video": "h264",
+    "audio": "aac"
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "decodedWithoutErrors": true,
+  "layout": {
+    "clips": 91,
+    "duration": 577.5,
+    "checkedFrames": 5904,
+    "maxCaptionLines": 1,
+    "assets": 23
+  },
+  "sourceAudioComparison": [
+    {
+      "seconds": 10,
+      "sourceWholeSnippetCorrelation": 0.982281,
+      "source50msMedianCorrelation": 0.999931,
+      "derivedMP3Correlation": 0.989348,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 285,
+      "sourceWholeSnippetCorrelation": 0.986453,
+      "source50msMedianCorrelation": 0.999915,
+      "derivedMP3Correlation": 0.996666,
+      "timeLagSamplesAt16kHz": 0
+    },
+    {
+      "seconds": 570,
+      "sourceWholeSnippetCorrelation": 0.935557,
+      "source50msMedianCorrelation": 0.999945,
+      "derivedMP3Correlation": 0.997122,
+      "timeLagSamplesAt16kHz": 0
+    }
+  ],
+  "finalAudioLoudness": {
+    "integratedLUFS": -16.68,
+    "truePeakDBTP": -1.47,
+    "loudnessRangeLU": 2.4
+  },
+  "sourceWAVPreserved": true,
+  "motion": {
+    "animatedLayers": 29,
+    "animatedClips": 15,
+    "annualGapSteps": 12,
+    "gapPerMonth": 630,
+    "twoMonthRentInternet": 3720
+  },
+  "preservation": {
+    "preservedOriginalFiles": 345,
+    "preservedArtworkFrames": 16,
+    "preservedPropCatalogueItems": 89,
+    "preservedOtherPublishedProjects": 3,
+    "sourceWAVHash": "10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d",
+    "allowedChanges": "Video004 documentation, edit-plan state and artwork status only; original images/designs/96s-board/audio and all previous video files unchanged."
+  },
+  "browserSuites": [
+    "living-alone-review: 91 clips, 5904 timeline frame samples, safe images/text and no text collisions",
+    "living-alone-upgrade: exact old-board archive/download/backup, current edit persistence, audio seek/playback, mobile",
+    "living-alone-artwork: 16 old designs, 2 atlases and 16 cutouts still usable",
+    "project-workspaces: same full suite via diagnostic wrapper after MP4 checks; migration, isolation, real silent WebM export, backup/restore and mobile passed"
+  ],
+  "unitTests": "21 passed (engine, Living Alone financial motion, WebM, media storage)",
+  "font": "TimesNewRomanPS-BoldMT verified through Chrome platform fonts",
+  "notes": [
+    "MP4 uses the same canvas renderer as Studio",
+    "Video frames round to 30fps; narration/timeline remain 577.5 seconds",
+    "Source WAV, 16 artwork designs, silent 96-second board, all video 001–003 media and shared catalog preserved",
+    "Audio normalization changes gain over time; source comparison uses short-window correlations and zero-lag checks",
+    "No music or joint-rig animation",
+    "Captions available in Studio, disabled in default MP4",
+    "Word alignment is automatic and can have word-level timing error",
+    "A concurrent project-workspaces WebM check timed out during heavy media processing; isolated diagnostic rerun passed without product changes."
+  ],
+  "pending": [
+    "User review and timecoded notes",
+    "Receive browser backup before continuing any user-only edits"
+  ],
+  "encodedMotion": [
+    {
+      "name": "before-shared-reveal",
+      "time": 98.87,
+      "barPixelWidths": [
+        660,
+        0
+      ]
+    },
+    {
+      "name": "monthly-totals",
+      "time": 103.61000000000001,
+      "barPixelWidths": [
+        660,
+        436
+      ]
+    }
+  ],
+  "actualPlatformFonts": [
+    {
+      "familyName": "Times New Roman",
+      "postScriptName": "TimesNewRomanPS-BoldMT",
+      "isCustomFont": false,
+      "glyphCount": 39
+    }
+  ]
+}

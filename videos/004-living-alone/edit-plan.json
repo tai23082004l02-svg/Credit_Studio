@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "status": "Prepared shot cues only; source audio not yet available in repository. No timing or rendered video.",
-  "sourceAudio": null,
+  "status": "Narration received; 91 planned cues aligned into review/shot-plan.json and full narrated project. Pending user review.",
+  "sourceAudio": "audio/tts_20261022_133142_ba54ee.wav",
   "style": {
     "background": "#f6f0e5",
     "ink": "#292722",
@@ -783,10 +783,9 @@
     "All previous videos, exports and saved browser drafts"
   ],
   "pending": [
-    "Receive or locate the actual narration audio",
-    "Align word timestamps and review narrative differences",
-    "Build full review with timed content motion",
-    "Validate composition, audio and rendered MP4",
-    "Archive old artwork draft before published review upgrade"
-  ]
+    "User review with timecodes",
+    "Receive a Studio backup before incorporating browser-only edits",
+    "Use v02 for any subsequent export; retain v01 and original WAV"
+  ],
+  "alignedReview": "review/project.json"
 }

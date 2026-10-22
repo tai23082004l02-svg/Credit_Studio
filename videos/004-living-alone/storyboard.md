@@ -1,6 +1,6 @@
 # Phân cảnh hình — Living Alone
 
-8 phần lời thoại, mỗi phần có một minh họa collage (`a`) và một bảng thông tin (`b`). Có 16 thiết kế JSON chỉnh riêng và PNG 1920×1080. **Chưa có giọng đọc; chưa có timecode thật hoặc MP4.** `storyboard/project.json` là bảng duyệt hình im lặng **16 × 6 = 96 giây**, revision `living-artwork-board-v01`, không phải thời lượng video đầy đủ.
+8 phần lời thoại, mỗi phần có một minh họa collage (`a`) và một bảng thông tin (`b`). Có 16 thiết kế JSON chỉnh riêng và PNG 1920×1080. **Đã căn WAV thành bản duyệt 91 cảnh / 577,5 giây**; xem [timecode](review/README.md) và [mốc thực tế](review/shot-plan.json). `storyboard/project.json` vẫn là bảng duyệt hình im lặng **16 × 6 = 96 giây** cũ, revision `living-artwork-board-v01`, không phải thời lượng video đầy đủ.
 
 | Phần | Minh họa | Bảng thông tin / điểm cần giữ | Hướng chuyển động khi nhận WAV |
 |---|---|---|---|
@@ -27,4 +27,4 @@ Chữ/số Times New Roman là lớp chỉnh riêng. Tiêu đề nằm ngoài v�
 
 Hình ảnh là minh họa AI theo phong cách tài liệu, không phải ảnh tư liệu thật. Nhãn số tiền: **Illustrative example — not national averages**. Năm và đơn vị của dữ liệu lịch sử giữ đúng [nguồn](sources.md).
 
-Minh họa `a` vẫn là một lớp ảnh tổng thể, chưa tách mọi vật thể. Các đạo cụ PNG rời và bảng `b` đã sẵn sàng để dựng chuyển động theo audio; chưa rig khớp hoặc nhạc nền. Sau khi nhận WAV, lưu bảng 96 giây cũ và tạo review theo audio với revision/tệp xuất mới, không ghi đè sửa riêng trong IndexedDB.
+Minh họa `a` vẫn là một lớp ảnh tổng thể, chưa tách mọi vật thể. Bản duyệt theo WAV có **29 lớp chuyển động trong 15 cảnh**, cùng thẻ xuất hiện theo lời; xem `review/motion-plan.json`. Chưa rig khớp hoặc nhạc nền. Bảng 96 giây cũ giữ nguyên; browser draft được archive trước khi mở review. Không ghép hoặc ghi đè sửa riêng trong IndexedDB khi chưa nhận bản sao lưu của người dùng.

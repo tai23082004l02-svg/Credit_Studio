@@ -1,0 +1,136 @@
+[
+  {
+    "clipId": "living-review-014",
+    "layout": "rent-solo",
+    "start": 67.91,
+    "layers": [
+      "cost-value-0",
+      "cost-meter-0"
+    ]
+  },
+  {
+    "clipId": "living-review-015",
+    "layout": "rent-shared",
+    "start": 71.81,
+    "layers": [
+      "cost-value-0",
+      "cost-meter-0",
+      "cost-value-1",
+      "cost-meter-1"
+    ]
+  },
+  {
+    "clipId": "living-review-016",
+    "layout": "rent-compare",
+    "start": 78.61,
+    "layers": [
+      "cost-value-0",
+      "cost-meter-0",
+      "cost-value-1",
+      "cost-meter-1"
+    ]
+  },
+  {
+    "clipId": "living-review-018",
+    "layout": "internet-split",
+    "start": 88.35,
+    "layers": [
+      "cost-value-0",
+      "cost-meter-0",
+      "cost-value-1",
+      "cost-meter-1"
+    ]
+  },
+  {
+    "clipId": "living-review-019",
+    "layout": "monthly-total",
+    "start": 96.87,
+    "layers": [
+      "cost-value-0",
+      "cost-meter-0",
+      "cost-value-1",
+      "cost-meter-1"
+    ]
+  },
+  {
+    "clipId": "living-review-020",
+    "layout": "monthly-gap",
+    "start": 105.03,
+    "layers": [
+      "monthly-gap"
+    ]
+  },
+  {
+    "clipId": "living-review-021",
+    "layout": "annual-gap",
+    "start": 108.358,
+    "layers": [
+      "annual-gap"
+    ]
+  },
+  {
+    "clipId": "living-review-024",
+    "layout": "sharing-flow",
+    "start": 129.99,
+    "layers": [
+      "moving-bill"
+    ]
+  },
+  {
+    "clipId": "living-review-035",
+    "layout": "household-stat",
+    "start": 195.25,
+    "layers": [
+      "household-share"
+    ]
+  },
+  {
+    "clipId": "living-review-050",
+    "layout": "deposit",
+    "start": 290.59,
+    "layers": [
+      "deposit-envelope"
+    ]
+  },
+  {
+    "clipId": "living-review-053",
+    "layout": "income-risk",
+    "start": 307.91,
+    "layers": [
+      "income-envelope"
+    ]
+  },
+  {
+    "clipId": "living-review-054",
+    "layout": "income-risk",
+    "start": 310.19,
+    "layers": [
+      "income-envelope"
+    ]
+  },
+  {
+    "clipId": "living-review-058",
+    "layout": "monthly-total",
+    "start": 342.01,
+    "layers": [
+      "cost-value-0",
+      "cost-meter-0"
+    ]
+  },
+  {
+    "clipId": "living-review-059",
+    "layout": "two-months",
+    "start": 348.45,
+    "layers": [
+      "two-month-total"
+    ]
+  },
+  {
+    "clipId": "living-review-069",
+    "layout": "monthly-gap",
+    "start": 410.41,
+    "layers": [
+      "monthly-gap"
+    ]
+  }
+]
