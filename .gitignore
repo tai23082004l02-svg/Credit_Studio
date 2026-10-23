@@ -209,3 +209,7 @@ __pycache__/
 
 # Video 005 source remains local until R2 write access succeeds.
 /videos/005-mortgage-payment/audio/You find a house you can f.wav
+
+/videos/005-mortgage-payment/review/voiceover.mp3
+
+/videos/005-mortgage-payment/exports/full-review-v01.mp4
