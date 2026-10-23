@@ -1,0 +1,62 @@
+{
+  "duration": 566.45,
+  "timing": "automatic ASR/script alignment; review before final cut",
+  "chapters": [
+    {
+      "section": 1,
+      "title": "01 \u2014 The number on the screen",
+      "start": 0,
+      "scriptWords": 146,
+      "end": 59.52
+    },
+    {
+      "section": 2,
+      "title": "02 \u2014 Build the whole monthly number",
+      "start": 59.52,
+      "scriptWords": 165,
+      "end": 141.66
+    },
+    {
+      "section": 3,
+      "title": "03 \u2014 Count each bill once",
+      "start": 141.66,
+      "scriptWords": 159,
+      "end": 215.64
+    },
+    {
+      "section": 4,
+      "title": "04 \u2014 The money left after the keys",
+      "start": 215.64,
+      "scriptWords": 152,
+      "end": 287.8
+    },
+    {
+      "section": 5,
+      "title": "05 \u2014 A quiet month can hide a future bill",
+      "start": 287.8,
+      "scriptWords": 159,
+      "end": 359.58
+    },
+    {
+      "section": 6,
+      "title": "06 \u2014 Equity cannot pay every bill",
+      "start": 359.58,
+      "scriptWords": 151,
+      "end": 427.82
+    },
+    {
+      "section": 7,
+      "title": "07 \u2014 Test the ordinary life around it",
+      "start": 427.82,
+      "scriptWords": 150,
+      "end": 500.02
+    },
+    {
+      "section": 8,
+      "title": "08 \u2014 Buy room to live",
+      "start": 500.02,
+      "scriptWords": 159,
+      "end": 566.45
+    }
+  ]
+}

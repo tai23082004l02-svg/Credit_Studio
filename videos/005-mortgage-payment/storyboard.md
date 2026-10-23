@@ -1,6 +1,6 @@
 # Storyboard ngắn — Mortgage Payment v01
 
-Đây là kế hoạch nội dung, **chưa có timecode, clip count hoặc JSON video**. Audio thật sẽ quyết định điểm cắt; một phần lời thoại có thể chia nhiều shot. Không tạo bảng im lặng 96 giây hoặc bộ 16 ảnh cố định.
+Đây là kế hoạch nội dung toàn bộ, **chưa chốt timecode hoặc clip count cho full video**. Đã có WAV566,45 giây và bản ba cảnh mẫu samples/project.json /86,8 giây để duyệt phong cách. Audio thật sẽ quyết định điểm cắt; một phần lời thoại có thể chia nhiều shot. Không tạo bảng im lặng 96 giây hoặc bộ 16 ảnh cố định.
 
 ## Phong cách đề xuất
 
@@ -17,7 +17,7 @@
 | 07 | Ngân sách quanh căn nhà | Checklist housing/utility/food/transport/debt/saving; chỉ minh họa thay đổi định tính khi không có giả định số, không tạo income giả |
 | 08 | Ngôi nhà và khoảng thở | Các mục repair/saving/life còn chỗ quanh nhà; kết thúc bằng THE ROOM YOU HAVE LEFT |
 
-## Ba cảnh mẫu ưu tiên — mới là kế hoạch, chưa tạo
+## Ba cảnh mẫu đã tạo — chờ người dùng duyệt phong cách
 
 1. Mở đầu: căn nhà và calculator, thử tỷ lệ hình, Times New Roman và nhịp mở khung.
 2. Monthly allocation: thử stacked bar/counter, bills vs saved money, căn giữa icon/label.

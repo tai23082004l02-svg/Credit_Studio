@@ -2,7 +2,23 @@
 
 
 
-## Video 005 — kịch bản Mortgage Payment v01 đã duyệt (2026-10-23)
+## Video 005 — đã nhận WAV và có ba cảnh mẫu (2026-10-23)
+
+Kịch bản **Your Mortgage Payment Is Only the Beginning** v01 đã được duyệt; giữ nguyên script/narration 1241 từ. Nhận WAV qua chat: **You find a house you can f.wav**, **27.189.644 byte / 566,45 giây (9:26,45), PCM s16le / 24 kHz / mono**, SHA-256 `9586941c972c26238f808a0c6c3ad0a5416f53f0e2ba07410a45e6c6f27c619c`. Bản local giữ nguyên byte, đường dẫn exact đã gitignore; metadata ở `videos/005-mortgage-payment/audio/source.json`.
+
+**R2 còn vướng:** runtime báo biến ready nhưng authenticated HEAD từ môi trường chat trả **HTTP 401**. Chưa upload/verify WAV hoặc MP3 mới, không thêm mapping chưa tồn tại vào manifest, không kết luận khóa Actions hỏng. Full WAV hiện chỉ có ở bản upload chat và bản local, chưa có bản lưu R2 được xác minh. Không commit WAV 27 MB lên GitHub, không lấy khóa từ lịch sử hoặc yêu cầu gửi khóa vào chat. Tiếp tục upload/hash-verify khi quyền thực tế hoạt động; nếu môi trường mới không còn WAV local, nhận lại đúng file gốc trước khi dựng toàn bộ.
+
+Đã nhận dạng cục bộ bằng faster-whisper base.en int8 CPU: **138 segment**, khớp trực tiếp **1159/1241 token**; phần lớn chênh lệch là số tiền/hyphen, có một từ equity không nhận dạng và principal thành homophone principle. `production/alignment.json` và `production/script-timing.json` có mốc; ASR có sai số, không phải xác nhận thủ công từng từ. Có bản MP3 dẫn xuất loudnorm trong work, nguồn không cắt/đổi tốc độ; nguồn WAV -27,37 LUFS.
+
+Theo quy trình duyệt phong cách trước, đã tạo **3 cảnh mẫu / 86,8 giây** có audio trích thật (không liên tục từ đầu WAV), **16 lớp animation trong 2 cảnh**, Times New Roman: calculator, ngân sách 1517→2267 đồng bộ bar/counter, cash75000→4000 và down payment60000 chuyển sang equity. `samples/project.json` là **một bản dựng chỉnh được**, chứa PNG căn nhà và audio montage dưới dạng data URL; `samples/house.svg` giữ nguồn vector, `samples/excerpts.json` ghi vị trí trong WAV. JSON khoảng 2 MB là bản dựng chỉnh sửa, không phải đưa lại media đã archive. Không tạo bộ16 ảnh, bảng96 giây hoặc thiết kế ảnh trùng nội dung.
+
+Đăng ký **finance-005** trỏ bản mẫu thật; mô tả/trạng thái ghi rõ **chờ duyệt phong cách, chưa phải video đầy đủ**. Chưa khai báo WAV/MP4 public không tồn tại. Bốn dự án cũ, kho89 mục, mọi source/export cũ và R2 manifest giữ nguyên. Chưa có full review/MP4 566,45 giây; chưa chốt thời điểm/cảnh toàn bộ hoặc bổ sung nhạc.
+
+Builder `tools/build-mortgage-samples.cjs` nhận MP3 đã chuẩn hóa, script-timing và thư mục scratch; từ chối ghi đè project đã có. Mẫu cần người dùng duyệt phong cách trước khi tạo thêm tài nguyên/dựng toàn bộ; đây là bước duyệt đã thống nhất, không yêu cầu duyệt lại kịch bản. Khi chuyển finance-005 sang bản đầy đủ, bảo toàn mọi draft người dùng bằng backup/archive, không reset mẫu đã chỉnh.
+
+Kiểm tra: validate engine, 869 mốc hình, font Chrome thực TimesNewRomanPS-BoldMT, phát audio/reload/mobile. Báo cáo `samples/validation.json`; đã xuất và decode MP4 thử cục bộ trong work (không xuất/publish full video). Sau khi sửa bố cục để tiền không che mái nhà, browser được kiểm tra lại. Các bước kiểm tra không truy cập IndexedDB trình duyệt của người dùng.
+
+## Video 005 — kịch bản đã duyệt (lịch sử trước khi nhận audio, 2026-10-23)
 
 Theo yêu cầu đề xuất chủ đề và triển khai, đã chuẩn bị **Your Mortgage Payment Is Only the Beginning** ở `videos/005-mortgage-payment/`: script tiếng Anh Mỹ **1241 từ / 8 phần**, narration.txt thuần lời đọc, sources.md với năm nguồn CFPB/phép tính, storyboard ngắn và README/hướng dẫn audio. Thời lượng dự kiến 8–10 phút tùy giọng; **người dùng đã duyệt kịch bản v01 ngày 2026-10-23**. Nội dung script/narration giữ nguyên 1241 từ; **chưa có audio, hình sản xuất, mẫu đã render, timeline JSON hoặc MP4**. Duyệt kịch bản không đồng nghĩa đã duyệt phong cách hình hoặc bản xuất cuối.
 

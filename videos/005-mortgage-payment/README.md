@@ -4,7 +4,13 @@
 
 ## Trạng thái thực tế
 
-Đã chuẩn bị đề xuất và lời thoại v01 ngày 2026-10-23: **1241 từ / 8 phần**, hướng tới người Mỹ, dự kiến 8–10 phút tùy giọng đọc. **Người dùng đã duyệt kịch bản v01 ngày 2026-10-23.** Giữ nguyên nội dung lời đọc trong script.md và narration.txt; bước tiếp theo là nhận giọng đọc gốc. **Chưa có audio, ảnh sản xuất, JSON timeline hoặc MP4.**
+**Kịch bản v01 đã được duyệt ngày 2026-10-23** (1241 từ / 8 phần). Đã nhận WAV **566,45 giây / 27.189.644 byte**, giữ nguyên gốc. Đã có **ba cảnh mẫu có giọng đọc / 86,8 giây**, chờ duyệt phong cách; **chưa phải bản video đầy đủ**.
+
+[Mở ba cảnh mẫu trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005&tab=video) · [JSON chỉnh được](samples/project.json) · [Nguồn audio](audio/source.json) · [Mốc ba đoạn trích](samples/excerpts.json).
+
+Mẫu gồm calculator, ngân sách sở hữu, cash và equity. Dùng audio trích từ giọng đọc thật, không phải bảng hình96 giây; thời lượng toàn bộ WAV là 9 phút26,45 giây. Bản mẫu tự chứa audio montage và hình trong JSON; không có MP4 public ở bước này.
+
+**Lưu trữ audio gốc:** môi trường chat hiện trả HTTP401 khi gọi R2 có xác thực, nên chưa upload/xác minh WAV mới hoặc thêm mapping manifest. File gốc được giữ local và gitignore; upload chat là nguồn bàn giao, không có bản R2 đã xác minh. Không đưa WAV27 MB lên GitHub và không ảnh hưởng tài nguyên R2 cũ.
 
 - [Kịch bản có chia phần](script.md).
 - [Lời đọc thuần để TTS](narration.txt).
@@ -12,15 +18,15 @@
 - [Storyboard ngắn và kế hoạch ba cảnh mẫu](storyboard.md).
 - [Bàn giao audio](audio/README.md).
 
-Chưa đăng ký mục rỗng vào projects.json; không đặt đường dẫn audio/MP4/cover chưa tồn tại. Thư mục 005 mới không thay bốn dự án hiện có. ID finance-005 chỉ là dự kiến cho lúc có bản dựng thật, chưa phải dự án mở được trong Studio.
+`finance-005` đã đăng ký trong projects.json và trỏ **bản mẫu thật**, không khai báo audio/MP4/cover chưa tồn tại. Các dự án001–004 giữ nguyên.
 
 ## Hướng triển khai
 
-Dùng đồ họa động nhiều lớp, Times New Roman. Đề xuất tiếp tục nền giấy kem/đỏ trầm với minh họa nhà ở tách lớp; không bắt buộc dùng Alex hoặc ảnh collage cố định. Duyệt phong cách bằng 2–3 cảnh mẫu, không làm sẵn 16 ảnh. Các cảnh mẫu hiện mới có mô tả trong storyboard, chưa được tạo hoặc render.
+Dùng đồ họa động nhiều lớp, Times New Roman. Đề xuất tiếp tục nền giấy kem/đỏ trầm với minh họa nhà ở tách lớp; không bắt buộc dùng Alex hoặc ảnh collage cố định. Duyệt phong cách bằng 2–3 cảnh mẫu, không làm sẵn 16 ảnh. Ba cảnh mẫu hiện đã tạo trong samples/project.json; người dùng chưa duyệt phong cách.
 
 Nhịp kể: khoản trả vay → ngân sách sở hữu → escrow không cộng trùng → tiền sau nhận nhà → sửa chữa đến sớm → equity khác tiền mặt → thử ngân sách → kết.
 
-Lời thoại đã được duyệt; nhận giọng đọc gốc tạo từ narration.txt. Trong lúc chờ có thể dựng cảnh mẫu; chia cảnh/thời điểm chính thức theo audio thật. Tạo hình và đạo cụ đúng nhu cầu, dùng lại kho chung. Không tạo bảng hình im lặng 96 giây. Duyệt sửa nhỏ trực tiếp trong Studio hoặc bằng đoạn ngắn; chỉ xuất MP4 đầy đủ ở mốc duyệt.
+Lời thoại đã được duyệt và audio gốc đã nhận. Duyệt ba cảnh mẫu trước khi mở rộng tài nguyên; chia cảnh/thời điểm chính thức theo audio thật. Tạo hình và đạo cụ đúng nhu cầu, dùng lại kho chung. Không tạo bảng hình im lặng 96 giây. Duyệt sửa nhỏ trực tiếp trong Studio hoặc bằng đoạn ngắn; chỉ xuất MP4 đầy đủ ở mốc duyệt.
 
 ## Các điểm phải bảo toàn
 

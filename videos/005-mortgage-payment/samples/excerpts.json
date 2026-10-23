@@ -1,0 +1,24 @@
+{
+  "sourceDuration": 566.45,
+  "duration": 86.80000000000001,
+  "excerpts": [
+    {
+      "id": "calculator",
+      "title": "ONE PAYMENT. PART OF THE PICTURE.",
+      "start": 12.55,
+      "end": 25.08
+    },
+    {
+      "id": "allocation",
+      "title": "BUILD THE WHOLE NUMBER.",
+      "start": 80.95,
+      "end": 123.12
+    },
+    {
+      "id": "cash-equity",
+      "title": "WHAT IS LEFT IN CASH?",
+      "start": 222.92,
+      "end": 255.02
+    }
+  ]
+}

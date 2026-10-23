@@ -1,0 +1,6207 @@
+[
+  {
+    "word": "You",
+    "start": 0.08,
+    "directMatch": true
+  },
+  {
+    "word": "find",
+    "start": 0.58,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 0.82,
+    "directMatch": true
+  },
+  {
+    "word": "house",
+    "start": 0.82,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 1.38,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 1.6,
+    "directMatch": true
+  },
+  {
+    "word": "finally",
+    "start": 1.74,
+    "directMatch": true
+  },
+  {
+    "word": "picture",
+    "start": 2.28,
+    "directMatch": true
+  },
+  {
+    "word": "yourself",
+    "start": 2.78,
+    "directMatch": true
+  },
+  {
+    "word": "living",
+    "start": 3.22,
+    "directMatch": true
+  },
+  {
+    "word": "in.",
+    "start": 3.64,
+    "directMatch": true
+  },
+  {
+    "word": "There",
+    "start": 4.54,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 4.7,
+    "directMatch": true
+  },
+  {
+    "word": "room",
+    "start": 4.84,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 5.12,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 5.46,
+    "directMatch": true
+  },
+  {
+    "word": "desk.",
+    "start": 5.56,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 6.54,
+    "directMatch": true
+  },
+  {
+    "word": "kitchen",
+    "start": 6.7,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 7.08,
+    "directMatch": true
+  },
+  {
+    "word": "actually",
+    "start": 7.32,
+    "directMatch": true
+  },
+  {
+    "word": "like.",
+    "start": 7.74,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 8.72,
+    "directMatch": true
+  },
+  {
+    "word": "front",
+    "start": 9.0,
+    "directMatch": true
+  },
+  {
+    "word": "door",
+    "start": 9.26,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 9.58,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 9.86,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 10.0,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 10.2,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 10.46,
+    "directMatch": true
+  },
+  {
+    "word": "ask",
+    "start": 10.6,
+    "directMatch": true
+  },
+  {
+    "word": "permission",
+    "start": 10.94,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 11.22,
+    "directMatch": true
+  },
+  {
+    "word": "paint.",
+    "start": 11.72,
+    "directMatch": true
+  },
+  {
+    "word": "Then",
+    "start": 12.82,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 12.98,
+    "directMatch": true
+  },
+  {
+    "word": "open",
+    "start": 13.16,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 13.54,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 13.78,
+    "directMatch": true
+  },
+  {
+    "word": "calculator.",
+    "start": 14.12,
+    "directMatch": true
+  },
+  {
+    "word": "About",
+    "start": 15.66,
+    "directMatch": true
+  },
+  {
+    "word": "fifteen",
+    "start": 15.96,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 16.26,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 16.56,
+    "directMatch": false
+  },
+  {
+    "word": "a",
+    "start": 16.86,
+    "directMatch": true
+  },
+  {
+    "word": "month.",
+    "start": 17.58,
+    "directMatch": true
+  },
+  {
+    "word": "You",
+    "start": 18.68,
+    "directMatch": true
+  },
+  {
+    "word": "compare",
+    "start": 18.76,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 19.0,
+    "directMatch": true
+  },
+  {
+    "word": "number",
+    "start": 19.44,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 19.86,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 20.06,
+    "directMatch": true
+  },
+  {
+    "word": "rent,",
+    "start": 20.24,
+    "directMatch": true
+  },
+  {
+    "word": "look",
+    "start": 20.72,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 20.98,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 21.14,
+    "directMatch": true
+  },
+  {
+    "word": "savings,",
+    "start": 21.28,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 21.7,
+    "directMatch": true
+  },
+  {
+    "word": "think:",
+    "start": 22.16,
+    "directMatch": true
+  },
+  {
+    "word": "Maybe",
+    "start": 22.86,
+    "directMatch": true
+  },
+  {
+    "word": "this",
+    "start": 23.3,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 23.74,
+    "directMatch": true
+  },
+  {
+    "word": "possible.",
+    "start": 23.92,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 25.26,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 25.94,
+    "directMatch": true
+  },
+  {
+    "word": "calculator",
+    "start": 26.08,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 26.44,
+    "directMatch": true
+  },
+  {
+    "word": "answered",
+    "start": 27.0,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 27.46,
+    "directMatch": true
+  },
+  {
+    "word": "smaller",
+    "start": 27.68,
+    "directMatch": true
+  },
+  {
+    "word": "question",
+    "start": 28.04,
+    "directMatch": true
+  },
+  {
+    "word": "than",
+    "start": 28.52,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 29.0,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 29.08,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 29.28,
+    "directMatch": true
+  },
+  {
+    "word": "meant",
+    "start": 29.44,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 29.6,
+    "directMatch": true
+  },
+  {
+    "word": "ask.",
+    "start": 29.76,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 30.84,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 30.96,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 31.06,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 31.54,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 31.92,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 32.28,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 32.6,
+    "directMatch": true
+  },
+  {
+    "word": "loan.",
+    "start": 32.72,
+    "directMatch": true
+  },
+  {
+    "word": "You",
+    "start": 33.76,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 33.94,
+    "directMatch": true
+  },
+  {
+    "word": "trying",
+    "start": 34.06,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 34.34,
+    "directMatch": true
+  },
+  {
+    "word": "estimate",
+    "start": 34.52,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 34.94,
+    "directMatch": true
+  },
+  {
+    "word": "life",
+    "start": 35.22,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 35.52,
+    "directMatch": true
+  },
+  {
+    "word": "comes",
+    "start": 35.78,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 36.06,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 36.3,
+    "directMatch": true
+  },
+  {
+    "word": "house.",
+    "start": 36.42,
+    "directMatch": true
+  },
+  {
+    "word": "Those",
+    "start": 37.58,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 37.78,
+    "directMatch": true
+  },
+  {
+    "word": "numbers",
+    "start": 38.02,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 38.44,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 38.72,
+    "directMatch": true
+  },
+  {
+    "word": "very",
+    "start": 38.9,
+    "directMatch": true
+  },
+  {
+    "word": "different.",
+    "start": 39.22,
+    "directMatch": true
+  },
+  {
+    "word": "Let's",
+    "start": 40.4,
+    "directMatch": true
+  },
+  {
+    "word": "follow",
+    "start": 40.7,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 41.02,
+    "directMatch": true
+  },
+  {
+    "word": "fictional",
+    "start": 41.4,
+    "directMatch": true
+  },
+  {
+    "word": "buyer,",
+    "start": 41.9,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie,",
+    "start": 42.7,
+    "directMatch": true
+  },
+  {
+    "word": "through",
+    "start": 43.56,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 43.72,
+    "directMatch": true
+  },
+  {
+    "word": "difference.",
+    "start": 43.9,
+    "directMatch": true
+  },
+  {
+    "word": "These",
+    "start": 45.24,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 45.52,
+    "directMatch": true
+  },
+  {
+    "word": "made-up",
+    "start": 45.94,
+    "directMatch": false
+  },
+  {
+    "word": "figures",
+    "start": 46.36,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 46.78,
+    "directMatch": true
+  },
+  {
+    "word": "explaining",
+    "start": 47.08,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 47.62,
+    "directMatch": true
+  },
+  {
+    "word": "math,",
+    "start": 47.92,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 48.9,
+    "directMatch": true
+  },
+  {
+    "word": "current",
+    "start": 49.06,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 49.42,
+    "directMatch": true
+  },
+  {
+    "word": "quotes",
+    "start": 49.88,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 50.22,
+    "directMatch": true
+  },
+  {
+    "word": "national",
+    "start": 50.7,
+    "directMatch": true
+  },
+  {
+    "word": "averages.",
+    "start": 51.02,
+    "directMatch": true
+  },
+  {
+    "word": "Because",
+    "start": 52.96,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 53.56,
+    "directMatch": true
+  },
+  {
+    "word": "home",
+    "start": 53.74,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 54.06,
+    "directMatch": true
+  },
+  {
+    "word": "fit",
+    "start": 54.38,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 54.62,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 54.82,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 55.14,
+    "directMatch": true
+  },
+  {
+    "word": "imagined",
+    "start": 55.36,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 55.66,
+    "directMatch": true
+  },
+  {
+    "word": "still",
+    "start": 56.1,
+    "directMatch": true
+  },
+  {
+    "word": "squeeze",
+    "start": 56.52,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 56.94,
+    "directMatch": true
+  },
+  {
+    "word": "budget",
+    "start": 57.24,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 57.54,
+    "directMatch": true
+  },
+  {
+    "word": "actually",
+    "start": 57.76,
+    "directMatch": true
+  },
+  {
+    "word": "have.",
+    "start": 58.24,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie",
+    "start": 59.52,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 59.82,
+    "directMatch": true
+  },
+  {
+    "word": "looking",
+    "start": 60.24,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 60.52,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 60.78,
+    "directMatch": true
+  },
+  {
+    "word": "three-hundred-thousand-dollar",
+    "start": 61.48,
+    "directMatch": false
+  },
+  {
+    "word": "home,",
+    "start": 62.18,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 63.54,
+    "directMatch": true
+  },
+  {
+    "word": "sixty",
+    "start": 63.88,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 64.22,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 64.56,
+    "directMatch": false
+  },
+  {
+    "word": "down.",
+    "start": 64.9,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 66.26,
+    "directMatch": true
+  },
+  {
+    "word": "leaves",
+    "start": 66.78,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 67.04,
+    "directMatch": true
+  },
+  {
+    "word": "two-hundred-forty-thousand-dollar",
+    "start": 68.05,
+    "directMatch": false
+  },
+  {
+    "word": "mortgage.",
+    "start": 69.06,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 70.84,
+    "directMatch": true
+  },
+  {
+    "word": "this",
+    "start": 71.0,
+    "directMatch": true
+  },
+  {
+    "word": "example,",
+    "start": 71.16,
+    "directMatch": true
+  },
+  {
+    "word": "assume",
+    "start": 72.26,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 72.5,
+    "directMatch": true
+  },
+  {
+    "word": "standard",
+    "start": 72.76,
+    "directMatch": true
+  },
+  {
+    "word": "thirty-year",
+    "start": 73.43,
+    "directMatch": false
+  },
+  {
+    "word": "fixed",
+    "start": 74.1,
+    "directMatch": true
+  },
+  {
+    "word": "loan",
+    "start": 74.44,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 74.8,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 75.18,
+    "directMatch": true
+  },
+  {
+    "word": "six-point-five-percent",
+    "start": 75.92,
+    "directMatch": false
+  },
+  {
+    "word": "interest",
+    "start": 76.66,
+    "directMatch": true
+  },
+  {
+    "word": "rate",
+    "start": 77.1,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 77.52,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 78.22,
+    "directMatch": true
+  },
+  {
+    "word": "fees",
+    "start": 78.46,
+    "directMatch": true
+  },
+  {
+    "word": "added",
+    "start": 78.92,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 79.48,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 79.74,
+    "directMatch": true
+  },
+  {
+    "word": "loan.",
+    "start": 79.86,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 81.2,
+    "directMatch": true
+  },
+  {
+    "word": "principal",
+    "start": 81.66,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 82.08,
+    "directMatch": true
+  },
+  {
+    "word": "interest",
+    "start": 82.38,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 82.68,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 83.12,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 83.48,
+    "directMatch": true
+  },
+  {
+    "word": "fifteen",
+    "start": 83.804,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 84.128,
+    "directMatch": false
+  },
+  {
+    "word": "seventeen",
+    "start": 84.452,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 84.776,
+    "directMatch": false
+  },
+  {
+    "word": "a",
+    "start": 85.1,
+    "directMatch": true
+  },
+  {
+    "word": "month.",
+    "start": 86.02,
+    "directMatch": true
+  },
+  {
+    "word": "Now",
+    "start": 87.26,
+    "directMatch": true
+  },
+  {
+    "word": "add",
+    "start": 87.32,
+    "directMatch": true
+  },
+  {
+    "word": "three",
+    "start": 87.6,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 87.88,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 88.16,
+    "directMatch": false
+  },
+  {
+    "word": "for",
+    "start": 88.44,
+    "directMatch": true
+  },
+  {
+    "word": "property",
+    "start": 89.2,
+    "directMatch": true
+  },
+  {
+    "word": "taxes,",
+    "start": 89.5,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 89.97,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 90.44,
+    "directMatch": false
+  },
+  {
+    "word": "twenty-five",
+    "start": 90.91,
+    "directMatch": false
+  },
+  {
+    "word": "for",
+    "start": 91.38,
+    "directMatch": true
+  },
+  {
+    "word": "homeowners",
+    "start": 92.42,
+    "directMatch": true
+  },
+  {
+    "word": "insurance,",
+    "start": 92.66,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 94.38,
+    "directMatch": true
+  },
+  {
+    "word": "seventy-five",
+    "start": 94.65,
+    "directMatch": false
+  },
+  {
+    "word": "for",
+    "start": 94.92,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 95.6,
+    "directMatch": true
+  },
+  {
+    "word": "association",
+    "start": 95.7,
+    "directMatch": true
+  },
+  {
+    "word": "fee.",
+    "start": 96.22,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 97.86,
+    "directMatch": true
+  },
+  {
+    "word": "brings",
+    "start": 98.06,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 98.38,
+    "directMatch": true
+  },
+  {
+    "word": "monthly",
+    "start": 98.68,
+    "directMatch": true
+  },
+  {
+    "word": "bills",
+    "start": 98.96,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 99.54,
+    "directMatch": true
+  },
+  {
+    "word": "this",
+    "start": 99.86,
+    "directMatch": true
+  },
+  {
+    "word": "example",
+    "start": 100.0,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 100.4,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 100.96,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 101.608,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 102.256,
+    "directMatch": false
+  },
+  {
+    "word": "seventeen",
+    "start": 102.904,
+    "directMatch": false
+  },
+  {
+    "word": "dollars.",
+    "start": 103.552,
+    "directMatch": false
+  },
+  {
+    "word": "Then",
+    "start": 104.2,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie",
+    "start": 104.52,
+    "directMatch": true
+  },
+  {
+    "word": "sets",
+    "start": 104.76,
+    "directMatch": true
+  },
+  {
+    "word": "aside",
+    "start": 105.36,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 105.644,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 105.928,
+    "directMatch": false
+  },
+  {
+    "word": "fifty",
+    "start": 106.212,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 106.496,
+    "directMatch": false
+  },
+  {
+    "word": "a",
+    "start": 106.78,
+    "directMatch": true
+  },
+  {
+    "word": "month",
+    "start": 107.6,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 107.86,
+    "directMatch": true
+  },
+  {
+    "word": "maintenance",
+    "start": 108.14,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 108.44,
+    "directMatch": true
+  },
+  {
+    "word": "repairs.",
+    "start": 108.98,
+    "directMatch": true
+  },
+  {
+    "word": "Now",
+    "start": 110.3,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 111.14,
+    "directMatch": true
+  },
+  {
+    "word": "housing",
+    "start": 111.48,
+    "directMatch": true
+  },
+  {
+    "word": "allocation",
+    "start": 111.92,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 112.62,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 113.02,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 113.534,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 114.049,
+    "directMatch": false
+  },
+  {
+    "word": "two",
+    "start": 114.563,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 115.077,
+    "directMatch": false
+  },
+  {
+    "word": "sixty-seven",
+    "start": 115.591,
+    "directMatch": false
+  },
+  {
+    "word": "dollars.",
+    "start": 116.106,
+    "directMatch": false
+  },
+  {
+    "word": "That",
+    "start": 116.62,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 117.14,
+    "directMatch": true
+  },
+  {
+    "word": "seven",
+    "start": 117.408,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 117.676,
+    "directMatch": false
+  },
+  {
+    "word": "fifty",
+    "start": 117.944,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 118.212,
+    "directMatch": false
+  },
+  {
+    "word": "above",
+    "start": 118.48,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 119.36,
+    "directMatch": true
+  },
+  {
+    "word": "loan",
+    "start": 119.64,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 119.96,
+    "directMatch": true
+  },
+  {
+    "word": "alone,",
+    "start": 120.38,
+    "directMatch": true
+  },
+  {
+    "word": "before",
+    "start": 121.44,
+    "directMatch": true
+  },
+  {
+    "word": "utilities.",
+    "start": 121.72,
+    "directMatch": true
+  },
+  {
+    "word": "Some",
+    "start": 123.24,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 123.48,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 123.62,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 123.78,
+    "directMatch": true
+  },
+  {
+    "word": "pays",
+    "start": 124.18,
+    "directMatch": true
+  },
+  {
+    "word": "bills.",
+    "start": 124.52,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 126.1,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 126.14,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 126.44,
+    "directMatch": true
+  },
+  {
+    "word": "stays",
+    "start": 126.9,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 127.36,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie's",
+    "start": 127.8,
+    "directMatch": true
+  },
+  {
+    "word": "savings",
+    "start": 128.46,
+    "directMatch": true
+  },
+  {
+    "word": "until",
+    "start": 128.68,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 129.48,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 129.68,
+    "directMatch": true
+  },
+  {
+    "word": "needed.",
+    "start": 129.78,
+    "directMatch": true
+  },
+  {
+    "word": "Every",
+    "start": 130.96,
+    "directMatch": true
+  },
+  {
+    "word": "amount",
+    "start": 131.16,
+    "directMatch": true
+  },
+  {
+    "word": "here",
+    "start": 131.48,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 131.96,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 132.28,
+    "directMatch": true
+  },
+  {
+    "word": "assumption.",
+    "start": 132.38,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 133.56,
+    "directMatch": true
+  },
+  {
+    "word": "useful",
+    "start": 134.38,
+    "directMatch": true
+  },
+  {
+    "word": "part",
+    "start": 134.68,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 135.12,
+    "directMatch": true
+  },
+  {
+    "word": "separating",
+    "start": 135.36,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 135.82,
+    "directMatch": true
+  },
+  {
+    "word": "categories,",
+    "start": 136.16,
+    "directMatch": true
+  },
+  {
+    "word": "so",
+    "start": 136.6,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 137.6,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 137.84,
+    "directMatch": true
+  },
+  {
+    "word": "replace",
+    "start": 138.02,
+    "directMatch": true
+  },
+  {
+    "word": "them",
+    "start": 138.34,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 138.8,
+    "directMatch": true
+  },
+  {
+    "word": "numbers",
+    "start": 138.96,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 139.3,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 139.64,
+    "directMatch": true
+  },
+  {
+    "word": "actual",
+    "start": 139.78,
+    "directMatch": true
+  },
+  {
+    "word": "property.",
+    "start": 140.22,
+    "directMatch": true
+  },
+  {
+    "word": "There",
+    "start": 141.66,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 141.78,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 141.92,
+    "directMatch": true
+  },
+  {
+    "word": "important",
+    "start": 142.06,
+    "directMatch": true
+  },
+  {
+    "word": "catch",
+    "start": 142.36,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 142.9,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 143.2,
+    "directMatch": true
+  },
+  {
+    "word": "calculation.",
+    "start": 143.38,
+    "directMatch": true
+  },
+  {
+    "word": "If",
+    "start": 145.04,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 145.12,
+    "directMatch": true
+  },
+  {
+    "word": "quoted",
+    "start": 145.24,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 145.66,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 145.96,
+    "directMatch": true
+  },
+  {
+    "word": "already",
+    "start": 146.54,
+    "directMatch": true
+  },
+  {
+    "word": "includes",
+    "start": 147.0,
+    "directMatch": true
+  },
+  {
+    "word": "taxes",
+    "start": 147.48,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 148.1,
+    "directMatch": true
+  },
+  {
+    "word": "insurance,",
+    "start": 148.6,
+    "directMatch": true
+  },
+  {
+    "word": "do",
+    "start": 149.78,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 150.04,
+    "directMatch": true
+  },
+  {
+    "word": "add",
+    "start": 150.22,
+    "directMatch": true
+  },
+  {
+    "word": "them",
+    "start": 150.56,
+    "directMatch": true
+  },
+  {
+    "word": "again.",
+    "start": 150.84,
+    "directMatch": true
+  },
+  {
+    "word": "Many",
+    "start": 152.04,
+    "directMatch": true
+  },
+  {
+    "word": "borrowers",
+    "start": 152.2,
+    "directMatch": true
+  },
+  {
+    "word": "pay",
+    "start": 152.68,
+    "directMatch": true
+  },
+  {
+    "word": "those",
+    "start": 153.12,
+    "directMatch": true
+  },
+  {
+    "word": "amounts",
+    "start": 153.48,
+    "directMatch": true
+  },
+  {
+    "word": "through",
+    "start": 153.82,
+    "directMatch": true
+  },
+  {
+    "word": "escrow.",
+    "start": 154.28,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 155.58,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 155.72,
+    "directMatch": true
+  },
+  {
+    "word": "servicer",
+    "start": 155.98,
+    "directMatch": true
+  },
+  {
+    "word": "collects",
+    "start": 156.74,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 157.0,
+    "directMatch": true
+  },
+  {
+    "word": "toward",
+    "start": 157.58,
+    "directMatch": true
+  },
+  {
+    "word": "those",
+    "start": 157.88,
+    "directMatch": true
+  },
+  {
+    "word": "bills",
+    "start": 158.3,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 158.68,
+    "directMatch": true
+  },
+  {
+    "word": "pays",
+    "start": 159.24,
+    "directMatch": true
+  },
+  {
+    "word": "them",
+    "start": 159.56,
+    "directMatch": true
+  },
+  {
+    "word": "when",
+    "start": 159.94,
+    "directMatch": true
+  },
+  {
+    "word": "they",
+    "start": 160.1,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 160.3,
+    "directMatch": true
+  },
+  {
+    "word": "due.",
+    "start": 160.44,
+    "directMatch": true
+  },
+  {
+    "word": "Escrow",
+    "start": 161.86,
+    "directMatch": true
+  },
+  {
+    "word": "changes",
+    "start": 162.54,
+    "directMatch": true
+  },
+  {
+    "word": "how",
+    "start": 163.0,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 163.42,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 163.6,
+    "directMatch": true
+  },
+  {
+    "word": "gets",
+    "start": 163.8,
+    "directMatch": true
+  },
+  {
+    "word": "there.",
+    "start": 164.1,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 164.42,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 165.18,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 165.32,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 165.5,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 165.78,
+    "directMatch": true
+  },
+  {
+    "word": "bills",
+    "start": 165.96,
+    "directMatch": true
+  },
+  {
+    "word": "disappear.",
+    "start": 166.22,
+    "directMatch": true
+  },
+  {
+    "word": "So",
+    "start": 167.8,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 167.88,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 168.0,
+    "directMatch": true
+  },
+  {
+    "word": "labeled",
+    "start": 168.38,
+    "directMatch": true
+  },
+  {
+    "word": "principal",
+    "start": 168.72,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 169.44,
+    "directMatch": true
+  },
+  {
+    "word": "interest",
+    "start": 169.82,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 170.22,
+    "directMatch": true
+  },
+  {
+    "word": "different",
+    "start": 170.66,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 171.02,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 171.26,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 171.32,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 171.7,
+    "directMatch": true
+  },
+  {
+    "word": "includes",
+    "start": 171.98,
+    "directMatch": true
+  },
+  {
+    "word": "escrow.",
+    "start": 172.36,
+    "directMatch": true
+  },
+  {
+    "word": "An",
+    "start": 173.94,
+    "directMatch": true
+  },
+  {
+    "word": "association",
+    "start": 174.02,
+    "directMatch": true
+  },
+  {
+    "word": "fee",
+    "start": 174.54,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 175.26,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 175.58,
+    "directMatch": true
+  },
+  {
+    "word": "paid",
+    "start": 175.74,
+    "directMatch": true
+  },
+  {
+    "word": "separately.",
+    "start": 176.04,
+    "directMatch": true
+  },
+  {
+    "word": "Maintenance",
+    "start": 177.56,
+    "directMatch": true
+  },
+  {
+    "word": "usually",
+    "start": 178.04,
+    "directMatch": true
+  },
+  {
+    "word": "needs",
+    "start": 178.56,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 179.2,
+    "directMatch": true
+  },
+  {
+    "word": "own",
+    "start": 179.48,
+    "directMatch": true
+  },
+  {
+    "word": "place",
+    "start": 179.8,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 180.26,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 180.54,
+    "directMatch": true
+  },
+  {
+    "word": "budget.",
+    "start": 180.64,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 181.76,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 181.9,
+    "directMatch": true
+  },
+  {
+    "word": "typical",
+    "start": 182.0,
+    "directMatch": true
+  },
+  {
+    "word": "fixed-rate",
+    "start": 182.51,
+    "directMatch": false
+  },
+  {
+    "word": "mortgage,",
+    "start": 183.02,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 184.22,
+    "directMatch": true
+  },
+  {
+    "word": "scheduled",
+    "start": 184.3,
+    "directMatch": true
+  },
+  {
+    "word": "principal",
+    "start": 184.8,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 185.46,
+    "directMatch": true
+  },
+  {
+    "word": "interest",
+    "start": 185.82,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 186.22,
+    "directMatch": true
+  },
+  {
+    "word": "stays",
+    "start": 186.7,
+    "directMatch": true
+  },
+  {
+    "word": "steady.",
+    "start": 187.14,
+    "directMatch": true
+  },
+  {
+    "word": "Property",
+    "start": 188.84,
+    "directMatch": true
+  },
+  {
+    "word": "taxes",
+    "start": 189.38,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 189.9,
+    "directMatch": true
+  },
+  {
+    "word": "insurance",
+    "start": 190.32,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 190.74,
+    "directMatch": true
+  },
+  {
+    "word": "change,",
+    "start": 191.12,
+    "directMatch": true
+  },
+  {
+    "word": "so",
+    "start": 191.54,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 192.24,
+    "directMatch": true
+  },
+  {
+    "word": "total",
+    "start": 192.4,
+    "directMatch": true
+  },
+  {
+    "word": "amount",
+    "start": 192.74,
+    "directMatch": true
+  },
+  {
+    "word": "collected",
+    "start": 193.08,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 193.7,
+    "directMatch": true
+  },
+  {
+    "word": "change",
+    "start": 193.92,
+    "directMatch": true
+  },
+  {
+    "word": "too.",
+    "start": 194.3,
+    "directMatch": true
+  },
+  {
+    "word": "Depending",
+    "start": 195.44,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 195.72,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 196.08,
+    "directMatch": true
+  },
+  {
+    "word": "loan,",
+    "start": 196.18,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 197.02,
+    "directMatch": true
+  },
+  {
+    "word": "insurance",
+    "start": 197.38,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 197.72,
+    "directMatch": true
+  },
+  {
+    "word": "also",
+    "start": 198.28,
+    "directMatch": true
+  },
+  {
+    "word": "apply.",
+    "start": 198.52,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie's",
+    "start": 199.9,
+    "directMatch": true
+  },
+  {
+    "word": "example",
+    "start": 200.44,
+    "directMatch": true
+  },
+  {
+    "word": "assumes",
+    "start": 200.86,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 201.38,
+    "directMatch": true
+  },
+  {
+    "word": "conventional",
+    "start": 201.74,
+    "directMatch": true
+  },
+  {
+    "word": "loan",
+    "start": 202.02,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 202.82,
+    "directMatch": true
+  },
+  {
+    "word": "twenty",
+    "start": 203.193,
+    "directMatch": false
+  },
+  {
+    "word": "percent",
+    "start": 203.567,
+    "directMatch": false
+  },
+  {
+    "word": "down",
+    "start": 203.94,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 204.34,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 204.66,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 204.92,
+    "directMatch": true
+  },
+  {
+    "word": "insurance.",
+    "start": 205.38,
+    "directMatch": true
+  },
+  {
+    "word": "When",
+    "start": 206.86,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 207.04,
+    "directMatch": true
+  },
+  {
+    "word": "compare",
+    "start": 207.18,
+    "directMatch": true
+  },
+  {
+    "word": "offers,",
+    "start": 207.5,
+    "directMatch": true
+  },
+  {
+    "word": "compare",
+    "start": 208.66,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 208.96,
+    "directMatch": true
+  },
+  {
+    "word": "each",
+    "start": 209.34,
+    "directMatch": true
+  },
+  {
+    "word": "number",
+    "start": 209.54,
+    "directMatch": true
+  },
+  {
+    "word": "includes.",
+    "start": 209.94,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 211.4,
+    "directMatch": true
+  },
+  {
+    "word": "smaller",
+    "start": 211.54,
+    "directMatch": true
+  },
+  {
+    "word": "number",
+    "start": 211.86,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 212.44,
+    "directMatch": true
+  },
+  {
+    "word": "simply",
+    "start": 212.68,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 213.08,
+    "directMatch": true
+  },
+  {
+    "word": "fewer",
+    "start": 213.38,
+    "directMatch": true
+  },
+  {
+    "word": "bills",
+    "start": 213.76,
+    "directMatch": true
+  },
+  {
+    "word": "inside",
+    "start": 214.3,
+    "directMatch": true
+  },
+  {
+    "word": "it.",
+    "start": 214.72,
+    "directMatch": true
+  },
+  {
+    "word": "Now",
+    "start": 215.64,
+    "directMatch": true
+  },
+  {
+    "word": "look",
+    "start": 215.86,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 216.12,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 216.32,
+    "directMatch": true
+  },
+  {
+    "word": "savings",
+    "start": 216.42,
+    "directMatch": true
+  },
+  {
+    "word": "account.",
+    "start": 216.88,
+    "directMatch": true
+  },
+  {
+    "word": "Suppose",
+    "start": 218.32,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie",
+    "start": 218.92,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 219.58,
+    "directMatch": true
+  },
+  {
+    "word": "seventy-five",
+    "start": 220.045,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 220.51,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 220.975,
+    "directMatch": false
+  },
+  {
+    "word": "saved.",
+    "start": 221.44,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 223.2,
+    "directMatch": true
+  },
+  {
+    "word": "down",
+    "start": 223.3,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 223.56,
+    "directMatch": true
+  },
+  {
+    "word": "takes",
+    "start": 224.02,
+    "directMatch": true
+  },
+  {
+    "word": "sixty",
+    "start": 224.793,
+    "directMatch": false
+  },
+  {
+    "word": "thousand.",
+    "start": 225.567,
+    "directMatch": false
+  },
+  {
+    "word": "Assume",
+    "start": 226.34,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 226.82,
+    "directMatch": true
+  },
+  {
+    "word": "nine",
+    "start": 227.34,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 227.86,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 228.38,
+    "directMatch": false
+  },
+  {
+    "word": "covers",
+    "start": 228.9,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 229.3,
+    "directMatch": true
+  },
+  {
+    "word": "other",
+    "start": 229.6,
+    "directMatch": true
+  },
+  {
+    "word": "closing",
+    "start": 229.86,
+    "directMatch": true
+  },
+  {
+    "word": "amounts,",
+    "start": 230.42,
+    "directMatch": true
+  },
+  {
+    "word": "including",
+    "start": 231.54,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 231.9,
+    "directMatch": true
+  },
+  {
+    "word": "fees,",
+    "start": 232.22,
+    "directMatch": true
+  },
+  {
+    "word": "prepaid",
+    "start": 233.28,
+    "directMatch": true
+  },
+  {
+    "word": "items,",
+    "start": 233.54,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 234.92,
+    "directMatch": true
+  },
+  {
+    "word": "initial",
+    "start": 235.02,
+    "directMatch": true
+  },
+  {
+    "word": "escrow",
+    "start": 235.44,
+    "directMatch": true
+  },
+  {
+    "word": "funding",
+    "start": 236.1,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 236.48,
+    "directMatch": true
+  },
+  {
+    "word": "this",
+    "start": 236.82,
+    "directMatch": true
+  },
+  {
+    "word": "simplified",
+    "start": 236.98,
+    "directMatch": true
+  },
+  {
+    "word": "example.",
+    "start": 237.46,
+    "directMatch": true
+  },
+  {
+    "word": "With",
+    "start": 239.0,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 239.26,
+    "directMatch": true
+  },
+  {
+    "word": "credits",
+    "start": 239.54,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 239.98,
+    "directMatch": true
+  },
+  {
+    "word": "earlier",
+    "start": 240.42,
+    "directMatch": true
+  },
+  {
+    "word": "deposits",
+    "start": 240.92,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 241.44,
+    "directMatch": true
+  },
+  {
+    "word": "our",
+    "start": 242.02,
+    "directMatch": true
+  },
+  {
+    "word": "example,",
+    "start": 242.12,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 243.14,
+    "directMatch": true
+  },
+  {
+    "word": "leaves",
+    "start": 243.36,
+    "directMatch": true
+  },
+  {
+    "word": "six",
+    "start": 244.04,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 244.72,
+    "directMatch": false
+  },
+  {
+    "word": "dollars.",
+    "start": 245.4,
+    "directMatch": false
+  },
+  {
+    "word": "Then",
+    "start": 246.08,
+    "directMatch": true
+  },
+  {
+    "word": "moving",
+    "start": 246.76,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 247.2,
+    "directMatch": true
+  },
+  {
+    "word": "immediate",
+    "start": 247.52,
+    "directMatch": true
+  },
+  {
+    "word": "essentials",
+    "start": 247.98,
+    "directMatch": true
+  },
+  {
+    "word": "take",
+    "start": 248.34,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 248.94,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 249.58,
+    "directMatch": false
+  },
+  {
+    "word": "thousand.",
+    "start": 250.22,
+    "directMatch": false
+  },
+  {
+    "word": "Jamie",
+    "start": 250.86,
+    "directMatch": true
+  },
+  {
+    "word": "gets",
+    "start": 251.2,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 251.58,
+    "directMatch": true
+  },
+  {
+    "word": "keys",
+    "start": 251.8,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 252.14,
+    "directMatch": true
+  },
+  {
+    "word": "four",
+    "start": 252.475,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 252.81,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 253.145,
+    "directMatch": false
+  },
+  {
+    "word": "left.",
+    "start": 253.48,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 255.12,
+    "directMatch": true
+  },
+  {
+    "word": "down",
+    "start": 255.14,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 255.36,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 255.82,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 256.12,
+    "directMatch": true
+  },
+  {
+    "word": "vanished.",
+    "start": 256.36,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 257.68,
+    "directMatch": true
+  },
+  {
+    "word": "becomes",
+    "start": 257.74,
+    "directMatch": true
+  },
+  {
+    "word": "part",
+    "start": 258.08,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 258.5,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie's",
+    "start": 258.66,
+    "directMatch": true
+  },
+  {
+    "word": "equity,",
+    "start": 259.28,
+    "directMatch": true
+  },
+  {
+    "word": "subject",
+    "start": 260.2,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 260.62,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 261.0,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 261.16,
+    "directMatch": true
+  },
+  {
+    "word": "home",
+    "start": 261.28,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 261.56,
+    "directMatch": true
+  },
+  {
+    "word": "worth",
+    "start": 261.82,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 262.1,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 262.4,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 262.6,
+    "directMatch": true
+  },
+  {
+    "word": "owed.",
+    "start": 262.72,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 263.92,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 264.02,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 264.1,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 264.22,
+    "directMatch": true
+  },
+  {
+    "word": "longer",
+    "start": 264.48,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 264.98,
+    "directMatch": true
+  },
+  {
+    "word": "sitting",
+    "start": 265.26,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 265.84,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 266.1,
+    "directMatch": true
+  },
+  {
+    "word": "bank.",
+    "start": 266.18,
+    "directMatch": true
+  },
+  {
+    "word": "And",
+    "start": 267.34,
+    "directMatch": true
+  },
+  {
+    "word": "prepaid",
+    "start": 267.34,
+    "directMatch": true
+  },
+  {
+    "word": "taxes",
+    "start": 267.62,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 268.4,
+    "directMatch": true
+  },
+  {
+    "word": "insurance",
+    "start": 268.96,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 269.3,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 269.88,
+    "directMatch": true
+  },
+  {
+    "word": "paid",
+    "start": 270.08,
+    "directMatch": true
+  },
+  {
+    "word": "ahead,",
+    "start": 270.5,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 271.04,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 271.72,
+    "directMatch": true
+  },
+  {
+    "word": "extra",
+    "start": 271.9,
+    "directMatch": true
+  },
+  {
+    "word": "copy",
+    "start": 272.32,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 272.78,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 273.0,
+    "directMatch": true
+  },
+  {
+    "word": "same",
+    "start": 273.12,
+    "directMatch": true
+  },
+  {
+    "word": "expense.",
+    "start": 273.4,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 275.4,
+    "directMatch": true
+  },
+  {
+    "word": "question",
+    "start": 275.56,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 276.0,
+    "directMatch": true
+  },
+  {
+    "word": "whether",
+    "start": 276.24,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie",
+    "start": 276.54,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 276.84,
+    "directMatch": true
+  },
+  {
+    "word": "handle",
+    "start": 277.26,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 277.68,
+    "directMatch": true
+  },
+  {
+    "word": "next",
+    "start": 277.88,
+    "directMatch": true
+  },
+  {
+    "word": "bill",
+    "start": 278.14,
+    "directMatch": true
+  },
+  {
+    "word": "without",
+    "start": 278.48,
+    "directMatch": true
+  },
+  {
+    "word": "borrowing",
+    "start": 278.8,
+    "directMatch": true
+  },
+  {
+    "word": "again.",
+    "start": 279.38,
+    "directMatch": true
+  },
+  {
+    "word": "Passing",
+    "start": 280.68,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 281.0,
+    "directMatch": true
+  },
+  {
+    "word": "closing-day",
+    "start": 281.51,
+    "directMatch": false
+  },
+  {
+    "word": "test",
+    "start": 282.02,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 282.3,
+    "directMatch": true
+  },
+  {
+    "word": "having",
+    "start": 282.72,
+    "directMatch": true
+  },
+  {
+    "word": "enough",
+    "start": 283.06,
+    "directMatch": true
+  },
+  {
+    "word": "breathing",
+    "start": 283.36,
+    "directMatch": true
+  },
+  {
+    "word": "room",
+    "start": 283.78,
+    "directMatch": true
+  },
+  {
+    "word": "after",
+    "start": 284.18,
+    "directMatch": true
+  },
+  {
+    "word": "closing",
+    "start": 284.54,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 285.24,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 285.58,
+    "directMatch": true
+  },
+  {
+    "word": "different",
+    "start": 285.84,
+    "directMatch": true
+  },
+  {
+    "word": "achievements.",
+    "start": 286.28,
+    "directMatch": true
+  },
+  {
+    "word": "In",
+    "start": 287.8,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 287.9,
+    "directMatch": true
+  },
+  {
+    "word": "first",
+    "start": 287.98,
+    "directMatch": true
+  },
+  {
+    "word": "month,",
+    "start": 288.26,
+    "directMatch": true
+  },
+  {
+    "word": "nothing",
+    "start": 289.06,
+    "directMatch": true
+  },
+  {
+    "word": "breaks.",
+    "start": 289.5,
+    "directMatch": true
+  },
+  {
+    "word": "In",
+    "start": 290.8,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 290.88,
+    "directMatch": true
+  },
+  {
+    "word": "second",
+    "start": 290.96,
+    "directMatch": true
+  },
+  {
+    "word": "month,",
+    "start": 291.3,
+    "directMatch": true
+  },
+  {
+    "word": "nothing",
+    "start": 291.84,
+    "directMatch": true
+  },
+  {
+    "word": "breaks.",
+    "start": 292.3,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 293.56,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 293.62,
+    "directMatch": true
+  },
+  {
+    "word": "tempting",
+    "start": 293.72,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 294.0,
+    "directMatch": true
+  },
+  {
+    "word": "decide",
+    "start": 294.4,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 294.74,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 295.2,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 295.36,
+    "directMatch": true
+  },
+  {
+    "word": "category",
+    "start": 295.64,
+    "directMatch": true
+  },
+  {
+    "word": "was",
+    "start": 296.24,
+    "directMatch": true
+  },
+  {
+    "word": "too",
+    "start": 296.7,
+    "directMatch": true
+  },
+  {
+    "word": "cautious.",
+    "start": 296.96,
+    "directMatch": true
+  },
+  {
+    "word": "Then",
+    "start": 298.12,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 298.56,
+    "directMatch": true
+  },
+  {
+    "word": "appliance",
+    "start": 298.74,
+    "directMatch": true
+  },
+  {
+    "word": "fails.",
+    "start": 299.14,
+    "directMatch": true
+  },
+  {
+    "word": "Let's",
+    "start": 301.24,
+    "directMatch": true
+  },
+  {
+    "word": "use",
+    "start": 301.6,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 301.76,
+    "directMatch": true
+  },
+  {
+    "word": "hypothetical",
+    "start": 301.94,
+    "directMatch": true
+  },
+  {
+    "word": "three-thousand-dollar",
+    "start": 302.85,
+    "directMatch": false
+  },
+  {
+    "word": "repair.",
+    "start": 303.76,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 305.42,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 305.64,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 305.76,
+    "directMatch": true
+  },
+  {
+    "word": "storytelling",
+    "start": 305.88,
+    "directMatch": true
+  },
+  {
+    "word": "example,",
+    "start": 306.4,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 307.74,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 307.96,
+    "directMatch": true
+  },
+  {
+    "word": "quote",
+    "start": 308.04,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 308.32,
+    "directMatch": true
+  },
+  {
+    "word": "any",
+    "start": 308.6,
+    "directMatch": true
+  },
+  {
+    "word": "particular",
+    "start": 308.84,
+    "directMatch": true
+  },
+  {
+    "word": "job.",
+    "start": 309.36,
+    "directMatch": true
+  },
+  {
+    "word": "Saving",
+    "start": 310.76,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 311.008,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 311.256,
+    "directMatch": false
+  },
+  {
+    "word": "fifty",
+    "start": 311.504,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 311.752,
+    "directMatch": false
+  },
+  {
+    "word": "a",
+    "start": 312.0,
+    "directMatch": true
+  },
+  {
+    "word": "month",
+    "start": 312.92,
+    "directMatch": true
+  },
+  {
+    "word": "produces",
+    "start": 313.2,
+    "directMatch": true
+  },
+  {
+    "word": "three",
+    "start": 313.645,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 314.09,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 314.535,
+    "directMatch": false
+  },
+  {
+    "word": "after",
+    "start": 314.98,
+    "directMatch": true
+  },
+  {
+    "word": "twelve",
+    "start": 315.58,
+    "directMatch": false
+  },
+  {
+    "word": "months,",
+    "start": 316.18,
+    "directMatch": true
+  },
+  {
+    "word": "before",
+    "start": 316.52,
+    "directMatch": true
+  },
+  {
+    "word": "any",
+    "start": 317.26,
+    "directMatch": true
+  },
+  {
+    "word": "withdrawals",
+    "start": 317.76,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 318.3,
+    "directMatch": true
+  },
+  {
+    "word": "interest.",
+    "start": 318.9,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 320.26,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 320.36,
+    "directMatch": true
+  },
+  {
+    "word": "bill",
+    "start": 320.42,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 320.66,
+    "directMatch": true
+  },
+  {
+    "word": "arrive",
+    "start": 321.02,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 321.38,
+    "directMatch": true
+  },
+  {
+    "word": "month",
+    "start": 321.78,
+    "directMatch": true
+  },
+  {
+    "word": "two.",
+    "start": 321.94,
+    "directMatch": true
+  },
+  {
+    "word": "At",
+    "start": 323.05,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 323.42,
+    "directMatch": true
+  },
+  {
+    "word": "point,",
+    "start": 323.62,
+    "directMatch": true
+  },
+  {
+    "word": "only",
+    "start": 324.42,
+    "directMatch": true
+  },
+  {
+    "word": "five",
+    "start": 324.71,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 325.0,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 325.29,
+    "directMatch": false
+  },
+  {
+    "word": "has",
+    "start": 325.58,
+    "directMatch": true
+  },
+  {
+    "word": "accumulated",
+    "start": 326.6,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 327.12,
+    "directMatch": true
+  },
+  {
+    "word": "those",
+    "start": 327.72,
+    "directMatch": true
+  },
+  {
+    "word": "monthly",
+    "start": 327.98,
+    "directMatch": true
+  },
+  {
+    "word": "transfers.",
+    "start": 328.34,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 330.6,
+    "directMatch": true
+  },
+  {
+    "word": "rest",
+    "start": 330.8,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 331.0,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 331.32,
+    "directMatch": true
+  },
+  {
+    "word": "come",
+    "start": 331.48,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 331.72,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 331.9,
+    "directMatch": true
+  },
+  {
+    "word": "already",
+    "start": 332.24,
+    "directMatch": true
+  },
+  {
+    "word": "available,",
+    "start": 332.7,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 333.18,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 334.08,
+    "directMatch": true
+  },
+  {
+    "word": "source.",
+    "start": 334.4,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 335.7,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 335.96,
+    "directMatch": true
+  },
+  {
+    "word": "why",
+    "start": 336.08,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 336.32,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 336.54,
+    "directMatch": true
+  },
+  {
+    "word": "allowance",
+    "start": 336.92,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 337.4,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 337.86,
+    "directMatch": true
+  },
+  {
+    "word": "starting",
+    "start": 337.96,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 338.32,
+    "directMatch": true
+  },
+  {
+    "word": "cushion",
+    "start": 338.72,
+    "directMatch": true
+  },
+  {
+    "word": "do",
+    "start": 339.22,
+    "directMatch": true
+  },
+  {
+    "word": "different",
+    "start": 339.54,
+    "directMatch": true
+  },
+  {
+    "word": "jobs.",
+    "start": 339.84,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 341.24,
+    "directMatch": true
+  },
+  {
+    "word": "allowance",
+    "start": 341.32,
+    "directMatch": true
+  },
+  {
+    "word": "prepares",
+    "start": 341.7,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 342.12,
+    "directMatch": true
+  },
+  {
+    "word": "costs",
+    "start": 342.7,
+    "directMatch": true
+  },
+  {
+    "word": "over",
+    "start": 343.16,
+    "directMatch": true
+  },
+  {
+    "word": "time.",
+    "start": 343.48,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 344.7,
+    "directMatch": true
+  },
+  {
+    "word": "cushion",
+    "start": 344.74,
+    "directMatch": true
+  },
+  {
+    "word": "helps",
+    "start": 345.04,
+    "directMatch": true
+  },
+  {
+    "word": "when",
+    "start": 345.38,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 345.68,
+    "directMatch": true
+  },
+  {
+    "word": "timing",
+    "start": 345.82,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 346.16,
+    "directMatch": true
+  },
+  {
+    "word": "bad.",
+    "start": 346.48,
+    "directMatch": true
+  },
+  {
+    "word": "And",
+    "start": 346.82,
+    "directMatch": true
+  },
+  {
+    "word": "if",
+    "start": 347.72,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 347.84,
+    "directMatch": true
+  },
+  {
+    "word": "spend",
+    "start": 347.96,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 348.24,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 348.5,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 348.72,
+    "directMatch": true
+  },
+  {
+    "word": "fund,",
+    "start": 348.98,
+    "directMatch": true
+  },
+  {
+    "word": "do",
+    "start": 350.12,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 350.26,
+    "directMatch": true
+  },
+  {
+    "word": "count",
+    "start": 350.46,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 350.72,
+    "directMatch": true
+  },
+  {
+    "word": "same",
+    "start": 350.98,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 351.26,
+    "directMatch": true
+  },
+  {
+    "word": "twice:",
+    "start": 351.62,
+    "directMatch": true
+  },
+  {
+    "word": "once",
+    "start": 352.9,
+    "directMatch": true
+  },
+  {
+    "word": "when",
+    "start": 353.14,
+    "directMatch": true
+  },
+  {
+    "word": "saving",
+    "start": 353.4,
+    "directMatch": true
+  },
+  {
+    "word": "it,",
+    "start": 353.78,
+    "directMatch": true
+  },
+  {
+    "word": "then",
+    "start": 354.5,
+    "directMatch": true
+  },
+  {
+    "word": "again",
+    "start": 354.66,
+    "directMatch": true
+  },
+  {
+    "word": "as",
+    "start": 355.0,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 355.46,
+    "directMatch": true
+  },
+  {
+    "word": "separate",
+    "start": 355.6,
+    "directMatch": true
+  },
+  {
+    "word": "addition",
+    "start": 356.02,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 356.42,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 356.8,
+    "directMatch": true
+  },
+  {
+    "word": "budget",
+    "start": 356.9,
+    "directMatch": true
+  },
+  {
+    "word": "when",
+    "start": 357.22,
+    "directMatch": true
+  },
+  {
+    "word": "paying",
+    "start": 357.5,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 357.84,
+    "directMatch": true
+  },
+  {
+    "word": "bill.",
+    "start": 358.14,
+    "directMatch": true
+  },
+  {
+    "word": "There",
+    "start": 359.58,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 359.94,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 360.12,
+    "directMatch": true
+  },
+  {
+    "word": "number",
+    "start": 360.34,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 360.84,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 361.04,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 361.2,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 361.38,
+    "directMatch": true
+  },
+  {
+    "word": "decision",
+    "start": 361.56,
+    "directMatch": true
+  },
+  {
+    "word": "look",
+    "start": 361.9,
+    "directMatch": true
+  },
+  {
+    "word": "easier:",
+    "start": 362.28,
+    "directMatch": true
+  },
+  {
+    "word": "equity.",
+    "start": 364.3,
+    "directMatch": true
+  },
+  {
+    "word": "Equity",
+    "start": 364.47,
+    "directMatch": false
+  },
+  {
+    "word": "matters.",
+    "start": 364.64,
+    "directMatch": true
+  },
+  {
+    "word": "Paying",
+    "start": 366.14,
+    "directMatch": true
+  },
+  {
+    "word": "down",
+    "start": 366.4,
+    "directMatch": true
+  },
+  {
+    "word": "principal",
+    "start": 366.74,
+    "directMatch": false
+  },
+  {
+    "word": "reduces",
+    "start": 367.08,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 367.66,
+    "directMatch": true
+  },
+  {
+    "word": "debt",
+    "start": 368.08,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 368.36,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 368.56,
+    "directMatch": true
+  },
+  {
+    "word": "home.",
+    "start": 368.68,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 369.68,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 369.76,
+    "directMatch": true
+  },
+  {
+    "word": "entire",
+    "start": 369.9,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 370.14,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 370.8,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 371.38,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 371.7,
+    "directMatch": true
+  },
+  {
+    "word": "become",
+    "start": 371.92,
+    "directMatch": true
+  },
+  {
+    "word": "equity.",
+    "start": 372.34,
+    "directMatch": true
+  },
+  {
+    "word": "In",
+    "start": 373.3,
+    "directMatch": true
+  },
+  {
+    "word": "Jamie's",
+    "start": 373.74,
+    "directMatch": true
+  },
+  {
+    "word": "example,",
+    "start": 374.4,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 375.36,
+    "directMatch": true
+  },
+  {
+    "word": "first",
+    "start": 375.42,
+    "directMatch": true
+  },
+  {
+    "word": "month's",
+    "start": 375.68,
+    "directMatch": true
+  },
+  {
+    "word": "interest",
+    "start": 376.16,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 376.52,
+    "directMatch": true
+  },
+  {
+    "word": "thirteen",
+    "start": 377.165,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 377.81,
+    "directMatch": false
+  },
+  {
+    "word": "dollars.",
+    "start": 378.455,
+    "directMatch": false
+  },
+  {
+    "word": "About",
+    "start": 379.1,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 379.376,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 379.652,
+    "directMatch": false
+  },
+  {
+    "word": "seventeen",
+    "start": 379.928,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 380.204,
+    "directMatch": false
+  },
+  {
+    "word": "of",
+    "start": 380.48,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 381.7,
+    "directMatch": true
+  },
+  {
+    "word": "scheduled",
+    "start": 381.8,
+    "directMatch": true
+  },
+  {
+    "word": "loan",
+    "start": 382.2,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 382.64,
+    "directMatch": true
+  },
+  {
+    "word": "reduces",
+    "start": 383.18,
+    "directMatch": true
+  },
+  {
+    "word": "principal.",
+    "start": 383.74,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 385.38,
+    "directMatch": true
+  },
+  {
+    "word": "exact",
+    "start": 385.48,
+    "directMatch": true
+  },
+  {
+    "word": "split",
+    "start": 385.7,
+    "directMatch": true
+  },
+  {
+    "word": "changes",
+    "start": 386.32,
+    "directMatch": true
+  },
+  {
+    "word": "over",
+    "start": 386.86,
+    "directMatch": true
+  },
+  {
+    "word": "time.",
+    "start": 387.18,
+    "directMatch": true
+  },
+  {
+    "word": "Taxes,",
+    "start": 388.92,
+    "directMatch": true
+  },
+  {
+    "word": "insurance,",
+    "start": 389.82,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 390.78,
+    "directMatch": true
+  },
+  {
+    "word": "association",
+    "start": 390.8,
+    "directMatch": true
+  },
+  {
+    "word": "fees",
+    "start": 391.32,
+    "directMatch": true
+  },
+  {
+    "word": "do",
+    "start": 392.0,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 392.48,
+    "directMatch": true
+  },
+  {
+    "word": "pay",
+    "start": 392.68,
+    "directMatch": true
+  },
+  {
+    "word": "down",
+    "start": 392.94,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 393.32,
+    "directMatch": true
+  },
+  {
+    "word": "loan.",
+    "start": 393.48,
+    "directMatch": true
+  },
+  {
+    "word": "And",
+    "start": 394.64,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 394.66,
+    "directMatch": true
+  },
+  {
+    "word": "higher",
+    "start": 394.74,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 395.14,
+    "directMatch": true
+  },
+  {
+    "word": "home",
+    "start": 395.66,
+    "directMatch": true
+  },
+  {
+    "word": "value",
+    "start": 396.12,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 396.68,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 396.94,
+    "directMatch": true
+  },
+  {
+    "word": "put",
+    "start": 397.16,
+    "directMatch": true
+  },
+  {
+    "word": "spendable",
+    "start": 397.42,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 397.98,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 398.34,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 398.72,
+    "directMatch": true
+  },
+  {
+    "word": "checking",
+    "start": 398.8,
+    "directMatch": true
+  },
+  {
+    "word": "account.",
+    "start": 399.04,
+    "directMatch": true
+  },
+  {
+    "word": "Accessing",
+    "start": 400.56,
+    "directMatch": true
+  },
+  {
+    "word": "equity",
+    "start": 401.24,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 401.52,
+    "directMatch": true
+  },
+  {
+    "word": "require",
+    "start": 401.94,
+    "directMatch": true
+  },
+  {
+    "word": "selling",
+    "start": 402.12,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 403.0,
+    "directMatch": true
+  },
+  {
+    "word": "qualifying",
+    "start": 403.3,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 403.8,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 404.42,
+    "directMatch": true
+  },
+  {
+    "word": "loan,",
+    "start": 404.66,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 405.58,
+    "directMatch": true
+  },
+  {
+    "word": "costs",
+    "start": 405.78,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 406.2,
+    "directMatch": true
+  },
+  {
+    "word": "risks.",
+    "start": 406.7,
+    "directMatch": true
+  },
+  {
+    "word": "Future",
+    "start": 407.92,
+    "directMatch": true
+  },
+  {
+    "word": "price",
+    "start": 408.32,
+    "directMatch": true
+  },
+  {
+    "word": "gains",
+    "start": 408.68,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 409.0,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 409.46,
+    "directMatch": true
+  },
+  {
+    "word": "guaranteed.",
+    "start": 409.66,
+    "directMatch": true
+  },
+  {
+    "word": "You",
+    "start": 411.18,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 411.32,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 411.44,
+    "directMatch": true
+  },
+  {
+    "word": "progress",
+    "start": 411.62,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 412.08,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 412.42,
+    "directMatch": true
+  },
+  {
+    "word": "balance",
+    "start": 412.5,
+    "directMatch": true
+  },
+  {
+    "word": "sheet",
+    "start": 412.82,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 413.26,
+    "directMatch": true
+  },
+  {
+    "word": "still",
+    "start": 413.74,
+    "directMatch": true
+  },
+  {
+    "word": "struggle",
+    "start": 414.02,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 414.5,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 414.76,
+    "directMatch": true
+  },
+  {
+    "word": "bill",
+    "start": 414.84,
+    "directMatch": true
+  },
+  {
+    "word": "due",
+    "start": 415.12,
+    "directMatch": true
+  },
+  {
+    "word": "Friday.",
+    "start": 415.42,
+    "directMatch": true
+  },
+  {
+    "word": "So",
+    "start": 417.34,
+    "directMatch": true
+  },
+  {
+    "word": "keep",
+    "start": 417.54,
+    "directMatch": true
+  },
+  {
+    "word": "track",
+    "start": 417.82,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 418.14,
+    "directMatch": true
+  },
+  {
+    "word": "both:",
+    "start": 418.4,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 419.5,
+    "directMatch": true
+  },
+  {
+    "word": "wealth",
+    "start": 419.54,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 419.76,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 420.0,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 420.18,
+    "directMatch": true
+  },
+  {
+    "word": "building",
+    "start": 420.34,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 420.76,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 421.0,
+    "directMatch": true
+  },
+  {
+    "word": "home,",
+    "start": 421.1,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 421.4,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 421.88,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 422.0,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 422.28,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 422.68,
+    "directMatch": true
+  },
+  {
+    "word": "actually",
+    "start": 422.84,
+    "directMatch": true
+  },
+  {
+    "word": "use.",
+    "start": 423.32,
+    "directMatch": true
+  },
+  {
+    "word": "They",
+    "start": 424.52,
+    "directMatch": true
+  },
+  {
+    "word": "answer",
+    "start": 424.8,
+    "directMatch": true
+  },
+  {
+    "word": "different",
+    "start": 425.22,
+    "directMatch": true
+  },
+  {
+    "word": "questions",
+    "start": 425.52,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 426.02,
+    "directMatch": true
+  },
+  {
+    "word": "financial",
+    "start": 426.54,
+    "directMatch": true
+  },
+  {
+    "word": "security.",
+    "start": 426.96,
+    "directMatch": true
+  },
+  {
+    "word": "Before",
+    "start": 427.82,
+    "directMatch": true
+  },
+  {
+    "word": "choosing",
+    "start": 428.76,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 429.32,
+    "directMatch": true
+  },
+  {
+    "word": "house,",
+    "start": 429.56,
+    "directMatch": true
+  },
+  {
+    "word": "try",
+    "start": 430.38,
+    "directMatch": true
+  },
+  {
+    "word": "building",
+    "start": 430.74,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 431.26,
+    "directMatch": true
+  },
+  {
+    "word": "month",
+    "start": 431.5,
+    "directMatch": true
+  },
+  {
+    "word": "around",
+    "start": 431.78,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 432.2,
+    "directMatch": true
+  },
+  {
+    "word": "complete",
+    "start": 432.44,
+    "directMatch": true
+  },
+  {
+    "word": "number.",
+    "start": 432.8,
+    "directMatch": true
+  },
+  {
+    "word": "Start",
+    "start": 433.96,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 434.18,
+    "directMatch": true
+  },
+  {
+    "word": "take-home",
+    "start": 434.64,
+    "directMatch": false
+  },
+  {
+    "word": "pay.",
+    "start": 435.1,
+    "directMatch": true
+  },
+  {
+    "word": "Subtract",
+    "start": 436.66,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 437.38,
+    "directMatch": true
+  },
+  {
+    "word": "housing",
+    "start": 437.6,
+    "directMatch": true
+  },
+  {
+    "word": "bills,",
+    "start": 437.96,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 439.18,
+    "directMatch": true
+  },
+  {
+    "word": "realistic",
+    "start": 439.24,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 439.66,
+    "directMatch": true
+  },
+  {
+    "word": "allowance,",
+    "start": 440.2,
+    "directMatch": true
+  },
+  {
+    "word": "utilities,",
+    "start": 441.6,
+    "directMatch": true
+  },
+  {
+    "word": "food,",
+    "start": 442.62,
+    "directMatch": true
+  },
+  {
+    "word": "transportation,",
+    "start": 443.52,
+    "directMatch": true
+  },
+  {
+    "word": "debt",
+    "start": 444.86,
+    "directMatch": true
+  },
+  {
+    "word": "payments,",
+    "start": 444.94,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 445.64,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 445.86,
+    "directMatch": true
+  },
+  {
+    "word": "other",
+    "start": 445.96,
+    "directMatch": true
+  },
+  {
+    "word": "expenses",
+    "start": 446.16,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 446.66,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 447.12,
+    "directMatch": true
+  },
+  {
+    "word": "household.",
+    "start": 447.22,
+    "directMatch": true
+  },
+  {
+    "word": "Then",
+    "start": 448.76,
+    "directMatch": true
+  },
+  {
+    "word": "look",
+    "start": 449.02,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 449.24,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 449.4,
+    "directMatch": true
+  },
+  {
+    "word": "remains",
+    "start": 449.58,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 449.96,
+    "directMatch": true
+  },
+  {
+    "word": "saving,",
+    "start": 450.42,
+    "directMatch": true
+  },
+  {
+    "word": "emergencies,",
+    "start": 450.96,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 451.56,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 452.78,
+    "directMatch": true
+  },
+  {
+    "word": "things",
+    "start": 452.9,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 453.18,
+    "directMatch": true
+  },
+  {
+    "word": "want",
+    "start": 453.4,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 453.6,
+    "directMatch": true
+  },
+  {
+    "word": "life",
+    "start": 453.76,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 454.02,
+    "directMatch": true
+  },
+  {
+    "word": "include.",
+    "start": 454.34,
+    "directMatch": true
+  },
+  {
+    "word": "Use",
+    "start": 454.66,
+    "directMatch": true
+  },
+  {
+    "word": "actual",
+    "start": 456.06,
+    "directMatch": true
+  },
+  {
+    "word": "insurance",
+    "start": 456.42,
+    "directMatch": true
+  },
+  {
+    "word": "quotes",
+    "start": 457.0,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 457.66,
+    "directMatch": true
+  },
+  {
+    "word": "local",
+    "start": 458.04,
+    "directMatch": true
+  },
+  {
+    "word": "tax",
+    "start": 458.24,
+    "directMatch": true
+  },
+  {
+    "word": "information",
+    "start": 458.7,
+    "directMatch": true
+  },
+  {
+    "word": "where",
+    "start": 459.28,
+    "directMatch": true
+  },
+  {
+    "word": "possible.",
+    "start": 459.94,
+    "directMatch": true
+  },
+  {
+    "word": "Read",
+    "start": 461.32,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 462.06,
+    "directMatch": true
+  },
+  {
+    "word": "association",
+    "start": 462.3,
+    "directMatch": true
+  },
+  {
+    "word": "documents",
+    "start": 462.96,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 463.62,
+    "directMatch": true
+  },
+  {
+    "word": "consider",
+    "start": 464.14,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 464.52,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 464.88,
+    "directMatch": true
+  },
+  {
+    "word": "inspection",
+    "start": 465.02,
+    "directMatch": true
+  },
+  {
+    "word": "tells",
+    "start": 465.42,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 465.92,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 466.26,
+    "directMatch": true
+  },
+  {
+    "word": "upcoming",
+    "start": 466.46,
+    "directMatch": true
+  },
+  {
+    "word": "work.",
+    "start": 466.96,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 468.26,
+    "directMatch": true
+  },
+  {
+    "word": "Loan",
+    "start": 468.34,
+    "directMatch": true
+  },
+  {
+    "word": "Estimate",
+    "start": 468.52,
+    "directMatch": true
+  },
+  {
+    "word": "helps",
+    "start": 469.08,
+    "directMatch": true
+  },
+  {
+    "word": "separate",
+    "start": 469.38,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 469.92,
+    "directMatch": true
+  },
+  {
+    "word": "loan",
+    "start": 470.22,
+    "directMatch": true
+  },
+  {
+    "word": "payment,",
+    "start": 470.5,
+    "directMatch": true
+  },
+  {
+    "word": "escrow,",
+    "start": 471.52,
+    "directMatch": true
+  },
+  {
+    "word": "other",
+    "start": 472.44,
+    "directMatch": true
+  },
+  {
+    "word": "charges,",
+    "start": 472.56,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 473.42,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 473.48,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 473.96,
+    "directMatch": true
+  },
+  {
+    "word": "needed",
+    "start": 474.54,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 474.96,
+    "directMatch": true
+  },
+  {
+    "word": "close.",
+    "start": 475.2,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 476.5,
+    "directMatch": true
+  },
+  {
+    "word": "Closing",
+    "start": 476.58,
+    "directMatch": true
+  },
+  {
+    "word": "Disclosure",
+    "start": 477.04,
+    "directMatch": true
+  },
+  {
+    "word": "lets",
+    "start": 477.48,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 478.16,
+    "directMatch": true
+  },
+  {
+    "word": "check",
+    "start": 478.38,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 478.64,
+    "directMatch": true
+  },
+  {
+    "word": "final",
+    "start": 478.84,
+    "directMatch": true
+  },
+  {
+    "word": "figures.",
+    "start": 479.22,
+    "directMatch": true
+  },
+  {
+    "word": "Then",
+    "start": 480.7,
+    "directMatch": true
+  },
+  {
+    "word": "test",
+    "start": 480.7,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 480.92,
+    "directMatch": true
+  },
+  {
+    "word": "less",
+    "start": 481.22,
+    "directMatch": true
+  },
+  {
+    "word": "comfortable",
+    "start": 481.44,
+    "directMatch": true
+  },
+  {
+    "word": "month.",
+    "start": 481.96,
+    "directMatch": true
+  },
+  {
+    "word": "What",
+    "start": 482.46,
+    "directMatch": true
+  },
+  {
+    "word": "if",
+    "start": 483.42,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 483.54,
+    "directMatch": true
+  },
+  {
+    "word": "insurance",
+    "start": 483.7,
+    "directMatch": true
+  },
+  {
+    "word": "bill",
+    "start": 484.14,
+    "directMatch": true
+  },
+  {
+    "word": "rises?",
+    "start": 484.66,
+    "directMatch": true
+  },
+  {
+    "word": "What",
+    "start": 486.04,
+    "directMatch": true
+  },
+  {
+    "word": "if",
+    "start": 486.2,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 486.34,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 486.46,
+    "directMatch": true
+  },
+  {
+    "word": "comes",
+    "start": 486.9,
+    "directMatch": true
+  },
+  {
+    "word": "early?",
+    "start": 487.28,
+    "directMatch": true
+  },
+  {
+    "word": "What",
+    "start": 488.38,
+    "directMatch": true
+  },
+  {
+    "word": "if",
+    "start": 488.56,
+    "directMatch": true
+  },
+  {
+    "word": "income",
+    "start": 488.68,
+    "directMatch": true
+  },
+  {
+    "word": "falls?",
+    "start": 489.06,
+    "directMatch": true
+  },
+  {
+    "word": "You",
+    "start": 491.12,
+    "directMatch": true
+  },
+  {
+    "word": "do",
+    "start": 491.4,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 491.52,
+    "directMatch": true
+  },
+  {
+    "word": "need",
+    "start": 491.74,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 491.96,
+    "directMatch": true
+  },
+  {
+    "word": "pretend",
+    "start": 492.08,
+    "directMatch": true
+  },
+  {
+    "word": "every",
+    "start": 492.34,
+    "directMatch": true
+  },
+  {
+    "word": "bad",
+    "start": 492.98,
+    "directMatch": true
+  },
+  {
+    "word": "event",
+    "start": 493.3,
+    "directMatch": true
+  },
+  {
+    "word": "will",
+    "start": 493.68,
+    "directMatch": true
+  },
+  {
+    "word": "happen",
+    "start": 493.94,
+    "directMatch": true
+  },
+  {
+    "word": "together.",
+    "start": 494.3,
+    "directMatch": true
+  },
+  {
+    "word": "You",
+    "start": 495.46,
+    "directMatch": true
+  },
+  {
+    "word": "need",
+    "start": 495.56,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 495.7,
+    "directMatch": true
+  },
+  {
+    "word": "see",
+    "start": 495.86,
+    "directMatch": true
+  },
+  {
+    "word": "which",
+    "start": 496.06,
+    "directMatch": true
+  },
+  {
+    "word": "changes",
+    "start": 496.3,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 496.76,
+    "directMatch": true
+  },
+  {
+    "word": "leave",
+    "start": 497.14,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 497.38,
+    "directMatch": true
+  },
+  {
+    "word": "without",
+    "start": 497.7,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 497.96,
+    "directMatch": true
+  },
+  {
+    "word": "workable",
+    "start": 498.16,
+    "directMatch": true
+  },
+  {
+    "word": "response.",
+    "start": 498.64,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 500.02,
+    "directMatch": true
+  },
+  {
+    "word": "house",
+    "start": 500.24,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 500.52,
+    "directMatch": true
+  },
+  {
+    "word": "offer",
+    "start": 500.78,
+    "directMatch": true
+  },
+  {
+    "word": "stability,",
+    "start": 501.16,
+    "directMatch": true
+  },
+  {
+    "word": "control,",
+    "start": 502.26,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 503.1,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 503.3,
+    "directMatch": true
+  },
+  {
+    "word": "place",
+    "start": 503.36,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 503.62,
+    "directMatch": true
+  },
+  {
+    "word": "want",
+    "start": 503.92,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 504.12,
+    "directMatch": true
+  },
+  {
+    "word": "stay.",
+    "start": 504.28,
+    "directMatch": true
+  },
+  {
+    "word": "Those",
+    "start": 505.4,
+    "directMatch": true
+  },
+  {
+    "word": "benefits",
+    "start": 505.58,
+    "directMatch": true
+  },
+  {
+    "word": "belong",
+    "start": 506.06,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 506.54,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 507.0,
+    "directMatch": true
+  },
+  {
+    "word": "decision",
+    "start": 507.12,
+    "directMatch": true
+  },
+  {
+    "word": "too.",
+    "start": 507.42,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 507.94,
+    "directMatch": true
+  },
+  {
+    "word": "they",
+    "start": 508.78,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 508.96,
+    "directMatch": true
+  },
+  {
+    "word": "easier",
+    "start": 509.12,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 509.62,
+    "directMatch": true
+  },
+  {
+    "word": "enjoy",
+    "start": 509.92,
+    "directMatch": true
+  },
+  {
+    "word": "when",
+    "start": 510.3,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 510.76,
+    "directMatch": true
+  },
+  {
+    "word": "budget",
+    "start": 510.88,
+    "directMatch": true
+  },
+  {
+    "word": "leaves",
+    "start": 511.2,
+    "directMatch": true
+  },
+  {
+    "word": "room",
+    "start": 511.6,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 512.02,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 512.34,
+    "directMatch": true
+  },
+  {
+    "word": "rest",
+    "start": 512.44,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 512.68,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 512.86,
+    "directMatch": true
+  },
+  {
+    "word": "life.",
+    "start": 512.96,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 514.14,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 514.26,
+    "directMatch": true
+  },
+  {
+    "word": "buyer,",
+    "start": 514.48,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 515.52,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 515.6,
+    "directMatch": true
+  },
+  {
+    "word": "mean",
+    "start": 515.8,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 516.04,
+    "directMatch": true
+  },
+  {
+    "word": "smaller",
+    "start": 516.18,
+    "directMatch": true
+  },
+  {
+    "word": "property.",
+    "start": 516.58,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 518.6,
+    "directMatch": true
+  },
+  {
+    "word": "another,",
+    "start": 518.78,
+    "directMatch": true
+  },
+  {
+    "word": "more",
+    "start": 519.02,
+    "directMatch": true
+  },
+  {
+    "word": "time",
+    "start": 519.46,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 519.78,
+    "directMatch": true
+  },
+  {
+    "word": "save.",
+    "start": 520.04,
+    "directMatch": true
+  },
+  {
+    "word": "Someone",
+    "start": 521.14,
+    "directMatch": true
+  },
+  {
+    "word": "else",
+    "start": 521.42,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 521.68,
+    "directMatch": true
+  },
+  {
+    "word": "find",
+    "start": 521.94,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 522.28,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 522.52,
+    "directMatch": true
+  },
+  {
+    "word": "full",
+    "start": 522.66,
+    "directMatch": true
+  },
+  {
+    "word": "cost",
+    "start": 522.94,
+    "directMatch": true
+  },
+  {
+    "word": "fits",
+    "start": 523.3,
+    "directMatch": true
+  },
+  {
+    "word": "comfortably.",
+    "start": 523.86,
+    "directMatch": true
+  },
+  {
+    "word": "There",
+    "start": 525.26,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 525.38,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 525.5,
+    "directMatch": true
+  },
+  {
+    "word": "single",
+    "start": 525.74,
+    "directMatch": true
+  },
+  {
+    "word": "down",
+    "start": 526.22,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 526.56,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 527.08,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 527.46,
+    "directMatch": true
+  },
+  {
+    "word": "allowance",
+    "start": 527.84,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 528.36,
+    "directMatch": true
+  },
+  {
+    "word": "makes",
+    "start": 528.78,
+    "directMatch": true
+  },
+  {
+    "word": "every",
+    "start": 528.98,
+    "directMatch": true
+  },
+  {
+    "word": "home",
+    "start": 529.4,
+    "directMatch": true
+  },
+  {
+    "word": "affordable.",
+    "start": 529.74,
+    "directMatch": true
+  },
+  {
+    "word": "There",
+    "start": 531.2,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 531.34,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 531.46,
+    "directMatch": true
+  },
+  {
+    "word": "better",
+    "start": 531.56,
+    "directMatch": true
+  },
+  {
+    "word": "question",
+    "start": 531.88,
+    "directMatch": true
+  },
+  {
+    "word": "than",
+    "start": 532.32,
+    "directMatch": true
+  },
+  {
+    "word": "asking",
+    "start": 532.74,
+    "directMatch": true
+  },
+  {
+    "word": "whether",
+    "start": 533.08,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 533.68,
+    "directMatch": true
+  },
+  {
+    "word": "loan",
+    "start": 533.86,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 534.1,
+    "directMatch": true
+  },
+  {
+    "word": "fits.",
+    "start": 534.58,
+    "directMatch": true
+  },
+  {
+    "word": "After",
+    "start": 535.93,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 536.28,
+    "directMatch": true
+  },
+  {
+    "word": "bills",
+    "start": 536.52,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 536.78,
+    "directMatch": true
+  },
+  {
+    "word": "paid,",
+    "start": 537.08,
+    "directMatch": true
+  },
+  {
+    "word": "after",
+    "start": 537.84,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 538.22,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 538.48,
+    "directMatch": true
+  },
+  {
+    "word": "set",
+    "start": 538.74,
+    "directMatch": true
+  },
+  {
+    "word": "aside",
+    "start": 538.98,
+    "directMatch": true
+  },
+  {
+    "word": "for",
+    "start": 539.28,
+    "directMatch": true
+  },
+  {
+    "word": "upkeep,",
+    "start": 539.68,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 540.72,
+    "directMatch": true
+  },
+  {
+    "word": "after",
+    "start": 540.92,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 541.1,
+    "directMatch": true
+  },
+  {
+    "word": "purchase",
+    "start": 541.34,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 541.74,
+    "directMatch": true
+  },
+  {
+    "word": "complete,",
+    "start": 541.98,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 543.18,
+    "directMatch": true
+  },
+  {
+    "word": "choices",
+    "start": 543.3,
+    "directMatch": true
+  },
+  {
+    "word": "do",
+    "start": 543.72,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 544.14,
+    "directMatch": true
+  },
+  {
+    "word": "still",
+    "start": 544.26,
+    "directMatch": true
+  },
+  {
+    "word": "have?",
+    "start": 544.52,
+    "directMatch": true
+  },
+  {
+    "word": "Can",
+    "start": 546.02,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 546.38,
+    "directMatch": true
+  },
+  {
+    "word": "repair",
+    "start": 546.54,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 546.84,
+    "directMatch": true
+  },
+  {
+    "word": "house",
+    "start": 547.16,
+    "directMatch": true
+  },
+  {
+    "word": "without",
+    "start": 547.44,
+    "directMatch": true
+  },
+  {
+    "word": "immediately",
+    "start": 547.82,
+    "directMatch": true
+  },
+  {
+    "word": "creating",
+    "start": 548.46,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 549.3,
+    "directMatch": true
+  },
+  {
+    "word": "payment?",
+    "start": 549.8,
+    "directMatch": true
+  },
+  {
+    "word": "Can",
+    "start": 551.06,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 551.18,
+    "directMatch": true
+  },
+  {
+    "word": "keep",
+    "start": 551.3,
+    "directMatch": true
+  },
+  {
+    "word": "saving?",
+    "start": 551.5,
+    "directMatch": true
+  },
+  {
+    "word": "Can",
+    "start": 552.82,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 552.9,
+    "directMatch": true
+  },
+  {
+    "word": "live",
+    "start": 553.06,
+    "directMatch": true
+  },
+  {
+    "word": "there",
+    "start": 553.32,
+    "directMatch": true
+  },
+  {
+    "word": "without",
+    "start": 553.62,
+    "directMatch": true
+  },
+  {
+    "word": "every",
+    "start": 553.86,
+    "directMatch": true
+  },
+  {
+    "word": "ordinary",
+    "start": 554.52,
+    "directMatch": true
+  },
+  {
+    "word": "expense",
+    "start": 555.14,
+    "directMatch": true
+  },
+  {
+    "word": "feeling",
+    "start": 555.74,
+    "directMatch": true
+  },
+  {
+    "word": "like",
+    "start": 556.34,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 556.72,
+    "directMatch": true
+  },
+  {
+    "word": "setback?",
+    "start": 556.82,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 558.18,
+    "directMatch": true
+  },
+  {
+    "word": "mortgage",
+    "start": 558.28,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 558.56,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 559.1,
+    "directMatch": true
+  },
+  {
+    "word": "where",
+    "start": 559.5,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 559.68,
+    "directMatch": true
+  },
+  {
+    "word": "calculation",
+    "start": 559.88,
+    "directMatch": true
+  },
+  {
+    "word": "starts.",
+    "start": 560.24,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 561.14,
+    "directMatch": true
+  },
+  {
+    "word": "room",
+    "start": 562.08,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 562.34,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 562.56,
+    "directMatch": true
+  },
+  {
+    "word": "left",
+    "start": 562.76,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 563.06,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 563.4,
+    "directMatch": true
+  },
+  {
+    "word": "tells",
+    "start": 563.58,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 564.02,
+    "directMatch": true
+  },
+  {
+    "word": "whether",
+    "start": 564.26,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 564.52,
+    "directMatch": true
+  },
+  {
+    "word": "home",
+    "start": 564.72,
+    "directMatch": true
+  },
+  {
+    "word": "fits.",
+    "start": 564.96,
+    "directMatch": true
+  }
+]

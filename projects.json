@@ -61,6 +61,16 @@
       "audio": "videos/004-living-alone/audio/tts_20261022_133142_ba54ee.wav",
       "review": "videos/004-living-alone/exports/full-review-v01.mp4",
       "captionTranslation": "videos/004-living-alone/review/captions.vi.json"
+    },
+    {
+      "id": "finance-005",
+      "name": "Your Mortgage Payment Is Only the Beginning",
+      "description": "Đồ họa động · 3 cảnh mẫu có giọng đọc · 86,8 giây trích từ WAV 9 phút 26,45 giây; chưa phải bản đầy đủ",
+      "kind": "video",
+      "status": "3 cảnh mẫu v01 chờ duyệt phong cách",
+      "createdAt": "2026-10-23T00:00:00.000Z",
+      "defaultVideo": "videos/005-mortgage-payment/samples/project.json",
+      "script": "videos/005-mortgage-payment/script.md"
     }
   ]
 }

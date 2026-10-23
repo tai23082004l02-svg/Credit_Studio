@@ -206,3 +206,6 @@ __pycache__/
 /videos/004-living-alone/images/sheets/planning-guide.png
 /videos/004-living-alone/images/sheets/planning.png
 /videos/004-living-alone/review/voiceover.mp3
+
+# Video 005 source remains local until R2 write access succeeds.
+/videos/005-mortgage-payment/audio/You find a house you can f.wav

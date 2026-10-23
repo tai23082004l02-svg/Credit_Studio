@@ -1,0 +1,14 @@
+{
+  "frames": 869,
+  "duration": 86.80000000000001,
+  "audioDuration": 86.8,
+  "sourceAudio": true,
+  "font": true,
+  "platformFonts": [
+    "TimesNewRomanPS-BoldMT"
+  ],
+  "editorPlayback": true,
+  "reload": true,
+  "mobile": true,
+  "notes": "Three style-review excerpts; full video not built. R2 source upload pending HTTP 401."
+}
