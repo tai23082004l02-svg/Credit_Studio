@@ -2,7 +2,7 @@
 
 88 cảnh · 486,75 giây · 1920×1080 / 30 fps. Dựa trên v02 trong repo; chưa ghép các sửa riêng chỉ có trong trình duyệt.
 
-- [Xem nhanh chuyển động 18 giây](../exports/motion-preview-v03.mp4) · [MP4 v03](../exports/full-review-v03.mp4) · [Dự án chỉnh được](project.json) · [Kế hoạch chuyển động](motion-plan.json) · [Kiểm tra](validation.json).
+- [Xem nhanh chuyển động 18 giây](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/baa17ce6e1687464e4e4ec484e27d3f880a3748ea4fc627b210b1dca4a6153d3.mp4) · [MP4 v03](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/91c9eec2d2d90380092377f0f2c314796adf7271725c24ff66ecd173e3caf5c3.mp4) · [Dự án chỉnh được](project.json) · [Kế hoạch chuyển động](motion-plan.json) · [Kiểm tra](validation.json).
 - Giữ nguyên lời đọc, thứ tự/thời lượng 88 cảnh và audio dẫn xuất `review-v02/voiceover.mp3`. WAV và MP4/project v01/v02 giữ nguyên.
 - 23 lớp chuyển động trong 11 cảnh: tiền di chuyển, số dư/thanh giảm theo sáu khoản chi và quỹ không đều, thanh phân bổ tăng tới đúng tỉ lệ, lịch nhảy 28→29→30→1 và tháng 1→2. Ngày trên lịch chỉ minh họa sự chuyển tháng.
 - Số dư: 6.000→3.700→2.850→2.200→1.800→1.400→1.100→500 USD. Thanh và số dùng cùng mốc, cùng thang 6.000 USD; không tự suy diễn số tiền khác.

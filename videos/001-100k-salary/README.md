@@ -5,10 +5,10 @@
 - Thời lượng thực tế: 486,75 giây (8 phút 06,75 giây), theo WAV đã nhận.
 - [Lời thoại](script.md): 8 đoạn; không đọc tiêu đề đoạn.
 - [Audio](audio/): nơi tải giọng đọc MP3/WAV lên.
-- [Ảnh mẫu phong cách](../../assets/samples/finance-hand-drawn-2d.png).
+- [Ảnh mẫu phong cách](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/40720914bdb24e021cef0185f0eec25756978deb7a9d5332581c61583e97155f.png).
 - [Xem toàn bộ bộ hình](index.html) · [Trang xem online](https://tai23082004l02-svg.github.io/Credit_Studio/videos/001-100k-salary/).
 - [Phân cảnh và hướng chuyển động](storyboard.md).
-- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ v03](exports/full-review-v03.mp4) · [MP4 mở đầu cũ 40,5 giây](exports/intro-v01.mp4).
+- [Duyệt và chỉnh toàn bộ video](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video) · [MP4 đầy đủ v03](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/91c9eec2d2d90380092377f0f2c314796adf7271725c24ff66ecd173e3caf5c3.mp4) · [MP4 mở đầu cũ 40,5 giây](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/cf23a065531145980d63729f1b45d728973d61218edc154e94de4ec1856c3d2c.mp4).
 
 Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001) để quản lý bản dựng, cảnh ảnh, audio và lời thoại cùng một chỗ. Chọn **Hình ảnh → Chỉnh cảnh trong dự án** để sửa trực tiếp, mỗi cảnh có bản lưu riêng. **Sao lưu dự án** giữ cả bản video, các cảnh đã sửa và tệp bạn thêm vào trình duyệt.
 
@@ -16,7 +16,7 @@ Mở [không gian dự án chung](https://tai23082004l02-svg.github.io/Credit_St
 
 Đã bổ sung **23 lớp chuyển động trong 11 cảnh**, giữ nguyên 88 cảnh / 486,75 giây và âm thanh v02. Thanh số dư giảm đúng từng khoản chi, tiền di chuyển qua các nhóm, biểu đồ phân bổ tăng đúng tỉ lệ và lịch nhảy sang tháng mới. Ngày trên lịch là minh họa. Chữ Times New Roman, không thêm nhạc nền hoặc rig khớp.
 
-[MP4 v03](exports/full-review-v03.mp4) · [Dự án v03](review-v03/project.json) · [Mốc chuyển động, cách chỉnh và kiểm tra](review-v03/README.md).
+[MP4 v03](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/91c9eec2d2d90380092377f0f2c314796adf7271725c24ff66ecd173e3caf5c3.mp4) · [Dự án v03](review-v03/project.json) · [Mốc chuyển động, cách chỉnh và kiểm tra](review-v03/README.md).
 
 Chọn lớp → **Chuyển động nội dung** trong Studio để sửa mốc và giá trị. V02/intro/v01 đang chỉnh được giữ nguyên trong lịch sử trước khi mở v03; sửa v03 rồi reload vẫn giữ. V03 dựa trên bản repo, chưa ghép các sửa riêng trong trình duyệt. Các bản xuất và WAV trước đây giữ nguyên.
 
@@ -24,7 +24,7 @@ Chọn lớp → **Chuyển động nội dung** trong Studio để sửa mốc 
 
 Đã dựng lại **88 cảnh / 486,75 giây**, tăng 24 nhịp cắt so với v01, giữ nguyên lời đọc. Đây là bản duyệt mới, chưa phải bản cuối được người dùng chấp thuận.
 
-- [MP4 v02](exports/full-review-v02.mp4), 1920×1080 / 30 fps.
+- [MP4 v02](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/80075c99dfaf785ff2b497051f68409192b4f913c2af352d5a8b022f3b2bd433.mp4), 1920×1080 / 30 fps.
 - [Dự án chỉnh được](review-v02/project.json) · [Timecode 88 cảnh](review-v02/README.md) · [Kiểm tra thực tế](review-v02/validation.json).
 - Bốn minh họa mới: dòng tiền, quỹ chi phí trong năm, nguồn tiền sau hình ảnh trên mạng và kế hoạch tăng lương. Có trong **Hình ảnh**, cùng 16 thiết kế gốc; chữ chỉnh riêng được.
 - Bố cục mới dành vùng riêng cho tiêu đề và nhân vật; đã sửa cảnh “PLAN AROUND WHAT ARRIVES” che tóc. Thẻ đạo cụ/nhãn căn giữa, biểu đồ 4.900 + 600 + 500 đúng tỉ lệ trên 6.000 USD minh họa.
@@ -39,7 +39,7 @@ Tạo dữ liệu: `python3 tools/build-salary-review-v02.py`; đóng gói bốn
 Đã nối toàn bộ lời đọc thành **64 cảnh, dài 8 phút 06,75 giây**, giữ nguyên 8 cảnh mở đầu. Đây là bản duyệt v01 để sửa tiểu tiết trước bản xuất cuối.
 
 - [Mở dựng video trong dự án](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001&tab=video).
-- [MP4 đầy đủ v01](exports/full-review-v01.mp4), 1920×1080, 30 fps, có lời đọc gốc, chưa có nhạc nền.
+- [MP4 đầy đủ v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/406d9bb95d3f4df45c246ab3a463490ac7037bdf3eb8f4ec4736ad8eb8d85b42.mp4), 1920×1080, 30 fps, có lời đọc gốc, chưa có nhạc nền.
 - `review/project.json`: bản dựng đầy đủ với các lớp chữ, số, đạo cụ và cảnh ảnh.
 - `review/voiceover.mp3`: dẫn xuất toàn bộ WAV gốc, không cắt bỏ nội dung.
 - `review/alignment.json` và `review/captions.vtt`: nhận dạng mốc từ và phụ đề đối chiếu script; có sai số căn từ tự động.

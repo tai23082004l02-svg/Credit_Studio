@@ -1,5 +1,5 @@
-import {initStorage,mediaURL} from './media-storage.js?v=r2-v1';
-import {safeSource,validate} from '../../video/engine.js?v=r2-v1';
+import {initStorage,mediaURL} from './media-storage.js?v=r2-media-v2';
+import {safeSource,validate} from '../../video/engine.js?v=r2-media-v2';
 const root=new URL('../../',import.meta.url),pictures=new Map();
 export function validateProp(p){
  if(!p||typeof p.id!=='string'||!/^[a-z0-9_-]{1,80}$/i.test(p.id)||typeof p.name!=='string'||!p.name.trim()||p.name.length>100||typeof p.category!=='string'||p.category.length>100||!Array.isArray(p.tags)||p.tags.some(t=>typeof t!=='string')||!safeSource(p.src)||!/^.*\.(png|jpg|jpeg|webp)$/i.test(p.src)||p.src.startsWith('data:'))throw Error('Thông tin đạo cụ không hợp lệ.');

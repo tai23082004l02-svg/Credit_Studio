@@ -4,22 +4,22 @@ Bộ hình cho toàn bộ 8 phần lời thoại. Mỗi phần có hai cảnh ch
 
 | Cảnh | Ý chính | Câu bắt đầu | Ảnh | Dự án chỉnh chữ |
 |---|---|---|---|---|
-| 01a | Một công việc sáu con số | You finally did it. | [PNG](images/scenes/01a-six-figure-celebration.png) | [JSON](projects/01a-six-figure-celebration.json) |
-| 01b | Chờ ngày lương giải cứu | But somehow, you're still checking your bank account | [PNG](images/scenes/01b-payday-rescue.png) | [JSON](projects/01b-payday-rescue.json) |
-| 02a | Lương trên giấy và tiền vào tài khoản | Meet Alex. | [PNG](images/scenes/02a-gross-versus-take-home.png) | [JSON](projects/02a-gross-versus-take-home.json) |
-| 02b | Tiền qua các khoản khấu trừ | Alex hears “a hundred thousand dollars.” | [PNG](images/scenes/02b-paycheck-deductions.png) | [JSON](projects/02b-paycheck-deductions.json) |
-| 03a | Các khoản chi cố định | Now let's give that six thousand dollars somewhere to go. | [PNG](images/scenes/03a-fixed-costs.png) | [JSON](projects/03a-fixed-costs.json) |
-| 03b | Tiền đã có người chờ | The money didn't disappear. | [PNG](images/scenes/03b-committed-paycheck.png) | [JSON](projects/03b-committed-paycheck.json) |
-| 04a | Những khoản chi bất thường | Then real life walks in. | [PNG](images/scenes/04a-irregular-expenses.png) | [JSON](projects/04a-irregular-expenses.json) |
-| 04b | Trả tiền cho chuyện đã qua | And if those irregular costs aren't planned for | [PNG](images/scenes/04b-credit-card-cycle.png) | [JSON](projects/04b-credit-card-cycle.json) |
-| 05a | Mức sống tăng cùng thu nhập | A few years ago, Alex made less money. | [PNG](images/scenes/05a-lifestyle-upgrades.png) | [JSON](projects/05a-lifestyle-upgrades.json) |
-| 05b | Thu nhập tăng, khoảng trống không tăng | More money came in. | [PNG](images/scenes/05b-income-versus-commitments.png) | [JSON](projects/05b-income-versus-commitments.json) |
-| 06a | Cuộc sống qua mạng xã hội | Then Alex opens social media. | [PNG](images/scenes/06a-social-highlight-reel.png) | [JSON](projects/06a-social-highlight-reel.json) |
-| 06b | Gánh hai cuộc sống | Now your paycheck has to support two lives. | [PNG](images/scenes/06b-two-lives.png) | [JSON](projects/06b-two-lives.json) |
-| 07a | Bắt đầu từ các khoản lớn | So how does Alex get some breathing room? | [PNG](images/scenes/07a-biggest-levers.png) | [JSON](projects/07a-biggest-levers.json) |
-| 07b | Chia tiền cho hiện tại và tương lai | Next, stop calling predictable irregular expenses emergencies. | [PNG](images/scenes/07b-give-money-a-job.png) | [JSON](projects/07b-give-money-a-job.json) |
-| 08a | Những áp lực có thật | Of course, not every tight budget is a lifestyle problem. | [PNG](images/scenes/08a-real-cost-pressures.png) | [JSON](projects/08a-real-cost-pressures.json) |
-| 08b | Khoảng thở và quyền lựa chọn | For Alex, financial progress might start | [PNG](images/scenes/08b-breathing-room.png) | [JSON](projects/08b-breathing-room.json) |
+| 01a | Một công việc sáu con số | You finally did it. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/e9beeffff7344e6b7932b49f03e897b52dacb6cbe5a9e3803ac47d30ea199688.png) | [JSON](projects/01a-six-figure-celebration.json) |
+| 01b | Chờ ngày lương giải cứu | But somehow, you're still checking your bank account | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/076126a46c7a4cd46da0768c35ca05c68284737ba1ca0d7dc1afa8487bff713e.png) | [JSON](projects/01b-payday-rescue.json) |
+| 02a | Lương trên giấy và tiền vào tài khoản | Meet Alex. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/bbc8ffce87a51d0544ed2e44126b11fcb27e2952d0c2944065e8dc2c81158942.png) | [JSON](projects/02a-gross-versus-take-home.json) |
+| 02b | Tiền qua các khoản khấu trừ | Alex hears “a hundred thousand dollars.” | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/3de0a359ea2a84e73400a5478c0389f7e1cb2e89bf0005edfdd97bc72526762e.png) | [JSON](projects/02b-paycheck-deductions.json) |
+| 03a | Các khoản chi cố định | Now let's give that six thousand dollars somewhere to go. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/08608be64b08473fd0b5e280cea24198b563a6317be00435a8c755ad395e241f.png) | [JSON](projects/03a-fixed-costs.json) |
+| 03b | Tiền đã có người chờ | The money didn't disappear. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/1a4b9c3cb01da772453466c57b8e162b59f9e7b419211d68a9c0d22e50af795d.png) | [JSON](projects/03b-committed-paycheck.json) |
+| 04a | Những khoản chi bất thường | Then real life walks in. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/9b9687cbeea8a62b7015ca943736d347525bf809ed8c7874a850d3ff589990b8.png) | [JSON](projects/04a-irregular-expenses.json) |
+| 04b | Trả tiền cho chuyện đã qua | And if those irregular costs aren't planned for | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/4811dbe77505be1684b5b993f63193b6bea271637ed496ee23c38afc8edf3f46.png) | [JSON](projects/04b-credit-card-cycle.json) |
+| 05a | Mức sống tăng cùng thu nhập | A few years ago, Alex made less money. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/b47a72d2209c2b6cc75e64432e335fefa9f8a2a1ffd380f0f8995991204b848d.png) | [JSON](projects/05a-lifestyle-upgrades.json) |
+| 05b | Thu nhập tăng, khoảng trống không tăng | More money came in. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/e48bbedd1fed32b39c8a59028c0865d71effe1a93f36a99361733ea54dcc6345.png) | [JSON](projects/05b-income-versus-commitments.json) |
+| 06a | Cuộc sống qua mạng xã hội | Then Alex opens social media. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/0f08b3d5c587c29e47f5ab9a8a2a2c9df11111de4403f255a9793331aae96a37.png) | [JSON](projects/06a-social-highlight-reel.json) |
+| 06b | Gánh hai cuộc sống | Now your paycheck has to support two lives. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/dc20c83c5b93901dbbb842b5531cef8d730b7b75a708813bba4fd82ac1818d7f.png) | [JSON](projects/06b-two-lives.json) |
+| 07a | Bắt đầu từ các khoản lớn | So how does Alex get some breathing room? | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/0cf39669a465c02970231bd127d77e5227092ff57237e4e0aee5394ca32b8775.png) | [JSON](projects/07a-biggest-levers.json) |
+| 07b | Chia tiền cho hiện tại và tương lai | Next, stop calling predictable irregular expenses emergencies. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/e04a7b3daed8ced4722ccf9d878a2c35058ad93509137b55b32f05d8dfc49dac.png) | [JSON](projects/07b-give-money-a-job.json) |
+| 08a | Những áp lực có thật | Of course, not every tight budget is a lifestyle problem. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/51e76ffee2ad037a47034058e09dfea388638c282b62eb8a5edf3ca539b3285e.png) | [JSON](projects/08a-real-cost-pressures.json) |
+| 08b | Khoảng thở và quyền lựa chọn | For Alex, financial progress might start | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/4202b286fb109f2a66fb02e0b35b5e94fece520610a076ef26a352a7daea48fe.png) | [JSON](projects/08b-breathing-room.json) |
 
 ## Chuyển động dự kiến
 

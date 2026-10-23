@@ -1,4 +1,4 @@
-import {initStorage,mediaURL} from './media-storage.js?v=r2-v1';
+import {initStorage,mediaURL} from './media-storage.js?v=r2-media-v2';
 // Shared project registry and durable per-project browser storage.
 export const APP_ROOT=new URL('../../',import.meta.url);
 export const FINANCE_ID='finance-001';

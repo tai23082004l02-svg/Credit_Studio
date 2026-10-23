@@ -4,14 +4,14 @@
 
 | Cảnh | Ý chính | Câu gợi mốc trong script | Hình gốc |
 |---|---|---|---|
-| 01a | Khoản trả nhìn có vẻ vừa túi tiền | The salesperson asks a simple question. | [PNG](images/illustrations/01a.png) |
-| 02a | Những chi phí không nằm trên màn hình trả góp | Then the other costs arrive. | [PNG](images/illustrations/02a.png) |
-| 03a | Kỳ hạn dài làm khoản trả trông nhỏ hơn | One way is to stretch the loan over more months. | [PNG](images/illustrations/03a.png) |
-| 04a | Khoản nợ cũ đi theo chiếc xe mới | Trading in the car doesn’t make that gap disappear. | [PNG](images/illustrations/04a.png) |
-| 05a | Tiền rời tài khoản và giá trị xe là hai góc nhìn | They measure different things. | [PNG](images/illustrations/05a.png) |
-| 06a | Khoản trả xe chiếm chỗ của những mục tiêu khác | The same dollars can’t also build an emergency fund | [PNG](images/illustrations/06a.png) |
-| 07a | So sánh toàn bộ thỏa thuận trước khi ký | Set that limit before someone starts adjusting loan terms. | [PNG](images/illustrations/07a.png) |
-| 08a | Một chiếc xe phục vụ được cuộc sống còn lại | You need one your budget can live with. | [PNG](images/illustrations/08a.png) |
+| 01a | Khoản trả nhìn có vẻ vừa túi tiền | The salesperson asks a simple question. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/d2fcbd38b45ade5d7228c37c8d16d8b8b4110a988f7c5afbc5e32c81c34fd153.png) |
+| 02a | Những chi phí không nằm trên màn hình trả góp | Then the other costs arrive. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0.png) |
+| 03a | Kỳ hạn dài làm khoản trả trông nhỏ hơn | One way is to stretch the loan over more months. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/765bf3c77696aaecce0e90008820ee4346479368f82eae12ec5213336a49ecde.png) |
+| 04a | Khoản nợ cũ đi theo chiếc xe mới | Trading in the car doesn’t make that gap disappear. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/3f0329abd1731b3794f74281ae195d6bea2b7d4f587ae87e30bb005cef5c7449.png) |
+| 05a | Tiền rời tài khoản và giá trị xe là hai góc nhìn | They measure different things. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/4228cce60e0131f76e0e5235e27dd8256595ecba6f004d0558b96cb1ae2e7b9e.png) |
+| 06a | Khoản trả xe chiếm chỗ của những mục tiêu khác | The same dollars can’t also build an emergency fund | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/3179881a528a53546e46cc24e4130dfec1bfdf2a2223e6a4dd9dc91ae18f0a9d.png) |
+| 07a | So sánh toàn bộ thỏa thuận trước khi ký | Set that limit before someone starts adjusting loan terms. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/206edf1579436524b08cee8e92d8d97742072e4c2248d5d94c7fd86384dd5553.png) |
+| 08a | Một chiếc xe phục vụ được cuộc sống còn lại | You need one your budget can live with. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/d54128cb1f90f88fb94fb69b557b5371912b2d381a880f4a389bbfb7d2ee5234.png) |
 
 ## Bảng thông tin và chuyển động dự kiến
 

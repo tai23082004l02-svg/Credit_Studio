@@ -6,7 +6,7 @@
 
 Đã chuẩn bị trọn bộ hình cho 8 phần lời thoại: **16 khung hình 1920×1080**, gồm 8 cảnh minh họa gốc và 8 bố cục thông tin dựng từ lớp riêng. Có 16 dự án ảnh chỉnh được, 3 sheet nền trong suốt, 3 bản hướng dẫn sheet có ô/nhãn, **6 tư thế Alex và 24 đạo cụ mới**, 30 PNG tách sẵn và tọa độ cắt. Đã đăng ký dự án `finance-002`, giữ nguyên dự án `finance-001`.
 
-**Đã nhận WAV và dựng bản duyệt đầy đủ v01: 495,475 giây (8 phút 15,475 giây), 79 cảnh.** [Mở bản dựng trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002&tab=video) · [MP4 đầy đủ v01](exports/full-review-v01.mp4) · [Timecode 79 cảnh](review/README.md).
+**Đã nhận WAV và dựng bản duyệt đầy đủ v01: 495,475 giây (8 phút 15,475 giây), 79 cảnh.** [Mở bản dựng trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-002&tab=video) · [MP4 đầy đủ v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/67f69d7d870311eb7258fa56a06580329b576378ae3420c8307722efb20e6489.mp4) · [Timecode 79 cảnh](review/README.md).
 
 WAV gốc ở `audio/monthly-payment-trap-voiceover.wav` được giữ nguyên. `review/voiceover.mp3` là bản dẫn xuất đã nâng âm lượng, khoảng −16,7 LUFS, không đổi tốc độ hoặc cắt nội dung. Chưa thêm nhạc nền, chưa rig chuyển động khớp. Đây là bản duyệt để góp ý, chưa phải bản cuối đã duyệt.
 

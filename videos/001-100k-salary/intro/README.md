@@ -11,7 +11,7 @@
 | 07 | 28,30–34,85 | How can someone earn six figures and feel broke? |
 | 08 | 34,85–40,50 | Follow the money / before you buy a single thing |
 
-[Mở bản chỉnh online](https://tai23082004l02-svg.github.io/Credit_Studio/video/) · [MP4 xem thử](../exports/intro-v01.mp4).
+[Mở bản chỉnh online](https://tai23082004l02-svg.github.io/Credit_Studio/video/) · [MP4 xem thử](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/cf23a065531145980d63729f1b45d728973d61218edc154e94de4ec1856c3d2c.mp4).
 
 Chuyển động hiện có: lớp xuất hiện dần, trượt vào, bật nhẹ và dao động nhỏ của ảnh nhân vật/đạo cụ. Nhân vật và đạo cụ trong cả 8 cảnh là các lớp ảnh riêng; ba đạo cụ bổ sung nằm trong `props.png`. Các tư thế chưa phải nhân vật hoạt hình có khớp. Bản WAV gốc không bị thay đổi. Chưa thêm nhạc hoặc hiệu ứng âm thanh.
 

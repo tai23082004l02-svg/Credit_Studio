@@ -15,7 +15,7 @@ Lời đọc có khoảng **1.279 từ**. Đã nhận WAV dài **577,5 giây (9 
 
 **91 cảnh · 577,5 giây · 1920×1080 / 30 fps**, chờ người dùng duyệt, chưa phải bản cuối.
 
-- [Mở bản dựng trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-004&tab=video) · [MP4 v01](exports/full-review-v01.mp4) · [Timecode](review/README.md) · [Kiểm tra thực tế](review/validation.json).
+- [Mở bản dựng trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-004&tab=video) · [MP4 v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/76c1cf191f35563ef717fbe93fe85f9a61c4d18099743fc06f20f09f7697d5f9.mp4) · [Timecode](review/README.md) · [Kiểm tra thực tế](review/validation.json).
 - Dự án chỉnh được `review/project.json`, revision `living-alone-review-v01`. **29 lớp chuyển động nội dung trong 15 cảnh**, cùng các thẻ hiện theo lời đọc: chia rent/internet, thanh và số đồng bộ, chênh $630/tháng thành $7.560/năm, lịch hai tháng $3.720, tỷ lệ hộ, phong bì thu nhập và đặt cọc.
 - WAV gốc `audio/tts_20261022_133142_ba54ee.wav`, **27.720.044 byte**, PCM 16-bit / 24 kHz / mono, giữ nguyên. `review/voiceover.mp3` là dẫn xuất chuẩn hóa âm lượng; không cắt nội dung hoặc đổi tốc độ, chưa nhạc nền.
 - Nét collage và chữ Times New Roman giữ đúng bộ hình. Minh họa tổng thể vẫn là một lớp ảnh; đạo cụ, chữ/số và thanh chỉnh riêng. Chưa rig khớp nhân vật.

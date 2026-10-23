@@ -15,7 +15,7 @@ Khán giả Mỹ; lời thoại tiếng Anh; Alex và đồ họa vẽ tay 2D; c
 
 **98 cảnh · 522,2 giây (8 phút 42,2 giây) · 1920×1080 / 30 fps.** Chờ người dùng duyệt, chưa phải bản cuối.
 
-- [MP4 v01](exports/full-review-v01.mp4) · [Dự án chỉnh được](review/project.json) · [Timecode](review/README.md) · [Kiểm tra thực tế](review/validation.json).
+- [MP4 v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/73bcec8142e0d7d4ace61f1313618998346d793d9aba7e43f7ee757275c79237.mp4) · [Dự án chỉnh được](review/project.json) · [Timecode](review/README.md) · [Kiểm tra thực tế](review/validation.json).
 - WAV gốc `audio/tts_20261022_115123_7124d9.wav` giữ nguyên; `review/voiceover.mp3` là bản dẫn xuất chuẩn hóa âm lượng, không đổi tốc độ hoặc cắt lời.
 - 27 lớp chuyển động nội dung trong 14 cảnh, cùng các thẻ xuất hiện theo lời đọc: thanh tổng chi phí xe, bảng tiết kiệm 12 tháng, lịch và dư nợ theo công thức trả góp, phong bì nợ đi sang khoản vay mới. Chữ Times New Roman; không nhạc nền hoặc rig khớp.
 - `review/alignment.json`: mốc từ tự động, `review/captions.vtt`: phụ đề bật được trong Studio; MP4 mặc định không chèn phụ đề. Có sai số căn từ tự động.

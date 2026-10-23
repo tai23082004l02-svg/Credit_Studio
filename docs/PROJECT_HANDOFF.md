@@ -1,12 +1,18 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
+## Dọn GitHub sang R2 — CHỜ CORS (2026-10-23)
+
+Đã hoàn thành copy/verify toàn bộ **204 media / 629.217.384 byte** qua Actions run `39889738423`; mọi SHA-256 khớp. Bao gồm toàn bộ 186 PNG, 4 WAV nguồn, 6 MP3, 8 MP4, không bỏ bản cũ. Bước CORS bị **403 AccessDenied** dù copy/verify thành công; quyền này cần người dùng thao tác UI bucket, đã gửi JSON storage/cors.json. Browser thật xác nhận thiếu header CORS. **Chưa xóa media khỏi GitHub, manifest vẫn disabled.** Không coi đã dọn dung lượng repo.
+
+Đã chuẩn bị resolver cho gallery 002–004, cache r2-media-v2, link audio/video/hình trong MD/HTML tới R2, restore-media.py và tests/r2-live.cjs. 19 unit tests qua. Live integration chưa qua do CORS; cần chạy lại sau khi user lưu CORS. JSON/draft/revision, nhạc/audio/video bytes không thay đổi. Xem docs/R2_SETUP.md cho bước tiếp theo: xác nhận CORS, bật/test local, xóa bản Git đã sao lưu, kiểm tra/commit/push; chưa được tự xóa khi CORS chưa qua. Không viết lại lịch sử Git.
+
 ## Kiểm tra lại R2 — 2026-10-23
 
 **Kết quả Actions:** workflow `Diagnose R2 access`, run `39889380000`, hoàn tất **success**: ListObjectsV2 HTTP 200 và GetObject Range HTTP 206 bằng khóa xác thực. Secrets/config trong Actions dùng được; 401 chỉ tái hiện từ môi trường chat, chưa xác định vì sao hai môi trường khác nhau. Chưa thử quyền ghi/xóa, không thay manifest/CORS/media. Không yêu cầu thay khóa Actions đang hoạt động chỉ vì môi trường chat báo lỗi.
 
 Đọc cấu hình main trực tiếp qua GitHub: manifest vẫn tắt. Kiểm tra công khai đủ 26 object trả HTTP 200, đúng kích thước, ảnh mẫu khớp SHA-256; phản hồi HEAD với Origin Pages chưa có Access-Control-Allow-Origin. API xác thực từ môi trường chat sau cập nhật cấu hình vẫn trả 401; không kết luận khóa GitHub Actions hỏng vì đây là nguồn cấu hình riêng. Kết nối GitHub hiện đọc workflow được nhưng không được liệt kê Actions secrets/variables (403). Thêm workflow chẩn đoán thủ công chỉ đọc, không log bí mật; xem docs/R2_SETUP.md. Chưa bật R2, không thay tài nguyên hoặc bản sửa người dùng.
 
-Cập nhật: 2026-10-22. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
+Cập nhật: 2026-10-23. Đây là ghi chú tiếp nối công việc, không phải bản sao toàn bộ lịch sử chat. Kiểm tra trạng thái Git và các thay đổi mới trước khi thực hiện.
 
 ## Phụ đề tiếng Việt — video 004 (2026-10-22)
 

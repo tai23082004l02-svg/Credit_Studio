@@ -44,14 +44,15 @@ class R2:
   except (urllib.error.URLError,TimeoutError):raise StorageError(f'R2 {method}: network request failed') from None
 
 def plan():
- assets={};extensions={'.png','.jpg','.jpeg','.webp','.gif','.mp3','.wav','.mp4','.webm'}
+ old=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
+ # Keep archived entries after their originals have been removed from Git.
+ assets=dict(old.get('assets',{}));extensions={'.png','.jpg','.jpeg','.webp','.gif','.mp3','.wav','.mp4','.webm'}
  tracked=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')
  for relative in sorted(tracked):
   if not relative or not relative.startswith(('videos/','library/props/','assets/samples/')):continue
   p=ROOT/relative
   if p.suffix.lower() not in extensions or not p.is_file():continue
   digest=hashlib.sha256(p.read_bytes()).hexdigest();assets[relative]={'key':'credit-studio/media/'+digest+p.suffix.lower(),'sha256':digest,'size':p.stat().st_size,'type':mimetypes.guess_type(p.name)[0] or 'application/octet-stream'}
- old=json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
  out={'version':1,'enabled':old.get('enabled',False),'publicBaseURL':old.get('publicBaseURL',''),'assets':assets};MANIFEST.parent.mkdir(exist_ok=True);MANIFEST.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'planned_files':len(assets),'bytes':sum(x['size'] for x in assets.values())}));return out
 
 def check(client):

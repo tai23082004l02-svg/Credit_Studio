@@ -1,5 +1,13 @@
 # Kết nối kho tài nguyên R2
 
+## Di chuyển toàn bộ media — 2026-10-23
+
+[Actions run 39889738423](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39889738423) đã sao chép và tải lại đối chiếu SHA-256 **204 tệp / 629.217.384 byte**: 186 PNG, 4 WAV gốc, 6 MP3, 8 MP4 (gồm mọi bản xuất cũ). Các bước copy/verify thành công; riêng bước CORS (continue-on-error) thất bại **403 AccessDenied**, nên không coi workflow success là đã hoàn tất CORS. HTTP công khai với Origin Pages/localhost chưa có Access-Control-Allow-Origin; Chromium xác nhận bị CORS chặn.
+
+**Chưa xóa bất kỳ media nào khỏi GitHub; manifest vẫn enabled:false.** Gallery 002–004 đã được bổ sung mediaURL giống 001; đường dẫn logic và JSON giữ nguyên, link trực tiếp trong tài liệu/HTML chuyển đến bản R2 đã sao chép. `plan()` giữ các entry đã archive để lần sync sau không mất mapping. Thêm tools/restore-media.py để tải lại theo đường dẫn/thư mục, kiểm tra hash và không ghi đè khác nội dung.
+
+Bước tiếp: người dùng lưu storage/cors.json trong bucket Settings; kiểm tra CORS GET/HEAD/Range cho Pages và localhost; bật manifest cục bộ, chạy tests/r2-live.cjs và kiểm tra WebM/caption/backup. Chỉ khi qua mới di chuyển 204 bản cục bộ sang work, git rm media, thêm ignore cho bản khôi phục, kiểm tra không có request media cũ về Pages, cập nhật số liệu/docs và push. Khoảng 629 MB giảm ở cây tệp hiện tại, không giảm tương ứng lịch sử Git; không force-push. JSON thiết kế còn khoảng 130,73 MB được giữ để chỉnh sửa. GitHub Pages hiện trả 404 sau khi repo private, chưa khôi phục hosting trong công việc này.
+
 ## Chẩn đoán bằng GitHub Actions
 
 Đã chạy ngày **2026-10-23**: [run 39889380000](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39889380000) **success**. ListObjectsV2 xác thực HTTP 200; đọc một phần object xác thực HTTP 206. Cấu hình Actions hoạt động, còn nguồn cấu hình môi trường chat hiện trả 401; chưa xác định nguyên nhân chênh lệch. Chưa thử ghi/xóa, chưa bật manifest hoặc xác minh CORS trong trình duyệt.
