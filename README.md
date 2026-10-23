@@ -4,7 +4,7 @@ Không gian quản lý dự án video và thiết kế ảnh với giao diện t
 
 ## Tiếp tục ở phiên chat mới
 
-Chọn repo này trong chat mới rồi yêu cầu đọc [AGENTS.md](AGENTS.md) và [bản bàn giao dự án](docs/PROJECT_HANDOFF.md). Tài liệu ghi các quyết định đã chốt, vị trí tài nguyên, tiến độ thực tế và phần còn lại. Chat mới không tự nhớ lịch sử chat; các bản sửa chỉ lưu trong trình duyệt cần **Sao lưu dự án** và cung cấp tệp nếu muốn trợ lý tiếp tục từ chúng.
+Chọn repo này trong chat mới rồi yêu cầu đọc [AGENTS.md](AGENTS.md), [bàn giao nhanh hiện tại](docs/NEXT_CHAT.md) và [bản bàn giao chi tiết](docs/PROJECT_HANDOFF.md). Tài liệu ghi các quyết định đã chốt, vị trí tài nguyên, tiến độ thực tế và phần còn lại. Chat mới không tự nhớ lịch sử chat; các bản sửa chỉ lưu trong trình duyệt cần **Sao lưu dự án** và cung cấp tệp nếu muốn trợ lý tiếp tục từ chúng.
 
 ## Dùng online
 
@@ -34,7 +34,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 [Audio/video gốc và cách tải lại](storage/README.md). Ví dụ trước khi dựng lại video 004: `python3 tools/restore-media.py videos/004-living-alone/`. Các bản khôi phục được gitignore để tránh đưa file lớn trở lại repo. Khi chạy kiểm tra cần đọc media cục bộ, khôi phục đúng thư mục hoặc dùng `--all`; kiểm tra R2 thật: `node tests/r2-live.cjs`.
 
-Cây tệp hiện tại giảm khoảng 620 MB; **lịch sử Git vẫn giữ các bản cũ**, không force-push trong lần này. Website GitHub Pages bị 404 sau khi repo chuyển Private là vấn đề hosting riêng, không được sửa bằng việc chuyển tài nguyên sang R2.
+Cây tệp hiện tại giảm khoảng 620 MB; **lịch sử Git vẫn giữ các bản cũ**, không force-push trong lần này. Repo hiện Public, GitHub Pages đã được người dùng bật lại từ main /; trang chủ và manifest đã kiểm tra HTTP 200.
 
 ## Kho đạo cụ dùng chung
 

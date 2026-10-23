@@ -25,5 +25,15 @@
     "planPreservesArchivedEntries": "passed"
   },
   "gitHistoryRewritten": false,
-  "hostingRestored": false
+  "hostingRestored": true,
+  "hostingVerification": {
+    "date": "2026-10-23",
+    "visibility": "public",
+    "pagesStatus": "built",
+    "branch": "main",
+    "path": "/",
+    "homepageHTTP": 200,
+    "manifestHTTP": 200,
+    "r2Enabled": true
+  }
 }

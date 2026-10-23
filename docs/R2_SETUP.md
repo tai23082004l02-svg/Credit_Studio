@@ -10,7 +10,7 @@ Người dùng đã lưu CORS trong giao diện Cloudflare. GET Range trả 206 
 
 Phục hồi file phục vụ builder/test: `python3 tools/restore-media.py videos/004-living-alone/` hoặc `--all`. Tệp khôi phục được ignore theo từng đường dẫn cũ. Không đổi SHA/byte bản gốc hoặc xóa object R2. [Danh mục](../storage/README.md). Khi thêm media mới, đăng ký và copy/verify trên R2 trước khi gỡ bản Git, giữ manifest đủ mapping; không chạy builder cần WAV/PNG trước khi restore. JSON thiết kế nhúng ảnh vẫn giữ vì là tài liệu chỉnh sửa.
 
-Cây tệp main giảm khoảng 620 MB, lịch sử Git không được viết lại nên dung lượng repo Git phía GitHub chưa giảm tương ứng. Pages 404 sau khi repo Private là vấn đề hosting riêng; không xác nhận đã khôi phục website online.
+Cây tệp main giảm khoảng 620 MB, lịch sử Git không được viết lại nên dung lượng repo Git phía GitHub chưa giảm tương ứng. Sau khi dọn, người dùng đã chuyển repo về Public và bật lại Pages main /. Đã kiểm tra Pages built, trang chủ và manifest online HTTP 200; R2 enabled:true.
 
 ## Chẩn đoán bằng GitHub Actions
 

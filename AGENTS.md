@@ -1,6 +1,6 @@
 # Continuing Credit Studio
 
-Before changing this repository, read `docs/PROJECT_HANDOFF.md` and `README.md`.
+Before changing this repository, read `docs/NEXT_CHAT.md`, `docs/PROJECT_HANDOFF.md` and `README.md`.
 For video production, also read the current video's README, script and storyboard.
 
 - Communicate with the user in Vietnamese. Current video narration targets US viewers in English.

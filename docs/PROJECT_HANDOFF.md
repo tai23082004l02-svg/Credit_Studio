@@ -1,12 +1,16 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
+## Điểm bắt đầu cho chat mới — 2026-10-23
+
+Đọc **[NEXT_CHAT.md](NEXT_CHAT.md)** trước để nắm trạng thái hiện tại và các quy tắc bảo toàn. Nội dung bên dưới chứa lịch sử theo từng bước; những câu về thiếu CORS, manifest tắt hoặc Pages 404 không còn là trạng thái mới nhất. Repo hiện Public; người dùng đã bật lại Pages. Kiểm tra trực tiếp: Pages built, main /, trang chủ và manifest HTTP 200, R2 enabled:true. Cây tệp sau dọn khoảng 140,6 MB; 198 media / 620,33 MB chuyển khỏi main, sáu ảnh giữ local; lịch sử Git chưa viết lại. Không có bước CORS/Pages đang chờ.
+
 ## Dọn GitHub sang R2 — ĐÃ HOÀN TẤT Ở MAIN (2026-10-23)
 
 Người dùng đã lưu CORS. Xác nhận GET Range 206/CORS đúng cho Pages và localhost. Đã bật manifest; **gỡ 198 file / 620.325.763 byte** khỏi main (180 PNG, 4 WAV, 6 MP3, 8 MP4), không thay byte bản gốc. Đủ **204 media / 629.217.384 byte** được copy và tải lại xác minh SHA-256 ở Actions run `39889738423`. Giữ **6 PNG / 8.891.621 byte** trong repo với entry `local:true` do public R2 timeout; xem storage/README.md. Resolver, plan/sync giữ pin. Không xóa object R2 hoặc viết lại lịch sử Git.
 
 Sau khi media đã rời cây làm việc: real R2 integration qua **4 editor/audio/MP4, 4 gallery, 89 đạo cụ, PNG download/canvas export**, chỉ sáu ảnh pin đọc từ origin Studio. 180 ảnh public được tải kiểm tra hash/CORS, 18 audio/video qua GET Range/CORS; sáu ảnh timeout giữ local. `plan()` giữ nguyên toàn bộ manifest sau khi Git không còn media cũ. Restore mẫu từ R2 đúng SHA-256, xóa bản thử sau kiểm tra. 19 unit tests qua. `vietnamese-captions-editor` qua sau khi source đã rời local: draft đã sửa giữ nguyên, English/Vi canvas thật, reload/backup, mobile, WebM thật có audio, dự án cũ và offline fallback; đủ 155 cue vừa một dòng.
 
-Mã nguồn, mọi JSON dự án/thiết kế, revision, caption và bản sửa IndexedDB giữ nguyên. Các nguồn WAV/PNG/MP4 vẫn truy xuất được bằng manifest/restore-media.py; restore đúng thư mục trước khi chạy builders hoặc test đọc filesystem. `.gitignore` chứa chính xác các đường dẫn đã archive và /work/. Sáu ảnh pin còn được theo dõi, không tự chuyển chúng đi. Cache mới r2-media-v3. Repo main còn khoảng 141 MB tệp; lịch sử Git vẫn lớn, chưa force-push. GitHub Pages 404 do Private chưa khôi phục hosting trong task dọn tài nguyên. Người dùng vẫn cần duyệt video; đừng nhầm migration với bản render mới.
+Mã nguồn, mọi JSON dự án/thiết kế, revision, caption và bản sửa IndexedDB giữ nguyên. Các nguồn WAV/PNG/MP4 vẫn truy xuất được bằng manifest/restore-media.py; restore đúng thư mục trước khi chạy builders hoặc test đọc filesystem. `.gitignore` chứa chính xác các đường dẫn đã archive và /work/. Sáu ảnh pin còn được theo dõi, không tự chuyển chúng đi. Cache mới r2-media-v3. Repo main còn khoảng 141 MB tệp; lịch sử Git vẫn lớn, chưa force-push. Sau bước dọn, người dùng đã chuyển repo về Public và bật lại Pages; website đã được kiểm tra HTTP 200. Người dùng vẫn cần duyệt video; đừng nhầm migration với bản render mới.
 
 ## Kiểm tra lại R2 — 2026-10-23
 
