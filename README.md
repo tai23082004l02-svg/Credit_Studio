@@ -162,3 +162,7 @@ Trong **Chỉnh phần tử → Chuyển động nội dung**, chọn thanh tăn
 ## Video thứ ba — Car Payment Trap
 
 [Your Car Payment Is Keeping You Broke](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-003) đã có [16 thiết kế ảnh](videos/003-car-payment-trap/), 8 minh họa, 2 sheet có ô cắt/guide và 12 PNG mới (8 đạo cụ, 4 tư thế Alex). Chữ/số Times New Roman chỉnh riêng trong Studio. [Lời thoại](videos/003-car-payment-trap/script.md) đã lưu; đã nhận WAV và dựng **98 cảnh / 522,2 giây**, [MP4 duyệt v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/73bcec8142e0d7d4ace61f1313618998346d793d9aba7e43f7ee757275c79237.mp4), có chuyển động chi phí, dư nợ vay, lịch và dòng tiền. Bảng hình 96 giây cũ được giữ nguyên. [Timecode và kiểm tra](videos/003-car-payment-trap/review/README.md). [Hướng dẫn](videos/003-car-payment-trap/README.md).
+
+## Video thứ năm — Mortgage Payment (đang chuẩn bị lời thoại)
+
+Đề xuất **Your Mortgage Payment Is Only the Beginning**: [kịch bản tiếng Anh](videos/005-mortgage-payment/script.md), [lời đọc thuần để TTS](videos/005-mortgage-payment/narration.txt), [nguồn và phép tính](videos/005-mortgage-payment/sources.md), [storyboard ngắn](videos/005-mortgage-payment/storyboard.md). Bản v01 1241 từ / 8 phần, dự kiến 8–10 phút tùy giọng; chờ người dùng xem. Chưa có audio, hình sản xuất, timeline hoặc MP4; chưa thêm mục rỗng vào Studio. Dùng quy trình mới: vài cảnh mẫu, tạo hình theo audio, không bộ16 ảnh hoặc bảng hình96 giây.
