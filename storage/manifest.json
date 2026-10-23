@@ -21,10 +21,28 @@
       "size": 54554618,
       "type": "video/mp4"
     },
+    "videos/001-100k-salary/exports/full-review-v02.mp4": {
+      "key": "credit-studio/media/80075c99dfaf785ff2b497051f68409192b4f913c2af352d5a8b022f3b2bd433.mp4",
+      "sha256": "80075c99dfaf785ff2b497051f68409192b4f913c2af352d5a8b022f3b2bd433",
+      "size": 42954002,
+      "type": "video/mp4"
+    },
+    "videos/001-100k-salary/exports/full-review-v03.mp4": {
+      "key": "credit-studio/media/91c9eec2d2d90380092377f0f2c314796adf7271725c24ff66ecd173e3caf5c3.mp4",
+      "sha256": "91c9eec2d2d90380092377f0f2c314796adf7271725c24ff66ecd173e3caf5c3",
+      "size": 42320977,
+      "type": "video/mp4"
+    },
     "videos/001-100k-salary/exports/intro-v01.mp4": {
       "key": "credit-studio/media/cf23a065531145980d63729f1b45d728973d61218edc154e94de4ec1856c3d2c.mp4",
       "sha256": "cf23a065531145980d63729f1b45d728973d61218edc154e94de4ec1856c3d2c",
       "size": 3612612,
+      "type": "video/mp4"
+    },
+    "videos/001-100k-salary/exports/motion-preview-v03.mp4": {
+      "key": "credit-studio/media/baa17ce6e1687464e4e4ec484e27d3f880a3748ea4fc627b210b1dca4a6153d3.mp4",
+      "sha256": "baa17ce6e1687464e4e4ec484e27d3f880a3748ea4fc627b210b1dca4a6153d3",
+      "size": 851802,
       "type": "video/mp4"
     },
     "videos/001-100k-salary/images/scenes/01a-six-figure-celebration.png": {
@@ -153,10 +171,1060 @@
       "size": 649388,
       "type": "audio/mpeg"
     },
+    "videos/001-100k-salary/review-v02/images/annual-funds-board.png": {
+      "key": "credit-studio/media/5dda794762ff6d29904bd40de99037a455dc95773dfe0662f275b4388ff3c25e.png",
+      "sha256": "5dda794762ff6d29904bd40de99037a455dc95773dfe0662f275b4388ff3c25e",
+      "size": 1288427,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/annual-funds.png": {
+      "key": "credit-studio/media/9d6f9510983d79a4231b36597b114163fddd3dd6aa0869814e7c3c16fa5a98a5.png",
+      "sha256": "9d6f9510983d79a4231b36597b114163fddd3dd6aa0869814e7c3c16fa5a98a5",
+      "size": 1714574,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/cashflow-board.png": {
+      "key": "credit-studio/media/0701fea191c924e78ed56b568b8161ff3f6f8f7dc136f8c3d73d2a3cb4c6e44c.png",
+      "sha256": "0701fea191c924e78ed56b568b8161ff3f6f8f7dc136f8c3d73d2a3cb4c6e44c",
+      "size": 1193272,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/cashflow.png": {
+      "key": "credit-studio/media/fb7db2c478ebba99db138ae74e84e0c091eeecb27d88db1073c9e08f67520afa.png",
+      "sha256": "fb7db2c478ebba99db138ae74e84e0c091eeecb27d88db1073c9e08f67520afa",
+      "size": 1565117,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/raise-plan-board.png": {
+      "key": "credit-studio/media/0622064fcfe090c2ef66a714c3dbeffceeafb81672cbf84d96ed1951d49487ed.png",
+      "sha256": "0622064fcfe090c2ef66a714c3dbeffceeafb81672cbf84d96ed1951d49487ed",
+      "size": 1178546,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/raise-plan.png": {
+      "key": "credit-studio/media/357695de38a68e0dfb8de9baea2a5c89f6ea756c933ae1692c88363ff6bb3898.png",
+      "sha256": "357695de38a68e0dfb8de9baea2a5c89f6ea756c933ae1692c88363ff6bb3898",
+      "size": 1476735,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/social-context-board.png": {
+      "key": "credit-studio/media/6f01ea9dd5bbe318879a52670bcbaa41d3ce5d51a8feca2b1d892411fe015a5d.png",
+      "sha256": "6f01ea9dd5bbe318879a52670bcbaa41d3ce5d51a8feca2b1d892411fe015a5d",
+      "size": 1437699,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/images/social-context.png": {
+      "key": "credit-studio/media/dff0a83f63b028c642c62bd84bccaadbb628df222705752846522072e8433530.png",
+      "sha256": "dff0a83f63b028c642c62bd84bccaadbb628df222705752846522072e8433530",
+      "size": 1898012,
+      "type": "image/png"
+    },
+    "videos/001-100k-salary/review-v02/voiceover.mp3": {
+      "key": "credit-studio/media/a5ed0f4a74192243d83df6ce96edca797f3ee04dd9ffe44d2dfe73cff0b99fd9.mp3",
+      "sha256": "a5ed0f4a74192243d83df6ce96edca797f3ee04dd9ffe44d2dfe73cff0b99fd9",
+      "size": 11683628,
+      "type": "audio/mpeg"
+    },
     "videos/001-100k-salary/review/voiceover.mp3": {
       "key": "credit-studio/media/a6984562e1a39872256b1ede35685598b9c6bb525bc4a21864b486b58cafdfe7.mp3",
       "sha256": "a6984562e1a39872256b1ede35685598b9c6bb525bc4a21864b486b58cafdfe7",
       "size": 7789484,
+      "type": "audio/mpeg"
+    },
+    "videos/002-monthly-payment-trap/audio/monthly-payment-trap-voiceover.wav": {
+      "key": "credit-studio/media/d824b5830079a818da3c2c46a37dc377fac9de2baf70ee91c871546b2637b65e.wav",
+      "sha256": "d824b5830079a818da3c2c46a37dc377fac9de2baf70ee91c871546b2637b65e",
+      "size": 23782844,
+      "type": "audio/x-wav"
+    },
+    "videos/002-monthly-payment-trap/exports/full-review-v01.mp4": {
+      "key": "credit-studio/media/67f69d7d870311eb7258fa56a06580329b576378ae3420c8307722efb20e6489.mp4",
+      "sha256": "67f69d7d870311eb7258fa56a06580329b576378ae3420c8307722efb20e6489",
+      "size": 36273109,
+      "type": "video/mp4"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alert-bell.png": {
+      "key": "credit-studio/media/99c1155d7e00d546bec1f52f30b0cfb07a8eac538269a801201771091aa6e7d8.png",
+      "sha256": "99c1155d7e00d546bec1f52f30b0cfb07a8eac538269a801201771091aa6e7d8",
+      "size": 113795,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alex-buffer.png": {
+      "key": "credit-studio/media/11ccb5015d74315a0381dfad17a0d94e7fb0f2cf5d2d66f8c09b288e89b3083f.png",
+      "sha256": "11ccb5015d74315a0381dfad17a0d94e7fb0f2cf5d2d66f8c09b288e89b3083f",
+      "size": 169829,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alex-compare.png": {
+      "key": "credit-studio/media/fead540e9f674f97ac4beb64c4b8530bd77cae12854635da473d79b7b14e0e87.png",
+      "sha256": "fead540e9f674f97ac4beb64c4b8530bd77cae12854635da473d79b7b14e0e87",
+      "size": 185323,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alex-phone.png": {
+      "key": "credit-studio/media/d6c0824e0e9260260b36f9035779e0ce208f0cd8db3ccd009090a9561cd1ad1d.png",
+      "sha256": "d6c0824e0e9260260b36f9035779e0ce208f0cd8db3ccd009090a9561cd1ad1d",
+      "size": 160867,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alex-plan.png": {
+      "key": "credit-studio/media/57eca4b663768bfeb9d901b64af5b18511e72892618bf86818a1fa31b453bedf.png",
+      "sha256": "57eca4b663768bfeb9d901b64af5b18511e72892618bf86818a1fa31b453bedf",
+      "size": 158120,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alex-receipt.png": {
+      "key": "credit-studio/media/0d9c38b1d5a145aecf55887d2a93a403852d32d2986b0ce39419c942cb1bd288.png",
+      "sha256": "0d9c38b1d5a145aecf55887d2a93a403852d32d2986b0ce39419c942cb1bd288",
+      "size": 167582,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/alex-repair.png": {
+      "key": "credit-studio/media/6802fc0c5a4822839d83491929bbc839ce549a405503a5e0e19725379f41d1a4.png",
+      "sha256": "6802fc0c5a4822839d83491929bbc839ce549a405503a5e0e19725379f41d1a4",
+      "size": 173746,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/bank-card.png": {
+      "key": "credit-studio/media/d201c74b23866af49b101c01b7b77acfadbdad5f63e449ca75d8620b6e1c3c7c.png",
+      "sha256": "d201c74b23866af49b101c01b7b77acfadbdad5f63e449ca75d8620b6e1c3c7c",
+      "size": 106313,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/broken-chain.png": {
+      "key": "credit-studio/media/77f0403633a3737aa46a8c7f6bb80618ad71081273423c79b9bc9ac40113df20.png",
+      "sha256": "77f0403633a3737aa46a8c7f6bb80618ad71081273423c79b9bc9ac40113df20",
+      "size": 80872,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/calendar.png": {
+      "key": "credit-studio/media/8c137f5d3b13fbc7f61686a9a0b61afef031215a72e7a3635c73ed50316722a1.png",
+      "sha256": "8c137f5d3b13fbc7f61686a9a0b61afef031215a72e7a3635c73ed50316722a1",
+      "size": 168899,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/cash-stack.png": {
+      "key": "credit-studio/media/979106bc7b70daf033ade5e0e7a9cb84dd9b794b3998f9dfd5821b03b8204cd4.png",
+      "sha256": "979106bc7b70daf033ade5e0e7a9cb84dd9b794b3998f9dfd5821b03b8204cd4",
+      "size": 147669,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/cash-tray.png": {
+      "key": "credit-studio/media/e41332e43fd1f932af86f8c20f804a610d93d4ce236f24353f41dbd3cbb81f2e.png",
+      "sha256": "e41332e43fd1f932af86f8c20f804a610d93d4ce236f24353f41dbd3cbb81f2e",
+      "size": 125199,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/clipboard.png": {
+      "key": "credit-studio/media/64582e390ca83b8cd88dd0fe940ab7cda4f74f24fe3f40492bc6efabc9fb5ca1.png",
+      "sha256": "64582e390ca83b8cd88dd0fe940ab7cda4f74f24fe3f40492bc6efabc9fb5ca1",
+      "size": 158892,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/clock.png": {
+      "key": "credit-studio/media/c6460fdde045db1c9412d4d58760368b3b7b50277c9ea0744ad4147f9eba5526.png",
+      "sha256": "c6460fdde045db1c9412d4d58760368b3b7b50277c9ea0744ad4147f9eba5526",
+      "size": 157335,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/coins.png": {
+      "key": "credit-studio/media/69e1feb0bb58d402f4f37d88505ae7f4391ef62a960a4b964dc6f2a159c9f29d.png",
+      "sha256": "69e1feb0bb58d402f4f37d88505ae7f4391ef62a960a4b964dc6f2a159c9f29d",
+      "size": 134555,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/compact-car.png": {
+      "key": "credit-studio/media/4f4d387ac06206e83772e22feddbb6054f7a0f9a14f8e50c74fc4491a9e82d8f.png",
+      "sha256": "4f4d387ac06206e83772e22feddbb6054f7a0f9a14f8e50c74fc4491a9e82d8f",
+      "size": 138520,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/comparison-cards.png": {
+      "key": "credit-studio/media/2199038e072964b932edebddb278b7e02aac419c4fc8d0e20d885ac0e13fd02c.png",
+      "sha256": "2199038e072964b932edebddb278b7e02aac419c4fc8d0e20d885ac0e13fd02c",
+      "size": 150073,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/empty-wallet.png": {
+      "key": "credit-studio/media/0ec78b50b77a550837f1b8a498a0e21541d259ba531e1f05047659320a40cd3b.png",
+      "sha256": "0ec78b50b77a550837f1b8a498a0e21541d259ba531e1f05047659320a40cd3b",
+      "size": 150925,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/new-phone.png": {
+      "key": "credit-studio/media/503a4ddfb8de65c32db925f4163b176f9061fa35e226f85721058bb3e627c066.png",
+      "sha256": "503a4ddfb8de65c32db925f4163b176f9061fa35e226f85721058bb3e627c066",
+      "size": 79982,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/old-phone.png": {
+      "key": "credit-studio/media/cdf2a1794bd5fdce86ced2831c1b281e1ab71ead63d7711022462e1c4fa0387a.png",
+      "sha256": "cdf2a1794bd5fdce86ced2831c1b281e1ab71ead63d7711022462e1c4fa0387a",
+      "size": 105757,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/padlock.png": {
+      "key": "credit-studio/media/891c78e0f744afe1734c293ef97533e4959a045aa8ab1873d81df9f742b0b0b1.png",
+      "sha256": "891c78e0f744afe1734c293ef97533e4959a045aa8ab1873d81df9f742b0b0b1",
+      "size": 122824,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/parcel.png": {
+      "key": "credit-studio/media/28f35494560c7dee9eb574d8c971d61b49591954c1dd68075b721c5e1b129e60.png",
+      "sha256": "28f35494560c7dee9eb574d8c971d61b49591954c1dd68075b721c5e1b129e60",
+      "size": 129535,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/pay-envelope.png": {
+      "key": "credit-studio/media/c11bad40f1c87d7dd0cb58232928eac7bd5c87d076e2c32a49c8fc30f289add8.png",
+      "sha256": "c11bad40f1c87d7dd0cb58232928eac7bd5c87d076e2c32a49c8fc30f289add8",
+      "size": 139824,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/receipt.png": {
+      "key": "credit-studio/media/534de651b16ec2045ed97614c21298f5d4b39c71ed2493fa1e38d689407647ec.png",
+      "sha256": "534de651b16ec2045ed97614c21298f5d4b39c71ed2493fa1e38d689407647ec",
+      "size": 86178,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/refrigerator.png": {
+      "key": "credit-studio/media/22964f4966b2130a88cfcc195e0ac7a51a21f9b8d5eca713620230648d4e2cc9.png",
+      "sha256": "22964f4966b2130a88cfcc195e0ac7a51a21f9b8d5eca713620230648d4e2cc9",
+      "size": 112096,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/savings-jar.png": {
+      "key": "credit-studio/media/214d8fbcbc1586c3c24f4d2675c7fe22d19df166abdbf9d9ad703c7390006e6b.png",
+      "sha256": "214d8fbcbc1586c3c24f4d2675c7fe22d19df166abdbf9d9ad703c7390006e6b",
+      "size": 153169,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/shield.png": {
+      "key": "credit-studio/media/b30a4f6c7afe7fc3003f46bd22220095c3194526297d065c72fd5be00ab524ae.png",
+      "sha256": "b30a4f6c7afe7fc3003f46bd22220095c3194526297d065c72fd5be00ab524ae",
+      "size": 109848,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/sofa.png": {
+      "key": "credit-studio/media/2f5a9b70b29f3ce4b63ce5ebab4dcd267887c1e4da56fdfdaf69b64c4aa3fdfc.png",
+      "sha256": "2f5a9b70b29f3ce4b63ce5ebab4dcd267887c1e4da56fdfdaf69b64c4aa3fdfc",
+      "size": 134267,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/streaming.png": {
+      "key": "credit-studio/media/3961079dd37ec12adaf88a40accaa997978ed1f43febae4e12e48a26fcac338b.png",
+      "sha256": "3961079dd37ec12adaf88a40accaa997978ed1f43febae4e12e48a26fcac338b",
+      "size": 118641,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/cutouts/wrench.png": {
+      "key": "credit-studio/media/3b8f5239e8f3d94fb88c2f81c8d0e5ccc9dfdfbf69df5ed7cd1046a848f6e6e7.png",
+      "sha256": "3b8f5239e8f3d94fb88c2f81c8d0e5ccc9dfdfbf69df5ed7cd1046a848f6e6e7",
+      "size": 67718,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/01a-payday-already-spent.png": {
+      "key": "credit-studio/media/2cb5970153ef1234c8dff49cd4868b1e60a82b756a4062d43b0b254eba79e436.png",
+      "sha256": "2cb5970153ef1234c8dff49cd4868b1e60a82b756a4062d43b0b254eba79e436",
+      "size": 1572083,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/02a-phone-price-choice.png": {
+      "key": "credit-studio/media/8e4cee978a3bae7de3154856f645da6dd78d2b8a201d5b7b7e3a54d7c5d798bb.png",
+      "sha256": "8e4cee978a3bae7de3154856f645da6dd78d2b8a201d5b7b7e3a54d7c5d798bb",
+      "size": 1664132,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/03a-crowded-payment-calendar.png": {
+      "key": "credit-studio/media/f67d5d91b6838d689cd4053d6f12d5e7d1d08ae4b3364a4c16944375d34bfacc.png",
+      "sha256": "f67d5d91b6838d689cd4053d6f12d5e7d1d08ae4b3364a4c16944375d34bfacc",
+      "size": 1681221,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/04a-longer-payment-path.png": {
+      "key": "credit-studio/media/d70478e5a03b9f9a978b19c7bedf9e9691ee6686c726c8b18197031a4ee64240.png",
+      "sha256": "d70478e5a03b9f9a978b19c7bedf9e9691ee6686c726c8b18197031a4ee64240",
+      "size": 1429829,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/05a-repair-meets-due-dates.png": {
+      "key": "credit-studio/media/7443740b12e8163e652cb40cdeaf5aa6cebc84e36f43b3fbb8a430721eae881c.png",
+      "sha256": "7443740b12e8163e652cb40cdeaf5aa6cebc84e36f43b3fbb8a430721eae881c",
+      "size": 1696532,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/06a-practical-financing-choice.png": {
+      "key": "credit-studio/media/cebdc2615eff0aece3102638b8471b41742a4cb491cd1e5431ee54463ccb0040.png",
+      "sha256": "cebdc2615eff0aece3102638b8471b41742a4cb491cd1e5431ee54463ccb0040",
+      "size": 1617952,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/07a-see-the-whole-month.png": {
+      "key": "credit-studio/media/f982c618711768b0af3420e147ded426c89376bcf27662e3b493c35872c90a2c.png",
+      "sha256": "f982c618711768b0af3420e147ded426c89376bcf27662e3b493c35872c90a2c",
+      "size": 1669498,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/illustrations/08a-paycheck-with-breathing-room.png": {
+      "key": "credit-studio/media/6b2a5fadfa1de94d65e2b10360e2e84a87af0349162db996421f82b6e86595f2.png",
+      "sha256": "6b2a5fadfa1de94d65e2b10360e2e84a87af0349162db996421f82b6e86595f2",
+      "size": 1792447,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/01a.png": {
+      "key": "credit-studio/media/1064d9d47ee32c17d35d438bb8b25b00b9b8f16813ac54cc9ab293f0b1575372.png",
+      "sha256": "1064d9d47ee32c17d35d438bb8b25b00b9b8f16813ac54cc9ab293f0b1575372",
+      "size": 1450488,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/01b.png": {
+      "key": "credit-studio/media/8aab6f616f29367e02001456c661d401de35d7756b1912cf1ac8943df965b3d7.png",
+      "sha256": "8aab6f616f29367e02001456c661d401de35d7756b1912cf1ac8943df965b3d7",
+      "size": 248710,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/02a.png": {
+      "key": "credit-studio/media/c04523b5e41bc2d1b3ac2c6162885ebe95b7d24de7519227967dc5979262df54.png",
+      "sha256": "c04523b5e41bc2d1b3ac2c6162885ebe95b7d24de7519227967dc5979262df54",
+      "size": 1505285,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/02b.png": {
+      "key": "credit-studio/media/1096be1e2e9fd00bbd1b1485b55573c6b1b31f93161b38e001f0850074dab829.png",
+      "sha256": "1096be1e2e9fd00bbd1b1485b55573c6b1b31f93161b38e001f0850074dab829",
+      "size": 156101,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/03a.png": {
+      "key": "credit-studio/media/90f3343d63e5081d617470795ec7044ad4e0b2aa66ca517cf1abf4104c7e6ea1.png",
+      "sha256": "90f3343d63e5081d617470795ec7044ad4e0b2aa66ca517cf1abf4104c7e6ea1",
+      "size": 1573036,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/03b.png": {
+      "key": "credit-studio/media/93ef866ce360ac30fa71a30d205ebd40ea005848435fc6c745f559a5e0067c27.png",
+      "sha256": "93ef866ce360ac30fa71a30d205ebd40ea005848435fc6c745f559a5e0067c27",
+      "size": 358754,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/04a.png": {
+      "key": "credit-studio/media/b5355daf3cd644e9ad8c37811d3031294f5443d1b1547d276f6c1703fd944d85.png",
+      "sha256": "b5355daf3cd644e9ad8c37811d3031294f5443d1b1547d276f6c1703fd944d85",
+      "size": 1356999,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/04b.png": {
+      "key": "credit-studio/media/c76e8b3f681874e3bf19837606f5b9271881f28fcc7a8298617459c8a77a1c84.png",
+      "sha256": "c76e8b3f681874e3bf19837606f5b9271881f28fcc7a8298617459c8a77a1c84",
+      "size": 233291,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/05a.png": {
+      "key": "credit-studio/media/2a0cfa59a4be828bb257ffe39a5b6843d7305361ba7270eb2adfc61160a07720.png",
+      "sha256": "2a0cfa59a4be828bb257ffe39a5b6843d7305361ba7270eb2adfc61160a07720",
+      "size": 1588573,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/05b.png": {
+      "key": "credit-studio/media/21f509c41201efe9b11a080e06ed99302fade51edc2eac069ee6f4600da1391c.png",
+      "sha256": "21f509c41201efe9b11a080e06ed99302fade51edc2eac069ee6f4600da1391c",
+      "size": 288343,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/06a.png": {
+      "key": "credit-studio/media/cbacccaf5ffbba249cd6d9a34339ed845dff98b2ead8a903fdc4f276824624fb.png",
+      "sha256": "cbacccaf5ffbba249cd6d9a34339ed845dff98b2ead8a903fdc4f276824624fb",
+      "size": 1477864,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/06b.png": {
+      "key": "credit-studio/media/e06875d63f6290dff172dbc1d203fb027ed20a0c985ca4037ed10f34f4129d5b.png",
+      "sha256": "e06875d63f6290dff172dbc1d203fb027ed20a0c985ca4037ed10f34f4129d5b",
+      "size": 267296,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/07a.png": {
+      "key": "credit-studio/media/3ca793e6672fffbbdb611a7953e9d3ef1a048cc9494dcd8300bef75a3715aa8f.png",
+      "sha256": "3ca793e6672fffbbdb611a7953e9d3ef1a048cc9494dcd8300bef75a3715aa8f",
+      "size": 1557512,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/07b.png": {
+      "key": "credit-studio/media/1fac6de2f3d817baeabfec68e9b29ad0db606f01ff8f1669ffa5c17a4523c765.png",
+      "sha256": "1fac6de2f3d817baeabfec68e9b29ad0db606f01ff8f1669ffa5c17a4523c765",
+      "size": 327754,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/08a.png": {
+      "key": "credit-studio/media/ccdf2f0e835ea2da202c3ffe0c4b980613ce3cca3ec11768fc249ce474a30865.png",
+      "sha256": "ccdf2f0e835ea2da202c3ffe0c4b980613ce3cca3ec11768fc249ce474a30865",
+      "size": 1629643,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/scenes/08b.png": {
+      "key": "credit-studio/media/a9e471b55c010765743985594cd928788025bdca29ec75d4474a3270c6e6a7a6.png",
+      "sha256": "a9e471b55c010765743985594cd928788025bdca29ec75d4474a3270c6e6a7a6",
+      "size": 325368,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sheets/alex-actions-guide.png": {
+      "key": "credit-studio/media/b09d828a900555f4cb53aefe7e1e6a2241fc425079da8493ac0f3abfa93d585b.png",
+      "sha256": "b09d828a900555f4cb53aefe7e1e6a2241fc425079da8493ac0f3abfa93d585b",
+      "size": 1062563,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sheets/alex-actions.png": {
+      "key": "credit-studio/media/705599fdb0ebc108a2b83663f2e074e92c0f2bba621815039a5d3c4d89fa9b2e.png",
+      "sha256": "705599fdb0ebc108a2b83663f2e074e92c0f2bba621815039a5d3c4d89fa9b2e",
+      "size": 1061704,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sheets/planning-props-guide.png": {
+      "key": "credit-studio/media/1a4fe25748e4c78864838aed7220e1aeb8ceaa51c16a137122c0baffe9a97760.png",
+      "sha256": "1a4fe25748e4c78864838aed7220e1aeb8ceaa51c16a137122c0baffe9a97760",
+      "size": 1473775,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sheets/planning-props.png": {
+      "key": "credit-studio/media/8d7566392796a26aeafbe60cb8e6d6af2e728b0fe0978eb24fb199755170e4de.png",
+      "sha256": "8d7566392796a26aeafbe60cb8e6d6af2e728b0fe0978eb24fb199755170e4de",
+      "size": 1467017,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sheets/purchase-props-guide.png": {
+      "key": "credit-studio/media/e540f35645e23be1fb6429a017520ee6e98d772fcc26ea33a14a002ac35c1f7f.png",
+      "sha256": "e540f35645e23be1fb6429a017520ee6e98d772fcc26ea33a14a002ac35c1f7f",
+      "size": 1250129,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sheets/purchase-props.png": {
+      "key": "credit-studio/media/7f6813e33907bf1017f3751bc538fe26f3a038d537d358308f801838ecb5d6d4.png",
+      "sha256": "7f6813e33907bf1017f3751bc538fe26f3a038d537d358308f801838ecb5d6d4",
+      "size": 1247226,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sources/alex-actions-original.png": {
+      "key": "credit-studio/media/2dc9721ddffa24731f14186ff86b15a03ff5c8b7fe085a42eb90f76dfcde421d.png",
+      "sha256": "2dc9721ddffa24731f14186ff86b15a03ff5c8b7fe085a42eb90f76dfcde421d",
+      "size": 1704820,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sources/planning-props-original.png": {
+      "key": "credit-studio/media/ad2d2b6cff29682fe73f4ee02b3026de892c16f9ecf249f11199eb1cf15298e8.png",
+      "sha256": "ad2d2b6cff29682fe73f4ee02b3026de892c16f9ecf249f11199eb1cf15298e8",
+      "size": 1428412,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/images/sources/purchase-props-original.png": {
+      "key": "credit-studio/media/b3a849e184a04b1422e9ad3b3cb849d957dba4826371328beb419edc4e108f57.png",
+      "sha256": "b3a849e184a04b1422e9ad3b3cb849d957dba4826371328beb419edc4e108f57",
+      "size": 1941908,
+      "type": "image/png"
+    },
+    "videos/002-monthly-payment-trap/review/voiceover.mp3": {
+      "key": "credit-studio/media/48899704f7399d0d115022c4d362bf01b321006f763e485f7ae3ec6e80245105.mp3",
+      "sha256": "48899704f7399d0d115022c4d362bf01b321006f763e485f7ae3ec6e80245105",
+      "size": 11892716,
+      "type": "audio/mpeg"
+    },
+    "videos/003-car-payment-trap/audio/tts_20261022_115123_7124d9.wav": {
+      "key": "credit-studio/media/e0d47280389d7f6592b3bd6bed5f1b41389b29088da07c14522ac13258888938.wav",
+      "sha256": "e0d47280389d7f6592b3bd6bed5f1b41389b29088da07c14522ac13258888938",
+      "size": 25065644,
+      "type": "audio/x-wav"
+    },
+    "videos/003-car-payment-trap/exports/full-review-v01.mp4": {
+      "key": "credit-studio/media/73bcec8142e0d7d4ace61f1313618998346d793d9aba7e43f7ee757275c79237.mp4",
+      "sha256": "73bcec8142e0d7d4ace61f1313618998346d793d9aba7e43f7ee757275c79237",
+      "size": 42799984,
+      "type": "video/mp4"
+    },
+    "videos/003-car-payment-trap/images/cutouts/alex-compare-offers.png": {
+      "key": "credit-studio/media/8d10ef7d8d83c8f6905f3725fc80844ba7708995e272992d0f39e6a38af1155f.png",
+      "sha256": "8d10ef7d8d83c8f6905f3725fc80844ba7708995e272992d0f39e6a38af1155f",
+      "size": 311410,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/alex-explain-car.png": {
+      "key": "credit-studio/media/5be0510ee37f22dcd7ac24f9344ce84b849e428fadf4d32e9fa7fb64405c6b30.png",
+      "sha256": "5be0510ee37f22dcd7ac24f9344ce84b849e428fadf4d32e9fa7fb64405c6b30",
+      "size": 322610,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/alex-keys.png": {
+      "key": "credit-studio/media/8279ca244be85de0f9a482fb56fab9140d8b638839b60d4ea2bc16de5ee78afb.png",
+      "sha256": "8279ca244be85de0f9a482fb56fab9140d8b638839b60d4ea2bc16de5ee78afb",
+      "size": 325699,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/alex-phone-quote.png": {
+      "key": "credit-studio/media/ac8109658b997ad61ec5979ef06b96f703e914bd30e20c5620cfda061ddd770e.png",
+      "sha256": "ac8109658b997ad61ec5979ef06b96f703e914bd30e20c5620cfda061ddd770e",
+      "size": 306253,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/auto-insurance.png": {
+      "key": "credit-studio/media/9a8261b143469916b22cbf6827442e13f64ed0e23d660b408933aa1b517c1ab0.png",
+      "sha256": "9a8261b143469916b22cbf6827442e13f64ed0e23d660b408933aa1b517c1ab0",
+      "size": 143510,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/car-keys.png": {
+      "key": "credit-studio/media/875d9d9f544ec033547535f48f835352dcf1dd91ebdf0090e71582fc54450960.png",
+      "sha256": "875d9d9f544ec033547535f48f835352dcf1dd91ebdf0090e71582fc54450960",
+      "size": 136239,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/fuel-pump.png": {
+      "key": "credit-studio/media/28ac138ce0cf680c55359993cb395615f296375419ce88ecf479cf23afc894ce.png",
+      "sha256": "28ac138ce0cf680c55359993cb395615f296375419ce88ecf479cf23afc894ce",
+      "size": 151795,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/loan-folder.png": {
+      "key": "credit-studio/media/6d4098efb412d15276651df769c0df20ccb92305245bac1a70295cc5034b9302.png",
+      "sha256": "6d4098efb412d15276651df769c0df20ccb92305245bac1a70295cc5034b9302",
+      "size": 170617,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/offer-sheet.png": {
+      "key": "credit-studio/media/ac949ae02e8e110930d8ac2db435a0f111c68d1b6894ea472cde3664fa71163a.png",
+      "sha256": "ac949ae02e8e110930d8ac2db435a0f111c68d1b6894ea472cde3664fa71163a",
+      "size": 141315,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/red-sedan.png": {
+      "key": "credit-studio/media/ee953095ca91fb73bc113ee354e51cc9e9ab36bd988635146a8d5e0559918467.png",
+      "sha256": "ee953095ca91fb73bc113ee354e51cc9e9ab36bd988635146a8d5e0559918467",
+      "size": 166016,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/teal-sedan.png": {
+      "key": "credit-studio/media/7db5a194a456987acd1fda7a746f3cfc65612ade7e5bff18dface671390d5975.png",
+      "sha256": "7db5a194a456987acd1fda7a746f3cfc65612ade7e5bff18dface671390d5975",
+      "size": 165589,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/cutouts/trade-in-envelope.png": {
+      "key": "credit-studio/media/d869244a1c33f3cb422774a1067ff87a1f1187fcdd3436ccc92edcc3b91e7908.png",
+      "sha256": "d869244a1c33f3cb422774a1067ff87a1f1187fcdd3436ccc92edcc3b91e7908",
+      "size": 166014,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/01a.png": {
+      "key": "credit-studio/media/d2fcbd38b45ade5d7228c37c8d16d8b8b4110a988f7c5afbc5e32c81c34fd153.png",
+      "sha256": "d2fcbd38b45ade5d7228c37c8d16d8b8b4110a988f7c5afbc5e32c81c34fd153",
+      "size": 1735646,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/02a.png": {
+      "key": "credit-studio/media/958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0.png",
+      "sha256": "958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0",
+      "size": 1565839,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/03a.png": {
+      "key": "credit-studio/media/765bf3c77696aaecce0e90008820ee4346479368f82eae12ec5213336a49ecde.png",
+      "sha256": "765bf3c77696aaecce0e90008820ee4346479368f82eae12ec5213336a49ecde",
+      "size": 1726474,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/04a.png": {
+      "key": "credit-studio/media/3f0329abd1731b3794f74281ae195d6bea2b7d4f587ae87e30bb005cef5c7449.png",
+      "sha256": "3f0329abd1731b3794f74281ae195d6bea2b7d4f587ae87e30bb005cef5c7449",
+      "size": 1743486,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/05a.png": {
+      "key": "credit-studio/media/4228cce60e0131f76e0e5235e27dd8256595ecba6f004d0558b96cb1ae2e7b9e.png",
+      "sha256": "4228cce60e0131f76e0e5235e27dd8256595ecba6f004d0558b96cb1ae2e7b9e",
+      "size": 1579755,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/06a.png": {
+      "key": "credit-studio/media/3179881a528a53546e46cc24e4130dfec1bfdf2a2223e6a4dd9dc91ae18f0a9d.png",
+      "sha256": "3179881a528a53546e46cc24e4130dfec1bfdf2a2223e6a4dd9dc91ae18f0a9d",
+      "size": 1595048,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/07a.png": {
+      "key": "credit-studio/media/206edf1579436524b08cee8e92d8d97742072e4c2248d5d94c7fd86384dd5553.png",
+      "sha256": "206edf1579436524b08cee8e92d8d97742072e4c2248d5d94c7fd86384dd5553",
+      "size": 1586618,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/illustrations/08a.png": {
+      "key": "credit-studio/media/d54128cb1f90f88fb94fb69b557b5371912b2d381a880f4a389bbfb7d2ee5234.png",
+      "sha256": "d54128cb1f90f88fb94fb69b557b5371912b2d381a880f4a389bbfb7d2ee5234",
+      "size": 1988764,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/originals/alex-car-actions.png": {
+      "key": "credit-studio/media/c6b196cb487376ac2981b8e70088de35275e43e32863b405e0fbc7fd9aa7cd01.png",
+      "sha256": "c6b196cb487376ac2981b8e70088de35275e43e32863b405e0fbc7fd9aa7cd01",
+      "size": 1775423,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/originals/car-props.png": {
+      "key": "credit-studio/media/8bab0f5d83944ac134c609c77622d36bcc4d8c83e401292ddaffff7aa068bb0e.png",
+      "sha256": "8bab0f5d83944ac134c609c77622d36bcc4d8c83e401292ddaffff7aa068bb0e",
+      "size": 1009693,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/reused/calendar.png": {
+      "key": "credit-studio/media/99b9184df96606bd5d41284ce15db9a98559a6ff690de243968626b84c2aa4f2.png",
+      "sha256": "99b9184df96606bd5d41284ce15db9a98559a6ff690de243968626b84c2aa4f2",
+      "size": 164569,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/reused/cash-stack.png": {
+      "key": "credit-studio/media/9da3ec9613c85aab071c591cd6a389a6d9870abfd85e7d4300e797ddbda5d407.png",
+      "sha256": "9da3ec9613c85aab071c591cd6a389a6d9870abfd85e7d4300e797ddbda5d407",
+      "size": 154855,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/reused/clock.png": {
+      "key": "credit-studio/media/ba384342c68510125448f1846387e385e5455c62b5ca2699d661a66513d83cab.png",
+      "sha256": "ba384342c68510125448f1846387e385e5455c62b5ca2699d661a66513d83cab",
+      "size": 127536,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/reused/comparison-cards.png": {
+      "key": "credit-studio/media/fcb90670777b9a3b3441270a717da0ddfa73d89fe82e37ba1e0df80787579ab7.png",
+      "sha256": "fcb90670777b9a3b3441270a717da0ddfa73d89fe82e37ba1e0df80787579ab7",
+      "size": 141043,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/reused/savings-jar.png": {
+      "key": "credit-studio/media/fd355c15e90650c369865d168ae8157175ba4812fc27947f07b5e358a727dccf.png",
+      "sha256": "fd355c15e90650c369865d168ae8157175ba4812fc27947f07b5e358a727dccf",
+      "size": 131731,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/reused/wrench.png": {
+      "key": "credit-studio/media/f3f0e749f4c8213f2154acf195c8dd665d06924c9b9586d7a053302b498d1ad9.png",
+      "sha256": "f3f0e749f4c8213f2154acf195c8dd665d06924c9b9586d7a053302b498d1ad9",
+      "size": 64329,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/01a.png": {
+      "key": "credit-studio/media/9a032821eb7dc5b8b4db15840d90e9488eec347bb192e841c16b6042ea3b6a3f.png",
+      "sha256": "9a032821eb7dc5b8b4db15840d90e9488eec347bb192e841c16b6042ea3b6a3f",
+      "size": 1621564,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/01b.png": {
+      "key": "credit-studio/media/ca3ffaba34850371dcecd150281091dc856757f707974466b3881cda96fc1908.png",
+      "sha256": "ca3ffaba34850371dcecd150281091dc856757f707974466b3881cda96fc1908",
+      "size": 242180,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/02a.png": {
+      "key": "credit-studio/media/c8e41aa0ee0de9fd60fac8ef88effdcb9d9347da8eedd8d229e8fe31ff78a357.png",
+      "sha256": "c8e41aa0ee0de9fd60fac8ef88effdcb9d9347da8eedd8d229e8fe31ff78a357",
+      "size": 1400355,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/02b.png": {
+      "key": "credit-studio/media/723cf891b66256a326550546914e3bbed76f4741e20022973e581a02da89d0cb.png",
+      "sha256": "723cf891b66256a326550546914e3bbed76f4741e20022973e581a02da89d0cb",
+      "size": 287777,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/03a.png": {
+      "key": "credit-studio/media/01543a804705cdde7427208e4e9c2c4422555ed0b7be30332edf16915e9a78d9.png",
+      "sha256": "01543a804705cdde7427208e4e9c2c4422555ed0b7be30332edf16915e9a78d9",
+      "size": 1484260,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/03b.png": {
+      "key": "credit-studio/media/3c6f603596c4b1f28f601189cdf5d9da47842f36ac8587b8c70af477981d346b.png",
+      "sha256": "3c6f603596c4b1f28f601189cdf5d9da47842f36ac8587b8c70af477981d346b",
+      "size": 230442,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/04a.png": {
+      "key": "credit-studio/media/d6f44cd5056019e05473a0177427b8c613e948c3b2e3bb28a41b795b78f020e8.png",
+      "sha256": "d6f44cd5056019e05473a0177427b8c613e948c3b2e3bb28a41b795b78f020e8",
+      "size": 1489374,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/04b.png": {
+      "key": "credit-studio/media/4fd87c2c6baa1e0ed585e9b98f47d612226f7666d6ada4ed1267ed2b075d299e.png",
+      "sha256": "4fd87c2c6baa1e0ed585e9b98f47d612226f7666d6ada4ed1267ed2b075d299e",
+      "size": 318303,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/05a.png": {
+      "key": "credit-studio/media/e877c8ceefd11676ab2e2b9cac326ce3973fce3c95a1c77ed1ae9f43da5fa661.png",
+      "sha256": "e877c8ceefd11676ab2e2b9cac326ce3973fce3c95a1c77ed1ae9f43da5fa661",
+      "size": 1440856,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/05b.png": {
+      "key": "credit-studio/media/db37558bcad8a31a988e75da581b7ed004d9aa33e8eb839bd92d6d7ce19c8f9e.png",
+      "sha256": "db37558bcad8a31a988e75da581b7ed004d9aa33e8eb839bd92d6d7ce19c8f9e",
+      "size": 240252,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/06a.png": {
+      "key": "credit-studio/media/5ab902a824e26014e1e80456379d28ef12dfeefdcf5395b0af91fe7abe245ccc.png",
+      "sha256": "5ab902a824e26014e1e80456379d28ef12dfeefdcf5395b0af91fe7abe245ccc",
+      "size": 1427501,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/06b.png": {
+      "key": "credit-studio/media/db4d942245171e558a76e9210bca4cd6c956fa023f878bb8014aefb864813c5a.png",
+      "sha256": "db4d942245171e558a76e9210bca4cd6c956fa023f878bb8014aefb864813c5a",
+      "size": 213881,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/07a.png": {
+      "key": "credit-studio/media/37af7ea00374f33187a84a849e3ded674f8d68f0f054625d3d68429da57342ee.png",
+      "sha256": "37af7ea00374f33187a84a849e3ded674f8d68f0f054625d3d68429da57342ee",
+      "size": 1513298,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/07b.png": {
+      "key": "credit-studio/media/9936b64ccf4493ffbfed8f47335fbded939cbc5dc94bdc7c3fde53e0afa78ad8.png",
+      "sha256": "9936b64ccf4493ffbfed8f47335fbded939cbc5dc94bdc7c3fde53e0afa78ad8",
+      "size": 240843,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/08a.png": {
+      "key": "credit-studio/media/499f9106dbd68c8670d5ab01f941c61ed2e07fe86dc968244931294130b01981.png",
+      "sha256": "499f9106dbd68c8670d5ab01f941c61ed2e07fe86dc968244931294130b01981",
+      "size": 1766029,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/scenes/08b.png": {
+      "key": "credit-studio/media/1ee4608a490a137f35f7015b8d4a472527e6c8716bb596263ebc1ddd0c30857e.png",
+      "sha256": "1ee4608a490a137f35f7015b8d4a472527e6c8716bb596263ebc1ddd0c30857e",
+      "size": 319848,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/sheets/alex-actions-guide.png": {
+      "key": "credit-studio/media/e133639ecb517c631266f8510600c4bb8cbdafdc7f32da25b830ab7722cca8f5.png",
+      "sha256": "e133639ecb517c631266f8510600c4bb8cbdafdc7f32da25b830ab7722cca8f5",
+      "size": 913635,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/sheets/alex-actions.png": {
+      "key": "credit-studio/media/938012adce4f31854f568ba28b47cf7b4113ff6cd6ea1fa7c86636ec23293cd1.png",
+      "sha256": "938012adce4f31854f568ba28b47cf7b4113ff6cd6ea1fa7c86636ec23293cd1",
+      "size": 897250,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/sheets/car-props-guide.png": {
+      "key": "credit-studio/media/4b130c40eeb5fac9078a93825b2bb9f620ae2657b212a1dbeccc31d3a7e6293c.png",
+      "sha256": "4b130c40eeb5fac9078a93825b2bb9f620ae2657b212a1dbeccc31d3a7e6293c",
+      "size": 919622,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/images/sheets/car-props.png": {
+      "key": "credit-studio/media/42c7c575218fdd59bfbad0570ef8b0e0648432e71d67cfbae1f5d8c9f17926c6.png",
+      "sha256": "42c7c575218fdd59bfbad0570ef8b0e0648432e71d67cfbae1f5d8c9f17926c6",
+      "size": 900394,
+      "type": "image/png"
+    },
+    "videos/003-car-payment-trap/review/voiceover.mp3": {
+      "key": "credit-studio/media/d926cbfec23d873245c26be5c921c85d1fcf56349031c1dea88c395403e4fd96.mp3",
+      "sha256": "d926cbfec23d873245c26be5c921c85d1fcf56349031c1dea88c395403e4fd96",
+      "size": 12534380,
+      "type": "audio/mpeg"
+    },
+    "videos/004-living-alone/audio/tts_20261022_133142_ba54ee.wav": {
+      "key": "credit-studio/media/10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d.wav",
+      "sha256": "10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d",
+      "size": 27720044,
+      "type": "audio/x-wav"
+    },
+    "videos/004-living-alone/exports/full-review-v01.mp4": {
+      "key": "credit-studio/media/76c1cf191f35563ef717fbe93fe85f9a61c4d18099743fc06f20f09f7697d5f9.mp4",
+      "sha256": "76c1cf191f35563ef717fbe93fe85f9a61c4d18099743fc06f20f09f7697d5f9",
+      "size": 65516385,
+      "type": "video/mp4"
+    },
+    "videos/004-living-alone/images/cutouts/apartment.png": {
+      "key": "credit-studio/media/c8db5db7199142757b6af514fb4e9270f94a3a129fc199d760ec985fd1083f10.png",
+      "sha256": "c8db5db7199142757b6af514fb4e9270f94a3a129fc199d760ec985fd1083f10",
+      "size": 287837,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/armchair.png": {
+      "key": "credit-studio/media/9d0b16d2fa1809ebf1123f6ac89fc1dfb931f9cac0defe82fb988853790aa001.png",
+      "sha256": "9d0b16d2fa1809ebf1123f6ac89fc1dfb931f9cac0defe82fb988853790aa001",
+      "size": 134893,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/bills.png": {
+      "key": "credit-studio/media/e515d33a778274eb1b53ddeacc015224ac53cec11c2d959b8450a916e9fa5f11.png",
+      "sha256": "e515d33a778274eb1b53ddeacc015224ac53cec11c2d959b8450a916e9fa5f11",
+      "size": 161687,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/calculator.png": {
+      "key": "credit-studio/media/a4d1e90b2676e8b2083395776340e9b4e948a4157b8057b968ac1e2bfa8c0493.png",
+      "sha256": "a4d1e90b2676e8b2083395776340e9b4e948a4157b8057b968ac1e2bfa8c0493",
+      "size": 95035,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/calendar.png": {
+      "key": "credit-studio/media/38f6e40c6d9c86c92c447c7ccdb13475d3c80411f4899b1c9aaf15799a0577b5.png",
+      "sha256": "38f6e40c6d9c86c92c447c7ccdb13475d3c80411f4899b1c9aaf15799a0577b5",
+      "size": 166777,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/deposit.png": {
+      "key": "credit-studio/media/453f10a949884ed2a2322b2f8f90bdeebdea711b6e6fbafbd1413aa819e241b1.png",
+      "sha256": "453f10a949884ed2a2322b2f8f90bdeebdea711b6e6fbafbd1413aa819e241b1",
+      "size": 96564,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/fridge.png": {
+      "key": "credit-studio/media/05e5af2f713d03f405c0e914d68c03ae3f0033186a3c82f69f0b6d0aa6753b6a.png",
+      "sha256": "05e5af2f713d03f405c0e914d68c03ae3f0033186a3c82f69f0b6d0aa6753b6a",
+      "size": 152778,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/groceries.png": {
+      "key": "credit-studio/media/88ec9141e07539a3aa380a12ea8b168bce3d587917f951fb6244e3c6e0f89337.png",
+      "sha256": "88ec9141e07539a3aa380a12ea8b168bce3d587917f951fb6244e3c6e0f89337",
+      "size": 221694,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/house-keys.png": {
+      "key": "credit-studio/media/e8fa62b2e71213ec5a915aa41bdb65a2de2bfe95f996c8de002e5f92686a0a11.png",
+      "sha256": "e8fa62b2e71213ec5a915aa41bdb65a2de2bfe95f996c8de002e5f92686a0a11",
+      "size": 164950,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/moving-box.png": {
+      "key": "credit-studio/media/b72c98f4770487ea78cb20df6b122b0d8468c97a4c127fcfc2dd63d90af90598.png",
+      "sha256": "b72c98f4770487ea78cb20df6b122b0d8468c97a4c127fcfc2dd63d90af90598",
+      "size": 186947,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/notebook.png": {
+      "key": "credit-studio/media/3253ef5ac8471bc16384538a129858da4255536c42b0b91943b5180f027a7ae3.png",
+      "sha256": "3253ef5ac8471bc16384538a129858da4255536c42b0b91943b5180f027a7ae3",
+      "size": 132809,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/pay-envelope.png": {
+      "key": "credit-studio/media/96de9fc5a03fb26e896b56b2b31348fd3c868bcfa636e370421b5572ad2889b9.png",
+      "sha256": "96de9fc5a03fb26e896b56b2b31348fd3c868bcfa636e370421b5572ad2889b9",
+      "size": 96776,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/plant.png": {
+      "key": "credit-studio/media/67cea671625ca4bc15d50c0e10f02a98b406ccc03636ff69681bb82c4e1b18b5.png",
+      "sha256": "67cea671625ca4bc15d50c0e10f02a98b406ccc03636ff69681bb82c4e1b18b5",
+      "size": 127267,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/reserve-jar.png": {
+      "key": "credit-studio/media/4ffeb7362a692d6a6bfd9cfb326065a6f5987b26d81f55adc2562b47db1be551.png",
+      "sha256": "4ffeb7362a692d6a6bfd9cfb326065a6f5987b26d81f55adc2562b47db1be551",
+      "size": 132413,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/router.png": {
+      "key": "credit-studio/media/0059ccd85fd8893d89f22854a918b8a6b019c25c22f695fa85cdbf1df76a29a9.png",
+      "sha256": "0059ccd85fd8893d89f22854a918b8a6b019c25c22f695fa85cdbf1df76a29a9",
+      "size": 124275,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/cutouts/support-phone.png": {
+      "key": "credit-studio/media/2a3b42362cbe23e58e69ddc60144c2664463c8cc6be340ced7405ddf1a38101e.png",
+      "sha256": "2a3b42362cbe23e58e69ddc60144c2664463c8cc6be340ced7405ddf1a38101e",
+      "size": 91190,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/01a.png": {
+      "key": "credit-studio/media/1bc30d04383a8c9c674f9ec3d0c256c5543c0e2d781ea64b5735ef94d92a5fc9.png",
+      "sha256": "1bc30d04383a8c9c674f9ec3d0c256c5543c0e2d781ea64b5735ef94d92a5fc9",
+      "size": 2696724,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/02a.png": {
+      "key": "credit-studio/media/a1bd41938cc5be79b56ac622a9a9b7e97a3d668781a1a8f72fdde14fa76a9b55.png",
+      "sha256": "a1bd41938cc5be79b56ac622a9a9b7e97a3d668781a1a8f72fdde14fa76a9b55",
+      "size": 2802614,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/03a.png": {
+      "key": "credit-studio/media/f1c71c298ef901d816edb8e1a3de231db70e39e25f2264d573e160e0a535203e.png",
+      "sha256": "f1c71c298ef901d816edb8e1a3de231db70e39e25f2264d573e160e0a535203e",
+      "size": 2801865,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/04a.png": {
+      "key": "credit-studio/media/e3523170987b64cddd3e5e081fb0a5edca25becfcf257ac36f89f6e82635b577.png",
+      "sha256": "e3523170987b64cddd3e5e081fb0a5edca25becfcf257ac36f89f6e82635b577",
+      "size": 2656800,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/05a.png": {
+      "key": "credit-studio/media/79d68046a58b0e29274668a56a2dca7876071335f5cbdebd74eaaab4eea9a107.png",
+      "sha256": "79d68046a58b0e29274668a56a2dca7876071335f5cbdebd74eaaab4eea9a107",
+      "size": 2733517,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/06a.png": {
+      "key": "credit-studio/media/b0f97d95a0c0d4480a1356c73e121f27e6a335f4fdec83a693574951bcc7b5de.png",
+      "sha256": "b0f97d95a0c0d4480a1356c73e121f27e6a335f4fdec83a693574951bcc7b5de",
+      "size": 2814324,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/07a.png": {
+      "key": "credit-studio/media/f53e30be7af1881e6a87045ad59a5840652738f934a4ff004fb7f7a1100a1620.png",
+      "sha256": "f53e30be7af1881e6a87045ad59a5840652738f934a4ff004fb7f7a1100a1620",
+      "size": 2823473,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/illustrations/08a.png": {
+      "key": "credit-studio/media/3a01cbf862aab575985ba18d22c71f496b5c1f363fd02c60b0460d7183f69edc.png",
+      "sha256": "3a01cbf862aab575985ba18d22c71f496b5c1f363fd02c60b0460d7183f69edc",
+      "size": 2939582,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/originals/household.png": {
+      "key": "credit-studio/media/0198ba7ed957b5eaf5419633c9fea656bc2724c4e085739fa290a7e06ec695cf.png",
+      "sha256": "0198ba7ed957b5eaf5419633c9fea656bc2724c4e085739fa290a7e06ec695cf",
+      "size": 1975535,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/originals/planning.png": {
+      "key": "credit-studio/media/1b38c046202cc206f22c1cbc88e3be4d37dae0eb5e5b986154a4f7b1fea52bb7.png",
+      "sha256": "1b38c046202cc206f22c1cbc88e3be4d37dae0eb5e5b986154a4f7b1fea52bb7",
+      "size": 1662830,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/01a.png": {
+      "key": "credit-studio/media/b8948ce837193ba77368cf529f4055423a5ecdbd1dae25c5efc6c90267789a55.png",
+      "sha256": "b8948ce837193ba77368cf529f4055423a5ecdbd1dae25c5efc6c90267789a55",
+      "size": 2022361,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/01b.png": {
+      "key": "credit-studio/media/8561b35bddf70e6c184d78704a459a91d65448368121156f84c1159365bc64a7.png",
+      "sha256": "8561b35bddf70e6c184d78704a459a91d65448368121156f84c1159365bc64a7",
+      "size": 299484,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/02a.png": {
+      "key": "credit-studio/media/21efca82f3ecd03f7f89533dc84c4224118b091d1643256e137cfee1f0d33126.png",
+      "sha256": "21efca82f3ecd03f7f89533dc84c4224118b091d1643256e137cfee1f0d33126",
+      "size": 2070917,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/02b.png": {
+      "key": "credit-studio/media/0be8116cab643d3f185778da3a88f646fc96b97cb1b1626ce33a8b5c85940373.png",
+      "sha256": "0be8116cab643d3f185778da3a88f646fc96b97cb1b1626ce33a8b5c85940373",
+      "size": 245192,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/03a.png": {
+      "key": "credit-studio/media/c39321554671e635dece756c9a537bc18b1afd5188fd961e9693183b51791bbf.png",
+      "sha256": "c39321554671e635dece756c9a537bc18b1afd5188fd961e9693183b51791bbf",
+      "size": 2094870,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/03b.png": {
+      "key": "credit-studio/media/ffdd9def4ea78106c6f49be7e0bdc69652587a436b282e81c1c9f5849a2ffe5c.png",
+      "sha256": "ffdd9def4ea78106c6f49be7e0bdc69652587a436b282e81c1c9f5849a2ffe5c",
+      "size": 179015,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/04a.png": {
+      "key": "credit-studio/media/7cb0df5ad0c5534859863dbde25386fd129b12e46989f9e3ea0a4b1b350d7a5e.png",
+      "sha256": "7cb0df5ad0c5534859863dbde25386fd129b12e46989f9e3ea0a4b1b350d7a5e",
+      "size": 1965813,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/04b.png": {
+      "key": "credit-studio/media/c794e22c1e784bcf431c316c8c68083bd1b91e24af9c702cdb599489a1e75789.png",
+      "sha256": "c794e22c1e784bcf431c316c8c68083bd1b91e24af9c702cdb599489a1e75789",
+      "size": 281677,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/05a.png": {
+      "key": "credit-studio/media/b2b62f3bab819b817ceeeac871e66d03988a4ebb21cb2c20814fb6287238845e.png",
+      "sha256": "b2b62f3bab819b817ceeeac871e66d03988a4ebb21cb2c20814fb6287238845e",
+      "size": 2006960,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/05b.png": {
+      "key": "credit-studio/media/79b25f2c031a0d76a03b91fc2ba5a1b95330b3fe93b28cf65b379dd1cae1bf3b.png",
+      "sha256": "79b25f2c031a0d76a03b91fc2ba5a1b95330b3fe93b28cf65b379dd1cae1bf3b",
+      "size": 325987,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/06a.png": {
+      "key": "credit-studio/media/5096ade2f3277732ef96b796d1e5dbc0bfb13584160521952b459509847f5382.png",
+      "sha256": "5096ade2f3277732ef96b796d1e5dbc0bfb13584160521952b459509847f5382",
+      "size": 2077294,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/06b.png": {
+      "key": "credit-studio/media/ff198d4d15fafa52374041a8a544fe903cb293a61a1e36af69080bec3d2ab0a2.png",
+      "sha256": "ff198d4d15fafa52374041a8a544fe903cb293a61a1e36af69080bec3d2ab0a2",
+      "size": 327814,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/07a.png": {
+      "key": "credit-studio/media/721a4f0b5af0cc1a32f6e935df8c4b3de0b88b7cfbd1b15f9cbfaa3d3a0f5a3c.png",
+      "sha256": "721a4f0b5af0cc1a32f6e935df8c4b3de0b88b7cfbd1b15f9cbfaa3d3a0f5a3c",
+      "size": 2027410,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/07b.png": {
+      "key": "credit-studio/media/09d9f20ec0e43d5bd2b11eac190f5d1635f6f20abc01e14e3d0bf0a93624f81a.png",
+      "sha256": "09d9f20ec0e43d5bd2b11eac190f5d1635f6f20abc01e14e3d0bf0a93624f81a",
+      "size": 281759,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/08a.png": {
+      "key": "credit-studio/media/16a0d063fe6a5b1e35e599c10e36cdbd07461b0760b2d1e3d49f26959c32f441.png",
+      "sha256": "16a0d063fe6a5b1e35e599c10e36cdbd07461b0760b2d1e3d49f26959c32f441",
+      "size": 2173584,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/scenes/08b.png": {
+      "key": "credit-studio/media/e260aeadab73b7aafb485ca8a0bcce853e29c3486beac3eb5bdaf7292b7de41f.png",
+      "sha256": "e260aeadab73b7aafb485ca8a0bcce853e29c3486beac3eb5bdaf7292b7de41f",
+      "size": 239264,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/sheets/household-guide.png": {
+      "key": "credit-studio/media/74440461e27f513ede2fafce2810da68e9017098c864eeda7a1f2b642db42b27.png",
+      "sha256": "74440461e27f513ede2fafce2810da68e9017098c864eeda7a1f2b642db42b27",
+      "size": 890870,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/sheets/household.png": {
+      "key": "credit-studio/media/03e79a075e5230948eb536af0106d77e35524031a8071c69de6fd5738a0ca244.png",
+      "sha256": "03e79a075e5230948eb536af0106d77e35524031a8071c69de6fd5738a0ca244",
+      "size": 928599,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/sheets/planning-guide.png": {
+      "key": "credit-studio/media/3e64887a771f2d7aca5f86b081150cd88da6435c6ba2c5a8bb83e1f921897254.png",
+      "sha256": "3e64887a771f2d7aca5f86b081150cd88da6435c6ba2c5a8bb83e1f921897254",
+      "size": 835187,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/images/sheets/planning.png": {
+      "key": "credit-studio/media/b021b9b70bda1037fdb5f105c4e59319fb4602628c99afdcb8c74c84c14d4579.png",
+      "sha256": "b021b9b70bda1037fdb5f105c4e59319fb4602628c99afdcb8c74c84c14d4579",
+      "size": 856957,
+      "type": "image/png"
+    },
+    "videos/004-living-alone/review/voiceover.mp3": {
+      "key": "credit-studio/media/3676d27fc321760751d3a2c5514ab429f81d2a2904c2b31773885cf178569b3d.mp3",
+      "sha256": "3676d27fc321760751d3a2c5514ab429f81d2a2904c2b31773885cf178569b3d",
+      "size": 13861484,
       "type": "audio/mpeg"
     }
   }

@@ -1,0 +1,24 @@
+name: Copy and verify media on R2
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  copy-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL || vars.R2_ENDPOINT_URL }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET || vars.R2_BUCKET || 'credit-studio' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy without overwriting existing media
+        run: python3 tools/r2-storage.py sync
+      - name: Download and verify every media SHA-256
+        run: python3 tools/r2-storage.py verify
+      - name: Configure Studio CORS if permitted
+        id: cors
+        continue-on-error: true
+        run: python3 tools/r2-storage.py cors
