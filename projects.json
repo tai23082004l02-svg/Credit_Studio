@@ -80,13 +80,14 @@
       "name": "Could Elon Musk Buy a Country?",
       "description": "Musk và Bồ Đào Nha · Bối cảnh minh họa · 55 cảnh /8 phút55,525 giây",
       "kind": "video",
-      "status": "Hình ảnh và bản dựng có audio v01 · MP4 đang xuất",
+      "status": "Hình ảnh và bản duyệt đầy đủ v01 chờ góp ý",
       "createdAt": "2026-10-23T00:00:00.000Z",
       "defaultVideo": "videos/006-musk-buy-a-country/review/project.json",
       "gallery": "videos/006-musk-buy-a-country/",
       "script": "videos/006-musk-buy-a-country/script.md",
       "audio": "videos/006-musk-buy-a-country/audio/tts_20261023_125715_dda159.wav",
-      "cover": "videos/006-musk-buy-a-country/images/scenes/01-musk-001.png"
+      "cover": "videos/006-musk-buy-a-country/images/scenes/01-musk-001.png",
+      "review": "videos/006-musk-buy-a-country/exports/full-review-v01.mp4"
     }
   ]
 }

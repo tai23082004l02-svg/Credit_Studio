@@ -1,12 +1,12 @@
 {
-  "phase": "complete visual assets and audio-timed editable build; MP4 render in progress",
+  "phase": "complete visual assets and narrated full MP4 v01",
   "generatedScenicBackgrounds": 7,
   "muskPoses": 4,
   "nativeMap": 1,
   "actualTimelineFramePreviews": 13,
   "gallery": {
     "passed": true,
-    "base": "http://127.0.0.1:8000",
+    "base": "https://tai23082004l02-svg.github.io/Credit_Studio",
     "sceneFrames": 13,
     "backgrounds": 7,
     "cutouts": 5,
@@ -15,6 +15,7 @@
     "transparentPNGDownloadHash": true,
     "opensExactTimelineClip": true,
     "currentDraftPreserved": true,
+    "backupDownload": true,
     "audioPlayback": true,
     "mobile": true,
     "errors": []
@@ -111,7 +112,8 @@
     "previewsRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39914179416",
     "authenticatedAndPublicFullSHA256": true,
     "rangeCors": true,
-    "registeredEpisodeMedia": 28
+    "registeredEpisodeMedia": 29,
+    "mp4Run": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39915797680"
   },
   "preservation": {
     "oldManifestEntriesUnchanged": 208,
@@ -120,5 +122,6 @@
     "scriptAndNarrationAndFactsUnchanged": true,
     "catalogByteIdentical": true,
     "originalWavSHA256": "c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5"
-  }
+  },
+  "mp4Validation": "../review/validation.json"
 }

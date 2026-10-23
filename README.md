@@ -20,7 +20,7 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 [Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt chuyển động v03 dài 8 phút 06,75 giây (88 cảnh), 20 thiết kế ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-chuyển-động-v03-hiện-tại).
 
-Video mới nhất: [Your Mortgage Payment Is Only the Beginning — bản duyệt v01](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005), **88 cảnh /9 phút 26,45 giây**, Jamie và đồ họa động Times New Roman; [bản chỉnh được](videos/005-mortgage-payment/review/project.json). Mẫu cũ đã chỉnh được lưu vào lịch sử trước khi nâng cấp; giữ sửa hiện tại trên review. WAV/MP3/MP4/cover mới được lưu R2 và xác minh SHA-256, không đưa file lớn vào main.
+Video 005: [Your Mortgage Payment Is Only the Beginning — bản duyệt v01](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005), **88 cảnh /9 phút 26,45 giây**, Jamie và đồ họa động Times New Roman; [bản chỉnh được](videos/005-mortgage-payment/review/project.json). Mẫu cũ đã chỉnh được lưu vào lịch sử trước khi nâng cấp; giữ sửa hiện tại trên review. WAV/MP3/MP4/cover mới được lưu R2 và xác minh SHA-256, không đưa file lớn vào main.
 
 ## Quản lý và lưu dự án
 
@@ -175,4 +175,4 @@ Trong **Chỉnh phần tử → Chuyển động nội dung**, chọn thanh tăn
 
 ## Video thứ sáu — Could Elon Musk Buy a Country?
 
-Đã nhận audio **8 phút55,525 giây** và hoàn thành hình:7 bối cảnh,4 tư thế Musk tách nền,1 bản đồ và13 khung chính từ bản dựng **55 cảnh**. [Mở thư viện hình](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=images) · [Bản dựng có audio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=video) · [Hướng dẫn/nguồn](videos/006-musk-buy-a-country/README.md). Musk là đối tượng được nói đến, giọng kể ngoài; bối cảnh thay đổi theo nội dung, chữ Times New Roman. Hình/WAV/MP3 đã lưu và kiểm tra R2; MP4 đang xuất, chưa public.
+Đã nhận audio **8 phút55,525 giây** và hoàn thành hình:7 bối cảnh,4 tư thế Musk tách nền,1 bản đồ và13 khung chính từ bản dựng **55 cảnh**. [Mở thư viện hình](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=images) · [Bản dựng có audio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=video) · [Hướng dẫn/nguồn](videos/006-musk-buy-a-country/README.md). Musk là đối tượng được nói đến, giọng kể ngoài; bối cảnh thay đổi theo nội dung, chữ Times New Roman. Hình/WAV/MP3 và MP4 v01 đã lưu, xác minh R2; bản duyệt đầy đủ1920×1080/30fps, có thể xem trong Tổng quan.

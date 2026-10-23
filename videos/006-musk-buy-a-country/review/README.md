@@ -65,3 +65,7 @@ Một JSON chính; preview trong thư viện lấy từ timeline này, không nh
 | 00:08:22.660 | 00:08:35.300 | FOLLOW THE PROJECT THROUGH TIME. |
 | 00:08:35.300 | 00:08:42.900 | UNDERSTAND THE POSSIBILITIES. |
 | 00:08:42.900 | 00:08:55.525 | WHAT THE NUMBER CAN CHANGE. |
+
+[MP4 v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4) · [Kiểm tra thực tế](validation.json).
+
+Bản xuất H.264/AAC, 16066 khung /535.533333 giây; decode toàn bộ không lỗi. Âm lượng-16.86LUFS /-1.67dBTP; đối chiếu WAV ở10/250/528 giây lệch0 mẫu.

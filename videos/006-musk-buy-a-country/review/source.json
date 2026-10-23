@@ -22,5 +22,6 @@
   "derivedAudioLogicalPath": "videos/006-musk-buy-a-country/review/voiceover.mp3",
   "derivedAudioSHA256": "f5316a02c95420320ced6b0c812a14646524120b2e94a01a2d5938a16c9a6b1a",
   "derivedAudioIntegratedLoudnessLUFS": -16.85,
-  "derivedAudioTruePeakDBTP": -1.67
+  "derivedAudioTruePeakDBTP": -1.67,
+  "exportR2VerificationRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39915797680"
 }

@@ -48,3 +48,7 @@ Việc xóa tệp ở nhánh hiện tại không xóa bản cũ trong lịch s�
 - [videos/005-mortgage-payment/review/voiceover.mp3](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/3cab3bf0967f2f5b364d947e79b774403cceb8116cbcf1985249c2945f8b0f88.mp3) — 11,330,924 byte
 - [videos/005-mortgage-payment/exports/full-review-v01.mp4](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/a7a917bc941d1ba28419b3f552d6a412207d6b076b7c4a133084bb5a32c5cf6e.mp4) — 22,307,386 byte
 - [videos/005-mortgage-payment/review/cover.png](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/8da24aeeb5e4270bff22a3287cab1e2c8420f4d8185bcb81e997719c3ca47e10.png) — 192,250 byte
+
+## Video006 — tài nguyên bối cảnh và bản duyệt
+
+29 media mới gồm WAV/MP3,8 nguồn AI,5 cutout/map,13preview và MP4 được xác minh; manifest hiện237 entry. Giữ toàn bộ208 mapping/sáu pin trước episode. [Bộ hình trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=images) · [MP4 v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4). Phục hồi đúng media qua tools/restore-media.py trước khi dựng lại.

@@ -1,0 +1,374 @@
+{
+  "revision": "musk-scenic-review-v01",
+  "reviewStatus": "pending-user-approval",
+  "mp4": "videos/006-musk-buy-a-country/exports/full-review-v01.mp4",
+  "size": 162974482,
+  "sha256": "5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4",
+  "fullDecode": true,
+  "video": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "nb_frames": "16066",
+    "duration": "535.533333"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 1,
+    "duration": "535.525000"
+  },
+  "loudness": {
+    "input_i": "-16.86",
+    "input_tp": "-1.67",
+    "input_lra": "2.30",
+    "input_thresh": "-27.33",
+    "output_i": "-16.14",
+    "output_tp": "-1.50",
+    "output_lra": "2.40",
+    "output_thresh": "-26.61",
+    "normalization_type": "dynamic",
+    "target_offset": "0.14"
+  },
+  "audioSourceChecks": [
+    {
+      "time": 10,
+      "lagSamplesAt24kHz": 0,
+      "median50msCorrelation": 0.9994946444339805
+    },
+    {
+      "time": 250,
+      "lagSamplesAt24kHz": 0,
+      "median50msCorrelation": 0.9998577608635308
+    },
+    {
+      "time": 528,
+      "lagSamplesAt24kHz": 0,
+      "median50msCorrelation": 0.9998572380338017
+    }
+  ],
+  "layout": {
+    "clips": 55,
+    "duration": 535.5249999999999,
+    "checkedFrames": 3597,
+    "assets": 12,
+    "captions": 149,
+    "audioDuration": 535.525,
+    "financialMotion": true,
+    "subjectOcclusionAndBounds": true,
+    "fonts": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "seekAndPlayback": true,
+    "mobile": true
+  },
+  "preservation": {
+    "oldManifestEntriesUnchanged": 208,
+    "retainedPins": 6,
+    "oldProjectsUnchanged": 5,
+    "scriptAndNarrationAndFactsUnchanged": true,
+    "catalogByteIdentical": true,
+    "originalWavSHA256": "c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5"
+  },
+  "studioDrafts": {
+    "newProjectId": "finance-006",
+    "currentEditsReloadPreserved": true,
+    "galleryLinksExactClip": true,
+    "oldProjectIdsUnchanged": 5
+  },
+  "music": false,
+  "wordTimingLimit": "ASR-assisted, not manual approval of every word",
+  "visualInspection": {
+    "all55SceneContactSheets": true,
+    "actualMP4Frames": [
+      "28.68s GDP",
+      "288.91s one-off payment",
+      "327.6s eight full rounds and72B remainder",
+      "373.48s hospital construction/operations"
+    ],
+    "charactersIntact": true,
+    "noTextOrPanelOcclusion": true,
+    "intentionalScenicCoverCrop": true
+  },
+  "checksPassed": [
+    "19 unit tests",
+    "musk-review:3597 sampled frames",
+    "musk-artwork: public site,26 images,PNG hash,exact scene,edits reload,backup,mobile"
+  ],
+  "publishedArtwork": {
+    "passed": true,
+    "base": "https://tai23082004l02-svg.github.io/Credit_Studio",
+    "sceneFrames": 13,
+    "backgrounds": 7,
+    "cutouts": 5,
+    "totalImages": 26,
+    "allMediaR2": true,
+    "transparentPNGDownloadHash": true,
+    "opensExactTimelineClip": true,
+    "currentDraftPreserved": true,
+    "backupDownload": true,
+    "audioPlayback": true,
+    "mobile": true,
+    "errors": []
+  },
+  "localPublishedSmoke": {
+    "passed": true,
+    "base": "http://127.0.0.1:8000",
+    "cover": {
+      "src": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/366aac423a54eb2777f5b1514a29cf84ef79fb889989dcc97fca0c0ec1c26ec7.png",
+      "width": 1920
+    },
+    "movie": {
+      "src": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+      "duration": 535.533333,
+      "time": 530.224043,
+      "width": 1920,
+      "height": 1080
+    },
+    "editor": {
+      "revision": "musk-scenic-review-v01",
+      "clips": 55,
+      "audio": "blob:http://127.0.0.1:8000/dc5ec36e-eab0-4b26-bba3-6c44e624c2fd",
+      "logicalAudio": "videos/006-musk-buy-a-country/review/voiceover.mp3",
+      "duration": 535.525
+    },
+    "source": {
+      "src": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5.wav",
+      "duration": 535.525
+    },
+    "media": [
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/8da24aeeb5e4270bff22a3287cab1e2c8420f4d8185bcb81e997719c3ca47e10.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/1064d9d47ee32c17d35d438bb8b25b00b9b8f16813ac54cc9ab293f0b1575372.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/9a032821eb7dc5b8b4db15840d90e9488eec347bb192e841c16b6042ea3b6a3f.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/b8948ce837193ba77368cf529f4055423a5ecdbd1dae25c5efc6c90267789a55.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/366aac423a54eb2777f5b1514a29cf84ef79fb889989dcc97fca0c0ec1c26ec7.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/e9beeffff7344e6b7932b49f03e897b52dacb6cbe5a9e3803ac47d30ea199688.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+        "status": 206
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/7e96dcf7698d958d7df61db43201678483a41077a0527519f7695cd9d87e9fda.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/a29af83c853029c7b821d8d5dd387956bfaca5afe72f2989661141a2112be352.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/532b20de96c4adbba8091ba5c7a72d6a0a09ed979e2d1968b1d99691273392f5.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/2d2071aa755abedfc6e76a1be54eadda9d3570e96c0dbfc2a8d60780abc1e036.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/9981e486dac104416ae9bc0963b293e2e8a8ca8908f127ac384b3c1a386e2052.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/9f774b39a525d15fb87495be4e86dc794c44680cea8cb560f94df08350711ad9.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c7e372f1f1a28998166902af4ac31d4d91eda0b1a6578d2503c6e590e4b85f6.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/29861cdab99e9b6b329419764e4d594a0b54039465a577fc7e69c8f9d5324cc1.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/f7c0b69b47b7af1961f095420334f56db23637dd223d0f19383f32ba264d629d.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/55185ce73e98199902ece6d1023e2873af212841b61a529d143a3e69bef171f8.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/806a2e5389b60942bba77f6d04d89973bb1e2d6035146ec69bf2d1bb8ab0fd25.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/cd05e6b9abae0000886479a429a7cd1ec9ab0419895332c6ebb3142d04c2bcbf.png",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/f5316a02c95420320ced6b0c812a14646524120b2e94a01a2d5938a16c9a6b1a.mp3",
+        "status": 200
+      },
+      {
+        "url": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5.wav",
+        "status": 206
+      }
+    ],
+    "errors": []
+  },
+  "r2SixProjectRegression": true,
+  "galleryWarmCoverCacheRegression": true
+}

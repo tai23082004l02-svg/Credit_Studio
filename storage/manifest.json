@@ -1424,6 +1424,12 @@
       "sha256": "38d08a5e65bfc48bfa9dac51ae79e6e36433f316a7d65c88fa9517988ca601b9",
       "size": 2946504,
       "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/exports/full-review-v01.mp4": {
+      "key": "credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
+      "sha256": "5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4",
+      "size": 162974482,
+      "type": "video/mp4"
     }
   }
 }

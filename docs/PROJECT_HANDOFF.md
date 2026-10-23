@@ -1,6 +1,18 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
 
+## Video006 — hình và MP4 v01 hoàn chỉnh (2026-10-23)
+
+Đã hoàn thành yêu cầu làm toàn bộ hình theo audio và bản duyệt đầy đủ **55 cảnh /535,525 giây**, revision **musk-scenic-review-v01**, IDfinance-006.7 scenic backgrounds AI,4 Musk cutouts,1 native outlinePortugal mainland,13 khung PNG từ cùng timeline; không thêm thiết kế JSON trùng. Musk chỉ là đối tượng được nói đến, giọng kể ngoài; cảnh theo nội dung, không nền trắng/giấy kem xuyên suốt, Times New Roman native.14 lớp motion nội dung trong11 clip,55 background pans và timed reveals, không nhạc/lip-sync.
+
+MP4 mới `exports/full-review-v01.mp4`: H.264/AAC1920×1080/30fps, **16066 khung /535.533333 giây**, full decode qua; **-16.86LUFS /-1.67dBTP**, tiếng ở10/250/528s lệch0 mẫu và tương quan50ms>0,995 với WAV gốc. Gallery online đã qua26ảnhR2, tảiPNGhash, mở đúngclip, giữ sửa/reload/backup và mobile. MP4 trên R2 đã qua browser tua/phát bảy mốc, editor/audio/canvas và WAV gốc; sáu dự án/five galleries qua regression. Đã sửa cache CORS khi mở gallery sau cover trang chủ, tảiPNG và backup vẫn qua. Kiểm tra lại website sau deploy; kết quả tại review/validation.json và images/validation.json.
+
+Media mới full SHA-256 authenticated và public/Range/CORS verified qua Actions runs39913454802 (nguồn/audio/cutout),39914179416 (13preview) và39915797680 (MP4). Manifest hiện **237 entry**; toàn bộ208 mapping/sáu pin trước episode không đổi. Không commit binary mới, không đưa archive trở lại main hoặc viết lại lịch sử. WAV gốc SHA`c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5`, script/narration/data-snapshot1115 từ,5 dự án cũ/catalog93 giữ nguyên.
+
+Giữ nguyên mốc936B snapshot2026-10-01/GDP2025~346.64B/population2025; GDP không phải wealth/budget/country price. Model108B/round là giả định biên tập all-cash/no-tax/no-return…,8round đủ và72B còn lại, không gán cho chương trình thật của Musk/chính phủ. ASR1068/1115 direct token matches,149cue EN defaultoff, timing không phải duyệt thủ công từng từ.
+
+User có thể xem hình/Studio/MP4 và góp ý nếu muốn; không cần duyệt hình trung gian. Muốn tiếp tục từ sửa IndexedDB phải nhận backup; dùng version mới cho lần xuất tiếp, giữ v01. Các ghi chú “MP4 đang xuất” bên dưới là bước ảnh trước khi hoàn tất bản này.
+
 ## Video006 — toàn bộ hình và bản dựng theo audio v01 (2026-10-23)
 
 Đã nhận WAV `tts_20261023_125715_dda159.wav`, **535,525 giây /25.705.244 byte**, SHA`c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5`; giữ nguyên gốc, gitignore. Tạo MP3 dẫn xuất loudnorm−16,85 LUFS /−1,67dBTP, không cắt/thay tốc độ. Căn ASR1068/1115 từ trực tiếp;149 cue EN mặc định tắt, không coi timing tự động là duyệt thủ công từng từ. Script/narration/data-snapshot vẫn giữ nguyên byte.

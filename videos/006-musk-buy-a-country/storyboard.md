@@ -1,6 +1,6 @@
 # Storyboard ngắn — Musk / Portugal v01
 
-Đã căn theo WAV535,525 giây: **55 cảnh**, timecode tại review/shot-plan.json, một bản chính review/project.json. Thư viện có13 khung lấy từ bản dựng,7 bối cảnh,4 PNG Musk và1 bản đồ; không có vòng duyệt hình trung gian. MP4 đang xuất.
+Đã căn theo WAV535,525 giây: **55 cảnh**, timecode tại review/shot-plan.json, một bản chính review/project.json. Thư viện có13 khung lấy từ bản dựng,7 bối cảnh,4 PNG Musk và1 bản đồ; không có vòng duyệt hình trung gian. MP4 v01 đã xuất, verified và public trên R2.
 
 | Phần | Bối cảnh và hình | Chuyển động/điều kiện |
 | --- | --- | --- |

@@ -1,8 +1,8 @@
 # Video006 — Could Elon Musk Buy a Country?
 
-**Đã hoàn thành toàn bộ hình và bản dựng theo audio v01:55 cảnh /8 phút55,525 giây. MP4 đang xuất, chưa khai báo bản xuất public.**
+**Đã hoàn thành toàn bộ hình và bản duyệt MP4 v01:55 cảnh /8 phút55,525 giây,1920×1080/30fps.**
 
-[Mở thư viện hình trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=images) · [Mở bản dựng có audio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=video) · [JSON chính](review/project.json) · [Kiểm tra hình](images/validation.json).
+[Mở thư viện hình trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=images) · [Mở bản dựng có audio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-006&tab=video) · [MP4 v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4) · [JSON chính](review/project.json) · [Kiểm tra hình](images/validation.json).
 
 ## Hình và bối cảnh
 
