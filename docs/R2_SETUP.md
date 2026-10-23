@@ -2,6 +2,8 @@
 
 ## Chẩn đoán bằng GitHub Actions
 
+Đã chạy ngày **2026-10-23**: [run 39889380000](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39889380000) **success**. ListObjectsV2 xác thực HTTP 200; đọc một phần object xác thực HTTP 206. Cấu hình Actions hoạt động, còn nguồn cấu hình môi trường chat hiện trả 401; chưa xác định nguyên nhân chênh lệch. Chưa thử ghi/xóa, chưa bật manifest hoặc xác minh CORS trong trình duyệt.
+
 Workflow `.github/workflows/r2-diagnostic.yml` chạy thủ công tại **Actions → Diagnose R2 access → Run workflow**. Cấu hình **Settings → Secrets and variables → Actions**: secrets `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT_URL`, `R2_BUCKET` (hai mục cuối cũng nhận repository variables; bucket mặc định `credit-studio`). Biến trong môi trường chat không tự chuyển sang Actions. Không đưa khóa vào YAML hoặc log.
 
 Tác vụ chỉ ListObjectsV2 và đọc tối đa 64 byte của một object; không ghi/xóa, không thay manifest hoặc dữ liệu Studio. Báo thiếu biến, lỗi định dạng, HTTP 401/403/404 hoặc lỗi mạng; không in khóa, endpoint, object key hay thông báo lỗi thô. Thành công chỉ xác nhận quyền đọc, chưa xác nhận quyền ghi.
