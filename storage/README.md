@@ -4,6 +4,8 @@ Trạng thái 2026-10-23: đã chép và xác minh 204 tệp (629.217.384 byte).
 
 Ảnh, audio và MP4 giữ nguyên byte; đường dẫn logic, SHA-256 và kích thước nằm trong [manifest.json](manifest.json). JSON thiết kế/bản dựng vẫn ở GitHub.
 
+Bổ sung video005: WAV gốc, MP3 chuẩn hóa, MP4 v01 và cover đã upload/verify; tổng hiện **208 entry /690,237,588 byte**. Giữ nguyên204 mapping/sáu pin cũ. Năm PNG Jamie mới vẫn ở GitHub. Không thay nguồn, xóa media R2 hoặc viết lại lịch sử.
+
 ## Audio và các bản xuất
 
 - [videos/001-100k-salary/audio/Why You Feel Broke on a $100,000 Salary.wav](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df.wav) — 23,364,044 byte
@@ -39,3 +41,10 @@ Việc xóa tệp ở nhánh hiện tại không xóa bản cũ trong lịch s�
 - `videos/003-car-payment-trap/images/scenes/02a.png`
 - `videos/004-living-alone/images/illustrations/06a.png`
 - `videos/004-living-alone/images/scenes/05b.png`
+
+## Audio và bản duyệt video005
+
+- [videos/005-mortgage-payment/audio/You find a house you can f.wav](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/9586941c972c26238f808a0c6c3ad0a5416f53f0e2ba07410a45e6c6f27c619c.wav) — 27,189,644 byte
+- [videos/005-mortgage-payment/review/voiceover.mp3](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/3cab3bf0967f2f5b364d947e79b774403cceb8116cbcf1985249c2945f8b0f88.mp3) — 11,330,924 byte
+- [videos/005-mortgage-payment/exports/full-review-v01.mp4](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/a7a917bc941d1ba28419b3f552d6a412207d6b076b7c4a133084bb5a32c5cf6e.mp4) — 22,307,386 byte
+- [videos/005-mortgage-payment/review/cover.png](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/8da24aeeb5e4270bff22a3287cab1e2c8420f4d8185bcb81e997719c3ca47e10.png) — 192,250 byte

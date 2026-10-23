@@ -6,7 +6,7 @@ export const LEGACY_DESIGN_ID='legacy-design';
 // Only known published predecessors are automatically archived and replaced.
 // Restored copies and edits to a current review never match these rules.
 export function canUpgradePublishedVideo(id,from,to){
- const rules=id===FINANCE_ID?[['intro-v01','full-review-v01'],['intro-v01','salary-review-v02'],['full-review-v01','salary-review-v02'],['intro-v01','salary-motion-v03'],['full-review-v01','salary-motion-v03'],['salary-review-v02','salary-motion-v03']]:id==='finance-002'?[['artwork-board-v01','monthly-payment-review-v01']]:id==='finance-003'?[['car-artwork-board-v01','car-payment-review-v01']]:id==='finance-004'?[['living-artwork-board-v01','living-alone-review-v01']]:[];
+ const rules=id===FINANCE_ID?[['intro-v01','full-review-v01'],['intro-v01','salary-review-v02'],['full-review-v01','salary-review-v02'],['intro-v01','salary-motion-v03'],['full-review-v01','salary-motion-v03'],['salary-review-v02','salary-motion-v03']]:id==='finance-002'?[['artwork-board-v01','monthly-payment-review-v01']]:id==='finance-003'?[['car-artwork-board-v01','car-payment-review-v01']]:id==='finance-004'?[['living-artwork-board-v01','living-alone-review-v01']]:id==='finance-005'?[['mortgage-style-samples-v01','mortgage-review-v01']]:[];
  const hasTarget=arguments.length>=3;
  return rules.some(rule=>from===rule[0]&&(!hasTarget||to===rule[1]));
 }

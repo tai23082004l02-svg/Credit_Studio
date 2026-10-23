@@ -1,5 +1,13 @@
 # Kết nối kho tài nguyên R2
 
+## Media mới từ môi trường chat — 2026-10-23
+
+Credential của chat vẫn trả401, nhưng credential GitHub Actions đọc/ghi hoạt động. WAV gốc và MP3 full video005 đã được chuyển, tải lại xác minh full SHA-256 qua S3 trong [run39902713876](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39902713876); tiếp tục kiểm tra public full hash, Range206 và CORS độc lập trong chat. Không còn cần người dùng gửi lại audio hoặc khóa.
+
+Khi upload release bị401, dùng `tools/stage-video-media.py work/media-map.json`: map v1 gồm assets/path/filename/size/sha256; tạo Git blob tạm theo chunk8MiB, **không tạo tree/commit/branch chứa media**. Chạy workflow `r2-staged-media.yml` với map_blob SHA. Worker tải/ghép bytes, kiểm tra hash, PUT object content-addressed nếu thiếu, không ghi đè object khác metadata; tải lại toàn bộ qua S3 và kiểm tra public Range/CORS. Sau run success, kiểm tra public full SHA-256 trước khi thêm manifest. Chỉ dùng cho media mới được phép xuất bản, không chép lại media archive cũ.
+
+Map/blob cache local nằm trong work/media-staging/, không chứa credential. Không dùng Actions artifact download trong môi trường hiện tại: redirect Azure trả403; trạng thái run và public hash là bằng chứng kiểm tra. Không in signed URL, token hoặc body lỗi. Giữ sáu local:true cũ và toàn bộ mapping cũ; file mới được ignore trước khi commit. Các ghi chú401/pending ở phần lịch sử bên dưới mô tả thời điểm trước khi dùng Actions này.
+
 ## Trạng thái mới nhất — 2026-10-23: đã dọn main
 
 Người dùng đã lưu CORS trong giao diện Cloudflare. GET Range trả 206 và Access-Control-Allow-Origin chính xác cho Pages và localhost. **Manifest enabled:true**. Có sáu PNG public GET timeout dù bản sao S3 đã được kiểm tra đúng byte; giữ các bản này trong GitHub, đánh dấu `local:true` và resolver dùng nguồn cùng origin. Không tự chuyển các pin này sang R2 khi plan/sync lại.

@@ -1,6 +1,6 @@
 import {mediaURL} from '../assets/js/media-storage.js?v=r2-media-v3';
 import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-media-v3';
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=r2-media-v3';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=mortgage-review-v1';
 import {finalizeWebM} from './webm.js';
 import {mergeCaptionTranslation,hasVietnameseCaptions} from './captions.js?v=r2-media-v3';
 import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=r2-media-v3';

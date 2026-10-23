@@ -19,7 +19,7 @@ const newLocalProps=new Set(['keys','bills','repair','compare'].map(p=>'library/
   await page.waitForFunction(n=>document.querySelectorAll('.prop-card').length===n,count);
   await page.waitForFunction(()=>[...document.querySelectorAll('.prop-card canvas')].every(c=>c.getContext('2d').getImageData(0,0,c.width,c.height).data.some((v,i)=>i%4===3&&v>0)));
   const download=page.waitForEvent('download');await page.locator('[data-prop="alex-present"]').getByRole('button',{name:'Tải PNG'}).click();await(await download).saveAs(path.join(scratch,'alex.png'));
-  for(let n=1;n<=4;n++){
+  for(let n=1;n<=5;n++){
    await page.goto(base+'/?project=finance-00'+n+'&tab=video');
    const frame=page.frameLocator('#tool-frame');await frame.locator('#play:not([disabled])').waitFor();
    const result=await page.locator('#tool-frame').evaluate(async f=>{
@@ -46,6 +46,6 @@ const newLocalProps=new Set(['keys','bills','repair','compare'].map(p=>'library/
   assert.deepEqual(failures,[]);assert.deepEqual(errors,[]);assert.ok(media.size>50);
   assert.ok([...localMedia].every(p=>manifest.assets[p]?manifest.assets[p].local:newLocalProps.has(p)),'only explicitly retained or listed new, unarchived props may load from GitHub');
   fs.writeFileSync(path.join(scratch,'browser.json'),JSON.stringify({passed:true,mediaRequests:media.size,propCount:count,retainedMedia:[...localMedia]},null,2));
-  console.log('PASS: real R2 props/canvas/download, four editors/audio/MP4s and galleries.');
+  console.log('PASS: real R2 props/canvas/download, five editors/audio/MP4s and four galleries.');
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

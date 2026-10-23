@@ -16,6 +16,8 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 [Mở dự án tài chính hiện tại](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-001). Có bản duyệt chuyển động v03 dài 8 phút 06,75 giây (88 cảnh), 20 thiết kế ảnh, audio và lời thoại. [Hướng dẫn và giới hạn bản dựng](videos/001-100k-salary/README.md#bản-duyệt-chuyển-động-v03-hiện-tại).
 
+Video mới nhất: [Your Mortgage Payment Is Only the Beginning — bản duyệt v01](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005), **88 cảnh /9 phút 26,45 giây**, Jamie và đồ họa động Times New Roman; [bản chỉnh được](videos/005-mortgage-payment/review/project.json). Mẫu cũ đã chỉnh được lưu vào lịch sử trước khi nâng cấp; giữ sửa hiện tại trên review. WAV/MP3/MP4/cover mới được lưu R2 và xác minh SHA-256, không đưa file lớn vào main.
+
 ## Quản lý và lưu dự án
 
 - **Tạo dự án**: bắt đầu video mới (một cảnh trắng, chưa có giọng đọc) hoặc thiết kế ảnh.

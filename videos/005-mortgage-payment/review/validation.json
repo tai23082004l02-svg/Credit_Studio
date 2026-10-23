@@ -1,0 +1,118 @@
+{
+  "revision": "mortgage-review-v01",
+  "reviewStatus": "pending-user-approval",
+  "mp4": "videos/005-mortgage-payment/exports/full-review-v01.mp4",
+  "size": 22307386,
+  "sha256": "a7a917bc941d1ba28419b3f552d6a412207d6b076b7c4a133084bb5a32c5cf6e",
+  "fullDecode": true,
+  "video": {
+    "codec_name": "h264",
+    "width": 1920,
+    "height": 1080,
+    "r_frame_rate": "30/1",
+    "nb_frames": "16994",
+    "duration": "566.466667"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 1,
+    "duration": "566.450000"
+  },
+  "loudness": {
+    "input_i": "-16.85",
+    "input_tp": "-1.53",
+    "input_lra": "2.40",
+    "input_thresh": "-27.30",
+    "output_i": "-16.10",
+    "output_tp": "-1.50",
+    "output_lra": "2.40",
+    "output_thresh": "-26.56",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "audioSourceChecks": [
+    {
+      "time": 10,
+      "lagSamplesAt24kHz": 0,
+      "median50msCorrelation": 0.9998751998708578
+    },
+    {
+      "time": 250,
+      "lagSamplesAt24kHz": 0,
+      "median50msCorrelation": 0.999828291416892
+    },
+    {
+      "time": 555,
+      "lagSamplesAt24kHz": 0,
+      "median50msCorrelation": 0.9999484662517955
+    }
+  ],
+  "layout": {
+    "clips": 88,
+    "duration": 566.4500000000002,
+    "checkedFrames": 5713,
+    "maxCaptionLines": 1,
+    "assets": 5,
+    "audioDuration": 566.45,
+    "fonts": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "financialArithmetic": true,
+    "seekAndPlayback": true,
+    "mobile": true
+  },
+  "preservation": {
+    "oldManifestEntriesUnchanged": 204,
+    "retainedPins": 6,
+    "oldProjectsUnchanged": 4,
+    "samplesAndNarrationByteIdentical": true,
+    "catalogByteIdentical": true,
+    "oldVideoDirectoriesUnchanged": true
+  },
+  "studioUpgrade": {
+    "editedSamplesArchivedVerbatim": true,
+    "historyAndBackupDownloads": true,
+    "currentReviewEditsPreserved": true,
+    "unknownAndRestoredExcluded": true
+  },
+  "music": false,
+  "wordTimingLimit": "ASR-assisted, not manual approval of every word",
+  "visualInspection": {
+    "all88SceneContactSheets": true,
+    "actualMP4Frames": [
+      "116.2s monthly allocation",
+      "254.97s cash/equity",
+      "320.11s 12 repair transfers",
+      "388.77s compressed amortization"
+    ],
+    "charactersIntact": true,
+    "noTextOrPanelOcclusion": true
+  },
+  "checksPassed": [
+    "19 unit tests",
+    "mortgage-review",
+    "mortgage-upgrade",
+    "project-workspaces",
+    "living-alone-upgrade",
+    "monthly-payment-upgrade",
+    "r2-live: five editors/audio/MP4, four galleries,93 props"
+  ],
+  "r2": {
+    "authenticatedFullHash": true,
+    "independentPublicFullHash": true,
+    "publicRangeCors": true,
+    "audioRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39902713876",
+    "exportRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39904339143",
+    "oldMappingsPreserved": 204,
+    "totalManifestEntries": 208,
+    "retainedPins": 6,
+    "realBrowserIntegration": {
+      "passed": true,
+      "editorsAndAudioAndMP4": 5,
+      "galleries": 4,
+      "props": 93,
+      "archivedOriginFallbackForbidden": true
+    }
+  }
+}

@@ -1232,6 +1232,30 @@
       "sha256": "3676d27fc321760751d3a2c5514ab429f81d2a2904c2b31773885cf178569b3d",
       "size": 13861484,
       "type": "audio/mpeg"
+    },
+    "videos/005-mortgage-payment/audio/You find a house you can f.wav": {
+      "key": "credit-studio/media/9586941c972c26238f808a0c6c3ad0a5416f53f0e2ba07410a45e6c6f27c619c.wav",
+      "sha256": "9586941c972c26238f808a0c6c3ad0a5416f53f0e2ba07410a45e6c6f27c619c",
+      "size": 27189644,
+      "type": "audio/x-wav"
+    },
+    "videos/005-mortgage-payment/review/voiceover.mp3": {
+      "key": "credit-studio/media/3cab3bf0967f2f5b364d947e79b774403cceb8116cbcf1985249c2945f8b0f88.mp3",
+      "sha256": "3cab3bf0967f2f5b364d947e79b774403cceb8116cbcf1985249c2945f8b0f88",
+      "size": 11330924,
+      "type": "audio/mpeg"
+    },
+    "videos/005-mortgage-payment/exports/full-review-v01.mp4": {
+      "key": "credit-studio/media/a7a917bc941d1ba28419b3f552d6a412207d6b076b7c4a133084bb5a32c5cf6e.mp4",
+      "sha256": "a7a917bc941d1ba28419b3f552d6a412207d6b076b7c4a133084bb5a32c5cf6e",
+      "size": 22307386,
+      "type": "video/mp4"
+    },
+    "videos/005-mortgage-payment/review/cover.png": {
+      "key": "credit-studio/media/8da24aeeb5e4270bff22a3287cab1e2c8420f4d8185bcb81e997719c3ca47e10.png",
+      "sha256": "8da24aeeb5e4270bff22a3287cab1e2c8420f4d8185bcb81e997719c3ca47e10",
+      "size": 192250,
+      "type": "image/png"
     }
   }
 }

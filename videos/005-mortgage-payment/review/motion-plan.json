@@ -1,0 +1,156 @@
+[
+  {
+    "clipId": "mortgage-012",
+    "start": 59.52,
+    "layers": [
+      "value-0",
+      "value-1"
+    ]
+  },
+  {
+    "clipId": "mortgage-013",
+    "start": 66.26,
+    "layers": [
+      "amount"
+    ]
+  },
+  {
+    "clipId": "mortgage-015",
+    "start": 81.2,
+    "layers": [
+      "amount",
+      "meter"
+    ]
+  },
+  {
+    "clipId": "mortgage-016",
+    "start": 87.26,
+    "layers": [
+      "bar-1",
+      "bar-2",
+      "bar-3",
+      "total"
+    ]
+  },
+  {
+    "clipId": "mortgage-019",
+    "start": 110.3,
+    "layers": [
+      "bar-4",
+      "total"
+    ]
+  },
+  {
+    "clipId": "mortgage-025",
+    "start": 152.04,
+    "layers": [
+      "flow-note-0",
+      "flow-symbol-0"
+    ]
+  },
+  {
+    "clipId": "mortgage-033",
+    "start": 218.32,
+    "layers": [
+      "cash"
+    ]
+  },
+  {
+    "clipId": "mortgage-034",
+    "start": 223.2,
+    "layers": [
+      "cash",
+      "equity",
+      "note-0",
+      "note-inner-0",
+      "note-symbol-0"
+    ]
+  },
+  {
+    "clipId": "mortgage-035",
+    "start": 226.34,
+    "layers": [
+      "value-0"
+    ]
+  },
+  {
+    "clipId": "mortgage-036",
+    "start": 239.0,
+    "layers": [
+      "cash"
+    ]
+  },
+  {
+    "clipId": "mortgage-037",
+    "start": 246.08,
+    "layers": [
+      "amount"
+    ]
+  },
+  {
+    "clipId": "mortgage-038",
+    "start": 250.86,
+    "layers": [
+      "cash"
+    ]
+  },
+  {
+    "clipId": "mortgage-048",
+    "start": 301.24,
+    "layers": [
+      "amount"
+    ]
+  },
+  {
+    "clipId": "mortgage-049",
+    "start": 310.76,
+    "layers": [
+      "reserve"
+    ]
+  },
+  {
+    "clipId": "mortgage-051",
+    "start": 323.05,
+    "layers": [
+      "amount",
+      "meter"
+    ]
+  },
+  {
+    "clipId": "mortgage-052",
+    "start": 330.6,
+    "layers": [
+      "value-2",
+      "gap-bar"
+    ]
+  },
+  {
+    "clipId": "mortgage-055",
+    "start": 346.82,
+    "layers": [
+      "flow-note-0",
+      "flow-symbol-0"
+    ]
+  },
+  {
+    "clipId": "mortgage-059",
+    "start": 373.3,
+    "layers": [
+      "part-value-0",
+      "part-bar-0",
+      "part-value-1",
+      "part-bar-1"
+    ]
+  },
+  {
+    "clipId": "mortgage-060",
+    "start": 385.38,
+    "layers": [
+      "month",
+      "part-value-0",
+      "part-bar-0",
+      "part-value-1",
+      "part-bar-1"
+    ]
+  }
+]

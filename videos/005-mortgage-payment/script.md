@@ -1,13 +1,13 @@
 # Your Mortgage Payment Is Only the Beginning
 
 Bản lời thoại v01 · 2026-10-23 · Tiếng Anh Mỹ · 1241 từ.
-Dự kiến khoảng 8–10 phút tùy giọng đọc; chưa có audio để xác định thời lượng.
-Trạng thái: **người dùng đã duyệt kịch bản v01 ngày 2026-10-23**. Nội dung lời đọc giữ nguyên; chờ audio gốc để chia cảnh và dựng.
+Audio gốc đã nhận: 566,45 giây (9 phút 26,45 giây), giữ nguyên lời đọc.
+Trạng thái: **người dùng đã duyệt kịch bản v01 ngày 2026-10-23**. Nội dung lời đọc giữ nguyên; bản duyệt v01 gồm 88 cảnh theo audio thật.
 
 Ý chính: phân biệt khoản vay với ngân sách sở hữu nhà; đánh giá tiền còn lại sau khi mua, quỹ sửa chữa và equity.
 Đây là giáo dục tài chính bằng ví dụ hư cấu, không phải báo giá hiện tại hoặc đánh giá khả năng mua nhà cá nhân.
 
-Đọc [sources.md](sources.md) để giữ đúng giả định, nguồn và phép tính; [storyboard.md](storyboard.md) là kế hoạch ngắn chưa có timecode.
+Đọc [sources.md](sources.md) để giữ đúng giả định, nguồn và phép tính; [storyboard.md](storyboard.md) ghi kế hoạch; review/shot-plan.json có timecode 88 cảnh.
 Bản [narration.txt](narration.txt) chỉ chứa lời đọc, không chứa tiêu đề hay chỉ dẫn.
 
 ## 01 — The number on the screen

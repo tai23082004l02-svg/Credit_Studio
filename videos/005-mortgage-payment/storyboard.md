@@ -1,6 +1,6 @@
 # Storyboard ngắn — Mortgage Payment v01
 
-Đây là kế hoạch nội dung toàn bộ, **chưa chốt timecode hoặc clip count cho full video**. Đã có WAV566,45 giây và bản ba cảnh mẫu samples/project.json /86,8 giây để duyệt phong cách. Audio thật sẽ quyết định điểm cắt; một phần lời thoại có thể chia nhiều shot. Không tạo bảng im lặng 96 giây hoặc bộ 16 ảnh cố định.
+Bản duyệt v01 đã chốt **88 cảnh /566,45 giây** theo WAV thật. [Kế hoạch cảnh có timecode](review/shot-plan.json) · [Kế hoạch chuyển động](review/motion-plan.json). Ba cảnh mẫu samples/project.json /86,8 giây đã được duyệt và giữ nguyên. Các mốc từ có căn tự động, chưa phải xác nhận thủ công từng từ. Không tạo bảng im lặng 96 giây hoặc bộ 16 ảnh cố định.
 
 ## Phong cách đã chốt
 

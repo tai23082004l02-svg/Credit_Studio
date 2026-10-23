@@ -1,46 +1,19 @@
 # Video 005 — Your Mortgage Payment Is Only the Beginning
 
-**Tiền trả góp nhà mới chỉ là phần bắt đầu.**
+**Bản duyệt đầy đủ v01: 88 cảnh /9 phút 26,45 giây**, chờ người dùng duyệt. Đồ họa nhiều lớp giấy kem/đỏ trầm/sage, **Times New Roman**, bốn nhóm minh họa Jamie; 40 lớp chuyển động nội dung trong 19 cảnh, cùng các thẻ hiện theo lời đọc.
 
-## Trạng thái thực tế
+[Mở bản dựng trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005&tab=video) · [Tổng quan và MP4](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005) · [MP4 v01](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/a7a917bc941d1ba28419b3f552d6a412207d6b076b7c4a133084bb5a32c5cf6e.mp4) · [JSON chỉnh được](review/project.json) · [Timecode/giới hạn](review/README.md).
 
-**Kịch bản v01 đã được duyệt ngày 2026-10-23** (1241 từ / 8 phần). Đã nhận WAV **566,45 giây / 27.189.644 byte**, giữ nguyên gốc. Đã có **ba cảnh mẫu có giọng đọc / 86,8 giây**, **phong cách đã được người dùng chốt ngày2026-10-23**; **chưa phải bản video đầy đủ**.
+Kịch bản v01 đã duyệt, 1241 từ /8 phần; giữ nguyên lời thoại và WAV gốc 566,45 giây /27.189.644 byte. MP3 dùng cho bản dựng đã chuẩn hóa âm lượng, không cắt lời hoặc thay tốc độ. WAV/MP3 được Actions đưa lên R2, tải lại xác minh SHA-256 và kiểm tra public Range/CORS; không commit audio lớn vào Git. [Metadata nguồn](audio/source.json).
 
-[Mở ba cảnh mẫu trong Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005&tab=video) · [JSON chỉnh được](samples/project.json) · [Nguồn audio](audio/source.json) · [Mốc ba đoạn trích](samples/excerpts.json).
+Một bản dựng chính ở review/project.json; **samples/project.json (3 cảnh /86,8 giây) giữ nguyên byte**. Khi mở finance-005, bản mẫu cũ đã chỉnh được lưu nguyên vẹn vào **Bản lưu trước cập nhật** trong cùng giao dịch IndexedDB trước khi mở review. Lịch sử tải JSON được và có trong .credit.json. Không reset sửa hiện tại trên review, revision lạ hoặc bản khôi phục. Review mới dựng từ tài nguyên repo, chưa ghép các sửa riêng của người dùng trong trình duyệt; muốn tiếp tục từ chúng cần backup.
 
-Mẫu gồm calculator, ngân sách sở hữu, cash và equity. Dùng audio trích từ giọng đọc thật, không phải bảng hình96 giây; thời lượng toàn bộ WAV là 9 phút26,45 giây. Bản mẫu tự chứa audio montage và hình trong JSON; không có MP4 public ở bước này.
+- [Kịch bản](script.md), [lời đọc](narration.txt), [nguồn/phép tính](sources.md).
+- [Storyboard](storyboard.md), [88 cảnh](review/shot-plan.json), [chuyển động](review/motion-plan.json), [phụ đề EN](review/captions.vtt), [kiểm tra bố cục](review/layout-validation.json).
+- [Audio gốc](audio/README.md), [source/hash/crop map minh họa](images/image-generation.json).
 
-**Lưu trữ audio gốc:** môi trường chat hiện trả HTTP401 khi gọi R2 có xác thực, nên chưa upload/xác minh WAV mới hoặc thêm mapping manifest. File gốc được giữ local và gitignore; upload chat là nguồn bàn giao, không có bản R2 đã xác minh. Không đưa WAV27 MB lên GitHub và không ảnh hưởng tài nguyên R2 cũ.
+Chuyển động gồm ngân sách 1517→2017 bills và 2267 gồm repair savings, cash75000→4000/downpayment60000 sang equity, 12 lần chuyển250 thành3000, quỹ500 so với bill3000/gap2500, principal/interest tháng đầu và lịch amortization nén. Số/thanh dùng cùng mốc; không cộng trùng escrow hoặc repair expense. Giữ ví dụ hư cấu và giả định6,5% fixed nominal /30 năm; không gán mức này cho thị trường hiện tại hoặc khuyến nghị chung. Không thêm thu nhập, giá nhà tăng, nhạc nền hay rig khớp nhân vật.
 
-- [Kịch bản có chia phần](script.md).
-- [Lời đọc thuần để TTS](narration.txt).
-- [Nguồn và phép tính](sources.md).
-- [Storyboard ngắn và kế hoạch ba cảnh mẫu](storyboard.md).
-- [Bàn giao audio](audio/README.md).
+Bốn nhóm Jamie dùng trong timeline và kho93 mục: nhận chìa khóa, hóa đơn, máy giặt, so sánh giấy tờ. Giữ source AI và crop map, không upscale hoặc cắt đầu/tay/chân/góc bàn/cạnh máy giặt. Chữ/số là lớp native, không nằm trong PNG. Năm PNG mới vẫn ở GitHub; tài nguyên archive cũ vẫn ở R2, sáu pin cũ giữ nguyên.
 
-`finance-005` đã đăng ký trong projects.json và trỏ **bản mẫu thật**, không khai báo audio/MP4/cover chưa tồn tại. Các dự án001–004 giữ nguyên.
-
-## Hướng triển khai
-
-Dùng đồ họa động nhiều lớp, Times New Roman. Đề xuất tiếp tục nền giấy kem/đỏ trầm với minh họa nhà ở tách lớp; không bắt buộc dùng Alex hoặc ảnh collage cố định. Phong cách ba cảnh mẫu đã được người dùng chốt; không hỏi duyệt lại. Đã tạo thêm bốn nhóm minh họa Jamie để dùng trong bản đầy đủ, không làm sẵn16 ảnh.
-
-Nhịp kể: khoản trả vay → ngân sách sở hữu → escrow không cộng trùng → tiền sau nhận nhà → sửa chữa đến sớm → equity khác tiền mặt → thử ngân sách → kết.
-
-Lời thoại đã được duyệt và audio gốc đã nhận. Triển khai theo phong cách đã chốt; chia cảnh/thời điểm chính thức theo audio thật. Tạo hình và đạo cụ đúng nhu cầu, dùng lại kho chung. Không tạo bảng hình im lặng 96 giây. Duyệt sửa nhỏ trực tiếp trong Studio hoặc bằng đoạn ngắn; chỉ xuất MP4 đầy đủ ở mốc duyệt.
-
-## Các điểm phải bảo toàn
-
-- Ví dụ hư cấu, không gọi là giá nhà/lãi suất hiện tại, trung bình toàn Mỹ, hoặc khoản vay được chào bán. 6,5% là lãi suất danh nghĩa giả định, không phải APR.
-- Không cộng trùng thuế/bảo hiểm đã bao gồm trong escrow; phí HOA tính riêng trong ví dụ.
-- Khoản để dành sửa chữa là tiền chuyển vào savings, không phải toàn bộ chi phí đã tiêu; không cộng lại khoản sửa từ cùng quỹ.
-- Tiền gốc và down payment không phải toàn bộ chi phí mất đi; equity không đồng nghĩa tiền mặt, giá nhà không được đảm bảo tăng.
-- 20% down/no mortgage insurance chỉ là giả định khoản vay conventional này, không phải yêu cầu chung để mua nhà.
-- Hướng dẫn dùng sheet: cần lề ô an toàn, giữ nguồn/toạ độ, kiểm tra từng ảnh sau cắt và trong cảnh, đủ góc/cạnh/đầu/tay/chân.
-- Bảo toàn audio gốc và mọi bản xuất/JSON sau này; nếu tiếp tục từ sửa riêng trong Studio phải nhận .credit.json/JSON trước.
-- Media archive vẫn ở R2; không đưa lại lên GitHub hoặc thay manifest cho bước viết kịch bản.
-
-## Hình minh họa mới
-
-Đã tạo bốn nhóm Jamie: [nhận chìa khóa](../../library/props/jamie-mortgage/keys.png), [xem hóa đơn](../../library/props/jamie-mortgage/bills.png), [kiểm tra máy giặt](../../library/props/jamie-mortgage/repair.png), [so sánh giấy tờ](../../library/props/jamie-mortgage/compare.png). Xem trong [Kho đạo cụ](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props), nhóm **Nhân vật · Jamie**. Giữ source sheet tại images/sources/, prompt/hash và map cắt tại images/. Không đặt chữ/số vào ảnh; mỗi nhóm là lớp ảnh riêng, chưa rig khớp nhân vật.
-
-Các PNG mới được giữ trên GitHub để dùng được ngay; R2 chưa xác minh upload mới. Không thay hoặc khôi phục lại bất kỳ media archive nào.
+Để dựng lại, phục hồi đúng media bằng tools/restore-media.py trước. tools/build-mortgage-review.py chặn ghi đè project đã có; tools/render-intro.cjs dùng tên xuất mới. Duyệt sửa nhỏ trong Studio; không xuất full sau mỗi sửa nhỏ, không làm thêm bộ16 hình hoặc bảng96 giây.

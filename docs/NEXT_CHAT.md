@@ -3,6 +3,21 @@
 Cập nhật **2026-10-23**, múi giờ Asia/Saigon. Đây là trạng thái hiện tại; ghi chú lịch sử trong PROJECT_HANDOFF.md có thể mô tả các bước chưa hoàn thành ở thời điểm cũ.
 
 
+## Video 005 — bản duyệt đầy đủ v01 đã triển khai (2026-10-23)
+
+Theo yêu cầu triển khai của người dùng, đã hoàn thành **Your Mortgage Payment Is Only the Beginning**, **88 cảnh /566,45 giây (9:26,45)**. `finance-005` mở `review/project.json`, revision **mortgage-review-v01**; MP4 `exports/full-review-v01.mp4` ở R2. Đây là bản duyệt chờ góp ý, chưa được gọi là bản cuối.
+
+Đồ họa nhiều lớp giấy kem/đỏ trầm/sage, Times New Roman thực, bốn nhóm Jamie và căn nhà từ SVG mẫu. **40 lớp chuyển động nội dung trong19 cảnh**, cùng các thẻ hiện theo lời: bills1517→2017 và allocation2267 (repair savings250 tách riêng), cash75000→4000/downpayment60000 sang equity, 12 lần chuyển250→3000, quỹ500/bill3000/gap2500, principal/interest tháng đầu và lịch amortization nén. Không nhạc hoặc rig khớp. Giữ ví dụ hư cấu, 6,5% nominal fixed /30 năm và các giới hạn trong sources.md; không cộng trùng escrow/repair savings hoặc gọi equity là cash.
+
+**Bảo toàn:** narration1241 từ, WAV gốc SHA9586941c…c619c, samples/project.json86,8 giây và catalog93 mục giữ nguyên byte; bốn dự án cũ và toàn bộ204 mapping/sáu pin cũ không đổi. Năm PNG Jamie mới vẫn ở GitHub; không khôi phục media archive vào Git hoặc viết lại lịch sử. WAV/MP3/full MP4/cover mới ở R2, gitignore. Manifest hiện **208 mục /690,237,588 byte**, trong đó sáu local:true cũ; số198/620MB là đợt archive cũ, không phải tổng mới.
+
+**R2 đã giải quyết cho video005:** credential chat vẫn401 nhưng Actions hoạt động. WAV/MP3 được full S3 SHA-256 verify ở [run39902713876](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39902713876); MP4/cover ở [run39904339143](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39904339143). Tải lại công khai kiểm tra full SHA-256, Range206/CORS trước khi đăng ký. Chuyển qua Git blob tạm8MiB bằng stage-video-media.py/r2-staged-media.yml, không commit/tree/branch chứa binary; không cần reupload WAV hoặc gửi khóa. Xem docs/R2_SETUP.md. Không tải Actions artifact từ chat do Azure redirect403, không in signed URL/credential.
+
+**IndexedDB:** nâng cấp riêng finance-005 từ mortgage-style-samples-v01→mortgage-review-v01, archive nguyên draft cũ và thay main trong cùng giao dịch. Bản lưu tải JSON được và nằm trong .credit.json. Giữ sửa trên currentreview, revision lạ, ID khôi phục; reload không nhân lịch sử. Bản mới dựng từ repo, chưa ghép sửa riêng trong trình duyệt người dùng. Nếu muốn tiếp tục từ chúng, nhận backup trước.
+
+**Kiểm tra:** 5.713 mốc hình, đầu/tay/chân và vùng chữ/ảnh, font TimesNewRomanPS-BoldMT, phụ đề171 cue EN một dòng (mặc định tắt), tua/phát8 vị trí/mobile. Mốc từ dựa ASR, chưa duyệt thủ công từng từ. MP4 H.264/AAC1920×1080/30fps, **16994 khung /566.466667 giây**, giải mã toàn bộ không lỗi; **-16.85 LUFS /-1.53 dBTP**. Đối chiếu WAV ở10/250/555s: lệch0 mẫu, tương quan ngắn hạn>0,995. Kết quả cụ thể review/validation.json. Đã xem contact sheet88 cảnh và khung MP4 thực; kiểm tra archive/history/backup/reload, project-workspaces, nâng cấp002/004 và19unit tests đều qua. Kiểm tra R2/live site ghi trong validation.json sau khi deploy.
+
+**Tiếp theo:** người dùng mở Studio hoặc MP4 duyệt v01, góp ý kèm timecode. Sửa nhỏ xem trong Studio/đoạn ngắn; xuất tiếp dùng v02, giữ v01 và mọi nguồn/JSON. Không hỏi duyệt lại phong cách hoặc script. Không tạo bộ16 ảnh/bảng96 giây. Các ghi chú pending/401/ba cảnh mẫu phía dưới là lịch sử trước bản đầy đủ này.
 
 
 ## Video 005 — phong cách đã chốt, có minh họa Jamie (2026-10-23)

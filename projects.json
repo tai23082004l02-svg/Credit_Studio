@@ -65,12 +65,15 @@
     {
       "id": "finance-005",
       "name": "Your Mortgage Payment Is Only the Beginning",
-      "description": "Đồ họa động · 3 cảnh mẫu có giọng đọc · 86,8 giây trích từ WAV 9 phút 26,45 giây; chưa phải bản đầy đủ",
+      "description": "Đồ họa động · Jamie · Bản duyệt đầy đủ 9 phút 26,45 giây · 88 cảnh",
       "kind": "video",
-      "status": "Phong cách đã duyệt · đang chuẩn bị bản đầy đủ",
+      "status": "Bản dựng đầy đủ v01 chờ duyệt",
       "createdAt": "2026-10-23T00:00:00.000Z",
-      "defaultVideo": "videos/005-mortgage-payment/samples/project.json",
-      "script": "videos/005-mortgage-payment/script.md"
+      "defaultVideo": "videos/005-mortgage-payment/review/project.json",
+      "script": "videos/005-mortgage-payment/script.md",
+      "audio": "videos/005-mortgage-payment/audio/You find a house you can f.wav",
+      "review": "videos/005-mortgage-payment/exports/full-review-v01.mp4",
+      "cover": "videos/005-mortgage-payment/review/cover.png"
     }
   ]
 }

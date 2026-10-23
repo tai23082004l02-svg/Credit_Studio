@@ -1,0 +1,14 @@
+{
+  "clips": 88,
+  "duration": 566.4500000000002,
+  "checkedFrames": 5713,
+  "maxCaptionLines": 1,
+  "assets": 5,
+  "audioDuration": 566.45,
+  "fonts": [
+    "TimesNewRomanPS-BoldMT"
+  ],
+  "financialArithmetic": true,
+  "seekAndPlayback": true,
+  "mobile": true
+}
