@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify media from a staging draft release without committing binaries to Git.
+"""Verify temporarily staged Git blobs without committing binaries to Git.
 Uses GitHub Actions R2 credentials; never prints keys, headers or error bodies.
 Does not modify Git, old objects, CORS, or the runtime manifest.
 """
@@ -10,33 +10,39 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 def main():
-    repo, tag, map_name = (os.environ.get(n, '') for n in ('GITHUB_REPOSITORY', 'RELEASE_TAG', 'MAP_FILE'))
+    repo, map_blob = (os.environ.get(n, '') for n in ('GITHUB_REPOSITORY', 'MAP_BLOB'))
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repo):
         raise ValueError('Invalid repository')
-    if not re.fullmatch(r'[A-Za-z0-9_.-]{1,100}', tag) or not re.fullmatch(r'[A-Za-z0-9_.-]+\.json', map_name):
+    if not re.fullmatch(r'[a-f0-9]{40}', map_blob):
         raise ValueError('Invalid staging reference')
     work = ROOT / 'work/release-media'
     work.mkdir(parents=True, exist_ok=True)
-    def download(name):
-        if '/' in name or '\\' in name or any(c in name for c in '*?[]\r\n') or name.startswith('-'):
-            raise ValueError('Invalid asset name')
-        subprocess.run(['gh', 'release', 'download', tag, '--repo', repo, '--pattern', name, '--dir', str(work)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        return work / name
-    plan = json.loads(download(map_name).read_text())
+    def download_blobs(shas, target):
+        if not isinstance(shas,list) or not 1<=len(shas)<=32 or any(not re.fullmatch(r'[a-f0-9]{40}',s) for s in shas):
+            raise ValueError('Invalid blob references')
+        with target.open('wb') as output:
+            for sha in shas:
+                subprocess.run(['gh','api',f'repos/{repo}/git/blobs/{sha}','-H','Accept: application/vnd.github.raw'],check=True,stdout=output,stderr=subprocess.DEVNULL)
+        return target
+    plan = json.loads(download_blobs([map_blob],work/'media-map.json').read_text())
     if plan.get('version') != 1 or not isinstance(plan.get('assets'), list) or not 1 <= len(plan['assets']) <= 32:
         raise ValueError('Invalid media map')
     spec = importlib.util.spec_from_file_location('r2_storage', ROOT / 'tools/r2-storage.py')
     module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
     client = module.R2()
     public = json.loads((ROOT / 'storage/manifest.json').read_text())['publicBaseURL'].rstrip('/')
-    verified = []
+    verified = []; names=set()
     for item in plan['assets']:
         logical = item['path']
         if not re.fullmatch(r'videos/[A-Za-z0-9_-]+/[^\x00-\x1f\\]+\.(wav|mp3|mp4|png)', logical) or any(p in ('.', '..') for p in logical.split('/')):
             raise ValueError('Invalid logical path')
         if not re.fullmatch(r'[a-f0-9]{64}', item['sha256']):
             raise ValueError('Invalid expected hash')
-        source = download(item['filename']); data = source.read_bytes()
+        name=item['filename']
+        if not isinstance(name,str) or Path(name).name!=name or '\\' in name or any(c in name for c in '\r\n') or name in names:
+            raise ValueError('Invalid or duplicate filename')
+        names.add(name)
+        source = download_blobs(item['blobs'],work/name); data = source.read_bytes()
         digest = hashlib.sha256(data).hexdigest()
         if digest != item['sha256'] or len(data) != item['size']:
             raise ValueError('Staged file differs from expected source')
@@ -64,5 +70,6 @@ if __name__ == '__main__':
         main()
     except Exception as error:
         # Never disclose signed requests, SDK error messages, endpoints or tokens.
-        print('Media staging failed:', type(error).__name__, file=sys.stderr)
+        status=re.search(r'HTTP (\d+)',str(error))
+        print('Media staging failed:', type(error).__name__,('HTTP '+status.group(1)) if status else '',file=sys.stderr)
         sys.exit(1)
