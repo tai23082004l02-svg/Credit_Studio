@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-23",
+  "sourceVerificationRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39889738423",
+  "r2Files": 204,
+  "r2Bytes": 629217384,
+  "removedFromMainFiles": 198,
+  "removedFromMainBytes": 620325763,
+  "retainedOnGitHub": [
+    "videos/003-car-payment-trap/images/illustrations/02a.png",
+    "videos/003-car-payment-trap/images/originals/alex-car-actions.png",
+    "videos/003-car-payment-trap/images/originals/car-props.png",
+    "videos/003-car-payment-trap/images/scenes/02a.png",
+    "videos/004-living-alone/images/illustrations/06a.png",
+    "videos/004-living-alone/images/scenes/05b.png"
+  ],
+  "retainedReason": "Public R2 GET timed out; private S3 copy still verified.",
+  "checks": {
+    "sourceSHA256Verified": 204,
+    "publicPNGHashAndCORSVerified": 180,
+    "audioVideoRangeAndCORSVerified": 18,
+    "realR2BrowserAfterRemoval": "passed: 4 editors/audio/MP4s, 4 galleries, 89 props, PNG download and canvas export; only retained media requested locally",
+    "captionsBackupWebM": "passed: saved edits preserved, EN/VI, reload/backup, mobile, WebM with audio, legacy/offline",
+    "unitTests": 19,
+    "restoredSampleSHA256": "passed",
+    "planPreservesArchivedEntries": "passed"
+  },
+  "gitHistoryRewritten": false,
+  "hostingRestored": false
+}

@@ -1,3 +1,5 @@
+> WAV gốc đã chuyển sang [R2](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d.wav), giữ nguyên byte. Để dựng cục bộ: `python3 tools/restore-media.py videos/004-living-alone/audio/` từ gốc repo.
+
 # Âm thanh — Living Alone
 
 Đã nhận **`tts_20261022_133142_ba54ee.wav`** trực tiếp qua chat vì tệp lớn: **27.720.044 byte**, PCM 16-bit / 24 kHz / mono, dài **577,5 giây**. SHA-256: `10a7d8bbb78bcab9411979954c4409e9e8a70344bf527d3316258189c5c5194d`. Bản gốc giữ nguyên; bản chuẩn hóa âm lượng dùng dựng ở `../review/voiceover.mp3`, không cắt lời hoặc đổi tốc độ. Không cần tải lại tệp gốc.

@@ -28,9 +28,13 @@ Sau khi commit và push thay đổi lên `main`, GitHub Pages sẽ cập nhật 
 
 Để xuất bản dự án tiếp theo cho mọi thiết bị, thêm tài nguyên vào thư mục riêng trong `videos/` và đăng ký trong `projects.json`. Giữ `id` dự án ổn định. Trang chủ tự hiển thị các mục đã đăng ký. Riêng dự án tài chính đầu tiên, bản intro v01, bản đầy đủ v01 hoặc v02 cũ được lưu nguyên vẹn vào **Bản lưu trước cập nhật** rồi chuyển sang v03. Bản lưu cũ có trong Sao lưu dự án và tải JSON riêng được; các sửa đổi trên v03 được giữ khi mở lại. Video 002–004 cũng lưu bảng hình 96 giây cũ vào lịch sử trước khi mở bản review theo WAV. Các revision khác và dự án khôi phục vẫn được giữ, hiện thông báo khi có bản xuất bản khác.
 
-## Dọn tài nguyên sang R2 — đang chờ CORS
+## Tài nguyên được lưu trên R2
 
-Đã sao chép và đối chiếu SHA-256 **204 tệp / 629,22 MB** lên R2, gồm toàn bộ PNG, WAV, MP3 và MP4. **Chưa xóa bản GitHub và chưa bật R2 trong Studio**: Cloudflare từ chối API CORS (403); cần lưu [cấu hình CORS](storage/cors.json) trong giao diện bucket rồi kiểm tra trình duyệt thật. [Danh mục audio/video và cách tải lại](storage/README.md). JSON bản dựng/thiết kế, lời thoại và các sửa riêng trong trình duyệt giữ nguyên.
+Đã chuyển **198 tệp / 620,33 MB** khỏi nhánh `main` sang R2: toàn bộ WAV, MP3, MP4 và 180 PNG. Đủ 204 bản gốc đã được tải lại kiểm tra SHA-256 trên R2; 6 PNG (8,89 MB) vẫn giữ trên GitHub vì đường dẫn R2 công khai của chúng tải không ổn định. Studio tự chọn nguồn bằng [manifest](storage/manifest.json), đã bật và kiểm tra CORS thực tế. Không đổi đường dẫn trong JSON bản dựng hoặc bản sửa IndexedDB.
+
+[Audio/video gốc và cách tải lại](storage/README.md). Ví dụ trước khi dựng lại video 004: `python3 tools/restore-media.py videos/004-living-alone/`. Các bản khôi phục được gitignore để tránh đưa file lớn trở lại repo. Khi chạy kiểm tra cần đọc media cục bộ, khôi phục đúng thư mục hoặc dùng `--all`; kiểm tra R2 thật: `node tests/r2-live.cjs`.
+
+Cây tệp hiện tại giảm khoảng 620 MB; **lịch sử Git vẫn giữ các bản cũ**, không force-push trong lần này. Website GitHub Pages bị 404 sau khi repo chuyển Private là vấn đề hosting riêng, không được sửa bằng việc chuyển tài nguyên sang R2.
 
 ## Kho đạo cụ dùng chung
 
@@ -40,7 +44,7 @@ Trong **Dựng video**, chọn lớp ảnh/nhân vật trên khung xem hoặc da
 
 Đưa PNG/JPG/WebP mới vào [thư mục library/props trên GitHub](https://github.com/tai23082004l02-svg/Credit_Studio/tree/main/library/props), commit rồi báo trợ lý cập nhật danh mục. Chạy `python3 tools/index-props.py` để đăng ký tệp mới, bổ sung tên/nhóm/từ khóa trong `library/props/catalog.json`, kiểm tra rồi push. [Hướng dẫn chi tiết](library/props/README.md). Tài nguyên cũ được tham chiếu, không nhân bản hoặc di chuyển.
 
-Kho đã xuất bản dùng được trên mọi máy. Việc thêm đạo cụ vào bản dựng vẫn là bản sửa lưu trong trình duyệt và cần Sao lưu dự án để bàn giao. Đã sao chép và đối chiếu 204 tệp sang R2. Website vẫn dùng GitHub trong lúc chờ CORS và kiểm tra thực tế; xem [hướng dẫn R2](docs/R2_SETUP.md).
+Kho đã xuất bản dùng được trên mọi máy. Việc thêm đạo cụ vào bản dựng vẫn là bản sửa lưu trong trình duyệt và cần Sao lưu dự án để bàn giao. Đã sao chép và đối chiếu 204 tệp sang R2. Studio đã dùng R2 cho tài nguyên đã chuyển; xem [hướng dẫn R2](docs/R2_SETUP.md).
 
 ## Bố trí thư mục
 

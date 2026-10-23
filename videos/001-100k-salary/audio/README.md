@@ -1,3 +1,5 @@
+> WAV gốc đã chuyển sang [R2](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/340b5ff951c23c3258244296a3adc1ebf6788d0ffe0e75fdf1fabfa50a5cc5df.wav), giữ nguyên byte. Để dựng cục bộ: `python3 tools/restore-media.py videos/001-100k-salary/audio/` từ gốc repo.
+
 # Tải giọng đọc vào đây
 
 Video: **Why You Feel Broke on a $100,000 Salary**.

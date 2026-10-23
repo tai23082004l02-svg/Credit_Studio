@@ -1,12 +1,16 @@
 # Kết nối kho tài nguyên R2
 
-## Di chuyển toàn bộ media — 2026-10-23
+## Trạng thái mới nhất — 2026-10-23: đã dọn main
 
-[Actions run 39889738423](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39889738423) đã sao chép và tải lại đối chiếu SHA-256 **204 tệp / 629.217.384 byte**: 186 PNG, 4 WAV gốc, 6 MP3, 8 MP4 (gồm mọi bản xuất cũ). Các bước copy/verify thành công; riêng bước CORS (continue-on-error) thất bại **403 AccessDenied**, nên không coi workflow success là đã hoàn tất CORS. HTTP công khai với Origin Pages/localhost chưa có Access-Control-Allow-Origin; Chromium xác nhận bị CORS chặn.
+Người dùng đã lưu CORS trong giao diện Cloudflare. GET Range trả 206 và Access-Control-Allow-Origin chính xác cho Pages và localhost. **Manifest enabled:true**. Có sáu PNG public GET timeout dù bản sao S3 đã được kiểm tra đúng byte; giữ các bản này trong GitHub, đánh dấu `local:true` và resolver dùng nguồn cùng origin. Không tự chuyển các pin này sang R2 khi plan/sync lại.
 
-**Chưa xóa bất kỳ media nào khỏi GitHub; manifest vẫn enabled:false.** Gallery 002–004 đã được bổ sung mediaURL giống 001; đường dẫn logic và JSON giữ nguyên, link trực tiếp trong tài liệu/HTML chuyển đến bản R2 đã sao chép. `plan()` giữ các entry đã archive để lần sync sau không mất mapping. Thêm tools/restore-media.py để tải lại theo đường dẫn/thư mục, kiểm tra hash và không ghi đè khác nội dung.
+Đã gỡ **198 media / 620.325.763 byte** khỏi main: 180 PNG, 4 WAV gốc, 6 MP3, 8 MP4. Giữ 6 PNG / 8.891.621 byte. Đủ 204 bản trên R2 đã qua tải lại SHA-256 qua [Actions run 39889738423](https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39889738423). Khi đó copy/verify qua, CORS API bị 403; CORS nay đã được lưu thủ công. Workflow sync bỏ bước sửa CORS để không yêu cầu quyền quản trị bucket.
 
-Bước tiếp: người dùng lưu storage/cors.json trong bucket Settings; kiểm tra CORS GET/HEAD/Range cho Pages và localhost; bật manifest cục bộ, chạy tests/r2-live.cjs và kiểm tra WebM/caption/backup. Chỉ khi qua mới di chuyển 204 bản cục bộ sang work, git rm media, thêm ignore cho bản khôi phục, kiểm tra không có request media cũ về Pages, cập nhật số liệu/docs và push. Khoảng 629 MB giảm ở cây tệp hiện tại, không giảm tương ứng lịch sử Git; không force-push. JSON thiết kế còn khoảng 130,73 MB được giữ để chỉnh sửa. GitHub Pages hiện trả 404 sau khi repo private, chưa khôi phục hosting trong công việc này.
+**Kiểm tra sau khi gỡ file cục bộ:** `tests/r2-live.cjs` qua cả 4 editor/audio/MP4 và 4 gallery, đủ 89 đạo cụ, tải PNG, canvas export không bị taint. Mọi request media về origin Studio chỉ là sáu PNG được giữ; phần còn lại đọc R2 thật, không mock. Đã đọc đủ 180 PNG công khai và kiểm tra hash/CORS; sáu PNG timeout giữ lại. 18 WAV/MP3/MP4 đều trả Range 206/CORS đúng. `plan()` giữ nguyên đủ 204 entry sau khi source rời Git. Restore ảnh mẫu từ R2 đúng SHA-256; bản thử đã xóa. JSON/draft/revision không thay đổi. 19 unit tests và vietnamese-captions-editor qua sau khi gỡ source: WebM thật có audio, 155 cue EN/VI, giữ draft đã sửa, backup/reload, mobile, legacy và offline fallback.
+
+Phục hồi file phục vụ builder/test: `python3 tools/restore-media.py videos/004-living-alone/` hoặc `--all`. Tệp khôi phục được ignore theo từng đường dẫn cũ. Không đổi SHA/byte bản gốc hoặc xóa object R2. [Danh mục](../storage/README.md). Khi thêm media mới, đăng ký và copy/verify trên R2 trước khi gỡ bản Git, giữ manifest đủ mapping; không chạy builder cần WAV/PNG trước khi restore. JSON thiết kế nhúng ảnh vẫn giữ vì là tài liệu chỉnh sửa.
+
+Cây tệp main giảm khoảng 620 MB, lịch sử Git không được viết lại nên dung lượng repo Git phía GitHub chưa giảm tương ứng. Pages 404 sau khi repo Private là vấn đề hosting riêng; không xác nhận đã khôi phục website online.
 
 ## Chẩn đoán bằng GitHub Actions
 

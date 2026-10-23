@@ -1,9 +1,9 @@
-import {mediaURL} from '../assets/js/media-storage.js?v=r2-media-v2';
-import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-media-v2';
-import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=r2-media-v2';
+import {mediaURL} from '../assets/js/media-storage.js?v=r2-media-v3';
+import {loadProps,drawProp,propImage,replaceProp} from '../assets/js/prop-library.js?v=r2-media-v3';
+import {APP_ROOT,FINANCE_ID,getWorkspace,getDocument,saveDocument,blankVideo,resourceURL,notifySaved,videoHistory,promotePublishedVideo,canUpgradePublishedVideo} from '../assets/js/workspace-store.js?v=r2-media-v3';
 import {finalizeWebM} from './webm.js';
-import {mergeCaptionTranslation,hasVietnameseCaptions} from './captions.js?v=r2-media-v2';
-import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=r2-media-v2';
+import {mergeCaptionTranslation,hasVietnameseCaptions} from './captions.js?v=r2-media-v3';
+import {WIDTH,HEIGHT,clone,clamp,duration,locate,clipStart,validate,loadAssets,layerBox,render} from './engine.js?v=r2-media-v3';
 const $=s=>document.querySelector(s);
 const canvas=$('#preview'),ctx=canvas.getContext('2d'),audio=$('#audio');
 const baseURL=APP_ROOT,params=new URLSearchParams(location.search),workspaceID=params.get('project')||FINANCE_ID;

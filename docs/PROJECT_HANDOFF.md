@@ -1,10 +1,12 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
-## Dọn GitHub sang R2 — CHỜ CORS (2026-10-23)
+## Dọn GitHub sang R2 — ĐÃ HOÀN TẤT Ở MAIN (2026-10-23)
 
-Đã hoàn thành copy/verify toàn bộ **204 media / 629.217.384 byte** qua Actions run `39889738423`; mọi SHA-256 khớp. Bao gồm toàn bộ 186 PNG, 4 WAV nguồn, 6 MP3, 8 MP4, không bỏ bản cũ. Bước CORS bị **403 AccessDenied** dù copy/verify thành công; quyền này cần người dùng thao tác UI bucket, đã gửi JSON storage/cors.json. Browser thật xác nhận thiếu header CORS. **Chưa xóa media khỏi GitHub, manifest vẫn disabled.** Không coi đã dọn dung lượng repo.
+Người dùng đã lưu CORS. Xác nhận GET Range 206/CORS đúng cho Pages và localhost. Đã bật manifest; **gỡ 198 file / 620.325.763 byte** khỏi main (180 PNG, 4 WAV, 6 MP3, 8 MP4), không thay byte bản gốc. Đủ **204 media / 629.217.384 byte** được copy và tải lại xác minh SHA-256 ở Actions run `39889738423`. Giữ **6 PNG / 8.891.621 byte** trong repo với entry `local:true` do public R2 timeout; xem storage/README.md. Resolver, plan/sync giữ pin. Không xóa object R2 hoặc viết lại lịch sử Git.
 
-Đã chuẩn bị resolver cho gallery 002–004, cache r2-media-v2, link audio/video/hình trong MD/HTML tới R2, restore-media.py và tests/r2-live.cjs. 19 unit tests qua. Live integration chưa qua do CORS; cần chạy lại sau khi user lưu CORS. JSON/draft/revision, nhạc/audio/video bytes không thay đổi. Xem docs/R2_SETUP.md cho bước tiếp theo: xác nhận CORS, bật/test local, xóa bản Git đã sao lưu, kiểm tra/commit/push; chưa được tự xóa khi CORS chưa qua. Không viết lại lịch sử Git.
+Sau khi media đã rời cây làm việc: real R2 integration qua **4 editor/audio/MP4, 4 gallery, 89 đạo cụ, PNG download/canvas export**, chỉ sáu ảnh pin đọc từ origin Studio. 180 ảnh public được tải kiểm tra hash/CORS, 18 audio/video qua GET Range/CORS; sáu ảnh timeout giữ local. `plan()` giữ nguyên toàn bộ manifest sau khi Git không còn media cũ. Restore mẫu từ R2 đúng SHA-256, xóa bản thử sau kiểm tra. 19 unit tests qua. `vietnamese-captions-editor` qua sau khi source đã rời local: draft đã sửa giữ nguyên, English/Vi canvas thật, reload/backup, mobile, WebM thật có audio, dự án cũ và offline fallback; đủ 155 cue vừa một dòng.
+
+Mã nguồn, mọi JSON dự án/thiết kế, revision, caption và bản sửa IndexedDB giữ nguyên. Các nguồn WAV/PNG/MP4 vẫn truy xuất được bằng manifest/restore-media.py; restore đúng thư mục trước khi chạy builders hoặc test đọc filesystem. `.gitignore` chứa chính xác các đường dẫn đã archive và /work/. Sáu ảnh pin còn được theo dõi, không tự chuyển chúng đi. Cache mới r2-media-v3. Repo main còn khoảng 141 MB tệp; lịch sử Git vẫn lớn, chưa force-push. GitHub Pages 404 do Private chưa khôi phục hosting trong task dọn tài nguyên. Người dùng vẫn cần duyệt video; đừng nhầm migration với bản render mới.
 
 ## Kiểm tra lại R2 — 2026-10-23
 

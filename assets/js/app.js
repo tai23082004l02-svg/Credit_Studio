@@ -1,5 +1,5 @@
 import {validateDesign as validate} from './design-model.js';
-import {APP_ROOT,LEGACY_DESIGN_ID,getWorkspace,getDocument,saveDocument,resourceURL,getFile,dataURL,notifySaved} from './workspace-store.js?v=r2-media-v2';
+import {APP_ROOT,LEGACY_DESIGN_ID,getWorkspace,getDocument,saveDocument,resourceURL,getFile,dataURL,notifySaved} from './workspace-store.js?v=r2-media-v3';
 const $ = s => document.querySelector(s);
 const svg = $('#artboard');
 const NS = 'http://www.w3.org/2000/svg';

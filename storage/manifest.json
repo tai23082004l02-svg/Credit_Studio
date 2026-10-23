@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "enabled": false,
+  "enabled": true,
   "publicBaseURL": "https://pub-ae346874928c47ce9628da16abea661c.r2.dev/",
   "assets": {
     "assets/samples/finance-hand-drawn-2d.png": {
@@ -721,7 +721,8 @@
       "key": "credit-studio/media/958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0.png",
       "sha256": "958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0",
       "size": 1565839,
-      "type": "image/png"
+      "type": "image/png",
+      "local": true
     },
     "videos/003-car-payment-trap/images/illustrations/03a.png": {
       "key": "credit-studio/media/765bf3c77696aaecce0e90008820ee4346479368f82eae12ec5213336a49ecde.png",
@@ -763,13 +764,15 @@
       "key": "credit-studio/media/c6b196cb487376ac2981b8e70088de35275e43e32863b405e0fbc7fd9aa7cd01.png",
       "sha256": "c6b196cb487376ac2981b8e70088de35275e43e32863b405e0fbc7fd9aa7cd01",
       "size": 1775423,
-      "type": "image/png"
+      "type": "image/png",
+      "local": true
     },
     "videos/003-car-payment-trap/images/originals/car-props.png": {
       "key": "credit-studio/media/8bab0f5d83944ac134c609c77622d36bcc4d8c83e401292ddaffff7aa068bb0e.png",
       "sha256": "8bab0f5d83944ac134c609c77622d36bcc4d8c83e401292ddaffff7aa068bb0e",
       "size": 1009693,
-      "type": "image/png"
+      "type": "image/png",
+      "local": true
     },
     "videos/003-car-payment-trap/images/reused/calendar.png": {
       "key": "credit-studio/media/99b9184df96606bd5d41284ce15db9a98559a6ff690de243968626b84c2aa4f2.png",
@@ -823,7 +826,8 @@
       "key": "credit-studio/media/c8e41aa0ee0de9fd60fac8ef88effdcb9d9347da8eedd8d229e8fe31ff78a357.png",
       "sha256": "c8e41aa0ee0de9fd60fac8ef88effdcb9d9347da8eedd8d229e8fe31ff78a357",
       "size": 1400355,
-      "type": "image/png"
+      "type": "image/png",
+      "local": true
     },
     "videos/003-car-payment-trap/images/scenes/02b.png": {
       "key": "credit-studio/media/723cf891b66256a326550546914e3bbed76f4741e20022973e581a02da89d0cb.png",
@@ -1075,7 +1079,8 @@
       "key": "credit-studio/media/b0f97d95a0c0d4480a1356c73e121f27e6a335f4fdec83a693574951bcc7b5de.png",
       "sha256": "b0f97d95a0c0d4480a1356c73e121f27e6a335f4fdec83a693574951bcc7b5de",
       "size": 2814324,
-      "type": "image/png"
+      "type": "image/png",
+      "local": true
     },
     "videos/004-living-alone/images/illustrations/07a.png": {
       "key": "credit-studio/media/f53e30be7af1881e6a87045ad59a5840652738f934a4ff004fb7f7a1100a1620.png",
@@ -1159,7 +1164,8 @@
       "key": "credit-studio/media/79b25f2c031a0d76a03b91fc2ba5a1b95330b3fe93b28cf65b379dd1cae1bf3b.png",
       "sha256": "79b25f2c031a0d76a03b91fc2ba5a1b95330b3fe93b28cf65b379dd1cae1bf3b",
       "size": 325987,
-      "type": "image/png"
+      "type": "image/png",
+      "local": true
     },
     "videos/004-living-alone/images/scenes/06a.png": {
       "key": "credit-studio/media/5096ade2f3277732ef96b796d1e5dbc0bfb13584160521952b459509847f5382.png",

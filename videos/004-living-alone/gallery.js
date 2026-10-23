@@ -1,4 +1,4 @@
-import {initStorage,mediaURL} from '../../assets/js/media-storage.js?v=r2-media-v2';
+import {initStorage,mediaURL} from '../../assets/js/media-storage.js?v=r2-media-v3';
 const params=new URLSearchParams(location.search),project=params.get('project')||'finance-004';
 if(params.get('embed')==='1')document.documentElement.classList.add('embedded');
 const node=(tag,attrs={},text='')=>{const n=document.createElement(tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);n.textContent=text;return n;};

@@ -1,4 +1,4 @@
-import {initStorage,mediaURL} from '../../assets/js/media-storage.js?v=r2-media-v2';
+import {initStorage,mediaURL} from '../../assets/js/media-storage.js?v=r2-media-v3';
 const workspaceParams=new URLSearchParams(location.search);const workspaceID=workspaceParams.get('project')||'finance-001';if(workspaceParams.get('embed')==='1')document.documentElement.classList.add('embedded');
 'use strict';
 const svgNS='http://www.w3.org/2000/svg';

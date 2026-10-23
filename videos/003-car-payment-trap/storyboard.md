@@ -5,7 +5,7 @@
 | Cảnh | Ý chính | Câu gợi mốc trong script | Hình gốc |
 |---|---|---|---|
 | 01a | Khoản trả nhìn có vẻ vừa túi tiền | The salesperson asks a simple question. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/d2fcbd38b45ade5d7228c37c8d16d8b8b4110a988f7c5afbc5e32c81c34fd153.png) |
-| 02a | Những chi phí không nằm trên màn hình trả góp | Then the other costs arrive. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/958837f152328e7daad239ee56168f38472e6912b9d8fdd025b3efaa5e86cff0.png) |
+| 02a | Những chi phí không nằm trên màn hình trả góp | Then the other costs arrive. | [PNG](images/illustrations/02a.png) |
 | 03a | Kỳ hạn dài làm khoản trả trông nhỏ hơn | One way is to stretch the loan over more months. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/765bf3c77696aaecce0e90008820ee4346479368f82eae12ec5213336a49ecde.png) |
 | 04a | Khoản nợ cũ đi theo chiếc xe mới | Trading in the car doesn’t make that gap disappear. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/3f0329abd1731b3794f74281ae195d6bea2b7d4f587ae87e30bb005cef5c7449.png) |
 | 05a | Tiền rời tài khoản và giá trị xe là hai góc nhìn | They measure different things. | [PNG](https://pub-ae346874928c47ce9628da16abea661c.r2.dev/credit-studio/media/4228cce60e0131f76e0e5235e27dd8256595ecba6f004d0558b96cb1ae2e7b9e.png) |

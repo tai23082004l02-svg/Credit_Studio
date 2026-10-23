@@ -1,4 +1,4 @@
-import {initStorage,mediaURL} from '../assets/js/media-storage.js?v=r2-media-v2';
+import {initStorage,mediaURL} from '../assets/js/media-storage.js?v=r2-media-v3';
 // Shared deterministic renderer used by the editor, tests and MP4 rendering.
 export const WIDTH = 1920, HEIGHT = 1080;
 export const EFFECTS = ['fade', 'slide', 'pop', 'none'];

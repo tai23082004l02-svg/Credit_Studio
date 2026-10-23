@@ -1,6 +1,6 @@
 # Tài nguyên gốc trên R2
 
-Trạng thái 2026-10-23: đã chép và xác minh 204 tệp (629.217.384 byte). Bản GitHub chưa xóa; manifest vẫn tắt vì thiếu CORS. Cần lưu storage/cors.json trong Cloudflare, kiểm tra trình duyệt thật rồi mới bật R2 và dọn bản Git.
+Trạng thái 2026-10-23: đã chép và xác minh 204 tệp (629.217.384 byte). Đã bật R2, kiểm tra CORS và trình duyệt thật; **198 tệp / 620.325.763 byte được gỡ khỏi main**. Sáu PNG bên dưới vẫn ở GitHub (`local:true`) vì tải công khai từ R2 bị timeout; bản sao của chúng vẫn có trên R2.
 
 Ảnh, audio và MP4 giữ nguyên byte; đường dẫn logic, SHA-256 và kích thước nằm trong [manifest.json](manifest.json). JSON thiết kế/bản dựng vẫn ở GitHub.
 
@@ -30,3 +30,12 @@ Trạng thái 2026-10-23: đã chép và xác minh 204 tệp (629.217.384 byte).
 Ví dụ: `python3 tools/restore-media.py videos/004-living-alone/audio/`. Dùng `--all` nếu cần mọi bản gốc. Công cụ đối chiếu SHA-256 và từ chối ghi đè tệp khác nội dung.
 
 Việc xóa tệp ở nhánh hiện tại không xóa bản cũ trong lịch sử Git; không force-push hoặc viết lại lịch sử trong lần dọn này.
+
+## Sáu ảnh tiếp tục phục vụ từ GitHub
+
+- `videos/003-car-payment-trap/images/illustrations/02a.png`
+- `videos/003-car-payment-trap/images/originals/alex-car-actions.png`
+- `videos/003-car-payment-trap/images/originals/car-props.png`
+- `videos/003-car-payment-trap/images/scenes/02a.png`
+- `videos/004-living-alone/images/illustrations/06a.png`
+- `videos/004-living-alone/images/scenes/05b.png`

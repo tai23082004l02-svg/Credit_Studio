@@ -1,7 +1,7 @@
 const{chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{execFileSync}=require('node:child_process');
 const base=process.env.CREDIT_STUDIO_URL||'http://127.0.0.1:8000',scratch=path.resolve('work/vietnamese-captions');fs.mkdirSync(scratch,{recursive:true});
 const project=JSON.parse(fs.readFileSync('videos/004-living-alone/review/project.json'));
-(async()=>{const browser=await chromium.launch();try{
+(async()=>{const browser=await chromium.launch({proxy:process.env.HTTPS_PROXY?{server:process.env.HTTPS_PROXY,bypass:'127.0.0.1,localhost'}:undefined});try{
  const page=await browser.newPage({viewport:{width:1500,height:1100},acceptDownloads:true}),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(base+'/');const draft=structuredClone(project);draft.captions.forEach(c=>delete c.textVi);draft.clips[0].layers.find(l=>l.id==='headline').text='MY SAVED EDIT';draft.audio.volume=.4;
  await page.evaluate(async p=>{const s=await import('/assets/js/workspace-store.js?v=captions-vi-v1');await s.saveDocument('finance-004','video',p);},draft);

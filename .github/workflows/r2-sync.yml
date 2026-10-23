@@ -18,7 +18,5 @@ jobs:
         run: python3 tools/r2-storage.py sync
       - name: Download and verify every media SHA-256
         run: python3 tools/r2-storage.py verify
-      - name: Configure Studio CORS if permitted
-        id: cors
-        continue-on-error: true
-        run: python3 tools/r2-storage.py cors
+      # Bucket CORS is configured manually in Cloudflare; object tokens need
+      # no bucket-administration permissions. See docs/R2_SETUP.md.

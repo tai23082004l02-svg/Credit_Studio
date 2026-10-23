@@ -52,7 +52,7 @@ def plan():
   if not relative or not relative.startswith(('videos/','library/props/','assets/samples/')):continue
   p=ROOT/relative
   if p.suffix.lower() not in extensions or not p.is_file():continue
-  digest=hashlib.sha256(p.read_bytes()).hexdigest();assets[relative]={'key':'credit-studio/media/'+digest+p.suffix.lower(),'sha256':digest,'size':p.stat().st_size,'type':mimetypes.guess_type(p.name)[0] or 'application/octet-stream'}
+  digest=hashlib.sha256(p.read_bytes()).hexdigest();assets[relative]={'key':'credit-studio/media/'+digest+p.suffix.lower(),'sha256':digest,'size':p.stat().st_size,'type':mimetypes.guess_type(p.name)[0] or 'application/octet-stream',**({'local':True} if assets.get(relative,{}).get('local') else {})}
  out={'version':1,'enabled':old.get('enabled',False),'publicBaseURL':old.get('publicBaseURL',''),'assets':assets};MANIFEST.parent.mkdir(exist_ok=True);MANIFEST.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'planned_files':len(assets),'bytes':sum(x['size'] for x in assets.values())}));return out
 
 def check(client):
