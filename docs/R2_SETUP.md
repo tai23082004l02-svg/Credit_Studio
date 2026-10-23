@@ -1,5 +1,11 @@
 # Kết nối kho tài nguyên R2
 
+## Chẩn đoán bằng GitHub Actions
+
+Workflow `.github/workflows/r2-diagnostic.yml` chạy thủ công tại **Actions → Diagnose R2 access → Run workflow**. Cấu hình **Settings → Secrets and variables → Actions**: secrets `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT_URL`, `R2_BUCKET` (hai mục cuối cũng nhận repository variables; bucket mặc định `credit-studio`). Biến trong môi trường chat không tự chuyển sang Actions. Không đưa khóa vào YAML hoặc log.
+
+Tác vụ chỉ ListObjectsV2 và đọc tối đa 64 byte của một object; không ghi/xóa, không thay manifest hoặc dữ liệu Studio. Báo thiếu biến, lỗi định dạng, HTTP 401/403/404 hoặc lỗi mạng; không in khóa, endpoint, object key hay thông báo lỗi thô. Thành công chỉ xác nhận quyền đọc, chưa xác nhận quyền ghi.
+
 ## Trạng thái — 2026-10-21
 
 Bucket `credit-studio` đã nhận **26 tệp / 128.215.675 byte**. Đã tải lại toàn bộ qua S3 và đối chiếu SHA-256 với bản gốc: tất cả khớp. Địa chỉ công khai: `https://pub-ae346874928c47ce9628da16abea661c.r2.dev/`.
