@@ -1,0 +1,156 @@
+{
+  "source": "videos/006-musk-buy-a-country/images/generated/musk-sheet-v01.png",
+  "width": 1254,
+  "height": 1254,
+  "items": [
+    {
+      "id": "musk-standing",
+      "cell": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        219,
+        8,
+        224,
+        612
+      ],
+      "sourceCrop": [
+        211,
+        1,
+        240,
+        626
+      ],
+      "sourceMargins": [
+        219,
+        8,
+        184,
+        7
+      ],
+      "featherPixels": [
+        8,
+        7
+      ],
+      "transparentPadding": 40,
+      "width": 320,
+      "height": 706,
+      "visiblePixelsPreserved": 84607,
+      "alphaThreshold": 4,
+      "output": "videos/006-musk-buy-a-country/images/cutouts/musk-standing.png"
+    },
+    {
+      "id": "musk-palm",
+      "cell": [
+        627,
+        0,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        777,
+        20,
+        373,
+        598
+      ],
+      "sourceCrop": [
+        769,
+        12,
+        389,
+        614
+      ],
+      "sourceMargins": [
+        150,
+        20,
+        104,
+        9
+      ],
+      "featherPixels": [
+        8,
+        8
+      ],
+      "transparentPadding": 40,
+      "width": 469,
+      "height": 694,
+      "visiblePixelsPreserved": 85207,
+      "alphaThreshold": 4,
+      "output": "videos/006-musk-buy-a-country/images/cutouts/musk-palm.png"
+    },
+    {
+      "id": "musk-thinking",
+      "cell": [
+        0,
+        627,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        223,
+        636,
+        273,
+        603
+      ],
+      "sourceCrop": [
+        215,
+        628,
+        289,
+        619
+      ],
+      "sourceMargins": [
+        223,
+        9,
+        131,
+        15
+      ],
+      "featherPixels": [
+        8,
+        8
+      ],
+      "transparentPadding": 40,
+      "width": 369,
+      "height": 699,
+      "visiblePixelsPreserved": 81508,
+      "alphaThreshold": 4,
+      "output": "videos/006-musk-buy-a-country/images/cutouts/musk-thinking.png"
+    },
+    {
+      "id": "musk-folder",
+      "cell": [
+        627,
+        627,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        798,
+        637,
+        225,
+        604
+      ],
+      "sourceCrop": [
+        790,
+        629,
+        241,
+        620
+      ],
+      "sourceMargins": [
+        171,
+        10,
+        231,
+        13
+      ],
+      "featherPixels": [
+        8,
+        8
+      ],
+      "transparentPadding": 40,
+      "width": 321,
+      "height": 700,
+      "visiblePixelsPreserved": 78369,
+      "alphaThreshold": 4,
+      "output": "videos/006-musk-buy-a-country/images/cutouts/musk-folder.png"
+    }
+  ],
+  "validation": "All source pixels at alpha>=4 preserved; original feather retained for 8px, then 32px transparent padding. No scaling. Only alpha 1\u20133 gutter speckles outside this region are omitted; original sheet is unchanged. Source quadrants do not overlap."
+}

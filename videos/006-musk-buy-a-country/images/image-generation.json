@@ -1,0 +1,87 @@
+{
+  "tool": "image_gen",
+  "date": "2026-10-23",
+  "illustrationsNotDocumentaryEvents": true,
+  "items": [
+    {
+      "id": "lisbon",
+      "prompt": "Create ONE full-bleed widescreen 16:9 cinematic editorial illustration for an educational finance documentary. Rich sophisticated hand-painted 2D digital gouache with crisp architectural ink detail, atmospheric perspective, subtle paper grain WITHIN THE PICTURE. Deep midnight navy, petroleum teal, terracotta and restrained warm gold lighting, realistic perspective and adult proportions, visually dense coherent environment, luminous rather than gloomy. NOT a white or cream page, NOT an infographic, NOT a collage or multi-panel sheet. NO words, lettering, labels, numbers, logos, charts or watermarks. No hero character or narrator. Keep enough calm dark midtone in upper left for separately added readable typography, but paint the whole canvas as real scenery. Elevated viewpoint across Lisbon's terracotta rooftops toward the broad Tagus estuary at blue hour, warm windows, layered historic streets, a yellow tram small in a lower street, distant bridge and ships, Portugal setting recognizable and geographically plausible, detailed full panoramic establishing shot. Avoid large foreground people.",
+      "source": "/workspace/generated_images/exec-cdbcdb67-c7ca-4f31-8353-c505d68be59e.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/lisbon-v01.png",
+      "sha256": "a29af83c853029c7b821d8d5dd387956bfaca5afe72f2989661141a2112be352",
+      "bytes": 3083127,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "industry",
+      "prompt": "Create ONE full-bleed widescreen 16:9 cinematic editorial illustration for an educational finance documentary. Rich sophisticated hand-painted 2D digital gouache with crisp architectural ink detail, atmospheric perspective, subtle paper grain WITHIN THE PICTURE. Deep midnight navy, petroleum teal, terracotta and restrained warm gold lighting, realistic perspective and adult proportions, visually dense coherent environment, luminous rather than gloomy. NOT a white or cream page, NOT an infographic, NOT a collage or multi-panel sheet. NO words, lettering, labels, numbers, logos, charts or watermarks. No hero character or narrator. Keep enough calm dark midtone in upper left for separately added readable typography, but paint the whole canvas as real scenery. Interior of a clean modern electric-vehicle and aerospace manufacturing campus, expansive industrial hall, precision machinery and partially assembled vehicle bodies, glass wall showing an adjacent distant launch facility WITHOUT a launched rocket, engineers small in scale as incidental workers, professional teal/amber lighting. Generic conceptual industry, no company brand, no documentary event implied.",
+      "source": "/workspace/generated_images/exec-ac468bb6-ce88-40da-b5d7-7e0105a41306.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/industry-v01.png",
+      "sha256": "532b20de96c4adbba8091ba5c7a72d6a0a09ed979e2d1968b1d99691273392f5",
+      "bytes": 2794867,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "finance",
+      "prompt": "Create ONE full-bleed widescreen 16:9 cinematic editorial illustration for an educational finance documentary. Rich sophisticated hand-painted 2D digital gouache with crisp architectural ink detail, atmospheric perspective, subtle paper grain WITHIN THE PICTURE. Deep midnight navy, petroleum teal, terracotta and restrained warm gold lighting, realistic perspective and adult proportions, visually dense coherent environment, luminous rather than gloomy. NOT a white or cream page, NOT an infographic, NOT a collage or multi-panel sheet. NO words, lettering, labels, numbers, logos, charts or watermarks. No hero character or narrator. Keep enough calm dark midtone in upper left for separately added readable typography, but paint the whole canvas as real scenery. A sophisticated contemporary financial district interior with tall glass windows overlooking a modern skyline at dusk, large architectural walls and desk surfaces, abstract unlettered glass exchange display structures, reflective blue and copper surfaces, clean architectural geometry and a strong foreground/midground/background. All monitors blank with simple subdued abstract colored rectangles, absolutely no fake text.",
+      "source": "/workspace/generated_images/exec-9ce9b4de-3868-4b89-b2f4-d4e8006c1393.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/finance-v01.png",
+      "sha256": "9981e486dac104416ae9bc0963b293e2e8a8ca8908f127ac384b3c1a386e2052",
+      "bytes": 2606204,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "musk-sheet",
+      "prompt": "Create a large high-resolution SQUARE transparent PNG production character sheet for an editorial illustrated finance documentary. The same clearly recognizable ELON MUSK in FOUR separate complete full-body poses, arranged in a strict even TWO BY TWO grid on fully TRANSPARENT background. Sophisticated adult editorial 2D digital gouache and crisp dark ink, semi-realistic face with recognizable Elon Musk likeness, short dark swept hair, light skin, dark charcoal jacket over a plain black T-shirt and dark trousers, simple shoes; navy/teal/terracotta documentary palette. Consistent face and clothing in every cell, no photorealistic event claim. Upper left: standing quietly arms naturally at sides, looking three-quarter right. Upper right: standing with one open palm directed toward empty space to his right, lips closed. Lower left: thoughtful standing posture, one hand at chin, other arm at side, lips closed. Lower right: standing holding a closed unlettered folder at waist with both hands, lips closed. He is the SUBJECT of a story, not its narrator: no talking, no speech balloons, no microphones, no lectern, no gesturing at viewer. Every figure ENTIRELY within its own cell with at least 12 percent empty transparent padding on ALL four sides. Preserve complete hair, fingers, elbows, shoes and any folder corners. No overlapping cells, no labels, no words, no marks, no border lines. Four separate silhouettes with no background scenery and no large cast shadows. Make the poses occupy consistent modest width so nothing touches crop boundaries.",
+      "source": "/workspace/generated_images/exec-ad975bfa-9f60-46cf-80bc-2c883da54344.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/musk-sheet-v01.png",
+      "sha256": "81584770535e5ceccc0ac341b8dc125e22eb0984051a04561fdf40e3a4a3509f",
+      "bytes": 776505,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "neighborhood",
+      "prompt": "undefinedA lively Lisbon residential neighborhood seen from a slightly elevated street corner, complete pastel teal and terracotta apartment facades, balconies, tiny street market, several small incidental families with adults and children walking naturally, warm late afternoon sunlight, laundry and trees, unlettered storefronts. Buildings complete within scene, no close-up protagonist. Calm shaded upper-left and right-center zones for later infographic overlays.",
+      "source": "/workspace/generated_images/exec-60a30ce3-302b-4800-b502-085c90ff4520.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/neighborhood-v01.png",
+      "sha256": "7e96dcf7698d958d7df61db43201678483a41077a0527519f7695cd9d87e9fda",
+      "bytes": 3153716,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "hospital",
+      "prompt": "undefinedA fictional public hospital project in a Portuguese urban setting, a coherent panoramic architectural illustration with a hospital wing under construction on the left with crane and workers, completed glass hospital wing on the right with warm light, a doctor and equipment visible small in scale through one window. Strong foreground planting and clear sky, understated teal and brick palette. No red cross icon, no logos, no medical lettering, no named project or real event. Both construction and ongoing operation conveyed in one believable scene.",
+      "source": "/workspace/generated_images/exec-1669996d-82d4-4abd-9c86-8619052b8e6d.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/hospital-v01.png",
+      "sha256": "2d2071aa755abedfc6e76a1be54eadda9d3570e96c0dbfc2a8d60780abc1e036",
+      "bytes": 3180485,
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "id": "infrastructure",
+      "prompt": "undefinedA fictional Portuguese valley with a modern railway viaduct across the middle distance and a train, a well-kept public school building in the foreground with a courtyard and small incidental students and teachers, hills and town beyond. Coherent single landscape perspective, not separate panels. Warm evening gold and teal shadows, foreground and midground layers support cinematic parallax. No logos, inscriptions or text.",
+      "source": "/workspace/generated_images/exec-29d55a2f-5926-4369-b2b9-f18ec198f733.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/infrastructure-v01.png",
+      "sha256": "9f774b39a525d15fb87495be4e86dc794c44680cea8cb560f94df08350711ad9",
+      "bytes": 2845455,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "civic",
+      "prompt": "undefinedA dignified wide street-level view of Lisbon's Portuguese national parliament exterior, neoclassical pale-stone columns and broad steps inspired by Palacio de Sao Bento, with urban trees, textured Portuguese pavement, small pedestrians as everyday citizens, no political gathering and no recognizable officials. Late blue-hour with warm interior illumination and copper highlights. Foreground right contains a low stone balustrade; leave upper-left sky and mid-left shadows relatively calm for separately added native typography. No invented national crest, flags, banners or inscriptions; no labels. Architectural editorial illustration, not a photograph.",
+      "source": "/workspace/generated_images/exec-dfd6d00a-186b-4579-b8b0-2ca9fd57c154.png",
+      "path": "videos/006-musk-buy-a-country/images/generated/civic-v01.png",
+      "sha256": "5c7e372f1f1a28998166902af4ac31d4d91eda0b1a6578d2503c6e590e4b85f6",
+      "bytes": 2840642,
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

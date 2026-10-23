@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "title": "Could Elon Musk Buy a Country?",
+  "projectId": "finance-006",
+  "revision": "musk-scenic-review-v01",
+  "duration": 535.525,
+  "frames": [
+    {
+      "id": "musk-001",
+      "section": 1,
+      "title": "Musk và Bồ Đào Nha",
+      "image": "images/scenes/01-musk-001.png",
+      "time": 2.84,
+      "cue": "Could Elon Musk buy a country?",
+      "clip": "musk-001"
+    },
+    {
+      "id": "musk-003",
+      "section": 1,
+      "title": "Tài sản ròng ước tính",
+      "image": "images/scenes/02-musk-003.png",
+      "time": 18.42,
+      "cue": "On October first, twenty twenty-six, Forbes estimated his net worth at about nine hundred and thirty-six billion dollars.",
+      "clip": "musk-003"
+    },
+    {
+      "id": "musk-004",
+      "section": 1,
+      "title": "GDP một năm",
+      "image": "images/scenes/03-musk-004.png",
+      "time": 28.680000000000003,
+      "cue": "The World Bank puts Portugal's economic output in twenty twenty-five at roughly three hundred and forty-six point six billion dollars.",
+      "clip": "musk-004"
+    },
+    {
+      "id": "musk-005",
+      "section": 1,
+      "title": "Hai số đo khác loại",
+      "image": "images/scenes/04-musk-005.png",
+      "time": 33.7,
+      "cue": "The first number is about two point seven times the second.",
+      "clip": "musk-005"
+    },
+    {
+      "id": "musk-010",
+      "section": 2,
+      "title": "GDP và một năm sản xuất",
+      "image": "images/scenes/05-musk-010.png",
+      "time": 83.28,
+      "cue": "Gross domestic product, or GDP, measures the value of final goods and services produced within an economy during a period, usually a year.",
+      "clip": "musk-010"
+    },
+    {
+      "id": "musk-016",
+      "section": 3,
+      "title": "Tài sản nằm ở đâu",
+      "image": "images/scenes/06-musk-016.png",
+      "time": 137.85999999999999,
+      "cue": "Net worth is an estimate of assets minus liabilities. For Musk, large portions of that wealth are tied to ownership interests in businesses such as SpaceX and Tesla.",
+      "clip": "musk-016"
+    },
+    {
+      "id": "musk-022",
+      "section": 4,
+      "title": "Bán tài sản và điều kiện",
+      "image": "images/scenes/07-musk-022.png",
+      "time": 204.04999999999998,
+      "cue": "One route would be selling assets. That requires buyers. Selling a very large position can affect the price, and taxes and restrictions may affect the proceeds. The headline estimate does not guarantee what every asset would bring in a sale.",
+      "clip": "musk-022"
+    },
+    {
+      "id": "musk-028",
+      "section": 5,
+      "title": "Dân số dùng trong ví dụ",
+      "image": "images/scenes/08-musk-028.png",
+      "time": 268.52000000000004,
+      "cue": "The World Bank reports Portugal's twenty twenty-five population at about ten point eight million people.",
+      "clip": "musk-028"
+    },
+    {
+      "id": "musk-030",
+      "section": 5,
+      "title": "Chi phí một lần chi trả",
+      "image": "images/scenes/09-musk-030.png",
+      "time": 288.91,
+      "cue": "Using that rounded population, the total would be about one hundred and eight billion dollars. That is roughly twelve percent of the nine hundred and thirty-six billion dollar estimate.",
+      "clip": "musk-030"
+    },
+    {
+      "id": "musk-034",
+      "section": 5,
+      "title": "Tám lần đầy đủ và phần còn lại",
+      "image": "images/scenes/10-musk-034.png",
+      "time": 327.6,
+      "cue": "At one hundred and eight billion dollars a year, that starting amount would cover eight complete annual rounds and part of a ninth.",
+      "clip": "musk-034"
+    },
+    {
+      "id": "musk-038",
+      "section": 6,
+      "title": "Xây dựng và vận hành",
+      "image": "images/scenes/11-musk-038.png",
+      "time": 373.48,
+      "cue": "Picture a new hospital. Funding its construction would be a major contribution. But opening the doors begins another set of expenses: staff, medicine, electricity, maintenance, and replacement equipment.",
+      "clip": "musk-038"
+    },
+    {
+      "id": "musk-046",
+      "section": 7,
+      "title": "Chủ quyền và quyền sở hữu",
+      "image": "images/scenes/12-musk-046.png",
+      "time": 445.36,
+      "cue": "Sovereignty is not a bonus attached to a sufficiently large property transaction.",
+      "clip": "musk-046"
+    },
+    {
+      "id": "musk-055",
+      "section": 8,
+      "title": "Theo dòng tiền",
+      "image": "images/scenes/13-musk-055.png",
+      "time": 535.4449999999999,
+      "cue": "A billionaire headline gives us a number. Following the money shows us what that number can change, how long it can support a commitment, and where its power reaches a limit.",
+      "clip": "musk-055"
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "lisbon",
+      "title": "Lisbon và sông Tagus",
+      "image": "images/generated/lisbon-v01.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "industry",
+      "title": "Công nghiệp và doanh nghiệp",
+      "image": "images/generated/industry-v01.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "finance",
+      "title": "Không gian tài chính",
+      "image": "images/generated/finance-v01.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "neighborhood",
+      "title": "Khu dân cư Lisbon",
+      "image": "images/generated/neighborhood-v01.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "hospital",
+      "title": "Bệnh viện: xây dựng và vận hành",
+      "image": "images/generated/hospital-v01.png",
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "id": "infrastructure",
+      "title": "Trường học và đường sắt",
+      "image": "images/generated/infrastructure-v01.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "civic",
+      "title": "Không gian công quyền",
+      "image": "images/generated/civic-v01.png",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "cutouts": [
+    {
+      "id": "musk-standing",
+      "title": "Musk · đứng quan sát",
+      "image": "images/cutouts/musk-standing.png"
+    },
+    {
+      "id": "musk-palm",
+      "title": "Musk · hướng tay",
+      "image": "images/cutouts/musk-palm.png"
+    },
+    {
+      "id": "musk-thinking",
+      "title": "Musk · suy nghĩ",
+      "image": "images/cutouts/musk-thinking.png"
+    },
+    {
+      "id": "musk-folder",
+      "title": "Musk · cầm hồ sơ",
+      "image": "images/cutouts/musk-folder.png"
+    },
+    {
+      "id": "portugal-mainland",
+      "title": "Đường biên Bồ Đào Nha lục địa",
+      "image": "images/cutouts/portugal-mainland.png"
+    }
+  ],
+  "sourceSheet": "images/generated/musk-sheet-v01.png",
+  "cropMap": "images/musk-crop-map.json",
+  "note": "Editorial illustrations. Musk is the subject, never the narrator. Scene previews are extracted from one editable audio-timed timeline."
+}

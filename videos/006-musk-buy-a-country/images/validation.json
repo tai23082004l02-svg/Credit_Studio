@@ -1,0 +1,124 @@
+{
+  "phase": "complete visual assets and audio-timed editable build; MP4 render in progress",
+  "generatedScenicBackgrounds": 7,
+  "muskPoses": 4,
+  "nativeMap": 1,
+  "actualTimelineFramePreviews": 13,
+  "gallery": {
+    "passed": true,
+    "base": "http://127.0.0.1:8000",
+    "sceneFrames": 13,
+    "backgrounds": 7,
+    "cutouts": 5,
+    "totalImages": 26,
+    "allMediaR2": true,
+    "transparentPNGDownloadHash": true,
+    "opensExactTimelineClip": true,
+    "currentDraftPreserved": true,
+    "audioPlayback": true,
+    "mobile": true,
+    "errors": []
+  },
+  "layout": {
+    "clips": 55,
+    "duration": 535.5249999999999,
+    "checkedFrames": 3597,
+    "assets": 12,
+    "captions": 149,
+    "audioDuration": 535.525,
+    "financialMotion": true,
+    "subjectOcclusionAndBounds": true,
+    "fonts": [
+      "TimesNewRomanPS-BoldMT"
+    ],
+    "seekAndPlayback": true,
+    "mobile": true
+  },
+  "sourceSheetUnchanged": true,
+  "allVisibleCutoutPixelsPreserved": true,
+  "characterCropItems": [
+    {
+      "id": "musk-standing",
+      "sourceMargins": [
+        219,
+        8,
+        184,
+        7
+      ],
+      "featherPixels": [
+        8,
+        7
+      ],
+      "padding": 40,
+      "visiblePixelsPreserved": 84607
+    },
+    {
+      "id": "musk-palm",
+      "sourceMargins": [
+        150,
+        20,
+        104,
+        9
+      ],
+      "featherPixels": [
+        8,
+        8
+      ],
+      "padding": 40,
+      "visiblePixelsPreserved": 85207
+    },
+    {
+      "id": "musk-thinking",
+      "sourceMargins": [
+        223,
+        9,
+        131,
+        15
+      ],
+      "featherPixels": [
+        8,
+        8
+      ],
+      "padding": 40,
+      "visiblePixelsPreserved": 81508
+    },
+    {
+      "id": "musk-folder",
+      "sourceMargins": [
+        171,
+        10,
+        231,
+        13
+      ],
+      "featherPixels": [
+        8,
+        8
+      ],
+      "padding": 40,
+      "visiblePixelsPreserved": 78369
+    }
+  ],
+  "visualInspection": "All55 shots/contact sheets and character source inspected; full silhouettes retained; intentional scenic cover crop only",
+  "audioUnchanged": true,
+  "wordAlignment": {
+    "directMatches": 1068,
+    "scriptWords": 1115,
+    "model": "faster-whisper base.en int8 CPU",
+    "manualWordApproval": false
+  },
+  "r2": {
+    "assetsRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39913454802",
+    "previewsRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39914179416",
+    "authenticatedAndPublicFullSHA256": true,
+    "rangeCors": true,
+    "registeredEpisodeMedia": 28
+  },
+  "preservation": {
+    "oldManifestEntriesUnchanged": 208,
+    "retainedPins": 6,
+    "oldProjectsUnchanged": 5,
+    "scriptAndNarrationAndFactsUnchanged": true,
+    "catalogByteIdentical": true,
+    "originalWavSHA256": "c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5"
+  }
+}

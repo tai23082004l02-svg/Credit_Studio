@@ -1,0 +1,5577 @@
+[
+  {
+    "word": "Could",
+    "start": 0.08,
+    "directMatch": true
+  },
+  {
+    "word": "Elon",
+    "start": 0.56,
+    "directMatch": true
+  },
+  {
+    "word": "Musk",
+    "start": 0.82,
+    "directMatch": true
+  },
+  {
+    "word": "buy",
+    "start": 1.28,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 1.66,
+    "directMatch": true
+  },
+  {
+    "word": "country?",
+    "start": 1.8,
+    "directMatch": true
+  },
+  {
+    "word": "Put",
+    "start": 2.92,
+    "directMatch": true
+  },
+  {
+    "word": "him",
+    "start": 3.1,
+    "directMatch": true
+  },
+  {
+    "word": "beside",
+    "start": 3.24,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 3.58,
+    "directMatch": true
+  },
+  {
+    "word": "map",
+    "start": 3.74,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 3.94,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal,",
+    "start": 4.12,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 5.12,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 5.34,
+    "directMatch": true
+  },
+  {
+    "word": "question",
+    "start": 5.44,
+    "directMatch": true
+  },
+  {
+    "word": "starts",
+    "start": 5.66,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 6.16,
+    "directMatch": true
+  },
+  {
+    "word": "sound",
+    "start": 6.42,
+    "directMatch": true
+  },
+  {
+    "word": "less",
+    "start": 6.74,
+    "directMatch": true
+  },
+  {
+    "word": "ridiculous",
+    "start": 7.06,
+    "directMatch": true
+  },
+  {
+    "word": "than",
+    "start": 7.5,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 7.98,
+    "directMatch": true
+  },
+  {
+    "word": "should.",
+    "start": 8.1,
+    "directMatch": true
+  },
+  {
+    "word": "On",
+    "start": 9.38,
+    "directMatch": true
+  },
+  {
+    "word": "October",
+    "start": 9.54,
+    "directMatch": true
+  },
+  {
+    "word": "first,",
+    "start": 10.27,
+    "directMatch": false
+  },
+  {
+    "word": "twenty",
+    "start": 11.0,
+    "directMatch": false
+  },
+  {
+    "word": "twenty-six,",
+    "start": 11.73,
+    "directMatch": false
+  },
+  {
+    "word": "Forbes",
+    "start": 12.46,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 12.74,
+    "directMatch": true
+  },
+  {
+    "word": "his",
+    "start": 13.48,
+    "directMatch": true
+  },
+  {
+    "word": "net",
+    "start": 13.8,
+    "directMatch": true
+  },
+  {
+    "word": "worth",
+    "start": 14.02,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 14.32,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 14.64,
+    "directMatch": true
+  },
+  {
+    "word": "nine",
+    "start": 15.056,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 15.472,
+    "directMatch": false
+  },
+  {
+    "word": "and",
+    "start": 15.888,
+    "directMatch": false
+  },
+  {
+    "word": "thirty-six",
+    "start": 16.304,
+    "directMatch": false
+  },
+  {
+    "word": "billion",
+    "start": 16.72,
+    "directMatch": true
+  },
+  {
+    "word": "dollars.",
+    "start": 17.61,
+    "directMatch": false
+  },
+  {
+    "word": "The",
+    "start": 18.5,
+    "directMatch": true
+  },
+  {
+    "word": "World",
+    "start": 19.1,
+    "directMatch": true
+  },
+  {
+    "word": "Bank",
+    "start": 19.28,
+    "directMatch": true
+  },
+  {
+    "word": "puts",
+    "start": 19.72,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal's",
+    "start": 20.04,
+    "directMatch": true
+  },
+  {
+    "word": "economic",
+    "start": 20.76,
+    "directMatch": true
+  },
+  {
+    "word": "output",
+    "start": 21.0,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 21.78,
+    "directMatch": true
+  },
+  {
+    "word": "twenty",
+    "start": 22.1,
+    "directMatch": false
+  },
+  {
+    "word": "twenty-five",
+    "start": 22.42,
+    "directMatch": false
+  },
+  {
+    "word": "at",
+    "start": 22.74,
+    "directMatch": true
+  },
+  {
+    "word": "roughly",
+    "start": 23.44,
+    "directMatch": true
+  },
+  {
+    "word": "three",
+    "start": 23.931,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 24.423,
+    "directMatch": false
+  },
+  {
+    "word": "and",
+    "start": 24.914,
+    "directMatch": false
+  },
+  {
+    "word": "forty-six",
+    "start": 25.406,
+    "directMatch": false
+  },
+  {
+    "word": "point",
+    "start": 25.897,
+    "directMatch": false
+  },
+  {
+    "word": "six",
+    "start": 26.389,
+    "directMatch": false
+  },
+  {
+    "word": "billion",
+    "start": 26.88,
+    "directMatch": true
+  },
+  {
+    "word": "dollars.",
+    "start": 27.82,
+    "directMatch": false
+  },
+  {
+    "word": "The",
+    "start": 28.76,
+    "directMatch": true
+  },
+  {
+    "word": "first",
+    "start": 29.44,
+    "directMatch": true
+  },
+  {
+    "word": "number",
+    "start": 29.72,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 30.08,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 30.36,
+    "directMatch": true
+  },
+  {
+    "word": "two",
+    "start": 30.73,
+    "directMatch": false
+  },
+  {
+    "word": "point",
+    "start": 31.1,
+    "directMatch": false
+  },
+  {
+    "word": "seven",
+    "start": 31.47,
+    "directMatch": false
+  },
+  {
+    "word": "times",
+    "start": 31.84,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 32.4,
+    "directMatch": true
+  },
+  {
+    "word": "second.",
+    "start": 32.54,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 33.78,
+    "directMatch": true
+  },
+  {
+    "word": "comparison",
+    "start": 33.98,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 34.66,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 35.12,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 35.32,
+    "directMatch": true
+  },
+  {
+    "word": "whole",
+    "start": 35.5,
+    "directMatch": true
+  },
+  {
+    "word": "country",
+    "start": 35.78,
+    "directMatch": true
+  },
+  {
+    "word": "look",
+    "start": 36.34,
+    "directMatch": true
+  },
+  {
+    "word": "smaller",
+    "start": 36.66,
+    "directMatch": true
+  },
+  {
+    "word": "than",
+    "start": 37.06,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 37.58,
+    "directMatch": true
+  },
+  {
+    "word": "man's",
+    "start": 37.8,
+    "directMatch": true
+  },
+  {
+    "word": "fortune.",
+    "start": 38.46,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 39.4,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 39.84,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 39.94,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 40.06,
+    "directMatch": true
+  },
+  {
+    "word": "told",
+    "start": 40.28,
+    "directMatch": true
+  },
+  {
+    "word": "us",
+    "start": 40.66,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 40.94,
+    "directMatch": true
+  },
+  {
+    "word": "he",
+    "start": 41.16,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 41.3,
+    "directMatch": true
+  },
+  {
+    "word": "actually",
+    "start": 41.46,
+    "directMatch": true
+  },
+  {
+    "word": "buy.",
+    "start": 41.9,
+    "directMatch": true
+  },
+  {
+    "word": "We",
+    "start": 43.16,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 43.4,
+    "directMatch": true
+  },
+  {
+    "word": "compared",
+    "start": 43.5,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 43.9,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 44.32,
+    "directMatch": true
+  },
+  {
+    "word": "value",
+    "start": 44.76,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 45.62,
+    "directMatch": true
+  },
+  {
+    "word": "someone's",
+    "start": 45.9,
+    "directMatch": true
+  },
+  {
+    "word": "wealth",
+    "start": 46.44,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 46.72,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 47.34,
+    "directMatch": true
+  },
+  {
+    "word": "value",
+    "start": 47.46,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 47.96,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 48.2,
+    "directMatch": true
+  },
+  {
+    "word": "country's",
+    "start": 48.28,
+    "directMatch": true
+  },
+  {
+    "word": "production",
+    "start": 48.88,
+    "directMatch": true
+  },
+  {
+    "word": "over",
+    "start": 49.1,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 49.78,
+    "directMatch": true
+  },
+  {
+    "word": "year.",
+    "start": 49.94,
+    "directMatch": true
+  },
+  {
+    "word": "To",
+    "start": 51.0,
+    "directMatch": true
+  },
+  {
+    "word": "understand",
+    "start": 51.66,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 52.0,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 52.56,
+    "directMatch": true
+  },
+  {
+    "word": "fortune",
+    "start": 52.72,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 53.24,
+    "directMatch": true
+  },
+  {
+    "word": "do,",
+    "start": 53.48,
+    "directMatch": true
+  },
+  {
+    "word": "we",
+    "start": 53.84,
+    "directMatch": true
+  },
+  {
+    "word": "need",
+    "start": 54.42,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 54.58,
+    "directMatch": true
+  },
+  {
+    "word": "follow",
+    "start": 54.76,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 55.16,
+    "directMatch": true
+  },
+  {
+    "word": "out",
+    "start": 55.38,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 55.52,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 55.62,
+    "directMatch": true
+  },
+  {
+    "word": "headline",
+    "start": 55.76,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 56.1,
+    "directMatch": true
+  },
+  {
+    "word": "into",
+    "start": 56.6,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 56.78,
+    "directMatch": true
+  },
+  {
+    "word": "real",
+    "start": 57.04,
+    "directMatch": true
+  },
+  {
+    "word": "world.",
+    "start": 57.32,
+    "directMatch": true
+  },
+  {
+    "word": "Start",
+    "start": 58.42,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 58.76,
+    "directMatch": true
+  },
+  {
+    "word": "Lisbon.",
+    "start": 59.04,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 60.26,
+    "directMatch": true
+  },
+  {
+    "word": "restaurant",
+    "start": 60.28,
+    "directMatch": true
+  },
+  {
+    "word": "serves",
+    "start": 60.6,
+    "directMatch": true
+  },
+  {
+    "word": "dinner.",
+    "start": 61.38,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 62.42,
+    "directMatch": true
+  },
+  {
+    "word": "software",
+    "start": 62.48,
+    "directMatch": true
+  },
+  {
+    "word": "business",
+    "start": 62.96,
+    "directMatch": true
+  },
+  {
+    "word": "delivers",
+    "start": 63.6,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 64.06,
+    "directMatch": true
+  },
+  {
+    "word": "project.",
+    "start": 64.4,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 65.72,
+    "directMatch": true
+  },
+  {
+    "word": "factory",
+    "start": 65.8,
+    "directMatch": true
+  },
+  {
+    "word": "produces",
+    "start": 66.22,
+    "directMatch": true
+  },
+  {
+    "word": "goods.",
+    "start": 66.86,
+    "directMatch": true
+  },
+  {
+    "word": "Teachers",
+    "start": 68.28,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 68.66,
+    "directMatch": true
+  },
+  {
+    "word": "medical",
+    "start": 69.04,
+    "directMatch": true
+  },
+  {
+    "word": "staff",
+    "start": 69.3,
+    "directMatch": true
+  },
+  {
+    "word": "provide",
+    "start": 69.9,
+    "directMatch": true
+  },
+  {
+    "word": "services.",
+    "start": 70.3,
+    "directMatch": true
+  },
+  {
+    "word": "Gross",
+    "start": 72.2,
+    "directMatch": true
+  },
+  {
+    "word": "domestic",
+    "start": 72.78,
+    "directMatch": true
+  },
+  {
+    "word": "product,",
+    "start": 73.14,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 73.88,
+    "directMatch": true
+  },
+  {
+    "word": "GDP,",
+    "start": 74.38,
+    "directMatch": true
+  },
+  {
+    "word": "measures",
+    "start": 74.86,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 76.12,
+    "directMatch": true
+  },
+  {
+    "word": "value",
+    "start": 76.52,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 77.0,
+    "directMatch": true
+  },
+  {
+    "word": "final",
+    "start": 77.2,
+    "directMatch": true
+  },
+  {
+    "word": "goods",
+    "start": 77.56,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 78.08,
+    "directMatch": true
+  },
+  {
+    "word": "services",
+    "start": 78.4,
+    "directMatch": true
+  },
+  {
+    "word": "produced",
+    "start": 78.9,
+    "directMatch": true
+  },
+  {
+    "word": "within",
+    "start": 79.34,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 79.94,
+    "directMatch": true
+  },
+  {
+    "word": "economy",
+    "start": 80.06,
+    "directMatch": true
+  },
+  {
+    "word": "during",
+    "start": 80.58,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 81.02,
+    "directMatch": true
+  },
+  {
+    "word": "period,",
+    "start": 81.16,
+    "directMatch": true
+  },
+  {
+    "word": "usually",
+    "start": 81.6,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 82.72,
+    "directMatch": true
+  },
+  {
+    "word": "year.",
+    "start": 83.02,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 83.36,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 84.22,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 84.34,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 84.56,
+    "directMatch": true
+  },
+  {
+    "word": "country's",
+    "start": 84.66,
+    "directMatch": true
+  },
+  {
+    "word": "bank",
+    "start": 85.26,
+    "directMatch": true
+  },
+  {
+    "word": "balance.",
+    "start": 85.44,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 86.66,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 86.9,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 86.98,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 87.22,
+    "directMatch": true
+  },
+  {
+    "word": "government's",
+    "start": 87.42,
+    "directMatch": true
+  },
+  {
+    "word": "budget.",
+    "start": 88.08,
+    "directMatch": true
+  },
+  {
+    "word": "And",
+    "start": 89.04,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 89.26,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 89.34,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 89.46,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 89.68,
+    "directMatch": true
+  },
+  {
+    "word": "combined",
+    "start": 89.9,
+    "directMatch": true
+  },
+  {
+    "word": "sale",
+    "start": 90.28,
+    "directMatch": true
+  },
+  {
+    "word": "price",
+    "start": 90.86,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 91.32,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 91.66,
+    "directMatch": true
+  },
+  {
+    "word": "land,",
+    "start": 91.8,
+    "directMatch": true
+  },
+  {
+    "word": "homes,",
+    "start": 92.66,
+    "directMatch": true
+  },
+  {
+    "word": "businesses,",
+    "start": 93.66,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 94.48,
+    "directMatch": true
+  },
+  {
+    "word": "infrastructure.",
+    "start": 94.74,
+    "directMatch": true
+  },
+  {
+    "word": "Imagine",
+    "start": 96.3,
+    "directMatch": true
+  },
+  {
+    "word": "someone",
+    "start": 96.7,
+    "directMatch": true
+  },
+  {
+    "word": "whose",
+    "start": 97.36,
+    "directMatch": true
+  },
+  {
+    "word": "investments",
+    "start": 97.76,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 98.26,
+    "directMatch": true
+  },
+  {
+    "word": "worth",
+    "start": 98.82,
+    "directMatch": true
+  },
+  {
+    "word": "more",
+    "start": 99.04,
+    "directMatch": true
+  },
+  {
+    "word": "than",
+    "start": 99.46,
+    "directMatch": true
+  },
+  {
+    "word": "your",
+    "start": 99.7,
+    "directMatch": true
+  },
+  {
+    "word": "annual",
+    "start": 99.86,
+    "directMatch": true
+  },
+  {
+    "word": "salary.",
+    "start": 100.32,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 101.82,
+    "directMatch": true
+  },
+  {
+    "word": "comparison",
+    "start": 102.5,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 103.1,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 103.56,
+    "directMatch": true
+  },
+  {
+    "word": "tell",
+    "start": 103.82,
+    "directMatch": true
+  },
+  {
+    "word": "them",
+    "start": 104.12,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 104.4,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 104.56,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 104.66,
+    "directMatch": true
+  },
+  {
+    "word": "cost",
+    "start": 104.78,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 105.12,
+    "directMatch": true
+  },
+  {
+    "word": "purchase",
+    "start": 105.42,
+    "directMatch": true
+  },
+  {
+    "word": "everything",
+    "start": 105.84,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 106.36,
+    "directMatch": true
+  },
+  {
+    "word": "own.",
+    "start": 106.76,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 107.1,
+    "directMatch": true
+  },
+  {
+    "word": "same",
+    "start": 108.02,
+    "directMatch": true
+  },
+  {
+    "word": "distinction",
+    "start": 108.38,
+    "directMatch": true
+  },
+  {
+    "word": "matters",
+    "start": 108.84,
+    "directMatch": true
+  },
+  {
+    "word": "here,",
+    "start": 109.46,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 109.86,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 110.5,
+    "directMatch": true
+  },
+  {
+    "word": "much",
+    "start": 110.56,
+    "directMatch": true
+  },
+  {
+    "word": "larger",
+    "start": 110.74,
+    "directMatch": true
+  },
+  {
+    "word": "scale.",
+    "start": 111.14,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal's",
+    "start": 112.88,
+    "directMatch": true
+  },
+  {
+    "word": "annual",
+    "start": 113.28,
+    "directMatch": true
+  },
+  {
+    "word": "output",
+    "start": 113.68,
+    "directMatch": true
+  },
+  {
+    "word": "helps",
+    "start": 114.26,
+    "directMatch": true
+  },
+  {
+    "word": "us",
+    "start": 114.68,
+    "directMatch": true
+  },
+  {
+    "word": "picture",
+    "start": 114.94,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 115.24,
+    "directMatch": true
+  },
+  {
+    "word": "size",
+    "start": 115.6,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 116.06,
+    "directMatch": true
+  },
+  {
+    "word": "Musk's",
+    "start": 116.3,
+    "directMatch": true
+  },
+  {
+    "word": "fortune.",
+    "start": 116.84,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 118.02,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 118.18,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 118.28,
+    "directMatch": true
+  },
+  {
+    "word": "put",
+    "start": 118.48,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 118.7,
+    "directMatch": true
+  },
+  {
+    "word": "price",
+    "start": 118.78,
+    "directMatch": true
+  },
+  {
+    "word": "tag",
+    "start": 119.04,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 119.5,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal.",
+    "start": 119.78,
+    "directMatch": true
+  },
+  {
+    "word": "Now",
+    "start": 120.98,
+    "directMatch": true
+  },
+  {
+    "word": "look",
+    "start": 121.24,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 121.54,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 121.72,
+    "directMatch": true
+  },
+  {
+    "word": "other",
+    "start": 121.84,
+    "directMatch": true
+  },
+  {
+    "word": "side",
+    "start": 122.08,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 122.58,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 122.7,
+    "directMatch": true
+  },
+  {
+    "word": "comparison.",
+    "start": 122.8,
+    "directMatch": true
+  },
+  {
+    "word": "Net",
+    "start": 124.22,
+    "directMatch": true
+  },
+  {
+    "word": "worth",
+    "start": 124.46,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 124.72,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 125.12,
+    "directMatch": true
+  },
+  {
+    "word": "estimate",
+    "start": 125.26,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 125.84,
+    "directMatch": true
+  },
+  {
+    "word": "assets",
+    "start": 126.16,
+    "directMatch": true
+  },
+  {
+    "word": "minus",
+    "start": 126.64,
+    "directMatch": true
+  },
+  {
+    "word": "liabilities.",
+    "start": 127.28,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 129.06,
+    "directMatch": true
+  },
+  {
+    "word": "Musk,",
+    "start": 129.86,
+    "directMatch": true
+  },
+  {
+    "word": "large",
+    "start": 130.7,
+    "directMatch": true
+  },
+  {
+    "word": "portions",
+    "start": 131.04,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 131.58,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 132.0,
+    "directMatch": true
+  },
+  {
+    "word": "wealth",
+    "start": 132.16,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 132.44,
+    "directMatch": true
+  },
+  {
+    "word": "tied",
+    "start": 132.7,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 133.02,
+    "directMatch": true
+  },
+  {
+    "word": "ownership",
+    "start": 133.18,
+    "directMatch": true
+  },
+  {
+    "word": "interests",
+    "start": 133.56,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 134.18,
+    "directMatch": true
+  },
+  {
+    "word": "businesses",
+    "start": 134.56,
+    "directMatch": true
+  },
+  {
+    "word": "such",
+    "start": 134.86,
+    "directMatch": true
+  },
+  {
+    "word": "as",
+    "start": 135.44,
+    "directMatch": true
+  },
+  {
+    "word": "SpaceX",
+    "start": 135.7,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 136.0,
+    "directMatch": true
+  },
+  {
+    "word": "Tesla.",
+    "start": 136.6,
+    "directMatch": true
+  },
+  {
+    "word": "Shares",
+    "start": 137.94,
+    "directMatch": true
+  },
+  {
+    "word": "represent",
+    "start": 138.16,
+    "directMatch": true
+  },
+  {
+    "word": "ownership.",
+    "start": 138.72,
+    "directMatch": true
+  },
+  {
+    "word": "Their",
+    "start": 140.28,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 140.44,
+    "directMatch": true
+  },
+  {
+    "word": "value",
+    "start": 140.88,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 141.54,
+    "directMatch": true
+  },
+  {
+    "word": "rise",
+    "start": 141.9,
+    "directMatch": true
+  },
+  {
+    "word": "without",
+    "start": 142.2,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 142.68,
+    "directMatch": true
+  },
+  {
+    "word": "equivalent",
+    "start": 142.92,
+    "directMatch": true
+  },
+  {
+    "word": "amount",
+    "start": 143.36,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 143.92,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 144.2,
+    "directMatch": true
+  },
+  {
+    "word": "arriving",
+    "start": 144.56,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 145.08,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 145.42,
+    "directMatch": true
+  },
+  {
+    "word": "owner's",
+    "start": 145.5,
+    "directMatch": true
+  },
+  {
+    "word": "checking",
+    "start": 146.02,
+    "directMatch": true
+  },
+  {
+    "word": "account.",
+    "start": 146.3,
+    "directMatch": true
+  },
+  {
+    "word": "If",
+    "start": 147.7,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 147.9,
+    "directMatch": true
+  },
+  {
+    "word": "share",
+    "start": 147.98,
+    "directMatch": true
+  },
+  {
+    "word": "price",
+    "start": 148.22,
+    "directMatch": true
+  },
+  {
+    "word": "falls,",
+    "start": 148.58,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 149.88,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 149.94,
+    "directMatch": true
+  },
+  {
+    "word": "fortune",
+    "start": 150.36,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 150.94,
+    "directMatch": true
+  },
+  {
+    "word": "shrink",
+    "start": 151.46,
+    "directMatch": true
+  },
+  {
+    "word": "without",
+    "start": 151.8,
+    "directMatch": true
+  },
+  {
+    "word": "anyone",
+    "start": 152.16,
+    "directMatch": true
+  },
+  {
+    "word": "spending",
+    "start": 152.68,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 153.18,
+    "directMatch": true
+  },
+  {
+    "word": "difference.",
+    "start": 153.64,
+    "directMatch": true
+  },
+  {
+    "word": "So",
+    "start": 155.06,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 155.7,
+    "directMatch": true
+  },
+  {
+    "word": "billionaire",
+    "start": 155.84,
+    "directMatch": true
+  },
+  {
+    "word": "ranking",
+    "start": 156.24,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 156.78,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 157.12,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 157.34,
+    "directMatch": true
+  },
+  {
+    "word": "statement",
+    "start": 157.44,
+    "directMatch": true
+  },
+  {
+    "word": "showing",
+    "start": 157.86,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 158.28,
+    "directMatch": true
+  },
+  {
+    "word": "pile",
+    "start": 158.6,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 158.92,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 159.14,
+    "directMatch": true
+  },
+  {
+    "word": "waiting",
+    "start": 159.42,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 159.92,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 160.26,
+    "directMatch": true
+  },
+  {
+    "word": "transferred.",
+    "start": 160.38,
+    "directMatch": true
+  },
+  {
+    "word": "Those",
+    "start": 161.82,
+    "directMatch": true
+  },
+  {
+    "word": "ownership",
+    "start": 162.0,
+    "directMatch": true
+  },
+  {
+    "word": "stakes",
+    "start": 162.46,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 162.98,
+    "directMatch": true
+  },
+  {
+    "word": "real",
+    "start": 163.36,
+    "directMatch": true
+  },
+  {
+    "word": "economic",
+    "start": 163.78,
+    "directMatch": true
+  },
+  {
+    "word": "value.",
+    "start": 164.26,
+    "directMatch": true
+  },
+  {
+    "word": "They",
+    "start": 165.76,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 165.98,
+    "directMatch": true
+  },
+  {
+    "word": "generate",
+    "start": 166.16,
+    "directMatch": true
+  },
+  {
+    "word": "opportunities,",
+    "start": 166.6,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 168.1,
+    "directMatch": true
+  },
+  {
+    "word": "sold",
+    "start": 168.22,
+    "directMatch": true
+  },
+  {
+    "word": "under",
+    "start": 168.58,
+    "directMatch": true
+  },
+  {
+    "word": "applicable",
+    "start": 169.04,
+    "directMatch": true
+  },
+  {
+    "word": "conditions,",
+    "start": 169.46,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 170.82,
+    "directMatch": true
+  },
+  {
+    "word": "sometimes",
+    "start": 171.06,
+    "directMatch": true
+  },
+  {
+    "word": "support",
+    "start": 171.82,
+    "directMatch": true
+  },
+  {
+    "word": "borrowing.",
+    "start": 172.38,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 173.96,
+    "directMatch": true
+  },
+  {
+    "word": "turning",
+    "start": 174.02,
+    "directMatch": true
+  },
+  {
+    "word": "ownership",
+    "start": 174.3,
+    "directMatch": true
+  },
+  {
+    "word": "into",
+    "start": 174.92,
+    "directMatch": true
+  },
+  {
+    "word": "spendable",
+    "start": 175.26,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 175.86,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 176.26,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 176.56,
+    "directMatch": true
+  },
+  {
+    "word": "transaction,",
+    "start": 176.66,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 177.12,
+    "directMatch": true
+  },
+  {
+    "word": "constraints",
+    "start": 178.32,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 178.76,
+    "directMatch": true
+  },
+  {
+    "word": "consequences.",
+    "start": 179.34,
+    "directMatch": true
+  },
+  {
+    "word": "Suppose",
+    "start": 180.6,
+    "directMatch": true
+  },
+  {
+    "word": "Musk",
+    "start": 181.32,
+    "directMatch": true
+  },
+  {
+    "word": "wanted",
+    "start": 181.94,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 182.42,
+    "directMatch": true
+  },
+  {
+    "word": "finance",
+    "start": 182.56,
+    "directMatch": true
+  },
+  {
+    "word": "something",
+    "start": 183.0,
+    "directMatch": true
+  },
+  {
+    "word": "enormous.",
+    "start": 183.66,
+    "directMatch": true
+  },
+  {
+    "word": "One",
+    "start": 185.72,
+    "directMatch": true
+  },
+  {
+    "word": "route",
+    "start": 185.96,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 186.38,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 186.64,
+    "directMatch": true
+  },
+  {
+    "word": "selling",
+    "start": 186.78,
+    "directMatch": true
+  },
+  {
+    "word": "assets.",
+    "start": 187.12,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 188.52,
+    "directMatch": true
+  },
+  {
+    "word": "requires",
+    "start": 188.74,
+    "directMatch": true
+  },
+  {
+    "word": "buyers.",
+    "start": 189.18,
+    "directMatch": true
+  },
+  {
+    "word": "Selling",
+    "start": 190.74,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 191.1,
+    "directMatch": true
+  },
+  {
+    "word": "very",
+    "start": 191.42,
+    "directMatch": true
+  },
+  {
+    "word": "large",
+    "start": 191.68,
+    "directMatch": true
+  },
+  {
+    "word": "position",
+    "start": 192.04,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 192.66,
+    "directMatch": true
+  },
+  {
+    "word": "affect",
+    "start": 193.0,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 193.24,
+    "directMatch": true
+  },
+  {
+    "word": "price,",
+    "start": 193.5,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 194.46,
+    "directMatch": true
+  },
+  {
+    "word": "taxes",
+    "start": 194.56,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 195.1,
+    "directMatch": true
+  },
+  {
+    "word": "restrictions",
+    "start": 195.42,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 195.82,
+    "directMatch": true
+  },
+  {
+    "word": "affect",
+    "start": 196.42,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 196.8,
+    "directMatch": true
+  },
+  {
+    "word": "proceeds.",
+    "start": 197.0,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 198.5,
+    "directMatch": true
+  },
+  {
+    "word": "headline",
+    "start": 198.58,
+    "directMatch": true
+  },
+  {
+    "word": "estimate",
+    "start": 198.84,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 199.46,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 199.88,
+    "directMatch": true
+  },
+  {
+    "word": "guarantee",
+    "start": 200.12,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 200.56,
+    "directMatch": true
+  },
+  {
+    "word": "every",
+    "start": 201.1,
+    "directMatch": true
+  },
+  {
+    "word": "asset",
+    "start": 201.36,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 202.06,
+    "directMatch": true
+  },
+  {
+    "word": "bring",
+    "start": 202.32,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 202.64,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 202.88,
+    "directMatch": true
+  },
+  {
+    "word": "sale.",
+    "start": 202.98,
+    "directMatch": true
+  },
+  {
+    "word": "Another",
+    "start": 204.13,
+    "directMatch": true
+  },
+  {
+    "word": "route",
+    "start": 204.56,
+    "directMatch": true
+  },
+  {
+    "word": "might",
+    "start": 205.02,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 205.3,
+    "directMatch": true
+  },
+  {
+    "word": "borrowing",
+    "start": 205.52,
+    "directMatch": true
+  },
+  {
+    "word": "against",
+    "start": 206.04,
+    "directMatch": true
+  },
+  {
+    "word": "eligible",
+    "start": 206.44,
+    "directMatch": true
+  },
+  {
+    "word": "holdings,",
+    "start": 206.9,
+    "directMatch": true
+  },
+  {
+    "word": "if",
+    "start": 207.6,
+    "directMatch": true
+  },
+  {
+    "word": "lenders",
+    "start": 208.26,
+    "directMatch": true
+  },
+  {
+    "word": "agreed.",
+    "start": 208.56,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 210.58,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 210.86,
+    "directMatch": true
+  },
+  {
+    "word": "provide",
+    "start": 211.04,
+    "directMatch": true
+  },
+  {
+    "word": "cash",
+    "start": 211.36,
+    "directMatch": true
+  },
+  {
+    "word": "while",
+    "start": 211.86,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 212.34,
+    "directMatch": true
+  },
+  {
+    "word": "borrower",
+    "start": 212.5,
+    "directMatch": true
+  },
+  {
+    "word": "keeps",
+    "start": 212.88,
+    "directMatch": true
+  },
+  {
+    "word": "ownership,",
+    "start": 213.3,
+    "directMatch": true
+  },
+  {
+    "word": "but",
+    "start": 214.4,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 214.78,
+    "directMatch": true
+  },
+  {
+    "word": "creates",
+    "start": 214.86,
+    "directMatch": true
+  },
+  {
+    "word": "debt,",
+    "start": 215.18,
+    "directMatch": true
+  },
+  {
+    "word": "interest",
+    "start": 216.26,
+    "directMatch": true
+  },
+  {
+    "word": "costs,",
+    "start": 216.56,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 217.58,
+    "directMatch": true
+  },
+  {
+    "word": "collateral",
+    "start": 217.66,
+    "directMatch": true
+  },
+  {
+    "word": "requirements.",
+    "start": 218.1,
+    "directMatch": true
+  },
+  {
+    "word": "If",
+    "start": 219.92,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 220.14,
+    "directMatch": true
+  },
+  {
+    "word": "collateral",
+    "start": 220.26,
+    "directMatch": true
+  },
+  {
+    "word": "loses",
+    "start": 220.68,
+    "directMatch": true
+  },
+  {
+    "word": "value,",
+    "start": 221.34,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 222.48,
+    "directMatch": true
+  },
+  {
+    "word": "lender",
+    "start": 222.56,
+    "directMatch": true
+  },
+  {
+    "word": "may",
+    "start": 222.76,
+    "directMatch": true
+  },
+  {
+    "word": "demand",
+    "start": 223.18,
+    "directMatch": true
+  },
+  {
+    "word": "more",
+    "start": 223.46,
+    "directMatch": true
+  },
+  {
+    "word": "security",
+    "start": 224.06,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 224.54,
+    "directMatch": true
+  },
+  {
+    "word": "repayment.",
+    "start": 225.04,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 226.52,
+    "directMatch": true
+  },
+  {
+    "word": "wealthy",
+    "start": 226.56,
+    "directMatch": true
+  },
+  {
+    "word": "person",
+    "start": 226.76,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 227.4,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 227.7,
+    "directMatch": true
+  },
+  {
+    "word": "more",
+    "start": 227.92,
+    "directMatch": true
+  },
+  {
+    "word": "financing",
+    "start": 228.22,
+    "directMatch": true
+  },
+  {
+    "word": "options",
+    "start": 228.7,
+    "directMatch": true
+  },
+  {
+    "word": "than",
+    "start": 229.34,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 229.92,
+    "directMatch": true
+  },
+  {
+    "word": "ordinary",
+    "start": 230.06,
+    "directMatch": true
+  },
+  {
+    "word": "household.",
+    "start": 230.4,
+    "directMatch": true
+  },
+  {
+    "word": "Those",
+    "start": 231.96,
+    "directMatch": true
+  },
+  {
+    "word": "options",
+    "start": 232.34,
+    "directMatch": true
+  },
+  {
+    "word": "still",
+    "start": 232.84,
+    "directMatch": true
+  },
+  {
+    "word": "have",
+    "start": 233.4,
+    "directMatch": true
+  },
+  {
+    "word": "costs.",
+    "start": 233.7,
+    "directMatch": true
+  },
+  {
+    "word": "There",
+    "start": 235.54,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 235.78,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 235.94,
+    "directMatch": true
+  },
+  {
+    "word": "distinction:",
+    "start": 236.24,
+    "directMatch": true
+  },
+  {
+    "word": "owning",
+    "start": 237.76,
+    "directMatch": true
+  },
+  {
+    "word": "shares",
+    "start": 238.08,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 238.4,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 238.84,
+    "directMatch": true
+  },
+  {
+    "word": "company",
+    "start": 238.9,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 239.22,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 239.6,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 239.82,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 240.1,
+    "directMatch": true
+  },
+  {
+    "word": "entire",
+    "start": 240.32,
+    "directMatch": true
+  },
+  {
+    "word": "bank",
+    "start": 240.74,
+    "directMatch": true
+  },
+  {
+    "word": "account",
+    "start": 241.28,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 241.64,
+    "directMatch": true
+  },
+  {
+    "word": "shareholder's",
+    "start": 241.9,
+    "directMatch": true
+  },
+  {
+    "word": "personal",
+    "start": 242.28,
+    "directMatch": true
+  },
+  {
+    "word": "spending",
+    "start": 242.9,
+    "directMatch": true
+  },
+  {
+    "word": "account.",
+    "start": 243.62,
+    "directMatch": true
+  },
+  {
+    "word": "Company",
+    "start": 244.86,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 245.28,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 245.7,
+    "directMatch": true
+  },
+  {
+    "word": "personal",
+    "start": 246.08,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 246.44,
+    "directMatch": true
+  },
+  {
+    "word": "belong",
+    "start": 247.02,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 247.24,
+    "directMatch": true
+  },
+  {
+    "word": "separate",
+    "start": 247.82,
+    "directMatch": true
+  },
+  {
+    "word": "sides",
+    "start": 248.18,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 248.8,
+    "directMatch": true
+  },
+  {
+    "word": "this",
+    "start": 249.04,
+    "directMatch": true
+  },
+  {
+    "word": "explanation.",
+    "start": 249.2,
+    "directMatch": true
+  },
+  {
+    "word": "To",
+    "start": 250.92,
+    "directMatch": true
+  },
+  {
+    "word": "see",
+    "start": 251.02,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 251.2,
+    "directMatch": true
+  },
+  {
+    "word": "scale",
+    "start": 251.38,
+    "directMatch": true
+  },
+  {
+    "word": "more",
+    "start": 251.66,
+    "directMatch": true
+  },
+  {
+    "word": "clearly,",
+    "start": 252.04,
+    "directMatch": true
+  },
+  {
+    "word": "let's",
+    "start": 253.26,
+    "directMatch": true
+  },
+  {
+    "word": "build",
+    "start": 253.46,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 253.68,
+    "directMatch": true
+  },
+  {
+    "word": "thought",
+    "start": 253.82,
+    "directMatch": true
+  },
+  {
+    "word": "experiment.",
+    "start": 254.08,
+    "directMatch": true
+  },
+  {
+    "word": "This",
+    "start": 255.52,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 255.74,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 255.88,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 256.14,
+    "directMatch": true
+  },
+  {
+    "word": "proposal",
+    "start": 256.26,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 256.62,
+    "directMatch": true
+  },
+  {
+    "word": "Musk",
+    "start": 257.18,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 257.5,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 258.2,
+    "directMatch": true
+  },
+  {
+    "word": "Portuguese",
+    "start": 258.32,
+    "directMatch": true
+  },
+  {
+    "word": "government",
+    "start": 258.8,
+    "directMatch": true
+  },
+  {
+    "word": "program.",
+    "start": 259.4,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 261.04,
+    "directMatch": true
+  },
+  {
+    "word": "World",
+    "start": 261.58,
+    "directMatch": true
+  },
+  {
+    "word": "Bank",
+    "start": 261.84,
+    "directMatch": true
+  },
+  {
+    "word": "reports",
+    "start": 262.24,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal's",
+    "start": 262.68,
+    "directMatch": true
+  },
+  {
+    "word": "twenty",
+    "start": 263.16,
+    "directMatch": false
+  },
+  {
+    "word": "twenty-five",
+    "start": 263.64,
+    "directMatch": false
+  },
+  {
+    "word": "population",
+    "start": 264.12,
+    "directMatch": true
+  },
+  {
+    "word": "at",
+    "start": 265.08,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 265.9,
+    "directMatch": true
+  },
+  {
+    "word": "ten",
+    "start": 266.215,
+    "directMatch": false
+  },
+  {
+    "word": "point",
+    "start": 266.53,
+    "directMatch": false
+  },
+  {
+    "word": "eight",
+    "start": 266.845,
+    "directMatch": false
+  },
+  {
+    "word": "million",
+    "start": 267.16,
+    "directMatch": true
+  },
+  {
+    "word": "people.",
+    "start": 267.4,
+    "directMatch": true
+  },
+  {
+    "word": "Imagine",
+    "start": 268.6,
+    "directMatch": true
+  },
+  {
+    "word": "giving",
+    "start": 269.14,
+    "directMatch": true
+  },
+  {
+    "word": "every",
+    "start": 269.68,
+    "directMatch": true
+  },
+  {
+    "word": "resident,",
+    "start": 270.06,
+    "directMatch": true
+  },
+  {
+    "word": "including",
+    "start": 271.08,
+    "directMatch": true
+  },
+  {
+    "word": "children,",
+    "start": 271.48,
+    "directMatch": true
+  },
+  {
+    "word": "ten",
+    "start": 272.035,
+    "directMatch": false
+  },
+  {
+    "word": "thousand",
+    "start": 272.59,
+    "directMatch": false
+  },
+  {
+    "word": "dollars",
+    "start": 273.145,
+    "directMatch": false
+  },
+  {
+    "word": "once.",
+    "start": 273.7,
+    "directMatch": true
+  },
+  {
+    "word": "Using",
+    "start": 275.44,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 275.72,
+    "directMatch": true
+  },
+  {
+    "word": "rounded",
+    "start": 276.1,
+    "directMatch": true
+  },
+  {
+    "word": "population,",
+    "start": 276.4,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 277.86,
+    "directMatch": true
+  },
+  {
+    "word": "total",
+    "start": 278.08,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 278.42,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 278.68,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 278.86,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 279.164,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 279.468,
+    "directMatch": false
+  },
+  {
+    "word": "and",
+    "start": 279.772,
+    "directMatch": false
+  },
+  {
+    "word": "eight",
+    "start": 280.076,
+    "directMatch": false
+  },
+  {
+    "word": "billion",
+    "start": 280.38,
+    "directMatch": true
+  },
+  {
+    "word": "dollars.",
+    "start": 281.13,
+    "directMatch": false
+  },
+  {
+    "word": "That",
+    "start": 281.88,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 282.56,
+    "directMatch": true
+  },
+  {
+    "word": "roughly",
+    "start": 282.7,
+    "directMatch": true
+  },
+  {
+    "word": "twelve",
+    "start": 283.187,
+    "directMatch": false
+  },
+  {
+    "word": "percent",
+    "start": 283.673,
+    "directMatch": false
+  },
+  {
+    "word": "of",
+    "start": 284.16,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 284.38,
+    "directMatch": true
+  },
+  {
+    "word": "nine",
+    "start": 284.748,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 285.116,
+    "directMatch": false
+  },
+  {
+    "word": "and",
+    "start": 285.484,
+    "directMatch": false
+  },
+  {
+    "word": "thirty-six",
+    "start": 285.852,
+    "directMatch": false
+  },
+  {
+    "word": "billion",
+    "start": 286.22,
+    "directMatch": true
+  },
+  {
+    "word": "dollar",
+    "start": 286.66,
+    "directMatch": false
+  },
+  {
+    "word": "estimate.",
+    "start": 287.1,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 288.99,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 289.42,
+    "directMatch": true
+  },
+  {
+    "word": "household",
+    "start": 289.54,
+    "directMatch": true
+  },
+  {
+    "word": "receiving",
+    "start": 290.08,
+    "directMatch": true
+  },
+  {
+    "word": "it,",
+    "start": 290.66,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 291.18,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 291.28,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 291.46,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 291.66,
+    "directMatch": true
+  },
+  {
+    "word": "substantial",
+    "start": 291.76,
+    "directMatch": true
+  },
+  {
+    "word": "payment.",
+    "start": 292.24,
+    "directMatch": true
+  },
+  {
+    "word": "At",
+    "start": 293.84,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 293.88,
+    "directMatch": true
+  },
+  {
+    "word": "national",
+    "start": 293.96,
+    "directMatch": true
+  },
+  {
+    "word": "scale,",
+    "start": 294.18,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 295.32,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 295.42,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 295.56,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 295.76,
+    "directMatch": true
+  },
+  {
+    "word": "enormous",
+    "start": 295.94,
+    "directMatch": true
+  },
+  {
+    "word": "transfer.",
+    "start": 296.38,
+    "directMatch": true
+  },
+  {
+    "word": "Now",
+    "start": 297.9,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 298.06,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 298.34,
+    "directMatch": true
+  },
+  {
+    "word": "same",
+    "start": 298.52,
+    "directMatch": true
+  },
+  {
+    "word": "payment",
+    "start": 298.82,
+    "directMatch": true
+  },
+  {
+    "word": "every",
+    "start": 299.34,
+    "directMatch": true
+  },
+  {
+    "word": "year.",
+    "start": 299.64,
+    "directMatch": true
+  },
+  {
+    "word": "For",
+    "start": 300.86,
+    "directMatch": true
+  },
+  {
+    "word": "this",
+    "start": 300.9,
+    "directMatch": true
+  },
+  {
+    "word": "arithmetic",
+    "start": 301.1,
+    "directMatch": true
+  },
+  {
+    "word": "exercise",
+    "start": 301.5,
+    "directMatch": true
+  },
+  {
+    "word": "only,",
+    "start": 302.58,
+    "directMatch": true
+  },
+  {
+    "word": "imagine",
+    "start": 303.6,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 304.28,
+    "directMatch": true
+  },
+  {
+    "word": "entire",
+    "start": 304.54,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 305.06,
+    "directMatch": true
+  },
+  {
+    "word": "fortune",
+    "start": 305.68,
+    "directMatch": true
+  },
+  {
+    "word": "were",
+    "start": 306.28,
+    "directMatch": true
+  },
+  {
+    "word": "already",
+    "start": 306.68,
+    "directMatch": true
+  },
+  {
+    "word": "available",
+    "start": 307.14,
+    "directMatch": true
+  },
+  {
+    "word": "as",
+    "start": 307.54,
+    "directMatch": true
+  },
+  {
+    "word": "cash.",
+    "start": 308.12,
+    "directMatch": true
+  },
+  {
+    "word": "Ignore",
+    "start": 309.78,
+    "directMatch": true
+  },
+  {
+    "word": "taxes,",
+    "start": 309.78,
+    "directMatch": true
+  },
+  {
+    "word": "investment",
+    "start": 311.04,
+    "directMatch": true
+  },
+  {
+    "word": "returns,",
+    "start": 311.46,
+    "directMatch": true
+  },
+  {
+    "word": "inflation,",
+    "start": 312.66,
+    "directMatch": true
+  },
+  {
+    "word": "population",
+    "start": 313.84,
+    "directMatch": true
+  },
+  {
+    "word": "changes,",
+    "start": 314.28,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 315.64,
+    "directMatch": true
+  },
+  {
+    "word": "administration",
+    "start": 315.74,
+    "directMatch": true
+  },
+  {
+    "word": "costs.",
+    "start": 316.38,
+    "directMatch": true
+  },
+  {
+    "word": "At",
+    "start": 318.24,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 318.544,
+    "directMatch": false
+  },
+  {
+    "word": "hundred",
+    "start": 318.848,
+    "directMatch": false
+  },
+  {
+    "word": "and",
+    "start": 319.152,
+    "directMatch": false
+  },
+  {
+    "word": "eight",
+    "start": 319.456,
+    "directMatch": false
+  },
+  {
+    "word": "billion",
+    "start": 319.76,
+    "directMatch": true
+  },
+  {
+    "word": "dollars",
+    "start": 320.03,
+    "directMatch": false
+  },
+  {
+    "word": "a",
+    "start": 320.3,
+    "directMatch": true
+  },
+  {
+    "word": "year,",
+    "start": 321.02,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 321.9,
+    "directMatch": true
+  },
+  {
+    "word": "starting",
+    "start": 322.06,
+    "directMatch": true
+  },
+  {
+    "word": "amount",
+    "start": 322.42,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 322.88,
+    "directMatch": true
+  },
+  {
+    "word": "cover",
+    "start": 323.2,
+    "directMatch": true
+  },
+  {
+    "word": "eight",
+    "start": 323.46,
+    "directMatch": true
+  },
+  {
+    "word": "complete",
+    "start": 323.9,
+    "directMatch": true
+  },
+  {
+    "word": "annual",
+    "start": 324.36,
+    "directMatch": true
+  },
+  {
+    "word": "rounds",
+    "start": 324.92,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 325.38,
+    "directMatch": true
+  },
+  {
+    "word": "part",
+    "start": 326.14,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 326.36,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 326.52,
+    "directMatch": true
+  },
+  {
+    "word": "ninth.",
+    "start": 326.58,
+    "directMatch": true
+  },
+  {
+    "word": "This",
+    "start": 327.68,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 328.0,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 328.12,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 328.36,
+    "directMatch": true
+  },
+  {
+    "word": "forecast",
+    "start": 328.46,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 328.9,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 329.36,
+    "directMatch": true
+  },
+  {
+    "word": "Musk",
+    "start": 329.54,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 329.8,
+    "directMatch": true
+  },
+  {
+    "word": "liquidate",
+    "start": 330.22,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 331.24,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 331.5,
+    "directMatch": true
+  },
+  {
+    "word": "such",
+    "start": 331.7,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 331.92,
+    "directMatch": true
+  },
+  {
+    "word": "program",
+    "start": 332.1,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 332.54,
+    "directMatch": true
+  },
+  {
+    "word": "achieve.",
+    "start": 332.9,
+    "directMatch": true
+  },
+  {
+    "word": "It",
+    "start": 334.26,
+    "directMatch": true
+  },
+  {
+    "word": "demonstrates",
+    "start": 334.42,
+    "directMatch": true
+  },
+  {
+    "word": "how",
+    "start": 334.78,
+    "directMatch": true
+  },
+  {
+    "word": "quickly",
+    "start": 335.34,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 335.66,
+    "directMatch": true
+  },
+  {
+    "word": "recurring",
+    "start": 336.04,
+    "directMatch": true
+  },
+  {
+    "word": "promise",
+    "start": 336.36,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 337.08,
+    "directMatch": true
+  },
+  {
+    "word": "consume",
+    "start": 337.34,
+    "directMatch": true
+  },
+  {
+    "word": "even",
+    "start": 337.78,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 338.4,
+    "directMatch": true
+  },
+  {
+    "word": "extraordinary",
+    "start": 338.56,
+    "directMatch": true
+  },
+  {
+    "word": "starting",
+    "start": 339.4,
+    "directMatch": true
+  },
+  {
+    "word": "sum.",
+    "start": 339.82,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 340.88,
+    "directMatch": true
+  },
+  {
+    "word": "same",
+    "start": 341.24,
+    "directMatch": true
+  },
+  {
+    "word": "distinction",
+    "start": 341.52,
+    "directMatch": true
+  },
+  {
+    "word": "appears",
+    "start": 342.2,
+    "directMatch": true
+  },
+  {
+    "word": "in",
+    "start": 342.58,
+    "directMatch": true
+  },
+  {
+    "word": "projects",
+    "start": 343.04,
+    "directMatch": true
+  },
+  {
+    "word": "you",
+    "start": 343.56,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 343.92,
+    "directMatch": true
+  },
+  {
+    "word": "see",
+    "start": 344.08,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 344.4,
+    "directMatch": true
+  },
+  {
+    "word": "touch.",
+    "start": 344.84,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 346.14,
+    "directMatch": true
+  },
+  {
+    "word": "large",
+    "start": 346.68,
+    "directMatch": true
+  },
+  {
+    "word": "fortune",
+    "start": 347.02,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 347.7,
+    "directMatch": true
+  },
+  {
+    "word": "help",
+    "start": 347.88,
+    "directMatch": true
+  },
+  {
+    "word": "finance",
+    "start": 348.08,
+    "directMatch": true
+  },
+  {
+    "word": "buildings,",
+    "start": 348.58,
+    "directMatch": true
+  },
+  {
+    "word": "equipment,",
+    "start": 349.6,
+    "directMatch": true
+  },
+  {
+    "word": "research,",
+    "start": 350.22,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 351.04,
+    "directMatch": true
+  },
+  {
+    "word": "infrastructure,",
+    "start": 351.1,
+    "directMatch": true
+  },
+  {
+    "word": "subject",
+    "start": 352.64,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 352.84,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 353.16,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 353.24,
+    "directMatch": true
+  },
+  {
+    "word": "actually",
+    "start": 353.52,
+    "directMatch": true
+  },
+  {
+    "word": "raised",
+    "start": 354.0,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 354.48,
+    "directMatch": false
+  },
+  {
+    "word": "the",
+    "start": 354.96,
+    "directMatch": true
+  },
+  {
+    "word": "conditions",
+    "start": 355.06,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 355.5,
+    "directMatch": true
+  },
+  {
+    "word": "each",
+    "start": 355.9,
+    "directMatch": true
+  },
+  {
+    "word": "project.",
+    "start": 356.12,
+    "directMatch": true
+  },
+  {
+    "word": "Picture",
+    "start": 357.54,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 357.96,
+    "directMatch": true
+  },
+  {
+    "word": "new",
+    "start": 358.18,
+    "directMatch": true
+  },
+  {
+    "word": "hospital.",
+    "start": 358.38,
+    "directMatch": true
+  },
+  {
+    "word": "Funding",
+    "start": 359.84,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 360.08,
+    "directMatch": true
+  },
+  {
+    "word": "construction",
+    "start": 360.38,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 360.82,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 361.3,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 361.48,
+    "directMatch": true
+  },
+  {
+    "word": "major",
+    "start": 361.64,
+    "directMatch": true
+  },
+  {
+    "word": "contribution.",
+    "start": 361.94,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 363.74,
+    "directMatch": true
+  },
+  {
+    "word": "opening",
+    "start": 363.8,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 364.2,
+    "directMatch": true
+  },
+  {
+    "word": "doors",
+    "start": 364.46,
+    "directMatch": true
+  },
+  {
+    "word": "begins",
+    "start": 364.78,
+    "directMatch": true
+  },
+  {
+    "word": "another",
+    "start": 365.22,
+    "directMatch": true
+  },
+  {
+    "word": "set",
+    "start": 365.74,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 366.16,
+    "directMatch": true
+  },
+  {
+    "word": "expenses:",
+    "start": 366.26,
+    "directMatch": true
+  },
+  {
+    "word": "staff,",
+    "start": 367.64,
+    "directMatch": true
+  },
+  {
+    "word": "medicine,",
+    "start": 368.66,
+    "directMatch": true
+  },
+  {
+    "word": "electricity,",
+    "start": 369.6,
+    "directMatch": true
+  },
+  {
+    "word": "maintenance,",
+    "start": 371.02,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 371.26,
+    "directMatch": true
+  },
+  {
+    "word": "replacement",
+    "start": 371.5,
+    "directMatch": true
+  },
+  {
+    "word": "equipment.",
+    "start": 371.9,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 373.56,
+    "directMatch": true
+  },
+  {
+    "word": "school",
+    "start": 374.06,
+    "directMatch": true
+  },
+  {
+    "word": "also",
+    "start": 374.36,
+    "directMatch": true
+  },
+  {
+    "word": "needs",
+    "start": 374.92,
+    "directMatch": true
+  },
+  {
+    "word": "teachers",
+    "start": 375.26,
+    "directMatch": true
+  },
+  {
+    "word": "after",
+    "start": 375.8,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 376.22,
+    "directMatch": true
+  },
+  {
+    "word": "classrooms",
+    "start": 376.36,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 376.8,
+    "directMatch": true
+  },
+  {
+    "word": "built.",
+    "start": 377.2,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 378.3,
+    "directMatch": true
+  },
+  {
+    "word": "railway",
+    "start": 378.36,
+    "directMatch": true
+  },
+  {
+    "word": "needs",
+    "start": 378.74,
+    "directMatch": true
+  },
+  {
+    "word": "operations",
+    "start": 379.24,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 379.86,
+    "directMatch": true
+  },
+  {
+    "word": "upkeep",
+    "start": 380.5,
+    "directMatch": true
+  },
+  {
+    "word": "after",
+    "start": 380.84,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 381.38,
+    "directMatch": true
+  },
+  {
+    "word": "tracks",
+    "start": 381.62,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 381.9,
+    "directMatch": true
+  },
+  {
+    "word": "laid.",
+    "start": 382.2,
+    "directMatch": true
+  },
+  {
+    "word": "Money",
+    "start": 383.44,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 383.72,
+    "directMatch": true
+  },
+  {
+    "word": "bring",
+    "start": 384.0,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 384.28,
+    "directMatch": true
+  },
+  {
+    "word": "project",
+    "start": 384.44,
+    "directMatch": true
+  },
+  {
+    "word": "within",
+    "start": 384.92,
+    "directMatch": true
+  },
+  {
+    "word": "reach.",
+    "start": 385.3,
+    "directMatch": true
+  },
+  {
+    "word": "Delivering",
+    "start": 386.62,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 387.08,
+    "directMatch": true
+  },
+  {
+    "word": "also",
+    "start": 387.34,
+    "directMatch": true
+  },
+  {
+    "word": "requires",
+    "start": 387.56,
+    "directMatch": true
+  },
+  {
+    "word": "people,",
+    "start": 388.2,
+    "directMatch": true
+  },
+  {
+    "word": "materials,",
+    "start": 389.26,
+    "directMatch": true
+  },
+  {
+    "word": "approvals,",
+    "start": 391.02,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 391.26,
+    "directMatch": true
+  },
+  {
+    "word": "time.",
+    "start": 391.5,
+    "directMatch": true
+  },
+  {
+    "word": "We",
+    "start": 392.7,
+    "directMatch": true
+  },
+  {
+    "word": "should",
+    "start": 392.78,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 392.92,
+    "directMatch": true
+  },
+  {
+    "word": "turn",
+    "start": 393.1,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 393.44,
+    "directMatch": true
+  },
+  {
+    "word": "fictional",
+    "start": 393.6,
+    "directMatch": true
+  },
+  {
+    "word": "construction",
+    "start": 393.94,
+    "directMatch": true
+  },
+  {
+    "word": "budget",
+    "start": 394.72,
+    "directMatch": true
+  },
+  {
+    "word": "into",
+    "start": 395.12,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 395.52,
+    "directMatch": true
+  },
+  {
+    "word": "claim",
+    "start": 395.66,
+    "directMatch": true
+  },
+  {
+    "word": "about",
+    "start": 395.98,
+    "directMatch": true
+  },
+  {
+    "word": "how",
+    "start": 396.44,
+    "directMatch": true
+  },
+  {
+    "word": "many",
+    "start": 396.88,
+    "directMatch": true
+  },
+  {
+    "word": "real",
+    "start": 397.14,
+    "directMatch": true
+  },
+  {
+    "word": "hospitals",
+    "start": 397.46,
+    "directMatch": true
+  },
+  {
+    "word": "someone",
+    "start": 398.02,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 398.62,
+    "directMatch": true
+  },
+  {
+    "word": "buy.",
+    "start": 399.0,
+    "directMatch": true
+  },
+  {
+    "word": "Actual",
+    "start": 400.26,
+    "directMatch": true
+  },
+  {
+    "word": "costs",
+    "start": 400.98,
+    "directMatch": true
+  },
+  {
+    "word": "depend",
+    "start": 401.52,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 401.92,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 402.42,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 402.58,
+    "directMatch": true
+  },
+  {
+    "word": "being",
+    "start": 402.68,
+    "directMatch": true
+  },
+  {
+    "word": "built,",
+    "start": 402.94,
+    "directMatch": true
+  },
+  {
+    "word": "where,",
+    "start": 403.92,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 404.6,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 404.64,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 404.78,
+    "directMatch": true
+  },
+  {
+    "word": "standard.",
+    "start": 404.96,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 406.4,
+    "directMatch": true
+  },
+  {
+    "word": "useful",
+    "start": 406.5,
+    "directMatch": true
+  },
+  {
+    "word": "question",
+    "start": 406.8,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 407.42,
+    "directMatch": true
+  },
+  {
+    "word": "how",
+    "start": 407.7,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 407.92,
+    "directMatch": true
+  },
+  {
+    "word": "initial",
+    "start": 408.14,
+    "directMatch": true
+  },
+  {
+    "word": "investment",
+    "start": 408.46,
+    "directMatch": true
+  },
+  {
+    "word": "connects",
+    "start": 409.24,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 409.72,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 410.06,
+    "directMatch": true
+  },
+  {
+    "word": "resources",
+    "start": 410.14,
+    "directMatch": true
+  },
+  {
+    "word": "needed",
+    "start": 410.82,
+    "directMatch": true
+  },
+  {
+    "word": "afterward.",
+    "start": 411.24,
+    "directMatch": true
+  },
+  {
+    "word": "Return",
+    "start": 412.76,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 413.04,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 413.42,
+    "directMatch": true
+  },
+  {
+    "word": "map",
+    "start": 413.54,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 413.76,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal.",
+    "start": 413.98,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 415.32,
+    "directMatch": true
+  },
+  {
+    "word": "country",
+    "start": 415.38,
+    "directMatch": true
+  },
+  {
+    "word": "contains",
+    "start": 415.74,
+    "directMatch": true
+  },
+  {
+    "word": "private",
+    "start": 416.22,
+    "directMatch": true
+  },
+  {
+    "word": "property,",
+    "start": 416.84,
+    "directMatch": true
+  },
+  {
+    "word": "public",
+    "start": 418.08,
+    "directMatch": true
+  },
+  {
+    "word": "assets,",
+    "start": 418.3,
+    "directMatch": true
+  },
+  {
+    "word": "institutions,",
+    "start": 420.08,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 420.84,
+    "directMatch": true
+  },
+  {
+    "word": "people",
+    "start": 421.06,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 421.42,
+    "directMatch": true
+  },
+  {
+    "word": "their",
+    "start": 421.64,
+    "directMatch": true
+  },
+  {
+    "word": "own",
+    "start": 421.84,
+    "directMatch": true
+  },
+  {
+    "word": "rights",
+    "start": 422.2,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 422.62,
+    "directMatch": true
+  },
+  {
+    "word": "decisions.",
+    "start": 422.88,
+    "directMatch": true
+  },
+  {
+    "word": "They",
+    "start": 424.28,
+    "directMatch": true
+  },
+  {
+    "word": "are",
+    "start": 424.4,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 424.48,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 424.66,
+    "directMatch": true
+  },
+  {
+    "word": "single",
+    "start": 424.82,
+    "directMatch": true
+  },
+  {
+    "word": "package",
+    "start": 425.22,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 425.74,
+    "directMatch": true
+  },
+  {
+    "word": "one",
+    "start": 426.08,
+    "directMatch": true
+  },
+  {
+    "word": "seller.",
+    "start": 426.32,
+    "directMatch": true
+  },
+  {
+    "word": "Buying",
+    "start": 427.78,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 428.58,
+    "directMatch": true
+  },
+  {
+    "word": "business,",
+    "start": 428.68,
+    "directMatch": true
+  },
+  {
+    "word": "where",
+    "start": 429.58,
+    "directMatch": true
+  },
+  {
+    "word": "permitted,",
+    "start": 429.64,
+    "directMatch": true
+  },
+  {
+    "word": "gives",
+    "start": 430.7,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 430.84,
+    "directMatch": true
+  },
+  {
+    "word": "investor",
+    "start": 431.08,
+    "directMatch": true
+  },
+  {
+    "word": "rights",
+    "start": 431.4,
+    "directMatch": true
+  },
+  {
+    "word": "connected",
+    "start": 431.9,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 432.36,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 432.72,
+    "directMatch": true
+  },
+  {
+    "word": "business.",
+    "start": 432.92,
+    "directMatch": true
+  },
+  {
+    "word": "Buying",
+    "start": 434.2,
+    "directMatch": true
+  },
+  {
+    "word": "land",
+    "start": 434.68,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 434.88,
+    "directMatch": true
+  },
+  {
+    "word": "not,",
+    "start": 435.3,
+    "directMatch": true
+  },
+  {
+    "word": "by",
+    "start": 435.78,
+    "directMatch": true
+  },
+  {
+    "word": "itself,",
+    "start": 435.9,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 436.84,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 437.12,
+    "directMatch": true
+  },
+  {
+    "word": "buyer",
+    "start": 437.3,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 437.62,
+    "directMatch": true
+  },
+  {
+    "word": "government.",
+    "start": 437.94,
+    "directMatch": true
+  },
+  {
+    "word": "Sovereignty",
+    "start": 439.16,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 439.86,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 440.14,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 440.38,
+    "directMatch": true
+  },
+  {
+    "word": "bonus",
+    "start": 440.54,
+    "directMatch": true
+  },
+  {
+    "word": "attached",
+    "start": 440.92,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 441.34,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 441.8,
+    "directMatch": true
+  },
+  {
+    "word": "sufficiently",
+    "start": 441.9,
+    "directMatch": true
+  },
+  {
+    "word": "large",
+    "start": 442.32,
+    "directMatch": true
+  },
+  {
+    "word": "property",
+    "start": 443.06,
+    "directMatch": true
+  },
+  {
+    "word": "transaction.",
+    "start": 443.54,
+    "directMatch": true
+  },
+  {
+    "word": "Buying",
+    "start": 445.44,
+    "directMatch": true
+  },
+  {
+    "word": "government",
+    "start": 445.74,
+    "directMatch": true
+  },
+  {
+    "word": "bonds",
+    "start": 446.08,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 446.58,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 447.02,
+    "directMatch": true
+  },
+  {
+    "word": "change",
+    "start": 447.26,
+    "directMatch": true
+  },
+  {
+    "word": "that.",
+    "start": 447.62,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 448.82,
+    "directMatch": true
+  },
+  {
+    "word": "bond",
+    "start": 448.88,
+    "directMatch": true
+  },
+  {
+    "word": "represents",
+    "start": 449.28,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 449.84,
+    "directMatch": true
+  },
+  {
+    "word": "financial",
+    "start": 450.22,
+    "directMatch": true
+  },
+  {
+    "word": "claim",
+    "start": 450.52,
+    "directMatch": true
+  },
+  {
+    "word": "under",
+    "start": 451.26,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 451.68,
+    "directMatch": true
+  },
+  {
+    "word": "terms;",
+    "start": 451.86,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 452.28,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 453.18,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 453.3,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 453.48,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 453.76,
+    "directMatch": true
+  },
+  {
+    "word": "creditor",
+    "start": 453.94,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 454.28,
+    "directMatch": true
+  },
+  {
+    "word": "owner",
+    "start": 454.62,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 455.0,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 455.3,
+    "directMatch": true
+  },
+  {
+    "word": "country.",
+    "start": 455.42,
+    "directMatch": true
+  },
+  {
+    "word": "Enormous",
+    "start": 457.12,
+    "directMatch": true
+  },
+  {
+    "word": "wealth",
+    "start": 457.78,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 458.04,
+    "directMatch": true
+  },
+  {
+    "word": "create",
+    "start": 458.4,
+    "directMatch": true
+  },
+  {
+    "word": "significant",
+    "start": 458.8,
+    "directMatch": true
+  },
+  {
+    "word": "economic",
+    "start": 459.46,
+    "directMatch": true
+  },
+  {
+    "word": "influence.",
+    "start": 460.22,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 461.86,
+    "directMatch": true
+  },
+  {
+    "word": "influence",
+    "start": 462.06,
+    "directMatch": true
+  },
+  {
+    "word": "should",
+    "start": 462.68,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 462.98,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 463.24,
+    "directMatch": true
+  },
+  {
+    "word": "confused",
+    "start": 463.42,
+    "directMatch": true
+  },
+  {
+    "word": "with",
+    "start": 463.96,
+    "directMatch": true
+  },
+  {
+    "word": "ownership",
+    "start": 464.38,
+    "directMatch": true
+  },
+  {
+    "word": "of",
+    "start": 464.78,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 465.22,
+    "directMatch": true
+  },
+  {
+    "word": "nation",
+    "start": 465.28,
+    "directMatch": true
+  },
+  {
+    "word": "or",
+    "start": 465.76,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 466.42,
+    "directMatch": true
+  },
+  {
+    "word": "automatic",
+    "start": 466.56,
+    "directMatch": true
+  },
+  {
+    "word": "right",
+    "start": 467.0,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 467.6,
+    "directMatch": true
+  },
+  {
+    "word": "govern",
+    "start": 467.88,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 468.2,
+    "directMatch": true
+  },
+  {
+    "word": "residents.",
+    "start": 468.44,
+    "directMatch": true
+  },
+  {
+    "word": "So,",
+    "start": 469.88,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 470.52,
+    "directMatch": true
+  },
+  {
+    "word": "Elon",
+    "start": 470.68,
+    "directMatch": true
+  },
+  {
+    "word": "Musk",
+    "start": 470.96,
+    "directMatch": true
+  },
+  {
+    "word": "buy",
+    "start": 471.56,
+    "directMatch": true
+  },
+  {
+    "word": "Portugal",
+    "start": 471.96,
+    "directMatch": true
+  },
+  {
+    "word": "because",
+    "start": 472.46,
+    "directMatch": true
+  },
+  {
+    "word": "his",
+    "start": 473.1,
+    "directMatch": true
+  },
+  {
+    "word": "estimated",
+    "start": 473.54,
+    "directMatch": true
+  },
+  {
+    "word": "fortune",
+    "start": 474.02,
+    "directMatch": true
+  },
+  {
+    "word": "exceeds",
+    "start": 474.74,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 475.22,
+    "directMatch": true
+  },
+  {
+    "word": "annual",
+    "start": 475.76,
+    "directMatch": true
+  },
+  {
+    "word": "GDP?",
+    "start": 476.26,
+    "directMatch": true
+  },
+  {
+    "word": "No.",
+    "start": 477.62,
+    "directMatch": true
+  },
+  {
+    "word": "That",
+    "start": 478.84,
+    "directMatch": true
+  },
+  {
+    "word": "conclusion",
+    "start": 479.16,
+    "directMatch": true
+  },
+  {
+    "word": "does",
+    "start": 479.72,
+    "directMatch": true
+  },
+  {
+    "word": "not",
+    "start": 480.2,
+    "directMatch": true
+  },
+  {
+    "word": "follow",
+    "start": 480.42,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 480.94,
+    "directMatch": true
+  },
+  {
+    "word": "those",
+    "start": 481.18,
+    "directMatch": true
+  },
+  {
+    "word": "numbers.",
+    "start": 481.38,
+    "directMatch": true
+  },
+  {
+    "word": "His",
+    "start": 483.02,
+    "directMatch": true
+  },
+  {
+    "word": "wealth",
+    "start": 483.34,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 483.64,
+    "directMatch": true
+  },
+  {
+    "word": "support",
+    "start": 483.9,
+    "directMatch": true
+  },
+  {
+    "word": "investments",
+    "start": 484.2,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 484.8,
+    "directMatch": false
+  },
+  {
+    "word": "spending",
+    "start": 485.4,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 485.74,
+    "directMatch": true
+  },
+  {
+    "word": "an",
+    "start": 486.12,
+    "directMatch": true
+  },
+  {
+    "word": "extraordinary",
+    "start": 486.22,
+    "directMatch": true
+  },
+  {
+    "word": "scale,",
+    "start": 486.7,
+    "directMatch": true
+  },
+  {
+    "word": "depending",
+    "start": 487.5,
+    "directMatch": true
+  },
+  {
+    "word": "on",
+    "start": 488.22,
+    "directMatch": true
+  },
+  {
+    "word": "liquidity,",
+    "start": 488.72,
+    "directMatch": true
+  },
+  {
+    "word": "financing,",
+    "start": 489.66,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 490.78,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 490.82,
+    "directMatch": true
+  },
+  {
+    "word": "choices",
+    "start": 490.92,
+    "directMatch": true
+  },
+  {
+    "word": "involved.",
+    "start": 491.26,
+    "directMatch": true
+  },
+  {
+    "word": "But",
+    "start": 493.02,
+    "directMatch": true
+  },
+  {
+    "word": "GDP",
+    "start": 493.06,
+    "directMatch": true
+  },
+  {
+    "word": "is",
+    "start": 493.34,
+    "directMatch": true
+  },
+  {
+    "word": "annual",
+    "start": 494.22,
+    "directMatch": true
+  },
+  {
+    "word": "production,",
+    "start": 494.64,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 495.18,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 496.02,
+    "directMatch": true
+  },
+  {
+    "word": "country",
+    "start": 496.1,
+    "directMatch": true
+  },
+  {
+    "word": "has",
+    "start": 496.42,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 496.78,
+    "directMatch": true
+  },
+  {
+    "word": "checkout",
+    "start": 497.12,
+    "directMatch": true
+  },
+  {
+    "word": "price",
+    "start": 497.5,
+    "directMatch": true
+  },
+  {
+    "word": "derived",
+    "start": 498.04,
+    "directMatch": true
+  },
+  {
+    "word": "from",
+    "start": 498.3,
+    "directMatch": true
+  },
+  {
+    "word": "it.",
+    "start": 498.92,
+    "directMatch": true
+  },
+  {
+    "word": "The",
+    "start": 499.78,
+    "directMatch": true
+  },
+  {
+    "word": "more",
+    "start": 499.88,
+    "directMatch": true
+  },
+  {
+    "word": "revealing",
+    "start": 500.08,
+    "directMatch": true
+  },
+  {
+    "word": "questions",
+    "start": 500.58,
+    "directMatch": true
+  },
+  {
+    "word": "come",
+    "start": 501.22,
+    "directMatch": true
+  },
+  {
+    "word": "after",
+    "start": 501.78,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 502.04,
+    "directMatch": true
+  },
+  {
+    "word": "comparison.",
+    "start": 502.28,
+    "directMatch": true
+  },
+  {
+    "word": "How",
+    "start": 502.66,
+    "directMatch": true
+  },
+  {
+    "word": "much",
+    "start": 503.88,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 504.1,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 504.5,
+    "directMatch": true
+  },
+  {
+    "word": "actually",
+    "start": 504.76,
+    "directMatch": true
+  },
+  {
+    "word": "be",
+    "start": 505.22,
+    "directMatch": true
+  },
+  {
+    "word": "made",
+    "start": 505.48,
+    "directMatch": true
+  },
+  {
+    "word": "available?",
+    "start": 505.72,
+    "directMatch": true
+  },
+  {
+    "word": "What",
+    "start": 507.06,
+    "directMatch": true
+  },
+  {
+    "word": "could",
+    "start": 507.18,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 507.38,
+    "directMatch": true
+  },
+  {
+    "word": "particular",
+    "start": 507.46,
+    "directMatch": true
+  },
+  {
+    "word": "investment",
+    "start": 507.9,
+    "directMatch": true
+  },
+  {
+    "word": "deliver?",
+    "start": 508.64,
+    "directMatch": true
+  },
+  {
+    "word": "Who",
+    "start": 509.9,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 510.08,
+    "directMatch": true
+  },
+  {
+    "word": "operate",
+    "start": 510.22,
+    "directMatch": true
+  },
+  {
+    "word": "it?",
+    "start": 510.64,
+    "directMatch": true
+  },
+  {
+    "word": "And",
+    "start": 512.12,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 512.34,
+    "directMatch": true
+  },
+  {
+    "word": "would",
+    "start": 512.52,
+    "directMatch": true
+  },
+  {
+    "word": "keep",
+    "start": 512.68,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 512.94,
+    "directMatch": true
+  },
+  {
+    "word": "working",
+    "start": 513.14,
+    "directMatch": true
+  },
+  {
+    "word": "ten",
+    "start": 513.4,
+    "directMatch": true
+  },
+  {
+    "word": "years",
+    "start": 513.8,
+    "directMatch": true
+  },
+  {
+    "word": "later?",
+    "start": 514.12,
+    "directMatch": true
+  },
+  {
+    "word": "Those",
+    "start": 515.3,
+    "directMatch": true
+  },
+  {
+    "word": "questions",
+    "start": 515.48,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 515.98,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 516.46,
+    "directMatch": true
+  },
+  {
+    "word": "fortune",
+    "start": 516.64,
+    "directMatch": true
+  },
+  {
+    "word": "no",
+    "start": 517.04,
+    "directMatch": true
+  },
+  {
+    "word": "less",
+    "start": 517.42,
+    "directMatch": true
+  },
+  {
+    "word": "remarkable.",
+    "start": 517.68,
+    "directMatch": true
+  },
+  {
+    "word": "They",
+    "start": 519.06,
+    "directMatch": true
+  },
+  {
+    "word": "make",
+    "start": 519.16,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 519.34,
+    "directMatch": true
+  },
+  {
+    "word": "possibilities",
+    "start": 519.52,
+    "directMatch": true
+  },
+  {
+    "word": "easier",
+    "start": 520.14,
+    "directMatch": true
+  },
+  {
+    "word": "to",
+    "start": 520.98,
+    "directMatch": true
+  },
+  {
+    "word": "understand.",
+    "start": 521.44,
+    "directMatch": true
+  },
+  {
+    "word": "A",
+    "start": 522.9,
+    "directMatch": true
+  },
+  {
+    "word": "billionaire",
+    "start": 523.04,
+    "directMatch": true
+  },
+  {
+    "word": "headline",
+    "start": 523.42,
+    "directMatch": true
+  },
+  {
+    "word": "gives",
+    "start": 524.1,
+    "directMatch": true
+  },
+  {
+    "word": "us",
+    "start": 524.58,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 524.8,
+    "directMatch": true
+  },
+  {
+    "word": "number.",
+    "start": 524.92,
+    "directMatch": true
+  },
+  {
+    "word": "Following",
+    "start": 525.86,
+    "directMatch": true
+  },
+  {
+    "word": "the",
+    "start": 526.32,
+    "directMatch": true
+  },
+  {
+    "word": "money",
+    "start": 526.62,
+    "directMatch": true
+  },
+  {
+    "word": "shows",
+    "start": 526.9,
+    "directMatch": true
+  },
+  {
+    "word": "us",
+    "start": 527.32,
+    "directMatch": true
+  },
+  {
+    "word": "what",
+    "start": 527.7,
+    "directMatch": true
+  },
+  {
+    "word": "that",
+    "start": 527.94,
+    "directMatch": true
+  },
+  {
+    "word": "number",
+    "start": 528.14,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 528.54,
+    "directMatch": true
+  },
+  {
+    "word": "change,",
+    "start": 528.76,
+    "directMatch": true
+  },
+  {
+    "word": "how",
+    "start": 529.12,
+    "directMatch": true
+  },
+  {
+    "word": "long",
+    "start": 530.18,
+    "directMatch": true
+  },
+  {
+    "word": "it",
+    "start": 530.6,
+    "directMatch": true
+  },
+  {
+    "word": "can",
+    "start": 530.82,
+    "directMatch": true
+  },
+  {
+    "word": "support",
+    "start": 530.96,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 531.32,
+    "directMatch": true
+  },
+  {
+    "word": "commitment,",
+    "start": 531.5,
+    "directMatch": true
+  },
+  {
+    "word": "and",
+    "start": 531.88,
+    "directMatch": true
+  },
+  {
+    "word": "where",
+    "start": 532.68,
+    "directMatch": true
+  },
+  {
+    "word": "its",
+    "start": 532.86,
+    "directMatch": true
+  },
+  {
+    "word": "power",
+    "start": 533.06,
+    "directMatch": true
+  },
+  {
+    "word": "reaches",
+    "start": 533.54,
+    "directMatch": true
+  },
+  {
+    "word": "a",
+    "start": 534.0,
+    "directMatch": true
+  },
+  {
+    "word": "limit.",
+    "start": 534.28,
+    "directMatch": true
+  }
+]

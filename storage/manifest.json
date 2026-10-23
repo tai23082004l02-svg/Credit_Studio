@@ -1256,6 +1256,174 @@
       "sha256": "8da24aeeb5e4270bff22a3287cab1e2c8420f4d8185bcb81e997719c3ca47e10",
       "size": 192250,
       "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/audio/tts_20261023_125715_dda159.wav": {
+      "key": "credit-studio/media/c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5.wav",
+      "sha256": "c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5",
+      "size": 25705244,
+      "type": "audio/x-wav"
+    },
+    "videos/006-musk-buy-a-country/review/voiceover.mp3": {
+      "key": "credit-studio/media/f5316a02c95420320ced6b0c812a14646524120b2e94a01a2d5938a16c9a6b1a.mp3",
+      "sha256": "f5316a02c95420320ced6b0c812a14646524120b2e94a01a2d5938a16c9a6b1a",
+      "size": 10712204,
+      "type": "audio/mpeg"
+    },
+    "videos/006-musk-buy-a-country/images/generated/lisbon-v01.png": {
+      "key": "credit-studio/media/a29af83c853029c7b821d8d5dd387956bfaca5afe72f2989661141a2112be352.png",
+      "sha256": "a29af83c853029c7b821d8d5dd387956bfaca5afe72f2989661141a2112be352",
+      "size": 3083127,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/industry-v01.png": {
+      "key": "credit-studio/media/532b20de96c4adbba8091ba5c7a72d6a0a09ed979e2d1968b1d99691273392f5.png",
+      "sha256": "532b20de96c4adbba8091ba5c7a72d6a0a09ed979e2d1968b1d99691273392f5",
+      "size": 2794867,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/finance-v01.png": {
+      "key": "credit-studio/media/9981e486dac104416ae9bc0963b293e2e8a8ca8908f127ac384b3c1a386e2052.png",
+      "sha256": "9981e486dac104416ae9bc0963b293e2e8a8ca8908f127ac384b3c1a386e2052",
+      "size": 2606204,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/infrastructure-v01.png": {
+      "key": "credit-studio/media/9f774b39a525d15fb87495be4e86dc794c44680cea8cb560f94df08350711ad9.png",
+      "sha256": "9f774b39a525d15fb87495be4e86dc794c44680cea8cb560f94df08350711ad9",
+      "size": 2845455,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/neighborhood-v01.png": {
+      "key": "credit-studio/media/7e96dcf7698d958d7df61db43201678483a41077a0527519f7695cd9d87e9fda.png",
+      "sha256": "7e96dcf7698d958d7df61db43201678483a41077a0527519f7695cd9d87e9fda",
+      "size": 3153716,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/musk-sheet-v01.png": {
+      "key": "credit-studio/media/81584770535e5ceccc0ac341b8dc125e22eb0984051a04561fdf40e3a4a3509f.png",
+      "sha256": "81584770535e5ceccc0ac341b8dc125e22eb0984051a04561fdf40e3a4a3509f",
+      "size": 776505,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/civic-v01.png": {
+      "key": "credit-studio/media/5c7e372f1f1a28998166902af4ac31d4d91eda0b1a6578d2503c6e590e4b85f6.png",
+      "sha256": "5c7e372f1f1a28998166902af4ac31d4d91eda0b1a6578d2503c6e590e4b85f6",
+      "size": 2840642,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/generated/hospital-v01.png": {
+      "key": "credit-studio/media/2d2071aa755abedfc6e76a1be54eadda9d3570e96c0dbfc2a8d60780abc1e036.png",
+      "sha256": "2d2071aa755abedfc6e76a1be54eadda9d3570e96c0dbfc2a8d60780abc1e036",
+      "size": 3180485,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/cutouts/musk-thinking.png": {
+      "key": "credit-studio/media/cd05e6b9abae0000886479a429a7cd1ec9ab0419895332c6ebb3142d04c2bcbf.png",
+      "sha256": "cd05e6b9abae0000886479a429a7cd1ec9ab0419895332c6ebb3142d04c2bcbf",
+      "size": 215107,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/cutouts/portugal-mainland.png": {
+      "key": "credit-studio/media/806a2e5389b60942bba77f6d04d89973bb1e2d6035146ec69bf2d1bb8ab0fd25.png",
+      "sha256": "806a2e5389b60942bba77f6d04d89973bb1e2d6035146ec69bf2d1bb8ab0fd25",
+      "size": 43041,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/cutouts/musk-palm.png": {
+      "key": "credit-studio/media/f7c0b69b47b7af1961f095420334f56db23637dd223d0f19383f32ba264d629d.png",
+      "sha256": "f7c0b69b47b7af1961f095420334f56db23637dd223d0f19383f32ba264d629d",
+      "size": 231281,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/cutouts/musk-standing.png": {
+      "key": "credit-studio/media/29861cdab99e9b6b329419764e4d594a0b54039465a577fc7e69c8f9d5324cc1.png",
+      "sha256": "29861cdab99e9b6b329419764e4d594a0b54039465a577fc7e69c8f9d5324cc1",
+      "size": 216522,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/cutouts/musk-folder.png": {
+      "key": "credit-studio/media/55185ce73e98199902ece6d1023e2873af212841b61a529d143a3e69bef171f8.png",
+      "sha256": "55185ce73e98199902ece6d1023e2873af212841b61a529d143a3e69bef171f8",
+      "size": 207761,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/07-musk-022.png": {
+      "key": "credit-studio/media/d7e93c59a5ce4775d3d97a8fb34a6aa54f28594fd354afd83e21b0d1c1ad46fb.png",
+      "sha256": "d7e93c59a5ce4775d3d97a8fb34a6aa54f28594fd354afd83e21b0d1c1ad46fb",
+      "size": 2501908,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/04-musk-005.png": {
+      "key": "credit-studio/media/f4b235d0b96ce69d43972c83be1dce4c3bef467ab09bc42b133dbb3847009a01.png",
+      "sha256": "f4b235d0b96ce69d43972c83be1dce4c3bef467ab09bc42b133dbb3847009a01",
+      "size": 2636571,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/10-musk-034.png": {
+      "key": "credit-studio/media/070cb9ab9c4600fcb89c3b9767ee2ec0c208781c2bf12a7df87f36b807544615.png",
+      "sha256": "070cb9ab9c4600fcb89c3b9767ee2ec0c208781c2bf12a7df87f36b807544615",
+      "size": 2371392,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/12-musk-046.png": {
+      "key": "credit-studio/media/4959c44d3f169123d5688c761860952115cebae34e5d79d13a036c04b5e02bfa.png",
+      "sha256": "4959c44d3f169123d5688c761860952115cebae34e5d79d13a036c04b5e02bfa",
+      "size": 2770615,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/09-musk-030.png": {
+      "key": "credit-studio/media/f8e27f4e6c1840fa6e4b049a5f11a17033bd829ced5bf50ad5d9d1b45ec40b67.png",
+      "sha256": "f8e27f4e6c1840fa6e4b049a5f11a17033bd829ced5bf50ad5d9d1b45ec40b67",
+      "size": 2554087,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/13-musk-055.png": {
+      "key": "credit-studio/media/c2de1be01a0cbcd4f97f2d7e041a50c503db25f70b86dfda4f2b0ebd55f11f74.png",
+      "sha256": "c2de1be01a0cbcd4f97f2d7e041a50c503db25f70b86dfda4f2b0ebd55f11f74",
+      "size": 3195758,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/05-musk-010.png": {
+      "key": "credit-studio/media/557c92eb087fa92fa930ea341619e6fbb20fd3fb42ea2466a02a05ee249d3808.png",
+      "sha256": "557c92eb087fa92fa930ea341619e6fbb20fd3fb42ea2466a02a05ee249d3808",
+      "size": 2621939,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/02-musk-003.png": {
+      "key": "credit-studio/media/5b89a2554184bf33c6a37d55c2fa31a27f85e42b6f93bc684b2bf837a8447e09.png",
+      "sha256": "5b89a2554184bf33c6a37d55c2fa31a27f85e42b6f93bc684b2bf837a8447e09",
+      "size": 3074977,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/08-musk-028.png": {
+      "key": "credit-studio/media/ba8904e49002b9f6643572447e46c43f0bf8c52567428af617cd71c774cbab19.png",
+      "sha256": "ba8904e49002b9f6643572447e46c43f0bf8c52567428af617cd71c774cbab19",
+      "size": 2850777,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/11-musk-038.png": {
+      "key": "credit-studio/media/bde4e2303e7b54b25abf8e2af3eebf938b2ca71db479165dbb4280d83acab625.png",
+      "sha256": "bde4e2303e7b54b25abf8e2af3eebf938b2ca71db479165dbb4280d83acab625",
+      "size": 3085280,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/01-musk-001.png": {
+      "key": "credit-studio/media/366aac423a54eb2777f5b1514a29cf84ef79fb889989dcc97fca0c0ec1c26ec7.png",
+      "sha256": "366aac423a54eb2777f5b1514a29cf84ef79fb889989dcc97fca0c0ec1c26ec7",
+      "size": 3537211,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/03-musk-004.png": {
+      "key": "credit-studio/media/c4fb97ed5f45cb50a55cf9c6b3c64ea6179098f221f6d84bbfb17b725e43e4a4.png",
+      "sha256": "c4fb97ed5f45cb50a55cf9c6b3c64ea6179098f221f6d84bbfb17b725e43e4a4",
+      "size": 2914320,
+      "type": "image/png"
+    },
+    "videos/006-musk-buy-a-country/images/scenes/06-musk-016.png": {
+      "key": "credit-studio/media/38d08a5e65bfc48bfa9dac51ae79e6e36433f316a7d65c88fa9517988ca601b9.png",
+      "sha256": "38d08a5e65bfc48bfa9dac51ae79e6e36433f316a7d65c88fa9517988ca601b9",
+      "size": 2946504,
+      "type": "image/png"
     }
   }
 }

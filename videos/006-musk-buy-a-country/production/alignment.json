@@ -1,0 +1,7167 @@
+[
+  {
+    "start": 0.08,
+    "end": 6.16,
+    "text": "Could Elon Musk buy a country, put him beside a map of Portugal, and the question starts",
+    "words": [
+      {
+        "word": "Could",
+        "start": 0.08,
+        "end": 0.56,
+        "probability": 0.3704
+      },
+      {
+        "word": "Elon",
+        "start": 0.56,
+        "end": 0.82,
+        "probability": 0.9852
+      },
+      {
+        "word": "Musk",
+        "start": 0.82,
+        "end": 1.28,
+        "probability": 0.9892
+      },
+      {
+        "word": "buy",
+        "start": 1.28,
+        "end": 1.66,
+        "probability": 0.8752
+      },
+      {
+        "word": "a",
+        "start": 1.66,
+        "end": 1.8,
+        "probability": 0.9991
+      },
+      {
+        "word": "country,",
+        "start": 1.8,
+        "end": 2.24,
+        "probability": 0.9971
+      },
+      {
+        "word": "put",
+        "start": 2.92,
+        "end": 3.1,
+        "probability": 0.9958
+      },
+      {
+        "word": "him",
+        "start": 3.1,
+        "end": 3.24,
+        "probability": 0.7809
+      },
+      {
+        "word": "beside",
+        "start": 3.24,
+        "end": 3.58,
+        "probability": 0.9931
+      },
+      {
+        "word": "a",
+        "start": 3.58,
+        "end": 3.74,
+        "probability": 0.9974
+      },
+      {
+        "word": "map",
+        "start": 3.74,
+        "end": 3.94,
+        "probability": 0.9986
+      },
+      {
+        "word": "of",
+        "start": 3.94,
+        "end": 4.12,
+        "probability": 0.9978
+      },
+      {
+        "word": "Portugal,",
+        "start": 4.12,
+        "end": 4.54,
+        "probability": 0.9958
+      },
+      {
+        "word": "and",
+        "start": 5.12,
+        "end": 5.34,
+        "probability": 0.9963
+      },
+      {
+        "word": "the",
+        "start": 5.34,
+        "end": 5.44,
+        "probability": 0.9982
+      },
+      {
+        "word": "question",
+        "start": 5.44,
+        "end": 5.66,
+        "probability": 0.997
+      },
+      {
+        "word": "starts",
+        "start": 5.66,
+        "end": 6.16,
+        "probability": 0.9981
+      }
+    ]
+  },
+  {
+    "start": 6.16,
+    "end": 8.44,
+    "text": "to sound less ridiculous than it should?",
+    "words": [
+      {
+        "word": "to",
+        "start": 6.16,
+        "end": 6.42,
+        "probability": 0.999
+      },
+      {
+        "word": "sound",
+        "start": 6.42,
+        "end": 6.74,
+        "probability": 0.9978
+      },
+      {
+        "word": "less",
+        "start": 6.74,
+        "end": 7.06,
+        "probability": 0.9995
+      },
+      {
+        "word": "ridiculous",
+        "start": 7.06,
+        "end": 7.5,
+        "probability": 0.9873
+      },
+      {
+        "word": "than",
+        "start": 7.5,
+        "end": 7.98,
+        "probability": 0.9947
+      },
+      {
+        "word": "it",
+        "start": 7.98,
+        "end": 8.1,
+        "probability": 0.9991
+      },
+      {
+        "word": "should?",
+        "start": 8.1,
+        "end": 8.44,
+        "probability": 0.9981
+      }
+    ]
+  },
+  {
+    "start": 9.38,
+    "end": 17.5,
+    "text": "On October 1, 2026, Forbes estimated his net worth at about $936 billion.",
+    "words": [
+      {
+        "word": "On",
+        "start": 9.38,
+        "end": 9.54,
+        "probability": 0.9814
+      },
+      {
+        "word": "October",
+        "start": 9.54,
+        "end": 9.9,
+        "probability": 0.9702
+      },
+      {
+        "word": "1,",
+        "start": 9.9,
+        "end": 10.42,
+        "probability": 0.9785
+      },
+      {
+        "word": "2026,",
+        "start": 10.66,
+        "end": 11.86,
+        "probability": 0.9297
+      },
+      {
+        "word": "Forbes",
+        "start": 12.46,
+        "end": 12.74,
+        "probability": 0.9899
+      },
+      {
+        "word": "estimated",
+        "start": 12.74,
+        "end": 13.48,
+        "probability": 0.9875
+      },
+      {
+        "word": "his",
+        "start": 13.48,
+        "end": 13.8,
+        "probability": 0.9992
+      },
+      {
+        "word": "net",
+        "start": 13.8,
+        "end": 14.02,
+        "probability": 0.9994
+      },
+      {
+        "word": "worth",
+        "start": 14.02,
+        "end": 14.32,
+        "probability": 0.9982
+      },
+      {
+        "word": "at",
+        "start": 14.32,
+        "end": 14.64,
+        "probability": 0.9979
+      },
+      {
+        "word": "about",
+        "start": 14.64,
+        "end": 14.84,
+        "probability": 0.9837
+      },
+      {
+        "word": "$936",
+        "start": 14.84,
+        "end": 16.72,
+        "probability": 0.9555
+      },
+      {
+        "word": "billion.",
+        "start": 16.72,
+        "end": 17.5,
+        "probability": 0.9624
+      }
+    ]
+  },
+  {
+    "start": 18.5,
+    "end": 27.46,
+    "text": "The World Bank puts Portugal's economic output in 2025 at roughly $346.6 billion.",
+    "words": [
+      {
+        "word": "The",
+        "start": 18.5,
+        "end": 19.1,
+        "probability": 0.9953
+      },
+      {
+        "word": "World",
+        "start": 19.1,
+        "end": 19.28,
+        "probability": 0.9753
+      },
+      {
+        "word": "Bank",
+        "start": 19.28,
+        "end": 19.72,
+        "probability": 0.9963
+      },
+      {
+        "word": "puts",
+        "start": 19.72,
+        "end": 20.04,
+        "probability": 0.9964
+      },
+      {
+        "word": "Portugal's",
+        "start": 20.04,
+        "end": 20.76,
+        "probability": 0.993
+      },
+      {
+        "word": "economic",
+        "start": 20.76,
+        "end": 21.0,
+        "probability": 0.9988
+      },
+      {
+        "word": "output",
+        "start": 21.0,
+        "end": 21.78,
+        "probability": 0.9976
+      },
+      {
+        "word": "in",
+        "start": 21.78,
+        "end": 22.12,
+        "probability": 0.9974
+      },
+      {
+        "word": "2025",
+        "start": 22.12,
+        "end": 22.74,
+        "probability": 0.9946
+      },
+      {
+        "word": "at",
+        "start": 22.74,
+        "end": 23.44,
+        "probability": 0.9894
+      },
+      {
+        "word": "roughly",
+        "start": 23.44,
+        "end": 23.74,
+        "probability": 0.9994
+      },
+      {
+        "word": "$346",
+        "start": 23.74,
+        "end": 24.54,
+        "probability": 0.6428
+      },
+      {
+        "word": ".6",
+        "start": 24.54,
+        "end": 26.88,
+        "probability": 0.9925
+      },
+      {
+        "word": "billion.",
+        "start": 26.88,
+        "end": 27.46,
+        "probability": 0.988
+      }
+    ]
+  },
+  {
+    "start": 28.76,
+    "end": 32.92,
+    "text": "The first number is about 2.7 times the second.",
+    "words": [
+      {
+        "word": "The",
+        "start": 28.76,
+        "end": 29.44,
+        "probability": 0.1991
+      },
+      {
+        "word": "first",
+        "start": 29.44,
+        "end": 29.72,
+        "probability": 0.9703
+      },
+      {
+        "word": "number",
+        "start": 29.72,
+        "end": 30.08,
+        "probability": 0.9948
+      },
+      {
+        "word": "is",
+        "start": 30.08,
+        "end": 30.36,
+        "probability": 0.9968
+      },
+      {
+        "word": "about",
+        "start": 30.36,
+        "end": 30.56,
+        "probability": 0.9908
+      },
+      {
+        "word": "2",
+        "start": 30.56,
+        "end": 31.0,
+        "probability": 0.8222
+      },
+      {
+        "word": ".7",
+        "start": 31.0,
+        "end": 31.84,
+        "probability": 0.9917
+      },
+      {
+        "word": "times",
+        "start": 31.84,
+        "end": 32.4,
+        "probability": 0.8845
+      },
+      {
+        "word": "the",
+        "start": 32.4,
+        "end": 32.54,
+        "probability": 0.993
+      },
+      {
+        "word": "second.",
+        "start": 32.54,
+        "end": 32.92,
+        "probability": 0.9956
+      }
+    ]
+  },
+  {
+    "start": 33.78,
+    "end": 42.36,
+    "text": "That comparison can make a whole country look smaller than one man's fortune, but it has not told us what he could actually buy.",
+    "words": [
+      {
+        "word": "That",
+        "start": 33.78,
+        "end": 33.98,
+        "probability": 0.9649
+      },
+      {
+        "word": "comparison",
+        "start": 33.98,
+        "end": 34.66,
+        "probability": 0.9992
+      },
+      {
+        "word": "can",
+        "start": 34.66,
+        "end": 35.12,
+        "probability": 0.9972
+      },
+      {
+        "word": "make",
+        "start": 35.12,
+        "end": 35.32,
+        "probability": 0.9989
+      },
+      {
+        "word": "a",
+        "start": 35.32,
+        "end": 35.5,
+        "probability": 0.9866
+      },
+      {
+        "word": "whole",
+        "start": 35.5,
+        "end": 35.78,
+        "probability": 0.997
+      },
+      {
+        "word": "country",
+        "start": 35.78,
+        "end": 36.34,
+        "probability": 0.9977
+      },
+      {
+        "word": "look",
+        "start": 36.34,
+        "end": 36.66,
+        "probability": 0.969
+      },
+      {
+        "word": "smaller",
+        "start": 36.66,
+        "end": 37.06,
+        "probability": 0.9964
+      },
+      {
+        "word": "than",
+        "start": 37.06,
+        "end": 37.58,
+        "probability": 0.994
+      },
+      {
+        "word": "one",
+        "start": 37.58,
+        "end": 37.8,
+        "probability": 0.9683
+      },
+      {
+        "word": "man's",
+        "start": 37.8,
+        "end": 38.46,
+        "probability": 0.9933
+      },
+      {
+        "word": "fortune,",
+        "start": 38.46,
+        "end": 38.74,
+        "probability": 0.9942
+      },
+      {
+        "word": "but",
+        "start": 39.4,
+        "end": 39.84,
+        "probability": 0.9858
+      },
+      {
+        "word": "it",
+        "start": 39.84,
+        "end": 39.94,
+        "probability": 0.9973
+      },
+      {
+        "word": "has",
+        "start": 39.94,
+        "end": 40.06,
+        "probability": 0.9961
+      },
+      {
+        "word": "not",
+        "start": 40.06,
+        "end": 40.28,
+        "probability": 0.999
+      },
+      {
+        "word": "told",
+        "start": 40.28,
+        "end": 40.66,
+        "probability": 0.998
+      },
+      {
+        "word": "us",
+        "start": 40.66,
+        "end": 40.94,
+        "probability": 0.9969
+      },
+      {
+        "word": "what",
+        "start": 40.94,
+        "end": 41.16,
+        "probability": 0.9985
+      },
+      {
+        "word": "he",
+        "start": 41.16,
+        "end": 41.3,
+        "probability": 0.9979
+      },
+      {
+        "word": "could",
+        "start": 41.3,
+        "end": 41.46,
+        "probability": 0.9966
+      },
+      {
+        "word": "actually",
+        "start": 41.46,
+        "end": 41.9,
+        "probability": 0.9989
+      },
+      {
+        "word": "buy.",
+        "start": 41.9,
+        "end": 42.36,
+        "probability": 0.9925
+      }
+    ]
+  },
+  {
+    "start": 43.16,
+    "end": 50.28,
+    "text": "We have compared the estimated value of someone's wealth with the value of a country's production over a year.",
+    "words": [
+      {
+        "word": "We",
+        "start": 43.16,
+        "end": 43.4,
+        "probability": 0.9927
+      },
+      {
+        "word": "have",
+        "start": 43.4,
+        "end": 43.5,
+        "probability": 0.9921
+      },
+      {
+        "word": "compared",
+        "start": 43.5,
+        "end": 43.9,
+        "probability": 0.9937
+      },
+      {
+        "word": "the",
+        "start": 43.9,
+        "end": 44.32,
+        "probability": 0.9982
+      },
+      {
+        "word": "estimated",
+        "start": 44.32,
+        "end": 44.76,
+        "probability": 0.9844
+      },
+      {
+        "word": "value",
+        "start": 44.76,
+        "end": 45.62,
+        "probability": 0.9995
+      },
+      {
+        "word": "of",
+        "start": 45.62,
+        "end": 45.9,
+        "probability": 0.9985
+      },
+      {
+        "word": "someone's",
+        "start": 45.9,
+        "end": 46.44,
+        "probability": 0.989
+      },
+      {
+        "word": "wealth",
+        "start": 46.44,
+        "end": 46.72,
+        "probability": 0.9996
+      },
+      {
+        "word": "with",
+        "start": 46.72,
+        "end": 47.34,
+        "probability": 0.9485
+      },
+      {
+        "word": "the",
+        "start": 47.34,
+        "end": 47.46,
+        "probability": 0.9953
+      },
+      {
+        "word": "value",
+        "start": 47.46,
+        "end": 47.96,
+        "probability": 0.9993
+      },
+      {
+        "word": "of",
+        "start": 47.96,
+        "end": 48.2,
+        "probability": 0.9973
+      },
+      {
+        "word": "a",
+        "start": 48.2,
+        "end": 48.28,
+        "probability": 0.9959
+      },
+      {
+        "word": "country's",
+        "start": 48.28,
+        "end": 48.88,
+        "probability": 0.996
+      },
+      {
+        "word": "production",
+        "start": 48.88,
+        "end": 49.1,
+        "probability": 0.9974
+      },
+      {
+        "word": "over",
+        "start": 49.1,
+        "end": 49.78,
+        "probability": 0.9984
+      },
+      {
+        "word": "a",
+        "start": 49.78,
+        "end": 49.94,
+        "probability": 0.994
+      },
+      {
+        "word": "year.",
+        "start": 49.94,
+        "end": 50.28,
+        "probability": 0.9996
+      }
+    ]
+  },
+  {
+    "start": 51.0,
+    "end": 56.78,
+    "text": "To understand what that fortune could do, we need to follow it out of the headline and into",
+    "words": [
+      {
+        "word": "To",
+        "start": 51.0,
+        "end": 51.66,
+        "probability": 0.9895
+      },
+      {
+        "word": "understand",
+        "start": 51.66,
+        "end": 52.0,
+        "probability": 0.9992
+      },
+      {
+        "word": "what",
+        "start": 52.0,
+        "end": 52.56,
+        "probability": 0.9987
+      },
+      {
+        "word": "that",
+        "start": 52.56,
+        "end": 52.72,
+        "probability": 0.9973
+      },
+      {
+        "word": "fortune",
+        "start": 52.72,
+        "end": 53.24,
+        "probability": 0.9908
+      },
+      {
+        "word": "could",
+        "start": 53.24,
+        "end": 53.48,
+        "probability": 0.9986
+      },
+      {
+        "word": "do,",
+        "start": 53.48,
+        "end": 53.84,
+        "probability": 0.9991
+      },
+      {
+        "word": "we",
+        "start": 53.84,
+        "end": 54.42,
+        "probability": 0.9971
+      },
+      {
+        "word": "need",
+        "start": 54.42,
+        "end": 54.58,
+        "probability": 0.9993
+      },
+      {
+        "word": "to",
+        "start": 54.58,
+        "end": 54.76,
+        "probability": 0.9986
+      },
+      {
+        "word": "follow",
+        "start": 54.76,
+        "end": 55.16,
+        "probability": 0.9993
+      },
+      {
+        "word": "it",
+        "start": 55.16,
+        "end": 55.38,
+        "probability": 0.999
+      },
+      {
+        "word": "out",
+        "start": 55.38,
+        "end": 55.52,
+        "probability": 0.9992
+      },
+      {
+        "word": "of",
+        "start": 55.52,
+        "end": 55.62,
+        "probability": 0.9971
+      },
+      {
+        "word": "the",
+        "start": 55.62,
+        "end": 55.76,
+        "probability": 0.9986
+      },
+      {
+        "word": "headline",
+        "start": 55.76,
+        "end": 56.1,
+        "probability": 0.9805
+      },
+      {
+        "word": "and",
+        "start": 56.1,
+        "end": 56.6,
+        "probability": 0.9806
+      },
+      {
+        "word": "into",
+        "start": 56.6,
+        "end": 56.78,
+        "probability": 0.9961
+      }
+    ]
+  },
+  {
+    "start": 56.78,
+    "end": 61.68,
+    "text": "the real world. Start in Lisbon. A restaurant serves dinner.",
+    "words": [
+      {
+        "word": "the",
+        "start": 56.78,
+        "end": 57.04,
+        "probability": 0.0297
+      },
+      {
+        "word": "real",
+        "start": 57.04,
+        "end": 57.32,
+        "probability": 0.9045
+      },
+      {
+        "word": "world.",
+        "start": 57.32,
+        "end": 57.94,
+        "probability": 0.9317
+      },
+      {
+        "word": "Start",
+        "start": 58.42,
+        "end": 58.76,
+        "probability": 0.9877
+      },
+      {
+        "word": "in",
+        "start": 58.76,
+        "end": 59.04,
+        "probability": 0.992
+      },
+      {
+        "word": "Lisbon.",
+        "start": 59.04,
+        "end": 59.4,
+        "probability": 0.9969
+      },
+      {
+        "word": "A",
+        "start": 60.26,
+        "end": 60.28,
+        "probability": 0.9942
+      },
+      {
+        "word": "restaurant",
+        "start": 60.28,
+        "end": 60.6,
+        "probability": 0.9755
+      },
+      {
+        "word": "serves",
+        "start": 60.6,
+        "end": 61.38,
+        "probability": 0.996
+      },
+      {
+        "word": "dinner.",
+        "start": 61.38,
+        "end": 61.68,
+        "probability": 0.9981
+      }
+    ]
+  },
+  {
+    "start": 62.42,
+    "end": 67.38,
+    "text": "A software business delivers a project. A factory produces goods.",
+    "words": [
+      {
+        "word": "A",
+        "start": 62.42,
+        "end": 62.48,
+        "probability": 0.9964
+      },
+      {
+        "word": "software",
+        "start": 62.48,
+        "end": 62.96,
+        "probability": 0.99
+      },
+      {
+        "word": "business",
+        "start": 62.96,
+        "end": 63.6,
+        "probability": 0.9981
+      },
+      {
+        "word": "delivers",
+        "start": 63.6,
+        "end": 64.06,
+        "probability": 0.9957
+      },
+      {
+        "word": "a",
+        "start": 64.06,
+        "end": 64.4,
+        "probability": 0.9993
+      },
+      {
+        "word": "project.",
+        "start": 64.4,
+        "end": 64.9,
+        "probability": 0.9988
+      },
+      {
+        "word": "A",
+        "start": 65.72,
+        "end": 65.8,
+        "probability": 0.9969
+      },
+      {
+        "word": "factory",
+        "start": 65.8,
+        "end": 66.22,
+        "probability": 0.9988
+      },
+      {
+        "word": "produces",
+        "start": 66.22,
+        "end": 66.86,
+        "probability": 0.9978
+      },
+      {
+        "word": "goods.",
+        "start": 66.86,
+        "end": 67.38,
+        "probability": 0.9976
+      }
+    ]
+  },
+  {
+    "start": 68.28,
+    "end": 70.98,
+    "text": "Teachers and medical staff provide services.",
+    "words": [
+      {
+        "word": "Teachers",
+        "start": 68.28,
+        "end": 68.66,
+        "probability": 0.9885
+      },
+      {
+        "word": "and",
+        "start": 68.66,
+        "end": 69.04,
+        "probability": 0.9959
+      },
+      {
+        "word": "medical",
+        "start": 69.04,
+        "end": 69.3,
+        "probability": 0.9918
+      },
+      {
+        "word": "staff",
+        "start": 69.3,
+        "end": 69.9,
+        "probability": 0.9998
+      },
+      {
+        "word": "provide",
+        "start": 69.9,
+        "end": 70.3,
+        "probability": 0.8183
+      },
+      {
+        "word": "services.",
+        "start": 70.3,
+        "end": 70.98,
+        "probability": 0.9994
+      }
+    ]
+  },
+  {
+    "start": 72.2,
+    "end": 83.36,
+    "text": "Gross Domestic Product or GDP measures the value of final goods and services produced within an economy during a period, usually a year.",
+    "words": [
+      {
+        "word": "Gross",
+        "start": 72.2,
+        "end": 72.78,
+        "probability": 0.881
+      },
+      {
+        "word": "Domestic",
+        "start": 72.78,
+        "end": 73.14,
+        "probability": 0.1793
+      },
+      {
+        "word": "Product",
+        "start": 73.14,
+        "end": 73.88,
+        "probability": 0.9802
+      },
+      {
+        "word": "or",
+        "start": 73.88,
+        "end": 74.38,
+        "probability": 0.5104
+      },
+      {
+        "word": "GDP",
+        "start": 74.38,
+        "end": 74.86,
+        "probability": 0.9299
+      },
+      {
+        "word": "measures",
+        "start": 74.86,
+        "end": 76.12,
+        "probability": 0.9407
+      },
+      {
+        "word": "the",
+        "start": 76.12,
+        "end": 76.52,
+        "probability": 0.9987
+      },
+      {
+        "word": "value",
+        "start": 76.52,
+        "end": 77.0,
+        "probability": 0.9987
+      },
+      {
+        "word": "of",
+        "start": 77.0,
+        "end": 77.2,
+        "probability": 0.9991
+      },
+      {
+        "word": "final",
+        "start": 77.2,
+        "end": 77.56,
+        "probability": 0.9758
+      },
+      {
+        "word": "goods",
+        "start": 77.56,
+        "end": 78.08,
+        "probability": 0.9968
+      },
+      {
+        "word": "and",
+        "start": 78.08,
+        "end": 78.4,
+        "probability": 0.9949
+      },
+      {
+        "word": "services",
+        "start": 78.4,
+        "end": 78.9,
+        "probability": 0.9983
+      },
+      {
+        "word": "produced",
+        "start": 78.9,
+        "end": 79.34,
+        "probability": 0.9971
+      },
+      {
+        "word": "within",
+        "start": 79.34,
+        "end": 79.94,
+        "probability": 0.999
+      },
+      {
+        "word": "an",
+        "start": 79.94,
+        "end": 80.06,
+        "probability": 0.9965
+      },
+      {
+        "word": "economy",
+        "start": 80.06,
+        "end": 80.58,
+        "probability": 0.9987
+      },
+      {
+        "word": "during",
+        "start": 80.58,
+        "end": 81.02,
+        "probability": 0.996
+      },
+      {
+        "word": "a",
+        "start": 81.02,
+        "end": 81.16,
+        "probability": 0.997
+      },
+      {
+        "word": "period,",
+        "start": 81.16,
+        "end": 81.6,
+        "probability": 0.9994
+      },
+      {
+        "word": "usually",
+        "start": 81.6,
+        "end": 82.72,
+        "probability": 0.9975
+      },
+      {
+        "word": "a",
+        "start": 82.72,
+        "end": 83.02,
+        "probability": 0.9965
+      },
+      {
+        "word": "year.",
+        "start": 83.02,
+        "end": 83.36,
+        "probability": 0.9997
+      }
+    ]
+  },
+  {
+    "start": 83.36,
+    "end": 88.34,
+    "text": "It is not a country's bank balance. It is not the government's budget.",
+    "words": [
+      {
+        "word": "It",
+        "start": 83.36,
+        "end": 84.22,
+        "probability": 0.4809
+      },
+      {
+        "word": "is",
+        "start": 84.22,
+        "end": 84.34,
+        "probability": 0.9838
+      },
+      {
+        "word": "not",
+        "start": 84.34,
+        "end": 84.56,
+        "probability": 0.9973
+      },
+      {
+        "word": "a",
+        "start": 84.56,
+        "end": 84.66,
+        "probability": 0.89
+      },
+      {
+        "word": "country's",
+        "start": 84.66,
+        "end": 85.26,
+        "probability": 0.9823
+      },
+      {
+        "word": "bank",
+        "start": 85.26,
+        "end": 85.44,
+        "probability": 0.9974
+      },
+      {
+        "word": "balance.",
+        "start": 85.44,
+        "end": 85.9,
+        "probability": 0.9951
+      },
+      {
+        "word": "It",
+        "start": 86.66,
+        "end": 86.9,
+        "probability": 0.9957
+      },
+      {
+        "word": "is",
+        "start": 86.9,
+        "end": 86.98,
+        "probability": 0.9983
+      },
+      {
+        "word": "not",
+        "start": 86.98,
+        "end": 87.22,
+        "probability": 0.9988
+      },
+      {
+        "word": "the",
+        "start": 87.22,
+        "end": 87.42,
+        "probability": 0.9921
+      },
+      {
+        "word": "government's",
+        "start": 87.42,
+        "end": 88.08,
+        "probability": 0.9891
+      },
+      {
+        "word": "budget.",
+        "start": 88.08,
+        "end": 88.34,
+        "probability": 0.9978
+      }
+    ]
+  },
+  {
+    "start": 89.04,
+    "end": 95.4,
+    "text": "And it is not the combined sale price of its land, homes, businesses, and infrastructure.",
+    "words": [
+      {
+        "word": "And",
+        "start": 89.04,
+        "end": 89.26,
+        "probability": 0.9464
+      },
+      {
+        "word": "it",
+        "start": 89.26,
+        "end": 89.34,
+        "probability": 0.9724
+      },
+      {
+        "word": "is",
+        "start": 89.34,
+        "end": 89.46,
+        "probability": 0.998
+      },
+      {
+        "word": "not",
+        "start": 89.46,
+        "end": 89.68,
+        "probability": 0.9988
+      },
+      {
+        "word": "the",
+        "start": 89.68,
+        "end": 89.9,
+        "probability": 0.998
+      },
+      {
+        "word": "combined",
+        "start": 89.9,
+        "end": 90.28,
+        "probability": 0.9962
+      },
+      {
+        "word": "sale",
+        "start": 90.28,
+        "end": 90.86,
+        "probability": 0.9675
+      },
+      {
+        "word": "price",
+        "start": 90.86,
+        "end": 91.32,
+        "probability": 0.9978
+      },
+      {
+        "word": "of",
+        "start": 91.32,
+        "end": 91.66,
+        "probability": 0.9983
+      },
+      {
+        "word": "its",
+        "start": 91.66,
+        "end": 91.8,
+        "probability": 0.9597
+      },
+      {
+        "word": "land,",
+        "start": 91.8,
+        "end": 92.2,
+        "probability": 0.9956
+      },
+      {
+        "word": "homes,",
+        "start": 92.66,
+        "end": 93.1,
+        "probability": 0.9972
+      },
+      {
+        "word": "businesses,",
+        "start": 93.66,
+        "end": 94.18,
+        "probability": 0.9948
+      },
+      {
+        "word": "and",
+        "start": 94.48,
+        "end": 94.74,
+        "probability": 0.9986
+      },
+      {
+        "word": "infrastructure.",
+        "start": 94.74,
+        "end": 95.4,
+        "probability": 0.9977
+      }
+    ]
+  },
+  {
+    "start": 96.3,
+    "end": 100.8,
+    "text": "Imagine someone whose investments are worth more than your annual salary.",
+    "words": [
+      {
+        "word": "Imagine",
+        "start": 96.3,
+        "end": 96.7,
+        "probability": 0.9946
+      },
+      {
+        "word": "someone",
+        "start": 96.7,
+        "end": 97.36,
+        "probability": 0.9978
+      },
+      {
+        "word": "whose",
+        "start": 97.36,
+        "end": 97.76,
+        "probability": 0.944
+      },
+      {
+        "word": "investments",
+        "start": 97.76,
+        "end": 98.26,
+        "probability": 0.9961
+      },
+      {
+        "word": "are",
+        "start": 98.26,
+        "end": 98.82,
+        "probability": 0.9991
+      },
+      {
+        "word": "worth",
+        "start": 98.82,
+        "end": 99.04,
+        "probability": 0.9979
+      },
+      {
+        "word": "more",
+        "start": 99.04,
+        "end": 99.46,
+        "probability": 0.999
+      },
+      {
+        "word": "than",
+        "start": 99.46,
+        "end": 99.7,
+        "probability": 0.9983
+      },
+      {
+        "word": "your",
+        "start": 99.7,
+        "end": 99.86,
+        "probability": 0.9965
+      },
+      {
+        "word": "annual",
+        "start": 99.86,
+        "end": 100.32,
+        "probability": 0.9969
+      },
+      {
+        "word": "salary.",
+        "start": 100.32,
+        "end": 100.8,
+        "probability": 0.9975
+      }
+    ]
+  },
+  {
+    "start": 101.82,
+    "end": 107.1,
+    "text": "That comparison does not tell them what it would cost to purchase everything you own.",
+    "words": [
+      {
+        "word": "That",
+        "start": 101.82,
+        "end": 102.5,
+        "probability": 0.9967
+      },
+      {
+        "word": "comparison",
+        "start": 102.5,
+        "end": 103.1,
+        "probability": 0.9994
+      },
+      {
+        "word": "does",
+        "start": 103.1,
+        "end": 103.56,
+        "probability": 0.9917
+      },
+      {
+        "word": "not",
+        "start": 103.56,
+        "end": 103.82,
+        "probability": 0.9997
+      },
+      {
+        "word": "tell",
+        "start": 103.82,
+        "end": 104.12,
+        "probability": 0.9991
+      },
+      {
+        "word": "them",
+        "start": 104.12,
+        "end": 104.4,
+        "probability": 0.9983
+      },
+      {
+        "word": "what",
+        "start": 104.4,
+        "end": 104.56,
+        "probability": 0.9992
+      },
+      {
+        "word": "it",
+        "start": 104.56,
+        "end": 104.66,
+        "probability": 0.9976
+      },
+      {
+        "word": "would",
+        "start": 104.66,
+        "end": 104.78,
+        "probability": 0.9983
+      },
+      {
+        "word": "cost",
+        "start": 104.78,
+        "end": 105.12,
+        "probability": 0.9859
+      },
+      {
+        "word": "to",
+        "start": 105.12,
+        "end": 105.42,
+        "probability": 0.999
+      },
+      {
+        "word": "purchase",
+        "start": 105.42,
+        "end": 105.84,
+        "probability": 0.9993
+      },
+      {
+        "word": "everything",
+        "start": 105.84,
+        "end": 106.36,
+        "probability": 0.9973
+      },
+      {
+        "word": "you",
+        "start": 106.36,
+        "end": 106.76,
+        "probability": 0.9988
+      },
+      {
+        "word": "own.",
+        "start": 106.76,
+        "end": 107.1,
+        "probability": 0.9986
+      }
+    ]
+  },
+  {
+    "start": 107.1,
+    "end": 111.92,
+    "text": "The same distinction matters here on a much larger scale.",
+    "words": [
+      {
+        "word": "The",
+        "start": 107.1,
+        "end": 108.02,
+        "probability": 0.4398
+      },
+      {
+        "word": "same",
+        "start": 108.02,
+        "end": 108.38,
+        "probability": 0.9794
+      },
+      {
+        "word": "distinction",
+        "start": 108.38,
+        "end": 108.84,
+        "probability": 0.9954
+      },
+      {
+        "word": "matters",
+        "start": 108.84,
+        "end": 109.46,
+        "probability": 0.9983
+      },
+      {
+        "word": "here",
+        "start": 109.46,
+        "end": 109.86,
+        "probability": 0.9964
+      },
+      {
+        "word": "on",
+        "start": 109.86,
+        "end": 110.5,
+        "probability": 0.7282
+      },
+      {
+        "word": "a",
+        "start": 110.5,
+        "end": 110.56,
+        "probability": 0.9981
+      },
+      {
+        "word": "much",
+        "start": 110.56,
+        "end": 110.74,
+        "probability": 0.9987
+      },
+      {
+        "word": "larger",
+        "start": 110.74,
+        "end": 111.14,
+        "probability": 0.9991
+      },
+      {
+        "word": "scale.",
+        "start": 111.14,
+        "end": 111.92,
+        "probability": 0.9983
+      }
+    ]
+  },
+  {
+    "start": 112.88,
+    "end": 117.14,
+    "text": "Portugal's annual output helps us picture the size of Musk's fortune.",
+    "words": [
+      {
+        "word": "Portugal's",
+        "start": 112.88,
+        "end": 113.28,
+        "probability": 0.9396
+      },
+      {
+        "word": "annual",
+        "start": 113.28,
+        "end": 113.68,
+        "probability": 0.9925
+      },
+      {
+        "word": "output",
+        "start": 113.68,
+        "end": 114.26,
+        "probability": 0.995
+      },
+      {
+        "word": "helps",
+        "start": 114.26,
+        "end": 114.68,
+        "probability": 0.9953
+      },
+      {
+        "word": "us",
+        "start": 114.68,
+        "end": 114.94,
+        "probability": 0.9985
+      },
+      {
+        "word": "picture",
+        "start": 114.94,
+        "end": 115.24,
+        "probability": 0.9953
+      },
+      {
+        "word": "the",
+        "start": 115.24,
+        "end": 115.6,
+        "probability": 0.9981
+      },
+      {
+        "word": "size",
+        "start": 115.6,
+        "end": 116.06,
+        "probability": 0.9997
+      },
+      {
+        "word": "of",
+        "start": 116.06,
+        "end": 116.3,
+        "probability": 0.9988
+      },
+      {
+        "word": "Musk's",
+        "start": 116.3,
+        "end": 116.84,
+        "probability": 0.9766
+      },
+      {
+        "word": "fortune.",
+        "start": 116.84,
+        "end": 117.14,
+        "probability": 0.8789
+      }
+    ]
+  },
+  {
+    "start": 118.02,
+    "end": 123.24,
+    "text": "It does not put a price tag on Portugal. Now look at the other side of the comparison.",
+    "words": [
+      {
+        "word": "It",
+        "start": 118.02,
+        "end": 118.18,
+        "probability": 0.9946
+      },
+      {
+        "word": "does",
+        "start": 118.18,
+        "end": 118.28,
+        "probability": 0.995
+      },
+      {
+        "word": "not",
+        "start": 118.28,
+        "end": 118.48,
+        "probability": 0.9996
+      },
+      {
+        "word": "put",
+        "start": 118.48,
+        "end": 118.7,
+        "probability": 0.9975
+      },
+      {
+        "word": "a",
+        "start": 118.7,
+        "end": 118.78,
+        "probability": 0.9987
+      },
+      {
+        "word": "price",
+        "start": 118.78,
+        "end": 119.04,
+        "probability": 0.994
+      },
+      {
+        "word": "tag",
+        "start": 119.04,
+        "end": 119.5,
+        "probability": 0.999
+      },
+      {
+        "word": "on",
+        "start": 119.5,
+        "end": 119.78,
+        "probability": 0.9989
+      },
+      {
+        "word": "Portugal.",
+        "start": 119.78,
+        "end": 120.2,
+        "probability": 0.9969
+      },
+      {
+        "word": "Now",
+        "start": 120.98,
+        "end": 121.24,
+        "probability": 0.9962
+      },
+      {
+        "word": "look",
+        "start": 121.24,
+        "end": 121.54,
+        "probability": 0.9441
+      },
+      {
+        "word": "at",
+        "start": 121.54,
+        "end": 121.72,
+        "probability": 0.9981
+      },
+      {
+        "word": "the",
+        "start": 121.72,
+        "end": 121.84,
+        "probability": 0.998
+      },
+      {
+        "word": "other",
+        "start": 121.84,
+        "end": 122.08,
+        "probability": 0.9982
+      },
+      {
+        "word": "side",
+        "start": 122.08,
+        "end": 122.58,
+        "probability": 0.9992
+      },
+      {
+        "word": "of",
+        "start": 122.58,
+        "end": 122.7,
+        "probability": 0.999
+      },
+      {
+        "word": "the",
+        "start": 122.7,
+        "end": 122.8,
+        "probability": 0.9972
+      },
+      {
+        "word": "comparison.",
+        "start": 122.8,
+        "end": 123.24,
+        "probability": 0.9992
+      }
+    ]
+  },
+  {
+    "start": 124.22,
+    "end": 127.72,
+    "text": "Net worth is an estimate of assets minus liabilities.",
+    "words": [
+      {
+        "word": "Net",
+        "start": 124.22,
+        "end": 124.46,
+        "probability": 0.8294
+      },
+      {
+        "word": "worth",
+        "start": 124.46,
+        "end": 124.72,
+        "probability": 0.6428
+      },
+      {
+        "word": "is",
+        "start": 124.72,
+        "end": 125.12,
+        "probability": 0.9972
+      },
+      {
+        "word": "an",
+        "start": 125.12,
+        "end": 125.26,
+        "probability": 0.9957
+      },
+      {
+        "word": "estimate",
+        "start": 125.26,
+        "end": 125.84,
+        "probability": 0.997
+      },
+      {
+        "word": "of",
+        "start": 125.84,
+        "end": 126.16,
+        "probability": 0.9992
+      },
+      {
+        "word": "assets",
+        "start": 126.16,
+        "end": 126.64,
+        "probability": 0.9611
+      },
+      {
+        "word": "minus",
+        "start": 126.64,
+        "end": 127.28,
+        "probability": 0.9813
+      },
+      {
+        "word": "liabilities.",
+        "start": 127.28,
+        "end": 127.72,
+        "probability": 0.9943
+      }
+    ]
+  },
+  {
+    "start": 129.06,
+    "end": 136.84,
+    "text": "For Musk, large portions of that wealth are tied to ownership interests in businesses such as SpaceX and Tesla.",
+    "words": [
+      {
+        "word": "For",
+        "start": 129.06,
+        "end": 129.86,
+        "probability": 0.3981
+      },
+      {
+        "word": "Musk,",
+        "start": 129.86,
+        "end": 130.18,
+        "probability": 0.8987
+      },
+      {
+        "word": "large",
+        "start": 130.7,
+        "end": 131.04,
+        "probability": 0.9865
+      },
+      {
+        "word": "portions",
+        "start": 131.04,
+        "end": 131.58,
+        "probability": 0.9952
+      },
+      {
+        "word": "of",
+        "start": 131.58,
+        "end": 132.0,
+        "probability": 0.9981
+      },
+      {
+        "word": "that",
+        "start": 132.0,
+        "end": 132.16,
+        "probability": 0.9876
+      },
+      {
+        "word": "wealth",
+        "start": 132.16,
+        "end": 132.44,
+        "probability": 0.9957
+      },
+      {
+        "word": "are",
+        "start": 132.44,
+        "end": 132.7,
+        "probability": 0.9979
+      },
+      {
+        "word": "tied",
+        "start": 132.7,
+        "end": 133.02,
+        "probability": 0.9983
+      },
+      {
+        "word": "to",
+        "start": 133.02,
+        "end": 133.18,
+        "probability": 0.9984
+      },
+      {
+        "word": "ownership",
+        "start": 133.18,
+        "end": 133.56,
+        "probability": 0.9916
+      },
+      {
+        "word": "interests",
+        "start": 133.56,
+        "end": 134.18,
+        "probability": 0.9821
+      },
+      {
+        "word": "in",
+        "start": 134.18,
+        "end": 134.56,
+        "probability": 0.9812
+      },
+      {
+        "word": "businesses",
+        "start": 134.56,
+        "end": 134.86,
+        "probability": 0.9874
+      },
+      {
+        "word": "such",
+        "start": 134.86,
+        "end": 135.44,
+        "probability": 0.9527
+      },
+      {
+        "word": "as",
+        "start": 135.44,
+        "end": 135.7,
+        "probability": 0.9995
+      },
+      {
+        "word": "SpaceX",
+        "start": 135.7,
+        "end": 136.0,
+        "probability": 0.8912
+      },
+      {
+        "word": "and",
+        "start": 136.0,
+        "end": 136.6,
+        "probability": 0.9923
+      },
+      {
+        "word": "Tesla.",
+        "start": 136.6,
+        "end": 136.84,
+        "probability": 0.9949
+      }
+    ]
+  },
+  {
+    "start": 137.94,
+    "end": 146.84,
+    "text": "Shares represent ownership. Their estimated value can rise without an equivalent amount of money arriving in the owner's checking account.",
+    "words": [
+      {
+        "word": "Shares",
+        "start": 137.94,
+        "end": 138.16,
+        "probability": 0.9041
+      },
+      {
+        "word": "represent",
+        "start": 138.16,
+        "end": 138.72,
+        "probability": 0.9933
+      },
+      {
+        "word": "ownership.",
+        "start": 138.72,
+        "end": 139.2,
+        "probability": 0.9964
+      },
+      {
+        "word": "Their",
+        "start": 140.28,
+        "end": 140.44,
+        "probability": 0.9889
+      },
+      {
+        "word": "estimated",
+        "start": 140.44,
+        "end": 140.88,
+        "probability": 0.9927
+      },
+      {
+        "word": "value",
+        "start": 140.88,
+        "end": 141.54,
+        "probability": 0.9985
+      },
+      {
+        "word": "can",
+        "start": 141.54,
+        "end": 141.9,
+        "probability": 0.9973
+      },
+      {
+        "word": "rise",
+        "start": 141.9,
+        "end": 142.2,
+        "probability": 0.9975
+      },
+      {
+        "word": "without",
+        "start": 142.2,
+        "end": 142.68,
+        "probability": 0.9987
+      },
+      {
+        "word": "an",
+        "start": 142.68,
+        "end": 142.92,
+        "probability": 0.9961
+      },
+      {
+        "word": "equivalent",
+        "start": 142.92,
+        "end": 143.36,
+        "probability": 0.994
+      },
+      {
+        "word": "amount",
+        "start": 143.36,
+        "end": 143.92,
+        "probability": 0.9992
+      },
+      {
+        "word": "of",
+        "start": 143.92,
+        "end": 144.2,
+        "probability": 0.9993
+      },
+      {
+        "word": "money",
+        "start": 144.2,
+        "end": 144.56,
+        "probability": 0.9994
+      },
+      {
+        "word": "arriving",
+        "start": 144.56,
+        "end": 145.08,
+        "probability": 0.9957
+      },
+      {
+        "word": "in",
+        "start": 145.08,
+        "end": 145.42,
+        "probability": 0.9961
+      },
+      {
+        "word": "the",
+        "start": 145.42,
+        "end": 145.5,
+        "probability": 0.9976
+      },
+      {
+        "word": "owner's",
+        "start": 145.5,
+        "end": 146.02,
+        "probability": 0.8073
+      },
+      {
+        "word": "checking",
+        "start": 146.02,
+        "end": 146.3,
+        "probability": 0.9962
+      },
+      {
+        "word": "account.",
+        "start": 146.3,
+        "end": 146.84,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 147.7,
+    "end": 154.06,
+    "text": "If a share price falls, the estimated fortune can shrink without anyone spending that difference.",
+    "words": [
+      {
+        "word": "If",
+        "start": 147.7,
+        "end": 147.9,
+        "probability": 0.9958
+      },
+      {
+        "word": "a",
+        "start": 147.9,
+        "end": 147.98,
+        "probability": 0.9985
+      },
+      {
+        "word": "share",
+        "start": 147.98,
+        "end": 148.22,
+        "probability": 0.9585
+      },
+      {
+        "word": "price",
+        "start": 148.22,
+        "end": 148.58,
+        "probability": 0.9945
+      },
+      {
+        "word": "falls,",
+        "start": 148.58,
+        "end": 149.08,
+        "probability": 0.9989
+      },
+      {
+        "word": "the",
+        "start": 149.88,
+        "end": 149.94,
+        "probability": 0.9972
+      },
+      {
+        "word": "estimated",
+        "start": 149.94,
+        "end": 150.36,
+        "probability": 0.9963
+      },
+      {
+        "word": "fortune",
+        "start": 150.36,
+        "end": 150.94,
+        "probability": 0.9971
+      },
+      {
+        "word": "can",
+        "start": 150.94,
+        "end": 151.46,
+        "probability": 0.998
+      },
+      {
+        "word": "shrink",
+        "start": 151.46,
+        "end": 151.8,
+        "probability": 0.9977
+      },
+      {
+        "word": "without",
+        "start": 151.8,
+        "end": 152.16,
+        "probability": 0.999
+      },
+      {
+        "word": "anyone",
+        "start": 152.16,
+        "end": 152.68,
+        "probability": 0.9903
+      },
+      {
+        "word": "spending",
+        "start": 152.68,
+        "end": 153.18,
+        "probability": 0.995
+      },
+      {
+        "word": "that",
+        "start": 153.18,
+        "end": 153.64,
+        "probability": 0.9969
+      },
+      {
+        "word": "difference.",
+        "start": 153.64,
+        "end": 154.06,
+        "probability": 0.9981
+      }
+    ]
+  },
+  {
+    "start": 155.06,
+    "end": 160.76,
+    "text": "So a billionaire ranking is not a statement showing a pile of cash waiting to be transferred.",
+    "words": [
+      {
+        "word": "So",
+        "start": 155.06,
+        "end": 155.7,
+        "probability": 0.5947
+      },
+      {
+        "word": "a",
+        "start": 155.7,
+        "end": 155.84,
+        "probability": 0.7595
+      },
+      {
+        "word": "billionaire",
+        "start": 155.84,
+        "end": 156.24,
+        "probability": 0.9902
+      },
+      {
+        "word": "ranking",
+        "start": 156.24,
+        "end": 156.78,
+        "probability": 0.9892
+      },
+      {
+        "word": "is",
+        "start": 156.78,
+        "end": 157.12,
+        "probability": 0.9962
+      },
+      {
+        "word": "not",
+        "start": 157.12,
+        "end": 157.34,
+        "probability": 0.999
+      },
+      {
+        "word": "a",
+        "start": 157.34,
+        "end": 157.44,
+        "probability": 0.9981
+      },
+      {
+        "word": "statement",
+        "start": 157.44,
+        "end": 157.86,
+        "probability": 0.9962
+      },
+      {
+        "word": "showing",
+        "start": 157.86,
+        "end": 158.28,
+        "probability": 0.997
+      },
+      {
+        "word": "a",
+        "start": 158.28,
+        "end": 158.6,
+        "probability": 0.9968
+      },
+      {
+        "word": "pile",
+        "start": 158.6,
+        "end": 158.92,
+        "probability": 0.9979
+      },
+      {
+        "word": "of",
+        "start": 158.92,
+        "end": 159.14,
+        "probability": 0.9992
+      },
+      {
+        "word": "cash",
+        "start": 159.14,
+        "end": 159.42,
+        "probability": 0.9997
+      },
+      {
+        "word": "waiting",
+        "start": 159.42,
+        "end": 159.92,
+        "probability": 0.9846
+      },
+      {
+        "word": "to",
+        "start": 159.92,
+        "end": 160.26,
+        "probability": 0.9984
+      },
+      {
+        "word": "be",
+        "start": 160.26,
+        "end": 160.38,
+        "probability": 0.9996
+      },
+      {
+        "word": "transferred.",
+        "start": 160.38,
+        "end": 160.76,
+        "probability": 0.9991
+      }
+    ]
+  },
+  {
+    "start": 161.82,
+    "end": 165.12,
+    "text": "Those ownership stakes have real economic value.",
+    "words": [
+      {
+        "word": "Those",
+        "start": 161.82,
+        "end": 162.0,
+        "probability": 0.9835
+      },
+      {
+        "word": "ownership",
+        "start": 162.0,
+        "end": 162.46,
+        "probability": 0.9894
+      },
+      {
+        "word": "stakes",
+        "start": 162.46,
+        "end": 162.98,
+        "probability": 0.9822
+      },
+      {
+        "word": "have",
+        "start": 162.98,
+        "end": 163.36,
+        "probability": 0.9984
+      },
+      {
+        "word": "real",
+        "start": 163.36,
+        "end": 163.78,
+        "probability": 0.9761
+      },
+      {
+        "word": "economic",
+        "start": 163.78,
+        "end": 164.26,
+        "probability": 0.9961
+      },
+      {
+        "word": "value.",
+        "start": 164.26,
+        "end": 165.12,
+        "probability": 0.9988
+      }
+    ]
+  },
+  {
+    "start": 165.76,
+    "end": 172.96,
+    "text": "They can generate opportunities, be sold under applicable conditions, or sometimes support borrowing.",
+    "words": [
+      {
+        "word": "They",
+        "start": 165.76,
+        "end": 165.98,
+        "probability": 0.9971
+      },
+      {
+        "word": "can",
+        "start": 165.98,
+        "end": 166.16,
+        "probability": 0.9994
+      },
+      {
+        "word": "generate",
+        "start": 166.16,
+        "end": 166.6,
+        "probability": 0.9984
+      },
+      {
+        "word": "opportunities,",
+        "start": 166.6,
+        "end": 167.58,
+        "probability": 0.9941
+      },
+      {
+        "word": "be",
+        "start": 168.1,
+        "end": 168.22,
+        "probability": 0.9926
+      },
+      {
+        "word": "sold",
+        "start": 168.22,
+        "end": 168.58,
+        "probability": 0.9983
+      },
+      {
+        "word": "under",
+        "start": 168.58,
+        "end": 169.04,
+        "probability": 0.9986
+      },
+      {
+        "word": "applicable",
+        "start": 169.04,
+        "end": 169.46,
+        "probability": 0.9978
+      },
+      {
+        "word": "conditions,",
+        "start": 169.46,
+        "end": 170.1,
+        "probability": 0.9958
+      },
+      {
+        "word": "or",
+        "start": 170.82,
+        "end": 171.06,
+        "probability": 0.9982
+      },
+      {
+        "word": "sometimes",
+        "start": 171.06,
+        "end": 171.82,
+        "probability": 0.9543
+      },
+      {
+        "word": "support",
+        "start": 171.82,
+        "end": 172.38,
+        "probability": 0.9739
+      },
+      {
+        "word": "borrowing.",
+        "start": 172.38,
+        "end": 172.96,
+        "probability": 0.9988
+      }
+    ]
+  },
+  {
+    "start": 173.96,
+    "end": 179.86,
+    "text": "But turning ownership into spendable money is a transaction with constraints and consequences.",
+    "words": [
+      {
+        "word": "But",
+        "start": 173.96,
+        "end": 174.02,
+        "probability": 0.9962
+      },
+      {
+        "word": "turning",
+        "start": 174.02,
+        "end": 174.3,
+        "probability": 0.9901
+      },
+      {
+        "word": "ownership",
+        "start": 174.3,
+        "end": 174.92,
+        "probability": 0.998
+      },
+      {
+        "word": "into",
+        "start": 174.92,
+        "end": 175.26,
+        "probability": 0.9977
+      },
+      {
+        "word": "spendable",
+        "start": 175.26,
+        "end": 175.86,
+        "probability": 0.9923
+      },
+      {
+        "word": "money",
+        "start": 175.86,
+        "end": 176.26,
+        "probability": 0.9993
+      },
+      {
+        "word": "is",
+        "start": 176.26,
+        "end": 176.56,
+        "probability": 0.9958
+      },
+      {
+        "word": "a",
+        "start": 176.56,
+        "end": 176.66,
+        "probability": 0.9982
+      },
+      {
+        "word": "transaction",
+        "start": 176.66,
+        "end": 177.12,
+        "probability": 0.9969
+      },
+      {
+        "word": "with",
+        "start": 177.12,
+        "end": 178.32,
+        "probability": 0.4786
+      },
+      {
+        "word": "constraints",
+        "start": 178.32,
+        "end": 178.76,
+        "probability": 0.9976
+      },
+      {
+        "word": "and",
+        "start": 178.76,
+        "end": 179.34,
+        "probability": 0.9958
+      },
+      {
+        "word": "consequences.",
+        "start": 179.34,
+        "end": 179.86,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 180.6,
+    "end": 183.96,
+    "text": "Suppose Musk wanted to finance something enormous.",
+    "words": [
+      {
+        "word": "Suppose",
+        "start": 180.6,
+        "end": 181.32,
+        "probability": 0.009
+      },
+      {
+        "word": "Musk",
+        "start": 181.32,
+        "end": 181.94,
+        "probability": 0.9241
+      },
+      {
+        "word": "wanted",
+        "start": 181.94,
+        "end": 182.42,
+        "probability": 0.9909
+      },
+      {
+        "word": "to",
+        "start": 182.42,
+        "end": 182.56,
+        "probability": 0.999
+      },
+      {
+        "word": "finance",
+        "start": 182.56,
+        "end": 183.0,
+        "probability": 0.9989
+      },
+      {
+        "word": "something",
+        "start": 183.0,
+        "end": 183.66,
+        "probability": 0.9971
+      },
+      {
+        "word": "enormous.",
+        "start": 183.66,
+        "end": 183.96,
+        "probability": 0.9983
+      }
+    ]
+  },
+  {
+    "start": 185.72,
+    "end": 189.8,
+    "text": "One route would be selling assets. That requires buyers.",
+    "words": [
+      {
+        "word": "One",
+        "start": 185.72,
+        "end": 185.96,
+        "probability": 0.9235
+      },
+      {
+        "word": "route",
+        "start": 185.96,
+        "end": 186.38,
+        "probability": 0.5962
+      },
+      {
+        "word": "would",
+        "start": 186.38,
+        "end": 186.64,
+        "probability": 0.9979
+      },
+      {
+        "word": "be",
+        "start": 186.64,
+        "end": 186.78,
+        "probability": 0.9989
+      },
+      {
+        "word": "selling",
+        "start": 186.78,
+        "end": 187.12,
+        "probability": 0.9943
+      },
+      {
+        "word": "assets.",
+        "start": 187.12,
+        "end": 187.6,
+        "probability": 0.9952
+      },
+      {
+        "word": "That",
+        "start": 188.52,
+        "end": 188.74,
+        "probability": 0.9972
+      },
+      {
+        "word": "requires",
+        "start": 188.74,
+        "end": 189.18,
+        "probability": 0.9989
+      },
+      {
+        "word": "buyers.",
+        "start": 189.18,
+        "end": 189.8,
+        "probability": 0.9897
+      }
+    ]
+  },
+  {
+    "start": 190.74,
+    "end": 197.34,
+    "text": "Selling a very large position can affect the price, and taxes and restrictions may affect the proceeds.",
+    "words": [
+      {
+        "word": "Selling",
+        "start": 190.74,
+        "end": 191.1,
+        "probability": 0.9921
+      },
+      {
+        "word": "a",
+        "start": 191.1,
+        "end": 191.42,
+        "probability": 0.9952
+      },
+      {
+        "word": "very",
+        "start": 191.42,
+        "end": 191.68,
+        "probability": 0.9959
+      },
+      {
+        "word": "large",
+        "start": 191.68,
+        "end": 192.04,
+        "probability": 0.9992
+      },
+      {
+        "word": "position",
+        "start": 192.04,
+        "end": 192.66,
+        "probability": 0.9978
+      },
+      {
+        "word": "can",
+        "start": 192.66,
+        "end": 193.0,
+        "probability": 0.9972
+      },
+      {
+        "word": "affect",
+        "start": 193.0,
+        "end": 193.24,
+        "probability": 0.9748
+      },
+      {
+        "word": "the",
+        "start": 193.24,
+        "end": 193.5,
+        "probability": 0.9986
+      },
+      {
+        "word": "price,",
+        "start": 193.5,
+        "end": 193.84,
+        "probability": 0.9993
+      },
+      {
+        "word": "and",
+        "start": 194.46,
+        "end": 194.56,
+        "probability": 0.9954
+      },
+      {
+        "word": "taxes",
+        "start": 194.56,
+        "end": 195.1,
+        "probability": 0.9969
+      },
+      {
+        "word": "and",
+        "start": 195.1,
+        "end": 195.42,
+        "probability": 0.9904
+      },
+      {
+        "word": "restrictions",
+        "start": 195.42,
+        "end": 195.82,
+        "probability": 0.9984
+      },
+      {
+        "word": "may",
+        "start": 195.82,
+        "end": 196.42,
+        "probability": 0.9933
+      },
+      {
+        "word": "affect",
+        "start": 196.42,
+        "end": 196.8,
+        "probability": 0.9884
+      },
+      {
+        "word": "the",
+        "start": 196.8,
+        "end": 197.0,
+        "probability": 0.9993
+      },
+      {
+        "word": "proceeds.",
+        "start": 197.0,
+        "end": 197.34,
+        "probability": 0.9798
+      }
+    ]
+  },
+  {
+    "start": 198.5,
+    "end": 203.34,
+    "text": "The headline estimate does not guarantee what every asset would bring in a sale.",
+    "words": [
+      {
+        "word": "The",
+        "start": 198.5,
+        "end": 198.58,
+        "probability": 0.9965
+      },
+      {
+        "word": "headline",
+        "start": 198.58,
+        "end": 198.84,
+        "probability": 0.9958
+      },
+      {
+        "word": "estimate",
+        "start": 198.84,
+        "end": 199.46,
+        "probability": 0.9319
+      },
+      {
+        "word": "does",
+        "start": 199.46,
+        "end": 199.88,
+        "probability": 0.9949
+      },
+      {
+        "word": "not",
+        "start": 199.88,
+        "end": 200.12,
+        "probability": 0.9996
+      },
+      {
+        "word": "guarantee",
+        "start": 200.12,
+        "end": 200.56,
+        "probability": 0.9979
+      },
+      {
+        "word": "what",
+        "start": 200.56,
+        "end": 201.1,
+        "probability": 0.9966
+      },
+      {
+        "word": "every",
+        "start": 201.1,
+        "end": 201.36,
+        "probability": 0.9941
+      },
+      {
+        "word": "asset",
+        "start": 201.36,
+        "end": 202.06,
+        "probability": 0.9979
+      },
+      {
+        "word": "would",
+        "start": 202.06,
+        "end": 202.32,
+        "probability": 0.994
+      },
+      {
+        "word": "bring",
+        "start": 202.32,
+        "end": 202.64,
+        "probability": 0.9983
+      },
+      {
+        "word": "in",
+        "start": 202.64,
+        "end": 202.88,
+        "probability": 0.9986
+      },
+      {
+        "word": "a",
+        "start": 202.88,
+        "end": 202.98,
+        "probability": 0.9945
+      },
+      {
+        "word": "sale.",
+        "start": 202.98,
+        "end": 203.34,
+        "probability": 0.9976
+      }
+    ]
+  },
+  {
+    "start": 204.13,
+    "end": 209.2,
+    "text": "Another route might be borrowing against eligible holdings if lenders agreed.",
+    "words": [
+      {
+        "word": "Another",
+        "start": 204.13,
+        "end": 204.56,
+        "probability": 0.5885
+      },
+      {
+        "word": "route",
+        "start": 204.56,
+        "end": 205.02,
+        "probability": 0.7256
+      },
+      {
+        "word": "might",
+        "start": 205.02,
+        "end": 205.3,
+        "probability": 0.9959
+      },
+      {
+        "word": "be",
+        "start": 205.3,
+        "end": 205.52,
+        "probability": 0.9987
+      },
+      {
+        "word": "borrowing",
+        "start": 205.52,
+        "end": 206.04,
+        "probability": 0.9978
+      },
+      {
+        "word": "against",
+        "start": 206.04,
+        "end": 206.44,
+        "probability": 0.9991
+      },
+      {
+        "word": "eligible",
+        "start": 206.44,
+        "end": 206.9,
+        "probability": 0.9938
+      },
+      {
+        "word": "holdings",
+        "start": 206.9,
+        "end": 207.6,
+        "probability": 0.998
+      },
+      {
+        "word": "if",
+        "start": 207.6,
+        "end": 208.26,
+        "probability": 0.8679
+      },
+      {
+        "word": "lenders",
+        "start": 208.26,
+        "end": 208.56,
+        "probability": 0.9975
+      },
+      {
+        "word": "agreed.",
+        "start": 208.56,
+        "end": 209.2,
+        "probability": 0.964
+      }
+    ]
+  },
+  {
+    "start": 210.58,
+    "end": 218.82,
+    "text": "That can provide cash while the borrower keeps ownership, but it creates debt, interest costs, and collateral requirements.",
+    "words": [
+      {
+        "word": "That",
+        "start": 210.58,
+        "end": 210.86,
+        "probability": 0.9927
+      },
+      {
+        "word": "can",
+        "start": 210.86,
+        "end": 211.04,
+        "probability": 0.9969
+      },
+      {
+        "word": "provide",
+        "start": 211.04,
+        "end": 211.36,
+        "probability": 0.9994
+      },
+      {
+        "word": "cash",
+        "start": 211.36,
+        "end": 211.86,
+        "probability": 0.9995
+      },
+      {
+        "word": "while",
+        "start": 211.86,
+        "end": 212.34,
+        "probability": 0.9886
+      },
+      {
+        "word": "the",
+        "start": 212.34,
+        "end": 212.5,
+        "probability": 0.9961
+      },
+      {
+        "word": "borrower",
+        "start": 212.5,
+        "end": 212.88,
+        "probability": 0.9997
+      },
+      {
+        "word": "keeps",
+        "start": 212.88,
+        "end": 213.3,
+        "probability": 0.9961
+      },
+      {
+        "word": "ownership,",
+        "start": 213.3,
+        "end": 213.72,
+        "probability": 0.9987
+      },
+      {
+        "word": "but",
+        "start": 214.4,
+        "end": 214.78,
+        "probability": 0.9977
+      },
+      {
+        "word": "it",
+        "start": 214.78,
+        "end": 214.86,
+        "probability": 0.9987
+      },
+      {
+        "word": "creates",
+        "start": 214.86,
+        "end": 215.18,
+        "probability": 0.9975
+      },
+      {
+        "word": "debt,",
+        "start": 215.18,
+        "end": 215.7,
+        "probability": 0.9991
+      },
+      {
+        "word": "interest",
+        "start": 216.26,
+        "end": 216.56,
+        "probability": 0.9892
+      },
+      {
+        "word": "costs,",
+        "start": 216.56,
+        "end": 217.02,
+        "probability": 0.9893
+      },
+      {
+        "word": "and",
+        "start": 217.58,
+        "end": 217.66,
+        "probability": 0.9992
+      },
+      {
+        "word": "collateral",
+        "start": 217.66,
+        "end": 218.1,
+        "probability": 0.9997
+      },
+      {
+        "word": "requirements.",
+        "start": 218.1,
+        "end": 218.82,
+        "probability": 0.9986
+      }
+    ]
+  },
+  {
+    "start": 219.92,
+    "end": 225.4,
+    "text": "If the collateral loses value, the lender may demand more security or repayment.",
+    "words": [
+      {
+        "word": "If",
+        "start": 219.92,
+        "end": 220.14,
+        "probability": 0.9975
+      },
+      {
+        "word": "the",
+        "start": 220.14,
+        "end": 220.26,
+        "probability": 0.9991
+      },
+      {
+        "word": "collateral",
+        "start": 220.26,
+        "end": 220.68,
+        "probability": 0.9994
+      },
+      {
+        "word": "loses",
+        "start": 220.68,
+        "end": 221.34,
+        "probability": 0.9896
+      },
+      {
+        "word": "value,",
+        "start": 221.34,
+        "end": 221.92,
+        "probability": 0.9993
+      },
+      {
+        "word": "the",
+        "start": 222.48,
+        "end": 222.56,
+        "probability": 0.9989
+      },
+      {
+        "word": "lender",
+        "start": 222.56,
+        "end": 222.76,
+        "probability": 0.9993
+      },
+      {
+        "word": "may",
+        "start": 222.76,
+        "end": 223.18,
+        "probability": 0.9981
+      },
+      {
+        "word": "demand",
+        "start": 223.18,
+        "end": 223.46,
+        "probability": 0.9997
+      },
+      {
+        "word": "more",
+        "start": 223.46,
+        "end": 224.06,
+        "probability": 0.9991
+      },
+      {
+        "word": "security",
+        "start": 224.06,
+        "end": 224.54,
+        "probability": 0.9988
+      },
+      {
+        "word": "or",
+        "start": 224.54,
+        "end": 225.04,
+        "probability": 0.9898
+      },
+      {
+        "word": "repayment.",
+        "start": 225.04,
+        "end": 225.4,
+        "probability": 0.9916
+      }
+    ]
+  },
+  {
+    "start": 226.52,
+    "end": 231.08,
+    "text": "A wealthy person can have more financing options than an ordinary household.",
+    "words": [
+      {
+        "word": "A",
+        "start": 226.52,
+        "end": 226.56,
+        "probability": 0.9965
+      },
+      {
+        "word": "wealthy",
+        "start": 226.56,
+        "end": 226.76,
+        "probability": 0.9993
+      },
+      {
+        "word": "person",
+        "start": 226.76,
+        "end": 227.4,
+        "probability": 0.9996
+      },
+      {
+        "word": "can",
+        "start": 227.4,
+        "end": 227.7,
+        "probability": 0.9992
+      },
+      {
+        "word": "have",
+        "start": 227.7,
+        "end": 227.92,
+        "probability": 0.9996
+      },
+      {
+        "word": "more",
+        "start": 227.92,
+        "end": 228.22,
+        "probability": 0.9994
+      },
+      {
+        "word": "financing",
+        "start": 228.22,
+        "end": 228.7,
+        "probability": 0.9975
+      },
+      {
+        "word": "options",
+        "start": 228.7,
+        "end": 229.34,
+        "probability": 0.9974
+      },
+      {
+        "word": "than",
+        "start": 229.34,
+        "end": 229.92,
+        "probability": 0.9944
+      },
+      {
+        "word": "an",
+        "start": 229.92,
+        "end": 230.06,
+        "probability": 0.9943
+      },
+      {
+        "word": "ordinary",
+        "start": 230.06,
+        "end": 230.4,
+        "probability": 0.9953
+      },
+      {
+        "word": "household.",
+        "start": 230.4,
+        "end": 231.08,
+        "probability": 0.9947
+      }
+    ]
+  },
+  {
+    "start": 231.96,
+    "end": 234.1,
+    "text": "Those options still have costs.",
+    "words": [
+      {
+        "word": "Those",
+        "start": 231.96,
+        "end": 232.34,
+        "probability": 0.229
+      },
+      {
+        "word": "options",
+        "start": 232.34,
+        "end": 232.84,
+        "probability": 0.9949
+      },
+      {
+        "word": "still",
+        "start": 232.84,
+        "end": 233.4,
+        "probability": 0.9912
+      },
+      {
+        "word": "have",
+        "start": 233.4,
+        "end": 233.7,
+        "probability": 0.9971
+      },
+      {
+        "word": "costs.",
+        "start": 233.7,
+        "end": 234.1,
+        "probability": 0.9826
+      }
+    ]
+  },
+  {
+    "start": 235.54,
+    "end": 244.04,
+    "text": "There is another distinction. Owning shares in a company does not make its entire bank account the shareholders' personal spending account.",
+    "words": [
+      {
+        "word": "There",
+        "start": 235.54,
+        "end": 235.78,
+        "probability": 0.9392
+      },
+      {
+        "word": "is",
+        "start": 235.78,
+        "end": 235.94,
+        "probability": 0.988
+      },
+      {
+        "word": "another",
+        "start": 235.94,
+        "end": 236.24,
+        "probability": 0.9953
+      },
+      {
+        "word": "distinction.",
+        "start": 236.24,
+        "end": 236.82,
+        "probability": 0.9971
+      },
+      {
+        "word": "Owning",
+        "start": 237.76,
+        "end": 238.08,
+        "probability": 0.9839
+      },
+      {
+        "word": "shares",
+        "start": 238.08,
+        "end": 238.4,
+        "probability": 0.9875
+      },
+      {
+        "word": "in",
+        "start": 238.4,
+        "end": 238.84,
+        "probability": 0.9945
+      },
+      {
+        "word": "a",
+        "start": 238.84,
+        "end": 238.9,
+        "probability": 0.9968
+      },
+      {
+        "word": "company",
+        "start": 238.9,
+        "end": 239.22,
+        "probability": 0.9983
+      },
+      {
+        "word": "does",
+        "start": 239.22,
+        "end": 239.6,
+        "probability": 0.9848
+      },
+      {
+        "word": "not",
+        "start": 239.6,
+        "end": 239.82,
+        "probability": 0.9996
+      },
+      {
+        "word": "make",
+        "start": 239.82,
+        "end": 240.1,
+        "probability": 0.9982
+      },
+      {
+        "word": "its",
+        "start": 240.1,
+        "end": 240.32,
+        "probability": 0.9732
+      },
+      {
+        "word": "entire",
+        "start": 240.32,
+        "end": 240.74,
+        "probability": 0.9989
+      },
+      {
+        "word": "bank",
+        "start": 240.74,
+        "end": 241.28,
+        "probability": 0.9935
+      },
+      {
+        "word": "account",
+        "start": 241.28,
+        "end": 241.64,
+        "probability": 0.9968
+      },
+      {
+        "word": "the",
+        "start": 241.64,
+        "end": 241.9,
+        "probability": 0.984
+      },
+      {
+        "word": "shareholders'",
+        "start": 241.9,
+        "end": 242.28,
+        "probability": 0.8
+      },
+      {
+        "word": "personal",
+        "start": 242.28,
+        "end": 242.9,
+        "probability": 0.9857
+      },
+      {
+        "word": "spending",
+        "start": 242.9,
+        "end": 243.62,
+        "probability": 0.9974
+      },
+      {
+        "word": "account.",
+        "start": 243.62,
+        "end": 244.04,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 244.86,
+    "end": 249.64,
+    "text": "Company money and personal money belong on separate sides of this explanation.",
+    "words": [
+      {
+        "word": "Company",
+        "start": 244.86,
+        "end": 245.28,
+        "probability": 0.9722
+      },
+      {
+        "word": "money",
+        "start": 245.28,
+        "end": 245.7,
+        "probability": 0.9936
+      },
+      {
+        "word": "and",
+        "start": 245.7,
+        "end": 246.08,
+        "probability": 0.9845
+      },
+      {
+        "word": "personal",
+        "start": 246.08,
+        "end": 246.44,
+        "probability": 0.998
+      },
+      {
+        "word": "money",
+        "start": 246.44,
+        "end": 247.02,
+        "probability": 0.9994
+      },
+      {
+        "word": "belong",
+        "start": 247.02,
+        "end": 247.24,
+        "probability": 0.9745
+      },
+      {
+        "word": "on",
+        "start": 247.24,
+        "end": 247.82,
+        "probability": 0.9979
+      },
+      {
+        "word": "separate",
+        "start": 247.82,
+        "end": 248.18,
+        "probability": 0.9828
+      },
+      {
+        "word": "sides",
+        "start": 248.18,
+        "end": 248.8,
+        "probability": 0.9922
+      },
+      {
+        "word": "of",
+        "start": 248.8,
+        "end": 249.04,
+        "probability": 0.9989
+      },
+      {
+        "word": "this",
+        "start": 249.04,
+        "end": 249.2,
+        "probability": 0.9953
+      },
+      {
+        "word": "explanation.",
+        "start": 249.2,
+        "end": 249.64,
+        "probability": 0.9949
+      }
+    ]
+  },
+  {
+    "start": 250.92,
+    "end": 254.6,
+    "text": "To see the scale more clearly, let's build a thought experiment.",
+    "words": [
+      {
+        "word": "To",
+        "start": 250.92,
+        "end": 251.02,
+        "probability": 0.9964
+      },
+      {
+        "word": "see",
+        "start": 251.02,
+        "end": 251.2,
+        "probability": 0.9988
+      },
+      {
+        "word": "the",
+        "start": 251.2,
+        "end": 251.38,
+        "probability": 0.995
+      },
+      {
+        "word": "scale",
+        "start": 251.38,
+        "end": 251.66,
+        "probability": 0.9984
+      },
+      {
+        "word": "more",
+        "start": 251.66,
+        "end": 252.04,
+        "probability": 0.9891
+      },
+      {
+        "word": "clearly,",
+        "start": 252.04,
+        "end": 252.44,
+        "probability": 0.9993
+      },
+      {
+        "word": "let's",
+        "start": 253.26,
+        "end": 253.46,
+        "probability": 0.9847
+      },
+      {
+        "word": "build",
+        "start": 253.46,
+        "end": 253.68,
+        "probability": 0.9979
+      },
+      {
+        "word": "a",
+        "start": 253.68,
+        "end": 253.82,
+        "probability": 0.9988
+      },
+      {
+        "word": "thought",
+        "start": 253.82,
+        "end": 254.08,
+        "probability": 0.9831
+      },
+      {
+        "word": "experiment.",
+        "start": 254.08,
+        "end": 254.6,
+        "probability": 0.9968
+      }
+    ]
+  },
+  {
+    "start": 255.52,
+    "end": 260.06,
+    "text": "This is not a proposal from Musk or a Portuguese government program.",
+    "words": [
+      {
+        "word": "This",
+        "start": 255.52,
+        "end": 255.74,
+        "probability": 0.9962
+      },
+      {
+        "word": "is",
+        "start": 255.74,
+        "end": 255.88,
+        "probability": 0.9964
+      },
+      {
+        "word": "not",
+        "start": 255.88,
+        "end": 256.14,
+        "probability": 0.999
+      },
+      {
+        "word": "a",
+        "start": 256.14,
+        "end": 256.26,
+        "probability": 0.9988
+      },
+      {
+        "word": "proposal",
+        "start": 256.26,
+        "end": 256.62,
+        "probability": 0.9966
+      },
+      {
+        "word": "from",
+        "start": 256.62,
+        "end": 257.18,
+        "probability": 0.8666
+      },
+      {
+        "word": "Musk",
+        "start": 257.18,
+        "end": 257.5,
+        "probability": 0.9569
+      },
+      {
+        "word": "or",
+        "start": 257.5,
+        "end": 258.2,
+        "probability": 0.9047
+      },
+      {
+        "word": "a",
+        "start": 258.2,
+        "end": 258.32,
+        "probability": 0.9815
+      },
+      {
+        "word": "Portuguese",
+        "start": 258.32,
+        "end": 258.8,
+        "probability": 0.9934
+      },
+      {
+        "word": "government",
+        "start": 258.8,
+        "end": 259.4,
+        "probability": 0.9378
+      },
+      {
+        "word": "program.",
+        "start": 259.4,
+        "end": 260.06,
+        "probability": 0.9279
+      }
+    ]
+  },
+  {
+    "start": 261.04,
+    "end": 268.04,
+    "text": "The World Bank reports Portugal's 2025 population at about 10.8 million people.",
+    "words": [
+      {
+        "word": "The",
+        "start": 261.04,
+        "end": 261.58,
+        "probability": 0.3842
+      },
+      {
+        "word": "World",
+        "start": 261.58,
+        "end": 261.84,
+        "probability": 0.9575
+      },
+      {
+        "word": "Bank",
+        "start": 261.84,
+        "end": 262.24,
+        "probability": 0.9973
+      },
+      {
+        "word": "reports",
+        "start": 262.24,
+        "end": 262.68,
+        "probability": 0.9486
+      },
+      {
+        "word": "Portugal's",
+        "start": 262.68,
+        "end": 263.54,
+        "probability": 0.9895
+      },
+      {
+        "word": "2025",
+        "start": 263.54,
+        "end": 264.12,
+        "probability": 0.8407
+      },
+      {
+        "word": "population",
+        "start": 264.12,
+        "end": 265.08,
+        "probability": 0.9938
+      },
+      {
+        "word": "at",
+        "start": 265.08,
+        "end": 265.9,
+        "probability": 0.9777
+      },
+      {
+        "word": "about",
+        "start": 265.9,
+        "end": 266.06,
+        "probability": 0.9944
+      },
+      {
+        "word": "10",
+        "start": 266.06,
+        "end": 266.5,
+        "probability": 0.8954
+      },
+      {
+        "word": ".8",
+        "start": 266.5,
+        "end": 267.16,
+        "probability": 0.9929
+      },
+      {
+        "word": "million",
+        "start": 267.16,
+        "end": 267.4,
+        "probability": 0.9951
+      },
+      {
+        "word": "people.",
+        "start": 267.4,
+        "end": 268.04,
+        "probability": 0.9951
+      }
+    ]
+  },
+  {
+    "start": 268.6,
+    "end": 274.4,
+    "text": "Imagine giving every resident, including children, $10,000 once.",
+    "words": [
+      {
+        "word": "Imagine",
+        "start": 268.6,
+        "end": 269.14,
+        "probability": 0.9959
+      },
+      {
+        "word": "giving",
+        "start": 269.14,
+        "end": 269.68,
+        "probability": 0.9968
+      },
+      {
+        "word": "every",
+        "start": 269.68,
+        "end": 270.06,
+        "probability": 0.994
+      },
+      {
+        "word": "resident,",
+        "start": 270.06,
+        "end": 270.78,
+        "probability": 0.9948
+      },
+      {
+        "word": "including",
+        "start": 271.08,
+        "end": 271.48,
+        "probability": 0.9975
+      },
+      {
+        "word": "children,",
+        "start": 271.48,
+        "end": 272.14,
+        "probability": 0.9954
+      },
+      {
+        "word": "$10",
+        "start": 272.82,
+        "end": 273.12,
+        "probability": 0.9199
+      },
+      {
+        "word": ",000",
+        "start": 273.12,
+        "end": 273.7,
+        "probability": 0.9907
+      },
+      {
+        "word": "once.",
+        "start": 273.7,
+        "end": 274.4,
+        "probability": 0.8987
+      }
+    ]
+  },
+  {
+    "start": 275.44,
+    "end": 280.96,
+    "text": "Using that rounded population, the total would be about $108 billion.",
+    "words": [
+      {
+        "word": "Using",
+        "start": 275.44,
+        "end": 275.72,
+        "probability": 0.9972
+      },
+      {
+        "word": "that",
+        "start": 275.72,
+        "end": 276.1,
+        "probability": 0.9975
+      },
+      {
+        "word": "rounded",
+        "start": 276.1,
+        "end": 276.4,
+        "probability": 0.9464
+      },
+      {
+        "word": "population,",
+        "start": 276.4,
+        "end": 277.36,
+        "probability": 0.9996
+      },
+      {
+        "word": "the",
+        "start": 277.86,
+        "end": 278.08,
+        "probability": 0.9977
+      },
+      {
+        "word": "total",
+        "start": 278.08,
+        "end": 278.42,
+        "probability": 0.9997
+      },
+      {
+        "word": "would",
+        "start": 278.42,
+        "end": 278.68,
+        "probability": 0.995
+      },
+      {
+        "word": "be",
+        "start": 278.68,
+        "end": 278.86,
+        "probability": 0.9995
+      },
+      {
+        "word": "about",
+        "start": 278.86,
+        "end": 279.12,
+        "probability": 0.9844
+      },
+      {
+        "word": "$108",
+        "start": 279.12,
+        "end": 280.38,
+        "probability": 0.9836
+      },
+      {
+        "word": "billion.",
+        "start": 280.38,
+        "end": 280.96,
+        "probability": 0.9714
+      }
+    ]
+  },
+  {
+    "start": 281.88,
+    "end": 288.06,
+    "text": "That is roughly 12% of the $936 billion estimate.",
+    "words": [
+      {
+        "word": "That",
+        "start": 281.88,
+        "end": 282.56,
+        "probability": 0.9963
+      },
+      {
+        "word": "is",
+        "start": 282.56,
+        "end": 282.7,
+        "probability": 0.9857
+      },
+      {
+        "word": "roughly",
+        "start": 282.7,
+        "end": 283.0,
+        "probability": 0.9979
+      },
+      {
+        "word": "12",
+        "start": 283.0,
+        "end": 283.52,
+        "probability": 0.9848
+      },
+      {
+        "word": "%",
+        "start": 283.52,
+        "end": 284.16,
+        "probability": 0.8373
+      },
+      {
+        "word": "of",
+        "start": 284.16,
+        "end": 284.38,
+        "probability": 0.9977
+      },
+      {
+        "word": "the",
+        "start": 284.38,
+        "end": 284.46,
+        "probability": 0.9939
+      },
+      {
+        "word": "$936",
+        "start": 284.46,
+        "end": 286.22,
+        "probability": 0.9517
+      },
+      {
+        "word": "billion",
+        "start": 286.22,
+        "end": 287.1,
+        "probability": 0.9838
+      },
+      {
+        "word": "estimate.",
+        "start": 287.1,
+        "end": 288.06,
+        "probability": 0.9449
+      }
+    ]
+  },
+  {
+    "start": 288.99,
+    "end": 292.9,
+    "text": "For a household receiving it, that could be a substantial payment.",
+    "words": [
+      {
+        "word": "For",
+        "start": 288.99,
+        "end": 289.42,
+        "probability": 0.5593
+      },
+      {
+        "word": "a",
+        "start": 289.42,
+        "end": 289.54,
+        "probability": 0.9925
+      },
+      {
+        "word": "household",
+        "start": 289.54,
+        "end": 290.08,
+        "probability": 0.9966
+      },
+      {
+        "word": "receiving",
+        "start": 290.08,
+        "end": 290.66,
+        "probability": 0.9927
+      },
+      {
+        "word": "it,",
+        "start": 290.66,
+        "end": 291.04,
+        "probability": 0.9868
+      },
+      {
+        "word": "that",
+        "start": 291.18,
+        "end": 291.28,
+        "probability": 0.9956
+      },
+      {
+        "word": "could",
+        "start": 291.28,
+        "end": 291.46,
+        "probability": 0.9975
+      },
+      {
+        "word": "be",
+        "start": 291.46,
+        "end": 291.66,
+        "probability": 0.9983
+      },
+      {
+        "word": "a",
+        "start": 291.66,
+        "end": 291.76,
+        "probability": 0.997
+      },
+      {
+        "word": "substantial",
+        "start": 291.76,
+        "end": 292.24,
+        "probability": 0.9783
+      },
+      {
+        "word": "payment.",
+        "start": 292.24,
+        "end": 292.9,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 293.84,
+    "end": 297.1,
+    "text": "At a national scale, it would be an enormous transfer.",
+    "words": [
+      {
+        "word": "At",
+        "start": 293.84,
+        "end": 293.88,
+        "probability": 0.9962
+      },
+      {
+        "word": "a",
+        "start": 293.88,
+        "end": 293.96,
+        "probability": 0.9967
+      },
+      {
+        "word": "national",
+        "start": 293.96,
+        "end": 294.18,
+        "probability": 0.9925
+      },
+      {
+        "word": "scale,",
+        "start": 294.18,
+        "end": 294.9,
+        "probability": 0.9973
+      },
+      {
+        "word": "it",
+        "start": 295.32,
+        "end": 295.42,
+        "probability": 0.9972
+      },
+      {
+        "word": "would",
+        "start": 295.42,
+        "end": 295.56,
+        "probability": 0.9973
+      },
+      {
+        "word": "be",
+        "start": 295.56,
+        "end": 295.76,
+        "probability": 0.9955
+      },
+      {
+        "word": "an",
+        "start": 295.76,
+        "end": 295.94,
+        "probability": 0.9929
+      },
+      {
+        "word": "enormous",
+        "start": 295.94,
+        "end": 296.38,
+        "probability": 0.9995
+      },
+      {
+        "word": "transfer.",
+        "start": 296.38,
+        "end": 297.1,
+        "probability": 0.9997
+      }
+    ]
+  },
+  {
+    "start": 297.9,
+    "end": 300.04,
+    "text": "Now make the same payment every year.",
+    "words": [
+      {
+        "word": "Now",
+        "start": 297.9,
+        "end": 298.06,
+        "probability": 0.9971
+      },
+      {
+        "word": "make",
+        "start": 298.06,
+        "end": 298.34,
+        "probability": 0.8935
+      },
+      {
+        "word": "the",
+        "start": 298.34,
+        "end": 298.52,
+        "probability": 0.9986
+      },
+      {
+        "word": "same",
+        "start": 298.52,
+        "end": 298.82,
+        "probability": 0.9986
+      },
+      {
+        "word": "payment",
+        "start": 298.82,
+        "end": 299.34,
+        "probability": 0.9978
+      },
+      {
+        "word": "every",
+        "start": 299.34,
+        "end": 299.64,
+        "probability": 0.9955
+      },
+      {
+        "word": "year.",
+        "start": 299.64,
+        "end": 300.04,
+        "probability": 0.9997
+      }
+    ]
+  },
+  {
+    "start": 300.86,
+    "end": 308.42,
+    "text": "For this arithmetic exercise only, imagine the entire estimated fortune were already available as cash.",
+    "words": [
+      {
+        "word": "For",
+        "start": 300.86,
+        "end": 300.9,
+        "probability": 0.9972
+      },
+      {
+        "word": "this",
+        "start": 300.9,
+        "end": 301.1,
+        "probability": 0.9991
+      },
+      {
+        "word": "arithmetic",
+        "start": 301.1,
+        "end": 301.5,
+        "probability": 0.8309
+      },
+      {
+        "word": "exercise",
+        "start": 301.5,
+        "end": 302.58,
+        "probability": 0.9974
+      },
+      {
+        "word": "only,",
+        "start": 302.58,
+        "end": 303.2,
+        "probability": 0.9658
+      },
+      {
+        "word": "imagine",
+        "start": 303.6,
+        "end": 304.28,
+        "probability": 0.9968
+      },
+      {
+        "word": "the",
+        "start": 304.28,
+        "end": 304.54,
+        "probability": 0.9919
+      },
+      {
+        "word": "entire",
+        "start": 304.54,
+        "end": 305.06,
+        "probability": 0.9994
+      },
+      {
+        "word": "estimated",
+        "start": 305.06,
+        "end": 305.68,
+        "probability": 0.9901
+      },
+      {
+        "word": "fortune",
+        "start": 305.68,
+        "end": 306.28,
+        "probability": 0.9914
+      },
+      {
+        "word": "were",
+        "start": 306.28,
+        "end": 306.68,
+        "probability": 0.9534
+      },
+      {
+        "word": "already",
+        "start": 306.68,
+        "end": 307.14,
+        "probability": 0.9993
+      },
+      {
+        "word": "available",
+        "start": 307.14,
+        "end": 307.54,
+        "probability": 0.9992
+      },
+      {
+        "word": "as",
+        "start": 307.54,
+        "end": 308.12,
+        "probability": 0.9988
+      },
+      {
+        "word": "cash.",
+        "start": 308.12,
+        "end": 308.42,
+        "probability": 0.9986
+      }
+    ]
+  },
+  {
+    "start": 309.78,
+    "end": 317.04,
+    "text": "Ignore taxes, investment returns, inflation, population changes, and administration costs.",
+    "words": [
+      {
+        "word": "Ignore",
+        "start": 309.78,
+        "end": 309.78,
+        "probability": 0.9536
+      },
+      {
+        "word": "taxes,",
+        "start": 309.78,
+        "end": 310.4,
+        "probability": 0.9932
+      },
+      {
+        "word": "investment",
+        "start": 311.04,
+        "end": 311.46,
+        "probability": 0.9931
+      },
+      {
+        "word": "returns,",
+        "start": 311.46,
+        "end": 312.06,
+        "probability": 0.9992
+      },
+      {
+        "word": "inflation,",
+        "start": 312.66,
+        "end": 313.02,
+        "probability": 0.999
+      },
+      {
+        "word": "population",
+        "start": 313.84,
+        "end": 314.28,
+        "probability": 0.9974
+      },
+      {
+        "word": "changes,",
+        "start": 314.28,
+        "end": 315.0,
+        "probability": 0.9985
+      },
+      {
+        "word": "and",
+        "start": 315.64,
+        "end": 315.74,
+        "probability": 0.9978
+      },
+      {
+        "word": "administration",
+        "start": 315.74,
+        "end": 316.38,
+        "probability": 0.9968
+      },
+      {
+        "word": "costs.",
+        "start": 316.38,
+        "end": 317.04,
+        "probability": 0.997
+      }
+    ]
+  },
+  {
+    "start": 318.24,
+    "end": 326.9,
+    "text": "At $108 billion a year, that starting amount would cover eight complete annual rounds and part of a ninth.",
+    "words": [
+      {
+        "word": "At",
+        "start": 318.24,
+        "end": 319.0,
+        "probability": 0.1716
+      },
+      {
+        "word": "$108",
+        "start": 319.0,
+        "end": 319.76,
+        "probability": 0.9132
+      },
+      {
+        "word": "billion",
+        "start": 319.76,
+        "end": 320.3,
+        "probability": 0.8642
+      },
+      {
+        "word": "a",
+        "start": 320.3,
+        "end": 321.02,
+        "probability": 0.8615
+      },
+      {
+        "word": "year,",
+        "start": 321.02,
+        "end": 321.44,
+        "probability": 0.998
+      },
+      {
+        "word": "that",
+        "start": 321.9,
+        "end": 322.06,
+        "probability": 0.9833
+      },
+      {
+        "word": "starting",
+        "start": 322.06,
+        "end": 322.42,
+        "probability": 0.9664
+      },
+      {
+        "word": "amount",
+        "start": 322.42,
+        "end": 322.88,
+        "probability": 0.9894
+      },
+      {
+        "word": "would",
+        "start": 322.88,
+        "end": 323.2,
+        "probability": 0.9931
+      },
+      {
+        "word": "cover",
+        "start": 323.2,
+        "end": 323.46,
+        "probability": 0.9977
+      },
+      {
+        "word": "eight",
+        "start": 323.46,
+        "end": 323.9,
+        "probability": 0.7656
+      },
+      {
+        "word": "complete",
+        "start": 323.9,
+        "end": 324.36,
+        "probability": 0.98
+      },
+      {
+        "word": "annual",
+        "start": 324.36,
+        "end": 324.92,
+        "probability": 0.9903
+      },
+      {
+        "word": "rounds",
+        "start": 324.92,
+        "end": 325.38,
+        "probability": 0.9952
+      },
+      {
+        "word": "and",
+        "start": 325.38,
+        "end": 326.14,
+        "probability": 0.8918
+      },
+      {
+        "word": "part",
+        "start": 326.14,
+        "end": 326.36,
+        "probability": 0.9927
+      },
+      {
+        "word": "of",
+        "start": 326.36,
+        "end": 326.52,
+        "probability": 0.9886
+      },
+      {
+        "word": "a",
+        "start": 326.52,
+        "end": 326.58,
+        "probability": 0.9739
+      },
+      {
+        "word": "ninth.",
+        "start": 326.58,
+        "end": 326.9,
+        "probability": 0.9233
+      }
+    ]
+  },
+  {
+    "start": 327.68,
+    "end": 333.24,
+    "text": "This is not a forecast of what Musk could liquidate, or what such a program would achieve.",
+    "words": [
+      {
+        "word": "This",
+        "start": 327.68,
+        "end": 328.0,
+        "probability": 0.991
+      },
+      {
+        "word": "is",
+        "start": 328.0,
+        "end": 328.12,
+        "probability": 0.9968
+      },
+      {
+        "word": "not",
+        "start": 328.12,
+        "end": 328.36,
+        "probability": 0.9992
+      },
+      {
+        "word": "a",
+        "start": 328.36,
+        "end": 328.46,
+        "probability": 0.9973
+      },
+      {
+        "word": "forecast",
+        "start": 328.46,
+        "end": 328.9,
+        "probability": 0.9753
+      },
+      {
+        "word": "of",
+        "start": 328.9,
+        "end": 329.36,
+        "probability": 0.9953
+      },
+      {
+        "word": "what",
+        "start": 329.36,
+        "end": 329.54,
+        "probability": 0.9986
+      },
+      {
+        "word": "Musk",
+        "start": 329.54,
+        "end": 329.8,
+        "probability": 0.6947
+      },
+      {
+        "word": "could",
+        "start": 329.8,
+        "end": 330.22,
+        "probability": 0.9928
+      },
+      {
+        "word": "liquidate,",
+        "start": 330.22,
+        "end": 330.8,
+        "probability": 0.9946
+      },
+      {
+        "word": "or",
+        "start": 331.24,
+        "end": 331.5,
+        "probability": 0.9984
+      },
+      {
+        "word": "what",
+        "start": 331.5,
+        "end": 331.7,
+        "probability": 0.9966
+      },
+      {
+        "word": "such",
+        "start": 331.7,
+        "end": 331.92,
+        "probability": 0.9954
+      },
+      {
+        "word": "a",
+        "start": 331.92,
+        "end": 332.1,
+        "probability": 0.9955
+      },
+      {
+        "word": "program",
+        "start": 332.1,
+        "end": 332.54,
+        "probability": 0.9747
+      },
+      {
+        "word": "would",
+        "start": 332.54,
+        "end": 332.9,
+        "probability": 0.9979
+      },
+      {
+        "word": "achieve.",
+        "start": 332.9,
+        "end": 333.24,
+        "probability": 0.9985
+      }
+    ]
+  },
+  {
+    "start": 334.26,
+    "end": 340.2,
+    "text": "It demonstrates how quickly a recurring promise can consume even an extraordinary starting sum.",
+    "words": [
+      {
+        "word": "It",
+        "start": 334.26,
+        "end": 334.42,
+        "probability": 0.9955
+      },
+      {
+        "word": "demonstrates",
+        "start": 334.42,
+        "end": 334.78,
+        "probability": 0.9985
+      },
+      {
+        "word": "how",
+        "start": 334.78,
+        "end": 335.34,
+        "probability": 0.9991
+      },
+      {
+        "word": "quickly",
+        "start": 335.34,
+        "end": 335.66,
+        "probability": 0.9952
+      },
+      {
+        "word": "a",
+        "start": 335.66,
+        "end": 336.04,
+        "probability": 0.9971
+      },
+      {
+        "word": "recurring",
+        "start": 336.04,
+        "end": 336.36,
+        "probability": 0.9992
+      },
+      {
+        "word": "promise",
+        "start": 336.36,
+        "end": 337.08,
+        "probability": 0.9962
+      },
+      {
+        "word": "can",
+        "start": 337.08,
+        "end": 337.34,
+        "probability": 0.9982
+      },
+      {
+        "word": "consume",
+        "start": 337.34,
+        "end": 337.78,
+        "probability": 0.9982
+      },
+      {
+        "word": "even",
+        "start": 337.78,
+        "end": 338.4,
+        "probability": 0.9936
+      },
+      {
+        "word": "an",
+        "start": 338.4,
+        "end": 338.56,
+        "probability": 0.9963
+      },
+      {
+        "word": "extraordinary",
+        "start": 338.56,
+        "end": 339.4,
+        "probability": 0.9987
+      },
+      {
+        "word": "starting",
+        "start": 339.4,
+        "end": 339.82,
+        "probability": 0.9954
+      },
+      {
+        "word": "sum.",
+        "start": 339.82,
+        "end": 340.2,
+        "probability": 0.9827
+      }
+    ]
+  },
+  {
+    "start": 340.88,
+    "end": 345.14,
+    "text": "The same distinction appears in projects you can see and touch.",
+    "words": [
+      {
+        "word": "The",
+        "start": 340.88,
+        "end": 341.24,
+        "probability": 0.9925
+      },
+      {
+        "word": "same",
+        "start": 341.24,
+        "end": 341.52,
+        "probability": 0.9995
+      },
+      {
+        "word": "distinction",
+        "start": 341.52,
+        "end": 342.2,
+        "probability": 0.9988
+      },
+      {
+        "word": "appears",
+        "start": 342.2,
+        "end": 342.58,
+        "probability": 0.9974
+      },
+      {
+        "word": "in",
+        "start": 342.58,
+        "end": 343.04,
+        "probability": 0.9986
+      },
+      {
+        "word": "projects",
+        "start": 343.04,
+        "end": 343.56,
+        "probability": 0.9859
+      },
+      {
+        "word": "you",
+        "start": 343.56,
+        "end": 343.92,
+        "probability": 0.9926
+      },
+      {
+        "word": "can",
+        "start": 343.92,
+        "end": 344.08,
+        "probability": 0.9977
+      },
+      {
+        "word": "see",
+        "start": 344.08,
+        "end": 344.4,
+        "probability": 0.9989
+      },
+      {
+        "word": "and",
+        "start": 344.4,
+        "end": 344.84,
+        "probability": 0.9923
+      },
+      {
+        "word": "touch.",
+        "start": 344.84,
+        "end": 345.14,
+        "probability": 0.9993
+      }
+    ]
+  },
+  {
+    "start": 346.14,
+    "end": 351.78,
+    "text": "A large fortune could help finance buildings, equipment, research, or infrastructure.",
+    "words": [
+      {
+        "word": "A",
+        "start": 346.14,
+        "end": 346.68,
+        "probability": 0.2574
+      },
+      {
+        "word": "large",
+        "start": 346.68,
+        "end": 347.02,
+        "probability": 0.9902
+      },
+      {
+        "word": "fortune",
+        "start": 347.02,
+        "end": 347.7,
+        "probability": 0.9924
+      },
+      {
+        "word": "could",
+        "start": 347.7,
+        "end": 347.88,
+        "probability": 0.9971
+      },
+      {
+        "word": "help",
+        "start": 347.88,
+        "end": 348.08,
+        "probability": 0.9993
+      },
+      {
+        "word": "finance",
+        "start": 348.08,
+        "end": 348.58,
+        "probability": 0.9966
+      },
+      {
+        "word": "buildings,",
+        "start": 348.58,
+        "end": 349.02,
+        "probability": 0.9886
+      },
+      {
+        "word": "equipment,",
+        "start": 349.6,
+        "end": 349.92,
+        "probability": 0.9992
+      },
+      {
+        "word": "research,",
+        "start": 350.22,
+        "end": 350.7,
+        "probability": 0.9985
+      },
+      {
+        "word": "or",
+        "start": 351.04,
+        "end": 351.1,
+        "probability": 0.9944
+      },
+      {
+        "word": "infrastructure.",
+        "start": 351.1,
+        "end": 351.78,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 352.64,
+    "end": 356.76,
+    "text": "Subject to the money actually raised in the conditions of each project.",
+    "words": [
+      {
+        "word": "Subject",
+        "start": 352.64,
+        "end": 352.84,
+        "probability": 0.9913
+      },
+      {
+        "word": "to",
+        "start": 352.84,
+        "end": 353.16,
+        "probability": 0.9965
+      },
+      {
+        "word": "the",
+        "start": 353.16,
+        "end": 353.24,
+        "probability": 0.9974
+      },
+      {
+        "word": "money",
+        "start": 353.24,
+        "end": 353.52,
+        "probability": 0.9991
+      },
+      {
+        "word": "actually",
+        "start": 353.52,
+        "end": 354.0,
+        "probability": 0.9924
+      },
+      {
+        "word": "raised",
+        "start": 354.0,
+        "end": 354.6,
+        "probability": 0.9948
+      },
+      {
+        "word": "in",
+        "start": 354.6,
+        "end": 354.96,
+        "probability": 0.8933
+      },
+      {
+        "word": "the",
+        "start": 354.96,
+        "end": 355.06,
+        "probability": 0.9976
+      },
+      {
+        "word": "conditions",
+        "start": 355.06,
+        "end": 355.5,
+        "probability": 0.9897
+      },
+      {
+        "word": "of",
+        "start": 355.5,
+        "end": 355.9,
+        "probability": 0.9976
+      },
+      {
+        "word": "each",
+        "start": 355.9,
+        "end": 356.12,
+        "probability": 0.9992
+      },
+      {
+        "word": "project.",
+        "start": 356.12,
+        "end": 356.76,
+        "probability": 0.999
+      }
+    ]
+  },
+  {
+    "start": 357.54,
+    "end": 358.86,
+    "text": "Picture a new hospital.",
+    "words": [
+      {
+        "word": "Picture",
+        "start": 357.54,
+        "end": 357.96,
+        "probability": 0.9892
+      },
+      {
+        "word": "a",
+        "start": 357.96,
+        "end": 358.18,
+        "probability": 0.9988
+      },
+      {
+        "word": "new",
+        "start": 358.18,
+        "end": 358.38,
+        "probability": 0.9976
+      },
+      {
+        "word": "hospital.",
+        "start": 358.38,
+        "end": 358.86,
+        "probability": 0.9913
+      }
+    ]
+  },
+  {
+    "start": 359.84,
+    "end": 362.62,
+    "text": "Funding its construction would be a major contribution.",
+    "words": [
+      {
+        "word": "Funding",
+        "start": 359.84,
+        "end": 360.08,
+        "probability": 0.9913
+      },
+      {
+        "word": "its",
+        "start": 360.08,
+        "end": 360.38,
+        "probability": 0.9598
+      },
+      {
+        "word": "construction",
+        "start": 360.38,
+        "end": 360.82,
+        "probability": 0.9991
+      },
+      {
+        "word": "would",
+        "start": 360.82,
+        "end": 361.3,
+        "probability": 0.9976
+      },
+      {
+        "word": "be",
+        "start": 361.3,
+        "end": 361.48,
+        "probability": 0.9992
+      },
+      {
+        "word": "a",
+        "start": 361.48,
+        "end": 361.64,
+        "probability": 0.998
+      },
+      {
+        "word": "major",
+        "start": 361.64,
+        "end": 361.94,
+        "probability": 0.9997
+      },
+      {
+        "word": "contribution.",
+        "start": 361.94,
+        "end": 362.62,
+        "probability": 0.9977
+      }
+    ]
+  },
+  {
+    "start": 363.74,
+    "end": 366.66,
+    "text": "But opening the doors begins another set of expenses.",
+    "words": [
+      {
+        "word": "But",
+        "start": 363.74,
+        "end": 363.8,
+        "probability": 0.9903
+      },
+      {
+        "word": "opening",
+        "start": 363.8,
+        "end": 364.2,
+        "probability": 0.9732
+      },
+      {
+        "word": "the",
+        "start": 364.2,
+        "end": 364.46,
+        "probability": 0.9955
+      },
+      {
+        "word": "doors",
+        "start": 364.46,
+        "end": 364.78,
+        "probability": 0.9733
+      },
+      {
+        "word": "begins",
+        "start": 364.78,
+        "end": 365.22,
+        "probability": 0.9948
+      },
+      {
+        "word": "another",
+        "start": 365.22,
+        "end": 365.74,
+        "probability": 0.9979
+      },
+      {
+        "word": "set",
+        "start": 365.74,
+        "end": 366.16,
+        "probability": 0.9972
+      },
+      {
+        "word": "of",
+        "start": 366.16,
+        "end": 366.26,
+        "probability": 0.9998
+      },
+      {
+        "word": "expenses.",
+        "start": 366.26,
+        "end": 366.66,
+        "probability": 0.9993
+      }
+    ]
+  },
+  {
+    "start": 367.64,
+    "end": 372.56,
+    "text": "Staff, medicine, electricity, maintenance, and replacement equipment.",
+    "words": [
+      {
+        "word": "Staff,",
+        "start": 367.64,
+        "end": 367.94,
+        "probability": 0.9943
+      },
+      {
+        "word": "medicine,",
+        "start": 368.66,
+        "end": 368.8,
+        "probability": 0.967
+      },
+      {
+        "word": "electricity,",
+        "start": 369.6,
+        "end": 370.12,
+        "probability": 0.9989
+      },
+      {
+        "word": "maintenance,",
+        "start": 371.02,
+        "end": 371.02,
+        "probability": 0.9994
+      },
+      {
+        "word": "and",
+        "start": 371.26,
+        "end": 371.5,
+        "probability": 0.9979
+      },
+      {
+        "word": "replacement",
+        "start": 371.5,
+        "end": 371.9,
+        "probability": 0.9984
+      },
+      {
+        "word": "equipment.",
+        "start": 371.9,
+        "end": 372.56,
+        "probability": 0.9992
+      }
+    ]
+  },
+  {
+    "start": 373.56,
+    "end": 377.48,
+    "text": "A school also needs teachers after the classrooms are built.",
+    "words": [
+      {
+        "word": "A",
+        "start": 373.56,
+        "end": 374.06,
+        "probability": 0.6138
+      },
+      {
+        "word": "school",
+        "start": 374.06,
+        "end": 374.36,
+        "probability": 0.9858
+      },
+      {
+        "word": "also",
+        "start": 374.36,
+        "end": 374.92,
+        "probability": 0.9908
+      },
+      {
+        "word": "needs",
+        "start": 374.92,
+        "end": 375.26,
+        "probability": 0.9966
+      },
+      {
+        "word": "teachers",
+        "start": 375.26,
+        "end": 375.8,
+        "probability": 0.9968
+      },
+      {
+        "word": "after",
+        "start": 375.8,
+        "end": 376.22,
+        "probability": 0.9924
+      },
+      {
+        "word": "the",
+        "start": 376.22,
+        "end": 376.36,
+        "probability": 0.9928
+      },
+      {
+        "word": "classrooms",
+        "start": 376.36,
+        "end": 376.8,
+        "probability": 0.9324
+      },
+      {
+        "word": "are",
+        "start": 376.8,
+        "end": 377.2,
+        "probability": 0.9989
+      },
+      {
+        "word": "built.",
+        "start": 377.2,
+        "end": 377.48,
+        "probability": 0.994
+      }
+    ]
+  },
+  {
+    "start": 378.3,
+    "end": 382.6,
+    "text": "A railway needs operations and upkeep after the tracks are laid.",
+    "words": [
+      {
+        "word": "A",
+        "start": 378.3,
+        "end": 378.36,
+        "probability": 0.9929
+      },
+      {
+        "word": "railway",
+        "start": 378.36,
+        "end": 378.74,
+        "probability": 0.9961
+      },
+      {
+        "word": "needs",
+        "start": 378.74,
+        "end": 379.24,
+        "probability": 0.997
+      },
+      {
+        "word": "operations",
+        "start": 379.24,
+        "end": 379.86,
+        "probability": 0.9949
+      },
+      {
+        "word": "and",
+        "start": 379.86,
+        "end": 380.5,
+        "probability": 0.9677
+      },
+      {
+        "word": "upkeep",
+        "start": 380.5,
+        "end": 380.84,
+        "probability": 0.967
+      },
+      {
+        "word": "after",
+        "start": 380.84,
+        "end": 381.38,
+        "probability": 0.9969
+      },
+      {
+        "word": "the",
+        "start": 381.38,
+        "end": 381.62,
+        "probability": 0.998
+      },
+      {
+        "word": "tracks",
+        "start": 381.62,
+        "end": 381.9,
+        "probability": 0.9909
+      },
+      {
+        "word": "are",
+        "start": 381.9,
+        "end": 382.2,
+        "probability": 0.9995
+      },
+      {
+        "word": "laid.",
+        "start": 382.2,
+        "end": 382.6,
+        "probability": 0.9979
+      }
+    ]
+  },
+  {
+    "start": 383.44,
+    "end": 385.68,
+    "text": "Money can bring a project within reach.",
+    "words": [
+      {
+        "word": "Money",
+        "start": 383.44,
+        "end": 383.72,
+        "probability": 0.9939
+      },
+      {
+        "word": "can",
+        "start": 383.72,
+        "end": 384.0,
+        "probability": 0.9988
+      },
+      {
+        "word": "bring",
+        "start": 384.0,
+        "end": 384.28,
+        "probability": 0.9991
+      },
+      {
+        "word": "a",
+        "start": 384.28,
+        "end": 384.44,
+        "probability": 0.999
+      },
+      {
+        "word": "project",
+        "start": 384.44,
+        "end": 384.92,
+        "probability": 0.9993
+      },
+      {
+        "word": "within",
+        "start": 384.92,
+        "end": 385.3,
+        "probability": 0.9981
+      },
+      {
+        "word": "reach.",
+        "start": 385.3,
+        "end": 385.68,
+        "probability": 0.9915
+      }
+    ]
+  },
+  {
+    "start": 386.62,
+    "end": 391.82,
+    "text": "Delivering it also requires people, materials, approvals, and time.",
+    "words": [
+      {
+        "word": "Delivering",
+        "start": 386.62,
+        "end": 387.08,
+        "probability": 0.9601
+      },
+      {
+        "word": "it",
+        "start": 387.08,
+        "end": 387.34,
+        "probability": 0.9911
+      },
+      {
+        "word": "also",
+        "start": 387.34,
+        "end": 387.56,
+        "probability": 0.9979
+      },
+      {
+        "word": "requires",
+        "start": 387.56,
+        "end": 388.2,
+        "probability": 0.9986
+      },
+      {
+        "word": "people,",
+        "start": 388.2,
+        "end": 388.84,
+        "probability": 0.9992
+      },
+      {
+        "word": "materials,",
+        "start": 389.26,
+        "end": 389.64,
+        "probability": 0.9941
+      },
+      {
+        "word": "approvals,",
+        "start": 391.02,
+        "end": 391.02,
+        "probability": 0.9954
+      },
+      {
+        "word": "and",
+        "start": 391.26,
+        "end": 391.5,
+        "probability": 0.9986
+      },
+      {
+        "word": "time.",
+        "start": 391.5,
+        "end": 391.82,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 392.7,
+    "end": 399.34,
+    "text": "We should not turn a fictional construction budget into a claim about how many real hospitals someone could buy.",
+    "words": [
+      {
+        "word": "We",
+        "start": 392.7,
+        "end": 392.78,
+        "probability": 0.9986
+      },
+      {
+        "word": "should",
+        "start": 392.78,
+        "end": 392.92,
+        "probability": 0.998
+      },
+      {
+        "word": "not",
+        "start": 392.92,
+        "end": 393.1,
+        "probability": 0.9982
+      },
+      {
+        "word": "turn",
+        "start": 393.1,
+        "end": 393.44,
+        "probability": 0.9992
+      },
+      {
+        "word": "a",
+        "start": 393.44,
+        "end": 393.6,
+        "probability": 0.9834
+      },
+      {
+        "word": "fictional",
+        "start": 393.6,
+        "end": 393.94,
+        "probability": 0.9916
+      },
+      {
+        "word": "construction",
+        "start": 393.94,
+        "end": 394.72,
+        "probability": 0.9978
+      },
+      {
+        "word": "budget",
+        "start": 394.72,
+        "end": 395.12,
+        "probability": 0.974
+      },
+      {
+        "word": "into",
+        "start": 395.12,
+        "end": 395.52,
+        "probability": 0.9936
+      },
+      {
+        "word": "a",
+        "start": 395.52,
+        "end": 395.66,
+        "probability": 0.9928
+      },
+      {
+        "word": "claim",
+        "start": 395.66,
+        "end": 395.98,
+        "probability": 0.9979
+      },
+      {
+        "word": "about",
+        "start": 395.98,
+        "end": 396.44,
+        "probability": 0.9944
+      },
+      {
+        "word": "how",
+        "start": 396.44,
+        "end": 396.88,
+        "probability": 0.9979
+      },
+      {
+        "word": "many",
+        "start": 396.88,
+        "end": 397.14,
+        "probability": 0.9983
+      },
+      {
+        "word": "real",
+        "start": 397.14,
+        "end": 397.46,
+        "probability": 0.9793
+      },
+      {
+        "word": "hospitals",
+        "start": 397.46,
+        "end": 398.02,
+        "probability": 0.9894
+      },
+      {
+        "word": "someone",
+        "start": 398.02,
+        "end": 398.62,
+        "probability": 0.992
+      },
+      {
+        "word": "could",
+        "start": 398.62,
+        "end": 399.0,
+        "probability": 0.996
+      },
+      {
+        "word": "buy.",
+        "start": 399.0,
+        "end": 399.34,
+        "probability": 0.9969
+      }
+    ]
+  },
+  {
+    "start": 400.26,
+    "end": 405.36,
+    "text": "Actual costs depend on what is being built, where, and to what standard.",
+    "words": [
+      {
+        "word": "Actual",
+        "start": 400.26,
+        "end": 400.98,
+        "probability": 0.115
+      },
+      {
+        "word": "costs",
+        "start": 400.98,
+        "end": 401.52,
+        "probability": 0.9941
+      },
+      {
+        "word": "depend",
+        "start": 401.52,
+        "end": 401.92,
+        "probability": 0.9909
+      },
+      {
+        "word": "on",
+        "start": 401.92,
+        "end": 402.42,
+        "probability": 0.9944
+      },
+      {
+        "word": "what",
+        "start": 402.42,
+        "end": 402.58,
+        "probability": 0.999
+      },
+      {
+        "word": "is",
+        "start": 402.58,
+        "end": 402.68,
+        "probability": 0.9979
+      },
+      {
+        "word": "being",
+        "start": 402.68,
+        "end": 402.94,
+        "probability": 0.9992
+      },
+      {
+        "word": "built,",
+        "start": 402.94,
+        "end": 403.48,
+        "probability": 0.9884
+      },
+      {
+        "word": "where,",
+        "start": 403.92,
+        "end": 404.16,
+        "probability": 0.9807
+      },
+      {
+        "word": "and",
+        "start": 404.6,
+        "end": 404.64,
+        "probability": 0.9957
+      },
+      {
+        "word": "to",
+        "start": 404.64,
+        "end": 404.78,
+        "probability": 0.9889
+      },
+      {
+        "word": "what",
+        "start": 404.78,
+        "end": 404.96,
+        "probability": 0.9983
+      },
+      {
+        "word": "standard.",
+        "start": 404.96,
+        "end": 405.36,
+        "probability": 0.9041
+      }
+    ]
+  },
+  {
+    "start": 406.4,
+    "end": 411.86,
+    "text": "The useful question is how the initial investment connects to the resources needed afterward.",
+    "words": [
+      {
+        "word": "The",
+        "start": 406.4,
+        "end": 406.5,
+        "probability": 0.9938
+      },
+      {
+        "word": "useful",
+        "start": 406.5,
+        "end": 406.8,
+        "probability": 0.9973
+      },
+      {
+        "word": "question",
+        "start": 406.8,
+        "end": 407.42,
+        "probability": 0.9984
+      },
+      {
+        "word": "is",
+        "start": 407.42,
+        "end": 407.7,
+        "probability": 0.9977
+      },
+      {
+        "word": "how",
+        "start": 407.7,
+        "end": 407.92,
+        "probability": 0.9975
+      },
+      {
+        "word": "the",
+        "start": 407.92,
+        "end": 408.14,
+        "probability": 0.9962
+      },
+      {
+        "word": "initial",
+        "start": 408.14,
+        "end": 408.46,
+        "probability": 0.993
+      },
+      {
+        "word": "investment",
+        "start": 408.46,
+        "end": 409.24,
+        "probability": 0.9993
+      },
+      {
+        "word": "connects",
+        "start": 409.24,
+        "end": 409.72,
+        "probability": 0.9952
+      },
+      {
+        "word": "to",
+        "start": 409.72,
+        "end": 410.06,
+        "probability": 0.9962
+      },
+      {
+        "word": "the",
+        "start": 410.06,
+        "end": 410.14,
+        "probability": 0.9872
+      },
+      {
+        "word": "resources",
+        "start": 410.14,
+        "end": 410.82,
+        "probability": 0.9926
+      },
+      {
+        "word": "needed",
+        "start": 410.82,
+        "end": 411.24,
+        "probability": 0.9991
+      },
+      {
+        "word": "afterward.",
+        "start": 411.24,
+        "end": 411.86,
+        "probability": 0.983
+      }
+    ]
+  },
+  {
+    "start": 412.76,
+    "end": 414.46,
+    "text": "Return to the map of Portugal.",
+    "words": [
+      {
+        "word": "Return",
+        "start": 412.76,
+        "end": 413.04,
+        "probability": 0.9885
+      },
+      {
+        "word": "to",
+        "start": 413.04,
+        "end": 413.42,
+        "probability": 0.9917
+      },
+      {
+        "word": "the",
+        "start": 413.42,
+        "end": 413.54,
+        "probability": 0.998
+      },
+      {
+        "word": "map",
+        "start": 413.54,
+        "end": 413.76,
+        "probability": 0.9231
+      },
+      {
+        "word": "of",
+        "start": 413.76,
+        "end": 413.98,
+        "probability": 0.9986
+      },
+      {
+        "word": "Portugal.",
+        "start": 413.98,
+        "end": 414.46,
+        "probability": 0.9953
+      }
+    ]
+  },
+  {
+    "start": 415.32,
+    "end": 423.16,
+    "text": "A country contains private property, public assets, institutions, and people with their own rights and decisions.",
+    "words": [
+      {
+        "word": "A",
+        "start": 415.32,
+        "end": 415.38,
+        "probability": 0.9948
+      },
+      {
+        "word": "country",
+        "start": 415.38,
+        "end": 415.74,
+        "probability": 0.9968
+      },
+      {
+        "word": "contains",
+        "start": 415.74,
+        "end": 416.22,
+        "probability": 0.9973
+      },
+      {
+        "word": "private",
+        "start": 416.22,
+        "end": 416.84,
+        "probability": 0.9968
+      },
+      {
+        "word": "property,",
+        "start": 416.84,
+        "end": 417.6,
+        "probability": 0.9946
+      },
+      {
+        "word": "public",
+        "start": 418.08,
+        "end": 418.3,
+        "probability": 0.9986
+      },
+      {
+        "word": "assets,",
+        "start": 418.3,
+        "end": 418.74,
+        "probability": 0.9987
+      },
+      {
+        "word": "institutions,",
+        "start": 420.08,
+        "end": 420.08,
+        "probability": 0.9971
+      },
+      {
+        "word": "and",
+        "start": 420.84,
+        "end": 421.06,
+        "probability": 0.9993
+      },
+      {
+        "word": "people",
+        "start": 421.06,
+        "end": 421.42,
+        "probability": 0.9995
+      },
+      {
+        "word": "with",
+        "start": 421.42,
+        "end": 421.64,
+        "probability": 0.9992
+      },
+      {
+        "word": "their",
+        "start": 421.64,
+        "end": 421.84,
+        "probability": 0.9988
+      },
+      {
+        "word": "own",
+        "start": 421.84,
+        "end": 422.2,
+        "probability": 0.9997
+      },
+      {
+        "word": "rights",
+        "start": 422.2,
+        "end": 422.62,
+        "probability": 0.9968
+      },
+      {
+        "word": "and",
+        "start": 422.62,
+        "end": 422.88,
+        "probability": 0.9975
+      },
+      {
+        "word": "decisions.",
+        "start": 422.88,
+        "end": 423.16,
+        "probability": 0.9932
+      }
+    ]
+  },
+  {
+    "start": 424.28,
+    "end": 426.8,
+    "text": "They are not a single package with one seller.",
+    "words": [
+      {
+        "word": "They",
+        "start": 424.28,
+        "end": 424.4,
+        "probability": 0.9951
+      },
+      {
+        "word": "are",
+        "start": 424.4,
+        "end": 424.48,
+        "probability": 0.9872
+      },
+      {
+        "word": "not",
+        "start": 424.48,
+        "end": 424.66,
+        "probability": 0.9994
+      },
+      {
+        "word": "a",
+        "start": 424.66,
+        "end": 424.82,
+        "probability": 0.9973
+      },
+      {
+        "word": "single",
+        "start": 424.82,
+        "end": 425.22,
+        "probability": 0.9993
+      },
+      {
+        "word": "package",
+        "start": 425.22,
+        "end": 425.74,
+        "probability": 0.9965
+      },
+      {
+        "word": "with",
+        "start": 425.74,
+        "end": 426.08,
+        "probability": 0.9956
+      },
+      {
+        "word": "one",
+        "start": 426.08,
+        "end": 426.32,
+        "probability": 0.9956
+      },
+      {
+        "word": "seller.",
+        "start": 426.32,
+        "end": 426.8,
+        "probability": 0.9756
+      }
+    ]
+  },
+  {
+    "start": 427.78,
+    "end": 433.36,
+    "text": "Buying a business, where permitted, gives an investor rights connected to that business.",
+    "words": [
+      {
+        "word": "Buying",
+        "start": 427.78,
+        "end": 428.58,
+        "probability": 0.8087
+      },
+      {
+        "word": "a",
+        "start": 428.58,
+        "end": 428.68,
+        "probability": 0.9921
+      },
+      {
+        "word": "business,",
+        "start": 428.68,
+        "end": 429.08,
+        "probability": 0.9836
+      },
+      {
+        "word": "where",
+        "start": 429.58,
+        "end": 429.64,
+        "probability": 0.9935
+      },
+      {
+        "word": "permitted,",
+        "start": 429.64,
+        "end": 430.12,
+        "probability": 0.9985
+      },
+      {
+        "word": "gives",
+        "start": 430.7,
+        "end": 430.84,
+        "probability": 0.9971
+      },
+      {
+        "word": "an",
+        "start": 430.84,
+        "end": 431.08,
+        "probability": 0.9838
+      },
+      {
+        "word": "investor",
+        "start": 431.08,
+        "end": 431.4,
+        "probability": 0.9948
+      },
+      {
+        "word": "rights",
+        "start": 431.4,
+        "end": 431.9,
+        "probability": 0.9892
+      },
+      {
+        "word": "connected",
+        "start": 431.9,
+        "end": 432.36,
+        "probability": 0.982
+      },
+      {
+        "word": "to",
+        "start": 432.36,
+        "end": 432.72,
+        "probability": 0.9988
+      },
+      {
+        "word": "that",
+        "start": 432.72,
+        "end": 432.92,
+        "probability": 0.9962
+      },
+      {
+        "word": "business.",
+        "start": 432.92,
+        "end": 433.36,
+        "probability": 0.9927
+      }
+    ]
+  },
+  {
+    "start": 434.2,
+    "end": 438.34,
+    "text": "Buying land does not, by itself, make the buyer the government.",
+    "words": [
+      {
+        "word": "Buying",
+        "start": 434.2,
+        "end": 434.68,
+        "probability": 0.9964
+      },
+      {
+        "word": "land",
+        "start": 434.68,
+        "end": 434.88,
+        "probability": 0.9838
+      },
+      {
+        "word": "does",
+        "start": 434.88,
+        "end": 435.3,
+        "probability": 0.9879
+      },
+      {
+        "word": "not,",
+        "start": 435.3,
+        "end": 435.6,
+        "probability": 0.9996
+      },
+      {
+        "word": "by",
+        "start": 435.78,
+        "end": 435.9,
+        "probability": 0.999
+      },
+      {
+        "word": "itself,",
+        "start": 435.9,
+        "end": 436.36,
+        "probability": 0.9962
+      },
+      {
+        "word": "make",
+        "start": 436.84,
+        "end": 437.12,
+        "probability": 0.9955
+      },
+      {
+        "word": "the",
+        "start": 437.12,
+        "end": 437.3,
+        "probability": 0.9988
+      },
+      {
+        "word": "buyer",
+        "start": 437.3,
+        "end": 437.62,
+        "probability": 0.9944
+      },
+      {
+        "word": "the",
+        "start": 437.62,
+        "end": 437.94,
+        "probability": 0.9737
+      },
+      {
+        "word": "government.",
+        "start": 437.94,
+        "end": 438.34,
+        "probability": 0.9923
+      }
+    ]
+  },
+  {
+    "start": 439.16,
+    "end": 444.38,
+    "text": "Sovereignty is not a bonus attached to a sufficiently large property transaction.",
+    "words": [
+      {
+        "word": "Sovereignty",
+        "start": 439.16,
+        "end": 439.86,
+        "probability": 0.9605
+      },
+      {
+        "word": "is",
+        "start": 439.86,
+        "end": 440.14,
+        "probability": 0.9816
+      },
+      {
+        "word": "not",
+        "start": 440.14,
+        "end": 440.38,
+        "probability": 0.999
+      },
+      {
+        "word": "a",
+        "start": 440.38,
+        "end": 440.54,
+        "probability": 0.9989
+      },
+      {
+        "word": "bonus",
+        "start": 440.54,
+        "end": 440.92,
+        "probability": 0.9967
+      },
+      {
+        "word": "attached",
+        "start": 440.92,
+        "end": 441.34,
+        "probability": 0.9836
+      },
+      {
+        "word": "to",
+        "start": 441.34,
+        "end": 441.8,
+        "probability": 0.998
+      },
+      {
+        "word": "a",
+        "start": 441.8,
+        "end": 441.9,
+        "probability": 0.9968
+      },
+      {
+        "word": "sufficiently",
+        "start": 441.9,
+        "end": 442.32,
+        "probability": 0.998
+      },
+      {
+        "word": "large",
+        "start": 442.32,
+        "end": 443.06,
+        "probability": 0.9964
+      },
+      {
+        "word": "property",
+        "start": 443.06,
+        "end": 443.54,
+        "probability": 0.9845
+      },
+      {
+        "word": "transaction.",
+        "start": 443.54,
+        "end": 444.38,
+        "probability": 0.9974
+      }
+    ]
+  },
+  {
+    "start": 445.44,
+    "end": 448.0,
+    "text": "Buying government bonds would not change that.",
+    "words": [
+      {
+        "word": "Buying",
+        "start": 445.44,
+        "end": 445.74,
+        "probability": 0.9995
+      },
+      {
+        "word": "government",
+        "start": 445.74,
+        "end": 446.08,
+        "probability": 0.9861
+      },
+      {
+        "word": "bonds",
+        "start": 446.08,
+        "end": 446.58,
+        "probability": 0.9986
+      },
+      {
+        "word": "would",
+        "start": 446.58,
+        "end": 447.02,
+        "probability": 0.9812
+      },
+      {
+        "word": "not",
+        "start": 447.02,
+        "end": 447.26,
+        "probability": 0.9996
+      },
+      {
+        "word": "change",
+        "start": 447.26,
+        "end": 447.62,
+        "probability": 0.9993
+      },
+      {
+        "word": "that.",
+        "start": 447.62,
+        "end": 448.0,
+        "probability": 0.9977
+      }
+    ]
+  },
+  {
+    "start": 448.82,
+    "end": 452.28,
+    "text": "A bond represents a financial claim under its terms.",
+    "words": [
+      {
+        "word": "A",
+        "start": 448.82,
+        "end": 448.88,
+        "probability": 0.9979
+      },
+      {
+        "word": "bond",
+        "start": 448.88,
+        "end": 449.28,
+        "probability": 0.9943
+      },
+      {
+        "word": "represents",
+        "start": 449.28,
+        "end": 449.84,
+        "probability": 0.9955
+      },
+      {
+        "word": "a",
+        "start": 449.84,
+        "end": 450.22,
+        "probability": 0.9985
+      },
+      {
+        "word": "financial",
+        "start": 450.22,
+        "end": 450.52,
+        "probability": 0.9979
+      },
+      {
+        "word": "claim",
+        "start": 450.52,
+        "end": 451.26,
+        "probability": 0.9983
+      },
+      {
+        "word": "under",
+        "start": 451.26,
+        "end": 451.68,
+        "probability": 0.9711
+      },
+      {
+        "word": "its",
+        "start": 451.68,
+        "end": 451.86,
+        "probability": 0.9746
+      },
+      {
+        "word": "terms.",
+        "start": 451.86,
+        "end": 452.28,
+        "probability": 0.9985
+      }
+    ]
+  },
+  {
+    "start": 452.28,
+    "end": 455.92,
+    "text": "It does not make the creditor the owner of the country.",
+    "words": [
+      {
+        "word": "It",
+        "start": 452.28,
+        "end": 453.18,
+        "probability": 0.4149
+      },
+      {
+        "word": "does",
+        "start": 453.18,
+        "end": 453.3,
+        "probability": 0.9637
+      },
+      {
+        "word": "not",
+        "start": 453.3,
+        "end": 453.48,
+        "probability": 0.9993
+      },
+      {
+        "word": "make",
+        "start": 453.48,
+        "end": 453.76,
+        "probability": 0.999
+      },
+      {
+        "word": "the",
+        "start": 453.76,
+        "end": 453.94,
+        "probability": 0.995
+      },
+      {
+        "word": "creditor",
+        "start": 453.94,
+        "end": 454.28,
+        "probability": 0.9777
+      },
+      {
+        "word": "the",
+        "start": 454.28,
+        "end": 454.62,
+        "probability": 0.9931
+      },
+      {
+        "word": "owner",
+        "start": 454.62,
+        "end": 455.0,
+        "probability": 0.9821
+      },
+      {
+        "word": "of",
+        "start": 455.0,
+        "end": 455.3,
+        "probability": 0.9989
+      },
+      {
+        "word": "the",
+        "start": 455.3,
+        "end": 455.42,
+        "probability": 0.9985
+      },
+      {
+        "word": "country.",
+        "start": 455.42,
+        "end": 455.92,
+        "probability": 0.9967
+      }
+    ]
+  },
+  {
+    "start": 457.12,
+    "end": 460.8,
+    "text": "Enormous wealth can create significant economic influence.",
+    "words": [
+      {
+        "word": "Enormous",
+        "start": 457.12,
+        "end": 457.78,
+        "probability": 0.9315
+      },
+      {
+        "word": "wealth",
+        "start": 457.78,
+        "end": 458.04,
+        "probability": 0.9972
+      },
+      {
+        "word": "can",
+        "start": 458.04,
+        "end": 458.4,
+        "probability": 0.9973
+      },
+      {
+        "word": "create",
+        "start": 458.4,
+        "end": 458.8,
+        "probability": 0.997
+      },
+      {
+        "word": "significant",
+        "start": 458.8,
+        "end": 459.46,
+        "probability": 0.9959
+      },
+      {
+        "word": "economic",
+        "start": 459.46,
+        "end": 460.22,
+        "probability": 0.9977
+      },
+      {
+        "word": "influence.",
+        "start": 460.22,
+        "end": 460.8,
+        "probability": 0.9952
+      }
+    ]
+  },
+  {
+    "start": 461.86,
+    "end": 468.92,
+    "text": "That influence should not be confused with ownership of a nation or an automatic right to govern its residents.",
+    "words": [
+      {
+        "word": "That",
+        "start": 461.86,
+        "end": 462.06,
+        "probability": 0.9965
+      },
+      {
+        "word": "influence",
+        "start": 462.06,
+        "end": 462.68,
+        "probability": 0.9987
+      },
+      {
+        "word": "should",
+        "start": 462.68,
+        "end": 462.98,
+        "probability": 0.9909
+      },
+      {
+        "word": "not",
+        "start": 462.98,
+        "end": 463.24,
+        "probability": 0.9986
+      },
+      {
+        "word": "be",
+        "start": 463.24,
+        "end": 463.42,
+        "probability": 0.9988
+      },
+      {
+        "word": "confused",
+        "start": 463.42,
+        "end": 463.96,
+        "probability": 0.9979
+      },
+      {
+        "word": "with",
+        "start": 463.96,
+        "end": 464.38,
+        "probability": 0.998
+      },
+      {
+        "word": "ownership",
+        "start": 464.38,
+        "end": 464.78,
+        "probability": 0.9954
+      },
+      {
+        "word": "of",
+        "start": 464.78,
+        "end": 465.22,
+        "probability": 0.997
+      },
+      {
+        "word": "a",
+        "start": 465.22,
+        "end": 465.28,
+        "probability": 0.9973
+      },
+      {
+        "word": "nation",
+        "start": 465.28,
+        "end": 465.76,
+        "probability": 0.9948
+      },
+      {
+        "word": "or",
+        "start": 465.76,
+        "end": 466.42,
+        "probability": 0.7414
+      },
+      {
+        "word": "an",
+        "start": 466.42,
+        "end": 466.56,
+        "probability": 0.9786
+      },
+      {
+        "word": "automatic",
+        "start": 466.56,
+        "end": 467.0,
+        "probability": 0.9962
+      },
+      {
+        "word": "right",
+        "start": 467.0,
+        "end": 467.6,
+        "probability": 0.9834
+      },
+      {
+        "word": "to",
+        "start": 467.6,
+        "end": 467.88,
+        "probability": 0.9987
+      },
+      {
+        "word": "govern",
+        "start": 467.88,
+        "end": 468.2,
+        "probability": 0.9976
+      },
+      {
+        "word": "its",
+        "start": 468.2,
+        "end": 468.44,
+        "probability": 0.9757
+      },
+      {
+        "word": "residents.",
+        "start": 468.44,
+        "end": 468.92,
+        "probability": 0.8599
+      }
+    ]
+  },
+  {
+    "start": 469.88,
+    "end": 476.62,
+    "text": "So, could Elon Musk buy Portugal because his estimated fortune exceeds its annual GDP?",
+    "words": [
+      {
+        "word": "So,",
+        "start": 469.88,
+        "end": 470.04,
+        "probability": 0.9946
+      },
+      {
+        "word": "could",
+        "start": 470.52,
+        "end": 470.68,
+        "probability": 0.9941
+      },
+      {
+        "word": "Elon",
+        "start": 470.68,
+        "end": 470.96,
+        "probability": 0.979
+      },
+      {
+        "word": "Musk",
+        "start": 470.96,
+        "end": 471.56,
+        "probability": 0.9956
+      },
+      {
+        "word": "buy",
+        "start": 471.56,
+        "end": 471.96,
+        "probability": 0.9238
+      },
+      {
+        "word": "Portugal",
+        "start": 471.96,
+        "end": 472.46,
+        "probability": 0.9942
+      },
+      {
+        "word": "because",
+        "start": 472.46,
+        "end": 473.1,
+        "probability": 0.8703
+      },
+      {
+        "word": "his",
+        "start": 473.1,
+        "end": 473.54,
+        "probability": 0.993
+      },
+      {
+        "word": "estimated",
+        "start": 473.54,
+        "end": 474.02,
+        "probability": 0.9907
+      },
+      {
+        "word": "fortune",
+        "start": 474.02,
+        "end": 474.74,
+        "probability": 0.9993
+      },
+      {
+        "word": "exceeds",
+        "start": 474.74,
+        "end": 475.22,
+        "probability": 0.9946
+      },
+      {
+        "word": "its",
+        "start": 475.22,
+        "end": 475.76,
+        "probability": 0.957
+      },
+      {
+        "word": "annual",
+        "start": 475.76,
+        "end": 476.26,
+        "probability": 0.9947
+      },
+      {
+        "word": "GDP?",
+        "start": 476.26,
+        "end": 476.62,
+        "probability": 0.9959
+      }
+    ]
+  },
+  {
+    "start": 477.62,
+    "end": 481.84,
+    "text": "No, that conclusion does not follow from those numbers.",
+    "words": [
+      {
+        "word": "No,",
+        "start": 477.62,
+        "end": 478.18,
+        "probability": 0.5802
+      },
+      {
+        "word": "that",
+        "start": 478.84,
+        "end": 479.16,
+        "probability": 0.9755
+      },
+      {
+        "word": "conclusion",
+        "start": 479.16,
+        "end": 479.72,
+        "probability": 0.9911
+      },
+      {
+        "word": "does",
+        "start": 479.72,
+        "end": 480.2,
+        "probability": 0.991
+      },
+      {
+        "word": "not",
+        "start": 480.2,
+        "end": 480.42,
+        "probability": 0.9991
+      },
+      {
+        "word": "follow",
+        "start": 480.42,
+        "end": 480.94,
+        "probability": 0.9977
+      },
+      {
+        "word": "from",
+        "start": 480.94,
+        "end": 481.18,
+        "probability": 0.9979
+      },
+      {
+        "word": "those",
+        "start": 481.18,
+        "end": 481.38,
+        "probability": 0.9966
+      },
+      {
+        "word": "numbers.",
+        "start": 481.38,
+        "end": 481.84,
+        "probability": 0.9985
+      }
+    ]
+  },
+  {
+    "start": 483.02,
+    "end": 489.24,
+    "text": "His wealth could support investments in spending on an extraordinary scale depending on liquidity,",
+    "words": [
+      {
+        "word": "His",
+        "start": 483.02,
+        "end": 483.34,
+        "probability": 0.9789
+      },
+      {
+        "word": "wealth",
+        "start": 483.34,
+        "end": 483.64,
+        "probability": 0.9989
+      },
+      {
+        "word": "could",
+        "start": 483.64,
+        "end": 483.9,
+        "probability": 0.9974
+      },
+      {
+        "word": "support",
+        "start": 483.9,
+        "end": 484.2,
+        "probability": 0.9992
+      },
+      {
+        "word": "investments",
+        "start": 484.2,
+        "end": 484.94,
+        "probability": 0.9906
+      },
+      {
+        "word": "in",
+        "start": 484.94,
+        "end": 485.4,
+        "probability": 0.8173
+      },
+      {
+        "word": "spending",
+        "start": 485.4,
+        "end": 485.74,
+        "probability": 0.9995
+      },
+      {
+        "word": "on",
+        "start": 485.74,
+        "end": 486.12,
+        "probability": 0.9989
+      },
+      {
+        "word": "an",
+        "start": 486.12,
+        "end": 486.22,
+        "probability": 0.9919
+      },
+      {
+        "word": "extraordinary",
+        "start": 486.22,
+        "end": 486.7,
+        "probability": 0.9973
+      },
+      {
+        "word": "scale",
+        "start": 486.7,
+        "end": 487.5,
+        "probability": 0.9987
+      },
+      {
+        "word": "depending",
+        "start": 487.5,
+        "end": 488.22,
+        "probability": 0.5254
+      },
+      {
+        "word": "on",
+        "start": 488.22,
+        "end": 488.72,
+        "probability": 0.9984
+      },
+      {
+        "word": "liquidity,",
+        "start": 488.72,
+        "end": 489.24,
+        "probability": 0.9966
+      }
+    ]
+  },
+  {
+    "start": 489.66,
+    "end": 491.78,
+    "text": "financing, and the choices involved.",
+    "words": [
+      {
+        "word": "financing,",
+        "start": 489.66,
+        "end": 490.1,
+        "probability": 0.9952
+      },
+      {
+        "word": "and",
+        "start": 490.78,
+        "end": 490.82,
+        "probability": 0.9983
+      },
+      {
+        "word": "the",
+        "start": 490.82,
+        "end": 490.92,
+        "probability": 0.9989
+      },
+      {
+        "word": "choices",
+        "start": 490.92,
+        "end": 491.26,
+        "probability": 0.9901
+      },
+      {
+        "word": "involved.",
+        "start": 491.26,
+        "end": 491.78,
+        "probability": 0.9991
+      }
+    ]
+  },
+  {
+    "start": 493.02,
+    "end": 499.08,
+    "text": "But GDP is annual production and a country has no checkout price derived from it.",
+    "words": [
+      {
+        "word": "But",
+        "start": 493.02,
+        "end": 493.06,
+        "probability": 0.994
+      },
+      {
+        "word": "GDP",
+        "start": 493.06,
+        "end": 493.34,
+        "probability": 0.9924
+      },
+      {
+        "word": "is",
+        "start": 493.34,
+        "end": 494.22,
+        "probability": 0.9985
+      },
+      {
+        "word": "annual",
+        "start": 494.22,
+        "end": 494.64,
+        "probability": 0.9911
+      },
+      {
+        "word": "production",
+        "start": 494.64,
+        "end": 495.18,
+        "probability": 0.999
+      },
+      {
+        "word": "and",
+        "start": 495.18,
+        "end": 496.02,
+        "probability": 0.5491
+      },
+      {
+        "word": "a",
+        "start": 496.02,
+        "end": 496.1,
+        "probability": 0.9961
+      },
+      {
+        "word": "country",
+        "start": 496.1,
+        "end": 496.42,
+        "probability": 0.9978
+      },
+      {
+        "word": "has",
+        "start": 496.42,
+        "end": 496.78,
+        "probability": 0.9975
+      },
+      {
+        "word": "no",
+        "start": 496.78,
+        "end": 497.12,
+        "probability": 0.9977
+      },
+      {
+        "word": "checkout",
+        "start": 497.12,
+        "end": 497.5,
+        "probability": 0.761
+      },
+      {
+        "word": "price",
+        "start": 497.5,
+        "end": 498.04,
+        "probability": 0.9991
+      },
+      {
+        "word": "derived",
+        "start": 498.04,
+        "end": 498.3,
+        "probability": 0.9963
+      },
+      {
+        "word": "from",
+        "start": 498.3,
+        "end": 498.92,
+        "probability": 0.998
+      },
+      {
+        "word": "it.",
+        "start": 498.92,
+        "end": 499.08,
+        "probability": 0.9991
+      }
+    ]
+  },
+  {
+    "start": 499.78,
+    "end": 502.66,
+    "text": "The more revealing questions come after the comparison.",
+    "words": [
+      {
+        "word": "The",
+        "start": 499.78,
+        "end": 499.88,
+        "probability": 0.9954
+      },
+      {
+        "word": "more",
+        "start": 499.88,
+        "end": 500.08,
+        "probability": 0.9995
+      },
+      {
+        "word": "revealing",
+        "start": 500.08,
+        "end": 500.58,
+        "probability": 0.997
+      },
+      {
+        "word": "questions",
+        "start": 500.58,
+        "end": 501.22,
+        "probability": 0.9968
+      },
+      {
+        "word": "come",
+        "start": 501.22,
+        "end": 501.78,
+        "probability": 0.9921
+      },
+      {
+        "word": "after",
+        "start": 501.78,
+        "end": 502.04,
+        "probability": 0.9991
+      },
+      {
+        "word": "the",
+        "start": 502.04,
+        "end": 502.28,
+        "probability": 0.9978
+      },
+      {
+        "word": "comparison.",
+        "start": 502.28,
+        "end": 502.66,
+        "probability": 0.9993
+      }
+    ]
+  },
+  {
+    "start": 502.66,
+    "end": 506.22,
+    "text": "How much money could actually be made available?",
+    "words": [
+      {
+        "word": "How",
+        "start": 502.66,
+        "end": 503.88,
+        "probability": 0.1427
+      },
+      {
+        "word": "much",
+        "start": 503.88,
+        "end": 504.1,
+        "probability": 0.9425
+      },
+      {
+        "word": "money",
+        "start": 504.1,
+        "end": 504.5,
+        "probability": 0.9836
+      },
+      {
+        "word": "could",
+        "start": 504.5,
+        "end": 504.76,
+        "probability": 0.9889
+      },
+      {
+        "word": "actually",
+        "start": 504.76,
+        "end": 505.22,
+        "probability": 0.9496
+      },
+      {
+        "word": "be",
+        "start": 505.22,
+        "end": 505.48,
+        "probability": 0.9981
+      },
+      {
+        "word": "made",
+        "start": 505.48,
+        "end": 505.72,
+        "probability": 0.9986
+      },
+      {
+        "word": "available?",
+        "start": 505.72,
+        "end": 506.22,
+        "probability": 0.9959
+      }
+    ]
+  },
+  {
+    "start": 507.06,
+    "end": 511.02,
+    "text": "What could a particular investment deliver? Who would operate it?",
+    "words": [
+      {
+        "word": "What",
+        "start": 507.06,
+        "end": 507.18,
+        "probability": 0.9576
+      },
+      {
+        "word": "could",
+        "start": 507.18,
+        "end": 507.38,
+        "probability": 0.9951
+      },
+      {
+        "word": "a",
+        "start": 507.38,
+        "end": 507.46,
+        "probability": 0.9989
+      },
+      {
+        "word": "particular",
+        "start": 507.46,
+        "end": 507.9,
+        "probability": 0.9992
+      },
+      {
+        "word": "investment",
+        "start": 507.9,
+        "end": 508.64,
+        "probability": 0.9977
+      },
+      {
+        "word": "deliver?",
+        "start": 508.64,
+        "end": 509.14,
+        "probability": 0.998
+      },
+      {
+        "word": "Who",
+        "start": 509.9,
+        "end": 510.08,
+        "probability": 0.9906
+      },
+      {
+        "word": "would",
+        "start": 510.08,
+        "end": 510.22,
+        "probability": 0.9992
+      },
+      {
+        "word": "operate",
+        "start": 510.22,
+        "end": 510.64,
+        "probability": 0.9969
+      },
+      {
+        "word": "it?",
+        "start": 510.64,
+        "end": 511.02,
+        "probability": 0.9964
+      }
+    ]
+  },
+  {
+    "start": 512.12,
+    "end": 514.48,
+    "text": "And what would keep it working ten years later?",
+    "words": [
+      {
+        "word": "And",
+        "start": 512.12,
+        "end": 512.34,
+        "probability": 0.9583
+      },
+      {
+        "word": "what",
+        "start": 512.34,
+        "end": 512.52,
+        "probability": 0.9829
+      },
+      {
+        "word": "would",
+        "start": 512.52,
+        "end": 512.68,
+        "probability": 0.9961
+      },
+      {
+        "word": "keep",
+        "start": 512.68,
+        "end": 512.94,
+        "probability": 0.9986
+      },
+      {
+        "word": "it",
+        "start": 512.94,
+        "end": 513.14,
+        "probability": 0.9937
+      },
+      {
+        "word": "working",
+        "start": 513.14,
+        "end": 513.4,
+        "probability": 0.998
+      },
+      {
+        "word": "ten",
+        "start": 513.4,
+        "end": 513.8,
+        "probability": 0.3737
+      },
+      {
+        "word": "years",
+        "start": 513.8,
+        "end": 514.12,
+        "probability": 0.9973
+      },
+      {
+        "word": "later?",
+        "start": 514.12,
+        "end": 514.48,
+        "probability": 0.9989
+      }
+    ]
+  },
+  {
+    "start": 515.3,
+    "end": 518.14,
+    "text": "Those questions make the fortune no less remarkable.",
+    "words": [
+      {
+        "word": "Those",
+        "start": 515.3,
+        "end": 515.48,
+        "probability": 0.9938
+      },
+      {
+        "word": "questions",
+        "start": 515.48,
+        "end": 515.98,
+        "probability": 0.9989
+      },
+      {
+        "word": "make",
+        "start": 515.98,
+        "end": 516.46,
+        "probability": 0.9965
+      },
+      {
+        "word": "the",
+        "start": 516.46,
+        "end": 516.64,
+        "probability": 0.9972
+      },
+      {
+        "word": "fortune",
+        "start": 516.64,
+        "end": 517.04,
+        "probability": 0.9803
+      },
+      {
+        "word": "no",
+        "start": 517.04,
+        "end": 517.42,
+        "probability": 0.9534
+      },
+      {
+        "word": "less",
+        "start": 517.42,
+        "end": 517.68,
+        "probability": 0.9971
+      },
+      {
+        "word": "remarkable.",
+        "start": 517.68,
+        "end": 518.14,
+        "probability": 0.9994
+      }
+    ]
+  },
+  {
+    "start": 519.06,
+    "end": 521.84,
+    "text": "They make its possibilities easier to understand.",
+    "words": [
+      {
+        "word": "They",
+        "start": 519.06,
+        "end": 519.16,
+        "probability": 0.9969
+      },
+      {
+        "word": "make",
+        "start": 519.16,
+        "end": 519.34,
+        "probability": 0.9985
+      },
+      {
+        "word": "its",
+        "start": 519.34,
+        "end": 519.52,
+        "probability": 0.9316
+      },
+      {
+        "word": "possibilities",
+        "start": 519.52,
+        "end": 520.14,
+        "probability": 0.9974
+      },
+      {
+        "word": "easier",
+        "start": 520.14,
+        "end": 520.98,
+        "probability": 0.9982
+      },
+      {
+        "word": "to",
+        "start": 520.98,
+        "end": 521.44,
+        "probability": 0.9989
+      },
+      {
+        "word": "understand.",
+        "start": 521.44,
+        "end": 521.84,
+        "probability": 0.9992
+      }
+    ]
+  },
+  {
+    "start": 522.9,
+    "end": 525.26,
+    "text": "A billionaire headline gives us a number.",
+    "words": [
+      {
+        "word": "A",
+        "start": 522.9,
+        "end": 523.04,
+        "probability": 0.9949
+      },
+      {
+        "word": "billionaire",
+        "start": 523.04,
+        "end": 523.42,
+        "probability": 0.9945
+      },
+      {
+        "word": "headline",
+        "start": 523.42,
+        "end": 524.1,
+        "probability": 0.9906
+      },
+      {
+        "word": "gives",
+        "start": 524.1,
+        "end": 524.58,
+        "probability": 0.9972
+      },
+      {
+        "word": "us",
+        "start": 524.58,
+        "end": 524.8,
+        "probability": 0.9967
+      },
+      {
+        "word": "a",
+        "start": 524.8,
+        "end": 524.92,
+        "probability": 0.9984
+      },
+      {
+        "word": "number.",
+        "start": 524.92,
+        "end": 525.26,
+        "probability": 0.9981
+      }
+    ]
+  },
+  {
+    "start": 525.86,
+    "end": 529.12,
+    "text": "Following the money shows us what that number can change.",
+    "words": [
+      {
+        "word": "Following",
+        "start": 525.86,
+        "end": 526.32,
+        "probability": 0.9909
+      },
+      {
+        "word": "the",
+        "start": 526.32,
+        "end": 526.62,
+        "probability": 0.9964
+      },
+      {
+        "word": "money",
+        "start": 526.62,
+        "end": 526.9,
+        "probability": 0.9935
+      },
+      {
+        "word": "shows",
+        "start": 526.9,
+        "end": 527.32,
+        "probability": 0.9932
+      },
+      {
+        "word": "us",
+        "start": 527.32,
+        "end": 527.7,
+        "probability": 0.9961
+      },
+      {
+        "word": "what",
+        "start": 527.7,
+        "end": 527.94,
+        "probability": 0.9957
+      },
+      {
+        "word": "that",
+        "start": 527.94,
+        "end": 528.14,
+        "probability": 0.9973
+      },
+      {
+        "word": "number",
+        "start": 528.14,
+        "end": 528.54,
+        "probability": 0.9989
+      },
+      {
+        "word": "can",
+        "start": 528.54,
+        "end": 528.76,
+        "probability": 0.9991
+      },
+      {
+        "word": "change.",
+        "start": 528.76,
+        "end": 529.12,
+        "probability": 0.9991
+      }
+    ]
+  },
+  {
+    "start": 529.12,
+    "end": 534.64,
+    "text": "How long it can support a commitment and where its power reaches a limit.",
+    "words": [
+      {
+        "word": "How",
+        "start": 529.12,
+        "end": 530.18,
+        "probability": 0.3006
+      },
+      {
+        "word": "long",
+        "start": 530.18,
+        "end": 530.6,
+        "probability": 0.9916
+      },
+      {
+        "word": "it",
+        "start": 530.6,
+        "end": 530.82,
+        "probability": 0.9971
+      },
+      {
+        "word": "can",
+        "start": 530.82,
+        "end": 530.96,
+        "probability": 0.9975
+      },
+      {
+        "word": "support",
+        "start": 530.96,
+        "end": 531.32,
+        "probability": 0.998
+      },
+      {
+        "word": "a",
+        "start": 531.32,
+        "end": 531.5,
+        "probability": 0.9983
+      },
+      {
+        "word": "commitment",
+        "start": 531.5,
+        "end": 531.88,
+        "probability": 0.9969
+      },
+      {
+        "word": "and",
+        "start": 531.88,
+        "end": 532.68,
+        "probability": 0.6669
+      },
+      {
+        "word": "where",
+        "start": 532.68,
+        "end": 532.86,
+        "probability": 0.9968
+      },
+      {
+        "word": "its",
+        "start": 532.86,
+        "end": 533.06,
+        "probability": 0.9305
+      },
+      {
+        "word": "power",
+        "start": 533.06,
+        "end": 533.54,
+        "probability": 0.9985
+      },
+      {
+        "word": "reaches",
+        "start": 533.54,
+        "end": 534.0,
+        "probability": 0.9979
+      },
+      {
+        "word": "a",
+        "start": 534.0,
+        "end": 534.28,
+        "probability": 0.9979
+      },
+      {
+        "word": "limit.",
+        "start": 534.28,
+        "end": 534.64,
+        "probability": 0.9991
+      }
+    ]
+  }
+]

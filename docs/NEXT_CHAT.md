@@ -3,6 +3,18 @@
 Cập nhật **2026-10-23**, múi giờ Asia/Saigon. Đây là trạng thái hiện tại; ghi chú lịch sử trong PROJECT_HANDOFF.md có thể mô tả các bước chưa hoàn thành ở thời điểm cũ.
 
 
+## Video006 — toàn bộ hình và bản dựng theo audio v01 (2026-10-23)
+
+Đã nhận WAV `tts_20261023_125715_dda159.wav`, **535,525 giây /25.705.244 byte**, SHA`c26b2cd58cb7b9f7cd9dce14954c7668eabb699145499bb46125f6c8a93e45c5`; giữ nguyên gốc, gitignore. Tạo MP3 dẫn xuất loudnorm−16,85 LUFS /−1,67dBTP, không cắt/thay tốc độ. Căn ASR1068/1115 từ trực tiếp;149 cue EN mặc định tắt, không coi timing tự động là duyệt thủ công từng từ. Script/narration/data-snapshot vẫn giữ nguyên byte.
+
+**Toàn bộ hình đã hoàn thành:**7 background AI theo bối cảnh,4 cutout Musk (đủ tóc/tay/chân/hồ sơ,40px padding, giữ toàn bộ visible pixels),1 outlinePortugal mainland từ Natural Earth;13 khung PNG trích từ cùng timeline. Nguồn/prompt/hash tại images/image-generation.json, tọa độ cắt tại images/musk-crop-map.json. Không nền trắng/giấy kem xuyên suốt; Times New Roman native. Musk là đối tượng được nói đến, không narrator/quote giả/lip-sync. Hình biên tập không phải bằng chứng về sự kiện/dự án Musk thực hiện.
+
+`finance-006` mới mở **review/project.json, revision musk-scenic-review-v01,55 cảnh /535,525 giây**; gallery trong tabHình ảnh trỏ index.html/visuals.json. Chỉ một timeline JSON chính, không thêm bộ thiết kế JSON trùng; link chỉnh mở đúng clip.14 lớp motion nội dung trong11 clip,55 background pan và timed reveals. **MP4 đang xuất, chưa public; không khai báo review URL trước khi có tệp verified.**
+
+Tổng28 media mới (WAV/MP3/8 source AI/5cutout-map/13preview) đã fullSHA-256 verify qua Actions runs39913454802 và39914179416, tải lại public full hash/Range/CORS; manifest hiện236 entry,208 cũ/sáu pin không đổi. Source/preview mới đều R2 và gitignore, không đưa binary vào main.5 metadata dự án cũ/catalog93 entry không đổi. Không sửa hoặc nhập draft người dùng; muốn tiếp tục từ sửa IndexedDB phải nhận backup.
+
+Kiểm tra:3597 mốc hình, font thực TimesNewRomanPS-BoldMT, biên/occlusion chữ/nhân vật, currency/bar/8round72B đúng; xem55 shot contact sheets, art-gallery26ảnhR2/crop/downloadPNGhash/edit link/currentdraft reload/audio/mobile;19unit tests qua. Còn: kiểm tra MP4 khi render xong, upload/hash-verify, bật reviewURL, kiểm tra website công khai và cập nhật báo cáo. Không cần người dùng duyệt hình để tiếp tục.
+
 ## Video006 — đã gửi lời đọc Musk / Portugal v01 (2026-10-23)
 
 Chủ đề người dùng đã chọn thay Credit Score: **Could Elon Musk Buy a Country?**, đối chiếu Musk/Bồ Đào Nha, khả năng và giới hạn của tài sản. Đã chuẩn bị `videos/006-musk-buy-a-country/`: **1115 từ /8 phần**, `narration.txt` sạch cho thu/TTS, `script.md`, `sources.md`, `data-snapshot.json`, storyboard ngắn nội bộ và script-validation.json. Chưa nhận audio, chưa có ảnh/timeline/MP4, chưa đăng ký Studio placeholder; không ghi là thành phẩm hoặc script đã được duyệt riêng.

@@ -1,0 +1,15 @@
+{
+  "clips": 55,
+  "duration": 535.5249999999999,
+  "checkedFrames": 3597,
+  "assets": 12,
+  "captions": 149,
+  "audioDuration": 535.525,
+  "financialMotion": true,
+  "subjectOcclusionAndBounds": true,
+  "fonts": [
+    "TimesNewRomanPS-BoldMT"
+  ],
+  "seekAndPlayback": true,
+  "mobile": true
+}

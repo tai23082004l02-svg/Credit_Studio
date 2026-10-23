@@ -1,0 +1,55 @@
+{
+  "chapters": [
+    {
+      "section": 1,
+      "title": "One man. One country.",
+      "start": 0,
+      "end": 58.42
+    },
+    {
+      "section": 2,
+      "title": "What the country number measures.",
+      "start": 58.42,
+      "end": 120.98
+    },
+    {
+      "section": 3,
+      "title": "Where the fortune actually sits.",
+      "start": 120.98,
+      "end": 180.6
+    },
+    {
+      "section": 4,
+      "title": "Getting from shares to spending.",
+      "start": 180.6,
+      "end": 250.92
+    },
+    {
+      "section": 5,
+      "title": "A payment to every resident.",
+      "start": 250.92,
+      "end": 340.88
+    },
+    {
+      "section": 6,
+      "title": "What money can build.",
+      "start": 340.88,
+      "end": 412.76
+    },
+    {
+      "section": 7,
+      "title": "What buying things does not buy.",
+      "start": 412.76,
+      "end": 469.88
+    },
+    {
+      "section": 8,
+      "title": "The better question.",
+      "start": 469.88,
+      "end": 535.525
+    }
+  ],
+  "wordMatches": 1068,
+  "words": 1115,
+  "method": "faster-whisper base.en int8 CPU + SequenceMatcher; number phrases interpolated; not manually verified per word"
+}
