@@ -221,3 +221,9 @@ __pycache__/
 /videos/006-musk-buy-a-country/images/backgrounds/
 /videos/006-musk-buy-a-country/images/cutouts/
 /videos/006-musk-buy-a-country/images/scenes/
+
+# Video 007 whole-scene short; verified media served from R2.
+/videos/007-raise-disappeared/audio/original.wav
+/videos/007-raise-disappeared/review/voiceover.mp3
+/videos/007-raise-disappeared/images/sources/*.png
+/videos/007-raise-disappeared/images/scenes/*.png

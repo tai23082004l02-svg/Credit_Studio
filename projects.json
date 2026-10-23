@@ -88,6 +88,18 @@
       "audio": "videos/006-musk-buy-a-country/audio/tts_20261023_125715_dda159.wav",
       "cover": "videos/006-musk-buy-a-country/images/scenes/01-musk-001.png",
       "review": "videos/006-musk-buy-a-country/exports/full-review-v01.mp4"
+    },
+    {
+      "id": "finance-007",
+      "name": "Your Raise Disappeared Before Payday",
+      "description": "Hoạt hình ảnh nguyên cảnh · 55,475 giây · 12 cảnh",
+      "kind": "video",
+      "status": "Bản dựng ảnh nguyên cảnh v01",
+      "createdAt": "2026-10-23T07:18:53.000Z",
+      "defaultVideo": "videos/007-raise-disappeared/review/project.json",
+      "script": "videos/007-raise-disappeared/script.md",
+      "audio": "videos/007-raise-disappeared/audio/original.wav",
+      "cover": "videos/007-raise-disappeared/images/scenes/01.png"
     }
   ]
 }

@@ -1,0 +1,86 @@
+[
+  {
+    "scene": 1,
+    "start": 0,
+    "end": 2.5,
+    "title": "YOU FINALLY GET A RAISE.",
+    "image": "videos/007-raise-disappeared/images/scenes/01.png"
+  },
+  {
+    "scene": 2,
+    "start": 2.5,
+    "end": 9.42,
+    "title": "+$300 A MONTH.",
+    "image": "videos/007-raise-disappeared/images/scenes/02.png"
+  },
+  {
+    "scene": 3,
+    "start": 9.42,
+    "end": 12.7,
+    "title": "NEW PHONE. +$30.",
+    "image": "videos/007-raise-disappeared/images/scenes/03.png"
+  },
+  {
+    "scene": 4,
+    "start": 12.7,
+    "end": 16.42,
+    "title": "NICER GYM. +$50.",
+    "image": "videos/007-raise-disappeared/images/scenes/04.png"
+  },
+  {
+    "scene": 5,
+    "start": 16.42,
+    "end": 20.46,
+    "title": "MORE DELIVERY. +$100.",
+    "image": "videos/007-raise-disappeared/images/scenes/05.png"
+  },
+  {
+    "scene": 6,
+    "start": 20.46,
+    "end": 25.2,
+    "title": "A FEW MORE LITTLE THINGS…",
+    "image": "videos/007-raise-disappeared/images/scenes/06.png"
+  },
+  {
+    "scene": 7,
+    "start": 25.2,
+    "end": 29.22,
+    "title": "WHERE DID THE RAISE GO?",
+    "image": "videos/007-raise-disappeared/images/scenes/07.png"
+  },
+  {
+    "scene": 8,
+    "start": 29.22,
+    "end": 36.02,
+    "title": "SMALL PURCHASES. A BIG COMMITMENT.",
+    "image": "videos/007-raise-disappeared/images/scenes/08.png"
+  },
+  {
+    "scene": 9,
+    "start": 36.02,
+    "end": 41.52,
+    "title": "GIVE YOUR NEXT RAISE A PLAN.",
+    "image": "videos/007-raise-disappeared/images/scenes/09.png"
+  },
+  {
+    "scene": 10,
+    "start": 41.52,
+    "end": 44.2,
+    "title": "MAKE SAVING AUTOMATIC.",
+    "image": "videos/007-raise-disappeared/images/scenes/10.png"
+  },
+  {
+    "scene": 11,
+    "start": 44.2,
+    "end": 49.62,
+    "title": "ENJOY WHAT YOU CHOOSE.",
+    "image": "videos/007-raise-disappeared/images/scenes/11.png"
+  },
+  {
+    "scene": 12,
+    "start": 49.62,
+    "end": 55.475,
+    "title": "A LITTLE MORE BREATHING ROOM.",
+    "image": "videos/007-raise-disappeared/images/scenes/12.png"
+  }
+]

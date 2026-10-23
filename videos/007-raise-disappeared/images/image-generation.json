@@ -1,0 +1,12 @@
+{
+  "method": "3 AI sheets, each four complete illustrated scenes; crop entire panels, never body parts",
+  "character": "Original curly-haired adult in green hoodie, consistent reference across three generations",
+  "referenceVideo": "User-provided 1023.mp4, visual direction only",
+  "originalSources": [
+    "scenes-01.png",
+    "scenes-02.png",
+    "scenes-03.png"
+  ],
+  "cropMap": "crop-map.json",
+  "notes": "No AI-written numerical labels; editable native titles. Keep source image resolution."
+}

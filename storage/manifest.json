@@ -1425,6 +1425,108 @@
       "size": 2946504,
       "type": "image/png"
     },
+    "videos/007-raise-disappeared/audio/original.wav": {
+      "key": "credit-studio/media/df8191cc53dd711304beafb890f76bde0543085a792597daa69bc8d51c4e7bd9.wav",
+      "sha256": "df8191cc53dd711304beafb890f76bde0543085a792597daa69bc8d51c4e7bd9",
+      "size": 2662844,
+      "type": "audio/x-wav"
+    },
+    "videos/007-raise-disappeared/review/voiceover.mp3": {
+      "key": "credit-studio/media/31fe57b0ccb155cca3766b4a0ce7a6d128d487a894cd6d1ef7eed1a5d9f745ae.mp3",
+      "sha256": "31fe57b0ccb155cca3766b4a0ce7a6d128d487a894cd6d1ef7eed1a5d9f745ae",
+      "size": 1332908,
+      "type": "audio/mpeg"
+    },
+    "videos/007-raise-disappeared/images/scenes/01.png": {
+      "key": "credit-studio/media/ab51ad953599c99e3432ed74e11ced88111e702e2de246a249da6e6f2d73e2de.png",
+      "sha256": "ab51ad953599c99e3432ed74e11ced88111e702e2de246a249da6e6f2d73e2de",
+      "size": 426306,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/02.png": {
+      "key": "credit-studio/media/ebf61f78f8a96266cfa12ce85617e4735f70625cce3acd65d553c8cd26e3ef20.png",
+      "sha256": "ebf61f78f8a96266cfa12ce85617e4735f70625cce3acd65d553c8cd26e3ef20",
+      "size": 458839,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/03.png": {
+      "key": "credit-studio/media/97cf7a74455dc73541f48dfd4cf466d5c71419115c39eafbf859611b0ffa2c34.png",
+      "sha256": "97cf7a74455dc73541f48dfd4cf466d5c71419115c39eafbf859611b0ffa2c34",
+      "size": 458342,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/04.png": {
+      "key": "credit-studio/media/7f69f6ededfb81ec46284094803a617700f73e9f96bd7f4faf61095ef25cdd70.png",
+      "sha256": "7f69f6ededfb81ec46284094803a617700f73e9f96bd7f4faf61095ef25cdd70",
+      "size": 539087,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/05.png": {
+      "key": "credit-studio/media/3a9eb699b8da36512b78344cde81d2c3ec03a8dcb8bc840fea31dfb98c2d4225.png",
+      "sha256": "3a9eb699b8da36512b78344cde81d2c3ec03a8dcb8bc840fea31dfb98c2d4225",
+      "size": 552553,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/06.png": {
+      "key": "credit-studio/media/85a822f366cb77f0b0974d2c650cebccac85c94ddad06bb081bbcb8bfd7a3ebe.png",
+      "sha256": "85a822f366cb77f0b0974d2c650cebccac85c94ddad06bb081bbcb8bfd7a3ebe",
+      "size": 485640,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/07.png": {
+      "key": "credit-studio/media/aeebe0edeb7a8e696e4c165337584a309dd90344b556af130c68dba432400963.png",
+      "sha256": "aeebe0edeb7a8e696e4c165337584a309dd90344b556af130c68dba432400963",
+      "size": 520459,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/08.png": {
+      "key": "credit-studio/media/a4c34116ca087de848195889ad4b523b28bbe3ca83739abe69d8109e256372ed.png",
+      "sha256": "a4c34116ca087de848195889ad4b523b28bbe3ca83739abe69d8109e256372ed",
+      "size": 489746,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/09.png": {
+      "key": "credit-studio/media/f45bab571b902dc6fa304e1d401923a639fd67f3e31b7df13e40e948431f2cdb.png",
+      "sha256": "f45bab571b902dc6fa304e1d401923a639fd67f3e31b7df13e40e948431f2cdb",
+      "size": 507893,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/10.png": {
+      "key": "credit-studio/media/232ac110cd15aca7e78c2e03f24e5b5f3290848fb232dd62adbeb70beaa2275e.png",
+      "sha256": "232ac110cd15aca7e78c2e03f24e5b5f3290848fb232dd62adbeb70beaa2275e",
+      "size": 477631,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/11.png": {
+      "key": "credit-studio/media/50e972a2f2244fd3ca1e98d00e939b64474a238bc63816a7acfddcf9bd27c328.png",
+      "sha256": "50e972a2f2244fd3ca1e98d00e939b64474a238bc63816a7acfddcf9bd27c328",
+      "size": 576887,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/scenes/12.png": {
+      "key": "credit-studio/media/f6d5c9722ce6db6a4d39e2cd7d740e23596ded05af969f757a922ba52bf298e1.png",
+      "sha256": "f6d5c9722ce6db6a4d39e2cd7d740e23596ded05af969f757a922ba52bf298e1",
+      "size": 688743,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/sources/scenes-01.png": {
+      "key": "credit-studio/media/541cc40a45e83afaa68e09fae20cd89f3156ccfa2cdc0b36be8aaef143f77caf.png",
+      "sha256": "541cc40a45e83afaa68e09fae20cd89f3156ccfa2cdc0b36be8aaef143f77caf",
+      "size": 2015993,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/sources/scenes-02.png": {
+      "key": "credit-studio/media/a7d58a56848ca03d98dcf8a27e4ad3da34af651d8fd576d2d012d58522cd1231.png",
+      "sha256": "a7d58a56848ca03d98dcf8a27e4ad3da34af651d8fd576d2d012d58522cd1231",
+      "size": 2161413,
+      "type": "image/png"
+    },
+    "videos/007-raise-disappeared/images/sources/scenes-03.png": {
+      "key": "credit-studio/media/ad8300f7771dd5d610fb272a1d9f85b10fe51a044f8cee26f15e0363b77bead3.png",
+      "sha256": "ad8300f7771dd5d610fb272a1d9f85b10fe51a044f8cee26f15e0363b77bead3",
+      "size": 2339602,
+      "type": "image/png"
+    },
     "videos/006-musk-buy-a-country/exports/full-review-v01.mp4": {
       "key": "credit-studio/media/5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4.mp4",
       "sha256": "5c96696c73f8feeb9df16756236653df0b312f8a8cc84f31b08532e9337bc9e4",

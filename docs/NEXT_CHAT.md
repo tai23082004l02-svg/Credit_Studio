@@ -1,5 +1,16 @@
 # Bàn giao nhanh Credit Studio
 
+## Video 007 — ảnh nguyên cảnh, chỉ bàn giao bản dựng chỉnh được (2026-10-23)
+
+Theo mẫu `1023.mp4` và trao đổi hiện tại, người dùng chọn cách làm **mỗi cảnh một ảnh minh họa hoàn chỉnh** gồm nhân vật/bối cảnh/đạo cụ, thay ảnh theo ý lời đọc và pan nhẹ. Không tách tay/chân/đồ vật hoặc tiếp tục bố cục thẻ thông tin cũ. Chữ/số quan trọng để riêng trong Studio, Times New Roman. Tạo số cảnh theo audio, không áp bộ16ảnh. Quyết định này thay hướng hình ảnh mặc định trước đó, giữ mọi bản cũ.
+
+Video mới **Your Raise Disappeared Before Payday**, `finance-007`, thư mục `videos/007-raise-disappeared/`: **12 cảnh /55,475 giây**, revision `raise-whole-scene-v01`, `review/project.json`. Nhận WAV `tts_20261023_141853_9b1922.wav`, **2.662.844 byte**, 24kHz mono, SHA256 `df8191cc53dd711304beafb890f76bde0543085a792597daa69bc8d51c4e7bd9`, giữ nguyên nguồn. MP3 dẫn xuất loudnorm; không đổi tốc độ. **Người dùng chỉ yêu cầu bản dựng chỉnh được, không cần MP4; không tạo MP4 hoặc thêm review MP4 vào registry.**
+
+12ảnh nguyên cảnh được tạo từ ba sheet AI với cùng nhân vật áo xanh; giữ nguồn và tọa độ crop toàn cảnh, không phải bộ phận nhân vật. Cận cảnh/cắt người có chủ ý trong nguồn được giữ; Studio fit toàn bộ ảnh và pan trong canvas, không crop thêm. Header native Times New Roman;17cue EN tùy chọn mặc định tắt. Tình huống giả định: tăng thực nhận300/tháng; phone30 +gym50 +delivery100 =180, phần còn120 cho các khoản còn lại, không gán chi phí từng món chưa nêu.
+
+17media mới được upload và full S3 hash/Range/CORS verify ở Actions run39917767103, sau đó chat kiểm tra public full SHA256/Range/CORS trước khi append manifest. Không thay mapping cũ/sáu pin, không commit binary archive hoặc sửa dự án khác. Bản backup tự chứa ảnh/MP3/WAV gốc được kiểm tra khôi phục thành ID riêng; bản sửa browser vẫn ở IndexedDB. Xem review/validation.json và media-validation.json để biết kiểm tra thực tế. Không coi video là đã được duyệt cuối.
+
+
 Cập nhật **2026-10-23**, múi giờ Asia/Saigon. Đây là trạng thái hiện tại; ghi chú lịch sử trong PROJECT_HANDOFF.md có thể mô tả các bước chưa hoàn thành ở thời điểm cũ.
 
 

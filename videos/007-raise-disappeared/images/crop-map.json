@@ -1,0 +1,194 @@
+[
+  {
+    "scene": 1,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-01.png",
+    "box": [
+      0,
+      0,
+      836,
+      470
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/01.png",
+    "size": [
+      836,
+      470
+    ],
+    "sha256": "ab51ad953599c99e3432ed74e11ced88111e702e2de246a249da6e6f2d73e2de"
+  },
+  {
+    "scene": 2,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-01.png",
+    "box": [
+      836,
+      0,
+      1672,
+      470
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/02.png",
+    "size": [
+      836,
+      470
+    ],
+    "sha256": "ebf61f78f8a96266cfa12ce85617e4735f70625cce3acd65d553c8cd26e3ef20"
+  },
+  {
+    "scene": 3,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-01.png",
+    "box": [
+      0,
+      470,
+      836,
+      941
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/03.png",
+    "size": [
+      836,
+      471
+    ],
+    "sha256": "97cf7a74455dc73541f48dfd4cf466d5c71419115c39eafbf859611b0ffa2c34"
+  },
+  {
+    "scene": 4,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-01.png",
+    "box": [
+      836,
+      470,
+      1672,
+      941
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/04.png",
+    "size": [
+      836,
+      471
+    ],
+    "sha256": "7f69f6ededfb81ec46284094803a617700f73e9f96bd7f4faf61095ef25cdd70"
+  },
+  {
+    "scene": 5,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-02.png",
+    "box": [
+      0,
+      0,
+      836,
+      470
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/05.png",
+    "size": [
+      836,
+      470
+    ],
+    "sha256": "3a9eb699b8da36512b78344cde81d2c3ec03a8dcb8bc840fea31dfb98c2d4225"
+  },
+  {
+    "scene": 6,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-02.png",
+    "box": [
+      836,
+      0,
+      1672,
+      470
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/06.png",
+    "size": [
+      836,
+      470
+    ],
+    "sha256": "85a822f366cb77f0b0974d2c650cebccac85c94ddad06bb081bbcb8bfd7a3ebe"
+  },
+  {
+    "scene": 7,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-02.png",
+    "box": [
+      0,
+      470,
+      836,
+      941
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/07.png",
+    "size": [
+      836,
+      471
+    ],
+    "sha256": "aeebe0edeb7a8e696e4c165337584a309dd90344b556af130c68dba432400963"
+  },
+  {
+    "scene": 8,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-02.png",
+    "box": [
+      836,
+      470,
+      1672,
+      941
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/08.png",
+    "size": [
+      836,
+      471
+    ],
+    "sha256": "a4c34116ca087de848195889ad4b523b28bbe3ca83739abe69d8109e256372ed"
+  },
+  {
+    "scene": 9,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-03.png",
+    "box": [
+      0,
+      0,
+      836,
+      452
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/09.png",
+    "size": [
+      836,
+      452
+    ],
+    "sha256": "f45bab571b902dc6fa304e1d401923a639fd67f3e31b7df13e40e948431f2cdb"
+  },
+  {
+    "scene": 10,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-03.png",
+    "box": [
+      836,
+      0,
+      1672,
+      452
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/10.png",
+    "size": [
+      836,
+      452
+    ],
+    "sha256": "232ac110cd15aca7e78c2e03f24e5b5f3290848fb232dd62adbeb70beaa2275e"
+  },
+  {
+    "scene": 11,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-03.png",
+    "box": [
+      0,
+      452,
+      836,
+      941
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/11.png",
+    "size": [
+      836,
+      489
+    ],
+    "sha256": "50e972a2f2244fd3ca1e98d00e939b64474a238bc63816a7acfddcf9bd27c328"
+  },
+  {
+    "scene": 12,
+    "source": "videos/007-raise-disappeared/images/sources/scenes-03.png",
+    "box": [
+      836,
+      452,
+      1672,
+      941
+    ],
+    "output": "videos/007-raise-disappeared/images/scenes/12.png",
+    "size": [
+      836,
+      489
+    ],
+    "sha256": "f6d5c9722ce6db6a4d39e2cd7d740e23596ded05af969f757a922ba52bf298e1"
+  }
+]
