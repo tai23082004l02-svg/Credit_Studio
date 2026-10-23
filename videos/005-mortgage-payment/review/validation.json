@@ -114,5 +114,24 @@
       "props": 93,
       "archivedOriginFallbackForbidden": true
     }
+  },
+  "publishedSite": {
+    "passed": true,
+    "url": "https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-005",
+    "applicationCommit": "f83fd2d14161472c0061da2e69dd747f409e14e2",
+    "pagesRun": "https://github.com/tai23082004l02-svg/Credit_Studio/actions/runs/39904544817",
+    "deployedFilesHTTP200AndHashMatch": [
+      "index.html",
+      "projects.json",
+      "storage/manifest.json",
+      "videos/005-mortgage-payment/review/project.json"
+    ],
+    "coverWidth": 1920,
+    "mp4SeekAndPlayback": true,
+    "editorRevision": "mortgage-review-v01",
+    "editorClips": 88,
+    "editorAudioPlaybackAndCanvasExport": true,
+    "originalWAVDuration": 566.45,
+    "pageErrors": []
   }
 }
