@@ -1,6 +1,12 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
 
+## Chốt quy trình tự sản xuất sau audio — 2026-10-23
+
+Người dùng yêu cầu cập nhật GitHub để áp dụng phương pháp mới: cùng chọn chủ đề, trợ lý tự chuẩn bị/kiểm tra kịch bản và gửi lời đọc tiếng Anh Mỹ; người dùng tạo rồi gửi audio gốc; trợ lý tự lo toàn bộ phong cách, minh họa/đạo cụ, bố cục, chuyển động, dựng, kiểm tra và bàn giao MP4 cùng bản Studio chỉnh được. Không cần dừng xin duyệt storyboard, cảnh mẫu, phong cách hoặc từng hình. Thử cảnh nội bộ là tùy nhu cầu, không còn bắt buộc2–3 mẫu trước khi dựng. Người dùng có thể góp ý khi nhận thành phẩm.
+
+Đã ghi quy trình chính tại [PRODUCTION_WORKFLOW.md](PRODUCTION_WORKFLOW.md), đồng bộ AGENTS.md, README.md và NEXT_CHAT.md. Giữ Times New Roman, nguồn/phép tính, crop an toàn và kiểm tra hình/tiếng; bỏ vòng duyệt trung gian không bỏ QA. Giữ WAV gốc, các JSON/bản xuất/backup, bảo vệ sửa IndexedDB, media archive/R2 và sáu pin cũ; không tự duyệt cuối video đã có hoặc đăng lên YouTube. Ước tính20–35% giảm thời gian thực làm (mốc30%),40–60% nếu gồm chờ duyệt chỉ là ước tính, chưa đo/cam kết. Đây là thay đổi tài liệu, không sửa dự án/media; kiểm tra diff và liên kết, không cần render hay chạy browser test.
+
 ## Video 005 — bản duyệt đầy đủ v01 đã triển khai (2026-10-23)
 
 Theo yêu cầu triển khai của người dùng, đã hoàn thành **Your Mortgage Payment Is Only the Beginning**, **88 cảnh /566,45 giây (9:26,45)**. `finance-005` mở `review/project.json`, revision **mortgage-review-v01**; MP4 `exports/full-review-v01.mp4` ở R2. Đây là bản duyệt chờ góp ý, chưa được gọi là bản cuối.

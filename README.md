@@ -6,6 +6,10 @@ Không gian quản lý dự án video và thiết kế ảnh với giao diện t
 
 Chọn repo này trong chat mới rồi yêu cầu đọc [AGENTS.md](AGENTS.md), [bàn giao nhanh hiện tại](docs/NEXT_CHAT.md) và [bản bàn giao chi tiết](docs/PROJECT_HANDOFF.md). Tài liệu ghi các quyết định đã chốt, vị trí tài nguyên, tiến độ thực tế và phần còn lại. Chat mới không tự nhớ lịch sử chat; các bản sửa chỉ lưu trong trình duyệt cần **Sao lưu dự án** và cung cấp tệp nếu muốn trợ lý tiếp tục từ chúng.
 
+## Quy trình sản xuất hiện tại
+
+Đã chốt ngày **2026-10-23**: cùng chọn chủ đề → trợ lý chuẩn bị kịch bản/lời đọc tiếng Anh đã kiểm tra → người dùng tạo và gửi audio gốc → trợ lý tự lo toàn bộ hình ảnh, chuyển động, dựng, kiểm tra và bàn giao MP4 cùng bản chỉnh được trong Studio. **Không cần duyệt storyboard, phong cách, cảnh mẫu hoặc từng hình ở giữa quy trình.** Người dùng có thể góp ý sau khi nhận thành phẩm. Giữ Times New Roman và mọi kiểm tra chất lượng, nguồn audio, JSON/bản xuất cũ, backup và quy tắc R2. [Quy trình và phân công chi tiết](docs/PRODUCTION_WORKFLOW.md).
+
 ## Dùng online
 
 Địa chỉ website: https://tai23082004l02-svg.github.io/Credit_Studio/

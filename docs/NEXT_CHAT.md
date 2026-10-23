@@ -3,6 +3,12 @@
 Cập nhật **2026-10-23**, múi giờ Asia/Saigon. Đây là trạng thái hiện tại; ghi chú lịch sử trong PROJECT_HANDOFF.md có thể mô tả các bước chưa hoàn thành ở thời điểm cũ.
 
 
+## Quy trình mới — trợ lý tự xử lý toàn bộ phần hình và dựng (2026-10-23)
+
+Người dùng đã chốt áp dụng [PRODUCTION_WORKFLOW.md](PRODUCTION_WORKFLOW.md): cùng chọn chủ đề; trợ lý kiểm tra và gửi kịch bản/lời đọc tiếng Anh Mỹ để người dùng tạo audio; nhận audio gốc rồi tự chọn phong cách, làm hình/đạo cụ, bố cục, chuyển động, dựng, kiểm tra và bàn giao MP4 cùng bản chỉnh được trên Studio. **Không dừng chờ duyệt storyboard, phong cách, 2–3 cảnh mẫu hoặc từng hình.** Storyboard/thử cảnh chỉ dùng nội bộ khi hữu ích; không bắt buộc tạo mẫu. Thành phẩm vẫn có thể nhận góp ý sau.
+
+Quyết định này thay vòng duyệt hình trung gian của quy trình cũ bên dưới; giữ Times New Roman, kiểm tra chất lượng/số liệu/crop/audio, WAV gốc, JSON, bản xuất, IndexedDB/backup và R2. Không tự coi các video cũ là đã được duyệt cuối, không tự đăng lên YouTube. Ước tính giảm20–35% thời gian sản xuất (tham khảo30%), hoặc40–60% tổng thời gian gồm chờ duyệt; chưa có số đo thực tế/cam kết. Lần cập nhật này chỉ đổi tài liệu/quy trình, không sửa video hoặc dữ liệu dự án.
+
 ## Video 005 — bản duyệt đầy đủ v01 đã triển khai (2026-10-23)
 
 Theo yêu cầu triển khai của người dùng, đã hoàn thành **Your Mortgage Payment Is Only the Beginning**, **88 cảnh /566,45 giây (9:26,45)**. `finance-005` mở `review/project.json`, revision **mortgage-review-v01**; MP4 `exports/full-review-v01.mp4` ở R2. Đây là bản duyệt chờ góp ý, chưa được gọi là bản cuối.
