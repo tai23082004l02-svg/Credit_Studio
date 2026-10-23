@@ -1,5 +1,12 @@
 # Quy trình sản xuất video đã chốt
 
+## Hướng hình ảnh mới nhất — ảnh nguyên cảnh
+
+Theo mẫu người dùng gửi và quyết định2026-10-23: mỗi cảnh là một ảnh hoạt hình hoàn chỉnh với nhân vật nhất quán, bối cảnh và đạo cụ; chia cảnh theo audio, chuyển ảnh và pan nhẹ. Không mặc định tách bộ phận nhân vật/đạo cụ hoặc dựng thẻ thông tin kiểu cũ. Chữ và số chính là lớp native để sửa chính xác. Sheet có thể đóng gói nhiều cảnh, giữ ảnh nguồn và crop toàn cảnh. Giữ Times New Roman và mọi bản cũ. Đây là thay đổi hướng hình ảnh; không cần duyệt hình trung gian.
+
+Đầu ra theo yêu cầu từng dự án: video007 chỉ bàn giao bản dựng chỉnh được trên Studio, **không xuất MP4**. Các hướng dẫn MP4 bên dưới chỉ áp dụng khi MP4 nằm trong đầu ra được yêu cầu.
+
+
 Áp dụng mặc định cho video mới từ **2026-10-23**, theo quyết định của người dùng: cùng chọn chủ đề; trợ lý chuẩn bị lời đọc, người dùng tạo audio; trợ lý tự quyết và thực hiện toàn bộ phần hình ảnh, chuyển động và dựng. Quy trình này thay bước chờ người dùng duyệt storyboard, phong cách, cảnh mẫu hoặc từng hình trong quy trình trước.
 
 ## Trình tự và trách nhiệm

@@ -1,5 +1,7 @@
 # Credit Studio
 
+Video ngắn mới: [Your Raise Disappeared Before Payday — mở bản dựng](https://tai23082004l02-svg.github.io/Credit_Studio/?project=finance-007&tab=video), **12 ảnh nguyên cảnh /55,475 giây**, hoạt hình nhân vật áo xanh, chữ chỉnh được. Bàn giao Studio theo yêu cầu, không xuất MP4. [Chi tiết](videos/007-raise-disappeared/README.md).
+
 Không gian quản lý dự án video và thiết kế ảnh với giao diện tiếng Việt. Không cần tài khoản, API hay cài thư viện.
 
 ## Tiếp tục ở phiên chat mới
