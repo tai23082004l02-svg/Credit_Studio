@@ -1,5 +1,17 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
+
+## Quy trình sản xuất đã chốt — 2026-10-23
+
+Áp dụng cho sản xuất mới; không xóa hay thay các tài nguyên và bản dựng cũ.
+
+- Bỏ bước tạo bảng duyệt hình im lặng 96 giây. Dựng sơ bộ theo audio thật trong Studio khi có giọng đọc; storyboard nội dung vẫn dùng để lập kế hoạch.
+- Tạo đạo cụ theo nhu cầu cảnh, dùng lại kho chung. Sheet dùng khi cần nhiều đạo cụ đồng bộ, không tạo rồi cắt mọi món không cần thiết. Khi dùng sheet, bố trí ô và khoảng đệm an toàn; kiểm tra từng PNG sau cắt ở kích thước gốc và trong cảnh, giữ đủ góc, cạnh, đầu/tay/chân, không lẹm hình hoặc dính ô bên cạnh. Giữ nguồn và tọa độ cắt.
+- Bỏ xuất MP4 đầy đủ sau mỗi chỉnh sửa nhỏ. Duyệt trong Studio hoặc xuất đoạn thay đổi; xuất toàn bộ ở mốc duyệt bản dựng sau kiểm tra.
+- Bỏ duy trì nhiều bản thiết kế trùng nội dung. Dùng một bản dựng chính chỉnh được; chỉ tạo thiết kế ảnh riêng khi có mục đích sử dụng độc lập. Quy tắc này không cho phép xóa lịch sử, JSON, bản xuất hay bản sao lưu cũ.
+- Không dùng Runway trong quy trình hiện tại; ưu tiên đồ họa động có thể chỉnh trong Credit Studio, đồng bộ lời đọc và số liệu, Times New Roman.
+
+
 ## Điểm bắt đầu cho chat mới — 2026-10-23
 
 Đọc **[NEXT_CHAT.md](NEXT_CHAT.md)** trước để nắm trạng thái hiện tại và các quy tắc bảo toàn. Nội dung bên dưới chứa lịch sử theo từng bước; những câu về thiếu CORS, manifest tắt hoặc Pages 404 không còn là trạng thái mới nhất. Repo hiện Public; người dùng đã bật lại Pages. Kiểm tra trực tiếp: Pages built, main /, trang chủ và manifest HTTP 200, R2 enabled:true. Cây tệp sau dọn khoảng 140,6 MB; 198 media / 620,33 MB chuyển khỏi main, sáu ảnh giữ local; lịch sử Git chưa viết lại. Không có bước CORS/Pages đang chờ.
