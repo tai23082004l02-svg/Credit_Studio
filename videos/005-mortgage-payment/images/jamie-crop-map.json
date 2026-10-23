@@ -1,0 +1,144 @@
+{
+  "source": "videos/005-mortgage-payment/images/sources/jamie-homeowner-v01.png",
+  "width": 1254,
+  "height": 1254,
+  "items": [
+    {
+      "id": "keys",
+      "cell": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        210,
+        48,
+        254,
+        561
+      ],
+      "sourceCrop": [
+        202,
+        40,
+        270,
+        577
+      ],
+      "sourceMargins": [
+        210,
+        48,
+        163,
+        18
+      ],
+      "featherPixels": 8,
+      "transparentPadding": 32,
+      "width": 334,
+      "height": 641,
+      "visiblePixelsPreserved": 68967,
+      "alphaThreshold": 4,
+      "output": "library/props/jamie-mortgage/keys.png"
+    },
+    {
+      "id": "bills",
+      "cell": [
+        627,
+        0,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        706,
+        103,
+        488,
+        468
+      ],
+      "sourceCrop": [
+        698,
+        95,
+        504,
+        484
+      ],
+      "sourceMargins": [
+        79,
+        103,
+        60,
+        56
+      ],
+      "featherPixels": 8,
+      "transparentPadding": 32,
+      "width": 568,
+      "height": 548,
+      "visiblePixelsPreserved": 104489,
+      "alphaThreshold": 4,
+      "output": "library/props/jamie-mortgage/bills.png"
+    },
+    {
+      "id": "repair",
+      "cell": [
+        0,
+        627,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        100,
+        763,
+        508,
+        364
+      ],
+      "sourceCrop": [
+        92,
+        755,
+        524,
+        380
+      ],
+      "sourceMargins": [
+        100,
+        136,
+        19,
+        127
+      ],
+      "featherPixels": 8,
+      "transparentPadding": 32,
+      "width": 588,
+      "height": 444,
+      "visiblePixelsPreserved": 135971,
+      "alphaThreshold": 4,
+      "output": "library/props/jamie-mortgage/repair.png"
+    },
+    {
+      "id": "compare",
+      "cell": [
+        627,
+        627,
+        627,
+        627
+      ],
+      "sourceArtCrop": [
+        775,
+        656,
+        322,
+        545
+      ],
+      "sourceCrop": [
+        767,
+        648,
+        338,
+        561
+      ],
+      "sourceMargins": [
+        148,
+        29,
+        157,
+        53
+      ],
+      "featherPixels": 8,
+      "transparentPadding": 32,
+      "width": 402,
+      "height": 625,
+      "visiblePixelsPreserved": 74417,
+      "alphaThreshold": 4,
+      "output": "library/props/jamie-mortgage/compare.png"
+    }
+  ],
+  "validation": "All source pixels at alpha>=4 preserved; original feather retained for 8px, then 32px transparent padding. No scaling. Only alpha 1–3 gutter speckles outside this region are omitted; original sheet is unchanged. Source quadrants do not overlap."
+}

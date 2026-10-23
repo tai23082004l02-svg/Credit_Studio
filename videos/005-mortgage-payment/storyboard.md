@@ -2,9 +2,9 @@
 
 Đây là kế hoạch nội dung toàn bộ, **chưa chốt timecode hoặc clip count cho full video**. Đã có WAV566,45 giây và bản ba cảnh mẫu samples/project.json /86,8 giây để duyệt phong cách. Audio thật sẽ quyết định điểm cắt; một phần lời thoại có thể chia nhiều shot. Không tạo bảng im lặng 96 giây hoặc bộ 16 ảnh cố định.
 
-## Phong cách đề xuất
+## Phong cách đã chốt
 
-Đồ họa tài chính nhiều lớp, nền giấy kem, nét than/đỏ trầm, Times New Roman. Dùng căn nhà, tài liệu, tiền và các phần có thể di chuyển độc lập; không bắt buộc đưa Alex vẽ tay vào. Chữ/số tách khỏi ảnh. Nhân vật và phong cách cụ thể duyệt bằng cảnh mẫu trước khi tạo thêm tài nguyên.
+Đồ họa tài chính nhiều lớp, nền giấy kem, nét than/đỏ trầm, Times New Roman. Dùng căn nhà, tài liệu, tiền và các phần có thể di chuyển độc lập; không bắt buộc đưa Alex vẽ tay vào. Chữ/số tách khỏi ảnh. Người dùng đã chốt phong cách qua ba cảnh mẫu ngày2026-10-23. Minh họa mới Jamie trong images/ và library/props/jamie-mortgage/ tiếp tục bảng màu này.
 
 | Phần | Câu chuyện hình | Chuyển động phục vụ giải thích |
 | --- | --- | --- |
@@ -17,7 +17,7 @@
 | 07 | Ngân sách quanh căn nhà | Checklist housing/utility/food/transport/debt/saving; chỉ minh họa thay đổi định tính khi không có giả định số, không tạo income giả |
 | 08 | Ngôi nhà và khoảng thở | Các mục repair/saving/life còn chỗ quanh nhà; kết thúc bằng THE ROOM YOU HAVE LEFT |
 
-## Ba cảnh mẫu đã tạo — chờ người dùng duyệt phong cách
+## Ba cảnh mẫu đã tạo — người dùng đã chốt phong cách
 
 1. Mở đầu: căn nhà và calculator, thử tỷ lệ hình, Times New Roman và nhịp mở khung.
 2. Monthly allocation: thử stacked bar/counter, bills vs saved money, căn giữa icon/label.

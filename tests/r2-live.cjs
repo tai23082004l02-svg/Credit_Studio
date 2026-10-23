@@ -2,6 +2,9 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const base=process.env.CREDIT_STUDIO_URL||'http://127.0.0.1:8000',manifest=JSON.parse(fs.readFileSync('storage/manifest.json'));
 const scratch=path.resolve('work/r2-migration');fs.mkdirSync(scratch,{recursive:true});
+// Newly generated props are still on GitHub until an R2 upload is verified.
+// Registered archived media must never silently fall back to the origin.
+const newLocalProps=new Set(['keys','bills','repair','compare'].map(p=>'library/props/jamie-mortgage/'+p+'.png'));
 (async()=>{
  assert.equal(manifest.enabled,true);
  const browser=await chromium.launch({proxy:process.env.HTTPS_PROXY?{server:process.env.HTTPS_PROXY,bypass:'127.0.0.1,localhost'}:undefined});
@@ -41,7 +44,7 @@ const scratch=path.resolve('work/r2-migration');fs.mkdirSync(scratch,{recursive:
    assert.ok(images.every(i=>(i.src.startsWith(manifest.publicBaseURL)||localURLs.has(i.src))&&i.width>0));console.log('Gallery',folder,images.length);
   }
   assert.deepEqual(failures,[]);assert.deepEqual(errors,[]);assert.ok(media.size>50);
-  assert.ok([...localMedia].every(p=>manifest.assets[p]?.local),'only explicitly retained assets may load from GitHub');
+  assert.ok([...localMedia].every(p=>manifest.assets[p]?manifest.assets[p].local:newLocalProps.has(p)),'only explicitly retained or listed new, unarchived props may load from GitHub');
   fs.writeFileSync(path.join(scratch,'browser.json'),JSON.stringify({passed:true,mediaRequests:media.size,propCount:count,retainedMedia:[...localMedia]},null,2));
   console.log('PASS: real R2 props/canvas/download, four editors/audio/MP4s and galleries.');
  }finally{await browser.close();}

@@ -1,0 +1,23 @@
+{
+  "generatedSourcePreserved": true,
+  "extractedGroups": 4,
+  "paddingPixels": 32,
+  "featherPixels": 8,
+  "visibleAlphaThreshold": 4,
+  "upscaled": false,
+  "originalCatalogEntriesUnchanged": 89,
+  "catalogTotal": 93,
+  "playwrightPropLibrary": "passed: all93 catalog images, search/filter, exact PNG download, adding to selected scene, reload, isolation, mobile and indexer preservation",
+  "approvedStyle": "User approved existing three motion-graphic samples; no further style gate",
+  "samplesProjectUnchanged": true,
+  "sourceAudioUnchanged": true,
+  "r2ManifestUnchanged": true,
+  "realR2PublicIntegration": true,
+  "r2RemoteMediaRequests": 176,
+  "newLocalProps": [
+    "library/props/jamie-mortgage/bills.png",
+    "library/props/jamie-mortgage/compare.png",
+    "library/props/jamie-mortgage/keys.png",
+    "library/props/jamie-mortgage/repair.png"
+  ]
+}

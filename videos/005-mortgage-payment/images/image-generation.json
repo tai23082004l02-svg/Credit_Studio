@@ -1,0 +1,54 @@
+{
+  "generator": "OpenAI image generation tool",
+  "reference": "Approved mortgage sample: flat vector house, ivory/burgundy/sage, charcoal outlines",
+  "transparentBackground": true,
+  "source": "videos/005-mortgage-payment/images/sources/jamie-homeowner-v01.png",
+  "sourceSHA256": "cc7aec9688de4e350e8957e530e22a122683f202ac488ac43959e67af276c814",
+  "sourceBytes": 774856,
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "promptSummary": "One transparent equal 2x2 sheet, consistent adult fictional homebuyer Jamie in cream shirt and burgundy trousers; standing with keys, seated at complete desk with blank bills, kneeling beside whole washing machine and wrench, standing comparing two blank documents; charcoal vector outlines; no lettering; whole heads/hands/feet and furniture/appliance corners, empty gutters. Reference only the approved illustration palette/style, no typography.",
+  "originalPreserved": true,
+  "extraction": "Native-resolution Canvas quadrant extraction, visible alpha threshold4, 8px original feather and32px new transparent padding. Original sheet retained unchanged. No upscale.",
+  "cropMap": "images/jamie-crop-map.json",
+  "assets": [
+    {
+      "id": "jamie5-keys",
+      "src": "library/props/jamie-mortgage/keys.png",
+      "width": 334,
+      "height": 641,
+      "sha256": "8c10ea5ca77e9547065347b283a6fbebb8232d795bd570a3c8e48e1a70688beb"
+    },
+    {
+      "id": "jamie5-bills",
+      "src": "library/props/jamie-mortgage/bills.png",
+      "width": 568,
+      "height": 548,
+      "sha256": "9314cf373e826e561013f6359a9e9a3df22fd5afab8088164a6db3d1953e2f36"
+    },
+    {
+      "id": "jamie5-repair",
+      "src": "library/props/jamie-mortgage/repair.png",
+      "width": 588,
+      "height": 444,
+      "sha256": "9ee8748cbe9f53c380a061f12c1c5c67c2823d36d2441ecc42242593d3246a0e"
+    },
+    {
+      "id": "jamie5-compare",
+      "src": "library/props/jamie-mortgage/compare.png",
+      "width": 402,
+      "height": 625,
+      "sha256": "e2f66fde0cd5f2c62d9fee6d4a6a28b57533f522c758bff3faaa2b481a49af08"
+    }
+  ],
+  "usage": {
+    "keys": "Opening/home purchase and conclusion",
+    "bills": "Monthly allocation/escrow and budget checks",
+    "repair": "Unexpected repair and reserve timing",
+    "compare": "Loan Estimate/Closing Disclosure and decision"
+  },
+  "storage": "Five new PNGs remain on GitHub pending verified R2 upload; no archived media re-added; manifest unchanged.",
+  "date": "2026-10-23"
+}

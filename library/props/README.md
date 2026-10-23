@@ -2,7 +2,7 @@
 
 [Mở kho trong Credit Studio](https://tai23082004l02-svg.github.io/Credit_Studio/?view=props).
 
-Kho dành cho nhân vật, nhà, xe, tiền, hóa đơn, đồ ăn và các vật thể dùng lại ở nhiều video. Hiện có **89 mục: 75 đạo cụ và 14 tư thế Alex** trong nhóm **Nhân vật**. Video 004 thêm 16 đạo cụ photographic collage trong nhóm **Nhà ở · Collage**, ID `solo4-*`; 73 mục vẽ tay trước đó giữ nguyên. Chúng được đăng ký bằng vùng cắt trong `catalog.json`, trỏ về sheet gốc hoặc sheet sản xuất đã căn ô; không sao chép hoặc di chuyển ảnh đang dùng trong video. Các mẫu collage có PNG rời, sheet trong suốt và bản hướng dẫn tại `videos/004-living-alone/images/`; không dùng tọa độ nguồn để cắt atlas đóng gói.
+Kho dành cho nhân vật, nhà, xe, tiền, hóa đơn, đồ ăn và các vật thể dùng lại ở nhiều video. Hiện có **93 mục: 75 đạo cụ, 14 tư thế Alex** trong nhóm **Nhân vật** và **4 nhóm Jamie** trong **Nhân vật · Jamie**. Video 004 thêm 16 đạo cụ photographic collage trong nhóm **Nhà ở · Collage**, ID `solo4-*`; 73 mục vẽ tay trước đó giữ nguyên. Chúng được đăng ký bằng vùng cắt trong `catalog.json`, trỏ về sheet gốc hoặc sheet sản xuất đã căn ô; không sao chép hoặc di chuyển ảnh đang dùng trong video. Các mẫu collage có PNG rời, sheet trong suốt và bản hướng dẫn tại `videos/004-living-alone/images/`; không dùng tọa độ nguồn để cắt atlas đóng gói.
 
 ## Đưa đạo cụ mới vào kho
 
@@ -22,3 +22,7 @@ Kho đã xuất bản trên GitHub có thể xem ở mọi máy. Việc thêm đ
 `catalog.json` có `version: 1` và danh sách `items`. Mỗi mục gồm `id` ổn định, `name`, `category`, `tags`, `src`; `crop` tùy chọn là `[x,y,width,height]` theo pixel nguồn. Ảnh được phép lấy từ `videos/<slug>/...` hoặc `library/props/...`. Giữ ID, tên tệp và đường dẫn đã sử dụng. Đạo cụ mới nên là một tệp riêng; khi dùng sprite sheet, kiểm tra vùng cắt không dính vật thể bên cạnh hoặc mất nét của chính vật thể.
 
 Mỗi lần dựng, kiểm tra bố cục và toàn bộ đường viền của nhân vật/đạo cụ, kể cả các lớp nền/chữ có thể che lên chúng. Các góp ý của người dùng về căn giữa và không che đầu nhân vật được lưu trong `AGENTS.md` và bản bàn giao.
+
+## Jamie — video mua nhà005
+
+Bốn mục jamie5-keys/bills/repair/compare, nhóm **Nhân vật · Jamie**, ở jamie-mortgage/. Đã kiểm tra vùng cắt giữ đủ đầu/tay/chân, bàn/ghế và máy giặt; giữ8px feather nguồn +32px lề trong suốt, không upscale. Nguồn AI nguyên vẹn và crop map ở videos/005-mortgage-payment/images/. Các89 mục trước giữ nguyên ID/dữ liệu.

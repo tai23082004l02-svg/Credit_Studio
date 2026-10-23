@@ -1554,6 +1554,71 @@
         512,
         448
       ]
+    },
+    {
+      "id": "jamie5-bills",
+      "name": "Jamie — Xem hóa đơn",
+      "category": "Nhân vật · Jamie",
+      "tags": [
+        "Jamie",
+        "mortgage",
+        "homeowner",
+        "video005",
+        "bills",
+        "budget",
+        "paperwork",
+        "hoa don"
+      ],
+      "src": "library/props/jamie-mortgage/bills.png"
+    },
+    {
+      "id": "jamie5-compare",
+      "name": "Jamie — So sánh giấy tờ",
+      "category": "Nhân vật · Jamie",
+      "tags": [
+        "Jamie",
+        "mortgage",
+        "homeowner",
+        "video005",
+        "compare",
+        "documents",
+        "loan estimate",
+        "so sanh"
+      ],
+      "src": "library/props/jamie-mortgage/compare.png"
+    },
+    {
+      "id": "jamie5-keys",
+      "name": "Jamie — Nhận chìa khóa",
+      "category": "Nhân vật · Jamie",
+      "tags": [
+        "Jamie",
+        "mortgage",
+        "homeowner",
+        "video005",
+        "keys",
+        "house keys",
+        "homebuyer",
+        "nhan chia khoa"
+      ],
+      "src": "library/props/jamie-mortgage/keys.png"
+    },
+    {
+      "id": "jamie5-repair",
+      "name": "Jamie — Kiểm tra máy giặt",
+      "category": "Nhân vật · Jamie",
+      "tags": [
+        "Jamie",
+        "mortgage",
+        "homeowner",
+        "video005",
+        "repair",
+        "washing machine",
+        "maintenance",
+        "sua chua",
+        "may giat"
+      ],
+      "src": "library/props/jamie-mortgage/repair.png"
     }
   ]
 }

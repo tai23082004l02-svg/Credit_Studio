@@ -4,6 +4,20 @@ Cập nhật **2026-10-23**, múi giờ Asia/Saigon. Đây là trạng thái hi�
 
 
 
+
+## Video 005 — phong cách đã chốt, có minh họa Jamie (2026-10-23)
+
+Người dùng đã chốt phong cách ba cảnh mẫu: **đồ họa nhiều lớp, giấy kem/đỏ trầm/sage, Times New Roman**. Không hỏi duyệt lại phong cách này trước khi triển khai bản đầy đủ. Căn nhà trong mẫu là SVG do trợ lý vẽ; calculator, chữ và số/bar là lớp native Studio, chưa phải hình AI. Theo trao đổi về hình ảnh, đã bổ sung một sheet AI nền trong suốt gồm bốn nhóm minh họa Jamie: nhận chìa khóa, ngồi xem hóa đơn, kiểm tra máy giặt hỏng, so sánh hai giấy tờ. Đây là minh họa cho các cảnh cần người/đồ vật, chữ và số tiếp tục dựng riêng; không tạo bộ16 frame tĩnh.
+
+Nguồn giữ nguyên ở `videos/005-mortgage-payment/images/sources/jamie-homeowner-v01.png` (**1254×1254 RGBA**, 774856 byte); hash và mô tả prompt ở `images/image-generation.json`. Bốn PNG rời ở `library/props/jamie-mortgage/`, không upscale. Sheet có alpha1–3 speckle mờ trong gutter: xác định hình bằng alpha≥4, giữ thêm8px feather gốc và32px padding trong suốt, kiểm tra toàn bộ pixel nhìn thấy còn đủ; không lẹm đầu/tay/chân, góc bàn hoặc cạnh máy giặt. `images/jamie-crop-map.json` phân biệt cell, sourceArtCrop và sourceCrop. Bản source AI không bị sửa.
+
+Đã chạy `tools/index-props.py`, bổ sung tên/nhóm/tags và bốn ID **jamie5-keys / jamie5-bills / jamie5-repair / jamie5-compare**, nhóm **Nhân vật · Jamie**. Kho hiện **93 mục =75 đạo cụ +14 tư thế Alex +4 nhóm Jamie**; toàn bộ89 entry cũ giữ nguyên. Năm PNG mới tổng1682183 byte ở GitHub trong lúc R2 write từ chat còn401; không đưa media đã archive trở lại Git và không thay manifest/pin cũ. Các hình mới chưa được đưa vào bản review đầy đủ vì chưa tạo full timeline/MP4; samples/project.json đã duyệt giữ nguyên để bảo toàn các bản sửa Studio.
+
+Kiểm tra đã qua: toàn bộ93 mục trong Playwright prop-library; tìm/lọc Jamie/hóa đơn, PNG đúng kích thước, thêm vào đúng cảnh, giữ cảnh khác/audio, reload, mobile và chạy lại indexer giữ ID. Script/narration, WAV gốc, samples/project.json và manifest R2 không đổi. Real R2 public integration cũng qua đủ bốn editor/audio/MP4 và bốn gallery; bốn PNG Jamie mới tải từ origin theo allowlist, các media archive vẫn chỉ dùng R2/sáu pin cũ. Đây là kiểm tra đọc công khai, không xác nhận write/auth401 đã được sửa. Chi tiết tại images/validation.json.
+
+Bước tiếp theo: triển khai bản đầy đủ566,45 giây theo timing/audio đã có, dùng bốn minh họa này và lớp đồ họa native, không dừng xin duyệt phong cách lần nữa. Nếu cần dùng sửa riêng trong Studio, nhận backup trước; không reset draft finance-005. Vẫn cần upload/hash-verify WAV/MP3 qua R2 khi xác thực thực tế hoạt động; không coi các PNG mới hoặc bản mẫu là đã hoàn thành full review.
+
+
 ## Video 005 — đã nhận WAV và có ba cảnh mẫu (2026-10-23)
 
 Kịch bản **Your Mortgage Payment Is Only the Beginning** v01 đã được duyệt; giữ nguyên script/narration 1241 từ. Nhận WAV qua chat: **You find a house you can f.wav**, **27.189.644 byte / 566,45 giây (9:26,45), PCM s16le / 24 kHz / mono**, SHA-256 `9586941c972c26238f808a0c6c3ad0a5416f53f0e2ba07410a45e6c6f27c619c`. Bản local giữ nguyên byte, đường dẫn exact đã gitignore; metadata ở `videos/005-mortgage-payment/audio/source.json`.
@@ -14,9 +28,9 @@ Kịch bản **Your Mortgage Payment Is Only the Beginning** v01 đã được d
 
 Theo quy trình duyệt phong cách trước, đã tạo **3 cảnh mẫu / 86,8 giây** có audio trích thật (không liên tục từ đầu WAV), **16 lớp animation trong 2 cảnh**, Times New Roman: calculator, ngân sách 1517→2267 đồng bộ bar/counter, cash75000→4000 và down payment60000 chuyển sang equity. `samples/project.json` là **một bản dựng chỉnh được**, chứa PNG căn nhà và audio montage dưới dạng data URL; `samples/house.svg` giữ nguồn vector, `samples/excerpts.json` ghi vị trí trong WAV. JSON khoảng 2 MB là bản dựng chỉnh sửa, không phải đưa lại media đã archive. Không tạo bộ16 ảnh, bảng96 giây hoặc thiết kế ảnh trùng nội dung.
 
-Đăng ký **finance-005** trỏ bản mẫu thật; mô tả/trạng thái ghi rõ **chờ duyệt phong cách, chưa phải video đầy đủ**. Chưa khai báo WAV/MP4 public không tồn tại. Bốn dự án cũ, kho89 mục, mọi source/export cũ và R2 manifest giữ nguyên. Chưa có full review/MP4 566,45 giây; chưa chốt thời điểm/cảnh toàn bộ hoặc bổ sung nhạc.
+Đăng ký **finance-005** trỏ bản mẫu thật; mô tả/trạng thái ghi rõ **phong cách đã duyệt, chưa phải video đầy đủ**. Chưa khai báo WAV/MP4 public không tồn tại. Bốn dự án cũ, kho89 mục, mọi source/export cũ và R2 manifest giữ nguyên. Chưa có full review/MP4 566,45 giây; chưa chốt thời điểm/cảnh toàn bộ hoặc bổ sung nhạc.
 
-Builder `tools/build-mortgage-samples.cjs` nhận MP3 đã chuẩn hóa, script-timing và thư mục scratch; từ chối ghi đè project đã có. Mẫu cần người dùng duyệt phong cách trước khi tạo thêm tài nguyên/dựng toàn bộ; đây là bước duyệt đã thống nhất, không yêu cầu duyệt lại kịch bản. Khi chuyển finance-005 sang bản đầy đủ, bảo toàn mọi draft người dùng bằng backup/archive, không reset mẫu đã chỉnh.
+Builder `tools/build-mortgage-samples.cjs` nhận MP3 đã chuẩn hóa, script-timing và thư mục scratch; từ chối ghi đè project đã có. Người dùng đã duyệt phong cách; có thể tạo thêm tài nguyên/dựng toàn bộ mà không hỏi duyệt lại phong cách hoặc kịch bản. Khi chuyển finance-005 sang bản đầy đủ, bảo toàn mọi draft người dùng bằng backup/archive, không reset mẫu đã chỉnh.
 
 Kiểm tra: validate engine, 869 mốc hình, font Chrome thực TimesNewRomanPS-BoldMT, phát audio/reload/mobile. Báo cáo `samples/validation.json`; đã xuất và decode MP4 thử cục bộ trong work (không xuất/publish full video). Sau khi sửa bố cục để tiền không che mái nhà, browser được kiểm tra lại. Các bước kiểm tra không truy cập IndexedDB trình duyệt của người dùng.
 
@@ -61,7 +75,7 @@ Tên video 004: **Why Living Alone Has Become So Expensive**. Hiện là dự á
 
 Video 001: intro 40,5 giây là bản thử cũ, không phải bản đầy đủ. Lỗi nền tiêu đề che tóc ở “PLAN AROUND WHAT ARRIVES” còn trong MP4 v01 được bảo tồn, đã sửa từ review v02. Giữ review v01/v02/v03 và các bản xuất cũ. Video 002–004 giữ các bảng hình 96 giây trước khi có audio ở storyboard/project.json; không mở nhầm chúng làm bản dựng mới nhất.
 
-Kho chung: **89 mục = 75 đạo cụ + 14 tư thế Alex**. Có thay đạo cụ trong trình dựng, giữ vị trí, khung kích thước, thời gian và hiệu ứng; timeline, audio, undo/redo, xuất WebM.
+Kho chung: **93 mục = 75 đạo cụ + 14 tư thế Alex + 4 nhóm Jamie**. Có thay đạo cụ trong trình dựng, giữ vị trí, khung kích thước, thời gian và hiệu ứng; timeline, audio, undo/redo, xuất WebM.
 
 ## Phụ đề tiếng Việt
 
