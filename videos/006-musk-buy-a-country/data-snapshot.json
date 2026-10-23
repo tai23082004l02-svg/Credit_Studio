@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-23",
+  "currency": "USD",
+  "wealth": {
+    "value": 936000000000,
+    "asOf": "2026-10-01T00:00:00-04:00",
+    "kind": "estimated net worth, not liquid cash",
+    "source": "https://www.forbes.com.au/news/billionaires/top-10-richest-people-in-world/"
+  },
+  "portugal": {
+    "year": 2025,
+    "gdpCurrentUSDDisplayedRounded": 346640000000,
+    "population": 10804871,
+    "source": "https://data.worldbank.org/country/portugal"
+  },
+  "editorialModel": {
+    "hypotheticalNotMuskPlan": true,
+    "roundedPopulation": 10800000,
+    "oneOffPerResidentUSD": 10000,
+    "annualRoundCostUSD": 108000000000,
+    "shareOfWealthPercent": 11.538461538461538,
+    "completeAnnualRounds": 8,
+    "remainderAfterEightUSD": 72000000000,
+    "missingForNinthUSD": 36000000000,
+    "assumeWealthAlreadyCash": true,
+    "excluded": [
+      "taxes",
+      "investment returns",
+      "inflation",
+      "population changes",
+      "administration costs"
+    ]
+  },
+  "comparison": {
+    "numericalRatio": 2.700207708285253,
+    "notAnAssetValuationOfPortugal": true,
+    "stockVsAnnualFlow": true,
+    "noPPPOrInflationAdjustment": true
+  }
+}

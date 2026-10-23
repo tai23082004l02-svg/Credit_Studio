@@ -1,0 +1,19 @@
+{
+  "scriptVersion": "v01",
+  "wordCount": 1115,
+  "sections": 8,
+  "narrationSHA256": "82aeea120af05d098213fefe0f82d64954b875937d426e3e17b63446e530b363",
+  "scriptBodyMatchesCleanNarration": true,
+  "factsCrossChecked": "2026-10-23",
+  "mathChecked": true,
+  "datedWealthSnapshotNotLive": true,
+  "hypotheticalCashModelDisclosed": true,
+  "noAudioReceived": true,
+  "noTimelineOrMediaGenerated": true,
+  "visualDirection": {
+    "muskRole": "subject, never narrator",
+    "voice": "external narration",
+    "backgrounds": "contextual scenic backgrounds, no persistent white/cream",
+    "font": "Times New Roman"
+  }
+}

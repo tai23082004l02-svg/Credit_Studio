@@ -1,6 +1,16 @@
 # Bàn giao Credit Studio cho phiên chat tiếp theo
 
 
+## Video006 — đã gửi lời đọc Musk / Portugal v01 (2026-10-23)
+
+Chủ đề người dùng đã chọn thay Credit Score: **Could Elon Musk Buy a Country?**, đối chiếu Musk/Bồ Đào Nha, khả năng và giới hạn của tài sản. Đã chuẩn bị `videos/006-musk-buy-a-country/`: **1115 từ /8 phần**, `narration.txt` sạch cho thu/TTS, `script.md`, `sources.md`, `data-snapshot.json`, storyboard ngắn nội bộ và script-validation.json. Chưa nhận audio, chưa có ảnh/timeline/MP4, chưa đăng ký Studio placeholder; không ghi là thành phẩm hoặc script đã được duyệt riêng.
+
+**Yêu cầu hình mới:** Musk là nhân vật được nói đến, **không phải narrator**; giọng kể ngoài, không cho Musk nói/nhép miệng hoặc gán quote tưởng tượng. Có thể tạo minh họa Musk làm đối tượng trong cảnh. Dùng **bối cảnh theo nội dung, không nền trắng/giấy kem xuyên suốt** (Lisbon, công nghiệp, tài chính, công trường/bệnh viện/bản đồ); chữ/số native Times New Roman dễ đọc. Sau audio tự làm toàn bộ hình/dựng, không xin duyệt hình trung gian.
+
+Mốc số liệu đã kiểm tra2026-10-23: Forbes snapshot2026-10-01 **936B USD estimated net worth**, World Bank Portugal2025 GDP~**346.64B USD**, population**10,804,871**. Không gọi GDP là tổng tài sản/ngân sách/giá mua quốc gia. Ví dụ chọn population làm tròn10.8M×$10k/resident=$108B/round≈12% của936B; hypothetical starting936B đã cash, bỏ taxes/returns/inflation/population/admin →8round đầy đủ, còn72B, không đủround9. Không gán model là kế hoạch thật của Musk/chính phủ hoặc dự báo liquidation. Không đổi mốc/số sau khi đã thu mà không tạo version mới.
+
+Đã kiểm tra8phần/script body khớp narration,1115 từ, TTS không heading/link, các phép tính và liên kết local; không render/browser test cho bước văn bản. Giữ nguyên5 dự án, narration/audio/media/JSON cũ, R2manifest và catalog. Tiếp theo: người dùng tạo/gửi audio từ narration.txt; giữ/hash nguồn, căn cảnh theo giọng thật rồi sản xuất theo workflow đã chốt.
+
 ## Chốt quy trình tự sản xuất sau audio — 2026-10-23
 
 Người dùng yêu cầu cập nhật GitHub để áp dụng phương pháp mới: cùng chọn chủ đề, trợ lý tự chuẩn bị/kiểm tra kịch bản và gửi lời đọc tiếng Anh Mỹ; người dùng tạo rồi gửi audio gốc; trợ lý tự lo toàn bộ phong cách, minh họa/đạo cụ, bố cục, chuyển động, dựng, kiểm tra và bàn giao MP4 cùng bản Studio chỉnh được. Không cần dừng xin duyệt storyboard, cảnh mẫu, phong cách hoặc từng hình. Thử cảnh nội bộ là tùy nhu cầu, không còn bắt buộc2–3 mẫu trước khi dựng. Người dùng có thể góp ý khi nhận thành phẩm.
