@@ -2,7 +2,7 @@
 
 Trạng thái: **chưa nhận audio**. Không dùng audio của video khác.
 
-Sau khi xem/chốt [script.md](../script.md), dùng [narration.txt](../narration.txt) để thu/TTS tiếng Anh Mỹ. Tệp này chỉ chứa lời đọc, không có heading hoặc ghi chú. Khoảng 1241 từ; thời lượng thật phụ thuộc giọng/tốc độ, không ép thành mốc dự kiến bằng cách cắt hoặc đổi tốc độ nguồn.
+**Kịch bản v01 đã được người dùng duyệt ngày 2026-10-23.** Dùng nguyên nội dung [narration.txt](../narration.txt) để thu/TTS tiếng Anh Mỹ; không đọc tiêu đề hoặc ghi chú trong [script.md](../script.md). Tệp này chỉ chứa lời đọc, không có heading hoặc ghi chú. Khoảng 1241 từ; thời lượng thật phụ thuộc giọng/tốc độ, không ép thành mốc dự kiến bằng cách cắt hoặc đổi tốc độ nguồn.
 
 Gửi WAV/MP3 gốc qua chat hoặc bàn giao theo phương thức phù hợp dung lượng. Giữ tên nguồn; khi nhận sẽ đo thời lượng, format, SHA-256, căn lời và dựng theo audio thật. Audio đã thêm chỉ trong Studio cần .credit.json có tệp đính kèm hoặc gửi riêng WAV/MP3.
 

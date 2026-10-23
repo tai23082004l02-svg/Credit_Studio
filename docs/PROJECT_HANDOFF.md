@@ -2,15 +2,15 @@
 
 
 
-## Video 005 — đề xuất và lời thoại Mortgage Payment v01 (2026-10-23)
+## Video 005 — kịch bản Mortgage Payment v01 đã duyệt (2026-10-23)
 
-Theo yêu cầu đề xuất chủ đề và triển khai, đã chuẩn bị **Your Mortgage Payment Is Only the Beginning** ở `videos/005-mortgage-payment/`: script tiếng Anh Mỹ **1241 từ / 8 phần**, narration.txt thuần lời đọc, sources.md với năm nguồn CFPB/phép tính, storyboard ngắn và README/hướng dẫn audio. Thời lượng dự kiến 8–10 phút tùy giọng; **chưa được người dùng duyệt riêng kịch bản, chưa có audio, hình sản xuất, mẫu đã render, timeline JSON hoặc MP4**.
+Theo yêu cầu đề xuất chủ đề và triển khai, đã chuẩn bị **Your Mortgage Payment Is Only the Beginning** ở `videos/005-mortgage-payment/`: script tiếng Anh Mỹ **1241 từ / 8 phần**, narration.txt thuần lời đọc, sources.md với năm nguồn CFPB/phép tính, storyboard ngắn và README/hướng dẫn audio. Thời lượng dự kiến 8–10 phút tùy giọng; **người dùng đã duyệt kịch bản v01 ngày 2026-10-23**. Nội dung script/narration giữ nguyên 1241 từ; **chưa có audio, hình sản xuất, mẫu đã render, timeline JSON hoặc MP4**. Duyệt kịch bản không đồng nghĩa đã duyệt phong cách hình hoặc bản xuất cuối.
 
 Mạch: loan payment → bills + repair savings → escrow không cộng trùng → tiền còn sau nhận nhà → timing sửa chữa → equity khác cash → kiểm tra ngân sách → kết. Ví dụ hư cấu Jamie: nhà300000, down60000, loan240000, nominal fixed6.5%/30 năm → PI1516.963…≈1517; tax300 + insurance125 + HOA75 → bills2017; repair savings250 → allocation2267 trước utilities. First-month interest1300/principal≈217. Cash75000−60000−9000 closing amounts−2000 moving=4000. Không gọi giả định là giá/báo giá hiện tại; savings không phải đã tiêu, không double-count escrow/repair, down payment không biến thành phí mất đi.
 
-Áp dụng quy trình mới: không làm 16 ảnh trước audio hoặc bảng duyệt hình96 giây; kế hoạch chỉ đề xuất ba cảnh mẫu, chưa tạo. Đề xuất đồ họa nhiều lớp nền kem/đỏ trầm/Times New Roman; phong cách chưa được duyệt. Chờ người dùng xem lời thoại, sau đó nhận audio gốc và dựng theo mốc thật. Chưa đăng ký mục rỗng finance-005 vào projects.json; bốn dự án cũ, kho89 mục, IndexedDB và R2/manifest không đổi.
+Áp dụng quy trình mới: không làm 16 ảnh trước audio hoặc bảng duyệt hình96 giây; kế hoạch chỉ đề xuất ba cảnh mẫu, chưa tạo. Đề xuất đồ họa nhiều lớp nền kem/đỏ trầm/Times New Roman; phong cách chưa được duyệt. Bước tiếp theo: nhận audio gốc từ narration.txt đã duyệt và dựng theo mốc thật. Trong lúc chờ có thể chuẩn bị 2–3 cảnh mẫu theo storyboard; chưa tạo hoặc render mẫu trong lần ghi nhận duyệt này. Chưa đăng ký mục rỗng finance-005 vào projects.json; bốn dự án cũ, kho89 mục, IndexedDB và R2/manifest không đổi.
 
-Kiểm tra bước tài liệu: đối chiếu 8 phần với narration, tính lại khoản vay/ngân sách/cash/quỹ, kiểm tra link nội bộ và phạm vi thay đổi. Không chạy render hoặc test trình duyệt vì chưa thay code/media. Giữ mọi bản cũ; nếu cần dùng sửa riêng Studio phải nhận backup trước.
+Kiểm tra bước tài liệu trước: đối chiếu 8 phần với narration, tính lại khoản vay/ngân sách/cash/quỹ, kiểm tra link nội bộ và phạm vi thay đổi. Lần ghi nhận duyệt chỉ cập nhật trạng thái; kiểm tra lời đọc và narration.txt giữ nguyên. Không chạy render hoặc test trình duyệt vì chưa thay code/media. Giữ mọi bản cũ; nếu cần dùng sửa riêng Studio phải nhận backup trước.
 
 
 ## Quy trình sản xuất đã chốt — 2026-10-23

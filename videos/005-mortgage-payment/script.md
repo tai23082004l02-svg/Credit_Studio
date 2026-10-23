@@ -2,7 +2,7 @@
 
 Bản lời thoại v01 · 2026-10-23 · Tiếng Anh Mỹ · 1241 từ.
 Dự kiến khoảng 8–10 phút tùy giọng đọc; chưa có audio để xác định thời lượng.
-Trạng thái: đề xuất chủ đề và lời thoại đầu tiên, chờ người dùng xem; chưa phải kịch bản đã duyệt.
+Trạng thái: **người dùng đã duyệt kịch bản v01 ngày 2026-10-23**. Nội dung lời đọc giữ nguyên; chờ audio gốc để chia cảnh và dựng.
 
 Ý chính: phân biệt khoản vay với ngân sách sở hữu nhà; đánh giá tiền còn lại sau khi mua, quỹ sửa chữa và equity.
 Đây là giáo dục tài chính bằng ví dụ hư cấu, không phải báo giá hiện tại hoặc đánh giá khả năng mua nhà cá nhân.

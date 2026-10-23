@@ -4,7 +4,7 @@
 
 ## Trạng thái thực tế
 
-Đã chuẩn bị đề xuất và lời thoại v01 ngày 2026-10-23: **1241 từ / 8 phần**, hướng tới người Mỹ, dự kiến 8–10 phút tùy giọng đọc. Người dùng yêu cầu đề xuất một chủ đề và triển khai; chưa có phản hồi duyệt riêng chủ đề/kịch bản. **Chưa có audio, ảnh sản xuất, JSON timeline hoặc MP4.**
+Đã chuẩn bị đề xuất và lời thoại v01 ngày 2026-10-23: **1241 từ / 8 phần**, hướng tới người Mỹ, dự kiến 8–10 phút tùy giọng đọc. **Người dùng đã duyệt kịch bản v01 ngày 2026-10-23.** Giữ nguyên nội dung lời đọc trong script.md và narration.txt; bước tiếp theo là nhận giọng đọc gốc. **Chưa có audio, ảnh sản xuất, JSON timeline hoặc MP4.**
 
 - [Kịch bản có chia phần](script.md).
 - [Lời đọc thuần để TTS](narration.txt).
@@ -20,7 +20,7 @@ Dùng đồ họa động nhiều lớp, Times New Roman. Đề xuất tiếp t�
 
 Nhịp kể: khoản trả vay → ngân sách sở hữu → escrow không cộng trùng → tiền sau nhận nhà → sửa chữa đến sớm → equity khác tiền mặt → thử ngân sách → kết.
 
-Sau khi người dùng xem/chốt lời thoại, nhận giọng đọc gốc. Trong lúc chờ có thể dựng cảnh mẫu; chia cảnh/thời điểm chính thức theo audio thật. Tạo hình và đạo cụ đúng nhu cầu, dùng lại kho chung. Không tạo bảng hình im lặng 96 giây. Duyệt sửa nhỏ trực tiếp trong Studio hoặc bằng đoạn ngắn; chỉ xuất MP4 đầy đủ ở mốc duyệt.
+Lời thoại đã được duyệt; nhận giọng đọc gốc tạo từ narration.txt. Trong lúc chờ có thể dựng cảnh mẫu; chia cảnh/thời điểm chính thức theo audio thật. Tạo hình và đạo cụ đúng nhu cầu, dùng lại kho chung. Không tạo bảng hình im lặng 96 giây. Duyệt sửa nhỏ trực tiếp trong Studio hoặc bằng đoạn ngắn; chỉ xuất MP4 đầy đủ ở mốc duyệt.
 
 ## Các điểm phải bảo toàn
 
